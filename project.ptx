@@ -4,7 +4,6 @@
     <targets>
 <!-- Web target -->
         <target name="web-summer-2025"
-                deploy-dir="summer-2025"
                 format="html" 
                 xsl="custom-web.xsl" 
                 publication="publication-web.ptx" />
