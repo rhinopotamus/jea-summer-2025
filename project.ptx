@@ -3,6 +3,10 @@
 <project ptx-version="2">
     <targets>
 <!-- Web target -->
+        <target name="web"
+                format="html" 
+                xsl="custom-web.xsl" 
+                publication="publication-web.ptx" />
         <target name="web-summer-2025"
                 format="html" 
                 xsl="custom-web.xsl" 

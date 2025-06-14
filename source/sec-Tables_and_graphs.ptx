@@ -18,7 +18,7 @@
 		</p>
 
 		<p>
-			The table showing the smoking rate for select years. The smoking rate is the average cigarettes per year per person (adults).
+			The table below shows the smoking rate for select years. The smoking rate is the average cigarettes per year per person (adults).
 		</p>
 		<aside>
 			<p>
@@ -27,32 +27,32 @@
 		</aside>
 
 
-		<tabular bottom="minor" top="minor">
+		<tabular bottom="minor" top="minor" halign="center">
 			<row left="minor" class="odd">
-				<cell right="minor" halign="center">Year</cell>
-				<cell right="minor" halign="center">1900</cell>
-				<cell right="minor" halign="center">1915</cell>
-				<cell right="minor" halign="center">1930</cell>
-				<cell right="minor" halign="center">1940</cell>
-				<cell right="minor" halign="center">1950</cell>
-				<cell right="minor" halign="center">1965</cell>
-				<cell right="minor" halign="center">1975</cell>
-				<cell right="minor" halign="center">1990</cell>
-				<cell right="minor" halign="center">2000</cell>
-				<cell right="minor" halign="center">2006</cell>
+				<cell right="minor">Year</cell>
+				<cell right="minor">1900</cell>
+				<cell right="minor">1915</cell>
+				<cell right="minor">1930</cell>
+				<cell right="minor">1940</cell>
+				<cell right="minor">1950</cell>
+				<cell right="minor">1965</cell>
+				<cell right="minor">1975</cell>
+				<cell right="minor">1990</cell>
+				<cell right="minor">2000</cell>
+				<cell right="minor">2006</cell>
 			</row>
 			<row left="minor" class="odd">
-				<cell right="minor" halign="center">Smoking rate</cell>
-				<cell right="minor" halign="center">54</cell>
-				<cell right="minor" halign="center">285</cell>
-				<cell right="minor" halign="center">1,485</cell>
-				<cell right="minor" halign="center">1,976</cell>
-				<cell right="minor" halign="center">3,552</cell>
-				<cell right="minor" halign="center">4,258</cell>
-				<cell right="minor" halign="center">4,122</cell>
-				<cell right="minor" halign="center">2,834</cell>
-				<cell right="minor" halign="center">2,049</cell>
-				<cell right="minor" halign="center">1,619</cell>
+				<cell right="minor">Smoking rate</cell>
+				<cell right="minor">54</cell>
+				<cell right="minor">285</cell>
+				<cell right="minor">1,485</cell>
+				<cell right="minor">1,976</cell>
+				<cell right="minor">3,552</cell>
+				<cell right="minor">4,258</cell>
+				<cell right="minor">4,122</cell>
+				<cell right="minor">2,834</cell>
+				<cell right="minor">2,049</cell>
+				<cell right="minor">1,619</cell>
 			</row>
 		</tabular>
 
