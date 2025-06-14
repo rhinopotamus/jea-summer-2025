@@ -10,7 +10,8 @@ The section files do a bunch of `component=` versioning. There are four componen
 
 Here is how those components are used:
 - two versions of the `<title>` tag generate either the plain title (not-workbook) or the title decorated with "- Practice exercises" (workbook)
-- the text of the section is enclosed in an `<introduction component="not-workbook">`
+- the text of the section is enclosed in an `<introduction component="not-workbook">
+    - In this summer-2025 branch I am moving toward `<subsection component="not-workbook">`.
 - each of the "Do you know..." lists is in a separate document as an `<ol>` element
 - a `<conclusion component="workbook">` loads the "Do you know..." list in *after* the exercises in the workbook version
 - a `<conclusion component="not-workbook">` loads the "Do you know..." list in *before* the exercises in other versions
