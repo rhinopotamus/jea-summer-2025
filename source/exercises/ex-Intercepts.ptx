@@ -216,7 +216,7 @@
 					<cell right="minor" halign="center">Galen</cell>
 					<cell right="minor" halign="center">Fiona</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">Pace</cell>
 					<cell right="minor" halign="center">8.2</cell>
 					<cell right="minor" halign="center">8.6</cell>
@@ -234,7 +234,7 @@
 					<cell right="minor" halign="center">31</cell>
 					<cell right="minor" halign="center">44</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">extra time</cell>
 					<cell right="minor" halign="center">?</cell>
 					<cell right="minor" halign="center">?</cell>

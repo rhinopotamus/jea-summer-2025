@@ -395,7 +395,7 @@
 						<cell right="minor" halign="center">Thu</cell>
 						<cell right="minor" halign="center">Fri</cell>
 					</row>
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="left">Minutes</cell>
 						<cell right="minor" halign="center">35</cell>
 						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
@@ -411,7 +411,7 @@
 						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 					</row>
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="left">H:MM</cell>
 						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 						<cell right="minor" halign="center">1:11</cell>

@@ -33,14 +33,14 @@
 						Record your answer to part (a) in the table and graph the function.
 					</p>
 					<tabular bottom="minor" top="minor">
-						<row left="minor" class="odd">
+						<row left="minor">
 							<cell right="minor" halign="center"><m>B</m></cell>
 							<cell right="minor" halign="center">0</cell>
 							<cell right="minor" halign="center">1,000</cell>
 							<cell right="minor" halign="center">2,000</cell>
 							<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 						</row>
-						<row left="minor" class="odd">
+						<row left="minor">
 							<cell right="minor" halign="center"><m>W</m></cell>
 							<cell right="minor" halign="center">3,900</cell>
 							<cell right="minor" halign="center">8,100</cell>

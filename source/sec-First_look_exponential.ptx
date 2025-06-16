@@ -95,7 +95,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">year</cell>
 				<cell right="minor" halign="center">2007</cell>
 				<cell right="minor" halign="center">2008</cell>
@@ -103,7 +103,7 @@
 				<cell right="minor" halign="center">2017</cell>
 				<cell right="minor" halign="center">2027</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>Y</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">1</cell>

@@ -16,7 +16,7 @@
 
 
 		<tabular>
-			<row class="odd">
+			<row>
 				<cell halign="left">1.</cell>
 				<cell halign="left">China</cell>
 				<cell halign="left">population 1.343 billion</cell>
@@ -28,7 +28,7 @@
 				<cell halign="left">population 1.205 billion</cell>
 				<cell halign="left">growth rate 1.31%</cell>
 			</row>
-			<row class="odd">
+			<row>
 				<cell halign="left">3.</cell>
 				<cell halign="left">United States </cell>
 				<cell halign="left">population 0.313 billion </cell>
@@ -71,7 +71,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left"><m>Y</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">1</cell>
@@ -83,7 +83,7 @@
 				<cell right="minor" halign="center"></cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left"><m>P</m></cell>
 				<cell right="minor" halign="center">1.205</cell>
 				<cell right="minor" halign="center">1.221</cell>
@@ -119,7 +119,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left"><m>Y</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">1</cell>
@@ -131,7 +131,7 @@
 				<cell right="minor" halign="center">17</cell>
 				<cell right="minor" halign="center">16</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left"><m>P</m></cell>
 				<cell right="minor" halign="center">1.205</cell>
 				<cell right="minor" halign="center">1.221</cell>

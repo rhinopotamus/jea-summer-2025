@@ -116,7 +116,7 @@
                         <cell right="minor" halign="center">5 </cell>
                         <cell right="minor" halign="center">6 </cell>
                     </row>
-                    <row left="minor" class="odd">
+                    <row left="minor">
                         <cell right="minor" halign="center">area (exponential)</cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
@@ -136,7 +136,7 @@
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                     </row>
-                    <row left="minor" class="odd">
+                    <row left="minor">
                         <cell right="minor" halign="center">area (logistic)</cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>

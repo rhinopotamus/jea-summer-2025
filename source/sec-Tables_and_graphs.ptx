@@ -38,7 +38,7 @@
 
 
 		<tabular bottom="minor" top="minor" halign="center">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor">Year</cell>
 				<cell right="minor">1900</cell>
 				<cell right="minor">1915</cell>
@@ -51,7 +51,7 @@
 				<cell right="minor">2000</cell>
 				<cell right="minor">2006</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor">Smoking rate</cell>
 				<cell right="minor">54</cell>
 				<cell right="minor">285</cell>
@@ -101,7 +101,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>Y</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">15</cell>
@@ -114,7 +114,7 @@
 				<cell right="minor" halign="center">100</cell>
 				<cell right="minor" halign="center">106</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">54</cell>
 				<cell right="minor" halign="center">285</cell>

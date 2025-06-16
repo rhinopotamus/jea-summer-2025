@@ -173,7 +173,7 @@
 				<em>(Story also appears in <xref ref="earth-weight-prelude-scientific-notation"/>)</em>
 			</p>
 			<tabular>
-			<row class="odd">
+			<row>
 				<cell halign="left">Earth</cell>
 				<cell halign="left"><m>5.972 \times 10^{24}</m> kg</cell>
 			</row>
@@ -181,7 +181,7 @@
 				<cell halign="left">Jupiter</cell>
 				<cell halign="left"><m>1.899 \times 10^{27}</m> kg</cell>
 			</row>
-			<row class="odd">
+			<row>
 				<cell halign="left">Mars</cell>
 				<cell halign="left"><m>6.417 \times 10^{23}</m> kg</cell>
 			</row>
@@ -189,7 +189,7 @@
 				<cell halign="left">Mercury</cell>
 				<cell halign="left"><m>3.302 \times 10^{23}</m> kg</cell>
 			</row>
-			<row class="odd">
+			<row>
 				<cell halign="left">Neptune</cell>
 				<cell halign="left"><m>1.024 \times 10^{26}</m> kg</cell>
 			</row>
@@ -197,7 +197,7 @@
 				<cell halign="left">Saturn</cell>
 				<cell halign="left"><m>5.685 \times 10^{26}</m> kg</cell>
 			</row>
-			<row class="odd">
+			<row>
 				<cell halign="left">Uranus</cell>
 				<cell halign="left"><m>8.681 \times 10^{25}</m> kg</cell>
 			</row>

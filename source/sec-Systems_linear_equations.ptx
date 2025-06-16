@@ -50,7 +50,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>L</m></cell>
 				<cell right="minor" halign="center">2,000</cell>
 				<cell right="minor" halign="center">4,000</cell>
@@ -58,7 +58,7 @@
 				<cell right="minor" halign="center">8,000</cell>
 				<cell right="minor" halign="center">10,000</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><term>Machine 1:</term> <m>E</m></cell>
 				<cell right="minor" halign="center">5,700</cell>
 				<cell right="minor" halign="center">8,200</cell>
@@ -95,7 +95,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>L</m></cell>
 				<cell right="minor" halign="center">4,000</cell>
 				<cell right="minor" halign="center">6,000</cell>
@@ -104,7 +104,7 @@
 				<cell right="minor" halign="center">4,800</cell>
 				<cell right="minor" halign="center">4,900</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>E</m> (for Machine 1)</cell>
 				<cell right="minor" halign="center">8,200</cell>
 				<cell right="minor" halign="center">10,700</cell>
@@ -122,7 +122,7 @@
 				<cell right="minor" halign="center">9,240</cell>
 				<cell right="minor" halign="center">9,320</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">Less expensive option</cell>
 				<cell right="minor" halign="center">Machine 1</cell>
 				<cell right="minor" halign="center">Machine 2</cell>

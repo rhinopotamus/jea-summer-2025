@@ -348,7 +348,7 @@ function Table(caption, aligns, widths, headers, rows)
   if empty_header then
     head = ""
   else
-    add(tabsp..'<row left="minor" class="odd">')
+    add(tabsp..'<row left="minor">')
     for _,h in pairs(header_row) do
       add(h)
     end

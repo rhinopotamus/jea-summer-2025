@@ -11,7 +11,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>T</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">0.2</cell>
@@ -22,7 +22,7 @@
 				<cell right="minor" halign="center">1.2</cell>
 				<cell right="minor" halign="center">1.4</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>H</m></cell>
 				<cell right="minor" halign="center">3.00</cell>
 				<cell right="minor" halign="center">3.88</cell>
@@ -191,7 +191,7 @@
 
 <!-- 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>T</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">0.2</cell>
@@ -202,7 +202,7 @@
 				<cell right="minor" halign="center">1.2</cell>
 				<cell right="minor" halign="center">1.4</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>H</m></cell>
 				<cell right="minor" halign="center">3</cell>
 				<cell right="minor" halign="center">3.88</cell>

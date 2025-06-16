@@ -20,12 +20,12 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>N</m></cell>
 				<cell right="minor" halign="center">13</cell>
 				<cell right="minor" halign="center">20</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>C</m></cell>
 				<cell right="minor" halign="center">534.87</cell>
 				<cell right="minor" halign="center">814.80</cell>
@@ -85,12 +85,12 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>B</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">13</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>R</m></cell>
 				<cell right="minor" halign="center">18</cell>
 				<cell right="minor" halign="center">7.60</cell>

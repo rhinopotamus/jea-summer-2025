@@ -27,7 +27,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left"><m>T</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">1/2</cell>
@@ -35,7 +35,7 @@
 				<cell right="minor" halign="center">2</cell>
 				<cell right="minor" halign="center">3</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left"><m>P</m></cell>
 				<cell right="minor" halign="center">100.00</cell>
 				<cell right="minor" halign="center">137.50</cell>
@@ -55,7 +55,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left"><m>T</m></cell>
 				<cell right="minor" halign="center">2</cell>
 				<cell right="minor" halign="center">3</cell>
@@ -66,7 +66,7 @@
 				<cell right="minor" halign="center">2.37</cell>
 				<cell right="minor" halign="center">2.38</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left"><m>P</m></cell>
 				<cell right="minor" halign="center">250.00</cell>
 				<cell right="minor" halign="center">325.00</cell>

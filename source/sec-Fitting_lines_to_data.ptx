@@ -34,7 +34,7 @@
 				<cell right="minor" halign="center">T</cell>
 				<cell right="minor" halign="center">W</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>L</m></cell>
 				<cell right="minor" halign="center">710</cell>
 				<cell right="minor" halign="center">420</cell>
@@ -68,7 +68,7 @@
 				<cell right="minor" halign="center">County X</cell>
 				<cell right="minor" halign="center">County A</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>L</m></cell>
 				<cell right="minor" halign="center">510</cell>
 				<cell right="minor" halign="center">600</cell>
@@ -118,7 +118,7 @@
 				<cell right="minor" halign="center">County Y</cell>
 				<cell right="minor" halign="center">County T</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>L</m></cell>
 				<cell right="minor" halign="center">480</cell>
 				<cell right="minor" halign="center">500</cell>
@@ -196,13 +196,13 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>L</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">600</cell>
 				<cell right="minor" halign="center">1,500</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">2,741</cell>
 				<cell right="minor" halign="center">8,741</cell>

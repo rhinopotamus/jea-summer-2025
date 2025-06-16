@@ -21,7 +21,7 @@
 							<cell right="minor" halign="center">20</cell>
 							<cell right="minor" halign="center">50</cell>
 						</row>
-						<row left="minor" class="odd">
+						<row left="minor">
 							<cell right="minor" halign="left">Cost</cell>
 							<cell right="minor" halign="center">$11.95</cell>
 							<cell right="minor" halign="center">$19.95</cell>
@@ -38,7 +38,7 @@
 							<cell right="minor" halign="center">24</cell>
 							<cell right="minor" halign="center">48</cell>
 						</row>
-						<row left="minor" class="odd">
+						<row left="minor">
 							<cell right="minor" halign="left">Cost</cell>
 							<cell right="minor" halign="center">$6.95</cell>
 							<cell right="minor" halign="center">$13.90</cell>
@@ -226,7 +226,7 @@
 				<cell right="minor" halign="center">2008</cell>
 				<cell right="minor" halign="center">2009</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">Teen preg</cell>
 				<cell right="minor" halign="center">76.0</cell>
 				<cell right="minor" halign="center">73.5</cell>
@@ -317,14 +317,14 @@
 			</p>
 	
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Distance driven (miles)</cell>
 					<cell right="minor" halign="center">50</cell>
 					<cell right="minor" halign="center">100</cell>
 					<cell right="minor" halign="center">150</cell>
 					<cell right="minor" halign="center">200</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Rental cost ($)</cell>
 					<cell right="minor" halign="center">37.50</cell>
 					<cell right="minor" halign="center">55.00</cell>
@@ -387,14 +387,14 @@
 			</p>
 			
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">wind speed (mph)</cell>
 					<cell right="minor" halign="center">0</cell>
 					<cell right="minor" halign="center">10</cell>
 					<cell right="minor" halign="center">20</cell>
 					<cell right="minor" halign="center">30</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">electricity (watts)</cell>
 					<cell right="minor" halign="center">0</cell>
 					<cell right="minor" halign="center">2,400</cell>
@@ -466,7 +466,7 @@
 			</aside>
 			
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">year</cell>
 					<cell right="minor" halign="center">1800</cell>
 					<cell right="minor" halign="center">1850</cell>
@@ -476,7 +476,7 @@
 					<cell right="minor" halign="center">1990</cell>
 					<cell right="minor" halign="center">2000</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">population</cell>
 					<cell right="minor" halign="center">0.98</cell>
 					<cell right="minor" halign="center">1.26</cell>
@@ -561,14 +561,14 @@
 			</p>
 			
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">year</cell>
 					<cell right="minor" halign="center">60 years ago</cell>
 					<cell right="minor" halign="center">30 years ago</cell>
 					<cell right="minor" halign="center">10 years ago</cell>
 					<cell right="minor" halign="center">now</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>Y</m></cell>
 					<cell right="minor" halign="center">0</cell>
 					<cell right="minor" halign="center">30</cell>

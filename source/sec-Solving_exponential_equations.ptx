@@ -20,7 +20,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">year</cell>
 				<cell right="minor" halign="center">2007</cell>
 				<cell right="minor" halign="center">2008</cell>
@@ -28,7 +28,7 @@
 				<cell right="minor" halign="center">2017</cell>
 				<cell right="minor" halign="center">2027</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>Y</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">1</cell>
@@ -44,7 +44,7 @@
 				<cell right="minor" halign="center">4.32</cell>
 				<cell right="minor" halign="center">8.82</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">vs. 3</cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">low</cell>
@@ -60,7 +60,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">year</cell>
 				<cell right="minor" halign="center">2009</cell>
 				<cell right="minor" halign="center">2017</cell>
@@ -68,7 +68,7 @@
 				<cell right="minor" halign="center">2011</cell>
 				<cell right="minor" halign="center">2012</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>Y</m></cell>
 				<cell right="minor" halign="center">2</cell>
 				<cell right="minor" halign="center">10</cell>
@@ -84,7 +84,7 @@
 				<cell right="minor" halign="center">2.93</cell>
 				<cell right="minor" halign="center">3.12</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">vs. 3</cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">high</cell>

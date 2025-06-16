@@ -73,7 +73,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>C</m></cell>
 				<cell right="minor" halign="center">7</cell>
 				<cell right="minor" halign="center">8</cell>
@@ -84,7 +84,7 @@
 				<cell right="minor" halign="center">9.2</cell>
 				<cell right="minor" halign="center">9.1</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>Z</m></cell>
 				<cell right="minor" halign="center">0.882</cell>
 				<cell right="minor" halign="center">1.152</cell>

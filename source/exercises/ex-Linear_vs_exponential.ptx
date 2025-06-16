@@ -210,7 +210,7 @@
 							<cell right="minor" halign="center"> 2020 </cell>
 							<cell right="minor" halign="center"> 2030 </cell>
 						</row>
-						<row left="minor" class="odd">
+						<row left="minor">
 							<cell right="minor" halign="center"><m>T</m></cell>
 							<cell right="minor" halign="center">0</cell>
 							<cell right="minor" halign="center">20</cell>
@@ -226,7 +226,7 @@
 							<cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
 							<cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
 						</row>
-						<row left="minor" class="odd">
+						<row left="minor">
 							<cell right="minor" halign="center"><m>J</m> (if exponential)</cell>
 							<cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
 							<cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>

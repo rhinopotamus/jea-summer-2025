@@ -28,7 +28,7 @@
 					<cell right="minor"  halign="center">2000</cell>
 					<cell right="minor"  halign="center">2010</cell>
 				</row>
-				<row left="minor"  class="odd">
+				<row left="minor" >
 					<cell right="minor"  halign="center"><m>T</m></cell>
 					<cell right="minor"  halign="center">0</cell>
 					<cell right="minor"  halign="center">8</cell>
@@ -116,7 +116,7 @@
 				<aside><p>Source: National Weather Service</p></aside>
 			</p>		
 			<tabular bottom="minor" top="minor"> 
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor"  halign="left">Wind speed (mph)</cell>
 					<cell right="minor"  halign="center">0</cell>
 					<cell right="minor"  halign="center">5</cell>
@@ -322,7 +322,7 @@
 						<cell right="minor"  halign="center">22</cell>
 						<cell right="minor"  halign="center">50</cell>
 					</row>
-					<row left="minor"  class="odd">
+					<row left="minor" >
 						<cell right="minor"  halign="center"><m>T</m> (regular)</cell>
 						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
@@ -369,7 +369,7 @@
 			
 	
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Year</cell>
 					<cell right="minor" halign="center">1800</cell>
 					<cell right="minor" halign="center">1850</cell>
@@ -379,7 +379,7 @@
 					<cell right="minor" halign="center">1990</cell>
 					<cell right="minor" halign="center">2000</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Population</cell>
 					<cell right="minor" halign="center">0.98</cell>
 					<cell right="minor" halign="center">1.26</cell>
@@ -464,14 +464,14 @@
 		
 	
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Distance driven (miles)</cell>
 					<cell right="minor" halign="center">50</cell>
 					<cell right="minor" halign="center">100</cell>
 					<cell right="minor" halign="center">150</cell>
 					<cell right="minor" halign="center">200</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Rental cost ($)</cell>
 					<cell right="minor" halign="center">37.50</cell>
 					<cell right="minor" halign="center">55.00</cell>
@@ -660,7 +660,7 @@
 			
 	
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Humidity (%)</cell>
 					<cell right="minor" halign="center">50</cell>
 					<cell right="minor" halign="center">60</cell>
@@ -669,7 +669,7 @@
 					<cell right="minor" halign="center">90</cell>
 					<cell right="minor" halign="center">95</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Heat index (<degree/>F)</cell>
 					<cell right="minor" halign="center">91</cell>
 					<cell right="minor" halign="center">95</cell>

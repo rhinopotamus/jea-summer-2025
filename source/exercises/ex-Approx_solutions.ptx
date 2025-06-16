@@ -159,7 +159,7 @@
 					<aside><p>Source: CIA Factbook</p></aside>
 				</p>
 				<tabular>
-					<row class="odd">
+					<row>
 						<cell halign="left">4th</cell>
 						<cell halign="left">Indonesia</cell>
 						<cell halign="left">pop. 248 million</cell>
@@ -173,7 +173,7 @@
 						<cell halign="left">growth rate 1.10%</cell>
 						<cell halign="left"><m>Q = 205  \ast 1.0110^T</m></cell>
 					</row>
-					<row class="odd">
+					<row>
 						<cell halign="left">6th</cell>
 						<cell halign="left">Pakistan</cell>
 						<cell halign="left">pop. 190 million</cell>
@@ -187,7 +187,7 @@
 						<cell halign="left">growth rate 2.55%</cell>
 						<cell halign="left"><m>Q = 170 \ast 1.0255^T</m></cell>
 					</row>
-					<row class="odd">
+					<row>
 						<cell halign="left">8th</cell>
 						<cell halign="left">Bangladesh</cell>
 						<cell halign="left">pop. 161 million</cell>

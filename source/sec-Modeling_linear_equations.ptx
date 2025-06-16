@@ -49,7 +49,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>Y</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">5</cell>
@@ -57,7 +57,7 @@
 				<cell right="minor" halign="center">11</cell>
 				<cell right="minor" halign="center">12</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>A</m></cell>
 				<cell right="minor" halign="center">64,100</cell>
 				<cell right="minor" halign="center">103,100</cell>

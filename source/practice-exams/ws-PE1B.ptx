@@ -23,7 +23,7 @@
 				<cell right="minor" halign="center">40</cell>
 				<cell right="minor" halign="center">52</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">1.0</cell>
 				<cell right="minor" halign="center">3.3</cell>

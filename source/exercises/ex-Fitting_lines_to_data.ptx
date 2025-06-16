@@ -81,13 +81,13 @@
 					Noel is considering investing in a company's stock so he looked up a few values.
 				</p>
 				<tabular bottom="minor" top="minor">
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="left">Day</cell>
 						<cell right="minor" halign="center">0</cell>
 						<cell right="minor" halign="center">300</cell>
 						<cell right="minor" halign="center">500</cell>
 					</row>
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="left">Value ($)</cell>
 						<cell right="minor" halign="center">23.19</cell>
 						<cell right="minor" halign="center">37.00</cell>
@@ -144,7 +144,7 @@
 					Is it true that students who work part-time have lower grades? Do the number of hours matter? The table shows the grade point average (GPA) of ten students compared to the number of hours per week each student works at a part time job. The variables we used are <m>T</m>, for the time worked at job (hours/week), and <m>G</m> for the GPA, on the usual scale of 0.0 to 4.0.
 				</p>
 				<tabular bottom="minor" top="minor">
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="center"><m>T</m></cell>
 						<cell right="minor" halign="center">0</cell>
 						<cell right="minor" halign="center">0</cell>
@@ -157,7 +157,7 @@
 						<cell right="minor" halign="center">20</cell>
 						<cell right="minor" halign="center">20</cell>
 					</row>
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="center"><m>G</m></cell>
 						<cell right="minor" halign="center">3.72</cell>
 						<cell right="minor" halign="center">3.91</cell>
@@ -238,7 +238,7 @@
 					Mia and Mandi and opened a candy shop this January. The table shows their monthly sales profit. Except for some seasonal fluctuation, Mia and Mandi generally expect your profits to rise steadily while their business is getting established.
 				</p>
 				<tabular bottom="minor" top="minor">
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="center">Month</cell>
 						<cell right="minor" halign="center">Jan</cell>
 						<cell right="minor" halign="center">Feb</cell>
@@ -249,7 +249,7 @@
 						<cell right="minor" halign="center">Jul</cell>
 						<cell right="minor" halign="center">Aug</cell>
 					</row>
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="center">Sales Profit ($)</cell>
 						<cell right="minor" halign="center">3,394</cell>
 						<cell right="minor" halign="center">4,702</cell>
@@ -351,7 +351,7 @@
 			</p>
 			
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">year</cell>
 					<cell right="minor" halign="center">1985</cell>
 					<cell right="minor" halign="center">1989</cell>
@@ -361,7 +361,7 @@
 					<cell right="minor" halign="center">2005</cell>
 					<cell right="minor" halign="center">2009</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>T</m></cell>
 					<cell right="minor" halign="center">39</cell>
 					<cell right="minor" halign="center">42</cell>
@@ -443,7 +443,7 @@
 			</p>
 			
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">year</cell>
 					<cell right="minor" halign="center">1960</cell>
 					<cell right="minor" halign="center">1970</cell>
@@ -453,7 +453,7 @@
 					<cell right="minor" halign="center">2006</cell>
 					<cell right="minor" halign="center">2010</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>Y</m></cell>
 					<cell right="minor" halign="center">0</cell>
 					<cell right="minor" halign="center">10</cell>
@@ -515,7 +515,7 @@
 			</p>
 			
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>N</m></cell>
 					<cell right="minor" halign="center">1</cell>
 					<cell right="minor" halign="center">2</cell>
@@ -525,7 +525,7 @@
 					<cell right="minor" halign="center">6</cell>
 					<cell right="minor" halign="center">7</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>R</m></cell>
 					<cell right="minor" halign="center">725</cell>
 					<cell right="minor" halign="center">500</cell>
@@ -594,7 +594,7 @@
 					<cell right="minor" halign="right">Estimated cost</cell>
 					<cell right="minor" halign="right">Estimated earnings</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">A League of Their Own</cell>
 					<cell right="minor" halign="right">$40 million</cell>
 					<cell right="minor" halign="right">$131 million</cell>
@@ -604,7 +604,7 @@
 					<cell right="minor" halign="right">$30 million</cell>
 					<cell right="minor" halign="right">$114 million</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Invictus</cell>
 					<cell right="minor" halign="right">$49 million</cell>
 					<cell right="minor" halign="right">$37 million</cell>
@@ -614,7 +614,7 @@
 					<cell right="minor" halign="right">$60 million</cell>
 					<cell right="minor" halign="right">$274 million</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Miracle</cell>
 					<cell right="minor" halign="right">$28 million</cell>
 					<cell right="minor" halign="right">$64 million</cell>
@@ -624,7 +624,7 @@
 					<cell right="minor" halign="right">$32 million</cell>
 					<cell right="minor" halign="right">$80 million</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Remember the Titans</cell>
 					<cell right="minor" halign="right">$27 million</cell>
 					<cell right="minor" halign="right">$130 million</cell>
@@ -634,7 +634,7 @@
 					<cell right="minor" halign="right">$10 million</cell>
 					<cell right="minor" halign="right">$6 million</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">Secretariat</cell>
 					<cell right="minor" halign="right">$35 million</cell>
 					<cell right="minor" halign="right">$59 million</cell>
@@ -644,7 +644,7 @@
 					<cell right="minor" halign="right">$35 million</cell>
 					<cell right="minor" halign="right">$255 million</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left">The Rookie</cell>
 					<cell right="minor" halign="right">$22 million</cell>
 					<cell right="minor" halign="right">$77 million</cell>
@@ -701,7 +701,7 @@
 			</aside>
 
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">year</cell>
 					<cell right="minor" halign="center">1975</cell>
 					<cell right="minor" halign="center">1985</cell>
@@ -712,7 +712,7 @@
 					<cell right="minor" halign="center">2009</cell>
 					<cell right="minor" halign="center">2012</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>Y</m></cell>
 					<cell right="minor" halign="center">0</cell>
 					<cell right="minor" halign="center">10</cell>
@@ -734,7 +734,7 @@
 					<cell right="minor" halign="center">12.9</cell>
 					<cell right="minor" halign="center">13.3</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>B</m></cell>
 					<cell right="minor" halign="center">12.1</cell>
 					<cell right="minor" halign="center">11.8</cell>

@@ -47,7 +47,7 @@
 		</p>
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">year</cell>
 				<cell right="minor" halign="center">1920</cell>
 				<cell right="minor" halign="center">1921</cell>
@@ -56,7 +56,7 @@
 				<cell right="minor" halign="center">1990</cell>
 				<cell right="minor" halign="center">2015</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>Y</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">1</cell>
@@ -89,14 +89,14 @@
 		</p>
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">year</cell>
 				<cell right="minor" halign="center">2020</cell>
 				<cell right="minor" halign="center">2030</cell>
 				<cell right="minor" halign="center">2029</cell>
 				<cell right="minor" halign="center">2028</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>Y</m></cell>
 				<cell right="minor" halign="center">100</cell>
 				<cell right="minor" halign="center">110</cell>
@@ -110,7 +110,7 @@
 				<cell right="minor" halign="center">20,061</cell>
 				<cell right="minor" halign="center">19,476</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">vs. 20,000</cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">high</cell>

@@ -32,7 +32,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>T</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">0.5</cell>
@@ -40,7 +40,7 @@
 				<cell right="minor" halign="center">2</cell>
 				<cell right="minor" halign="center">3</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>P</m></cell>
 				<cell right="minor" halign="center">100</cell>
 				<cell right="minor" halign="center">137.50</cell>

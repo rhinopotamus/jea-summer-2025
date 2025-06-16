@@ -19,12 +19,12 @@
 		</p>
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>M</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">109</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>C</m></cell>
 				<cell right="minor" halign="center">22,500</cell>
 				<cell right="minor" halign="center">5,700</cell>
@@ -110,7 +110,7 @@
 		</p>
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>M</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">10</cell>
@@ -120,7 +120,7 @@
 				<cell right="minor" halign="center">200</cell>
 				<cell right="minor" halign="center">250</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>C</m> (if linear)</cell>
 				<cell right="minor" halign="center">22,500</cell>
 				<cell right="minor" halign="center">20,960</cell>

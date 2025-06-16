@@ -409,14 +409,14 @@
 			</p>
 			
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">distance driven (miles)</cell>
 					<cell right="minor" halign="center">50</cell>
 					<cell right="minor" halign="center">100</cell>
 					<cell right="minor" halign="center">150</cell>
 					<cell right="minor" halign="center">200</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="center">rental cost ($)</cell>
 					<cell right="minor" halign="center">37.50</cell>
 					<cell right="minor" halign="center">55.00</cell>

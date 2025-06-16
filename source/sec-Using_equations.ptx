@@ -40,7 +40,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">30</cell>
@@ -49,7 +49,7 @@
 				<cell right="minor" halign="center">70</cell>
 				<cell right="minor" halign="center">90</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>B</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">36</cell>
@@ -97,7 +97,7 @@
 
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">30</cell>
@@ -106,7 +106,7 @@
 				<cell right="minor" halign="center">70</cell>
 				<cell right="minor" halign="center">90</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>D</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">80</cell>

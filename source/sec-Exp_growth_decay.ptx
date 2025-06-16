@@ -47,7 +47,7 @@
 		</p>
 
 		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">time</cell>
 				<cell right="minor" halign="center">2:00</cell>
 				<cell right="minor" halign="center">3:00</cell>
@@ -60,7 +60,7 @@
 				<cell right="minor" halign="center">10:00</cell>
 				<cell right="minor" halign="center">11:00</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>H</m></cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">1</cell>
@@ -86,7 +86,7 @@
 				<cell right="minor" halign="center">328.2</cell>
 				<cell right="minor" halign="center">285.5</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="center">vs. 300</cell>
 				<cell right="minor" halign="center">high</cell>
 				<cell right="minor" halign="center">high</cell>
