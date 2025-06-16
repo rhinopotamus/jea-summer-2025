@@ -6,6 +6,16 @@
 	<title component="workbook">Tables and graphs - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
+			Tables and graphs are useful ways to summarize a lot of information about how the values of several variables go together.
+		</p>
+		<xi:include href="./activities/oa-1-2-tables.ptx" />
+	</introduction>
+	
+
+	<subsection component="not-workbook" xml:id="subsec-smoking-rates">
+		<title>Smoking rates</title>
+		
+		<p>
 			Lung cancer, chronic bronchitis, bad breath, stains on your clothes, and the expense. These are just a few of the consequences of smoking cigarettes. With what we know now about the dangers of smoking, are people smoking more or less than they were ten years ago, fifty years ago, or even one hundred years ago?
 		</p>
 
@@ -252,7 +262,7 @@
 		<p>
 			<image source='CigCompare.png'/>
 		</p>
-	</introduction>
+	</subsection>
 
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>

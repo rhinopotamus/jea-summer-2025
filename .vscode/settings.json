@@ -2,7 +2,7 @@
     "xml.fileAssociations": [
         {
             "pattern": "**/source/**.ptx",
-            "systemId": "c:\\Users\\calibaan\\.vscode\\extensions\\oscarlevin.pretext-tools-0.32.1\\assets\\schema\\pretext.rng"
+            "systemId": "/home/spencer/.vscode/extensions/oscarlevin.pretext-tools-0.32.2/assets/schema/pretext.rng"
         }
     ]
 }
