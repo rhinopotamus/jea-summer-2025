@@ -96,7 +96,7 @@
 				</p>
 				<p>
 					<em>
-						For a discussion of rounding, see <xref ref="sec-Approximation_and_rounding" text="custom">Prelude: approximation and rounding</xref>.
+						For a discussion of rounding, see <xref ref="sec-0-1-Approximation_and_rounding" text="custom">Prelude: approximation and rounding</xref>.
 					</em>
 				</p>
 			</introduction>
@@ -150,7 +150,7 @@
 					</em>
 					<em component="workbook">
 						(Stories also appear in 
-						<xref ref="sec-Variables_and_functions" text="global"/> Exercises)
+						<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises)
 					</em>
 				</p>
 			</introduction>
@@ -166,8 +166,8 @@
 							<xref ref="walnut-tree-algebraic-notation"/>)
 						</em>
 						<em component="workbook">(Story also appears in
-							<xref ref="sec-Arithmetic_operations"/> Exercises and
-							<xref ref="sec-Algebraic_notation"/> Exercises)
+							<xref ref="sec-0-2-Arithmetic_operations"/> Exercises and
+							<xref ref="sec-0-7-Algebraic_notation"/> Exercises)
 						</em>
 					</p>
 				</statement>
@@ -184,7 +184,7 @@
 						</em>
 						<em component="workbook">
 							(Story also appears in 
-							<xref ref="sec-Approx_solutions" text="global"/> Exercises and 
+							<xref ref="sec-2-4-Approx_solutions" text="global"/> Exercises and 
 							<xref ref="bac-solving-exponential"/>)
 						</em>
 					</p>
@@ -378,7 +378,7 @@
 			</p>
 				
 			<p>
-				(<em>Story also appears in <xref ref="sec-Linear_vs_exponential" text="type-global-title"/>)</em>
+				(<em>Story also appears in <xref ref="sec-5-4-Linear_vs_exponential" text="type-global-title"/>)</em>
 			</p>
 		</introduction>
 				

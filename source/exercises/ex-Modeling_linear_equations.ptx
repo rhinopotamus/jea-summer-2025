@@ -12,7 +12,7 @@
 				<p>
 					A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. 
 					<em component="not-workbook">(Story also appears in <xref ref="solar-heating-systems-linear"/>)</em>
-					<em component="workbook">(Story also appears in <xref ref="sec-Systems_linear_equations"/> Exercises)</em>
+					<em component="workbook">(Story also appears in <xref ref="sec-4-2-Systems_linear_equations"/> Exercises)</em>
 				</p>
 				<aside><p>Source: <q>Using Algebra</q> by Ethan Bolker</p></aside>
 			</introduction>
@@ -232,7 +232,7 @@
 				<p>
 					Plumbers are really expensive, so I have been comparing prices. James charges $50 to show up plus $120 per hour. Jo is just getting started in the business. She charges $45 to show up plus $55 per hour. Mario advertises <q>no trip charge</q> but his hourly rate is $90 per hour. Not to be outdone, Luigi offers to unclog any drain for $150, no matter how long it takes. For each plumber, the table lists the corresponding equation and several points. In each equation, the plumber charges $<m>P</m> for <m>T</m> hours of work. 
 					<em component="not-workbook">(Story also appears in <xref ref="plumbers-first-look-linear"/>)</em>
-					<em component="workbook">(Story also appears in <xref ref="sec-First_look_linear"/> Exercises)</em>
+					<em component="workbook">(Story also appears in <xref ref="sec-2-1-First_look_linear"/> Exercises)</em>
 				</p>
 				<tabular bottom="minor" top="minor">
 					<row left="minor" header="yes">

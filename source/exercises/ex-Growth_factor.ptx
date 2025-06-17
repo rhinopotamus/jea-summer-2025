@@ -445,7 +445,7 @@
 					<p>
 						The number of households watching reality television <m>R</m> (in millions) was estimated by the equation <me>R=2.5 \ast 1.072^T</me> where <m>T</m> is the time in years since 1990. 
 						<em component="not-workbook">(Story also appears in <xref ref="reality-tv-modeling-exponential"/>)</em>
-						<em component="workbook">(Story also appears in <xref ref="sec-Modeling_exponential_equations"/> Exercises)</em>
+						<em component="workbook">(Story also appears in <xref ref="sec-5-1-Modeling_exponential_equations"/> Exercises)</em>
 					</p>
 				</statement>
 			</task>
@@ -463,7 +463,7 @@
 						<em component="not-workbook">(Story also appears in 
 							<xref ref="drawing-game-modeling-exponential"/>)</em>
 						<em component="workbook">(Story also appears in 
-							<xref ref="sec-Modeling_exponential_equations"/> Exercises)</em>
+							<xref ref="sec-5-1-Modeling_exponential_equations"/> Exercises)</em>
 					</p>
 				</statement>
 			</task>

@@ -64,7 +64,7 @@
 			<introduction>
 				<p>
 					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation <me>N=8 \ast1.16^T</me> where <m>T</m> is the time in days (since the first diagnosis) and <m>N</m> is the total number of students who had the flu. 
-					<em>(Story also appears in <xref ref="flu-dorm-first-look-exponential"/> and <xref ref="sec-Logistic_growth" text="type-global" />)</em>
+					<em>(Story also appears in <xref ref="flu-dorm-first-look-exponential"/> and <xref ref="sec-5-5-Logistic_growth" text="type-global" />)</em>
 				</p>
 			</introduction>
 			<task>

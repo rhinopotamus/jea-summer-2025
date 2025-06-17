@@ -18,11 +18,11 @@
 			
 			<p>
 				<term>Caution:</term> These review exercises do not include every possible problem you might be asked on a final exam. For example, there are no problems here from Sections 
-				<xref ref="sec-Metric_system_and_scientific_notation" text="global"/>,
-				<xref ref="sec-Finance" text="global"/>,
-				<xref ref="sec-Solving_quadratic_equations" text="global"/>,
-				<xref ref="sec-Fitting_lines_to_data" text="global"/>, or
-				<xref ref="sec-Logistic_growth"/>,
+				<xref ref="sec-1-5-Metric_system_and_scientific_notation" text="global"/>,
+				<xref ref="sec-2-5-Finance" text="global"/>,
+				<xref ref="sec-3-5-Solving_quadratic_equations" text="global"/>,
+				<xref ref="sec-4-5-Fitting_lines_to_data" text="global"/>, or
+				<xref ref="sec-5-5-Logistic_growth"/>,
 				so be sure to ask your instructor which of those sections are going to be on your final exam.
 			</p>
 		</introduction>

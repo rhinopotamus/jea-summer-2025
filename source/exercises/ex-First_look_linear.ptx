@@ -75,7 +75,7 @@
 					The water in the local reservoir was 47 feet deep, but there has been so little rain that the depth has fallen 18 inches a week over the past few months. Officials are worried that if dry conditions continue, the reservoir will not have enough water to supply the town. 
 					<em component="not-workbook">(Story also appears in <xref ref="reservoir-rain-linear-ineq"/> and <xref ref="reservoir-rain-modeling-linear"/>)</em>
 					<em component="workbook">(Story also appears in 
-						<xref ref="sec-Solving_linear_inequalities"/> Exercises and <xref ref="reservoir-rain-modeling-linear"/>)</em>
+						<xref ref="sec-3-2-Solving_linear_inequalities"/> Exercises and <xref ref="reservoir-rain-modeling-linear"/>)</em>
 				</p>
 			</introduction>
 			<task>
@@ -121,7 +121,7 @@
 					</em>
 					<em component="workbook">
 						(Story also appears in
-						<xref ref="sec-Solving_linear_inequalities" text="global"/> Exercises)
+						<xref ref="sec-3-2-Solving_linear_inequalities" text="global"/> Exercises)
 					</em>
 				</p>
 			</introduction>

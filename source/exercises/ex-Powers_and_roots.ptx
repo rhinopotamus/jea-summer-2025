@@ -168,7 +168,7 @@
                 A set of sterling silverware was valued at $800 in 1920, and the value increased by around 3% per year thereafter. 
             </p>
             <p>
-                <em>(Story also appears in <xref ref="sec-Modeling_exponential_equations"/> and <xref ref="sterling-silver-modeling-exponential"/>)</em>
+                <em>(Story also appears in <xref ref="sec-5-1-Modeling_exponential_equations"/> and <xref ref="sterling-silver-modeling-exponential"/>)</em>
             </p>
         </introduction>
         <task>
@@ -188,7 +188,7 @@
         <task>
             <statement>
                 <p>
-                    It turns out there's a quicker way to find the answers to parts (a) and (b). Calculate <m>800 \times 1.03=</m> and <m>800 \times 1.03 \times 1.03 =</m>. Note: we will discuss this shortcut in greater detail in <xref ref="sec-First_look_exponential"/>.
+                    It turns out there's a quicker way to find the answers to parts (a) and (b). Calculate <m>800 \times 1.03=</m> and <m>800 \times 1.03 \times 1.03 =</m>. Note: we will discuss this shortcut in greater detail in <xref ref="sec-2-2-First_look_exponential"/>.
                 </p>
             </statement>
         </task>

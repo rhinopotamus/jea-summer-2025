@@ -66,7 +66,7 @@
                     </p>
                     <p>
                         <em component="not-workbook">(Story also appears in <xref ref="proton-mass-scientific-notation"/>)</em>
-                        <em component="workbook">(Story also appears in <xref ref="sec-Metric_system_and_scientific_notation"/> Exercises)</em>
+                        <em component="workbook">(Story also appears in <xref ref="sec-1-5-Metric_system_and_scientific_notation"/> Exercises)</em>
                     </p>
                 </statement>
             </task>
