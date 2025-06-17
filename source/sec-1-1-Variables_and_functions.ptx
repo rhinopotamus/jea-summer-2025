@@ -76,7 +76,7 @@
 		<xi:include href="./activities/act-1-1-naming-variables.ptx" />
 	</subsection>
 
-	<subsection xml:id="subsec-dependence" component="not-workbook">
+	<subsection component="not-workbook" xml:id="subsec-dependence">
 		<title>Independent and dependent variables</title>
 
 		<p>
@@ -104,7 +104,7 @@
 
 	</subsection>
 
-	<subsection xml:id="subsec-domain" component="not-workbook">
+	<subsection component="not-workbook" xml:id="subsec-domain">
 		<title>Domain</title>
 		
 		<p>
@@ -123,7 +123,7 @@
 		<xi:include href="./activities/act-1-1-domain.ptx" />
 	</subsection>
 
-	<subsection xml:id="subsec-constants" component="not-workbook">
+	<subsection component="not-workbook" xml:id="subsec-constants">
 		<title>Constants</title>
 
 		<p>
@@ -133,7 +133,7 @@
 		<xi:include href="./activities/act-1-1-constants.ptx" />
 	</subsection>
 
-	<subsection xml:id="subsec-percents" component="not-workbook">
+	<subsection component="not-workbook" xml:id="subsec-percents">
 		<title>Percents</title>
 		
 		<p>

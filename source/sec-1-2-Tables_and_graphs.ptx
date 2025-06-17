@@ -236,7 +236,7 @@
 		</p>
 	</subsection>
 
-	<subsection xml:id="subsec-scaling">
+	<subsection component="not-workbook" xml:id="subsec-scaling">
 		<title>Scaling</title>
 
 		<p>
@@ -264,7 +264,7 @@
 
 	</subsection>
 
-	<subsection xml:id="subsec-plotting-points">
+	<subsection component="not-workbook" xml:id="subsec-plotting-points">
 		<title>Plotting points</title>
 
 		<p>
