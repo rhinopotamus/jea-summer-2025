@@ -89,9 +89,17 @@
 		<p>
 			When did the consumption drop below 3,000 again? This answer also does not appear in the table, but falls somewhere between 1975 when consumption was 4,122 and 1990 when consumption was 2,834. Here I'd guess just before 1990, say in 1989.
 		</p>
+	</subsection>
 
+	<subsection component="not-workbook" xml:id="subsec-labeling-variables">
+		<title>Labeling variables in a table</title>
+		
 		<p>
-			What's changing are the number of cigarettes smoked per person per year and the year. Those are our variables. The smoking rate is a function of year, and it's what we care about, so it's the dependent variable. Time, as measured in years, is the independent variable.
+			Remember that in mathematics, quantities that change are called <term>variables</term>, and identifying the variables in a story is a good first step to understanding what's going on in the story.
+		</p>
+
+		<p>		
+			In this story, the things that are changing are the year and the number of cigarettes smoked per person per year. Those are our variables. The smoking rate is a function of year, and it's what we care about, so it's the dependent variable. Time, as measured in years, is the independent variable.
 			<md>
 				<mrow>S \amp= \text{ smoking rate (cigarettes per year per person) } \sim \text{ dep} </mrow>
 				<mrow>Y \amp= \text{ year (years since 1900) } \sim \text{ indep} </mrow>
@@ -100,32 +108,32 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
+		<tabular bottom="minor" top="minor" halign="center">
 			<row left="minor">
-				<cell right="minor" halign="center"><m>Y</m></cell>
-				<cell right="minor" halign="center">0</cell>
-				<cell right="minor" halign="center">15</cell>
-				<cell right="minor" halign="center">30</cell>
-				<cell right="minor" halign="center">40</cell>
-				<cell right="minor" halign="center">50</cell>
-				<cell right="minor" halign="center">65</cell>
-				<cell right="minor" halign="center">75</cell>
-				<cell right="minor" halign="center">90</cell>
-				<cell right="minor" halign="center">100</cell>
-				<cell right="minor" halign="center">106</cell>
+				<cell right="minor"><m>Y</m></cell>
+				<cell right="minor">0</cell>
+				<cell right="minor">15</cell>
+				<cell right="minor">30</cell>
+				<cell right="minor">40</cell>
+				<cell right="minor">50</cell>
+				<cell right="minor">65</cell>
+				<cell right="minor">75</cell>
+				<cell right="minor">90</cell>
+				<cell right="minor">100</cell>
+				<cell right="minor">106</cell>
 			</row>
 			<row left="minor">
-				<cell right="minor" halign="center"><m>S</m></cell>
-				<cell right="minor" halign="center">54</cell>
-				<cell right="minor" halign="center">285</cell>
-				<cell right="minor" halign="center">1,485</cell>
-				<cell right="minor" halign="center">1,976</cell>
-				<cell right="minor" halign="center">3,552</cell>
-				<cell right="minor" halign="center">4,258</cell>
-				<cell right="minor" halign="center">4,122</cell>
-				<cell right="minor" halign="center">2,834</cell>
-				<cell right="minor" halign="center">2,049</cell>
-				<cell right="minor" halign="center">1,619</cell>
+				<cell right="minor"><m>S</m></cell>
+				<cell right="minor">54</cell>
+				<cell right="minor">285</cell>
+				<cell right="minor">1,485</cell>
+				<cell right="minor">1,976</cell>
+				<cell right="minor">3,552</cell>
+				<cell right="minor">4,258</cell>
+				<cell right="minor">4,122</cell>
+				<cell right="minor">2,834</cell>
+				<cell right="minor">2,049</cell>
+				<cell right="minor">1,619</cell>
 			</row>
 		</tabular>
 
@@ -189,8 +197,15 @@
 			</stack>
 		</sidebyside>
 
+		<xi:include href="./activities/act-1-2-create-table.ptx" />
+
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="subsec-graphs">
+		<title>Graphs</title>
+		
 		<p>
-			Tables are useful because they contain specific numbers, but it can be difficult to guess or see general trends. For that, a picture is worth a thousand words - or numbers, in this case. By <q>picture</q> we mean a graph of the function.
+			Tables are useful because they contain specific numbers, but it can be difficult to guess or see general trends. For that, a picture is worth a thousand words - or numbers, in this case. By <q>picture</q> we mean a <term>graph</term> of the function.
 		</p>
 
 		<p>
@@ -207,34 +222,57 @@
 		</p>
 	
 		<p>
-			The graph is based on a horizontal line and vertical line, called the <term>axes</term>. 
+			The graph is based on a horizontal number line and a vertical number line, called the <term>axes</term>. 
 			<aside>
 				<p>
 					That's the plural of <q>axis</q>, and it rhymes with <q>jack cheese</q>.
 				</p>
 			</aside>
-			Where they cross is a point called the <term>origin</term>. It represents where each variable is 0. By convention, the independent variable is measured along the horizontal axis, with larger values progressing to the right of the origin, and negatives to the left. Similarly, the dependent variable is measured along the vertical axis, with larger values progressing up from the origin, and negatives down. Each gridline counts the same number, called the <term>scale</term>, but the scale for the vertical may be different from the scale for the horizontal. Each pair of values of the independent and dependent variable from our table correspond to a point on our graph.
+			Where they cross is a point called the <term>origin</term>. It represents where each variable is 0. By convention, the independent variable is measured along the horizontal axis, with larger values progressing to the right of the origin, and negatives to the left. Similarly, the dependent variable is measured along the vertical axis, with larger values progressing up from the origin, and negatives down. Each pair of values of the independent and dependent variable from our table corresponds to a point on our graph.
 		</p>
 
 		<p>
-			In the graph of smoking rates, the independent variable is <m>Y</m>, the year, so that goes on the horizontal axis for our graph. Our dependent variable is <m>S</m>, the smoking rate, so that goes on the vertical axis. For the scale, it works nicely to count by 10s for years and count by 500s for the smoking rate.
+			In the graph of smoking rates, the independent variable is <m>Y</m>, the year, so that goes on the horizontal axis for our graph. Our dependent variable is <m>S</m>, the smoking rate, so that goes on the vertical axis. 
+		</p>
+	</subsection>
+
+	<subsection xml:id="subsec-scaling">
+		<title>Scaling</title>
+
+		<p>
+			Because the axes are number lines, each gridline on a graph counts the same number, called the <term>scale</term>. But the scale for the vertical axis may be different from the scale for the horizontal axis. 
 		</p>
 
 		<p>
-			There's a certain amount of guess and check involved in figuring out a good scale for each axis. As a general rule of thumb we would like the graph to be as large as possible so we can see all of its features clearly. But, not so big that it runs off the graph paper. What matters is that the gridlines are evenly scaled and that they can handle large enough numbers. Speaking of which, it's a good idea to leave a little room to extend the graph a little further than the information we have in the table, in case we get curious about values beyond what we have already.
+			There's a certain amount of guess and check involved in figuring out a good scale for each axis. As a general rule of thumb we would like the graph to be as large as possible so we can see all of its features clearly. But, not so big that it runs off the graph paper. What matters is that the gridlines are evenly scaled -- that is, that each gridline counts the same number -- and that they can handle large enough numbers. Speaking of which, it's a good idea to leave a little room to extend the graph a little further than the information we have in the table, in case we get curious about values beyond what we have already.
 		</p>
 
 		<p>
 			With realistic numbers it's normal to have numbers in the table that are not exactly where the gridlines are. It is very helpful to count by round numbers (2s, 5s, 10s, etc.) because it makes guessing in between easier. Easier for you drawing the graph. Easier for someone reading your graph.
 		</p>
 
-
 		<p>
-			<image source='CigScatter3.png'/>
+			For the scale in the graph of smoking rates, it works nicely to count by 10s for years and count by 500s for the smoking rate. Notice that with the graph paper below, every <em>two</em> gridlines is 10 years and every <em>two</em> gridline is 500 smoking rate. Also, notice that we start counting at 0.
 		</p>
 
 		<p>
+			<image source='CigScales.png'/>
+		</p>
+		
+
+		<xi:include href="./activities/act-1-2-choose-scale.ptx" />
+
+	</subsection>
+
+	<subsection xml:id="subsec-plotting-points">
+		<title>Plotting points</title>
+
+		<p>
 			To plot each point, we start at the origin and move right to that <m>Y</m>-value, and then up to that <m>S</m>-value. When a value doesn't land exactly on a grid mark, we have to guess in between. For example, in 1900, <m>Y=0</m> so we don't move right at all, just up to <m>S=54</m>. The first labeled gridline on our graph is 500. Where's 54? It's between 0 and 500, very close to 0. Our point is just a tiny bit above the origin. In 1915 we have <m>Y=15</m>. Our labeled gridlines are for 10 and 20, so 15 must land halfway in between. The smoking rate is 285, which is around halfway between 0 and 500. Etc.
+		</p>
+
+		<p>
+			<image source='CigScatter3.png'/>
 		</p>
 
 		<p>
@@ -249,6 +287,8 @@
 		<p>
 			When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once. For example, from the table we guessed that the smoking rate passed 3,000 in around 1947, and dropped back to that level in around 1989. What does the graph show? If we look where the horizontal gridline for 3,000 crosses our graph, it crosses in two places. First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50. I'd say <m>Y \approx 47</m>, in the year 1947. Sure. The second time is between the gridlines for 80 and 90, much closer to 90. Looks like <m>Y \approx 88</m>, in the year 1988. We guessed 1989. Close enough.
 		</p>
+
+		<xi:include href="./activities/act-1-2-plot-points.ptx" />
 
 		<p>
 			Don't forget that when we drew in that curve it was really just a guess. We're sure about the points we plotted, but we're only guessing about where to draw the curve in. That means we're not sure about the other points. If we knew a lot more points we could have a more accurate graph.

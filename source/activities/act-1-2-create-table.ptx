@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-2-create-table">
+    <statement>
+        <p>
+            In the last section, we were thinking about filling up a rectangular fish tank; as time (measured in minutes) goes on, the water level (measured in inches) gets higher. 
+        </p>
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        Name the variables in this situation:
+                    </p>
+                    <tabular left="minor" bottom="minor" top="minor" halign="center">
+                        <row header="yes">
+                            <cell>letter name</cell>
+                            <cell>=</cell>
+                            <cell>human words</cell>
+                            <cell>(units)</cell>
+                            <cell>~</cell>
+                            <cell right="minor">dep or indep</cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                            <cell>=</cell>
+                            <cell></cell>
+                            <cell>(<fillin characters="5" />)</cell>
+                            <cell>~</cell>
+                            <cell right="minor"></cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                            <cell>=</cell>
+                            <cell></cell>
+                            <cell>(<fillin characters="5" />)</cell>
+                            <cell>~</cell>
+                            <cell right="minor"></cell>
+                        </row>
+                    </tabular>
+                </li>
+                <li>
+                    <p>
+                        Here is an empty table. Remember that the first column holds the letter names for the two variables, and by convention, the independent variable comes first. Fill in your two letter names.
+                    </p>
+                    <tabular bottom="minor" top="minor">
+                        <row left="minor"> 
+                            <cell right="minor"><fillin characters="3"/></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        </row>
+                        <row left="minor"> 
+                            <cell right="minor"><fillin characters="3"/></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        </row>
+                    </tabular>
+                </li>
+                <li>
+                    <p>
+                        Here is a bunch of information about the filling tank; your job is to organize it into a table like the one above.
+                    </p>
+                    <p>
+                        After 1 minute, the water level was at 6 inches; after 2 minutes, the water level was at 9 inches; the water level reached 11 inches after 3 minutes; when 4 minutes had elapsed, the water level was 14 inches; and the water level reached 16 inches after 5 minutes.
+                    </p>
+                    <p>
+                        (Isn't it much nicer to organize this information in a table than it is to have it all in written words?)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What do you think the water level was at 0 minutes, when the hose was first turned on?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>
