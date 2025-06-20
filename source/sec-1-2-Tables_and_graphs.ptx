@@ -37,7 +37,7 @@
 		</aside>
 
 
-		<tabular bottom="minor" top="minor" halign="center">
+		<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
 			<row left="minor">
 				<cell right="minor">Year</cell>
 				<cell right="minor">1900</cell>

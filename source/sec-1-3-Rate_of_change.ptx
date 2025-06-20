@@ -8,6 +8,8 @@
 		<p>
 			In this section we'll learn about the <term>rate of change</term>, which is a way to think about how fast variables are changing.
 		</p>
+
+		<xi:include href="./activities/oa-1-3-differences.ptx" />
 	</introduction>
 	<subsection component="not-workbook" xml:id="subsec-diver">
 		<title>The speed of a diver</title>
