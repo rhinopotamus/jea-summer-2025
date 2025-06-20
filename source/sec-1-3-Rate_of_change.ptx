@@ -54,7 +54,7 @@
 			How fast is she moving? The diver starts at 3 meters, which is the height of the springboard, and 0.2 seconds later she's up to 3.88 meters. That means during the first 0.2 seconds, the diver went up <me>3.88-3 = 0.88 \text{ meters}</me> Her speed is <me>\frac{0.88 \text{ meters}}{0.2 \text{ seconds}} = 0.88 \div 0.2 = 4.4 \text{ meters/sec}</me>
 		</p>
 
-		<xi:include href="./activities/act-1-3-roc-10-20.ptx" />
+		<xi:include href="./activities/act-1-3-roc-8-15.ptx" />
 
 	</subsection>
 
@@ -97,7 +97,7 @@
 			</p>
 		</assemblage>
 
-		<xi:include href="./activities/act-1-3-roc-20-50.ptx" />
+		<xi:include href="./activities/act-1-3-roc-15-40.ptx" />
 
 
 	</subsection>

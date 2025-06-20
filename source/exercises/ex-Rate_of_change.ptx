@@ -14,23 +14,26 @@
 			<sidebyside>
 				<stack>
 					<p>Cake prices</p>	
-					<p><tabular bottom="minor" top="minor">
-						<row left="minor" class="even">
-							<cell right="minor" halign="left">Servings</cell>
-							<cell right="minor" halign="center">10</cell>
-							<cell right="minor" halign="center">20</cell>
-							<cell right="minor" halign="center">50</cell>
-						</row>
-						<row left="minor">
-							<cell right="minor" halign="left">Cost</cell>
-							<cell right="minor" halign="center">$11.95</cell>
-							<cell right="minor" halign="center">$19.95</cell>
-							<cell right="minor" halign="center">$40.95</cell>
-						</row>
-					</tabular></p>
+					<p>
+						<tabular bottom="minor" top="minor" row-headers="yes" halign="center">
+							<row left="minor">
+								<cell right="minor">Servings</cell>
+								<cell right="minor">8</cell>
+								<cell right="minor">15</cell>
+								<cell right="minor">40</cell>
+							</row>
+							<row left="minor">
+								<cell right="minor">Cost</cell>
+								<cell right="minor">$28.99</cell>
+								<cell right="minor">$43.99</cell>
+								<cell right="minor">$66.99</cell>
+							</row>
+						</tabular>
+					</p>
 				</stack>
 				<stack>
 					<p>Cupcake prices</p>
+					<!-- $1.69 per cupcake -->
 					<p><tabular bottom="minor" top="minor">
 						<row left="minor" class="even">
 							<cell right="minor" halign="left">Servings</cell>
@@ -40,9 +43,9 @@
 						</row>
 						<row left="minor">
 							<cell right="minor" halign="left">Cost</cell>
-							<cell right="minor" halign="center">$6.95</cell>
-							<cell right="minor" halign="center">$13.90</cell>
-							<cell right="minor" halign="center">$27.80</cell>
+							<cell right="minor" halign="center">$20.28</cell>
+							<cell right="minor" halign="center">$40.56</cell>
+							<cell right="minor" halign="center">$81.12</cell>
 						</row>
 					</tabular></p>
 				</stack>
@@ -52,8 +55,8 @@
 			<statement>
 				<p>
 					Calculate the rate of change for cake prices, in $/person, 
-					if there are between 10 and 20 people. 
-					Repeat for between 20 and 50 people.
+					if there are between 8 and 15 people. 
+					Repeat for between 15 and 40 people.
 				</p>
 			</statement>
 		</task>
