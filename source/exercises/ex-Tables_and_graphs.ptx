@@ -6,81 +6,66 @@
 	<xi:include href="ex-intro.ptx" />
 
 <page>
-	<exercise xml:id="grandfather-bonds-tables-graphs">
+	<exercise xml:id="private-college-tables-graphs">
 		<introduction>
 			<p>
-				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 
-				The bonds continue to earn interest at a fixed rate so I have yet to cash them in. 
-				The table shows some values. 
-				<em>
-					(Story also appears in 
-					<xref ref="grandfather-bonds-modeling-linear" /> and 
-					<xref ref="grandfather-bonds-growth-factor" />)
-				</em>
+				The comprehensive fee at a local private college is currently $37,000. The fee is projected to increase each year for the next several years according to the values in this table:
 			</p>
-			<tabular bottom="minor" top="minor">
-				<row left="minor"  header="yes">
-					<cell right="minor"  halign="center">year</cell>
-					<cell right="minor"  halign="center">1962</cell>
-					<cell right="minor"  halign="center">1970</cell>
-					<cell right="minor"  halign="center">1980</cell>
-					<cell right="minor"  halign="center">1990</cell>
-					<cell right="minor"  halign="center">2000</cell>
-					<cell right="minor"  halign="center">2010</cell>
+			<!-- f(t) = 37000 * 1.058^{t}, rounded to nearest hundred -->
+			<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+				<row left="minor">
+					<cell right="minor">Years</cell>
+					<cell right="minor">0</cell>
+					<cell right="minor">2</cell>
+					<cell right="minor">4</cell>
+					<cell right="minor">6</cell>
+					<cell right="minor">8</cell>
+					<cell right="minor">10</cell>
 				</row>
-				<row left="minor" >
-					<cell right="minor"  halign="center"><m>T</m></cell>
-					<cell right="minor"  halign="center">0</cell>
-					<cell right="minor"  halign="center">8</cell>
-					<cell right="minor"  halign="center">18</cell>
-					<cell right="minor"  halign="center">28</cell>
-					<cell right="minor"  halign="center">38</cell>
-					<cell right="minor"  halign="center">48</cell>
-				</row>
-				<row left="minor"  class="even">
-					<cell right="minor"  halign="center"><m>B</m></cell>
-					<cell right="minor"  halign="center">200.00</cell>
-					<cell right="minor"  halign="center">318.77</cell>
-					<cell right="minor"  halign="center">570.87</cell>
-					<cell right="minor"  halign="center">1,022.34</cell>
-					<cell right="minor"  halign="center">1,830.85</cell>
-					<cell right="minor"  halign="center">3,278.77</cell>
+				<row left="minor">
+					<cell right="minor">Fee</cell>
+					<cell right="minor">37,000</cell>
+					<cell right="minor">41,400</cell>
+					<cell right="minor">46,400</cell>
+					<cell right="minor">51,900</cell>
+					<cell right="minor">58,100</cell>
+					<cell right="minor">65,000</cell>
 				</row>
 			</tabular>
 		</introduction>
-		<task workspace="1.5cm">
+		<task>
 			<statement>
 				<p>
-					What do <m>T</m> and <m>B</m> stand for? 
-					Include the units and dependence.
+					Name the variables in this story.
+				</p>
+				<xi:include href="../name-variables.ptx" />
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					What will the fee be in 6 years?
 				</p>
 			</statement>
 		</task>
 		<task>
 			<statement>
 				<p>
-					What were the savings bonds worth in 1970?
+					When is the fee projected to be $46,400?
 				</p>
 			</statement>
 		</task>
 		<task>
 			<statement>
 				<p>
-					When were the savings bonds worth $1,022.34?
+					Approximately when will the fee reach $50,000?
 				</p>
 			</statement>
 		</task>
 		<task>
 			<statement>
 				<p>
-					Approximately when were the savings bonds worth $1,500?
-				</p>
-			</statement>
-		</task>
-		<task  >
-			<statement>
-				<p>
-					What do you expect the savings bonds would be worth in 2020?
+					What do you guess the fee might be in 15 years?
 				</p>
 			</statement>
 		</task>
@@ -99,6 +84,7 @@
 				</p>
 			</statement>
 		</task>
+		
 	</exercise>
 </page>
 
@@ -744,6 +730,101 @@
 			<statement>
 				<p>
 					Use your graph to check your answers to the questions. Modify, if necessary.
+				</p>
+			</statement>
+		</task>
+	</exercise>
+
+	<exercise xml:id="grandfather-bonds-tables-graphs">
+		<introduction>
+			<p>
+				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 
+				The bonds continue to earn interest at a fixed rate so I have yet to cash them in. 
+				The table shows some values. 
+				<em>
+					(Story also appears in 
+					<xref ref="grandfather-bonds-modeling-linear" /> and 
+					<xref ref="grandfather-bonds-growth-factor" />)
+				</em>
+			</p>
+			<tabular bottom="minor" top="minor">
+				<row left="minor"  header="yes">
+					<cell right="minor"  halign="center">year</cell>
+					<cell right="minor"  halign="center">1962</cell>
+					<cell right="minor"  halign="center">1970</cell>
+					<cell right="minor"  halign="center">1980</cell>
+					<cell right="minor"  halign="center">1990</cell>
+					<cell right="minor"  halign="center">2000</cell>
+					<cell right="minor"  halign="center">2010</cell>
+				</row>
+				<row left="minor" >
+					<cell right="minor"  halign="center"><m>T</m></cell>
+					<cell right="minor"  halign="center">0</cell>
+					<cell right="minor"  halign="center">8</cell>
+					<cell right="minor"  halign="center">18</cell>
+					<cell right="minor"  halign="center">28</cell>
+					<cell right="minor"  halign="center">38</cell>
+					<cell right="minor"  halign="center">48</cell>
+				</row>
+				<row left="minor"  class="even">
+					<cell right="minor"  halign="center"><m>B</m></cell>
+					<cell right="minor"  halign="center">200.00</cell>
+					<cell right="minor"  halign="center">318.77</cell>
+					<cell right="minor"  halign="center">570.87</cell>
+					<cell right="minor"  halign="center">1,022.34</cell>
+					<cell right="minor"  halign="center">1,830.85</cell>
+					<cell right="minor"  halign="center">3,278.77</cell>
+				</row>
+			</tabular>
+		</introduction>
+		<task workspace="1.5cm">
+			<statement>
+				<p>
+					What do <m>T</m> and <m>B</m> stand for? 
+					Include the units and dependence.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					What were the savings bonds worth in 1970?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					When were the savings bonds worth $1,022.34?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Approximately when were the savings bonds worth $1,500?
+				</p>
+			</statement>
+		</task>
+		<task  >
+			<statement>
+				<p>
+					What do you expect the savings bonds would be worth in 2020?
+				</p>
+			</statement>
+		</task>
+		<task workspace="0cm">
+			<statement>
+				<p>
+					Graph the function using the information given in the table.
+				</p>
+				<xi:include href="../GraphPaper.ptx" />
+			</statement>
+		</task>
+		<task workspace="0cm">
+			<statement>
+				<p>
+					Use the graph to check your answers to the questions.
 				</p>
 			</statement>
 		</task>
