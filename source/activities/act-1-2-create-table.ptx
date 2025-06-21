@@ -3,7 +3,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-2-create-table">
     <statement>
         <p>
-            In the last section, we were thinking about filling up a rectangular fish tank; as time (measured in minutes) goes on, the water level (measured in inches) gets higher. 
+            At a local private college, the comprehensive fee is currently $64,000. The fee is projected to increase each year for the next several years.
         </p>
         <p>
             <ol marker="(a)">
@@ -41,15 +41,10 @@
                         Here is a bunch of information about the filling tank; your job is to organize it into a table like the one above.
                     </p>
                     <p>
-                        After 1 minute, the water level was at 6 inches; after 2 minutes, the water level was at 9 inches; the water level reached 11 inches after 3 minutes; when 4 minutes had elapsed, the water level was 14 inches; and the water level reached 16 inches after 5 minutes.
+                        In 2 years, the fee is projected to be $71,600. In 4 years, the fee will be $80,200. The fee will reach $89,700 in 6 years, and $100,500 in 8 years. In 10 years, the fee will rise to $112,500.
                     </p>
                     <p>
                         (Isn't it much nicer to organize this information in a table than it is to have it all in written words?)
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        What do you think the water level was at 0 minutes, when the hose was first turned on?
                     </p>
                 </li>
             </ol>

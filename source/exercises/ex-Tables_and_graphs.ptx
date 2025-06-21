@@ -9,9 +9,9 @@
 	<exercise xml:id="private-college-tables-graphs">
 		<introduction>
 			<p>
-				The comprehensive fee at a local private college is currently $37,000. The fee is projected to increase each year for the next several years according to the values in this table:
+				The comprehensive fee at a local private college is currently $64,000. The fee is projected to increase each year for the next several years according to the values in this table:
 			</p>
-			<!-- f(t) = 37000 * 1.058^{t}, rounded to nearest hundred -->
+			<!-- f(t) = 64000 * 1.058^{t}, rounded to nearest hundred -->
 			<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
 				<row left="minor">
 					<cell right="minor">Years</cell>
@@ -24,12 +24,12 @@
 				</row>
 				<row left="minor">
 					<cell right="minor">Fee</cell>
-					<cell right="minor">37,000</cell>
-					<cell right="minor">41,400</cell>
-					<cell right="minor">46,400</cell>
-					<cell right="minor">51,900</cell>
-					<cell right="minor">58,100</cell>
-					<cell right="minor">65,000</cell>
+					<cell right="minor">64,000</cell>
+					<cell right="minor">71,600</cell>
+					<cell right="minor">80,200</cell>
+					<cell right="minor">89,700</cell>
+					<cell right="minor">100,500</cell>
+					<cell right="minor">112,500</cell>
 				</row>
 			</tabular>
 		</introduction>
@@ -51,14 +51,14 @@
 		<task>
 			<statement>
 				<p>
-					When is the fee projected to be $46,400?
+					When is the fee projected to be $80,200?
 				</p>
 			</statement>
 		</task>
 		<task>
 			<statement>
 				<p>
-					Approximately when will the fee reach $50,000?
+					Approximately when will the fee reach $95,000?
 				</p>
 			</statement>
 		</task>
