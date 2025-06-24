@@ -196,7 +196,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Logistic_growth.ptx" />
+	<xi:include href="./exercises/ex-5-5-Logistic_growth.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

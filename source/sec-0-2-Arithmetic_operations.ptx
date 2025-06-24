@@ -94,7 +94,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Arithmetic_operations.ptx" />
+	<xi:include href="./exercises/ex-0-2-Arithmetic_operations.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

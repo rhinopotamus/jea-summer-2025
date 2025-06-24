@@ -78,7 +78,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Logarithms.ptx" />
+	<xi:include href="./exercises/ex-0-9-Logarithms.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

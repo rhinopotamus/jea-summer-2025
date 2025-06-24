@@ -168,7 +168,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Order_of_operations.ptx" />
+	<xi:include href="./exercises/ex-0-4-Order_of_operations.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

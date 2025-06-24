@@ -159,7 +159,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Exp_growth_decay.ptx" />
+	<xi:include href="./exercises/ex-5-2-Exp_growth_decay.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

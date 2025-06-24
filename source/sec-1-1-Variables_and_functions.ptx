@@ -167,7 +167,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Variables_and_functions.ptx" />
+	<xi:include href="./exercises/ex-1-1-Variables_and_functions.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

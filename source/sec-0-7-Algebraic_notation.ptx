@@ -48,7 +48,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Algebraic_notation.ptx" />
+	<xi:include href="./exercises/ex-0-7-Algebraic_notation.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
