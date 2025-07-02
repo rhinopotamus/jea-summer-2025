@@ -6,9 +6,17 @@
 	<title component="workbook">Rate of change - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			A diver bounces on a 3-meter springboard. Up she goes. A somersault, a twist, then whoosh, into the water. This table shows the diver's height as a function of time:
+			In this section we'll learn about the <term>rate of change</term>, which is a way to think about how fast variables are changing.
 		</p>
 
+		<xi:include href="./activities/oa-1-3-differences.ptx" />
+	</introduction>
+	<subsection component="not-workbook" xml:id="subsec-diver">
+		<title>The speed of a diver</title>
+		
+		<p>
+			A diver bounces on a 3-meter springboard. Up she goes. A somersault, a twist, then whoosh, into the water. This table shows the diver's height as a function of time:
+		</p>
 
 		<tabular bottom="minor" top="minor">
 			<row left="minor">
@@ -48,8 +56,15 @@
 			How fast is she moving? The diver starts at 3 meters, which is the height of the springboard, and 0.2 seconds later she's up to 3.88 meters. That means during the first 0.2 seconds, the diver went up <me>3.88-3 = 0.88 \text{ meters}</me> Her speed is <me>\frac{0.88 \text{ meters}}{0.2 \text{ seconds}} = 0.88 \div 0.2 = 4.4 \text{ meters/sec}</me>
 		</p>
 
+		<xi:include href="./activities/act-1-3-roc-8-15.ptx" />
+
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="subsec-different-speeds">
+		<title>Different speeds at different times</title>
+
 		<p>
-			What about during the next 0.2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these 0.2 seconds she rose <me>4.38-3.88 = 0.50 \text{ meters}</me> That's less than before (since <m>0.50 &lt; 0.88</m>), which means she is going slower. Let's double check by calculating her speed. <me>\frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> Yup, slower.
+			Back to the diver: What about during the next 0.2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these 0.2 seconds she rose <me>4.38-3.88 = 0.50 \text{ meters}</me> That's less than before (since <m>0.50 &lt; 0.88</m>), which means she is going slower. Let's double check by calculating her speed. <me>\frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> Yup, slower.
 		</p>
 
 		<p>
@@ -63,12 +78,11 @@
 		</p>
 
 		<p>
-			In our story, we calculated the speed of the diver. In general, that number is the <term>rate of change</term> of the function over that interval of values.
+			In our story, we calculated two different speeds of the diver at two different times. Even though we got different numbers, we used the same formula to figure out her speed. In general, the result of this formula is called the <term>rate of change</term> of the function over that interval of values.
 		</p>
 
 		<assemblage xml:id="rate-of-change">
 			<title>Rate of Change Formula</title>
-			
 			
 			<p>
 				<me>\text{rate of change } = \frac{\text{change dep}}{\text{change indep}} = \frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}}</me>
@@ -85,6 +99,14 @@
 			</p>
 		</assemblage>
 
+		<xi:include href="./activities/act-1-3-roc-15-40.ptx" />
+
+
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="subsec-even-more-diver">
+		<title>Even more speeds for the diver</title>
+
 		<p>
 			Back to our diver. During the next time interval she's moving even slower. <me>\text{speed} = \frac{4.48-4.38 \text{ meters}}{0.6-0.4 \text{ seconds}}= \frac{0.1 \text{ meters}}{0.2 \text{ seconds}} = 0.1 \div 0.2 = 0.5 \text{ meters/sec.}</me> And look what happens when we calculate her speed during the next time interval. <me>\text{speed} = \frac{4.20-4.48 \text{ meters}}{0.8-0.6 \text{ seconds}} =  \frac{-0.28 \text{ meters}}{0.2 \text{ seconds}} = \text{(-)}0.28 \div 0.2 = -1.4 \text{ meters/sec}</me> What does a negative speed mean? During this time interval her height drops. She's headed down towards the water. Her speed is 1.4 meters/sec downward. The negative tells us her height is falling. What goes up, must come down. Sure enough.
 		</p>
@@ -95,7 +117,7 @@
 		</p>
 
 		<p>
-			Here are the speeds included in our table.
+			Here are all the diver's speeds included in our table.
 		</p>
 
 	<tabular bottom="minor" top="minor"> 
@@ -226,8 +248,13 @@
 			</row>
 		</tabular> -->
 
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="subsec-">
+		<title>Rate of change on graphs</title>
+		
 		<p>
-			Let's graph our function. Notice that time is on the horizontal axis because it's the independent variable and height is on the vertical axis because it's our dependent variable: height depends on time.
+			Let's graph our diver's heights. Notice that time is on the horizontal axis because it's the independent variable and height is on the vertical axis because it's our dependent variable: height depends on time.
 		</p>
 
 
@@ -244,17 +271,24 @@
 		</p>
 
 		<p>
-			We notice the same connection between the rate of change and steepness of the curve for the downhill portion, only this time all the rates of change are negative. The first downhill segment is not very steep and the rate of change is -1.4 meters/sec there. The next downhill segment has rate of change -3.4 meters/sec and the graph is steeper. The next two downhill segments are steeper and steeper yet and this time with rates of change -5.35 and -7.25 meters/sec.
+			We notice the same connection between the rate of change and steepness of the curve for the downhill portion, only this time all the rates of change are negative. The first downhill segment is not very steep and the rate of change is just -1.4 meters/sec there. The next downhill segment has rate of change -3.4 meters/sec and the graph is steeper. The next two downhill segments are steeper and steeper yet and this time with rates of change -5.35 and -7.25 meters/sec.
 		</p>
 
+		<xi:include href="./activities/act-1-3-graphing.ptx" />
+
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="subsec-inc-dec">
+		<title>Increasing and decreasing</title>
+		
 		<p>
-			A little more vocabulary here. For the uphill portion of the graph, from 0 to just before 0.6 seconds, the rate of change is positive. The function is <term>increasing</term> there: as the independent variable gets larger, so does the dependent variable. After about 0.6 seconds, the graph is downhill and the rate of change is negative. The function is <term>decreasing</term> there: as the independent variable gets larger, the dependent variable gets smaller.
+			A little more vocabulary here. For the uphill portion of the diver's height graph, from 0 to just before 0.6 seconds, the rate of change is positive. The function is <term>increasing</term> there: as the independent variable gets larger, so does the dependent variable. After about 0.6 seconds, the graph is downhill and the rate of change is negative. The function is <term>decreasing</term> there: as the independent variable gets larger, the dependent variable gets smaller.
 		</p>
 
 		<p>
 			When does the diver's height stop increasing and start decreasing? When she's at the highest height, some time just before 0.6 seconds into her dive. Before then her rate of change is positive. After that time her rate of change is negative. So, at the highest height her rate of change is probably equal to zero. Does that make sense? Think about watching a diver on film in very slow motion. Up, up she goes, then almost a pause at the top, and then down, down, into the water. At the top of her dive it's as if she stands still for an instant. That would correspond to zero speed.
 		</p>
-	</introduction>
+	</subsection>
 
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
@@ -266,7 +300,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Rate_of_change.ptx" />
+	<xi:include href="./exercises/ex-1-3-Rate_of_change.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

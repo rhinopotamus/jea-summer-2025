@@ -62,7 +62,7 @@
 	</conclusion>
 
 
-	<xi:include href="./exercises/ex-Approximation_and_rounding.ptx" />
+	<xi:include href="./exercises/ex-0-1-Approximation_and_rounding.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

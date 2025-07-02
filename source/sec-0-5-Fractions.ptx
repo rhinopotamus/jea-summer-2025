@@ -80,7 +80,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Fractions.ptx" />
+	<xi:include href="./exercises/ex-0-5-Fractions.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

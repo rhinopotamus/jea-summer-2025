@@ -161,7 +161,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Linear_vs_exponential.ptx" />
+	<xi:include href="./exercises/ex-5-4-Linear_vs_exponential.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

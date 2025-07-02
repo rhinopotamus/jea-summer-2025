@@ -80,7 +80,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Powers_and_roots.ptx" />
+	<xi:include href="./exercises/ex-0-6-Powers_and_roots.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		

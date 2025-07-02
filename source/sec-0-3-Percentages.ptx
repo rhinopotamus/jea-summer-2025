@@ -40,7 +40,7 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-Percentages.ptx" />
+	<xi:include href="./exercises/ex-0-3-Percentages.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
