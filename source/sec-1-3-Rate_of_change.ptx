@@ -11,7 +11,7 @@
 
 		<xi:include href="./activities/oa-1-3-differences.ptx" />
 	</introduction>
-	<subsection component="not-workbook" xml:id="subsec-diver">
+	<subsection component="not-workbook" xml:id="ss-1-3-diver">
 		<title>The speed of a diver</title>
 		
 		<p>
@@ -60,7 +60,7 @@
 
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-different-speeds">
+	<subsection component="not-workbook" xml:id="ss-1-3-different-speeds">
 		<title>Different speeds at different times</title>
 
 		<p>
@@ -104,7 +104,7 @@
 
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-even-more-diver">
+	<subsection component="not-workbook" xml:id="ss-1-3-even-more-diver">
 		<title>Even more speeds for the diver</title>
 
 		<p>
@@ -250,7 +250,7 @@
 
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-">
+	<subsection component="not-workbook" xml:id="ss-1-3-roc-graphs">
 		<title>Rate of change on graphs</title>
 		
 		<p>
@@ -278,7 +278,7 @@
 
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-inc-dec">
+	<subsection component="not-workbook" xml:id="ss-1-3-inc-dec">
 		<title>Increasing and decreasing</title>
 		
 		<p>

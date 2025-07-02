@@ -29,7 +29,7 @@
 		<xi:include href="./activities/oa-1-1-quantities.ptx" />
 	</introduction>
 
-	<subsection component="not-workbook" xml:id="subsec-gasoline">
+	<subsection component="not-workbook" xml:id="ss-1-1-gasoline">
 		<title>The changing cost of gasoline</title>
 		
 		<p>
@@ -57,7 +57,7 @@
 		</p>
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-1-1-Variables">
+	<subsection component="not-workbook" xml:id="ss-1-1-variables">
 		<title>Naming variables</title>
 		
 		<p>
@@ -76,7 +76,7 @@
 		<xi:include href="./activities/act-1-1-naming-variables.ptx" />
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-dependence">
+	<subsection component="not-workbook" xml:id="ss-1-1-dependence">
 		<title>Independent and dependent variables</title>
 
 		<p>
@@ -104,7 +104,7 @@
 
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-domain">
+	<subsection component="not-workbook" xml:id="ss-1-1-domain">
 		<title>Domain</title>
 		
 		<p>
@@ -123,7 +123,7 @@
 		<xi:include href="./activities/act-1-1-domain.ptx" />
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-constants">
+	<subsection component="not-workbook" xml:id="ss-1-1-constants">
 		<title>Constants</title>
 
 		<p>
@@ -133,7 +133,7 @@
 		<xi:include href="./activities/act-1-1-constants.ptx" />
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-percents">
+	<subsection component="not-workbook" xml:id="ss-1-1-percents">
 		<title>Percents</title>
 		
 		<p>

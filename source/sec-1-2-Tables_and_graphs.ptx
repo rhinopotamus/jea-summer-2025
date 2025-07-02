@@ -12,7 +12,7 @@
 	</introduction>
 	
 
-	<subsection component="not-workbook" xml:id="subsec-smoking-rates">
+	<subsection component="not-workbook" xml:id="ss-1-2-smoking-rates">
 		<title>Smoking rates</title>
 		
 		<p>
@@ -91,7 +91,7 @@
 		</p>
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-labeling-variables">
+	<subsection component="not-workbook" xml:id="ss-1-2-labeling-variables">
 		<title>Labeling variables in a table</title>
 		
 		<p>
@@ -201,7 +201,7 @@
 
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-graphs">
+	<subsection component="not-workbook" xml:id="ss-1-2-graphs">
 		<title>Graphs</title>
 		
 		<p>
@@ -236,7 +236,7 @@
 		</p>
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-scaling">
+	<subsection component="not-workbook" xml:id="ss-1-2-scaling">
 		<title>Scaling</title>
 
 		<p>
@@ -264,7 +264,7 @@
 
 	</subsection>
 
-	<subsection component="not-workbook" xml:id="subsec-plotting-points">
+	<subsection component="not-workbook" xml:id="ss-1-2-plotting-points">
 		<title>Plotting points</title>
 
 		<p>
