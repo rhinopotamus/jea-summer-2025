@@ -1,9 +1,0 @@
-{
-    "xml.fileAssociations": [
-        {
-            "pattern": "**/source/**.ptx",
-<<<<<<< HEAD
-            "systemId": "c:\\Users\\calibaan\\.vscode\\extensions\\oscarlevin.pretext-tools-0.32.2\\assets\\schema\\pretext.rng"
-        }
-    ]
-}
