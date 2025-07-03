@@ -76,6 +76,8 @@
 				<cell right="minor">325</cell>
 			</row>
 		</tabular>
+
+		<xi:include href="./activities/act-2-1-compute-truck.ptx" />
 	</subsection>
 
 	<subsection component="not-workbook" xml:id="ss-2-1-generalizing">
@@ -104,11 +106,14 @@
 		<p>
 			Using our equation we get <me>P = 100 + 75\ast 0.4166 = 100 + 75 \times {0.4166} = 131.245 \approx \$131.25.</me> It was important that we rounded off our final answer because we had rounded off to get 0.4166 along the way. We could have done the entire calculation at once (avoiding the round off error) as <me>100 + 75 \times 25 \div 60 =131.25</me> Either way, we owe the plumber $131.25.
 		</p>
+	</subsection>
+
+	<subsection xml:id="ss-2-1-graphing-linear">
+		<title>Graphing linear functions</title>
 
 		<p>
-			If we plot the points from the table of values in a graph, we see that the points lie on a straight line. In Chapter 1 we highlighted the points from our table on the graph. It is more common to just show the smooth curve or line.
+			Why are these kinds of functions called <q>linear</q>, anyway? Good question. Turns out that any time we have a linear function, if we plot the points from the table of values in a graph, we see that the points lie on a straight line. In Chapter 1 we highlighted the points from our table on the graph. It is more common to just show the smooth curve or line.
 		</p>
-
 
 		<p>
 			<image source='plumber.png'/>
@@ -118,8 +123,17 @@
 			Why is the graph a straight line? Remember that the <xref ref="rate-of-change" text="custom">rate of change</xref> tells us how steep the graph is. For example, let's find the rate of change between 1 hour and 2 hours. <me>\text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$250 - \$175}{2 \text{ hours} - 1 \text{ hour}} = \frac{\$75}{1 \text{ hour}} = \$75 \text{ per hour}</me> Sure! We knew that. The plumber charges an extra $75 for each extra hour he works. The rate of change is precisely $75/hour, no matter where we calculate it. Since the rate of change is constant, the graph is the same steepness everywhere. So, the graph is a straight line, and the function is <term>linear</term>. Another way to say this is a function with constant rate of change is <term>linear</term>. The plumber's total charge is a linear function of time.
 		</p>
 
+	</subsection>
+
+	<subsection xml:id="ss-2-1-linear-eq-template">
+		<title>A template for a linear equation</title>
+		
 		<p>
-			Look back at our equation. <me>P = 100 + 75T</me> Any linear equation fits this template.
+			Here are like 27 words about what a template is.
+		</p>
+
+		<p>
+			Look back at our equation for the plumber's total charge. <me>P = 100 + 75T</me> Any linear equation fits this template.
 		</p>
 
 		<assemblage xml:id="linear-eq-template">
@@ -136,7 +150,7 @@
 		</p>
 
 		<p>
-			The second constant is 75, and though it's tempting to say it is measured in dollars, it is really measured in $ per hour. This number is the rate of change, and in the context of linear equations it gets its own name too: it's called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
+			The second constant is 75, and though it's tempting to say it is measured in dollars, it is really measured in dollars per hour (<m>\frac{\text{\$}}{\text{hour}}</m>). This number is the rate of change, and in the context of linear equations it gets its own name too: it's called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
 		</p>
 	</subsection>
 
