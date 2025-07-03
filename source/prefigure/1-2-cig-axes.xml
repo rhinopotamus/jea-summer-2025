@@ -19,29 +19,22 @@
       v-frame="left"
       hlabels="(0,10,130)"
       vlabels="no"
-      spacings="((0,5,130),(0,250,4500))"
-    />
+      spacings="((0,5,130),(0,250,4500))">
+      <ylabel
+        offset="(-75,-150)"
+        rotate="90"
+        scale="1.2">
+        S = cigarettes per year per person
+      </ylabel>
+      <xlabel 
+        offset="(-350,-40)" 
+        scale="1.2"> 
+        Y = years since 1900 
+      </xlabel>
+    </grid-axes>
     <repeat parameter="k=0..9">
       <label anchor="(-1.5,500*k)" alignment="w">
         <m>${labels[k]}</m>
-      </label>
-    </repeat>
-    <!-- vlabels="(0,500,4500)" -->
-    <label 
-      anchor="(-20, 2250)" 
-      alignment="center"
-      rotate="90"
-      scale="1.2">
-      S = cigarettes per year per person
-    </label>
-    <label 
-      anchor="(65, -600)" 
-      alignment="center"
-      scale="1.2"> 
-      Y = years since 1900 
-    </label>
-    <repeat parameter="k=0..4">
-      <label>
       </label>
     </repeat>
   </coordinates>
