@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-2-1-plumber-quantities">
-    <p>
-        Plumbers usually charge a <em>trip charge</em> <mdash /> which is a set amount to cover their travel time and their professional expertise <mdash /> and then an <em>hourly rate</em> to cover the amount of time they spend working on your sink. The longer it takes them to repair your sink, the more your final bill will be.
-    </p>
-    <exercise xml:id="plumber-quantities-const-var" label="plumber-quantities-const-var">
+    <introduction>
+        <p>
+            Plumbers usually charge a <em>trip charge</em> <mdash /> which is a set amount to cover their travel time and their professional expertise <mdash /> and then an <em>hourly rate</em> to cover the amount of time they spend working on your sink. The longer it takes them to repair your sink, the more your final bill will be.
+        </p>
+    </introduction>
+    <task xml:id="plumber-quantities-const-var" label="plumber-quantities-const-var">
         <statement>
             <p>
-                Say you have chosen a particular plumber. Which of these quantities are constants and which are variables?
+                Say you have picked a specific plumber. Which of these quantities are constants, and which are variables?
             </p>
         </statement>
         <cardsort>
@@ -22,8 +24,8 @@
                 <response>Variable</response>
             </match>
         </cardsort>
-    </exercise>
-    <exercise xml:id="plumber-quantities-units" label="plumber-quantities-units">
+    </task>
+    <task xml:id="plumber-quantities-units" label="plumber-quantities-units">
         <statement>
             <p>
                 Match each of these quantities with its units. Note: Some quantities in this story have the same units!
@@ -37,12 +39,13 @@
             </match>
             <match>
                 <premise>Work time</premise>
-                <response>Hours</response>
+                <response>hours</response>
             </match>
             <match>
                 <premise>Hourly rate</premise>
-                <response><m>\dfrac{\text{$}}{\text{hour}}</m></response>
+                <response><m>\dfrac{\text{\$}}{\text{hour}}</m></response>
             </match>
         </cardsort>
-    </exercise>
+    </task>
+
 </exploration>
