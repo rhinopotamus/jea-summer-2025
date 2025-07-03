@@ -6,15 +6,43 @@
 	<title component="workbook">A first look at linear equations - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			You're expecting family for dinner in a few hours and, wouldn't you know it, but your kitchen sink is clogged. The bottle of drain opener didn't clear it out. Your brother-in-law has offered to help, but last time he tried he only made it worse. The plumber will charge you $100 just to come to your house. In addition, there will be a charge of $75 per hour for the service. If you decide to call the plumber, what will it cost?
+			You're expecting family for dinner in a few hours and, wouldn't you know it, but your kitchen sink is clogged. The bottle of drain opener didn't clear it out. Your brother-in-law has offered to help, but last time he tried he only made it worse. If you decide to call the plumber, what will it cost?
+		</p>
+
+		<xi:include href="./activities/oa-2-1-plumber-quantities.ptx" />
+
+	</introduction>
+
+	<subsection component="not-workbook" xml:id="ss-2-1-calculating-costs">
+		<title>Calculating what the plumber costs</title>
+
+		<p>
+			You looked up a local plumber and asked about his rates. The plumber will charge you $100 just to come to your house. In addition, there will be a charge of $75 per hour for the service.
+		</p>
+			
+		<p>
+			For example, if the plumber takes one hour, then he'll charge you $100 for showing up and $75 for the one hour of work. So, the total plumber's bill will be 
+			<me>100 + 75 = \$175</me> 
 		</p>
 
 		<p>
-			For example, if the plumber takes one hour, then he'll charge you $100 for showing up and $75 for the one hour of work. So, the total plumber's bill will be <me>100 + 75 = \$175</me> For two hours, there's still the $100 charge, but also $75 for each of the two hours. That's an additional charge of <me>2 \text{ hours} \ast \frac{\$75}{\text{hour}} =2 \times 75= \$150</me> So, the total plumber's bill will be <me>\$100 + \$150 = \$250</me> Try this calculation all at once. <me>\$100 + 2 \text{ hours} \ast \frac{\$75}{\text{hour}} = 100 + 2 \times 75 = \$250</me> Let's hope it wouldn't take the plumber as long as three hours, but if it did, we can do a similar calculation. Add the fixed charge of $100 to the additional charge of $75 for each of the three hours. The plumber's bill would be <me>\$100 + 3 \text{ hours} \ast \frac{\$75}{\text{hour}} = 100 + 3 \times 75 = \$325</me>
+			For two hours, there's still the $100 charge, but also $75 for each of the two hours. That's an additional charge of 
+			<me>2 \text{ hours} \ast \frac{\$75}{\text{hour}} =2 \times 75= \$150</me> 
+			So, the total plumber's bill will be 
+			<me>\$100 + \$150 = \$250</me> 
+			Try this calculation all at once. 
+			<me>\$100 + 2 \text{ hours} \ast \frac{\$75}{\text{hour}} = 100 + 2 \times 75 = \$250</me> 
 		</p>
 
 		<p>
-			What would it cost if the plumber takes only <m>\frac{1}{2}</m> hour? The plumber's bill would be <me>\$100 + \frac{1}{2} \text{ hours} \ast \frac{\$75}{\text{hour}} =100 + 0.5 \times 75  = \$100 + \$37.50 = \$137.50</me> Notice we used <m>\frac{1}{2}=1 \div 2 = 0.5</m>. Bet you knew that.
+			Let's hope it wouldn't take the plumber as long as three hours, but if it did, we can do a similar calculation. Add the trip charge of $100 to the additional charge of $75 for each of the three hours. The plumber's bill would be 
+			<me>\$100 + 3 \text{ hours} \ast \frac{\$75}{\text{hour}} = 100 + 3 \times 75 = \$325</me>
+		</p>
+
+		<p>
+			What would it cost if the plumber takes only <m>\frac{1}{2}</m> hour? The plumber's bill would be 
+			<me>\$100 + \frac{1}{2} \text{ hours} \ast \frac{\$75}{\text{hour}} =100 + 0.5 \times 75  = \$100 + \$37.50 = \$137.50</me> 
+			Notice we used <m>\frac{1}{2}=1 \div 2 = 0.5</m>. Bet you knew that.
 		</p>
 
 		<p>
@@ -27,28 +55,31 @@
 				<mrow>T \amp= \text{ time plumber takes (hours) } \sim \text{ indep} </mrow>
 				<mrow>P \amp= \text{ total plumber's charge (\$) } \sim \text{ dep} </mrow>
 			</md>
-			Look at the the relationship between <m>T</m> and <m>P</m> by making a table to describe how the plumber's bill is a function of the time.
+			Let's summarize our calculations about <m>T</m> and <m>P</m> by making a table to describe how the plumber's bill is a function of his work time.
 		</p>
 
-
-		<tabular bottom="minor" top="minor">
+		<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
 			<row left="minor">
-				<cell right="minor" halign="center"><m>T</m></cell>
-				<cell right="minor" halign="center">0</cell>
-				<cell right="minor" halign="center">0.5</cell>
-				<cell right="minor" halign="center">1</cell>
-				<cell right="minor" halign="center">2</cell>
-				<cell right="minor" halign="center">3</cell>
+				<cell right="minor"><m>T</m></cell>
+				<cell right="minor">0</cell>
+				<cell right="minor">0.5</cell>
+				<cell right="minor">1</cell>
+				<cell right="minor">2</cell>
+				<cell right="minor">3</cell>
 			</row>
 			<row left="minor">
-				<cell right="minor" halign="center"><m>P</m></cell>
-				<cell right="minor" halign="center">100</cell>
-				<cell right="minor" halign="center">137.50</cell>
-				<cell right="minor" halign="center">175</cell>
-				<cell right="minor" halign="center">250</cell>
-				<cell right="minor" halign="center">325</cell>
+				<cell right="minor"><m>P</m></cell>
+				<cell right="minor">100</cell>
+				<cell right="minor">137.50</cell>
+				<cell right="minor">175</cell>
+				<cell right="minor">250</cell>
+				<cell right="minor">325</cell>
 			</row>
 		</tabular>
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="ss-2-1-generalizing">
+		<title>Making our calculations more general</title>
 
 		<p>
 			Each time we knew how long the plumber spent and calculated the plumber's bill <m>P</m> by starting with the trip charge of $100 and adding in $75 times the number of hours. For example, for 3 hours we calculated <me>\$100 + 3 \text{ hours} \ast \frac{\$75}{\text{hour}} = \$325</me> We have a name for the number of hours in general; it is <m>T</m>. So for <m>T</m> hours, we would calculate <me>\$100 + T \text{ hours} \ast \frac{\$75}{\text{hour}}=P</me> See how we just put the <m>P</m> in for $325 and <m>T</m> where the 3 hours was? We're just generalizing from our example. Drop the units and we have our equation. If the plumber works for <m>T</m> hours, then the cost is $<m>P</m> where <me>P = 100 + T \ast 75</me> We started the equation <q><m>P=</m></q> because it is a convention to begin equations with the dependent variable, when possible.
@@ -67,7 +98,7 @@
 		</p>
 
 		<p>
-			Suppose the plumber shows up at your house and fixed the sink in 25 minutes. Whew! No sooner do you pay your bill than your first dinner guest arrives. How much do you owe the plumber? Notice that <me>25 \text{ minutes} \ast \frac{1 \text{ hour}}{60 \text{ minutes}} = 25 \div 60 = 0.4166666\ldots \text{ hours}</me> Therefore for 25 minutes we have <m>T \approx 0.4166 \text{ hours}</m>.
+			Suppose the plumber shows up at your house and repaired the sink in 25 minutes. Whew! No sooner do you pay your bill than your first dinner guest arrives. How much do you owe the plumber? Notice that <me>25 \text{ minutes} \ast \frac{1 \text{ hour}}{60 \text{ minutes}} = 25 \div 60 = 0.4166666\ldots \text{ hours}</me> Therefore for 25 minutes we have <m>T \approx 0.4166 \text{ hours}</m>.
 		</p>
 
 		<p>
@@ -101,13 +132,14 @@
 		</assemblage>
 
 		<p>
-			Notice our two variables are in our equation and there are two <term>constants</term>. Each constant has its own meaning. The first constant is 100 and it is measured in dollars. It is the trip charge, the fixed amount we would owe the plumber even if he does 0 hours work. In our standard form we refer to this quantity as the <term>starting value</term> (or <term>start</term> for short), but its official name is <term>intercept</term>. On the graph it's where the line crosses the vertical axis. Think of a football player (running along the vertical axis) intercepting a pass (coming in the line). We can find the intercept from our equation by plugging in <m>T = 0</m> so that <me>P = 100 + 75 \times 0 = 100</me>
+			Notice our two variables are in our equation and there are two <term>constants</term>. Each constant has its own meaning. The first constant is 100 and it is measured in dollars. It is the trip charge, the set amount we would owe the plumber even if he does 0 hours work. In our standard form we refer to this quantity as the <term>starting value</term> (or <term>start</term> for short), but its official name is <term>intercept</term>. On the graph it's where the line crosses the vertical axis. Think of a football player (running along the vertical axis) intercepting a pass (coming in the line). We can find the intercept from our equation by plugging in <m>T = 0</m> so that <me>P = 100 + 75 \times 0 = 100</me>
 		</p>
 
 		<p>
 			The second constant is 75, and though it's tempting to say it is measured in dollars, it is really measured in $ per hour. This number is the rate of change, and in the context of linear equations it gets its own name too: it's called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
 		</p>
-	</introduction>
+	</subsection>
+
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
 

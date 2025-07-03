@@ -112,7 +112,7 @@
 
 		<xi:include href="./activities/act-1-4-decimal-parts.ptx" />
 
-		<subsection xml:id="ss-1-4-units-rounding">
+		<subsection component="not-workbook" xml:id="ss-1-4-units-rounding">
 			<title>Aside: Rounding</title>
 			
 			<p>
