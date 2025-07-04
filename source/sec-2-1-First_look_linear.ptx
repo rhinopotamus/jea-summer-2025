@@ -99,6 +99,8 @@
 			If you wanted to write the equation as <me>P = 75T + 100,</me> that would be okay too. We can add the $100 trip charge first, like we did in our examples, or at the end. Same answer.
 		</p>
 
+		<xi:include href="./activities/act-2-1-equation-truck.ptx" />
+
 		<p>
 			Suppose the plumber shows up at your house and repaired the sink in 25 minutes. Whew! No sooner do you pay your bill than your first dinner guest arrives. How much do you owe the plumber? Notice that <me>25 \text{ minutes} \ast \frac{1 \text{ hour}}{60 \text{ minutes}} = 25 \div 60 = 0.4166666\ldots \text{ hours}</me> Therefore for 25 minutes we have <m>T \approx 0.4166 \text{ hours}</m>.
 		</p>
@@ -108,7 +110,7 @@
 		</p>
 	</subsection>
 
-	<subsection xml:id="ss-2-1-graphing-linear">
+	<subsection component="not-workbook" xml:id="ss-2-1-graphing-linear">
 		<title>Graphing linear functions</title>
 
 		<p>
@@ -131,11 +133,19 @@
 
 	</subsection>
 
-	<subsection xml:id="ss-2-1-linear-eq-template">
+	<subsection component="not-workbook" xml:id="ss-2-1-linear-eq-template">
 		<title>A template for linear functions</title>
 		
 		<p>
 			Here are like 27 words about what a "template" is. Idk, man, it's like, a pattern that you can follow to quickly write down an example of something.
+			<aside>
+				<p>
+					Here is an example of a template that helps artists draw shapes quickly and accurately.
+				</p>
+				<image source="template.png">
+					<shortdescription>A template made of orange plastic with many little cutouts of different geometric shapes.</shortdescription>
+				</image>
+			</aside>
 		</p>
 
 		<p>
@@ -158,6 +168,8 @@
 		<p>
 			The second constant is 75, and though it's tempting to say it is measured in dollars, it is really measured in dollars per hour (<m>\frac{\text{\$}}{\text{hour}}</m>). This number is the rate of change, and in the context of linear equations it gets its own name too: it's called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
 		</p>
+
+		<xi:include href="./activities/act-2-1-constants-truck.ptx" />
 	</subsection>
 
 	<conclusion component="not-workbook">
