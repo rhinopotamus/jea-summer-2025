@@ -116,6 +116,10 @@
 		</p>
 
 		<p>
+			Here is a graph of the points from the plumber's charge function.
+		</p>
+
+		<p>
 			<image source='plumber.png'/>
 		</p>
 
@@ -123,13 +127,15 @@
 			Why is the graph a straight line? Remember that the <xref ref="rate-of-change" text="custom">rate of change</xref> tells us how steep the graph is. For example, let's find the rate of change between 1 hour and 2 hours. <me>\text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$250 - \$175}{2 \text{ hours} - 1 \text{ hour}} = \frac{\$75}{1 \text{ hour}} = \$75 \text{ per hour}</me> Sure! We knew that. The plumber charges an extra $75 for each extra hour he works. The rate of change is precisely $75/hour, no matter where we calculate it. Since the rate of change is constant, the graph is the same steepness everywhere. So, the graph is a straight line, and the function is <term>linear</term>. Another way to say this is a function with constant rate of change is <term>linear</term>. The plumber's total charge is a linear function of time.
 		</p>
 
+		<xi:include href="./activities/act-2-1-graph-truck.ptx" />
+
 	</subsection>
 
 	<subsection xml:id="ss-2-1-linear-eq-template">
-		<title>A template for a linear equation</title>
+		<title>A template for linear functions</title>
 		
 		<p>
-			Here are like 27 words about what a template is.
+			Here are like 27 words about what a "template" is. Idk, man, it's like, a pattern that you can follow to quickly write down an example of something.
 		</p>
 
 		<p>

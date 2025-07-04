@@ -34,13 +34,13 @@
                 </p>
                 <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
                     <row left="minor">
-                        <cell right="minor"><fillin characters="3"/></cell>
+                        <cell right="minor"><fillin characters="3"/> (indep)</cell>
                         <cell right="minor">1,000</cell>
                         <cell right="minor"><fillin characters="5" /></cell>
                         <cell right="minor"><fillin characters="5" /></cell>
                     </row>
                     <row left="minor">
-                        <cell right="minor"><fillin characters="3"/></cell>
+                        <cell right="minor"><fillin characters="3"/> (dep)</cell>
                         <cell right="minor">8,100</cell>
                         <cell right="minor"><fillin characters="5" /></cell>
                         <cell right="minor"><fillin characters="5" /></cell>
