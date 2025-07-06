@@ -2,11 +2,9 @@
          dimensions="(500,300)" 
          margins="(60,30,15,15)">
   <read name="df" filename="1-2-cig-data.csv"/>
-  <read name="bspline" filename="1-2-cig-bspline.csv"/>
   <definition>small_x=filter(df, 'Year', 'small', 'yes')</definition>
   <definition>small_y=filter(df, 'Smoking rate', 'small', 'yes')</definition>
   <definition>small=zip_lists(small_x, small_y)</definition>
-  <definition>bsp_points=zip_lists(bspline['year'],bspline['bspline'])</definition>
   <coordinates bbox="(0,-0.1,130,4500)">
     <grid-axes
       vticks="(0,250,4500)"
@@ -19,7 +17,7 @@
       xlabel="Y"
       ylabel="S"
     />
-    <spline points="small" stroke="red" bc_type="natural" />
+    <spline points="small" stroke="red" bc-type="clamped" />
     <scatter points="small" fill="blue" />
 
   </coordinates>
