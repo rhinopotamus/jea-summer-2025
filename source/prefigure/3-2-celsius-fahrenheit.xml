@@ -1,0 +1,20 @@
+<diagram dimensions="(400,200)" margins="(50,30,20,10)">
+  <definition>F(C)=1.8*C+32</definition>  
+  <coordinates bbox="(0,0,250,500)">
+    <grid-axes 
+      xlabel="C"
+      ylabel="F" 
+      spacings="((0,10,250),(0,50,500))"
+      hticks="(0,50,250)"
+      hlabels="(0,50,250)"
+      vticks="(0,100,500)"
+      vlabels="(0,100,500)"
+      h-zero-label="yes"
+      v-zero-label="yes"
+    />
+    <!-- should probably be grouped for outlining: -->
+    <graph function="F"/>
+    <line endpoints="((163,325),(190,375))"
+          thickness="10" />
+  </coordinates>
+</diagram>

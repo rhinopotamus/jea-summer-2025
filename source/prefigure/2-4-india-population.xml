@@ -1,0 +1,17 @@
+<diagram dimensions="(400,200)" margins="(50,30,20,10)">
+  <definition>P(t)=1.205*1.0131^t</definition>  
+  <coordinates bbox="(0,0,50,2.5)">
+    <grid-axes 
+      xlabel="Y"
+      ylabel="P" 
+      spacings="((0,2.5,50),(0,0.25,2.5))"
+      hticks="(0,2.5,50)"
+      hlabels="(0,5,50)"
+      vticks="(0,0.5,2.5)"
+      vlabels="(0,0.5,2.5)"
+      h-zero-label="yes"
+      v-zero-label="yes"
+    />
+    <graph function="P"/>
+  </coordinates>
+</diagram>

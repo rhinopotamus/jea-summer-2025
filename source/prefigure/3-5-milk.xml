@@ -1,0 +1,17 @@
+<diagram dimensions="(400,200)" margins="(50,30,20,10)">
+  <definition>P(M)=-2*M^2+2000*M-80000</definition>  
+  <coordinates bbox="(0,-100000,1000,50000)">
+    <grid-axes 
+      xlabel="M"
+      ylabel="P" 
+      spacings="((0,50,1000),(-100000,50000,500000))"
+      vticks= "(-100000,100000,500000)"
+      vlabels="(-100000,100000,500000)"
+      hticks= "(0,100,1000)"
+      hlabels="(0,100,1000)"
+      h-zero-label="yes"
+      v-zero-label="yes"
+    />
+    <graph function="P"/>
+  </coordinates>
+</diagram>
