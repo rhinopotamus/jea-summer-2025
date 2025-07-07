@@ -34,20 +34,22 @@
 				<stack>
 					<p>Cupcake prices</p>
 					<!-- $1.69 per cupcake -->
-					<p><tabular bottom="minor" top="minor">
-						<row left="minor" class="even">
-							<cell right="minor" halign="left">Servings</cell>
-							<cell right="minor" halign="center">12</cell>
-							<cell right="minor" halign="center">24</cell>
-							<cell right="minor" halign="center">48</cell>
-						</row>
-						<row left="minor">
-							<cell right="minor" halign="left">Cost</cell>
-							<cell right="minor" halign="center">$20.28</cell>
-							<cell right="minor" halign="center">$40.56</cell>
-							<cell right="minor" halign="center">$81.12</cell>
-						</row>
-					</tabular></p>
+					<p>
+						<tabular bottom="minor" top="minor" row-headers="yes" halign="center">
+							<row left="minor">
+								<cell right="minor">Servings</cell>
+								<cell right="minor">12</cell>
+								<cell right="minor">24</cell>
+								<cell right="minor">48</cell>
+							</row>
+							<row left="minor">
+								<cell right="minor">Cost</cell>
+								<cell right="minor">$20.28</cell>
+								<cell right="minor">$40.56</cell>
+								<cell right="minor">$81.12</cell>
+							</row>
+						</tabular>
+					</p>
 				</stack>
 			</sidebyside>
 		</introduction>
