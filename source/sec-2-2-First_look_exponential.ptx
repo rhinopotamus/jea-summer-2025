@@ -4,7 +4,14 @@
 <section xml:id="sec-2-2-First_look_exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">A first look at exponential equations</title>
 	<title component="workbook">A first look at exponential equations - Practice exercises</title>
-	<introduction component="not-workbook">
+	<introduction>
+		<p>
+			Linear functions arise naturally whenever we think of <em>constant</em> growth. In this section we'll think about another very common type of function which arises naturally whenever we think of <em>percent</em> growth. 
+
+			<xi:include href="./activities/oa-2-2-percents.ptx" />
+		</p>
+	</introduction>
+	<subsection component="not-workbook">
 		<p>
 			Jocelyn got a job right out of college, as an administrative assistant earning $28,000 a year. The position turned out to be a great fit for her, and after one year she was promoted to data analyst with a 15% raise. The next year Joceyln was promoted again, to senior data analyst along with a 21% raise. <q>Not bad,</q> her friend Audun said, <q>a 36% raise in two years.</q> But Jocelyn quickly corrected him. <q>Audun, it's even better than that! It's over 39%!</q>
 		</p>
@@ -152,7 +159,7 @@
 		<p>
 			Sometimes the graph of an exponential equation looks a lot like a line, especially if you only plot a few points. So, be sure to plot five or more points to see the curve in the graph of an exponential equation.
 		</p>
-	</introduction>
+	</subsection>
 
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
