@@ -134,10 +134,10 @@
 	</subsection>
 
 	<subsection component="not-workbook" xml:id="ss-2-1-linear-eq-template">
-		<title>A template for linear functions</title>
+		<title>A template for linear equations</title>
 		
 		<p>
-			Just like we generalized from our specific calculations for the plumber's cost to write down an equation that would work for <em>any</em> amount of time, we can generalize our work in this entire story to notice a pattern that <em>any</em> linear function would follow. In this book we call a pattern like this a <term>template</term>.
+			Just like we generalized from our specific calculations for the plumber's cost to write down an equation that would work for <em>any</em> amount of time, we can generalize our work in this entire story to notice a pattern that <em>any</em> linear equation would follow. In this book we call a pattern like this a <term>template</term>.
 			<aside>
 				<p>
 					Here is an example of a template that helps artists draw shapes quickly and accurately.

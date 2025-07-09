@@ -1,0 +1,17 @@
+<diagram dimensions="(400,200)" margins="(50,30,20,10)">
+  <definition>H(Y)=2.26*1.067^Y</definition>  
+  <coordinates bbox="(0,0,20,10)">
+    <grid-axes 
+      xlabel="Y"
+      ylabel="H" 
+      spacings="((0,1,20),(0,1,10))"
+      hticks= "(0,2,20)"
+      hlabels="(0,2,20)"
+      vticks= "(0,2,10)"
+      vlabels="(0,2,10)"
+      h-zero-label="yes"
+      v-zero-label="yes"
+    />
+    <graph function="H"/>
+  </coordinates>
+</diagram>
