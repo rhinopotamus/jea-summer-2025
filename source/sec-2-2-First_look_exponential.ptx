@@ -6,10 +6,9 @@
 	<title component="workbook">A first look at exponential equations - Practice exercises</title>
 	<introduction>
 		<p>
-			Linear functions arise naturally whenever we think of <em>constant</em> growth. In this section we'll think about another very common type of function which arises naturally whenever we think of <em>percent</em> growth. 
-
-			<xi:include href="./activities/oa-2-2-percents.ptx" />
+			Linear functions arise naturally whenever we think of <em>constant</em> growth. In this section we'll think about another very common type of function which arises naturally whenever we think of <em>percent</em> growth.
 		</p>
+		<xi:include href="./activities/oa-2-2-percents.ptx" />
 	</introduction>
 	<subsection component="not-workbook">
 		<p>
