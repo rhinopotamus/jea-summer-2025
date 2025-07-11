@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <diagram dimensions="(400,200)" margins="(50,30,20,10)" 
   xmlns="https://prefigure.org">
   <definition>P(t)=1.409*1.0072^t</definition>  
-  <definition>target(t)=1.6</definition>
+  <definition>target(t)=1.75</definition>
   <coordinates bbox="(0,0,50,2.5)">
     <grid-axes 
       xlabel="Y"
