@@ -130,7 +130,7 @@
 				<cell right="minor" halign="center"><m>\cancel{-8{,}300}</m></cell>
 				<cell right="minor" halign="center"><m>\cancel{-16{,}000}</m></cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>C</m> (if exponential)</cell>
 				<cell right="minor" halign="center">22,500</cell>
 				<cell right="minor" halign="center">19,841</cell>

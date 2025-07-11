@@ -44,7 +44,7 @@
 				<cell right="minor" halign="center">510</cell>
 				<cell right="minor" halign="center">480</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">14,700</cell>
 				<cell right="minor" halign="center">3,900</cell>
@@ -74,7 +74,7 @@
 				<cell right="minor" halign="center">600</cell>
 				<cell right="minor" halign="center">710</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">5,000</cell>
 				<cell right="minor" halign="center">?</cell>
@@ -124,7 +124,7 @@
 				<cell right="minor" halign="center">500</cell>
 				<cell right="minor" halign="center">510</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">9,700</cell>
 				<cell right="minor" halign="center">?</cell>

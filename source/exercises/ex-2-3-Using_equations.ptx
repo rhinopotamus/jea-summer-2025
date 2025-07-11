@@ -101,7 +101,7 @@
 							<cell right="minor" halign="center">3</cell>
 							<cell right="minor" halign="center">4</cell>
 						</row>
-						<row left="minor" class="even">
+						<row left="minor">
 							<cell right="minor" halign="center"><m>R</m></cell>
 							<cell right="minor" halign="center">50.0</cell>
 							<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>

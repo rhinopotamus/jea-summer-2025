@@ -36,7 +36,7 @@
 				<cell right="minor" halign="center">10</cell>
 				<cell right="minor" halign="center">20</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>H</m></cell>
 				<cell right="minor" halign="center">2.26</cell>
 				<cell right="minor" halign="center">2.41</cell>
@@ -76,7 +76,7 @@
 				<cell right="minor" halign="center">4</cell>
 				<cell right="minor" halign="center">5</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>H</m></cell>
 				<cell right="minor" halign="center">2.57</cell>
 				<cell right="minor" halign="center">4.32</cell>

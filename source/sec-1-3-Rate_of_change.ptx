@@ -235,7 +235,7 @@
 				<cell right="minor" halign="center">2.45</cell>
 				<cell right="minor" halign="center">1</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center">Speed</cell>
 				<cell right="minor" halign="center"></cell>
 				<cell right="minor" halign="center"><m>\to</m> 4.4</cell>

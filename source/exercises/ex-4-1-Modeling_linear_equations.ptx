@@ -249,7 +249,7 @@
 						<cell right="minor" halign="center"><m>P=90T</m></cell>
 						<cell right="minor" halign="center"><m>P=150</m></cell>
 					</row>
-						<row left="minor" class="even">
+						<row left="minor">
 						<cell right="minor" halign="center">0 hours</cell>
 						<cell right="minor" halign="center">$50</cell>
 						<cell right="minor" halign="center">$45</cell>
@@ -263,7 +263,7 @@
 						<cell right="minor" halign="center">$180</cell>
 						<cell right="minor" halign="center">$150</cell>
 					</row>
-						<row left="minor" class="even">
+						<row left="minor">
 						<cell right="minor" halign="center">4 hours</cell>
 						<cell right="minor" halign="center">$530</cell>
 						<cell right="minor" halign="center">$265</cell>

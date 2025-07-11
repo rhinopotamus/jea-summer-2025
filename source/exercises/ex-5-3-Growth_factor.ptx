@@ -48,7 +48,7 @@
 					In 1962, my grandfather had savings bonds that matured to $200. He gave those to my mother to keep for me. These bonds have continued to earn interest at a fixed, guaranteed rate so I have yet to cash them in. The table lists the value at various times since then.
 				</p>
 				<tabular bottom="minor" top="minor">
-					<row left="minor" class="even">
+					<row left="minor">
 						<cell right="minor" halign="center">year</cell>
 						<cell right="minor" halign="center">1962</cell>
 						<cell right="minor" halign="center">1970</cell>
@@ -66,7 +66,7 @@
 						<cell right="minor" halign="center">38</cell>
 						<cell right="minor" halign="center">48</cell>
 					</row>
-					<row left="minor" class="even">
+					<row left="minor">
 						<cell right="minor" halign="center">value</cell>
 						<cell right="minor" halign="center">200.00</cell>
 						<cell right="minor" halign="center">318.77</cell>

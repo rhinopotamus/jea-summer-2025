@@ -64,7 +64,7 @@
 						Calculate the missing values in the table.
 					</p>
 					<tabular bottom="minor" top="minor">
-						<row left="minor" class="even">
+						<row left="minor">
 							<cell right="minor" halign="center">year</cell>
 							<cell right="minor" halign="center">1920</cell>
 							<cell right="minor" halign="center">1925</cell>
@@ -84,7 +84,7 @@
 							<cell right="minor" halign="center">25</cell>
 							<cell right="minor" halign="center">30</cell>
 						</row>
-						<row left="minor" class="even">
+						<row left="minor">
 							<cell right="minor" halign="center"><m>N</m></cell>
 							<cell right="minor" halign="center">3,700</cell>
 							<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>

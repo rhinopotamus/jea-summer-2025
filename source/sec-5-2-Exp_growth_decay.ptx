@@ -73,7 +73,7 @@
 				<cell right="minor" halign="center">8</cell>
 				<cell right="minor" halign="center">9</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>J</m></cell>
 				<cell right="minor" halign="center">1,000</cell>
 				<cell right="minor" halign="center">870</cell>

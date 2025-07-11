@@ -156,7 +156,7 @@
 				<cell right="minor" halign="center"><m>\cancel{\approx \text{22 million}}</m></cell>
 				<cell right="minor" halign="center"><m>\cancel{\approx 1.35 \times 10^{33}}</m></cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>F</m> (<term>saturation</term>)</cell>
 				<cell right="minor" halign="center">94.86</cell>
 				<cell right="minor" halign="center">95.94</cell>

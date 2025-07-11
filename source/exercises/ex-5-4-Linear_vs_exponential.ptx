@@ -202,7 +202,7 @@
 						Complete the table of values.
 					</p>
 					<tabular bottom="minor" top="minor">
-						<row left="minor" class="even">
+						<row left="minor">
 							<cell right="minor" halign="center">year</cell>
 							<cell right="minor" halign="center">1970 </cell>
 							<cell right="minor" halign="center"> 1990 </cell>
@@ -218,7 +218,7 @@
 							<cell right="minor" halign="center">50</cell>
 							<cell right="minor" halign="center">60</cell>
 						</row>
-						<row left="minor" class="even">
+						<row left="minor">
 							<cell right="minor" halign="center"><m>J</m> (if linear)</cell>
 							<cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
 							<cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>

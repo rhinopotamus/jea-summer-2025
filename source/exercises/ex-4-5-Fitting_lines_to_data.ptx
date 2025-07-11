@@ -371,7 +371,7 @@
 					<cell right="minor" halign="center">45</cell>
 					<cell right="minor" halign="center">42</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>W</m></cell>
 					<cell right="minor" halign="center">2,300</cell>
 					<cell right="minor" halign="center">1,950</cell>
@@ -463,7 +463,7 @@
 					<cell right="minor" halign="center">46</cell>
 					<cell right="minor" halign="center">50</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>G</m></cell>
 					<cell right="minor" halign="center">88.1</cell>
 					<cell right="minor" halign="center">121.1</cell>
@@ -599,7 +599,7 @@
 					<cell right="minor" halign="right">$40 million</cell>
 					<cell right="minor" halign="right">$131 million</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="left">Dodgeball</cell>
 					<cell right="minor" halign="right">$30 million</cell>
 					<cell right="minor" halign="right">$114 million</cell>
@@ -609,7 +609,7 @@
 					<cell right="minor" halign="right">$49 million</cell>
 					<cell right="minor" halign="right">$37 million</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="left">Jerry Maguire</cell>
 					<cell right="minor" halign="right">$60 million</cell>
 					<cell right="minor" halign="right">$274 million</cell>
@@ -619,7 +619,7 @@
 					<cell right="minor" halign="right">$28 million</cell>
 					<cell right="minor" halign="right">$64 million</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="left">Nacho Libre</cell>
 					<cell right="minor" halign="right">$32 million</cell>
 					<cell right="minor" halign="right">$80 million</cell>
@@ -629,7 +629,7 @@
 					<cell right="minor" halign="right">$27 million</cell>
 					<cell right="minor" halign="right">$130 million</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="left">Run Fatboy Run</cell>
 					<cell right="minor" halign="right">$10 million</cell>
 					<cell right="minor" halign="right">$6 million</cell>
@@ -639,7 +639,7 @@
 					<cell right="minor" halign="right">$35 million</cell>
 					<cell right="minor" halign="right">$59 million</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="left">The Blind Side</cell>
 					<cell right="minor" halign="right">$35 million</cell>
 					<cell right="minor" halign="right">$255 million</cell>
@@ -723,7 +723,7 @@
 					<cell right="minor" halign="center">34</cell>
 					<cell right="minor" halign="center">37</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>C</m></cell>
 					<cell right="minor" halign="center">3.6</cell>
 					<cell right="minor" halign="center">6.1</cell>

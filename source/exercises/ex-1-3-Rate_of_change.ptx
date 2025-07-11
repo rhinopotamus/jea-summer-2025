@@ -217,7 +217,7 @@
 				
 			</p>
 			<tabular bottom="minor" top="minor">
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center">Year</cell>
 				<cell right="minor" halign="center">1999</cell>
 				<cell right="minor" halign="center">2000</cell>
@@ -580,7 +580,7 @@
 					<cell right="minor" halign="center">50</cell>
 					<cell right="minor" halign="center">60</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="center"><m>D</m></cell>
 					<cell right="minor" halign="center">435</cell>
 					<cell right="minor" halign="center">322.5</cell>

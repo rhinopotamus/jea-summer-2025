@@ -225,7 +225,7 @@
 					<cell right="minor" halign="center">10</cell>
 					<cell right="minor" halign="center">11.2</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="center">5K time</cell>
 					<cell right="minor" halign="center">32</cell>
 					<cell right="minor" halign="center">35</cell>

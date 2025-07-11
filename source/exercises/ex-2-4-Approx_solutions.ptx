@@ -166,7 +166,7 @@
 						<cell halign="left">growth rate 1.04%</cell>
 						<cell halign="left"><m>Q= 248 \ast 1.0104^T</m></cell>
 					</row>
-					<row class="even">
+					<row>
 						<cell halign="left">5th</cell>
 						<cell halign="left">Brazil</cell>
 						<cell halign="left">pop. 205 million</cell>
@@ -180,7 +180,7 @@
 						<cell halign="left">growth rate 1.55%</cell>
 						<cell halign="left"><m>Q = 190 \ast 1.0155^T</m></cell>
 					</row>
-					<row class="even">
+					<row>
 						<cell halign="left">7th</cell>
 						<cell halign="left">Nigeria</cell>
 						<cell halign="left">pop. 170 million</cell>

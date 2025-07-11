@@ -66,7 +66,7 @@
 				<cell right="minor" halign="center">13,200</cell>
 				<cell right="minor" halign="center">15,700</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><term>Machine 2:</term> <m>E</m></cell>
 				<cell right="minor" halign="center">7,000</cell>
 				<cell right="minor" halign="center">8,600</cell>
@@ -113,7 +113,7 @@
 				<cell right="minor" halign="center">9,200</cell>
 				<cell right="minor" halign="center">9,325</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>E</m> (for Machine 2)</cell>
 				<cell right="minor" halign="center">8,600</cell>
 				<cell right="minor" halign="center">10,200</cell>

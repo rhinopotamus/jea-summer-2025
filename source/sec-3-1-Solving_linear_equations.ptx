@@ -77,7 +77,7 @@
 				<cell right="minor" halign="center">277.75</cell>
 				<cell right="minor" halign="center">278.50</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="left">vs. <m>278.75</m></cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">high</cell>

@@ -65,7 +65,7 @@
 				<cell right="minor" halign="center">70</cell>
 				<cell right="minor" halign="center">95</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">800</cell>
 				<cell right="minor" halign="center">824</cell>
@@ -103,7 +103,7 @@
 				<cell right="minor" halign="center">109</cell>
 				<cell right="minor" halign="center">108</cell>
 			</row>
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="center"><m>S</m></cell>
 				<cell right="minor" halign="center">15,375</cell>
 				<cell right="minor" halign="center">20,663</cell>
