@@ -22,3 +22,11 @@ UN World at Six Billion:
 
 Health care costs:
 - https://en.wikipedia.org/wiki/Health_care_finance_in_the_United_States
+
+
+## Section 2.4
+
+CIA factbook:
+- https://www.cia.gov/the-world-factbook/field/population/country-comparison/ for population
+- https://www.cia.gov/the-world-factbook/field/population-growth-rate/country-comparison/
+- [Google sheet](https://docs.google.com/spreadsheets/d/1YRqSaCuwstgZnWOsaUNdsUgxBHCYEZz4jCrkhbagN3I/edit?usp=sharing)
