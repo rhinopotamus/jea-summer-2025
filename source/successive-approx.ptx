@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- https://groups.google.com/g/pretext-support/c/oZvUEcPmDyw/m/bQL5XnNhAwAJ -->
+<!-- https://github.com/davidaustinm/fcca/blob/main/source/sec_optionallab-alt.ptx -->
+<!-- 
+    10 nbsps seems like the right width;
+    adding an 11th makes the row headers break 
+
+    May have to do something different in latex builds.
+-->
+
+<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+    <row left="minor">
+        <cell right="minor"><fillin characters="3" /> (indep)</cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+    </row>
+    <row left="minor">
+        <cell right="minor"><fillin characters="3" /> (dep)</cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+    </row>
+    <row left="minor">
+        <cell right="minor">hi / lo</cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+        <cell right="minor"></cell>
+    </row>
+</tabular>
