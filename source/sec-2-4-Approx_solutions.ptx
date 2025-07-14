@@ -22,7 +22,7 @@
 
 	</introduction>
 
-	<subsection xml:id="ss-2-4-india-1-6">
+	<subsection component="not-workbook" xml:id="ss-2-4-india-1-6">
 		<title>India at 1.6 billion</title>
 
 		<p>
@@ -62,7 +62,7 @@
 		<xi:include href="./activities/act-2-4-bad-guess.ptx" />
 
 		<p>
-			Start by writing an equation. The variables are
+			In order to check our guesses, we'll start by writing an equation. The variables are
 			<md>
 				<mrow>P \amp= \text{ population of India (billion people) } \sim \text{ dep} </mrow>
 				<mrow>Y \amp= \text{ time (years since 2024) } \sim \text{ indep} </mrow>
@@ -78,7 +78,26 @@
 		</p>
 
 		<p>
-			We want to know when India's population will pass 1.6 billion people. That means we are looking for the value of <m>Y</m> that corresponds to <m>P=1.5</m>. That answer is called the <term>solution</term> of our equation. In other words, a solution to an equation is the value of the independent variable we plug in to get the desired value of the dependent variable. It's not always easy to <em>find</em> a solution; but it's easy to <em>check</em> - just evaluate.
+			We want to know when India's population will pass 1.6 billion people. That means we are looking for the value of <m>Y</m> that corresponds to <m>P=1.6</m>. That answer is called the <term>solution</term> of our equation. 
+		</p>
+
+		<assemblage>
+			<title>Solutions, solving, and evaluating</title>
+			<p>
+				A <term>solution</term> to an equation is the value of the independent variable we plug in to get the desired value of the dependent variable.
+			</p>
+
+			<p>
+				When we are <term>solving</term>, this means we know a value of the dependent variable (an output) and we want to figure out the corresponding value of the independent variable (the input) that produced it.
+			</p>
+
+			<p>
+				When we are <term>evaluating</term>, this means we know a value of the independent variable (an input) and we want to figure out the value of the dependent variable (an output).
+			</p>
+		</assemblage>
+			
+		<p>
+			It's not always easy to <em>find</em> a solution; but it's easy to <em>check</em> <mdash/> just evaluate.
 		</p>
 
 		<p>
@@ -218,37 +237,14 @@
 			</row>
 		</tabular>
 
+		<xi:include href="./activities/act-2-4-check.ptx" />
+
 		<p>
 			According to our equation, the population of the India should pass 1.6 billion after 17 years, which would be in the year 2028. By the way, it works to add the year and number. <me>2024 + 17 \text{ years } = 2041</me>
 		</p>
 
 		<p>
-			The strategy we used to find the solution of our equation is <term>successive approximation</term>. Essentially it's just the guess and check method, but it's called <q>successive</q> because we're trying to get a closer guess each time. Typically once we have a value that's too big and one that's too small, we guess a value in between (for example, their average). This sort of splitting the difference method of guessing is a rough version of the <term>bisection method</term>. Now you know.
-		</p>
-
-		<p>
-			You might be surprised that you're supposed to guess the solution at this point in the course. I mean, in the beginning of the course we didn't have equations, just tables and graphs, and so guessing was all we had to work with. But now we have actual equations, right? In previous courses your instructor or textbook might have emphasized getting the <q>exact</q> solution.
-		</p>
-
-		<p>
-			Here's why it's different in this course. First, in almost every story in this book the numbers in the problem are approximations, or at least rounded off. If you start with approximations, no matter how exact your mathematics is, the solutions will still be approximate. Second, even if our numbers started out precisely exact, chances are that the equation is only approximating reality. Do we really know what the population growth rate will be in India over the next twenty years? And, if the equation is just approximate, then no matter how exact the numbers or the mathematics, the solution will again still be approximate. Last, and this is good news - we really just want approximations. Do you really need to know that a sandwich has 427.2889 calories? Isn't 430 calories close enough? (Sound familiar? These ideas were discussed in more detail in <xref ref="sec-0-1-Approximation_and_rounding" text="title"/>.)
-		</p>
-
-		<p>
-			In previous mathematics courses you may have seen ways to solve equations <q>exactly,</q> and we will talk about those methods in the next chapters of this text. It is true that successive approximations can take a long time and, because of that, is a bit annoying. Solving techniques we'll learn later are much, much quicker.
-		</p>
-
-		<p>
-			There are two important reasons for using successive approximations, even if you know quicker solving techniques. First, the method of successive approximations works in most situations for any type of equation. Solving methods that we will see later on just work for one type of an equation or another - one technique for linear equations, a different technique for exponential equations, etc. That's a lot of different methods to know. Second, even if you're going to use a formal equation-solving technique to solve a problem it's a good habit to guess-and-check a bit first to make sure your solution is reasonable. It is easy to make mistakes when using those formal techniques. Remember,
-		</p>
-
-
-		<blockquote><p>
-			<alert>I'd rather be approximately right than precisely wrong.</alert>
-		</p></blockquote>
-
-		<p>
-			Okay, enough digression. Let's check our answer using the graph.
+			It's always a good idea to check our work using multiple different methods. Since we've used a bunch of numerical calculations so far, let's check our answer using the graph.
 		</p>
 
 		<image>
@@ -262,6 +258,37 @@
 		<p>
 			It looks like 1.6 billion corresponds to just before the unlabeled gridline halfway between 15 and 20. That line would be 17.5, so the answer of 17 (which was year 2028) looks perfect.
 		</p>
+
+		<p>
+			The strategy we used to find the solution of our equation is <term>successive approximation</term>. Essentially it's just the guess and check method, but it's called <q>successive</q> because we're trying to get a closer guess each time <mdash/> we're using information about our old guesses to help us make better new guesses. Typically once we have a value that's too big and one that's too small, we guess a value in between (for example, their average). This sort of splitting the difference method of guessing is a rough version of the <term>bisection method</term>. Now you know.
+		</p>
+
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="ss-2-4-good-enough">
+		<title>Good enough answers</title>
+
+		<p>
+			You might be surprised that you're supposed to guess the solution at this point in the course. I mean, in the beginning of the course we didn't have equations, just tables and graphs, and so guessing was all we had to work with. But now we have actual equations, right? In previous courses your instructor or textbook might have emphasized getting the <q>exact</q> solution.
+		</p>
+
+		<p>
+			Here's why it's different in this course. First, in almost every story in this book the numbers in the problem are approximations, or at least rounded off. If you start with approximations, no matter how exact your mathematics is, the solutions will still be approximate. Second, even if our numbers started out precisely exact, chances are that the equation is only approximating reality. Do we really know what the population growth rate will be in India over the next twenty years? And, if the equation is just approximate, then no matter how exact the numbers or the mathematics, the solution will again still be approximate. Last, and this is good news - we really just want approximations. Do you really need to know that a sandwich has 427.2889 calories? Isn't 430 calories close enough? (Sound familiar? These ideas were discussed in more detail in <xref ref="sec-0-1-Approximation_and_rounding" text="title"/>.)
+		</p>
+
+		<p>
+			In previous mathematics courses you may have seen ways to solve equations <q>exactly,</q> and we will talk about those methods in the next chapters of this text. It is true that successive approximation can take a long time and, because of that, is a bit annoying. Solving techniques we'll learn later are much, much quicker.
+		</p>
+
+		<p>
+			There are two important reasons for using successive approximations, even if you know quicker solving techniques. First, the method of successive approximations works in most situations for any type of equation. Solving methods that we will see later on just work for one type of an equation or another - one technique for linear equations, a different technique for exponential equations, etc. That's a lot of different methods to know. Second, even if you're going to use a formal equation-solving technique to solve a problem it's a good habit to guess-and-check a bit first to make sure your solution is reasonable. It is easy to make mistakes when using those formal techniques. Remember,
+		</p>
+
+
+		<blockquote><p>
+			<alert>I'd rather be approximately right than precisely wrong.</alert>
+		</p></blockquote>
+
 	</subsection>
 
 	<subsection component="not-workbook" xml:id="ss-2-4-ALTERNATE">
