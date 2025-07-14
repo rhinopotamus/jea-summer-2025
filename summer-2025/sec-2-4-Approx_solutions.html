@@ -103,14 +103,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.4';
+eBookConfig.runestone_version = '7.8.5';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.962d00926ef9460e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.2e7f40e86ae7d163.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.a99e275a1e410b98.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.58623b9a3097f5e4.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -289,7 +289,11 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
-<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ex-2-4-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-india-1-6" class="internal"><span class="title">India at 1.6 billion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-ALTERNATE" class="internal"><span class="title">ALTERNATE: India at 1.75</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ex-2-4-Approx_solutions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-5-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
@@ -435,37 +439,89 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-2-4-Approx_solutions"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.4</span><span class="space"> </span><span class="title">Approximating solutions of equations</span>
 </h2>
-<section class="introduction" id="sec-2-4-Approx_solutions-2"><div class="para" id="sec-2-4-Approx_solutions-2-1">Which country on Earth has the most people? If you guess China and India, in that order, you’d be right. And by a lot compared to other countries. A very distant third is the United States, with several countries close on our heels. Here are the population and growth rates estimates made in 2011. <aside class="aside aside-like" id="sec-2-4-Approx_solutions-2-1-1"><div class="para" id="sec-2-4-Approx_solutions-2-1-1-1">Source: CIA Factbook<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
-</div></aside><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec-2-4-Approx_solutions-2"><div class="para" id="sec-2-4-Approx_solutions-2-1">In the past few sections we’ve been learning about <dfn class="terminology">evaluating</dfn> equations: given a particular value of the independent variable, figuring out the resulting value of the dependent variable. You might call this process “plugging in.”<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-2-4-Approx_solutions-2-2">In <a href="ch-3-Solving_equations.html" class="internal" title="Chapter 3: Solving equations">Chapter 3</a>, we will instead be interested in <dfn class="terminology">solving</dfn> equations: given a particular value of the dependent variable, figuring out what value of the independent variable it came from.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-2-4-Approx_solutions-2-3">Turns out you can use your evaluating skills to figure out <em class="emphasis">approximate</em> solutions, which are often good enough for our purposes. In this section, we’re about to learn a method called <dfn class="terminology">successive approximation,</dfn> which you might also call “fancy guess-and-check.”<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exploration project-like" id="oa-2-4-bad-guess"><h3 class="heading">
+<span class="type">Opening Activity</span><span class="space"> </span><span class="codenumber">2.4.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="oa-2-4-bad-guess-1-1">Sometimes it’s hard to get started with the method of successive approximation because you need to make an initial guess. One good way to produce an initial guess is to start with hilariously bad guesses.<div class="autopermalink" data-description="Paragraph"><a href="#oa-2-4-bad-guess-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="oa-2-4-bad-guess-1-2">In <a href="sec-2-3-Using_equations.html" class="internal" title="Section 2.3: Using equations">Section 2.3</a>, we looked at how many feet it takes for a Cadillac Escalade to stop when it is traveling at a certain speed. Suppose that it took the car 172 feet to stop. How fast was the car going? Let’s make some bad guesses without even looking at the equation.<div class="autopermalink" data-description="Paragraph"><a href="#oa-2-4-bad-guess-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="lower-alpha ol-marker-2" id="oa-2-4-bad-guess-1-3">
+<li id="oa-2-4-bad-guess-1-3-1">
+<div class="para" id="oa-2-4-bad-guess-1-3-1-1">Come up with a hilariously <em class="emphasis">low</em> guess: a speed where the car definitely would have stopped way <em class="emphasis">under</em> 172 feet.<div class="autopermalink" data-description="Paragraph"><a href="#oa-2-4-bad-guess-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#oa-2-4-bad-guess-1-3-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="oa-2-4-bad-guess-1-3-2">
+<div class="para" id="oa-2-4-bad-guess-1-3-2-1">Now come up with a hilariously <em class="emphasis">high</em> guess: a speed where the car definitely would have gone way <em class="emphasis">over</em> 172 feet.<div class="autopermalink" data-description="Paragraph"><a href="#oa-2-4-bad-guess-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#oa-2-4-bad-guess-1-3-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="oa-2-4-bad-guess-1-3-3">
+<div class="para" id="oa-2-4-bad-guess-1-3-3-1">Now that we’ve made some hilariously bad guesses, we can use them to come up with a better guess. The real speed is somewhere in between your hilariously low guess and your hilariously high guess. What do you think is a more <em class="emphasis">reasonable</em> guess?<div class="autopermalink" data-description="Paragraph"><a href="#oa-2-4-bad-guess-1-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#oa-2-4-bad-guess-1-3-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Opening Activity 2.4.1"><a href="#oa-2-4-bad-guess" title="Copy heading and permalink for Opening Activity 2.4.1" aria-label="Copy heading and permalink for Opening Activity 2.4.1">🔗</a></div></article></section><section class="subsection" id="ss-2-4-india-1-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">India at 1.6 billion</span>
+</h3>
+<div class="para" id="ss-2-4-india-1-6-2">Which country on Earth has the most people? If you guess China and India, in that order, you’d be right. And by a lot compared to other countries. A very distant third is the United States, with several countries close on our heels. Here are the population and growth rates estimates made in 2024. <aside class="aside aside-like" id="ss-2-4-india-1-6-2-1"><div class="para" id="ss-2-4-india-1-6-2-1-1">Source: <a class="external" href="https://www.cia.gov/the-world-factbook/references/guide-to-country-comparisons/" target="_blank">CIA Factbook</a><details class="ptx-footnote" aria-live="polite" id="ss-2-4-india-1-6-2-1-1-2"><summary class="ptx-footnote__number" title="Footnote 2.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="ss-2-4-india-1-6-2-1-1-2"><code class="code-inline tex2jax_ignore">www.cia.gov/the-world-factbook/references/guide-to-country-comparisons/</code></div></details><div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></aside><div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines">1.</td>
 <td class="l m b0 r0 l0 t0 lines">China</td>
-<td class="l m b0 r0 l0 t0 lines">population 1.343 billion</td>
-<td class="l m b0 r0 l0 t0 lines">growth rate 0.48%</td>
+<td class="l m b0 r0 l0 t0 lines">population 1.416 billion</td>
+<td class="l m b0 r0 l0 t0 lines">growth rate 0.23%</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2.</td>
 <td class="l m b0 r0 l0 t0 lines">India</td>
-<td class="l m b0 r0 l0 t0 lines">population 1.205 billion</td>
-<td class="l m b0 r0 l0 t0 lines">growth rate 1.31%</td>
+<td class="l m b0 r0 l0 t0 lines">population 1.409 billion</td>
+<td class="l m b0 r0 l0 t0 lines">growth rate 0.72%</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">3.</td>
 <td class="l m b0 r0 l0 t0 lines">United States</td>
-<td class="l m b0 r0 l0 t0 lines">population 0.313 billion</td>
-<td class="l m b0 r0 l0 t0 lines">growth rate 0.90%</td>
+<td class="l m b0 r0 l0 t0 lines">population 0.342 billion</td>
+<td class="l m b0 r0 l0 t0 lines">growth rate 0.67%</td>
 </tr>
 </table></div>
-<div class="para" id="sec-2-4-Approx_solutions-2-3">India’s population is growing fastest of these top three, so let’s take a closer look. In the exercises you can explore China and other countries. Let’s tackle this question: when is India’s population projected to pass 1.5 billion?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-4">India’s population is growing fastest of these top three, so let’s take a closer look. In the exercises you can explore China and other countries. Let’s tackle this question: when is India’s population projected to pass 1.6 billion?<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-2-4-Approx_solutions-2-4">
+<article class="activity project-like" id="act-2-4-bad-guess"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="act-2-4-bad-guess-1-1">Before we do anything fancy, just thinking about the situation, let’s make some bad guesses.<div class="autopermalink" data-description="Paragraph"><a href="#act-2-4-bad-guess-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="lower-alpha ol-marker-2" id="act-2-4-bad-guess-1-2">
+<li id="act-2-4-bad-guess-1-2-1">
+<div class="para" id="act-2-4-bad-guess-1-2-1-1">Come up with a hilariously <em class="emphasis">low</em> guess: a year where the population of India is definitely <em class="emphasis">under</em> 1.6 billion.<div class="autopermalink" data-description="Paragraph"><a href="#act-2-4-bad-guess-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#act-2-4-bad-guess-1-2-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="act-2-4-bad-guess-1-2-2">
+<div class="para" id="act-2-4-bad-guess-1-2-2-1">Now come up with a hilariously <em class="emphasis">high</em> guess: a year where population of India is definitely <em class="emphasis">over</em> 1.6 billion.<div class="autopermalink" data-description="Paragraph"><a href="#act-2-4-bad-guess-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#act-2-4-bad-guess-1-2-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="act-2-4-bad-guess-1-2-3">
+<div class="para" id="act-2-4-bad-guess-1-2-3-1">Now that we’ve made some hilariously bad guesses, we can use them to come up with a better guess. The real year is somewhere in between your hilariously low guess and your hilariously high guess. What do you think is a more <em class="emphasis">reasonable</em> guess?<div class="autopermalink" data-description="Paragraph"><a href="#act-2-4-bad-guess-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#act-2-4-bad-guess-1-2-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Activity 2.4.2"><a href="#act-2-4-bad-guess" title="Copy heading and permalink for Activity 2.4.2" aria-label="Copy heading and permalink for Activity 2.4.2">🔗</a></div></article><div class="para logical" id="ss-2-4-india-1-6-6">
 <div class="para">Start by writing an equation. The variables are</div>
-<div class="displaymath process-math" id="sec-2-4-Approx_solutions-2-4-1">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-6-1">
 \begin{align*}
 P \amp= \text{ population of India (billion people) } \sim \text{ dep} \\
-Y \amp= \text{ time (years since 2011) } \sim \text{ indep} 
+Y \amp= \text{ time (years since 2024) } \sim \text{ indep} 
 \end{align*}
 </div>
 <div class="para">Since there is a fixed percentage growth, or at least that’s what we’re assuming, the population grows exponentially. The template for an exponential equation is</div>
@@ -477,67 +533,73 @@ Y \amp= \text{ time (years since 2011) } \sim \text{ indep}
 <div class="para">For India’s population, we know that the growth rate is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-r=1.31\% = \frac{1.31}{100} = 1.31 \div 100 = 0.0131
+r=0.72\% = \frac{0.72}{100} = 0.72 \div 100 = 0.0072
 \end{equation*}
 </div>
 <div class="para">so the corresponding growth factor is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-g=1+r=1+0.0131=1.0131
+g=1+r=1+0.0072=1.0072
 \end{equation*}
 </div>
-<div class="para">We also know that the starting population is 1.205 billion in 2011. We’re good to go. The equation is</div>
+<div class="para">We also know that the starting population is 1.409 billion in 2024. We’re good to go. The equation is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-P = 1.205 \ast 1.0131^Y
+P = 1.409 \ast 1.0072^Y
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-5">We want to know when India’s population will pass 1.5 billion people. That means we are looking for the value of <span class="process-math">\(Y\)</span> that corresponds to <span class="process-math">\(P=1.5\text{.}\)</span> That answer is called the <dfn class="terminology">solution</dfn> of our equation. In other words, a solution to an equation is the value of the independent variable we plug in to get the desired value of the dependent variable. It’s not always easy to <em class="emphasis">find</em> a solution; but it’s easy to <em class="emphasis">check</em> - just evaluate.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-7">We want to know when India’s population will pass 1.6 billion people. That means we are looking for the value of <span class="process-math">\(Y\)</span> that corresponds to <span class="process-math">\(P=1.5\text{.}\)</span> That answer is called the <dfn class="terminology">solution</dfn> of our equation. In other words, a solution to an equation is the value of the independent variable we plug in to get the desired value of the dependent variable. It’s not always easy to <em class="emphasis">find</em> a solution; but it’s easy to <em class="emphasis">check</em> - just evaluate.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-2-4-Approx_solutions-2-6">
-<div class="para">Since we can easily check and see if any number is a solution, one way to find the solution is to <dfn class="terminology">guess and check</dfn>. Let’s try that to determine when India’s population will pass 1.5 billion people. Since we’re not sure where to start, let’s see what the equation projects for 2012, when <span class="process-math">\(Y=1\text{.}\)</span>
+<div class="para logical" id="ss-2-4-india-1-6-8">
+<div class="para">Since we can easily check and see if any number is a solution, one way to find the solution is to <dfn class="terminology">guess and check</dfn>. Let’s try that to determine when India’s population will pass 1.6 billion people. Since we’re not sure where to start, let’s see what the equation projects for 2025, when <span class="process-math">\(Y=1\text{.}\)</span>
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-P=1.205 \ast 1.0131^1 = 1.205 \times 1.0131 \wedge \underline{1} = 1.2208096\ldots \approx 1.221 \text{ billion}
+P=1.409 \ast 1.0072^1 = 1.409 \times 1.0072 \wedge \underline{1} = 1.4191448\ldots \approx 1.419 \text{ billion}
 \end{equation*}
 </div>
-<div class="para">Hardly budged. Well, comparatively.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para">Hardly budged. Well, comparatively. <aside class="aside aside-like" id="ss-2-4-india-1-6-8-4"><div class="para" id="ss-2-4-india-1-6-8-4-1">
+<span class="process-math">\(Y=1\)</span> is a good example of a hilariously <em class="emphasis">low</em> guess.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-8-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></aside>
 </div>
-<div class="para logical" id="sec-2-4-Approx_solutions-2-7">
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ss-2-4-india-1-6-9">
 <div class="para">What about in 5 years? The corresponding population is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-P=1.205 \ast 1.0131^5 = 1.205 \times 1.0131 \wedge \underline{5} = 1.28614961\approx  1.286\text{ billion}
+P=1.409 \ast 1.0072^5 = 1.409 \times 1.0072 \wedge \underline{5} = 1.4604597\approx  1.460\text{ billion}
 \end{equation*}
 </div>
-<div class="para">Less than 1.5 billion. Let’s try <span class="process-math">\(Y=10\text{.}\)</span> The equation gives us</div>
+<div class="para">Less than 1.6 billion. Let’s try <span class="process-math">\(Y=10\text{.}\)</span> The equation gives us</div>
 <div class="displaymath process-math">
 \begin{equation*}
-P=1.205 \ast 1.0131^{10} = 1.205 \times 1.0131 \wedge \underline{10} = 1.37276417 \approx 1.373 \text{ billion}
+P=1.409 \ast 1.0072^{10} = 1.409 \times 1.0072 \wedge \underline{10} = 1.5137988 \approx 1.514 \text{ billion}
 \end{equation*}
 </div>
-<div class="para">Still much less than 1.5 billion</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para">Still much less than 1.6 billion.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-2-4-Approx_solutions-2-8">
-<div class="para">This is going slowly. We would really like to find a point at which the equation gives us more than 1.5 billion. Then we can work backwards from there to narrow things down. How about 50 years?</div>
+<div class="para logical" id="ss-2-4-india-1-6-10">
+<div class="para">This is going slowly. We would really like to find a point at which the equation gives us more than 1.6 billion. Then we can work backwards from there to narrow things down. How about 50 years?</div>
 <div class="displaymath process-math">
 \begin{equation*}
-P=1.205 \ast 1.0131^{50} = 1.205 \times 1.0131 \wedge \underline{50} = 2.31223244  \approx 2.312\text{ billion}
+P=1.409 \ast 1.0072^{50} = 1.409 \times 1.0072 \wedge \underline{50} = 2.016958  \approx 2.017\text{ billion}
 \end{equation*}
 </div>
-<div class="para">That’s too much, but the good news is now we know the solution is between 10 years and 50 years.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para">That’s too much, but the good news is now we know the solution is between 10 years and 50 years. <aside class="aside aside-like" id="ss-2-4-india-1-6-10-2"><div class="para" id="ss-2-4-india-1-6-10-2-1">
+<span class="process-math">\(Y=50\)</span> is a good example of a hilariously <em class="emphasis">high</em> guess.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></aside>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-9">Let’s summarize what we have so far in a table. Notice how we’ve added a third row to keep track of our progress for our goal.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-2-4-india-1-6-11">Let’s summarize what we have so far in a table. Notice how we’ve added a third row to keep track of our progress for our goal.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b1 r1 l1 t1 lines"><span class="process-math">\(Y\)</span></td>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(Y\)</span></th>
 <td class="c m b1 r1 l0 t1 lines">0</td>
 <td class="c m b1 r1 l0 t1 lines">1</td>
 <td class="c m b1 r1 l0 t1 lines">5</td>
@@ -549,37 +611,37 @@ P=1.205 \ast 1.0131^{50} = 1.205 \times 1.0131 \wedge \underline{50} = 2.3122324
 <td class="c m b1 r1 l0 t1 lines"></td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></td>
-<td class="c m b1 r1 l0 t0 lines">1.205</td>
-<td class="c m b1 r1 l0 t0 lines">1.221</td>
-<td class="c m b1 r1 l0 t0 lines">1.287</td>
-<td class="c m b1 r1 l0 t0 lines">1.373</td>
-<td class="c m b1 r1 l0 t0 lines">2.312</td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></th>
+<td class="c m b1 r1 l0 t0 lines">1.409</td>
+<td class="c m b1 r1 l0 t0 lines">1.419</td>
+<td class="c m b1 r1 l0 t0 lines">1.460</td>
+<td class="c m b1 r1 l0 t0 lines">1.513</td>
+<td class="c m b1 r1 l0 t0 lines">2.017</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">vs. 1.5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">vs. 1.6</th>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 <td class="c m b1 r1 l0 t0 lines">high</td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">                 </td>
+<td class="c m b1 r1 l0 t0 lines">                 </td>
+<td class="c m b1 r1 l0 t0 lines">                 </td>
+<td class="c m b1 r1 l0 t0 lines">                 </td>
 </tr>
 </table></div>
-<div class="para" id="sec-2-4-Approx_solutions-2-11">We know the solution is between 10 and 50 years, and it seems closer to 10, so let’s guess 20 years. In 20 years, the population should be around 1.564 billion. Where’s that 1.564 from? Just our equation again. It would be good practice for you to evaluate at <span class="process-math">\(Y=20\)</span> to check.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-13">We know the solution is between 10 and 50 years, and it seems closer to 10, so let’s guess 20 years. In 20 years, the population should be around 1.626 billion. Where’s that 1.626 from? Just our equation again. It would be good practice for you to evaluate at <span class="process-math">\(Y=20\)</span> to check.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-12">The 10 year estimate is too low and the 20 year estimate is too high. That means the solution is between 10 years and 20 years, so let’s split the difference and guess 15 years which gives 1.465 billion. (Check again, for practice.) Ooooh, we’re getting close. The population should pass 1.5 billion some time between 15 and 20 years, and likely closer to 15 so let’s guess 17 years. Estimate is 1.504 billion. Would 16 years have been enough? That gives 1.484 billion, not quite enough. Let’s add these numbers to our table.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-14">The 10 year estimate is too low and the 20 year estimate is too high. That means the solution is between 10 years and 20 years, so let’s split the difference and guess 15 years which gives 1.465 billion. (Check again, for practice.) Ooooh, we’re getting close. The population should pass 1.6 billion some time between 15 and 20 years, and likely closer to 15 so let’s guess 17 years. Estimate is 1.504 billion. Would 16 years have been enough? That gives 1.484 billion, not quite enough. Let’s add these numbers to our table.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b1 r1 l1 t1 lines"><span class="process-math">\(Y\)</span></td>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(Y\)</span></th>
 <td class="c m b1 r1 l0 t1 lines">0</td>
 <td class="c m b1 r1 l0 t1 lines">1</td>
 <td class="c m b1 r1 l0 t1 lines">5</td>
@@ -587,23 +649,23 @@ P=1.205 \ast 1.0131^{50} = 1.205 \times 1.0131 \wedge \underline{50} = 2.3122324
 <td class="c m b1 r1 l0 t1 lines">50</td>
 <td class="c m b1 r1 l0 t1 lines">20</td>
 <td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
 <td class="c m b1 r1 l0 t1 lines">17</td>
-<td class="c m b1 r1 l0 t1 lines">16</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></td>
-<td class="c m b1 r1 l0 t0 lines">1.205</td>
-<td class="c m b1 r1 l0 t0 lines">1.221</td>
-<td class="c m b1 r1 l0 t0 lines">1.287</td>
-<td class="c m b1 r1 l0 t0 lines">1.373</td>
-<td class="c m b1 r1 l0 t0 lines">2.312</td>
-<td class="c m b1 r1 l0 t0 lines">1.564</td>
-<td class="c m b1 r1 l0 t0 lines">1.465</td>
-<td class="c m b1 r1 l0 t0 lines">1.504</td>
-<td class="c m b1 r1 l0 t0 lines">1.484</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></th>
+<td class="c m b1 r1 l0 t0 lines">1.409</td>
+<td class="c m b1 r1 l0 t0 lines">1.419</td>
+<td class="c m b1 r1 l0 t0 lines">1.460</td>
+<td class="c m b1 r1 l0 t0 lines">1.513</td>
+<td class="c m b1 r1 l0 t0 lines">2.017</td>
+<td class="c m b1 r1 l0 t0 lines">1.626</td>
+<td class="c m b1 r1 l0 t0 lines">1.569</td>
+<td class="c m b1 r1 l0 t0 lines">1.603</td>
+<td class="c m b1 r1 l0 t0 lines">1.591</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">vs.1.5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">vs. 1.6</th>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
@@ -615,86 +677,193 @@ P=1.205 \ast 1.0131^{50} = 1.205 \times 1.0131 \wedge \underline{50} = 2.3122324
 <td class="c m b1 r1 l0 t0 lines">low</td>
 </tr>
 </table></div>
-<div class="para logical" id="sec-2-4-Approx_solutions-2-14">
-<div class="para">According to our equation, the population of the India should pass 1.5 billion after 17 years, which would be in the year 2028. By the way, it works to add the year and number.</div>
+<div class="para logical" id="ss-2-4-india-1-6-16">
+<div class="para">According to our equation, the population of the India should pass 1.6 billion after 17 years, which would be in the year 2028. By the way, it works to add the year and number.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-2011 + 17 \text{ years } = 2028
+2024 + 17 \text{ years } = 2041
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-15">The strategy we used to find the solution of our equation is <dfn class="terminology">successive approximation</dfn>. Essentially it’s just the guess and check method, but it’s called “successive” because we’re trying to get a closer guess each time. Typically once we have a value that’s too big and one that’s too small, we guess a value in between (for example, their average). This sort of splitting the difference method of guessing is a rough version of the <dfn class="terminology">bisection method</dfn>. Now you know.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-17">The strategy we used to find the solution of our equation is <dfn class="terminology">successive approximation</dfn>. Essentially it’s just the guess and check method, but it’s called “successive” because we’re trying to get a closer guess each time. Typically once we have a value that’s too big and one that’s too small, we guess a value in between (for example, their average). This sort of splitting the difference method of guessing is a rough version of the <dfn class="terminology">bisection method</dfn>. Now you know.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-16">You might be surprised that you’re supposed to guess the solution at this point in the course. I mean, in the beginning of the course we didn’t have equations, just tables and graphs, and so guessing was all we had to work with. But now we have actual equations, right? In previous courses your instructor or textbook might have emphasized getting the “exact” solution.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-18">You might be surprised that you’re supposed to guess the solution at this point in the course. I mean, in the beginning of the course we didn’t have equations, just tables and graphs, and so guessing was all we had to work with. But now we have actual equations, right? In previous courses your instructor or textbook might have emphasized getting the “exact” solution.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-17">Here’s why it’s different in this course. First, in almost every story in this book the numbers in the problem are approximations, or at least rounded off. If you start with approximations, no matter how exact your mathematics is, the solutions will still be approximate. Second, even if our numbers started out precisely exact, chances are that the equation is only approximating reality. Do we really know what the population growth rate will be in India over the next twenty years? And, if the equation is just approximate, then no matter how exact the numbers or the mathematics, the solution will again still be approximate. Last, and this is good news - we really just want approximations. Do you really need to know that a sandwich has 427.2889 calories? Isn’t 430 calories close enough? (Sound familiar? These ideas were discussed in more detail in <a href="sec-0-1-Approximation_and_rounding.html" class="internal" title="Section 0.1: Prelude: Approximation &amp; rounding">Prelude: Approximation &amp; rounding</a>.)<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-19">Here’s why it’s different in this course. First, in almost every story in this book the numbers in the problem are approximations, or at least rounded off. If you start with approximations, no matter how exact your mathematics is, the solutions will still be approximate. Second, even if our numbers started out precisely exact, chances are that the equation is only approximating reality. Do we really know what the population growth rate will be in India over the next twenty years? And, if the equation is just approximate, then no matter how exact the numbers or the mathematics, the solution will again still be approximate. Last, and this is good news - we really just want approximations. Do you really need to know that a sandwich has 427.2889 calories? Isn’t 430 calories close enough? (Sound familiar? These ideas were discussed in more detail in <a href="sec-0-1-Approximation_and_rounding.html" class="internal" title="Section 0.1: Prelude: Approximation &amp; rounding">Prelude: Approximation &amp; rounding</a>.)<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-18">In previous mathematics courses you may have seen ways to solve equations “exactly,” and we will talk about those methods in the next chapters of this text. It is true that successive approximations can take a long time and, because of that, is a bit annoying. Solving techniques we’ll learn later are much, much quicker.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-20">In previous mathematics courses you may have seen ways to solve equations “exactly,” and we will talk about those methods in the next chapters of this text. It is true that successive approximations can take a long time and, because of that, is a bit annoying. Solving techniques we’ll learn later are much, much quicker.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-19">There are two important reasons for using successive approximations, even if you know quicker solving techniques. First, the method of successive approximations works in most situations for any type of equation. Solving methods that we will see later on just work for one type of an equation or another - one technique for linear equations, a different technique for exponential equations, etc. That’s a lot of different methods to know. Second, even if you’re going to use a formal equation-solving technique to solve a problem it’s a good habit to guess-and-check a bit first to make sure your solution is reasonable. It is easy to make mistakes when using those formal techniques. Remember,<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-19" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-21">There are two important reasons for using successive approximations, even if you know quicker solving techniques. First, the method of successive approximations works in most situations for any type of equation. Solving methods that we will see later on just work for one type of an equation or another - one technique for linear equations, a different technique for exponential equations, etc. That’s a lot of different methods to know. Second, even if you’re going to use a formal equation-solving technique to solve a problem it’s a good habit to guess-and-check a bit first to make sure your solution is reasonable. It is easy to make mistakes when using those formal techniques. Remember,<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<blockquote class="blockquote" id="sec-2-4-Approx_solutions-2-20">
-<div class="para" id="sec-2-4-Approx_solutions-2-20-1">
-<em class="alert">I’d rather be approximately right than precisely wrong.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-20-1" title="Copy permalink for Paragraph">🔗</a></div>
+<blockquote class="blockquote" id="ss-2-4-india-1-6-22">
+<div class="para" id="ss-2-4-india-1-6-22-1">
+<em class="alert">I’d rather be approximately right than precisely wrong.</em><div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-22-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Quotation"><a href="#sec-2-4-Approx_solutions-2-20" title="Copy permalink for Quotation">🔗</a></div>
+<div class="autopermalink" data-description="Quotation"><a href="#ss-2-4-india-1-6-22" title="Copy heading and permalink for Quotation" aria-label="Copy heading and permalink for Quotation">🔗</a></div>
 </blockquote>
-<div class="para" id="sec-2-4-Approx_solutions-2-21">Okay, enough digression. Let’s check our answer using the graph.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-21" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="ss-2-4-india-1-6-23">Okay, enough digression. Let’s check our answer using the graph.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-22">
-<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/indiapop.png" class="contained"></div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-22" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/prefigure/prefigure-india-population.svg" role="img" class="contained" alt="Population model of India"></div>
+<div class="para" id="ss-2-4-india-1-6-25">It looks like 1.6 billion corresponds to just before the unlabeled gridline halfway between 15 and 20. That line would be 17.5, so the answer of 17 (which was year 2028) looks perfect.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-india-1-6-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-2-23">It looks like 1.5 billion corresponds to just before the unlabeled gridline halfway between 15 and 20. That line would be 17.5, so the answer of 17 (which was year 2028) looks perfect.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-2-23" title="Copy permalink for Paragraph">🔗</a></div>
-</div></section><section class="conclusion" id="sec-2-4-Approx_solutions-3"><h3 class="heading">Do you know …<span></span>
+<div class="autopermalink" data-description="Subsection: India at 1.6 billion"><a href="#ss-2-4-india-1-6" title="Copy heading and permalink for Subsection: India at 1.6 billion" aria-label="Copy heading and permalink for Subsection: India at 1.6 billion">🔗</a></div></section><section class="subsection" id="ss-2-4-ALTERNATE"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">ALTERNATE: India at 1.75</span>
 </h3>
-<div class="para logical" id="sec-2-4-Approx_solutions-3-2">
-<ol class="upper-alpha ol-marker-1" id="sec-2-4-Approx_solutions-3-2-1">
-<li id="sec-2-4-Approx_solutions-3-2-1-1">
-<div class="para" id="sec-2-4-Approx_solutions-3-2-1-1-1">What a solution to an equation is?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="ss-2-4-ALTERNATE-2">
+<div class="para">This is going slowly. We would really like to find a point at which the equation gives us more than 1.6 billion. Then we can work backwards from there to narrow things down. How about 40 years?</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P=1.409 \ast 1.0072^{40} = 1.409 \times 1.0072 \wedge \underline{40} = 1.8773259  \approx 1.877\text{ billion}
+\end{equation*}
 </div>
-<div class="autopermalink" data-description="Item A"><a href="#sec-2-4-Approx_solutions-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+<div class="para">That’s too much, but the good news is now we know the solution is between 10 years and 40 years.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-ALTERNATE-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-2-4-ALTERNATE-3">Let’s summarize what we have so far in a table. Notice how we’ve added a third row to keep track of our progress for our goal.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-ALTERNATE-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(Y\)</span></th>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">40</td>
+<td class="c m b1 r1 l0 t1 lines"></td>
+<td class="c m b1 r1 l0 t1 lines"></td>
+<td class="c m b1 r1 l0 t1 lines"></td>
+<td class="c m b1 r1 l0 t1 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></th>
+<td class="c m b1 r1 l0 t0 lines">1.409</td>
+<td class="c m b1 r1 l0 t0 lines">1.419</td>
+<td class="c m b1 r1 l0 t0 lines">1.460</td>
+<td class="c m b1 r1 l0 t0 lines">1.513</td>
+<td class="c m b1 r1 l0 t0 lines">1.877</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">vs. 1.75</th>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">                 </td>
+<td class="c m b1 r1 l0 t0 lines">                 </td>
+<td class="c m b1 r1 l0 t0 lines">                 </td>
+<td class="c m b1 r1 l0 t0 lines">                 </td>
+</tr>
+</table></div>
+<div class="para" id="ss-2-4-ALTERNATE-5">We know the solution is between 10 and 40 years, so let’s guess halfway in between, at 25 years. In 25 years, the population should be around 1.686 billion. Where’s that 1.686 from? Just our equation again. It would be good practice for you to evaluate at <span class="process-math">\(Y=25\)</span> to check.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-ALTERNATE-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-2-4-ALTERNATE-6">The 25 year estimate is too low and the 40 year estimate is too high. That means the solution is between 25 years and 40 years, so let’s try 35 years which gives 1.811 billion. (Check again, for practice.) We’re getting closer! The population should pass 1.75 billion some time between 25 and 35 years, so let’s guess 30 years. Estimate is 1.747 billion—just a bit too low. Would 31 years be too long? That gives 1.76 billion, a bit too high. Let’s add these numbers to our table.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-ALTERNATE-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(Y\)</span></th>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">40</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">30</td>
+<td class="c m b1 r1 l0 t1 lines">31</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></th>
+<td class="c m b1 r1 l0 t0 lines">1.409</td>
+<td class="c m b1 r1 l0 t0 lines">1.419</td>
+<td class="c m b1 r1 l0 t0 lines">1.460</td>
+<td class="c m b1 r1 l0 t0 lines">1.513</td>
+<td class="c m b1 r1 l0 t0 lines">1.877</td>
+<td class="c m b1 r1 l0 t0 lines">1.686</td>
+<td class="c m b1 r1 l0 t0 lines">1.811</td>
+<td class="c m b1 r1 l0 t0 lines">1.747</td>
+<td class="c m b1 r1 l0 t0 lines">1.760</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">vs. 1.75</th>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+</tr>
+</table></div>
+<div class="para logical" id="ss-2-4-ALTERNATE-8">
+<div class="para">According to our equation, the population of the India should pass 1.75 billion after 30 years, which would be in the year 2054. By the way, it works to add the year and number.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2024 + 30 \text{ years } = 2041
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-ALTERNATE-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-2-4-ALTERNATE-9">Okay, enough digression. Let’s check our answer using the graph.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-ALTERNATE-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/prefigure/prefigure-india-population-alt.svg" role="img" class="contained" alt="Population model of India"></div>
+<div class="para" id="ss-2-4-ALTERNATE-11">Sure enough, it looks like 1.75 billion pretty much corresponds to the gridline at 30 years. So our answer of 30 (which is year 2041) looks perfect.<div class="autopermalink" data-description="Paragraph"><a href="#ss-2-4-ALTERNATE-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: ALTERNATE: India at 1.75"><a href="#ss-2-4-ALTERNATE" title="Copy heading and permalink for Subsection: ALTERNATE: India at 1.75" aria-label="Copy heading and permalink for Subsection: ALTERNATE: India at 1.75">🔗</a></div></section><section class="conclusion" id="sec-2-4-Approx_solutions-5"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-2-4-Approx_solutions-5-2">
+<ol class="upper-alpha ol-marker-1" id="sec-2-4-Approx_solutions-5-2-1">
+<li id="sec-2-4-Approx_solutions-5-2-1-1">
+<div class="para" id="sec-2-4-Approx_solutions-5-2-1-1-1">What a solution to an equation is?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-2-4-Approx_solutions-5-2-1-1" title="Copy heading and permalink for Item A" aria-label="Copy heading and permalink for Item A">🔗</a></div>
 </li>
-<li id="sec-2-4-Approx_solutions-3-2-1-2">
-<div class="para" id="sec-2-4-Approx_solutions-3-2-1-2-1">When you approximate a solution of an equation, as opposed to just evaluating?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-2-4-Approx_solutions-5-2-1-2">
+<div class="para" id="sec-2-4-Approx_solutions-5-2-1-2-1">When you approximate a solution of an equation, as opposed to just evaluating?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item B"><a href="#sec-2-4-Approx_solutions-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-2-4-Approx_solutions-5-2-1-2" title="Copy heading and permalink for Item B" aria-label="Copy heading and permalink for Item B">🔗</a></div>
 </li>
-<li id="sec-2-4-Approx_solutions-3-2-1-3">
-<div class="para" id="sec-2-4-Approx_solutions-3-2-1-3-1">How to use successive approximation, including organizing your work in a table?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-2-4-Approx_solutions-5-2-1-3">
+<div class="para" id="sec-2-4-Approx_solutions-5-2-1-3-1">How to use successive approximation, including organizing your work in a table?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item C"><a href="#sec-2-4-Approx_solutions-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-2-4-Approx_solutions-5-2-1-3" title="Copy heading and permalink for Item C" aria-label="Copy heading and permalink for Item C">🔗</a></div>
 </li>
-<li id="sec-2-4-Approx_solutions-3-2-1-4">
-<div class="para" id="sec-2-4-Approx_solutions-3-2-1-4-1">How to get a reasonable first guess from a graph?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-2-4-Approx_solutions-5-2-1-4">
+<div class="para" id="sec-2-4-Approx_solutions-5-2-1-4-1">How to get a reasonable first guess from a graph?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item D"><a href="#sec-2-4-Approx_solutions-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-2-4-Approx_solutions-5-2-1-4" title="Copy heading and permalink for Item D" aria-label="Copy heading and permalink for Item D">🔗</a></div>
 </li>
-<li id="sec-2-4-Approx_solutions-3-2-1-5">
-<div class="para" id="sec-2-4-Approx_solutions-3-2-1-5-1">What to do if you do not have a reasonable first guess?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-2-4-Approx_solutions-5-2-1-5">
+<div class="para" id="sec-2-4-Approx_solutions-5-2-1-5-1">What to do if you do not have a reasonable first guess?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item E"><a href="#sec-2-4-Approx_solutions-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-2-4-Approx_solutions-5-2-1-5" title="Copy heading and permalink for Item E" aria-label="Copy heading and permalink for Item E">🔗</a></div>
 </li>
-<li id="sec-2-4-Approx_solutions-3-2-1-6">
-<div class="para" id="sec-2-4-Approx_solutions-3-2-1-6-1">How precise your answer should be?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-2-4-Approx_solutions-5-2-1-6">
+<div class="para" id="sec-2-4-Approx_solutions-5-2-1-6-1">How precise your answer should be?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item F"><a href="#sec-2-4-Approx_solutions-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-2-4-Approx_solutions-5-2-1-6" title="Copy heading and permalink for Item F" aria-label="Copy heading and permalink for Item F">🔗</a></div>
 </li>
-<li id="sec-2-4-Approx_solutions-3-2-1-7">
-<div class="para" id="sec-2-4-Approx_solutions-3-2-1-7-1">How to find numbers between given numbers, for example between 0.3 and 0.4?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-2-4-Approx_solutions-5-2-1-7">
+<div class="para" id="sec-2-4-Approx_solutions-5-2-1-7-1">How to find numbers between given numbers, for example between 0.3 and 0.4?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-2-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item G"><a href="#sec-2-4-Approx_solutions-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-2-4-Approx_solutions-5-2-1-7" title="Copy heading and permalink for Item G" aria-label="Copy heading and permalink for Item G">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-2-4-Approx_solutions-3-3">
-<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-2-4-Approx_solutions-5-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-Approx_solutions-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section><section class="exercises" id="ex-2-4-Approx_solutions"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="ex-2-4-Approx_solutions-2"><div class="para" id="ex-2-4-Approx_solutions-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-2-4-Approx_solutions-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="ex-2-4-Approx_solutions-2"><div class="para" id="ex-2-4-Approx_solutions-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-2-4-Approx_solutions-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section><article class="exercise exercise-like" id="pizza-diameter-approx-solutions"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <div class="introduction" id="pizza-diameter-approx-solutions-1"><div class="para logical" id="pizza-diameter-approx-solutions-1-1">
 <div class="para">The size of a round pizza is described by its <dfn class="terminology">diameter</dfn> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <span class="process-math">\(D\)</span> inches serves <span class="process-math">\(P\)</span> people, where</div>
@@ -704,42 +873,42 @@ P = 0.015625\ D^2
 \end{equation*}
 </div>
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-0-6-Powers_and_roots.html#pizza-diameter-powers-roots" class="xref" data-knowl="./knowl/xref/pizza-diameter-powers-roots.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.6.2">0.6.2</a>, <a href="sec-4-1-Modeling_linear_equations.html#pizza-diameter-modeling-linear" class="xref" data-knowl="./knowl/xref/pizza-diameter-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.1.3.c">4.1.3.c</a>, and <a href="sec-3-3-Solving_power_equations.html#pizza-diameter-solving-power" class="xref" data-knowl="./knowl/xref/pizza-diameter-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.1">3.3.1</a>)</em></div>
-<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="pizza-diameter-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="pizza-diameter-approx-solutions-2-1-1">Confirm that a 16-inch pizza serves four people.<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="pizza-diameter-approx-solutions-2-1-1">Confirm that a 16-inch pizza serves four people.<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.1.a"><a href="#pizza-diameter-approx-solutions-2" title="Copy permalink for Task 2.4.1.a">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="pizza-diameter-approx-solutions-3-1-1">How many people does a 12-inch pizza serve? How about a 14-inch pizza?<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#pizza-diameter-approx-solutions-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-3-1-1">How many people does a 12-inch pizza serve? How about a 14-inch pizza?<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.1.b"><a href="#pizza-diameter-approx-solutions-3" title="Copy permalink for Task 2.4.1.b">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="pizza-diameter-approx-solutions-4-1-1">Graph the function. Include what happens when <span class="process-math">\(D=0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#pizza-diameter-approx-solutions-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-4-1-1">Graph the function. Include what happens when <span class="process-math">\(D=0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.1.c"><a href="#pizza-diameter-approx-solutions-4" title="Copy permalink for Task 2.4.1.c">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="pizza-diameter-approx-solutions-5-1-1">A <dfn class="terminology">personal</dfn> pizza is sized to serve one person. Use successive approximation to estimate the diameter of a personal pizza to the nearest inch.<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 1.c"><a href="#pizza-diameter-approx-solutions-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-5-1-1">A <dfn class="terminology">personal</dfn> pizza is sized to serve one person. Use successive approximation to estimate the diameter of a personal pizza to the nearest inch.<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.1.d"><a href="#pizza-diameter-approx-solutions-5" title="Copy permalink for Task 2.4.1.d">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="pizza-diameter-approx-solutions-6-1-1">What diameter should an extra large pizza be to serve 6 people? Answer to the nearest inch.<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 1.d"><a href="#pizza-diameter-approx-solutions-5" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-6-1-1">What diameter should an extra large pizza be to serve 6 people? Answer to the nearest inch.<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-approx-solutions-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.1.e"><a href="#pizza-diameter-approx-solutions-6" title="Copy permalink for Task 2.4.1.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.1"><a href="#pizza-diameter-approx-solutions" title="Copy permalink for Exercise 2.4.1">🔗</a></div></article><article class="exercise exercise-like" id="fuel-350-approx-solutions"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="introduction" id="fuel-350-approx-solutions-1"><div class="para" id="fuel-350-approx-solutions-1-1">Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That’s fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em class="emphasis">(Story also appears in <a href="sec-3-3-Solving_power_equations.html#fuel-350-solving-power" class="xref" data-knowl="./knowl/xref/fuel-350-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.3">3.3.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 1.e"><a href="#pizza-diameter-approx-solutions-6" title="Copy heading and permalink for Task 1.e" aria-label="Copy heading and permalink for Task 1.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1"><a href="#pizza-diameter-approx-solutions" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="fuel-350-approx-solutions"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="fuel-350-approx-solutions-1"><div class="para" id="fuel-350-approx-solutions-1-1">Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That’s fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em class="emphasis">(Story also appears in <a href="sec-3-3-Solving_power_equations.html#fuel-350-solving-power" class="xref" data-knowl="./knowl/xref/fuel-350-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.3">3.3.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="fuel-350-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="fuel-350-approx-solutions-2-1-1">Name the variables, including units. The way the story is stated, the size tank is a function of the fuel efficiency.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="fuel-350-approx-solutions-2-1-1">Name the variables, including units. The way the story is stated, the size tank is a function of the fuel efficiency.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.2.a"><a href="#fuel-350-approx-solutions-2" title="Copy permalink for Task 2.4.2.a">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="fuel-350-approx-solutions-3-1-1">Write an equation describing this function.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 2.a"><a href="#fuel-350-approx-solutions-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-3-1-1">Write an equation describing this function.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.2.b"><a href="#fuel-350-approx-solutions-3" title="Copy permalink for Task 2.4.2.b">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="fuel-350-approx-solutions-4-1-1">My Honda Accord’s tank holds about 16 gallons. Approximate the corresponding fuel efficiency to one decimal place.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 2.b"><a href="#fuel-350-approx-solutions-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-4-1-1">My Honda Accord’s tank holds about 16 gallons. Approximate the corresponding fuel efficiency to one decimal place.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.2.c"><a href="#fuel-350-approx-solutions-4" title="Copy permalink for Task 2.4.2.c">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="fuel-350-approx-solutions-5-1-1">My ex-husband’s Honda Civic’s tank holds only 13 gallons. Approximate the corresponding fuel efficiency to one decimal place.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 2.c"><a href="#fuel-350-approx-solutions-4" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-5-1-1">My ex-husband’s Honda Civic’s tank holds only 13 gallons. Approximate the corresponding fuel efficiency to one decimal place.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.2.d"><a href="#fuel-350-approx-solutions-5" title="Copy permalink for Task 2.4.2.d">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="fuel-350-approx-solutions-6-1-1">Draw a graph showing how the size tank depends on the fuel efficiency.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 2.d"><a href="#fuel-350-approx-solutions-5" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-6-1-1">Draw a graph showing how the size tank depends on the fuel efficiency.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.2.e"><a href="#fuel-350-approx-solutions-6" title="Copy permalink for Task 2.4.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.2"><a href="#fuel-350-approx-solutions" title="Copy permalink for Exercise 2.4.2">🔗</a></div></article><article class="exercise exercise-like" id="monty-orchids-approx-solutions"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 2.e"><a href="#fuel-350-approx-solutions-6" title="Copy heading and permalink for Task 2.e" aria-label="Copy heading and permalink for Task 2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2"><a href="#fuel-350-approx-solutions" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="monty-orchids-approx-solutions"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="introduction" id="monty-orchids-approx-solutions-1"><div class="para logical" id="monty-orchids-approx-solutions-1-1">
 <div class="para">Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <span class="process-math">\(S\text{,}\)</span> the probability his greenhouse is a success, <span class="process-math">\(P\text{,}\)</span> is given by</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/monty-orchids-using-equations.html">
@@ -748,21 +917,21 @@ P= 10S^9-9S^{10}
 \end{equation*}
 </div>
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-2-3-Using_equations.html#monty-orchids-using-equations" class="xref" data-knowl="./knowl/xref/monty-orchids-using-equations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.3">2.3.3</a>)</em></div>
-<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="monty-orchids-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="monty-orchids-approx-solutions-2-1-1">Monty can buy orchids each with survival rate of <span class="process-math">\(S=0.8\text{.}\)</span> Is that enough to give probability <span class="process-math">\(P\ge 0.8\)</span> of a successful greenhouse?<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="monty-orchids-approx-solutions-2-1-1">Monty can buy orchids each with survival rate of <span class="process-math">\(S=0.8\text{.}\)</span> Is that enough to give probability <span class="process-math">\(P\ge 0.8\)</span> of a successful greenhouse?<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.3.a"><a href="#monty-orchids-approx-solutions-2" title="Copy permalink for Task 2.4.3.a">🔗</a></div></article><article class="task exercise-like" id="monty-orchids-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="monty-orchids-approx-solutions-3-1-1">What quality of orchids would Monty need to have probability <span class="process-math">\(P\ge 0.8\)</span> of a successful greenhouse? Report your answer accurate to two decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 3.a"><a href="#monty-orchids-approx-solutions-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div></article><article class="task exercise-like" id="monty-orchids-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="monty-orchids-approx-solutions-3-1-1">What quality of orchids would Monty need to have probability <span class="process-math">\(P\ge 0.8\)</span> of a successful greenhouse? Report your answer accurate to two decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.3.b"><a href="#monty-orchids-approx-solutions-3" title="Copy permalink for Task 2.4.3.b">🔗</a></div></article><article class="task exercise-like" id="monty-orchids-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="monty-orchids-approx-solutions-4-1-1">What quality of orchids would Monty need to have probability <span class="process-math">\(P\ge 0.95\)</span> of a successful greenhouse? Report your answer accurate to three decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 3.b"><a href="#monty-orchids-approx-solutions-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div></article><article class="task exercise-like" id="monty-orchids-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="monty-orchids-approx-solutions-4-1-1">What quality of orchids would Monty need to have probability <span class="process-math">\(P\ge 0.95\)</span> of a successful greenhouse? Report your answer accurate to three decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.3.c"><a href="#monty-orchids-approx-solutions-4" title="Copy permalink for Task 2.4.3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.3"><a href="#monty-orchids-approx-solutions" title="Copy permalink for Exercise 2.4.3">🔗</a></div></article><article class="exercise exercise-like" id="population-growth-approx-solutions"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 3.c"><a href="#monty-orchids-approx-solutions-4" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3"><a href="#monty-orchids-approx-solutions" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div></article><article class="exercise exercise-like" id="population-growth-approx-solutions"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
 <div class="introduction" id="population-growth-approx-solutions-1">
-<div class="para" id="population-growth-approx-solutions-1-1">After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. Their projected growth rates and corresponding equation are listed below. Here <span class="process-math">\(Q\)</span> is the population measured in millions and <span class="process-math">\(T\)</span> is time measured in years since 2011. <aside class="aside aside-like" id="population-growth-approx-solutions-1-1-3"><div class="para" id="population-growth-approx-solutions-1-1-3-1">Source: CIA Factbook<div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
-</div></aside><div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="population-growth-approx-solutions-1-1">After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. Their projected growth rates and corresponding equation are listed below. Here <span class="process-math">\(Q\)</span> is the population measured in millions and <span class="process-math">\(T\)</span> is time measured in years since 2011. <aside class="aside aside-like" id="population-growth-approx-solutions-1-1-3"><div class="para" id="population-growth-approx-solutions-1-1-3-1">Source: CIA Factbook<div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></aside><div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
@@ -803,15 +972,15 @@ P= 10S^9-9S^{10}
 </table></div>
 </div>
 <article class="task exercise-like" id="population-growth-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="population-growth-approx-solutions-2-1-1">Which of these countries is projected to have the largest population in 2020? In 2030? In 2050?<div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="population-growth-approx-solutions-2-1-1">Which of these countries is projected to have the largest population in 2020? In 2030? In 2050?<div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.4.a"><a href="#population-growth-approx-solutions-2" title="Copy permalink for Task 2.4.4.a">🔗</a></div></article><article class="task exercise-like" id="population-growth-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="population-growth-approx-solutions-3-1-1">Explain why Bangladesh’s population will not overtake Nigeria’s, assuming these projections are accurate.<div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 4.a"><a href="#population-growth-approx-solutions-2" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div></article><article class="task exercise-like" id="population-growth-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="population-growth-approx-solutions-3-1-1">Explain why Bangladesh’s population will not overtake Nigeria’s, assuming these projections are accurate.<div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.4.b"><a href="#population-growth-approx-solutions-3" title="Copy permalink for Task 2.4.4.b">🔗</a></div></article><article class="task exercise-like" id="population-growth-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="population-growth-approx-solutions-4-1-1">Approximately when will Brazil’s population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.<div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 4.b"><a href="#population-growth-approx-solutions-3" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div></article><article class="task exercise-like" id="population-growth-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="population-growth-approx-solutions-4-1-1">Approximately when will Brazil’s population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.<div class="autopermalink" data-description="Paragraph"><a href="#population-growth-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.4.c"><a href="#population-growth-approx-solutions-4" title="Copy permalink for Task 2.4.4.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.4"><a href="#population-growth-approx-solutions" title="Copy permalink for Exercise 2.4.4">🔗</a></div></article><article class="exercise exercise-like" id="pop-china-approx-solutions"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 4.c"><a href="#population-growth-approx-solutions-4" title="Copy heading and permalink for Task 4.c" aria-label="Copy heading and permalink for Task 4.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4"><a href="#population-growth-approx-solutions" title="Copy heading and permalink for Exercise 4" aria-label="Copy heading and permalink for Exercise 4">🔗</a></div></article><article class="exercise exercise-like" id="pop-china-approx-solutions"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="introduction" id="pop-china-approx-solutions-1">
 <div class="para logical" id="pop-china-approx-solutions-1-1">
 <div class="para">The population of China in 2011 was approximately 1.343 billion and growing at around 0.48% per year. An equation estimating the population of China is</div>
@@ -821,24 +990,24 @@ P = 1.343 \ast 1.0048^Y
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(P\)</span> is the population of China (measured in billions) and <span class="process-math">\(Y\)</span> is the years since 2011.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<aside class="aside aside-like" id="pop-china-approx-solutions-1-2"><div class="para" id="pop-china-approx-solutions-1-2-1">Source: CIA Factbook<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+<aside class="aside aside-like" id="pop-china-approx-solutions-1-2"><div class="para" id="pop-china-approx-solutions-1-2-1">Source: CIA Factbook<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></aside>
 </div>
 <article class="task exercise-like" id="pop-china-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="pop-china-approx-solutions-2-1-1">In what year is China’s population projected to reach 1.5 billion?<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="pop-china-approx-solutions-2-1-1">In what year is China’s population projected to reach 1.5 billion?<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.5.a"><a href="#pop-china-approx-solutions-2" title="Copy permalink for Task 2.4.5.a">🔗</a></div></article><article class="task exercise-like" id="pop-china-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="pop-china-approx-solutions-3-1-1">In what year is India’s population expected to pass China’s? Remember that we discussed India’s population in this section.<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 5.a"><a href="#pop-china-approx-solutions-2" title="Copy heading and permalink for Task 5.a" aria-label="Copy heading and permalink for Task 5.a">🔗</a></div></article><article class="task exercise-like" id="pop-china-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pop-china-approx-solutions-3-1-1">In what year is India’s population expected to pass China’s? Remember that we discussed India’s population in this section.<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.5.b"><a href="#pop-china-approx-solutions-3" title="Copy permalink for Task 2.4.5.b">🔗</a></div></article><article class="task exercise-like" id="pop-china-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="pop-china-approx-solutions-4-1-1">Explain how we got the equation for China.<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 5.b"><a href="#pop-china-approx-solutions-3" title="Copy heading and permalink for Task 5.b" aria-label="Copy heading and permalink for Task 5.b">🔗</a></div></article><article class="task exercise-like" id="pop-china-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="pop-china-approx-solutions-4-1-1">Explain how we got the equation for China.<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.5.c"><a href="#pop-china-approx-solutions-4" title="Copy permalink for Task 2.4.5.c">🔗</a></div></article><article class="task exercise-like" id="pop-china-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="pop-china-approx-solutions-5-1-1">Draw a graph showing both equations.<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 5.c"><a href="#pop-china-approx-solutions-4" title="Copy heading and permalink for Task 5.c" aria-label="Copy heading and permalink for Task 5.c">🔗</a></div></article><article class="task exercise-like" id="pop-china-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="pop-china-approx-solutions-5-1-1">Draw a graph showing both equations.<div class="autopermalink" data-description="Paragraph"><a href="#pop-china-approx-solutions-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.5.d"><a href="#pop-china-approx-solutions-5" title="Copy permalink for Task 2.4.5.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.5"><a href="#pop-china-approx-solutions" title="Copy permalink for Exercise 2.4.5">🔗</a></div></article><article class="exercise exercise-like" id="electronics-sales-approx-solutions"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 5.d"><a href="#pop-china-approx-solutions-5" title="Copy heading and permalink for Task 5.d" aria-label="Copy heading and permalink for Task 5.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5"><a href="#pop-china-approx-solutions" title="Copy heading and permalink for Exercise 5" aria-label="Copy heading and permalink for Exercise 5">🔗</a></div></article><article class="exercise exercise-like" id="electronics-sales-approx-solutions"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="introduction" id="electronics-sales-approx-solutions-1">
 <div class="para logical" id="electronics-sales-approx-solutions-1-1">
 <div class="para">A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. Their sales <span class="process-math">\(M\)</span> in millions of dollars <span class="process-math">\(Y\)</span> years from 1996 is given by the following equation</div>
@@ -847,22 +1016,22 @@ P = 1.343 \ast 1.0048^Y
 M = 104.4+11.5Y-1.4Y^2
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="electronics-sales-approx-solutions-1-2">
-<em class="emphasis">(Story also appears in <a href="sec-3-5-Solving_quadratic_equations.html#electronics-sales-solving-quadratic" class="xref" data-knowl="./knowl/xref/electronics-sales-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.9">3.5.9</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+<em class="emphasis">(Story also appears in <a href="sec-3-5-Solving_quadratic_equations.html#electronics-sales-solving-quadratic" class="xref" data-knowl="./knowl/xref/electronics-sales-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.9">3.5.9</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="electronics-sales-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="electronics-sales-approx-solutions-2-1-1">What were the company’s sales in 1996, 2000, and 2005?<div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="electronics-sales-approx-solutions-2-1-1">What were the company’s sales in 1996, 2000, and 2005?<div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.6.a"><a href="#electronics-sales-approx-solutions-2" title="Copy permalink for Task 2.4.6.a">🔗</a></div></article><article class="task exercise-like" id="electronics-sales-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="electronics-sales-approx-solutions-3-1-1">The company decided to declare bankruptcy when sales fell below $20 million. In what year was that? Show how to use successive approximations to estimate the answer to the nearest year.<div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 6.a"><a href="#electronics-sales-approx-solutions-2" title="Copy heading and permalink for Task 6.a" aria-label="Copy heading and permalink for Task 6.a">🔗</a></div></article><article class="task exercise-like" id="electronics-sales-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="electronics-sales-approx-solutions-3-1-1">The company decided to declare bankruptcy when sales fell below $20 million. In what year was that? Show how to use successive approximations to estimate the answer to the nearest year.<div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.6.b"><a href="#electronics-sales-approx-solutions-3" title="Copy permalink for Task 2.4.6.b">🔗</a></div></article><article class="task exercise-like" id="electronics-sales-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="electronics-sales-approx-solutions-4-1-1">An analyst had suggested that they close down shop earlier, once sales were below $50 million. In what year did sales fall that low? Again, use successive approximation.<div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 6.b"><a href="#electronics-sales-approx-solutions-3" title="Copy heading and permalink for Task 6.b" aria-label="Copy heading and permalink for Task 6.b">🔗</a></div></article><article class="task exercise-like" id="electronics-sales-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="electronics-sales-approx-solutions-4-1-1">An analyst had suggested that they close down shop earlier, once sales were below $50 million. In what year did sales fall that low? Again, use successive approximation.<div class="autopermalink" data-description="Paragraph"><a href="#electronics-sales-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.6.c"><a href="#electronics-sales-approx-solutions-4" title="Copy permalink for Task 2.4.6.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.6"><a href="#electronics-sales-approx-solutions" title="Copy permalink for Exercise 2.4.6">🔗</a></div></article><article class="exercise exercise-like" id="window-glass-approx-solutions"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 6.c"><a href="#electronics-sales-approx-solutions-4" title="Copy heading and permalink for Task 6.c" aria-label="Copy heading and permalink for Task 6.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 6"><a href="#electronics-sales-approx-solutions" title="Copy heading and permalink for Exercise 6" aria-label="Copy heading and permalink for Exercise 6">🔗</a></div></article><article class="exercise exercise-like" id="window-glass-approx-solutions"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <div class="introduction" id="window-glass-approx-solutions-1">
 <div class="para logical" id="window-glass-approx-solutions-1-1">
 <div class="para">Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If two panes of this glass are used, the product is 2 inches thick and lets in 56.25% since</div>
@@ -871,28 +1040,28 @@ M = 104.4+11.5Y-1.4Y^2
 75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="window-glass-approx-solutions-1-2">
-<em class="emphasis">(Story also appears in <a href="sec-3-4-Solving_exponential_equations.html#window-glass-solving-exponential" class="xref" data-knowl="./knowl/xref/window-glass-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.7">3.4.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+<em class="emphasis">(Story also appears in <a href="sec-3-4-Solving_exponential_equations.html#window-glass-solving-exponential" class="xref" data-knowl="./knowl/xref/window-glass-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.7">3.4.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="window-glass-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="window-glass-approx-solutions-2-1-1">If three panes of this glass are used, explain why the product is 3 inches thick and lets in about 42.19% of the light.<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="window-glass-approx-solutions-2-1-1">If three panes of this glass are used, explain why the product is 3 inches thick and lets in about 42.19% of the light.<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.7.a"><a href="#window-glass-approx-solutions-2" title="Copy permalink for Task 2.4.7.a">🔗</a></div></article><article class="task exercise-like" id="window-glass-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="window-glass-approx-solutions-3-1-1">If four panes of this glass are used, how thick will the product be and what percentage (%) of the light will be let through?<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 7.a"><a href="#window-glass-approx-solutions-2" title="Copy heading and permalink for Task 7.a" aria-label="Copy heading and permalink for Task 7.a">🔗</a></div></article><article class="task exercise-like" id="window-glass-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="window-glass-approx-solutions-3-1-1">If four panes of this glass are used, how thick will the product be and what percentage (%) of the light will be let through?<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.7.b"><a href="#window-glass-approx-solutions-3" title="Copy permalink for Task 2.4.7.b">🔗</a></div></article><article class="task exercise-like" id="window-glass-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="window-glass-approx-solutions-4-1-1">Identify and name the variables, including their units, and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 7.b"><a href="#window-glass-approx-solutions-3" title="Copy heading and permalink for Task 7.b" aria-label="Copy heading and permalink for Task 7.b">🔗</a></div></article><article class="task exercise-like" id="window-glass-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="window-glass-approx-solutions-4-1-1">Identify and name the variables, including their units, and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.7.c"><a href="#window-glass-approx-solutions-4" title="Copy permalink for Task 2.4.7.c">🔗</a></div></article><article class="task exercise-like" id="window-glass-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="window-glass-approx-solutions-5-1-1">Use successive approximation to figure out what thickness glass should be used to let through less than 10% of the light. Display your work in a table.<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 7.c"><a href="#window-glass-approx-solutions-4" title="Copy heading and permalink for Task 7.c" aria-label="Copy heading and permalink for Task 7.c">🔗</a></div></article><article class="task exercise-like" id="window-glass-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="window-glass-approx-solutions-5-1-1">Use successive approximation to figure out what thickness glass should be used to let through less than 10% of the light. Display your work in a table.<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.7.d"><a href="#window-glass-approx-solutions-5" title="Copy permalink for Task 2.4.7.d">🔗</a></div></article><article class="task exercise-like" id="window-glass-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="window-glass-approx-solutions-6-1-1">Graph the function.<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 7.d"><a href="#window-glass-approx-solutions-5" title="Copy heading and permalink for Task 7.d" aria-label="Copy heading and permalink for Task 7.d">🔗</a></div></article><article class="task exercise-like" id="window-glass-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="window-glass-approx-solutions-6-1-1">Graph the function.<div class="autopermalink" data-description="Paragraph"><a href="#window-glass-approx-solutions-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.7.e"><a href="#window-glass-approx-solutions-6" title="Copy permalink for Task 2.4.7.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.7"><a href="#window-glass-approx-solutions" title="Copy permalink for Exercise 2.4.7">🔗</a></div></article><article class="exercise exercise-like" id="wind-turbine-approx-solutions"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 7.e"><a href="#window-glass-approx-solutions-6" title="Copy heading and permalink for Task 7.e" aria-label="Copy heading and permalink for Task 7.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 7"><a href="#window-glass-approx-solutions" title="Copy heading and permalink for Exercise 7" aria-label="Copy heading and permalink for Exercise 7">🔗</a></div></article><article class="exercise exercise-like" id="wind-turbine-approx-solutions"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
 <div class="introduction" id="wind-turbine-approx-solutions-1">
 <div class="para logical" id="wind-turbine-approx-solutions-1-1">
 <div class="para">Wind turbines are used to generate electricity. For a particular wind turbine, the equation</div>
@@ -902,22 +1071,22 @@ W = 2.4 S^3
 \end{equation*}
 </div>
 <div class="para">can be used to calculate the amount of electricity generated (<span class="process-math">\(W\)</span> watts) for a given wind speed (<span class="process-math">\(S\)</span> mph), over a fixed period of time.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="wind-turbine-approx-solutions-1-2">
-<em class="emphasis">(Story also appears in <a href="sec-1-1-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 10">10</a>, <a href="sec-1-3-Rate_of_change.html#wind-turbine-rate-of-change" class="xref" data-knowl="./knowl/xref/wind-turbine-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 7">7</a>, and <a href="sec-3-3-Solving_power_equations.html#wind-turbine-solving-power" class="xref" data-knowl="./knowl/xref/wind-turbine-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.6">3.3.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+<em class="emphasis">(Story also appears in <a href="sec-1-1-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 10">10</a>, <a href="sec-1-3-Rate_of_change.html#wind-turbine-rate-of-change" class="xref" data-knowl="./knowl/xref/wind-turbine-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 7">7</a>, and <a href="sec-3-3-Solving_power_equations.html#wind-turbine-solving-power" class="xref" data-knowl="./knowl/xref/wind-turbine-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.6">3.3.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="wind-turbine-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="wind-turbine-approx-solutions-2-1-1">Make a table showing the amount of electricity produced when the wind speed is 10 mph, 25 mph, and 40 mph.<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="wind-turbine-approx-solutions-2-1-1">Make a table showing the amount of electricity produced when the wind speed is 10 mph, 25 mph, and 40 mph.<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.8.a"><a href="#wind-turbine-approx-solutions-2" title="Copy permalink for Task 2.4.8.a">🔗</a></div></article><article class="task exercise-like" id="wind-turbine-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="wind-turbine-approx-solutions-3-1-1">Draw a graph illustrating this equation.<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 8.a"><a href="#wind-turbine-approx-solutions-2" title="Copy heading and permalink for Task 8.a" aria-label="Copy heading and permalink for Task 8.a">🔗</a></div></article><article class="task exercise-like" id="wind-turbine-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wind-turbine-approx-solutions-3-1-1">Draw a graph illustrating this equation.<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.8.b"><a href="#wind-turbine-approx-solutions-3" title="Copy permalink for Task 2.4.8.b">🔗</a></div></article><article class="task exercise-like" id="wind-turbine-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="wind-turbine-approx-solutions-4-1-1">Approximate the wind speed that will generate 12,500 watts of electricity.<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 8.b"><a href="#wind-turbine-approx-solutions-3" title="Copy heading and permalink for Task 8.b" aria-label="Copy heading and permalink for Task 8.b">🔗</a></div></article><article class="task exercise-like" id="wind-turbine-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wind-turbine-approx-solutions-4-1-1">Approximate the wind speed that will generate 12,500 watts of electricity.<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.8.c"><a href="#wind-turbine-approx-solutions-4" title="Copy permalink for Task 2.4.8.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.8"><a href="#wind-turbine-approx-solutions" title="Copy permalink for Exercise 2.4.8">🔗</a></div></article><article class="exercise exercise-like" id="bac-approx-solutions"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 8.c"><a href="#wind-turbine-approx-solutions-4" title="Copy heading and permalink for Task 8.c" aria-label="Copy heading and permalink for Task 8.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 8"><a href="#wind-turbine-approx-solutions" title="Copy heading and permalink for Exercise 8" aria-label="Copy heading and permalink for Exercise 8">🔗</a></div></article><article class="exercise exercise-like" id="bac-approx-solutions"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
 <div class="introduction" id="bac-approx-solutions-1">
 <div class="para logical" id="bac-approx-solutions-1-1">
 <div class="para">After his first beer, Stephen’s blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is</div>
@@ -927,22 +1096,22 @@ S = 0.04 \ast 1.45^H
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(S\)</span> is Stephen’s BAC and <span class="process-math">\(H\)</span> is the time, measured in hours.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="bac-approx-solutions-1-2">
-<em class="emphasis">(Story also appears in <a href="sec-1-1-Variables_and_functions.html#bac-variables-functions" class="xref" data-knowl="./knowl/xref/bac-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.b">4.b</a> and <a href="sec-3-4-Solving_exponential_equations.html#bac-solving-exponential" class="xref" data-knowl="./knowl/xref/bac-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.1">3.4.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+<em class="emphasis">(Story also appears in <a href="sec-1-1-Variables_and_functions.html#bac-variables-functions" class="xref" data-knowl="./knowl/xref/bac-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.b">4.b</a> and <a href="sec-3-4-Solving_exponential_equations.html#bac-solving-exponential" class="xref" data-knowl="./knowl/xref/bac-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.1">3.4.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="bac-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="bac-approx-solutions-2-1-1">Make a table showing Stephen’s BAC at the start of the problem and each of the next four hours.<div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="bac-approx-solutions-2-1-1">Make a table showing Stephen’s BAC at the start of the problem and each of the next four hours.<div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.9.a"><a href="#bac-approx-solutions-2" title="Copy permalink for Task 2.4.9.a">🔗</a></div></article><article class="task exercise-like" id="bac-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="bac-approx-solutions-3-1-1">Draw a graph showing how Stephen’s BAC changed over time.<div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 9.a"><a href="#bac-approx-solutions-2" title="Copy heading and permalink for Task 9.a" aria-label="Copy heading and permalink for Task 9.a">🔗</a></div></article><article class="task exercise-like" id="bac-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bac-approx-solutions-3-1-1">Draw a graph showing how Stephen’s BAC changed over time.<div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.9.b"><a href="#bac-approx-solutions-3" title="Copy permalink for Task 2.4.9.b">🔗</a></div></article><article class="task exercise-like" id="bac-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="bac-approx-solutions-4-1-1">At a BAC of 0.10 it is illegal for Stephen to drive. Approximately when does that happen?<div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 9.b"><a href="#bac-approx-solutions-3" title="Copy heading and permalink for Task 9.b" aria-label="Copy heading and permalink for Task 9.b">🔗</a></div></article><article class="task exercise-like" id="bac-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bac-approx-solutions-4-1-1">At a BAC of 0.10 it is illegal for Stephen to drive. Approximately when does that happen?<div class="autopermalink" data-description="Paragraph"><a href="#bac-approx-solutions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.9.c"><a href="#bac-approx-solutions-4" title="Copy permalink for Task 2.4.9.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.9"><a href="#bac-approx-solutions" title="Copy permalink for Exercise 2.4.9">🔗</a></div></article><article class="exercise exercise-like" id="gravel-path-approx-solutions"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 9.c"><a href="#bac-approx-solutions-4" title="Copy heading and permalink for Task 9.c" aria-label="Copy heading and permalink for Task 9.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 9"><a href="#bac-approx-solutions" title="Copy heading and permalink for Exercise 9" aria-label="Copy heading and permalink for Exercise 9">🔗</a></div></article><article class="exercise exercise-like" id="gravel-path-approx-solutions"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
 <div class="introduction" id="gravel-path-approx-solutions-1">
 <div class="para logical" id="gravel-path-approx-solutions-1-1">
 <div class="para">Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10′<span class="process-math">\(\times\)</span>25′ vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<span class="process-math">\(G\)</span> cubic feet) is given by the equation</div>
@@ -952,23 +1121,23 @@ G = W^2 + 17.5W
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(W\)</span> is the width of the path in feet.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="gravel-path-approx-solutions-1-2">
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/GravelPath.png" class="contained"></div>
-<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="gravel-path-approx-solutions-1-3">
-<em class="emphasis">(Story also appears in <a href="sec-2-3-Using_equations.html#gravel-path-using-equations" class="xref" data-knowl="./knowl/xref/gravel-path-using-equations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.7">2.3.7</a> and <a href="sec-3-5-Solving_quadratic_equations.html#gravel-path-quadratic" class="xref" data-knowl="./knowl/xref/gravel-path-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.4">3.5.4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+<em class="emphasis">(Story also appears in <a href="sec-2-3-Using_equations.html#gravel-path-using-equations" class="xref" data-knowl="./knowl/xref/gravel-path-using-equations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.7">2.3.7</a> and <a href="sec-3-5-Solving_quadratic_equations.html#gravel-path-quadratic" class="xref" data-knowl="./knowl/xref/gravel-path-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.4">3.5.4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="gravel-path-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="gravel-path-approx-solutions-2-1-1">If the neighbor donates 60 cubic feet of gravel, how wide a path can they build? Report your answer to two decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="gravel-path-approx-solutions-2-1-1">If the neighbor donates 60 cubic feet of gravel, how wide a path can they build? Report your answer to two decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.10.a"><a href="#gravel-path-approx-solutions-2" title="Copy permalink for Task 2.4.10.a">🔗</a></div></article><article class="task exercise-like" id="gravel-path-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="gravel-path-approx-solutions-3-1-1">Convert your answer to feet and inches. Do you think that’s a wide enough path?<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 10.a"><a href="#gravel-path-approx-solutions-2" title="Copy heading and permalink for Task 10.a" aria-label="Copy heading and permalink for Task 10.a">🔗</a></div></article><article class="task exercise-like" id="gravel-path-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gravel-path-approx-solutions-3-1-1">Convert your answer to feet and inches. Do you think that’s a wide enough path?<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 2.4.10.b"><a href="#gravel-path-approx-solutions-3" title="Copy permalink for Task 2.4.10.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.4.10"><a href="#gravel-path-approx-solutions" title="Copy permalink for Exercise 2.4.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 2.4: Exercises"><a href="#ex-2-4-Approx_solutions" title="Copy permalink for Exercises 2.4: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 2.4: Approximating solutions of equations"><a href="#sec-2-4-Approx_solutions" title="Copy permalink for Section 2.4: Approximating solutions of equations">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Task 10.b"><a href="#gravel-path-approx-solutions-3" title="Copy heading and permalink for Task 10.b" aria-label="Copy heading and permalink for Task 10.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 10"><a href="#gravel-path-approx-solutions" title="Copy heading and permalink for Exercise 10" aria-label="Copy heading and permalink for Exercise 10">🔗</a></div></article><div class="autopermalink" data-description="Exercises: Exercises"><a href="#ex-2-4-Approx_solutions" title="Copy heading and permalink for Exercises: Exercises" aria-label="Copy heading and permalink for Exercises: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 2.4: Approximating solutions of equations"><a href="#sec-2-4-Approx_solutions" title="Copy heading and permalink for Section 2.4: Approximating solutions of equations" aria-label="Copy heading and permalink for Section 2.4: Approximating solutions of equations">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-2-3-Using_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-2-5-Finance.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
