@@ -5,6 +5,26 @@
 	<title component="not-workbook">Approximating solutions of equations</title>
 	<title component="workbook">Approximating solutions of equations - Practice exercises</title>
 	<introduction component="not-workbook">
+
+		<p>
+			In the past few sections we've been learning about <term>evaluating</term> equations: given a particular value of the independent variable, figuring out the resulting value of the dependent variable. You might call this process <q>plugging in.</q>
+		</p>
+
+		<p>
+			In <xref ref="ch-3-Solving_equations" text="type-global"/>, we will instead be interested in <term>solving</term> equations: given a particular value of the dependent variable, figuring out what value of the independent variable it came from. 
+		</p>
+
+		<p>
+			Turns out you can use your evaluating skills to figure out <em>approximate</em> solutions, which are often good enough for our purposes. In this section, we're about to learn a method called <term>successive approximation,</term> which you might also call <q>fancy guess-and-check.</q>
+		</p>
+
+		<xi:include href="./activities/oa-2-4-bad-guess.ptx" />
+
+	</introduction>
+
+	<subsection xml:id="ss-2-4-india-1-6">
+		<title>India at 1.6 billion</title>
+
 		<p>
 			Which country on Earth has the most people? If you guess China and India, in that order, you'd be right. And by a lot compared to other countries. A very distant third is the United States, with several countries close on our heels. Here are the population and growth rates estimates made in 2024.
 			<aside>
@@ -13,7 +33,6 @@
 				</p>
 			</aside>
 		</p>
-
 
 		<tabular>
 			<row>
@@ -40,6 +59,8 @@
 			India's population is growing fastest of these top three, so let's take a closer look. In the exercises you can explore China and other countries. Let's tackle this question: when is India's population projected to pass 1.6 billion?
 		</p>
 
+		<xi:include href="./activities/act-2-4-bad-guess.ptx" />
+
 		<p>
 			Start by writing an equation. The variables are
 			<md>
@@ -64,6 +85,11 @@
 			Since we can easily check and see if any number is a solution, one way to find the solution is to <term>guess and check</term>. Let's try that to determine when India's population will pass 1.6 billion people. Since we're not sure where to start, let's see what the equation projects for 2025, when <m>Y=1</m>. 
 			<me>P=1.409 \ast 1.0072^1 = 1.409 \times 1.0072 \wedge \underline{1} = 1.4191448\ldots \approx 1.419 \text{ billion}</me> 
 			Hardly budged. Well, comparatively.
+			<aside>
+				<p>
+					<m>Y=1</m> is a good example of a hilariously <em>low</em> guess.
+				</p>
+			</aside>
 		</p>
 
 		<p>
@@ -78,10 +104,15 @@
 			This is going slowly. We would really like to find a point at which the equation gives us more than 1.6 billion. Then we can work backwards from there to narrow things down. How about 50 years? 
 			<me>P=1.409 \ast 1.0072^{50} = 1.409 \times 1.0072 \wedge \underline{50} = 2.016958  \approx 2.017\text{ billion}</me> 
 			That's too much, but the good news is now we know the solution is between 10 years and 50 years.
+			<aside>
+				<p>
+					<m>Y=50</m> is a good example of a hilariously <em>high</em> guess.
+				</p>
+			</aside>
 		</p>
 
 		<p>
-			Let's summarize what we have so far in a table. Notice how we've added a third row to keep track of our progress for our goal.
+			Now that we've made a few bad guesses, let's summarize what we have so far in a table. Notice how we've added a third row to keep track of our progress for our goal.
 		</p>
 
 
@@ -231,7 +262,7 @@
 		<p>
 			It looks like 1.6 billion corresponds to just before the unlabeled gridline halfway between 15 and 20. That line would be 17.5, so the answer of 17 (which was year 2028) looks perfect.
 		</p>
-	</introduction>
+	</subsection>
 
 	<subsection component="not-workbook" xml:id="ss-2-4-ALTERNATE">
 		<title>ALTERNATE: India at 1.75</title>
