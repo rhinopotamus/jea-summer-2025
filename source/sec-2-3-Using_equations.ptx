@@ -6,6 +6,27 @@
 	<title component="workbook">Using equations - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
+			So far we've seen examples of linear equations and exponential equations. There are lots of other kinds of equations that we might use! Whatever kind of equation we have, and however we figured it out, we can always use the equation to figure out the value of the dependent variable that's associated with a particular value of the independent variable. We might call this process <q>plugging in,</q> but its official name is <term>evaluating</term> the equation.
+		</p>
+
+		<assemblage>
+			<title>Evaluating</title>
+			<p>
+				When we are <term>evaluating</term> an equation, this means we know a value of the independent variable (an input) and we want to figure out the corresponding value of the dependent variable (the output).
+			</p>
+		</assemblage>
+
+		<p>
+			Just as important as evaluating an equation is thinking about what our result means. Not only is this a good way to catch any calculator mistakes we might have made, but also it's how algebra helps us make good decisions in the real world.
+		</p>
+
+		<xi:include href="./activities/oa-2-3-evaluating.ptx" />
+	</introduction>
+
+	<subsection component="not-workbook" xml:id="ss-2-3-braking-distance">
+		<title>Braking distance</title>
+		
+		<p>
 			The Cadillac Escalade is a cross between a sports utility vehicle (SUV) and luxury car. Either way, it's a big car. And it takes awhile to stop. One study showed that the 2010 Escalade traveling at 60 miles per hour takes about 144 feet to come to a complete stop from when the driver first hits the brakes. In fact, the braking distance of any car depends on how fast it is going. If someone is driving slowly they can stop in shorter distance than if they are driving fast. Which is why you should drive slowly on residential streets.
 		</p>
 
@@ -27,49 +48,69 @@
 		</p>
 
 		<p>
-			Now that we have an equation we should check the reported stopping distance at 60 mph. We have <m>S=60</m> so we substitute 60 in place of <m>S</m> in the equation to get <me>B = 0.04 \ast 60^2 = 0.04 \times \underline{60} \wedge 2 = 144 \text{ feet} \quad \checkmark</me>
+			Now that we have an equation we should check the reported stopping distance at 60 mph. We have <m>S=60</m> so we substitute 60 in place of <m>S</m> in the equation to get 
+			<me>B = 0.04 \ast 60^2 = 0.04 \times \underline{60} \wedge 2 = 144 \text{ feet} \quad \checkmark</me>
+			What this means in our story is, if the car was traveling at 60 mph, it took 144 feet to stop.
 		</p>
 
 		<p>
-			Quick bit of terminology. When we know the independent variable, like <m>S=60</m> and we substitute into the equation to find the dependent variable, like <m>B</m>, we say we <term>evaluate</term> the function <m>B</m> at <m>S=60</m>. You might have noticed that the 60 was underlined in the calculation above. In this book we underline the value of the independent variable when we are evaluating. That way it's easier to see which numbers come from the equation and which number we're plugging in. Feel free to do the same. Or not.
+			Quick reminder about terminology. When we know the independent variable, like <m>S=60</m> and we substitute into the equation to find the dependent variable, like <m>B</m>, we say we <term>evaluate</term> the function <m>B</m> at <m>S=60</m>. You might have noticed that the 60 was underlined in the calculation above. In this book we underline the value of the independent variable when we are evaluating. That way it's easier to see which numbers come from the equation and which number we're plugging in. Feel free to do the same. Or not.
 		</p>
 
 		<p>
-			Let's use our equation to calculate the braking distance for a Cadillac Escalade traveling 30, 50, 70 or 90 miles per hour. For 30 miles per hour, we have <m>S=30</m>. So, we evaluate at <m>S=30</m> to get <me>B = 0.04 \ast 30^2 = 0.04\times \underline{30} \wedge 2 = 36 \text{ feet}</me> At 30 mph, it takes the Cadillac Escalade 36 feet to stop. As we expected, it doesn't take nearly as far to stop as it did at 60 mph. For the other speeds we do the same thing: evaluate at the appropriate value of <m>S</m>. When <m>S=50</m> mph we get <me>B = 0.04 \ast 50^2 = 0.04\times \underline{50}\wedge2 = 100 \text{ feet}</me> When <m>S=70</m> mph we get <me>B = 0.04 \ast 70^2 = 0.04\times \underline{70}\wedge2 = 196\text{ feet}</me> When <m>S=90</m> mph we get <me>B = 0.04 \ast 90^2 = 0.04\times \underline{90}\wedge2 = 324 \text{ feet}</me> And, what does our equation tell us when the speed is 0 mph? We evaluate at <m>S=0</m> mph to get <me>B = 0.04 \ast 0^2 = 0.04\times \underline{0} \wedge 2 = 0 \text{ feet}</me> Well, sure! If the car isn't moving, then it won't need any distance to stop. Here's what we've found so far, displayed in a table.
+			Let's use our equation to calculate the braking distance for a Cadillac Escalade traveling 30, 50, 70 or 90 miles per hour. For 30 miles per hour, we have <m>S=30</m>. So, we evaluate at <m>S=30</m> to get 
+			<me>B = 0.04 \ast 30^2 = 0.04\times \underline{30} \wedge 2 = 36 \text{ feet}</me> 
+			At 30 mph, it takes the Cadillac Escalade 36 feet to stop. As we expected, it doesn't take nearly as far to stop as it did at 60 mph. For the other speeds we do the same thing: evaluate at the appropriate value of <m>S</m>. When <m>S=50</m> mph we get 
+			<me>B = 0.04 \ast 50^2 = 0.04\times \underline{50}\wedge2 = 100 \text{ feet}</me> 
+			When <m>S=70</m> mph we get 
+			<me>B = 0.04 \ast 70^2 = 0.04\times \underline{70}\wedge2 = 196\text{ feet}</me> 
+			When <m>S=90</m> mph we get <me>B = 0.04 \ast 90^2 = 0.04\times \underline{90}\wedge2 = 324 \text{ feet}</me> 
+			And, what does our equation tell us when the speed is 0 mph? We evaluate at <m>S=0</m> mph to get 
+			<me>B = 0.04 \ast 0^2 = 0.04\times \underline{0} \wedge 2 = 0 \text{ feet}</me> 
+			Well, sure! If the car isn't moving, then it won't need any distance to stop. Here's what we've found so far, displayed in a table.
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
+		<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
 			<row left="minor">
-				<cell right="minor" halign="center"><m>S</m></cell>
-				<cell right="minor" halign="center">0</cell>
-				<cell right="minor" halign="center">30</cell>
-				<cell right="minor" halign="center">50</cell>
-				<cell right="minor" halign="center">60</cell>
-				<cell right="minor" halign="center">70</cell>
-				<cell right="minor" halign="center">90</cell>
+				<cell right="minor"><m>S</m></cell>
+				<cell right="minor">0</cell>
+				<cell right="minor">30</cell>
+				<cell right="minor">50</cell>
+				<cell right="minor">60</cell>
+				<cell right="minor">70</cell>
+				<cell right="minor">90</cell>
 			</row>
 			<row left="minor">
-				<cell right="minor" halign="center"><m>B</m></cell>
-				<cell right="minor" halign="center">0</cell>
-				<cell right="minor" halign="center">36</cell>
-				<cell right="minor" halign="center">100</cell>
-				<cell right="minor" halign="center">144</cell>
-				<cell right="minor" halign="center">196</cell>
-				<cell right="minor" halign="center">324</cell>
+				<cell right="minor"><m>B</m></cell>
+				<cell right="minor">0</cell>
+				<cell right="minor">36</cell>
+				<cell right="minor">100</cell>
+				<cell right="minor">144</cell>
+				<cell right="minor">196</cell>
+				<cell right="minor">324</cell>
 			</row>
 		</tabular>
+
+		<xi:include href="./activities/act-2-3-evaluate-mortgage.ptx" />
+
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="ss-2-3-reaction-time">
+		<title>Adding in reaction time</title>
 
 		<p>
 			My neighbor Jeff happens to drive a 2010 Cadillac Escalade. The other day he almost was in an accident on the highway. Luckily no one was hurt, but he had to slam on the brakes to stop. The police report mentioned they believe it took his car 183 feet to stop. Jeff says he was not driving over the posted speed limit of 65 mph. Should we believe him?
 		</p>
 
 		<p>
-			We can see from the table that braking distance of 183 feet falls in between the 144 and 196 on our table which leads us to believe that Jeff was traveling faster than 60 mph and slower than 70 mph. We can figure out if Jeff were driving at 65 mph, then his braking distance would have been <me>B = 0.04 \ast 65^2 = 0.04\times \underline{65} \wedge 2 = 169 \text{ feet}</me> That's less than the 183 feet Jeff took to stop. So, it appears that Jeff was driving faster than 65 mph.
+			We can see from the table that braking distance of 183 feet falls in between the 144 and 196 on our table which leads us to believe that Jeff was traveling faster than 60 mph and slower than 70 mph. We can figure out if Jeff were driving at 65 mph, then his braking distance would have been 
+			<me>B = 0.04 \ast 65^2 = 0.04\times \underline{65} \wedge 2 = 169 \text{ feet}</me> 
+			That's less than the 183 feet Jeff took to stop. So, it appears that Jeff was driving faster than 65 mph.
 		</p>
 
 		<p>
-			But wait a minute. The braking distance is just the time it takes from when the driver's foot hits the brake until the car stops. That distance doesn't take into account the driver's reaction time - how long between when the driver thinks to stop and when the driver's foot actually hits the brake. We have a new dependent variable
+			But wait a minute. The braking distance is just the time it takes from when the driver's foot hits the brake until the car stops. That distance doesn't take into account the driver's reaction time <mdash/> how long between when the driver thinks to stop and when the driver's foot actually hits the brake. We have a new dependent variable:
 			<md>
 				<mrow>D \amp= \text{ total stopping distance (feet) } \sim \text{ dep} </mrow>
 				<mrow>S \amp= \text{ speed (mph) } \sim \text{ indep} </mrow>
@@ -88,37 +129,44 @@
 			<me>
 				\frac{\text{hour}\ast \text{feet}}{\text{mile}}=\frac{\text{feet}}{\quad \frac{\text{miles}}{\text{hour}}\quad~}=\frac{\text{feet}}{\text{mph}}
 			</me> 
-			What all this mess means is that we should add 1.47 feet for every mph of speed. So <m>S</m> mph adds <m>1.47\ast S</m> feet to the stopping distance. Long story short, our new equation is <me>D=0.04S^2+1.47S</me>
+			What all this means is that we should add 1.47 feet for every mph of speed. So <m>S</m> mph adds <m>1.47\ast S</m> feet to the stopping distance. Long story short, our new equation is 
+			<me>D=0.04S^2+1.47S</me>
 		</p>
 
 		<p>
-			Something interesting about this equation. The independent variable <m>S</m> appears twice; first for the braking distance and again because of the reaction time. When we evaluate the equation we need to plug in the value of <m>S</m> in two places. Check it out. When <m>S=30</m> mph we have <me>D =  0.04 \ast  30^2 + 1.47 \ast 30 = 0.04\times \underline{30} \wedge 2 +1.47 \times \underline{30} = 80.10 \approx 80 \text{ feet}</me> That's a lot further than just the braking distance of 36 feet. When <m>S=50</m> mph we have <me>D = 0.04 \ast  50^2 +1.47\ast 50 =  0.04\times \underline{50} \wedge 2 +1.47\times \underline{50} = 173.50 \approx 174 \text{ feet}</me> again, much more than the braking distance of 100 feet. Here's the revised table of values.
+			Something interesting about this equation. The independent variable <m>S</m> appears twice; first for the braking distance and again because of the reaction time. When we evaluate the equation we need to plug in the value of <m>S</m> in two places. Check it out. When <m>S=30</m> mph we have 
+			<me>D =  0.04 \ast  30^2 + 1.47 \ast 30 = 0.04\times \underline{30} \wedge 2 +1.47 \times \underline{30} = 80.10 \approx 80 \text{ feet}</me> 
+			That's a lot further than just the braking distance of 36 feet. When <m>S=50</m> mph we have 
+			<me>D = 0.04 \ast  50^2 +1.47\ast 50 =  0.04\times \underline{50} \wedge 2 +1.47\times \underline{50} = 173.50 \approx 174 \text{ feet}</me> 
+			Again, much more than the braking distance of 100 feet. Here's the revised table of values.
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
+		<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
 			<row left="minor">
-				<cell right="minor" halign="center"><m>S</m></cell>
-				<cell right="minor" halign="center">0</cell>
-				<cell right="minor" halign="center">30</cell>
-				<cell right="minor" halign="center">50</cell>
-				<cell right="minor" halign="center">60</cell>
-				<cell right="minor" halign="center">70</cell>
-				<cell right="minor" halign="center">90</cell>
+				<cell right="minor"><m>S</m></cell>
+				<cell right="minor">0</cell>
+				<cell right="minor">30</cell>
+				<cell right="minor">50</cell>
+				<cell right="minor">60</cell>
+				<cell right="minor">70</cell>
+				<cell right="minor">90</cell>
 			</row>
 			<row left="minor">
-				<cell right="minor" halign="center"><m>D</m></cell>
-				<cell right="minor" halign="center">0</cell>
-				<cell right="minor" halign="center">80</cell>
-				<cell right="minor" halign="center">174</cell>
-				<cell right="minor" halign="center">232</cell>
-				<cell right="minor" halign="center">299</cell>
-				<cell right="minor" halign="center">456</cell>
+				<cell right="minor"><m>D</m></cell>
+				<cell right="minor">0</cell>
+				<cell right="minor">80</cell>
+				<cell right="minor">174</cell>
+				<cell right="minor">232</cell>
+				<cell right="minor">299</cell>
+				<cell right="minor">456</cell>
 			</row>
 		</tabular>
 
 		<p>
-			These numbers make us rethink Jeff's assertion. Given that he stopped in 183 feet, which is much less than the 232 feet it takes to stop at 60 mph, it looks like Jeff was driving less than 60 mph. To be sure, calculate that at 65 mph, it would have taken Jeff <me>D = 0.04 \ast  65^2 + 1.47 \ast  65  = 0.04\times \underline{65} \wedge 2+ 1.47\times \underline{65} =264.55 \approx 265 \text{ feet}</me> Again, we should believe Jeff. And, be glad nobody was hurt.
+			These numbers make us rethink Jeff's assertion. Given that he stopped in 183 feet, which is much less than the 232 feet it takes to stop at 60 mph, it looks like Jeff was driving less than 60 mph. To be sure, calculate that at 65 mph, it would have taken Jeff 
+			<me>D = 0.04 \ast  65^2 + 1.47 \ast  65  = 0.04\times \underline{65} \wedge 2+ 1.47\times \underline{65} =264.55 \approx 265 \text{ feet}</me> 
+			Again, we should believe Jeff. And, be glad nobody was hurt.
 		</p>
 
 		<p>
@@ -134,8 +182,15 @@
 			The distance of 183 feet falls just above the unlabeled gridline for 175 and below the gridline for 200. Looking at the corresponding point on the braking distance curve, it looks like it falls around 67 mph, but looking at the corresponding point on the stopping distance curve, it looks like just over 50 mph.
 		</p>
 
+		<xi:include href="./activities/act-2-3-evaluate-rose-gold.ptx" />
+
+	</subsection>
+
+	<subsection xml:id="ss-2-3-power-eqns">
+		<title>New kinds of equations</title>
+
 		<p>
-			By the way, our first equation <me>B = 0.04 \ast S^2</me> is a <term>power equation</term> because the independent variable is being raised to a power, <m>n=2</m>, and then scaled by a <term>proportionality constant</term>, <m>k=0.04</m>. Any power equation fits this template.
+			Before we leave, let's learn a little vocabulary about a few more kinds of equations. Our first equation <me>B = 0.04 \ast S^2</me> is a <term>power equation</term> because the independent variable is being raised to a power, <m>n=2</m>, and then scaled by a <term>proportionality constant</term>, <m>k=0.04</m>. Any power equation fits this template.
 		</p>
 
 		<assemblage xml:id="power-equation-template">
@@ -159,7 +214,7 @@
 		<p>
 			For our equation <m>a=0.04</m>, <m>b=1.47</m>, and the mysteriously missing <m>c=0</m>.
 		</p>
-	</introduction>
+	</subsection>
 	
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>

@@ -88,11 +88,11 @@
 			</p>
 
 			<p>
-				When we are <term>solving</term>, this means we know a value of the dependent variable (an output) and we want to figure out the corresponding value of the independent variable (the input) that produced it.
+				When we are <term>solving</term> an equation, this means we know a value of the dependent variable (an output) and we want to figure out the corresponding value of the independent variable (the input) that produced it.
 			</p>
 
 			<p>
-				When we are <term>evaluating</term>, this means we know a value of the independent variable (an input) and we want to figure out the value of the dependent variable (an output).
+				When we are <term>evaluating</term> an equation, this means we know a value of the independent variable (an input) and we want to figure out the corresponding value of the dependent variable (the output).
 			</p>
 		</assemblage>
 			
