@@ -103,15 +103,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.5';
+eBookConfig.runestone_version = '7.9.0';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.a99e275a1e410b98.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.58623b9a3097f5e4.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/prefix-runtime.a5f1dc7727a1aa22.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -331,11 +331,20 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ex-3-2-Solving_linear_inequalities" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-setup" class="internal"><span class="title">Baking brownies (and setting up inequalities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-solving-ineq" class="internal"><span class="title">Solving inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-caution" class="internal"><span class="title">Things to be careful about</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-between" class="internal"><span class="title">Chains of inequalities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ex-3-2-Solving_linear_inequalities" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ex-3-3-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-alskdfjklasdfl" class="internal"><span class="title">asdfhadskjhf</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ex-3-3-Solving_power_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
@@ -624,7 +633,7 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 (4.38-3.88) \div (0.4-0.2)=2.5 \text{ meters/sec}
 \end{equation*}
 </div>
-<div class="para">See how we put parentheses around both the top and bottom of the fraction? We needed them to force the calculator to do the subtractions first and division second. The usual order of operations would do it the other way around: multiplication and division before addition and subtraction. (If you need a reminder, the full list of the <a href="sec-0-4-Order_of_operations.html#order-operations" class="xref" data-knowl="./knowl/xref/order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Order of operations">order of operations</a> is discussed in <a href="sec-0-4-Order_of_operations.html" class="internal" title="Section 0.4: Prelude: Order of operations">Section 0.4</a>.) Because the top and bottom of the fraction each have meaning in the story, we continue to calculate them separately, but feel free to do the whole calculation at once if you prefer.</div>
+<div class="para">See how we put parentheses around both the top and bottom of the fraction? We needed them to force the calculator to do the subtractions first and division second. The usual order of operations would do it the other way around: multiplication and division before addition and subtraction. (If you need a reminder, the full list of the <a href="sec-0-4-Order_of_operations.html#order-operations" class="xref" data-knowl="./knowl/xref/order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Order of Operations">order of operations</a> is discussed in <a href="sec-0-4-Order_of_operations.html" class="internal" title="Section 0.4: Prelude: Order of operations">Section 0.4</a>.) Because the top and bottom of the fraction each have meaning in the story, we continue to calculate them separately, but feel free to do the whole calculation at once if you prefer.</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#ss-1-3-different-speeds-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="ss-1-3-different-speeds-4">
@@ -934,7 +943,7 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 <div class="para" id="bakery-rate-of-change-6-1-1">The rate of change for cakes is not constant. Any idea why?<div class="autopermalink" data-description="Paragraph"><a href="#bakery-rate-of-change-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Task 1.e"><a href="#bakery-rate-of-change-6" title="Copy heading and permalink for Task 1.e" aria-label="Copy heading and permalink for Task 1.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1"><a href="#bakery-rate-of-change" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="wedding-rental-rate-of-change"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="introduction" id="wedding-rental-rate-of-change-1"><div class="para" id="wedding-rental-rate-of-change-1-1">Anthony and Christina are trying to decide where to hold their wedding reception. The Metropolitan Club costs $1,300 for the space and then $92 per person. <em class="emphasis">(Story also appears in <a href="sec-1-2-Tables_and_graphs.html#wedding-rental-tables-graphs" class="xref" data-knowl="./knowl/xref/wedding-rental-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3">3</a> and <a href="sec-3-2-Solving_linear_inequalities.html#wedding-rental-linear-ineq" class="xref" data-knowl="./knowl/xref/wedding-rental-linear-ineq.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.2.3">3.2.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-rate-of-change-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="wedding-rental-rate-of-change-1"><div class="para" id="wedding-rental-rate-of-change-1-1">Anthony and Christina are trying to decide where to hold their wedding reception. The Metropolitan Club costs $1,300 for the space and then $92 per person. <em class="emphasis">(Story also appears in <a href="sec-1-2-Tables_and_graphs.html#wedding-rental-tables-graphs" class="xref" data-knowl="./knowl/xref/wedding-rental-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3">3</a> and <a href="sec-3-2-Solving_linear_inequalities.html#wedding-rental-linear-ineq" class="xref" data-knowl="./knowl/xref/wedding-rental-linear-ineq.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3">3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-rate-of-change-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="wedding-rental-rate-of-change-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="wedding-rental-rate-of-change-2-1-1">Make a table showing the cost for 20, 50, 75, or 100 people.<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-rate-of-change-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1096,7 +1105,7 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </tr>
 </table></div>
 <div class="para" id="wind-turbine-rate-of-change-1-3">
-<em class="emphasis">(Story also appears in <a href="sec-1-1-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 10">10</a>, <a href="sec-3-3-Solving_power_equations.html#wind-turbine-solving-power" class="xref" data-knowl="./knowl/xref/wind-turbine-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.6">3.3.6</a>, and <a href="sec-2-4-Approx_solutions.html#wind-turbine-approx-solutions" class="xref" data-knowl="./knowl/xref/wind-turbine-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 8">8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-rate-of-change-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">(Story also appears in <a href="sec-1-1-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 10">10</a>, <a href="sec-3-3-Solving_power_equations.html#wind-turbine-solving-power" class="xref" data-knowl="./knowl/xref/wind-turbine-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 6">6</a>, and <a href="sec-2-4-Approx_solutions.html#wind-turbine-approx-solutions" class="xref" data-knowl="./knowl/xref/wind-turbine-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 8">8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-rate-of-change-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="wind-turbine-rate-of-change-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
