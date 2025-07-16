@@ -149,6 +149,8 @@
 			The plumber took about 2 hours, 23 minutes. Thinking back, the plumber had arrived around 10:30 in the morning and stayed past lunch, probably until around 1:00 p.m. That's about right.
 		</p>
 
+		<xi:include href="./activities/act-3-1-truck-approx.ptx" />
+
 	</subsection>
 
 	<subsection xml:id="ss-3-1-symbolic-soln">
@@ -216,13 +218,18 @@
 			</ol>
 		</p>
 
+		<xi:include href="./activities/act-3-1-truck-solve.ptx" />
+
 	</subsection>
 
 	<subsection xml:id="ss-3-1-another-plumber">
 		<title>Another plumber cost</title>
 
 		<p>
-			Let's practice working with this symbolic way of solving equations. Suppose instead the plumber went to my neighbor's house and billed her for $160 in labor costs. How long did the plumber work at my neighbor's? As before, we begin with our equation <me>P = 100 + 75T</me> and we are looking for <m>P=160</m>. Put these together to get <me>100+75T =160</me> 
+			Let's practice working with this symbolic way of solving equations. Suppose instead the plumber went to my neighbor's house and billed her for $160 in labor costs. How long did the plumber work at my neighbor's? As before, we begin with our equation 
+			<me>P = 100 + 75T</me> 
+			and we are looking for <m>P=160</m>. Replace <m>P</m> in the equation by 160 to get 
+			<me>100+75T =160</me> 
 		</p>
 		<p>
 			Remember, opposite steps in opposite order: First, subtract 100 from each side to get 
@@ -245,6 +252,8 @@
 		<p>
 			Remember that we can always check our work by evaluating. Since <m>T</m> is measured in hours we need to go back and use <m>T= 0.8</m> hours, not 48 which is in minutes. Evaluating in our original equation we get <me>P=100 + 75 \ast 0.8 = 100+75\times\underline{0.8}= 160 \quad \checkmark</me>
 		</p>
+
+		<xi:include href="./activities/act-3-1-truck-solve-2.ptx" />
 
 	</subsection>
 
