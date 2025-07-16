@@ -6,11 +6,41 @@
 	<title component="workbook">Solving linear inequalities - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			In the United States temperatures for everyday things like the weather or cooking are given in Fahrenheit, denoted <degree />F. In this system, water freezes into ice at 32<degree />F and boils into steam at 212<degree />F. A common setting for room temperature is 68<degree />F whereas average human body temperature is around 98.6<degree />F. And, most importantly, chocolate brownies bake at 350<degree />F.
+			So far we've been learning about <term>equations</term>, which are math sentences that involve the equals sign =. We use the equals sign to mean that two things are exactly the same: for instance, if we're using the letter <m>P</m> to represent the plumber's charge, the sentence <q><m>P = 278.75</m></q> means that the plumber charged us exactly $278.75. And if <m>T</m> represents the time the plumber takes, then we can write the general sentence <q><m>P= 100 + 75T</m></q> to concisely explain how the plumber figures out his charge based on the time he spends on our job.
+		</p>
+		<p>
+			In many real-life situations, we don't care about two things being <em>exactly</em> the same, as long as they meet minimum or maximum requirements.
+			<aside>
+				<p>
+					Diffident about this wording. Maybe "as long as they aren't too big or too small"?
+				</p>
+			</aside> 
+			For example, if I have a $20 gift card to a restaurant, I don't care if my order is exactly $20 or if it is $18.74 <mdash/> either way, the gift card will cover my entire bill.
+		</p>
+		<p>
+			You're probably familiar with the useful symbols <m>\le</m>, <m>\ge</m>, <m>\gt</m>, and <m>\lt</m> that we use to capture this idea. When we use these signs instead of the equals sign =, we have something called an <term>inequality</term> instead of an equation. For instance, if <m>B</m> is my restaurant bill, I can just write the inequality 
+			<me>
+				B \leq 20
+			</me>
+			to put symbols to the idea that I want my bill to stay under $20.
+		</p>
+		<xi:include href="./activities/oa-3-2-equation-or-inequality.ptx" />
+	</introduction>
+	<subsection component="not-workbook" xml:id="ss-3-2-setup">
+		<title>Baking brownies (and setting up inequalities)</title>
+		
+		<p>
+			In the United States, temperatures for everyday things like the weather or cooking are given in Fahrenheit, denoted <degree />F. In this system, water freezes into ice at 32<degree />F and boils into steam at 212<degree />F. A common setting for room temperature is 68<degree />F whereas average human body temperature is around 98.6<degree />F. And, most importantly, chocolate brownies bake at 350<degree />F.
 		</p>
 
 		<p>
-			In the sciences, medicine, and most other countries, temperatures are measured in Celsius, denoted <degree />C. (For those of us who grew up in the 1960s or earlier, <q>Celsius</q> is the temperature scale formerly known as <q>centigrade.</q>) For comparison's sake, it's useful to know that water freezes at 0<degree />C and boils at 100<degree />C. Not coincidentally - it was set up that way. Room temperature is 20<degree />C whereas now average human body temperature is 37<degree />C. And those brownies?
+			In the sciences, medicine, and most other countries, temperatures are measured in Celsius, denoted <degree />C. 
+			<aside>
+				<p>
+					For those of us who grew up in the 1960s or earlier, <q>Celsius</q> is the temperature scale formerly known as <q>centigrade.</q>
+				</p>
+			</aside>  
+			For comparison's sake, it's useful to know that water freezes at 0<degree />C and boils at 100<degree />C. Not coincidentally - it was set up that way. Room temperature is 20<degree />C whereas now average human body temperature is 37<degree />C. And those brownies?
 		</p>
 
 		<p>
@@ -22,7 +52,9 @@
 		</p>
 
 		<p>
-			You may have seen this equation before with fractions in it: <m>F = \frac{9}{5}C + 32</m>. Just another way to write the equation, since <m>\frac{9}{5} = 9 \div 5 = 1.8</m>. For example, when <m>C=100</m> we have <me>F= 1.8 \ast 100 + 32 =1.8 \times \underline{100}+32= 212 \quad \checkmark</me> You can (and should check) the other examples in our story.
+			You may have seen this equation before with fractions in it: <m>F = \frac{9}{5}C + 32</m>. Just another way to write the equation, since <m>\frac{9}{5} = 9 \div 5 = 1.8</m>. For example, when <m>C=100</m> we have 
+			<me>F= 1.8 \ast 100 + 32 =1.8 \times \underline{100}+32= 212 \quad \checkmark</me> 
+			You can (and should!) check the other examples in our story.
 		</p>
 
 		<p>
@@ -30,14 +62,31 @@
 		</p>
 
 		<p>
-			But, actually, chocolate brownies just need to bake in a <term>moderate oven</term>, which means between 325<degree/>F and 375<degree/>F. Let's first figure out when the oven temperature is under 375<degree/>F. We want to know when <me>F \le 375</me> so we have an inequality instead of an equation. Remember <m>\le</m> stands for <term>less than or equal to</term>. Using <m>F=1.8C+32</m> we get <me>1.8C+32 \le 375</me> We're looking for values of <m>C</m> that make the left-hand side a number that's smaller than, or maybe as large as, 375, but no larger. 
-		</p>
-		<p>
-			Quick vocabulary: equations have equal signs (=). When we have inequality signs (<m>\le</m>, <m>\ge</m>, <m>\gt</m>, or <m>\lt</m>), it's called an <term>inequality</term> instead.
+			But, actually, chocolate brownies just need to bake in a <term>moderate oven</term>, which means between 325<degree/>F and 375<degree/>F. Let's first figure out which Celsius temperatures mean that the oven temperature is under 375<degree/>F. We want to know when 
+			<me>F \le 375</me> 
+			<aside>
+				<p>
+					Remember <m>\le</m> stands for <term>less than or equal to</term>.
+				</p>
+			</aside>
+			so we have an inequality instead of an equation. Quick vocabulary reminder: equations have equal signs (=). When we have inequality signs (<m>\le</m>, <m>\ge</m>, <m>\gt</m>, or <m>\lt</m>), it's called an <term>inequality</term> instead.
 		</p>
 
 		<p>
-			To solve this inequality we begin the same way as we would if we were solving the equation, by subtracting 32 from each side to get 
+			But remember, we do also have an equation relating <m>F</m> and <m>C</m>, which is <m>F=1.8C+32</m>. This means that <m>F</m> and <m>1.8C+32</m> are exactly the same! Whenever two things are the same, you can replace one by the other. So, we can replace <m>F</m> in our inequality by <m>1.8C+32</m> to get:
+			<me>1.8C+32 \le 375</me> 
+			We're looking for values of <m>C</m> that make the left-hand side a number that's smaller than, or maybe as large as, 375, but no larger. 
+		</p>
+
+		<xi:include href="./activities/act-3-2-setup-ineq.ptx" />
+		
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="ss-3-2-solving-ineq">
+		<title>Solving inequalities</title>
+
+		<p>
+			We can solve inequalities in much the same way that we solve equations, using the <xref ref="assemblage-shoes-and-socks" text="title"/>. To solve the inequality <m>1.8C + 32 \leq 375</m> we begin by subtracting 32 from each side to get 
 			<md alignment="alignat">
 				<mrow> 1.8C + \cancel{32} \amp \leq \amp 375 </mrow>
 				<mrow>-\cancel{32} \amp \amp -32</mrow>
@@ -60,6 +109,12 @@
 			To understand why the inequality stays the same when we divide, again think of the inequality as <q>little</q> <m>\le</m> <q>big.</q> If one number is littler than the other, the same will be true when we divide each number by the same divisor. For example, <m>6 \le 9</m>, which we imagined as my having $6 and your having $9 after we each bought a movie ticket. While we're making up stories, suppose we each have three children who want some money from us for treats. We each divide our remaining cash among our three children, respectively. My kids each get <m>\$6\div3 =\$2</m> and your kids each get <m>\$9\div 3 = \$3</m>. And <m>2 \le 3</m> still.
 		</p>
 
+		<xi:include href="./activities/act-3-2-solve-ineq.ptx" />
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="ss-3-2-caution">
+		<title>Things to be careful about</title>
+
 		<p>
 			There is a bit of caution when solving inequalities. When symbolically solving an equation, any operation you do to each side preserves the equality: start with equal amounts, do the same thing to each, end with equal amounts. But, when symbolically solving an inequality, only some operations you do to each side preserves the inequality: add or subtract from each side or multiply or divide each side by the same (positive) number. But other operations can reverse the inequality.
 		</p>
@@ -71,6 +126,13 @@
 		<p>
 			Multiplying or dividing each side of an inequality by a negative number switches the inequality sign as well. Watch out for that with decreasing functions because that's where the slope is negative. And the number we're dividing by is actually the slope.
 		</p>
+
+		<xi:include href="./activities/act-3-2-ineq-negative.ptx" />
+
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="ss-3-2-between">
+		<title>Chains of inequalities</title>
 
 		<p>
 			Remember that the recipe for chocolate brownies says to bake in a moderate oven, between 325<degree/>F and 375<degree/>F. We just figured out that <m>F \le 375</m> corresponds to <m>C \le 190</m>. But that's only half of the story. We also wanted <m>F \ge 325</m>. While we could solve that inequality separately, it turns out there's an easier way.
@@ -90,7 +152,11 @@
 		</p>
 
 		<p>
-			The good news is that we can solve this chain of inequalities all at once using the same steps as before but now being sure to do the same thing to all <em>three</em> sides. <q><em>Three</em> sides?</q> you ask. Yes, <q>three,</q> I confirm. Watch how this works. Start with<me>325 \le F \le 375</me> Using <m>F=1.8C + 32</m> we get <me>325 \le 1.8C + 32 \le 375</me> Subtract 32 from each of the three sides to get
+			The good news is that we can solve this chain of inequalities all at once using the same steps as before but now being sure to do the same thing to all <em>three</em> sides. <q><em>Three</em> sides?</q> you ask. Yes, <q>three,</q> I confirm. Watch how this works. Start with
+			<me>325 \le F \le 375</me> 
+			Using the equation <m>F=1.8C + 32</m> to replace <m>F</m>, we get 
+			<me>325 \le 1.8C + 32 \le 375</me> 
+			Subtract 32 from each of the three sides to get
 			<me>
 				\begin{array} {ccc cc}
 					325 \amp \le \amp 1.8C + \cancel{32} \amp  \le \amp 375 \\ 
@@ -120,7 +186,9 @@
 		<p>
 			<image source='fahrenheitcelsius.png'/>
 		</p>
-	</introduction>
+
+		<xi:include href="./activities/act-3-2-chain-ineq.ptx" />
+	</subsection>
 
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>

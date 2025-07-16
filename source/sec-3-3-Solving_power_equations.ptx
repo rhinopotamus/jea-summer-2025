@@ -4,9 +4,24 @@
 <section xml:id="sec-3-3-Solving_power_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Solving power equations (and roots)</title>
 	<title component="workbook">Solving power equations (and roots) - Practice exercises</title>
+
 	<introduction component="not-workbook">
 		<p>
-			There's an old saying - <q>when life gives you lemons, make lemonade.</q> But how many lemons do you need? It turns out a reasonable equation describing the juice from a single lemon is given by <me>J = 0.0056C^3</me> where
+			The big idea of this chapter is the <xref ref="assemblage-shoes-and-socks" text="title" />: doing the opposite things in the opposite order. 
+		</p>
+
+		<xi:include href="./activities/oa-3-3-opposites.ptx" />
+
+		<p>
+			In the next few sections, we'll expand our vocabulary of opposites of everyday operations.
+		</p>
+	</introduction>
+
+	<subsection component="not-workbook" xml:id="ss-3-3-alskdfjklasdfl">
+		<title>asdfhadskjhf</title>
+		
+		<p>
+			There's an old saying: <q>when life gives you lemons, make lemonade.</q> But how many lemons do you need? It turns out a reasonable equation describing the juice from a single lemon is given by <me>J = 0.0056C^3</me> where
 			<md>
 				<mrow>J \amp= \text{ juice (tablespoons) } \sim \text{ dep} </mrow>
 				<mrow>C \amp= \text{ circumference (inches) } \sim \text{ indep} </mrow>
@@ -154,7 +169,7 @@
 				The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
 			</p>
 		</assemblage>
-	</introduction>
+	</subsection>
 	
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>

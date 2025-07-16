@@ -169,7 +169,15 @@
 		</p>
 
 		<p>
-			Here's how it works. We want to figure out when <m>P=278.75</m>. We know from our equation that <m>P = 100 + 75T</m>. So we want to find the time <m>T</m> where <me>100 + 75T=278.75</me> Remember that the equal sign indicates that the two sides are the same number. On the left-hand side we have <m>100 + 75T</m>. On the right-hand side we have <m>278.75</m>. Looks different, but same thing. We are looking for the value of <m>T</m> that makes these two sides equal.
+			Here's how it works. We want to figure out when <m>P=278.75</m>. We know from our equation that <m>P = 100 + 75T</m>. So we want to find the time <m>T</m> where 
+			<me>100 + 75T=278.75</me> 
+			<aside>
+				<p>
+					Another way to think about what is happening here is that we are replacing <m>P</m> in the equation by the number <m>278.75</m> that we are interested in.
+				</p>
+			</aside>
+			Remember that the equal sign means that the two sides are the same number. On the left-hand side we have <m>100 + 75T</m>. On the right-hand side we have <m>278.75</m>. Looks different, but same thing: both of them are <m>P</m>. 
+			We are looking for the value of <m>T</m> that makes these two sides equal.
 		</p>
 
 		<p>
