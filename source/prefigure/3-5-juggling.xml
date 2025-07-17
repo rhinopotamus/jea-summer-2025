@@ -1,4 +1,5 @@
-<diagram dimensions="(400,200)" margins="(50,30,20,10)">
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,20,10)">
   <definition>H(T) = 3+15*T-16*T^2</definition>  
   <coordinates bbox="(0,0,1.2,7)">
     <grid-axes 

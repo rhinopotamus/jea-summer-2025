@@ -21,8 +21,26 @@
 			<introduction>
 				<p>
 					A high-jumper jumps so that the height, <m>H</m> feet, of the point on his back that must clear the bar after <m>T</m> seconds is given by the equation <me>H = 3.5 + 16T -16T^2</me>
+					<aside>
+						<p>
+							Original version
+						</p>
+					</aside>
 				</p>
 				<image source='highjumper.png'/>
+
+				<image>
+					<shortdescription>Height of a high jumper vs. time</shortdescription>
+					<prefigure xmlns="https://prefigure.org"
+						label="prefigure-high-jumper">
+						<xi:include href="../prefigure/3-5-high-jumper.xml" />
+					</prefigure>
+				</image>
+				<aside>
+					<p>
+						Prefigure version
+					</p>
+				</aside>
 			</introduction>
 			<task workspace="2.5in">
 				<statement>
@@ -150,8 +168,25 @@
 				<statement>
 					<p>
 						Here is a graph of the function:
+						<aside>
+							<p>
+								Original version
+							</p>
+						</aside>
 					</p>
-					<image source='milk.png'/>	
+					<image source='milk.png'/>
+					<image>
+						<shortdescription>Profits vs. milk sales</shortdescription>
+						<prefigure xmlns="https://prefigure.org"
+							label="prefigure-milk">
+							<xi:include href="../prefigure/3-5-milk.xml" />
+						</prefigure>
+					</image>
+					<aside>
+						<p>
+							Prefigure version
+						</p>
+					</aside>
 					<p>
 						Explain why negative numbers on the vertical axis make sense in the story.
 					</p>

@@ -198,7 +198,25 @@
 
 		<p>
 			<image source='healthcarecosts.png'/>
+			<aside>
+				<p>
+					Original version
+				</p>
+			</aside>
 		</p>
+
+		<image>
+			<shortdescription>Health care costs vs time</shortdescription>
+			<prefigure xmlns="https://prefigure.org"
+				label="prefigure-healthcare-costs">
+				<xi:include href="prefigure/2-2-healthcare-costs.xml" />
+			</prefigure>
+		</image>
+		<aside>
+			<p>
+				Prefigure version
+			</p>
+		</aside>
 
 		<p>
 			Can you see that the graph curves slightly? It's not a straight line. That's because this function isn't linear.

@@ -214,11 +214,17 @@
 
 		<p>
 			There is a standard set-up for a graph.
+			<aside>
+				<p>
+					I have not made a prefigure version of this yet.
+				</p>
+			</aside>
 		</p>
 
 
 		<p>
 			<image source='GraphLabelAxes.png'/>
+			
 		</p>
 	
 		<p>
@@ -257,7 +263,25 @@
 
 		<p>
 			<image source='CigScales.png'/>
+			<aside>
+				<p>
+					Original version
+				</p>
+			</aside>
 		</p>
+
+		<image>
+			<shortdescription>Scaled axes for plotting cigarette consumption</shortdescription>
+			<prefigure xmlns="https://prefigure.org"
+				label="prefigure-cig-scales">
+				<xi:include href="prefigure/1-2-cig-scales.xml" />
+			</prefigure>
+		</image>
+		<aside>
+			<p>
+				Prefigure version
+			</p>
+		</aside>
 		
 
 		<xi:include href="./activities/act-1-2-choose-scale.ptx" />
@@ -269,20 +293,56 @@
 
 		<p>
 			To plot each point, we start at the origin and move right to that <m>Y</m>-value, and then up to that <m>S</m>-value. When a value doesn't land exactly on a grid mark, we have to guess in between. For example, in 1900, <m>Y=0</m> so we don't move right at all, just up to <m>S=54</m>. The first labeled gridline on our graph is 500. Where's 54? It's between 0 and 500, very close to 0. Our point is just a tiny bit above the origin. In 1915 we have <m>Y=15</m>. Our labeled gridlines are for 10 and 20, so 15 must land halfway in between. The smoking rate is 285, which is around halfway between 0 and 500. Etc.
+			<aside>
+				<p>
+					Original version
+				</p>
+			</aside>
 		</p>
 
 		<p>
 			<image source='CigScatter3.png'/>
 		</p>
 
+		<image>
+			<shortdescription>Scatter plot of cigarette consumption data</shortdescription>
+			<prefigure xmlns="https://prefigure.org"
+				label="prefigure-cig-scatter">
+				<xi:include href="prefigure/1-2-cig-scatter.xml" />
+			</prefigure>
+		</image>
+		<aside>
+			<p>
+				Prefigure version
+			</p>
+		</aside>
+
 		<p>
 			What we have so far is a <term>scatter plot</term> of points. Can you see why it's called that? Anyway, our whole goal here was to be able to understand smoking rates better by having a graph. You may already begin to see a curve suggested by the points. Time to draw it in. I don't mean drawing a line between each pair of points, like you do in the children's game <q>connect the dots.</q> That isn't quite right. It was probably more of a continuous trend and so the graph should be smoother.
+			<aside>
+				<p>
+					Original version
+				</p>
+			</aside>
 		</p>
 
 
 		<p>
 			<image source='CigCurve.png'/>
 		</p>
+
+		<image>
+			<shortdescription>Scatter plot of cigarette smoking data with a smooth curve connecting the points</shortdescription>
+			<prefigure xmlns="https://prefigure.org"
+				label="prefigure-cig-curve">
+				<xi:include href="prefigure/1-2-cig-curve.xml" />
+			</prefigure>
+		</image>
+		<aside>
+			<p>
+				Prefigure version
+			</p>
+		</aside>
 
 		<p>
 			When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once. For example, from the table we guessed that the smoking rate passed 3,000 in around 1947, and dropped back to that level in around 1989. What does the graph show? If we look where the horizontal gridline for 3,000 crosses our graph, it crosses in two places. First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50. I'd say <m>Y \approx 47</m>, in the year 1947. Sure. The second time is between the gridlines for 80 and 90, much closer to 90. Looks like <m>Y \approx 88</m>, in the year 1988. We guessed 1989. Close enough.
@@ -296,12 +356,29 @@
 
 		<p>
 			Turns out more data is available from the CDC. The full table of data from the CDC shows that consumption first topped 3,000 as early as 1944. Here's an example where the history tells you more than the mathematics as cigarette consumption rose sharply during World War II. Our guess about 1988 or 1989 was spot on. Look at how the graph from the full data (the dotted line) compares to our guess.
+			<aside>
+				<p>
+					Original version
+				</p>
+			</aside>
 		</p>
-
 
 		<p>
 			<image source='CigCompare.png'/>
 		</p>
+
+		<image>
+			<shortdescription>Comparison of annual data vs partial data</shortdescription>
+			<prefigure xmlns="https://prefigure.org"
+				label="prefigure-cig-compare">
+				<xi:include href="prefigure/1-2-cig-compare.xml" />
+			</prefigure>
+		</image>
+		<aside>
+			<p>
+				Prefigure version
+			</p>
+		</aside>
 	</subsection>
 
 	<conclusion component="not-workbook">

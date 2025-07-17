@@ -59,12 +59,29 @@
 
 		<p>
 			A look at the graph confirms our result.
+			<aside>
+				<p>
+					Original version
+				</p>
+			</aside>
 		</p>
-
 
 		<p>
 			<image source='lemonade.png'/>
 		</p>
+
+		<image>
+			<shortdescription>Juice vs. circumference of a lemon</shortdescription>
+			<prefigure xmlns="https://prefigure.org"
+				label="prefigure-lemon-juice">
+				<xi:include href="prefigure/3-3-lemon-juice.xml" />
+			</prefigure>
+		</image>
+		<aside>
+			<p>
+				Prefigure version
+			</p>
+		</aside>
 
 		<p>
 			Now, what goes better with lemonade than lemon cheesecake? For that we need lemon zest. <term>Zest</term> is what you get when you grate the lemon peel in long skinny strips. As with juice, the amount of lemon zest depends on the size of the lemon. Our variables are

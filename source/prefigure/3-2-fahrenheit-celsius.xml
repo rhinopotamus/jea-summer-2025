@@ -1,4 +1,5 @@
-<diagram dimensions="(400,200)" margins="(50,30,20,10)">
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,20,10)">
   <definition>F(C)=1.8*C+32</definition>
   <definition>hi(C)=375</definition>
   <definition>lo(C)=325</definition>
@@ -19,6 +20,7 @@
     <graph function="hi" dash="9 9"/>
     <graph function="lo" dash="9 9"/>
     <line endpoints="((163,325),(190,375))"
-          thickness="10" />
+          thickness="10" 
+          stroke="blue" />
   </coordinates>
 </diagram>

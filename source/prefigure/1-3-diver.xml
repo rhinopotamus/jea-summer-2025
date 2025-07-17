@@ -1,4 +1,5 @@
-<diagram dimensions="(400,200)" margins="(30,30,20,10)">
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(30,30,20,10)">
   <definition>h(t)=3+5.4*t-4.88*t^2</definition>
   <!-- lol don't ask me why gravity is slightly wrong -->
   <coordinates bbox="(0,0,1.6,5)">
