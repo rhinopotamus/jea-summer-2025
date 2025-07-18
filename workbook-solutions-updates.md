@@ -8,3 +8,4 @@ This is a list of workbook problems that I've modified in some way that therefor
 
 ## Chapter 2
 - 2.2 #1 private-college-first-look-exponential: current cost changed to $64,000
+- 2.4 redo with new population data
