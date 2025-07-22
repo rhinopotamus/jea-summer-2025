@@ -7,7 +7,7 @@
 	<introduction component="not-workbook">
 
 		<p>
-			In the past few sections we've been learning about <term>evaluating</term> equations: given a particular value of the independent variable, figuring out the resulting value of the dependent variable. You might call this process <q>plugging in.</q>
+			In the past few sections we've been learning about <term>evaluating</term> functions: given a particular value of the independent variable, figuring out the resulting value of the dependent variable. You might call this process <q>plugging in.</q>
 		</p>
 
 		<p>
@@ -92,7 +92,7 @@
 			</p>
 
 			<p>
-				When we are <term>evaluating</term> an equation, this means we know a value of the independent variable (an input) and we want to figure out the corresponding value of the dependent variable (the output).
+				When we are <term>evaluating</term> a function, this means we know a value of the independent variable (an input) and we want to figure out the corresponding value of the dependent variable (the output).
 			</p>
 		</assemblage>
 			
@@ -292,143 +292,6 @@
 			<alert>I'd rather be approximately right than precisely wrong.</alert>
 		</p></blockquote>
 
-	</subsection>
-
-	<subsection component="not-workbook" xml:id="ss-2-4-ALTERNATE">
-		<title>ALTERNATE: India at 1.75</title>
-
-		<p>
-			This is going slowly. We would really like to find a point at which the equation gives us more than 1.6 billion. Then we can work backwards from there to narrow things down. How about 40 years? 
-			<me>P=1.409 \ast 1.0072^{40} = 1.409 \times 1.0072 \wedge \underline{40} = 1.8773259  \approx 1.877\text{ billion}</me> 
-			That's too much, but the good news is now we know the solution is between 10 years and 40 years.
-		</p>
-
-				<p>
-			Let's summarize what we have so far in a table. Notice how we've added a third row to keep track of our progress for our goal.
-		</p>
-
-		<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
-			<row left="minor">
-				<cell right="minor"><m>Y</m></cell>
-				<cell right="minor">0</cell>
-				<cell right="minor">1</cell>
-				<cell right="minor">5</cell>
-				<cell right="minor">10</cell>
-				<cell right="minor">40</cell>
-				<cell right="minor"></cell>
-				<cell right="minor"></cell>
-				<cell right="minor"></cell>
-				<cell right="minor"></cell>
-			</row>
-			<row left="minor">
-				<cell right="minor"><m>P</m></cell>
-				<cell right="minor">1.409</cell>
-				<cell right="minor">1.419</cell>
-				<cell right="minor">1.460</cell>
-				<cell right="minor">1.513</cell>
-				<cell right="minor">1.877</cell>
-				<cell right="minor"></cell>
-				<cell right="minor"></cell>
-				<cell right="minor"></cell>
-				<cell right="minor"></cell>
-			</row>
-			<row left="minor">
-				<cell right="minor">vs. 1.75</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">high</cell>
-				<cell right="minor">
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-				</cell>
-				<cell right="minor">
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-				</cell>
-				<cell right="minor">
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-				</cell>
-				<cell right="minor">
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-					<nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-				</cell>
-			</row>
-		</tabular>
-
-		<p>
-			We know the solution is between 10 and 40 years, so let's guess halfway in between, at 25 years. In 25 years, the population should be around 1.686 billion. Where's that 1.686 from? Just our equation again. It would be good practice for you to evaluate at <m>Y=25</m> to check.
-		</p>
-
-		<p>
-			The 25 year estimate is too low and the 40 year estimate is too high. That means the solution is between 25 years and 40 years, so let's try 35 years which gives 1.811 billion. (Check again, for practice.) We're getting closer! The population should pass 1.75 billion some time between 25 and 35 years, so let's guess 30 years. Estimate is 1.747 billion<mdash/>just a bit too low. Would 31 years be too long? That gives 1.76 billion, a bit too high. Let's add these numbers to our table.
-		</p>
-
-		<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
-			<row left="minor">
-				<cell right="minor"><m>Y</m></cell>
-				<cell right="minor">0</cell>
-				<cell right="minor">1</cell>
-				<cell right="minor">5</cell>
-				<cell right="minor">10</cell>
-				<cell right="minor">40</cell>
-				<cell right="minor">25</cell>
-				<cell right="minor">35</cell>
-				<cell right="minor">30</cell>
-				<cell right="minor">31</cell>
-			</row>
-			<row left="minor">
-				<cell right="minor"><m>P</m></cell>
-				<cell right="minor">1.409</cell>
-				<cell right="minor">1.419</cell>
-				<cell right="minor">1.460</cell>
-				<cell right="minor">1.513</cell>
-				<cell right="minor">1.877</cell>
-				<cell right="minor">1.686</cell>
-				<cell right="minor">1.811</cell>
-				<cell right="minor">1.747</cell>
-				<cell right="minor">1.760</cell>
-			</row>
-			<row left="minor">
-				<cell right="minor">vs. 1.75</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">high</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">high</cell>
-				<cell right="minor">low</cell>
-				<cell right="minor">high</cell>
-			</row>
-		</tabular>
-
-		<p>
-			According to our equation, the population of the India should pass 1.75 billion after 30 years, which would be in the year 2054. By the way, it works to add the year and number. <me>2024 + 30 \text{ years } = 2041</me>
-		</p>
-
-		<p>
-			Okay, enough digression. Let's check our answer using the graph.
-		</p>
-
-		<image>
-			<shortdescription>Population model of India</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-india-population-alt">
-				<xi:include href="prefigure/2-4-india-population-alt.xml" />
-			</prefigure>
-		</image>
-
-		<p>
-			Sure enough, it looks like 1.75 billion pretty much corresponds to the gridline at 30 years. So our answer of 30 (which is year 2041) looks perfect.
-		</p>
-		
 	</subsection>
 	
 	<conclusion component="not-workbook">

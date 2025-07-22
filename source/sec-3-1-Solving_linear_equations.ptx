@@ -7,7 +7,7 @@
 
 	<introduction component="not-workbook">
 		<p>
-			Back in <xref ref="ch-2-Equations" text="type-global"/>, we've mostly been learning about <term>evaluating</term> equations: given a particular value of the independent variable, figuring out the resulting value of the dependent variable. You might call this process <q>plugging in.</q>
+			Back in <xref ref="ch-2-Equations" text="type-global"/>, we've mostly been learning about <term>evaluating</term> functions: given a particular value of the independent variable, figuring out the resulting value of the dependent variable. You might call this process <q>plugging in.</q>
 		</p>
 
 		<p>
@@ -25,12 +25,12 @@
 			</p>
 
 			<p>
-				When we are <term>evaluating</term> an equation, this means we know a value of the independent variable (an input) and we want to figure out the corresponding value of the dependent variable (the output).
+				When we are <term>evaluating</term> a function, this means we know a value of the independent variable (an input) and we want to figure out the corresponding value of the dependent variable (the output).
 			</p>
 		</assemblage>
 
 		<p>
-			Another way to think about the difference between <term>evaluating</term> and <term>solving</term> is that it is the difference between <alert>doing</alert> and <alert>undoing</alert>. When we <alert>evaluate</alert> an equation, we are <alert>doing</alert> the steps in the equation to the input, so that we can figure out the corresponding output. On the other hand, when we <alert>solve</alert> an equation, we already have the output, so we want to <alert>undo</alert> all the things that the equation said to do. That way we can get back to the original input.
+			Another way to think about the difference between <term>evaluating</term> and <term>solving</term> is that it is the difference between <alert>doing</alert> and <alert>undoing</alert>. When we <alert>evaluate</alert> a function, we are <alert>doing</alert> the steps in the equation to the input, so that we can figure out the corresponding output. On the other hand, when we <alert>solve</alert> an equation, we already have the output, so we want to <alert>undo</alert> all the things that the equation said to do. That way we can get back to the original input.
 		</p>
 
 		<xi:include href="./activities/oa-3-1-shoes-socks.ptx" />
@@ -198,7 +198,7 @@
 		</p>
 
 		<p>
-			This calculation is a good example of the <xref ref="assemblage-shoes-and-socks" text="title"/>. To evaluate the equation <m>P = 100 + 75T</m>, we would do the following steps:
+			This calculation is a good example of the <xref ref="assemblage-shoes-and-socks" text="title"/>. To evaluate the function <m>P = 100 + 75T</m>, we would do the following steps:
 			<ol>
 				<li>
 					<p>
@@ -258,22 +258,11 @@
 		</p>
 
 		<p>
-			Remember that we can always check our work by evaluating. Since <m>T</m> is measured in hours we need to go back and use <m>T= 0.8</m> hours, not 48 which is in minutes. Evaluating in our original equation we get <me>P=100 + 75 \ast 0.8 = 100+75\times\underline{0.8}= 160 \quad \checkmark</me>
+			Remember that we can always check our work by evaluating. Since <m>T</m> is measured in hours we need to go back and use <m>T= 0.8</m> hours, not 48 which is in minutes. Evaluating in our original function we get <me>P=100 + 75 \ast 0.8 = 100+75\times\underline{0.8}= 160 \quad \checkmark</me>
 		</p>
 
 		<xi:include href="./activities/act-3-1-truck-solve-2.ptx" />
 
-	</subsection>
-
-	<subsection xml:id="ss-3-1-cut-this">
-		<title>Cut this part maybe?</title>
-		<p>
-			You might be wondering how we knew to subtract the 100 first and then later divide by 75. In this particular situation we had figured it out already and knew it made sense to take the $100 right off the top. But, in general, how would we know?
-		</p>
-
-		<p>
-			It turns out that when solving an equation we do the <em>opposite</em> operations in the <em>reverse</em> order from the usual order of operations for evaluating. To evaluate a linear equation we would first multiply and then add. To solve a linear equation we first subtract (that is the opposite of adding) and then we divide (that is the opposite of multiplying).
-		</p>
 	</subsection>
 	
 	<conclusion component="not-workbook">

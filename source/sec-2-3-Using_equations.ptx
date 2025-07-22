@@ -6,18 +6,18 @@
 	<title component="workbook">Using equations - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			So far we've seen examples of linear equations and exponential equations. There are lots of other kinds of equations that we might use! Whatever kind of equation we have, and however we figured it out, we can always use the equation to figure out the value of the dependent variable that's associated with a particular value of the independent variable. We might call this process <q>plugging in,</q> but its official name is <term>evaluating</term> the equation.
+			So far we've seen examples of linear equations and exponential equations. There are lots of other kinds of equations that we might use! Whatever kind of equation we have, and however we figured it out, we can always use the equation to figure out the value of the dependent variable that's associated with a particular value of the independent variable. We might call this process <q>plugging in,</q> but its official name is <term>evaluating</term>.
 		</p>
 
 		<assemblage>
 			<title>Evaluating</title>
 			<p>
-				When we are <term>evaluating</term> an equation, this means we know a value of the independent variable (an input) and we want to figure out the corresponding value of the dependent variable (the output).
+				When we are <term>evaluating</term> a function, this means we know a value of the independent variable (an input) and we want to figure out the corresponding value of the dependent variable (the output).
 			</p>
 		</assemblage>
 
 		<p>
-			Just as important as evaluating an equation is thinking about what our result means. Not only is this a good way to catch any calculator mistakes we might have made, but also it's how algebra helps us make good decisions in the real world.
+			Just as important as evaluating a function is thinking about what our result means. Not only is this a good way to catch any calculator mistakes we might have made, but also it's how algebra helps us make good decisions in the real world.
 		</p>
 
 		<xi:include href="./activities/oa-2-3-evaluating.ptx" />
@@ -134,7 +134,7 @@
 		</p>
 
 		<p>
-			Something interesting about this equation. The independent variable <m>S</m> appears twice; first for the braking distance and again because of the reaction time. When we evaluate the equation we need to plug in the value of <m>S</m> in two places. Check it out. When <m>S=30</m> mph we have 
+			Something interesting about this equation. The independent variable <m>S</m> appears twice; first for the braking distance and again because of the reaction time. When we evaluate the function we need to plug in the value of <m>S</m> in two places. Check it out. When <m>S=30</m> mph we have 
 			<me>D =  0.04 \ast  30^2 + 1.47 \ast 30 = 0.04\times \underline{30} \wedge 2 +1.47 \times \underline{30} = 80.10 \approx 80 \text{ feet}</me> 
 			That's a lot further than just the braking distance of 36 feet. When <m>S=50</m> mph we have 
 			<me>D = 0.04 \ast  50^2 +1.47\ast 50 =  0.04\times \underline{50} \wedge 2 +1.47\times \underline{50} = 173.50 \approx 174 \text{ feet}</me> 
