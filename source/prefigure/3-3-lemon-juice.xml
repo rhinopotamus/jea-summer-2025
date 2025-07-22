@@ -1,5 +1,5 @@
 <diagram xmlns="https://prefigure.org"
-  dimensions="(400,200)" margins="(50,30,20,10)">
+  dimensions="(400,200)" margins="(50,30,25,25)">
   <definition>J(C)=0.0056*C^3</definition>  
   <coordinates bbox="(0,0,10,6)">
     <grid-axes 
@@ -11,8 +11,10 @@
       vticks= "(0,1,6)"
       vlabels="(0,1,6)"
       h-zero-label="yes"
-      v-zero-label="yes"
-    />
+      v-zero-label="yes">
+        <xlabel><m>C</m></xlabel>
+        <ylabel><m>J</m></ylabel>
+    </grid-axes>
     <graph function="J"/>
   </coordinates>
 </diagram>

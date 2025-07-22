@@ -1,4 +1,4 @@
-<diagram dimensions="(500,300)" margins="(60,30,15,15)"
+<diagram dimensions="(500,300)" margins="(60,30,25,25)"
   xmlns="https://prefigure.org">
   <coordinates bbox="(0,-0.1,130,4500)">
     <grid-axes
@@ -8,9 +8,9 @@
       vlabels="(0,500,4500)"
       h-zero-label="yes"
       v-zero-label="yes"
-      spacings="((0,5,130),(0,250,4500))"
-      xlabel="Y"
-      ylabel="S"
-    />
+      spacings="((0,5,130),(0,250,4500))">
+      <xlabel><m>Y</m></xlabel>
+      <ylabel><m>S</m></ylabel>
+  </grid-axes>
   </coordinates>
 </diagram>
