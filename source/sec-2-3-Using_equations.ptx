@@ -171,29 +171,22 @@
 
 		<p>
 			A quick glance at the graph confirms our findings.
-			<aside>
-				<p>
-					Original version
-				</p>
-			</aside>
 		</p>
 
-		<p>
+		<!-- <p>
 			<image source='cadillacBRAKESTOP.png'/>
-		</p>
+		</p> -->
 
-		<image>
-			<shortdescription>Braking distance and stopping distance vs. speed</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-braking-vs-stopping">
-				<xi:include href="prefigure/2-3-braking.xml" />
-			</prefigure>
-		</image>
-		<aside>
-			<p>
-				Prefigure version
-			</p>
-		</aside>
+		<figure xml:id="2-3-braking-vs-stopping">
+			<caption>Braking distance and stopping distance as a function of <m>S</m> = speed.</caption>
+			<image>
+				<shortdescription>Braking distance and stopping distance vs. speed</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-braking-vs-stopping">
+					<xi:include href="prefigure/2-3-braking.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<p>
 			The distance of 183 feet falls just above the unlabeled gridline for 175 and below the gridline for 200. Looking at the corresponding point on the braking distance curve, it looks like it falls around 67 mph, but looking at the corresponding point on the stopping distance curve, it looks like just over 50 mph.

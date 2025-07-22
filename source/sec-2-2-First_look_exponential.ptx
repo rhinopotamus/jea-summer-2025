@@ -196,27 +196,25 @@
 		</tabular>
 
 
-		<p>
+		<!-- <p>
 			<image source='healthcarecosts.png'/>
 			<aside>
 				<p>
 					Original version
 				</p>
 			</aside>
-		</p>
+		</p> -->
 
-		<image>
-			<shortdescription>Health care costs vs time</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-healthcare-costs">
-				<xi:include href="prefigure/2-2-healthcare-costs.xml" />
-			</prefigure>
-		</image>
-		<aside>
-			<p>
-				Prefigure version
-			</p>
-		</aside>
+		<figure xml:id="2-2-healthcare-costs">
+			<caption><m>H</m> = healthcare spending as a function of <m>Y</m>= time since 2007.</caption>
+			<image>
+				<shortdescription>Health care costs vs time</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-healthcare-costs">
+					<xi:include href="prefigure/2-2-healthcare-costs.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<p>
 			Can you see that the graph curves slightly? It's not a straight line. That's because this function isn't linear.

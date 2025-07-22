@@ -108,34 +108,37 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor" halign="center">
-			<row left="minor">
-				<cell right="minor"><m>Y</m></cell>
-				<cell right="minor">0</cell>
-				<cell right="minor">15</cell>
-				<cell right="minor">30</cell>
-				<cell right="minor">40</cell>
-				<cell right="minor">50</cell>
-				<cell right="minor">65</cell>
-				<cell right="minor">75</cell>
-				<cell right="minor">90</cell>
-				<cell right="minor">100</cell>
-				<cell right="minor">106</cell>
-			</row>
-			<row left="minor">
-				<cell right="minor"><m>S</m></cell>
-				<cell right="minor">54</cell>
-				<cell right="minor">285</cell>
-				<cell right="minor">1,485</cell>
-				<cell right="minor">1,976</cell>
-				<cell right="minor">3,552</cell>
-				<cell right="minor">4,258</cell>
-				<cell right="minor">4,122</cell>
-				<cell right="minor">2,834</cell>
-				<cell right="minor">2,049</cell>
-				<cell right="minor">1,619</cell>
-			</row>
-		</tabular>
+		<table xml:id="1-2-cig-data">
+			<title>Data on cigarette smoking</title>
+			<tabular bottom="minor" top="minor" halign="center">
+				<row left="minor">
+					<cell right="minor"><m>Y</m></cell>
+					<cell right="minor">0</cell>
+					<cell right="minor">15</cell>
+					<cell right="minor">30</cell>
+					<cell right="minor">40</cell>
+					<cell right="minor">50</cell>
+					<cell right="minor">65</cell>
+					<cell right="minor">75</cell>
+					<cell right="minor">90</cell>
+					<cell right="minor">100</cell>
+					<cell right="minor">106</cell>
+				</row>
+				<row left="minor">
+					<cell right="minor"><m>S</m></cell>
+					<cell right="minor">54</cell>
+					<cell right="minor">285</cell>
+					<cell right="minor">1,485</cell>
+					<cell right="minor">1,976</cell>
+					<cell right="minor">3,552</cell>
+					<cell right="minor">4,258</cell>
+					<cell right="minor">4,122</cell>
+					<cell right="minor">2,834</cell>
+					<cell right="minor">2,049</cell>
+					<cell right="minor">1,619</cell>
+				</row>
+			</tabular>
+		</table>
 
 		<p>
 			Notice where the variable names are listed in the table. In a horizontal format like this table, the independent variable (<m>Y</m>) is in the top row, with the dependent variable (<m>S</m>) is in the bottom row. If you want to write your table in a vertical format, that's okay too. Just put the independent variable in the left column, with the dependent variable in the right column. It might help to remember that the independent variable goes first (either top or left) and the dependent variable follows (either bottom or right).
@@ -261,28 +264,28 @@
 			For the scale in the graph of smoking rates, it works nicely to count by 10s for years and count by 500s for the smoking rate. Notice that with the graph paper below, every <em>two</em> gridlines is 10 years and every <em>two</em> gridlines is 500 smoking rate. Also, notice that we start counting at 0.
 		</p>
 
-		<p>
+		<!-- <p>
 			<image source='CigScales.png'/>
 			<aside>
 				<p>
 					Original version
 				</p>
 			</aside>
-		</p>
+		</p> -->
 
-		<image>
-			<shortdescription>Scaled axes for plotting cigarette consumption</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-cig-scales">
-				<xi:include href="prefigure/1-2-cig-scales.xml" />
-			</prefigure>
-		</image>
-		<aside>
-			<p>
-				Prefigure version
-			</p>
-		</aside>
-		
+		<figure xml:id="1-2-cig-scales">
+			<caption>
+				Scaled axes for plotting cigarette consumption.
+				<m>S</m> = cigarettes per year per person, as a function of <m>Y</m> = years since 1900.
+			</caption>
+			<image>
+				<shortdescription>Scaled axes for plotting cigarette consumption</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-cig-scales">
+					<xi:include href="prefigure/1-2-cig-scales.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<xi:include href="./activities/act-1-2-choose-scale.ptx" />
 
@@ -293,56 +296,48 @@
 
 		<p>
 			To plot each point, we start at the origin and move right to that <m>Y</m>-value, and then up to that <m>S</m>-value. When a value doesn't land exactly on a grid mark, we have to guess in between. For example, in 1900, <m>Y=0</m> so we don't move right at all, just up to <m>S=54</m>. The first labeled gridline on our graph is 500. Where's 54? It's between 0 and 500, very close to 0. Our point is just a tiny bit above the origin. In 1915 we have <m>Y=15</m>. Our labeled gridlines are for 10 and 20, so 15 must land halfway in between. The smoking rate is 285, which is around halfway between 0 and 500. Etc.
-			<aside>
-				<p>
-					Original version
-				</p>
-			</aside>
 		</p>
 
-		<p>
+		<!-- <p>
 			<image source='CigScatter3.png'/>
-		</p>
+		</p> -->
 
-		<image>
-			<shortdescription>Scatter plot of cigarette consumption data</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-cig-scatter">
-				<xi:include href="prefigure/1-2-cig-scatter.xml" />
-			</prefigure>
-		</image>
-		<aside>
-			<p>
-				Prefigure version
-			</p>
-		</aside>
+		<figure xml:id="1-2-cig-scatter">
+			<caption>
+				Scatter plot of data in <xref ref="1-2-cig-data" text="type-global"/>.
+				<m>S</m> = cigarettes per year per person, as a function of <m>Y</m> = years since 1900.
+			</caption>
+			<image>
+				<shortdescription>Scatter plot of cigarette consumption data</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-cig-scatter">
+					<xi:include href="prefigure/1-2-cig-scatter.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<p>
 			What we have so far is a <term>scatter plot</term> of points. Can you see why it's called that? Anyway, our whole goal here was to be able to understand smoking rates better by having a graph. You may already begin to see a curve suggested by the points. Time to draw it in. I don't mean drawing a line between each pair of points, like you do in the children's game <q>connect the dots.</q> That isn't quite right. It was probably more of a continuous trend and so the graph should be smoother.
-			<aside>
-				<p>
-					Original version
-				</p>
-			</aside>
 		</p>
 
 
-		<p>
+		<!-- <p>
 			<image source='CigCurve.png'/>
-		</p>
+		</p> -->
 
-		<image>
-			<shortdescription>Scatter plot of cigarette smoking data with a smooth curve connecting the points</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-cig-curve">
-				<xi:include href="prefigure/1-2-cig-curve.xml" />
-			</prefigure>
-		</image>
-		<aside>
-			<p>
-				Prefigure version
-			</p>
-		</aside>
+		<figure xml:id="1-2-cig-curve">
+			<caption>
+				Scatter plot with a smooth curve connecting the points.
+				<m>S</m> = cigarettes per year per person, as a function of <m>Y</m> = years since 1900.
+			</caption>
+			<image>
+				<shortdescription>Scatter plot of cigarette smoking data with a smooth curve connecting the points</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-cig-curve">
+					<xi:include href="prefigure/1-2-cig-curve.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<p>
 			When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once. For example, from the table we guessed that the smoking rate passed 3,000 in around 1947, and dropped back to that level in around 1989. What does the graph show? If we look where the horizontal gridline for 3,000 crosses our graph, it crosses in two places. First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50. I'd say <m>Y \approx 47</m>, in the year 1947. Sure. The second time is between the gridlines for 80 and 90, much closer to 90. Looks like <m>Y \approx 88</m>, in the year 1988. We guessed 1989. Close enough.
@@ -356,29 +351,25 @@
 
 		<p>
 			Turns out more data is available from the CDC. The full table of data from the CDC shows that consumption first topped 3,000 as early as 1944. Here's an example where the history tells you more than the mathematics as cigarette consumption rose sharply during World War II. Our guess about 1988 or 1989 was spot on. Look at how the graph from the full data (the dotted line) compares to our guess.
-			<aside>
-				<p>
-					Original version
-				</p>
-			</aside>
 		</p>
 
-		<p>
+		<!-- <p>
 			<image source='CigCompare.png'/>
-		</p>
+		</p> -->
 
-		<image>
+		<figure xml:id="1-2-cig-compare">
+			<caption>
+				Comparison of annual data vs partial data.
+				<m>S</m> = cigarettes per year per person, as a function of <m>Y</m> = years since 1900.
+			</caption>
+			<image>
 			<shortdescription>Comparison of annual data vs partial data</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-cig-compare">
-				<xi:include href="prefigure/1-2-cig-compare.xml" />
-			</prefigure>
-		</image>
-		<aside>
-			<p>
-				Prefigure version
-			</p>
-		</aside>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-cig-compare">
+					<xi:include href="prefigure/1-2-cig-compare.xml" />
+				</prefigure>
+			</image>
+		</figure>
 	</subsection>
 
 	<conclusion component="not-workbook">

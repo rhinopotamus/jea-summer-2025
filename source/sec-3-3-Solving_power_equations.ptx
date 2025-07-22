@@ -59,29 +59,24 @@
 
 		<p>
 			A look at the graph confirms our result.
-			<aside>
-				<p>
-					Original version
-				</p>
-			</aside>
 		</p>
 
-		<p>
+		<!-- <p>
 			<image source='lemonade.png'/>
-		</p>
+		</p> -->
 
-		<image>
-			<shortdescription>Juice vs. circumference of a lemon</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-lemon-juice">
-				<xi:include href="prefigure/3-3-lemon-juice.xml" />
-			</prefigure>
-		</image>
-		<aside>
-			<p>
-				Prefigure version
-			</p>
-		</aside>
+		<figure xml:id="3-3-lemon-juice">
+			<caption>
+				<m>J</m> = juice, as a function of <m>C</m> = circumference
+			</caption>
+			<image>
+				<shortdescription>Juice vs. circumference of a lemon</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-lemon-juice">
+					<xi:include href="prefigure/3-3-lemon-juice.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<p>
 			Now, what goes better with lemonade than lemon cheesecake? For that we need lemon zest. <term>Zest</term> is what you get when you grate the lemon peel in long skinny strips. As with juice, the amount of lemon zest depends on the size of the lemon. Our variables are
@@ -104,39 +99,39 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
+		<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
 			<row left="minor">
-				<cell right="minor" halign="center"><m>C</m></cell>
-				<cell right="minor" halign="center">7</cell>
-				<cell right="minor" halign="center">8</cell>
-				<cell right="minor" halign="center">9</cell>
-				<cell right="minor" halign="center">10</cell>
-				<cell right="minor" halign="center">9.5</cell>
-				<cell right="minor" halign="center">9.3</cell>
-				<cell right="minor" halign="center">9.2</cell>
-				<cell right="minor" halign="center">9.1</cell>
+				<cell right="minor"><m>C</m></cell>
+				<cell right="minor">7</cell>
+				<cell right="minor">8</cell>
+				<cell right="minor">9</cell>
+				<cell right="minor">10</cell>
+				<cell right="minor">9.5</cell>
+				<cell right="minor">9.3</cell>
+				<cell right="minor">9.2</cell>
+				<cell right="minor">9.1</cell>
 			</row>
 			<row left="minor">
-				<cell right="minor" halign="center"><m>Z</m></cell>
-				<cell right="minor" halign="center">0.882</cell>
-				<cell right="minor" halign="center">1.152</cell>
-				<cell right="minor" halign="center">1.458</cell>
-				<cell right="minor" halign="center">1.8</cell>
-				<cell right="minor" halign="center">1.6245</cell>
-				<cell right="minor" halign="center">1.55682</cell>
-				<cell right="minor" halign="center">1.52352</cell>
-				<cell right="minor" halign="center">1.49058</cell>
+				<cell right="minor"><m>Z</m></cell>
+				<cell right="minor">0.882</cell>
+				<cell right="minor">1.152</cell>
+				<cell right="minor">1.458</cell>
+				<cell right="minor">1.8</cell>
+				<cell right="minor">1.6245</cell>
+				<cell right="minor">1.55682</cell>
+				<cell right="minor">1.52352</cell>
+				<cell right="minor">1.49058</cell>
 			</row>
 			<row left="minor">
-				<cell right="minor" halign="center">vs. 1.5</cell>
-				<cell right="minor" halign="center">low</cell>
-				<cell right="minor" halign="center">high</cell>
-				<cell right="minor" halign="center">low</cell>
-				<cell right="minor" halign="center">high</cell>
-				<cell right="minor" halign="center">high</cell>
-				<cell right="minor" halign="center">high</cell>
-				<cell right="minor" halign="center">high</cell>
-				<cell right="minor" halign="center">low</cell>
+				<cell right="minor">vs. 1.5</cell>
+				<cell right="minor">low</cell>
+				<cell right="minor">high</cell>
+				<cell right="minor">low</cell>
+				<cell right="minor">high</cell>
+				<cell right="minor">high</cell>
+				<cell right="minor">high</cell>
+				<cell right="minor">high</cell>
+				<cell right="minor">low</cell>
 			</row>
 		</tabular>
 

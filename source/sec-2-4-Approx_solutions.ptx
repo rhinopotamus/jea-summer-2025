@@ -247,13 +247,16 @@
 			It's always a good idea to check our work using multiple different methods. Since we've used a bunch of numerical calculations so far, let's check our answer using the graph.
 		</p>
 
-		<image>
-			<shortdescription>Population model of India</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-india-population">
-				<xi:include href="prefigure/2-4-india-population.xml" />
-			</prefigure>
-		</image>
+		<figure xml:id="2-4-india-population">
+			<caption><m>P</m> = population of India as a function of <m>Y</m>= years since 2024.</caption>
+			<image>
+				<shortdescription>Population model of India</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-india-population">
+					<xi:include href="prefigure/2-4-india-population.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<p>
 			It looks like 1.6 billion corresponds to just before the unlabeled gridline halfway between 15 and 20. That line would be 17.5, so the answer of 17 (which was year 2028) looks perfect.

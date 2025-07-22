@@ -180,30 +180,25 @@
 
 		<p>
 			If we graph our linear function <m>F = 1.8C+32</m>, we can check our answer for the right temperature range for our brownies. Since we want <m>F</m> between 325 and 375 we start on the vertical axis and then use the graph to find the right range on the horizontal axis. You can see from the highlighted region that our answer is reasonable. Now, who wants brownies?
-			<aside>
-				<p>
-					Original version
-				</p>
-			</aside>
 		</p>
 
-		<p>
+		<!-- <p>
 			<image source='fahrenheitcelsius.png'/>
-		</p>
+		</p> -->
 
-		<image>
-			<shortdescription>Fahrenheit temperature vs Celsius temperature, with F between 325 and 375 highlighted</shortdescription>
-			<prefigure xmlns="https://prefigure.org"
-				label="prefigure-fahrenheit-celsius">
-				<xi:include href="prefigure/3-2-fahrenheit-celsius.xml" />
-			</prefigure>
-		</image>
-		<aside>
-			<p>
-				Prefigure version
-			</p>
-		</aside>
-
+		<figure xml:id="3-2-fahrenheit-celsius">
+			<caption>
+				<m>F</m> = Fahrenheit temperature, as a function of <m>C</m> = Celsius temperature
+			</caption>
+			<image>
+				<shortdescription>Fahrenheit temperature vs Celsius temperature, with F between 325 and 375 highlighted</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-fahrenheit-celsius">
+					<xi:include href="prefigure/3-2-fahrenheit-celsius.xml" />
+				</prefigure>
+			</image>
+		</figure>
+		
 		<xi:include href="./activities/act-3-2-chain-ineq.ptx" />
 	</subsection>
 
