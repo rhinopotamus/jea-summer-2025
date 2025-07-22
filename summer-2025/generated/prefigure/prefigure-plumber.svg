@@ -1,100 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="diagram" width="470" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" id="diagram" width="475" height="255">
   <defs>
     <clipPath id="clipPath-0">
-      <rect x="50.0" y="10.0" width="400.0" height="200.0"/>
+      <rect x="50.0" y="25.0" width="400.0" height="200.0"/>
     </clipPath>
     <clipPath id="clipPath-1">
-      <rect x="50.0" y="10.0" width="400.0" height="200.0"/>
+      <rect x="50.0" y="25.0" width="400.0" height="200.0"/>
     </clipPath>
   </defs>
   <g id="grid-axes">
     <g id="grid" stroke="#ccc" stroke-width="1">
-      <line id="line-0" x1="50.0" y1="210.0" x2="50.0" y2="10.0"/>
-      <line id="line-1" x1="63.3" y1="210.0" x2="63.3" y2="10.0"/>
-      <line id="line-2" x1="76.7" y1="210.0" x2="76.7" y2="10.0"/>
-      <line id="line-3" x1="90.0" y1="210.0" x2="90.0" y2="10.0"/>
-      <line id="line-4" x1="103.3" y1="210.0" x2="103.3" y2="10.0"/>
-      <line id="line-5" x1="116.7" y1="210.0" x2="116.7" y2="10.0"/>
-      <line id="line-6" x1="130.0" y1="210.0" x2="130.0" y2="10.0"/>
-      <line id="line-7" x1="143.3" y1="210.0" x2="143.3" y2="10.0"/>
-      <line id="line-8" x1="156.7" y1="210.0" x2="156.7" y2="10.0"/>
-      <line id="line-9" x1="170.0" y1="210.0" x2="170.0" y2="10.0"/>
-      <line id="line-10" x1="183.3" y1="210.0" x2="183.3" y2="10.0"/>
-      <line id="line-11" x1="196.7" y1="210.0" x2="196.7" y2="10.0"/>
-      <line id="line-12" x1="210.0" y1="210.0" x2="210.0" y2="10.0"/>
-      <line id="line-13" x1="223.3" y1="210.0" x2="223.3" y2="10.0"/>
-      <line id="line-14" x1="236.7" y1="210.0" x2="236.7" y2="10.0"/>
-      <line id="line-15" x1="250.0" y1="210.0" x2="250.0" y2="10.0"/>
-      <line id="line-16" x1="263.3" y1="210.0" x2="263.3" y2="10.0"/>
-      <line id="line-17" x1="276.7" y1="210.0" x2="276.7" y2="10.0"/>
-      <line id="line-18" x1="290.0" y1="210.0" x2="290.0" y2="10.0"/>
-      <line id="line-19" x1="303.3" y1="210.0" x2="303.3" y2="10.0"/>
-      <line id="line-20" x1="316.7" y1="210.0" x2="316.7" y2="10.0"/>
-      <line id="line-21" x1="330.0" y1="210.0" x2="330.0" y2="10.0"/>
-      <line id="line-22" x1="343.3" y1="210.0" x2="343.3" y2="10.0"/>
-      <line id="line-23" x1="356.7" y1="210.0" x2="356.7" y2="10.0"/>
-      <line id="line-24" x1="370.0" y1="210.0" x2="370.0" y2="10.0"/>
-      <line id="line-25" x1="383.3" y1="210.0" x2="383.3" y2="10.0"/>
-      <line id="line-26" x1="396.7" y1="210.0" x2="396.7" y2="10.0"/>
-      <line id="line-27" x1="410.0" y1="210.0" x2="410.0" y2="10.0"/>
-      <line id="line-28" x1="423.3" y1="210.0" x2="423.3" y2="10.0"/>
-      <line id="line-29" x1="436.7" y1="210.0" x2="436.7" y2="10.0"/>
-      <line id="line-30" x1="450.0" y1="210.0" x2="450.0" y2="10.0"/>
-      <line id="line-31" x1="50.0" y1="210.0" x2="450.0" y2="210.0"/>
-      <line id="line-32" x1="50.0" y1="195.7" x2="450.0" y2="195.7"/>
-      <line id="line-33" x1="50.0" y1="181.4" x2="450.0" y2="181.4"/>
-      <line id="line-34" x1="50.0" y1="167.1" x2="450.0" y2="167.1"/>
-      <line id="line-35" x1="50.0" y1="152.9" x2="450.0" y2="152.9"/>
-      <line id="line-36" x1="50.0" y1="138.6" x2="450.0" y2="138.6"/>
-      <line id="line-37" x1="50.0" y1="124.3" x2="450.0" y2="124.3"/>
-      <line id="line-38" x1="50.0" y1="110.0" x2="450.0" y2="110.0"/>
-      <line id="line-39" x1="50.0" y1="95.7" x2="450.0" y2="95.7"/>
-      <line id="line-40" x1="50.0" y1="81.4" x2="450.0" y2="81.4"/>
-      <line id="line-41" x1="50.0" y1="67.1" x2="450.0" y2="67.1"/>
-      <line id="line-42" x1="50.0" y1="52.9" x2="450.0" y2="52.9"/>
-      <line id="line-43" x1="50.0" y1="38.6" x2="450.0" y2="38.6"/>
-      <line id="line-44" x1="50.0" y1="24.3" x2="450.0" y2="24.3"/>
-      <line id="line-45" x1="50.0" y1="10.0" x2="450.0" y2="10.0"/>
+      <line id="line-0" x1="50.0" y1="225.0" x2="50.0" y2="25.0"/>
+      <line id="line-1" x1="63.3" y1="225.0" x2="63.3" y2="25.0"/>
+      <line id="line-2" x1="76.7" y1="225.0" x2="76.7" y2="25.0"/>
+      <line id="line-3" x1="90.0" y1="225.0" x2="90.0" y2="25.0"/>
+      <line id="line-4" x1="103.3" y1="225.0" x2="103.3" y2="25.0"/>
+      <line id="line-5" x1="116.7" y1="225.0" x2="116.7" y2="25.0"/>
+      <line id="line-6" x1="130.0" y1="225.0" x2="130.0" y2="25.0"/>
+      <line id="line-7" x1="143.3" y1="225.0" x2="143.3" y2="25.0"/>
+      <line id="line-8" x1="156.7" y1="225.0" x2="156.7" y2="25.0"/>
+      <line id="line-9" x1="170.0" y1="225.0" x2="170.0" y2="25.0"/>
+      <line id="line-10" x1="183.3" y1="225.0" x2="183.3" y2="25.0"/>
+      <line id="line-11" x1="196.7" y1="225.0" x2="196.7" y2="25.0"/>
+      <line id="line-12" x1="210.0" y1="225.0" x2="210.0" y2="25.0"/>
+      <line id="line-13" x1="223.3" y1="225.0" x2="223.3" y2="25.0"/>
+      <line id="line-14" x1="236.7" y1="225.0" x2="236.7" y2="25.0"/>
+      <line id="line-15" x1="250.0" y1="225.0" x2="250.0" y2="25.0"/>
+      <line id="line-16" x1="263.3" y1="225.0" x2="263.3" y2="25.0"/>
+      <line id="line-17" x1="276.7" y1="225.0" x2="276.7" y2="25.0"/>
+      <line id="line-18" x1="290.0" y1="225.0" x2="290.0" y2="25.0"/>
+      <line id="line-19" x1="303.3" y1="225.0" x2="303.3" y2="25.0"/>
+      <line id="line-20" x1="316.7" y1="225.0" x2="316.7" y2="25.0"/>
+      <line id="line-21" x1="330.0" y1="225.0" x2="330.0" y2="25.0"/>
+      <line id="line-22" x1="343.3" y1="225.0" x2="343.3" y2="25.0"/>
+      <line id="line-23" x1="356.7" y1="225.0" x2="356.7" y2="25.0"/>
+      <line id="line-24" x1="370.0" y1="225.0" x2="370.0" y2="25.0"/>
+      <line id="line-25" x1="383.3" y1="225.0" x2="383.3" y2="25.0"/>
+      <line id="line-26" x1="396.7" y1="225.0" x2="396.7" y2="25.0"/>
+      <line id="line-27" x1="410.0" y1="225.0" x2="410.0" y2="25.0"/>
+      <line id="line-28" x1="423.3" y1="225.0" x2="423.3" y2="25.0"/>
+      <line id="line-29" x1="436.7" y1="225.0" x2="436.7" y2="25.0"/>
+      <line id="line-30" x1="450.0" y1="225.0" x2="450.0" y2="25.0"/>
+      <line id="line-31" x1="50.0" y1="225.0" x2="450.0" y2="225.0"/>
+      <line id="line-32" x1="50.0" y1="210.7" x2="450.0" y2="210.7"/>
+      <line id="line-33" x1="50.0" y1="196.4" x2="450.0" y2="196.4"/>
+      <line id="line-34" x1="50.0" y1="182.1" x2="450.0" y2="182.1"/>
+      <line id="line-35" x1="50.0" y1="167.9" x2="450.0" y2="167.9"/>
+      <line id="line-36" x1="50.0" y1="153.6" x2="450.0" y2="153.6"/>
+      <line id="line-37" x1="50.0" y1="139.3" x2="450.0" y2="139.3"/>
+      <line id="line-38" x1="50.0" y1="125.0" x2="450.0" y2="125.0"/>
+      <line id="line-39" x1="50.0" y1="110.7" x2="450.0" y2="110.7"/>
+      <line id="line-40" x1="50.0" y1="96.4" x2="450.0" y2="96.4"/>
+      <line id="line-41" x1="50.0" y1="82.1" x2="450.0" y2="82.1"/>
+      <line id="line-42" x1="50.0" y1="67.9" x2="450.0" y2="67.9"/>
+      <line id="line-43" x1="50.0" y1="53.6" x2="450.0" y2="53.6"/>
+      <line id="line-44" x1="50.0" y1="39.3" x2="450.0" y2="39.3"/>
+      <line id="line-45" x1="50.0" y1="25.0" x2="450.0" y2="25.0"/>
     </g>
     <g id="axes" stroke="black" stroke-width="2">
-      <line id="line-46" x1="50.0" y1="210.0" x2="450.0" y2="210.0" stroke="black" stroke-width="2"/>
+      <line id="line-46" x1="50.0" y1="225.0" x2="450.0" y2="225.0" stroke="black" stroke-width="2"/>
       <g id="g-0">
-        <line id="line-47" x1="50.0" y1="213.0" x2="50.0" y2="207.0"/>
-        <line id="line-48" x1="116.7" y1="213.0" x2="116.7" y2="207.0"/>
-        <line id="line-49" x1="183.3" y1="213.0" x2="183.3" y2="207.0"/>
-        <line id="line-50" x1="250.0" y1="213.0" x2="250.0" y2="207.0"/>
-        <line id="line-51" x1="316.7" y1="213.0" x2="316.7" y2="207.0"/>
-        <line id="line-52" x1="383.3" y1="213.0" x2="383.3" y2="207.0"/>
-        <line id="line-53" x1="450.0" y1="213.0" x2="450.0" y2="207.0"/>
-        <line id="line-54" x1="50.0" y1="213.0" x2="50.0" y2="207.0"/>
-        <line id="line-55" x1="116.7" y1="213.0" x2="116.7" y2="207.0"/>
-        <line id="line-56" x1="183.3" y1="213.0" x2="183.3" y2="207.0"/>
-        <line id="line-57" x1="250.0" y1="213.0" x2="250.0" y2="207.0"/>
-        <line id="line-58" x1="316.7" y1="213.0" x2="316.7" y2="207.0"/>
-        <line id="line-59" x1="383.3" y1="213.0" x2="383.3" y2="207.0"/>
-        <line id="line-60" x1="450.0" y1="213.0" x2="450.0" y2="207.0"/>
+        <line id="line-47" x1="50.0" y1="228.0" x2="50.0" y2="222.0"/>
+        <line id="line-48" x1="116.7" y1="228.0" x2="116.7" y2="222.0"/>
+        <line id="line-49" x1="183.3" y1="228.0" x2="183.3" y2="222.0"/>
+        <line id="line-50" x1="250.0" y1="228.0" x2="250.0" y2="222.0"/>
+        <line id="line-51" x1="316.7" y1="228.0" x2="316.7" y2="222.0"/>
+        <line id="line-52" x1="383.3" y1="228.0" x2="383.3" y2="222.0"/>
+        <line id="line-53" x1="450.0" y1="228.0" x2="450.0" y2="222.0"/>
+        <line id="line-54" x1="50.0" y1="228.0" x2="50.0" y2="222.0"/>
+        <line id="line-55" x1="116.7" y1="228.0" x2="116.7" y2="222.0"/>
+        <line id="line-56" x1="183.3" y1="228.0" x2="183.3" y2="222.0"/>
+        <line id="line-57" x1="250.0" y1="228.0" x2="250.0" y2="222.0"/>
+        <line id="line-58" x1="316.7" y1="228.0" x2="316.7" y2="222.0"/>
+        <line id="line-59" x1="383.3" y1="228.0" x2="383.3" y2="222.0"/>
+        <line id="line-60" x1="450.0" y1="228.0" x2="450.0" y2="222.0"/>
       </g>
-      <line id="line-61" x1="50.0" y1="210.0" x2="50.0" y2="10.0" stroke="black" stroke-width="2"/>
+      <line id="line-61" x1="50.0" y1="225.0" x2="50.0" y2="25.0" stroke="black" stroke-width="2"/>
       <g id="g-1">
-        <line id="line-62" x1="47.0" y1="210.0" x2="53.0" y2="210.0"/>
-        <line id="line-63" x1="47.0" y1="181.4" x2="53.0" y2="181.4"/>
-        <line id="line-64" x1="47.0" y1="152.9" x2="53.0" y2="152.9"/>
-        <line id="line-65" x1="47.0" y1="124.3" x2="53.0" y2="124.3"/>
-        <line id="line-66" x1="47.0" y1="95.7" x2="53.0" y2="95.7"/>
-        <line id="line-67" x1="47.0" y1="67.1" x2="53.0" y2="67.1"/>
-        <line id="line-68" x1="47.0" y1="38.6" x2="53.0" y2="38.6"/>
-        <line id="line-69" x1="47.0" y1="10.0" x2="53.0" y2="10.0"/>
-        <line id="line-70" x1="47.0" y1="210.0" x2="53.0" y2="210.0"/>
-        <line id="line-71" x1="47.0" y1="181.4" x2="53.0" y2="181.4"/>
-        <line id="line-72" x1="47.0" y1="152.9" x2="53.0" y2="152.9"/>
-        <line id="line-73" x1="47.0" y1="124.3" x2="53.0" y2="124.3"/>
-        <line id="line-74" x1="47.0" y1="95.7" x2="53.0" y2="95.7"/>
-        <line id="line-75" x1="47.0" y1="67.1" x2="53.0" y2="67.1"/>
-        <line id="line-76" x1="47.0" y1="38.6" x2="53.0" y2="38.6"/>
-        <line id="line-77" x1="47.0" y1="10.0" x2="53.0" y2="10.0"/>
+        <line id="line-62" x1="47.0" y1="225.0" x2="53.0" y2="225.0"/>
+        <line id="line-63" x1="47.0" y1="196.4" x2="53.0" y2="196.4"/>
+        <line id="line-64" x1="47.0" y1="167.9" x2="53.0" y2="167.9"/>
+        <line id="line-65" x1="47.0" y1="139.3" x2="53.0" y2="139.3"/>
+        <line id="line-66" x1="47.0" y1="110.7" x2="53.0" y2="110.7"/>
+        <line id="line-67" x1="47.0" y1="82.1" x2="53.0" y2="82.1"/>
+        <line id="line-68" x1="47.0" y1="53.6" x2="53.0" y2="53.6"/>
+        <line id="line-69" x1="47.0" y1="25.0" x2="53.0" y2="25.0"/>
+        <line id="line-70" x1="47.0" y1="225.0" x2="53.0" y2="225.0"/>
+        <line id="line-71" x1="47.0" y1="196.4" x2="53.0" y2="196.4"/>
+        <line id="line-72" x1="47.0" y1="167.9" x2="53.0" y2="167.9"/>
+        <line id="line-73" x1="47.0" y1="139.3" x2="53.0" y2="139.3"/>
+        <line id="line-74" x1="47.0" y1="110.7" x2="53.0" y2="110.7"/>
+        <line id="line-75" x1="47.0" y1="82.1" x2="53.0" y2="82.1"/>
+        <line id="line-76" x1="47.0" y1="53.6" x2="53.0" y2="53.6"/>
+        <line id="line-77" x1="47.0" y1="25.0" x2="53.0" y2="25.0"/>
       </g>
     </g>
-    <g id="label-0" transform="translate(446.0,206.0) translate(-12.7,-12.3)">
+    <g id="label-0" transform="translate(455.0,225.0) translate(0.0,-6.1)">
       <g id="g-2">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="12.744px" height="12.256px" role="img" focusable="false" viewBox="0 -677 704 677" x="0.0" y="0.0">
           <defs>
@@ -102,7 +102,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper T">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="1D447" xlink:href="#MJX-2-TEX-I-1D447"/>
               </g>
             </g>
@@ -110,7 +110,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-1" transform="translate(54.0,14.0) translate(0.0,-0.0)">
+    <g id="label-1" transform="translate(50.0,20.0) translate(-6.8,-12.4)">
       <g id="g-3">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="13.592px" height="12.360px" role="img" focusable="false" viewBox="0 -683 751 683" x="0.0" y="0.0">
           <defs>
@@ -118,7 +118,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper P">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="1D443" xlink:href="#MJX-3-TEX-I-1D443"/>
               </g>
             </g>
@@ -126,7 +126,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-2" transform="translate(50.0,221.0) translate(-4.5,-0.0)">
+    <g id="label-2" transform="translate(50.0,236.0) translate(-4.5,-0.0)">
       <g id="g-4">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
           <defs>
@@ -134,7 +134,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="30" xlink:href="#MJX-4-TEX-N-30"/>
               </g>
             </g>
@@ -142,7 +142,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-3" transform="translate(116.7,221.0) translate(-11.6,-0.0)">
+    <g id="label-3" transform="translate(116.7,236.0) translate(-11.6,-0.0)">
       <g id="g-5">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
           <defs>
@@ -152,7 +152,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0.5">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="30" xlink:href="#MJX-5-TEX-N-30"/>
                 <use data-c="2E" xlink:href="#MJX-5-TEX-N-2E" transform="translate(500,0)"/>
                 <use data-c="35" xlink:href="#MJX-5-TEX-N-35" transform="translate(778,0)"/>
@@ -162,7 +162,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-4" transform="translate(183.3,221.0) translate(-4.5,-0.0)">
+    <g id="label-4" transform="translate(183.3,236.0) translate(-4.5,-0.0)">
       <g id="g-6">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
           <defs>
@@ -170,7 +170,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="31" xlink:href="#MJX-6-TEX-N-31"/>
               </g>
             </g>
@@ -178,7 +178,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-5" transform="translate(250.0,221.0) translate(-11.6,-0.0)">
+    <g id="label-5" transform="translate(250.0,236.0) translate(-11.6,-0.0)">
       <g id="g-7">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
           <defs>
@@ -188,7 +188,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1.5">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="31" xlink:href="#MJX-7-TEX-N-31"/>
                 <use data-c="2E" xlink:href="#MJX-7-TEX-N-2E" transform="translate(500,0)"/>
                 <use data-c="35" xlink:href="#MJX-7-TEX-N-35" transform="translate(778,0)"/>
@@ -198,7 +198,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-6" transform="translate(316.7,221.0) translate(-4.5,-0.0)">
+    <g id="label-6" transform="translate(316.7,236.0) translate(-4.5,-0.0)">
       <g id="g-8">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
           <defs>
@@ -206,7 +206,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="32" xlink:href="#MJX-8-TEX-N-32"/>
               </g>
             </g>
@@ -214,7 +214,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-7" transform="translate(383.3,221.0) translate(-11.6,-0.0)">
+    <g id="label-7" transform="translate(383.3,236.0) translate(-11.6,-0.0)">
       <g id="g-9">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
           <defs>
@@ -224,7 +224,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2.5">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="32" xlink:href="#MJX-9-TEX-N-32"/>
                 <use data-c="2E" xlink:href="#MJX-9-TEX-N-2E" transform="translate(500,0)"/>
                 <use data-c="35" xlink:href="#MJX-9-TEX-N-35" transform="translate(778,0)"/>
@@ -234,7 +234,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-8" transform="translate(450.0,221.0) translate(-4.5,-0.0)">
+    <g id="label-8" transform="translate(450.0,236.0) translate(-4.5,-0.0)">
       <g id="g-10">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.432px" role="img" focusable="false" viewBox="0 -665 500 687" x="0.0" y="0.0">
           <defs>
@@ -242,7 +242,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="3">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="33" xlink:href="#MJX-10-TEX-N-33"/>
               </g>
             </g>
@@ -250,7 +250,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-9" transform="translate(39.0,210.0) translate(-9.0,-6.2)">
+    <g id="label-9" transform="translate(39.0,225.0) translate(-9.0,-6.2)">
       <g id="g-11">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
           <defs>
@@ -258,7 +258,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="30" xlink:href="#MJX-11-TEX-N-30"/>
               </g>
             </g>
@@ -266,7 +266,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-10" transform="translate(39.0,181.4) translate(-18.1,-6.2)">
+    <g id="label-10" transform="translate(39.0,196.4) translate(-18.1,-6.2)">
       <g id="g-12">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
           <defs>
@@ -275,7 +275,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="50">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="35" xlink:href="#MJX-12-TEX-N-35"/>
                 <use data-c="30" xlink:href="#MJX-12-TEX-N-30" transform="translate(500,0)"/>
               </g>
@@ -284,7 +284,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-11" transform="translate(39.0,152.9) translate(-27.2,-6.2)">
+    <g id="label-11" transform="translate(39.0,167.9) translate(-27.2,-6.2)">
       <g id="g-13">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
           <defs>
@@ -293,7 +293,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="100">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="31" xlink:href="#MJX-13-TEX-N-31"/>
                 <use data-c="30" xlink:href="#MJX-13-TEX-N-30" transform="translate(500,0)"/>
                 <use data-c="30" xlink:href="#MJX-13-TEX-N-30" transform="translate(1000,0)"/>
@@ -303,7 +303,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-12" transform="translate(39.0,124.3) translate(-27.2,-6.2)">
+    <g id="label-12" transform="translate(39.0,139.3) translate(-27.2,-6.2)">
       <g id="g-14">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
           <defs>
@@ -313,7 +313,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="150">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="31" xlink:href="#MJX-14-TEX-N-31"/>
                 <use data-c="35" xlink:href="#MJX-14-TEX-N-35" transform="translate(500,0)"/>
                 <use data-c="30" xlink:href="#MJX-14-TEX-N-30" transform="translate(1000,0)"/>
@@ -323,7 +323,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-13" transform="translate(39.0,95.7) translate(-27.2,-6.2)">
+    <g id="label-13" transform="translate(39.0,110.7) translate(-27.2,-6.2)">
       <g id="g-15">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
           <defs>
@@ -332,7 +332,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="200">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="32" xlink:href="#MJX-15-TEX-N-32"/>
                 <use data-c="30" xlink:href="#MJX-15-TEX-N-30" transform="translate(500,0)"/>
                 <use data-c="30" xlink:href="#MJX-15-TEX-N-30" transform="translate(1000,0)"/>
@@ -342,7 +342,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-14" transform="translate(39.0,67.1) translate(-27.2,-6.2)">
+    <g id="label-14" transform="translate(39.0,82.1) translate(-27.2,-6.2)">
       <g id="g-16">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
           <defs>
@@ -352,7 +352,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="250">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="32" xlink:href="#MJX-16-TEX-N-32"/>
                 <use data-c="35" xlink:href="#MJX-16-TEX-N-35" transform="translate(500,0)"/>
                 <use data-c="30" xlink:href="#MJX-16-TEX-N-30" transform="translate(1000,0)"/>
@@ -362,7 +362,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-15" transform="translate(39.0,38.6) translate(-27.2,-6.2)">
+    <g id="label-15" transform="translate(39.0,53.6) translate(-27.2,-6.2)">
       <g id="g-17">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
           <defs>
@@ -371,7 +371,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="300">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="33" xlink:href="#MJX-17-TEX-N-33"/>
                 <use data-c="30" xlink:href="#MJX-17-TEX-N-30" transform="translate(500,0)"/>
                 <use data-c="30" xlink:href="#MJX-17-TEX-N-30" transform="translate(1000,0)"/>
@@ -381,7 +381,7 @@
         </svg>
       </g>
     </g>
-    <g id="label-16" transform="translate(39.0,10.0) translate(-27.2,-6.2)">
+    <g id="label-16" transform="translate(39.0,25.0) translate(-27.2,-6.2)">
       <g id="g-18">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
           <defs>
@@ -391,7 +391,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="350">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
                 <use data-c="33" xlink:href="#MJX-18-TEX-N-33"/>
                 <use data-c="35" xlink:href="#MJX-18-TEX-N-35" transform="translate(500,0)"/>
                 <use data-c="30" xlink:href="#MJX-18-TEX-N-30" transform="translate(1000,0)"/>
@@ -402,5 +402,5 @@
       </g>
     </g>
   </g>
-  <path id="graph-0" stroke="blue" stroke-width="2" fill="none" d="M 50.0 152.9 L 54.0 151.6 L 58.0 150.3 L 62.0 149.0 L 66.0 147.7 L 70.0 146.4 L 74.0 145.1 L 78.0 143.9 L 82.0 142.6 L 86.0 141.3 L 90.0 140.0 L 94.0 138.7 L 98.0 137.4 L 102.0 136.1 L 106.0 134.9 L 110.0 133.6 L 114.0 132.3 L 118.0 131.0 L 122.0 129.7 L 126.0 128.4 L 130.0 127.1 L 134.0 125.9 L 138.0 124.6 L 142.0 123.3 L 146.0 122.0 L 150.0 120.7 L 154.0 119.4 L 158.0 118.1 L 162.0 116.9 L 166.0 115.6 L 170.0 114.3 L 174.0 113.0 L 178.0 111.7 L 182.0 110.4 L 186.0 109.1 L 190.0 107.9 L 194.0 106.6 L 198.0 105.3 L 202.0 104.0 L 206.0 102.7 L 210.0 101.4 L 214.0 100.1 L 218.0 98.9 L 222.0 97.6 L 226.0 96.3 L 230.0 95.0 L 234.0 93.7 L 238.0 92.4 L 242.0 91.1 L 246.0 89.9 L 250.0 88.6 L 254.0 87.3 L 258.0 86.0 L 262.0 84.7 L 266.0 83.4 L 270.0 82.1 L 274.0 80.9 L 278.0 79.6 L 282.0 78.3 L 286.0 77.0 L 290.0 75.7 L 294.0 74.4 L 298.0 73.1 L 302.0 71.9 L 306.0 70.6 L 310.0 69.3 L 314.0 68.0 L 318.0 66.7 L 322.0 65.4 L 326.0 64.1 L 330.0 62.9 L 334.0 61.6 L 338.0 60.3 L 342.0 59.0 L 346.0 57.7 L 350.0 56.4 L 354.0 55.1 L 358.0 53.9 L 362.0 52.6 L 366.0 51.3 L 370.0 50.0 L 374.0 48.7 L 378.0 47.4 L 382.0 46.1 L 386.0 44.9 L 390.0 43.6 L 394.0 42.3 L 398.0 41.0 L 402.0 39.7 L 406.0 38.4 L 410.0 37.1 L 414.0 35.9 L 418.0 34.6 L 422.0 33.3 L 426.0 32.0 L 430.0 30.7 L 434.0 29.4 L 438.0 28.1 L 442.0 26.9 L 446.0 25.6 L 450.0 24.3" clip-path="url(#clipPath-1)"/>
+  <path id="graph-0" stroke="blue" stroke-width="2" fill="none" d="M 50.0 167.9 L 54.0 166.6 L 58.0 165.3 L 62.0 164.0 L 66.0 162.7 L 70.0 161.4 L 74.0 160.1 L 78.0 158.9 L 82.0 157.6 L 86.0 156.3 L 90.0 155.0 L 94.0 153.7 L 98.0 152.4 L 102.0 151.1 L 106.0 149.9 L 110.0 148.6 L 114.0 147.3 L 118.0 146.0 L 122.0 144.7 L 126.0 143.4 L 130.0 142.1 L 134.0 140.9 L 138.0 139.6 L 142.0 138.3 L 146.0 137.0 L 150.0 135.7 L 154.0 134.4 L 158.0 133.1 L 162.0 131.9 L 166.0 130.6 L 170.0 129.3 L 174.0 128.0 L 178.0 126.7 L 182.0 125.4 L 186.0 124.1 L 190.0 122.9 L 194.0 121.6 L 198.0 120.3 L 202.0 119.0 L 206.0 117.7 L 210.0 116.4 L 214.0 115.1 L 218.0 113.9 L 222.0 112.6 L 226.0 111.3 L 230.0 110.0 L 234.0 108.7 L 238.0 107.4 L 242.0 106.1 L 246.0 104.9 L 250.0 103.6 L 254.0 102.3 L 258.0 101.0 L 262.0 99.7 L 266.0 98.4 L 270.0 97.1 L 274.0 95.9 L 278.0 94.6 L 282.0 93.3 L 286.0 92.0 L 290.0 90.7 L 294.0 89.4 L 298.0 88.1 L 302.0 86.9 L 306.0 85.6 L 310.0 84.3 L 314.0 83.0 L 318.0 81.7 L 322.0 80.4 L 326.0 79.1 L 330.0 77.9 L 334.0 76.6 L 338.0 75.3 L 342.0 74.0 L 346.0 72.7 L 350.0 71.4 L 354.0 70.1 L 358.0 68.9 L 362.0 67.6 L 366.0 66.3 L 370.0 65.0 L 374.0 63.7 L 378.0 62.4 L 382.0 61.1 L 386.0 59.9 L 390.0 58.6 L 394.0 57.3 L 398.0 56.0 L 402.0 54.7 L 406.0 53.4 L 410.0 52.1 L 414.0 50.9 L 418.0 49.6 L 422.0 48.3 L 426.0 47.0 L 430.0 45.7 L 434.0 44.4 L 438.0 43.1 L 442.0 41.9 L 446.0 40.6 L 450.0 39.3" clip-path="url(#clipPath-1)"/>
 </svg>
