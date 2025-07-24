@@ -5,6 +5,52 @@
 	<title component="not-workbook">Solving exponential equations (and logs)</title>
 	<title component="workbook">Solving exponential equations (and logs) - Practice exercises</title>
 	<introduction component="not-workbook">
+
+		<p>
+			In order to use the <xref ref="assemblage-shoes-and-socks" text="title" />, we need to know the opposites of the operations that we use to evaluate functions. So far, we have a pretty good library of operations and their opposites:
+		</p>
+
+		<table>
+			<title>Operations and their opposites</title>
+			<tabular halign="center">
+				<row header="yes" bottom="major">
+					<cell>Operation</cell>
+					<cell>Opposite</cell>
+				</row>
+				<row>
+					<cell>Add</cell>
+					<cell>Subtract</cell>
+				</row>
+				<row>
+					<cell>Subtract</cell>
+					<cell>Add</cell>
+				</row>
+				<row>
+					<cell>Multiply</cell>
+					<cell>Divide</cell>
+				</row>
+				<row>
+					<cell>Divide</cell>
+					<cell>Multiply</cell>
+				</row>
+				<row>
+					<cell>Powers</cell>
+					<cell>Roots</cell>
+				</row>
+			</tabular>
+		</table>
+
+		<p>
+			Turns out there's one more important operation whose opposite we still need to learn about.
+		</p>
+
+		<xi:include href="./activities/oa-3-4-power-vs-exponential.ptx" />
+
+	</introduction>
+
+	<subsection component="not-workbook" xml:id="ss-3-4-healthcare">
+		<title></title>
+		
 		<p>
 			Remember Jocelyn? She was asked to analyze information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care and costs were projected to increase at an average of 6.7% annually for the subsequent decade. For the variables
 			<md>
@@ -208,7 +254,7 @@
 		<p>
 			log(number) <m>\approx</m> power of 10 in the scientific notation for that number.
 		</p>
-	</introduction>
+	</subsection>
 
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
