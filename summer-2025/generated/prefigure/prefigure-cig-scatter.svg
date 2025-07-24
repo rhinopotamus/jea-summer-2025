@@ -594,5 +594,16 @@
       </g>
     </g>
   </g>
-  <g id="g-2"/>
+  <g id="g-2">
+    <circle id="circle-0-point=0" cx="60.0" cy="321.4" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-1-point=1" cx="117.7" cy="306.0" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-2-point=2" cx="175.4" cy="226.0" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-3-point=3" cx="213.8" cy="193.3" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-4-point=4" cx="252.3" cy="88.2" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-5-point=5" cx="310.0" cy="41.1" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-6-point=6" cx="348.5" cy="50.2" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-7-point=7" cx="406.2" cy="136.1" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-8-point=8" cx="444.6" cy="188.4" r="4" stroke="black" stroke-width="2" fill="blue"/>
+    <circle id="circle-9-point=9" cx="467.7" cy="217.1" r="4" stroke="black" stroke-width="2" fill="blue"/>
+  </g>
 </svg>
