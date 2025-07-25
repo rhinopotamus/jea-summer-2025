@@ -12,7 +12,9 @@
 					
 					
 				<p>
-					The equation <m>g^Y = v</m> has solution <me>Y = \frac{\log (v)}{\log(g)}</me>
+					The equation <m>g^Y = v</m> has solution 
+					<me>Y = \frac{\log (v)}{\log(g)}</me>,
+					where <m>g</m> is the growth factor and <m>v</m> is the value.
 				</p>
 			</assemblage>
 		</introduction>
