@@ -10,7 +10,7 @@
 		<exercise xml:id="car-comparison-systems-linear" workspace="0.75in">
 			<introduction>
 				<p>
-					Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100. For Car B annual fuel costs are currently $1,800. The total cost of each car will depend on how many years she keeps it.
+					Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.
 				</p>
 			</introduction>
 			<task>
