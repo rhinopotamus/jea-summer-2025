@@ -6,6 +6,17 @@
 	<title component="workbook">Intercepts and direct proportionality - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
+			Remember that there are two <term>constants</term> in the <xref ref="linear-eq-template" text="title"/>, one called <q>slope</q> and the other called <q>start</q> or, if we are feeling fancy, <q>intercept.</q> In this section we'll think more about intercepts and how to find them, and in particular what it might mean for an intercept to be zero.
+		</p>
+
+		<xi:include href="./activities/oa-4-3-meaning-intercept.ptx" />
+	</introduction>
+	
+	<subsection component="not-workbook" xml:id="ss-4-3-stretch">
+		<title>Stretching time</title>
+		
+		
+		<p>
 			Kaleb runs <m>8 \tfrac12</m> minute miles, which means it takes him around 8.5 minutes to run each mile. Yesterday he was out for about 30 minutes and ran the 2.8 mile loop by our house. That strikes me as curious because if he ran 2.8 miles at 8.5 minutes per mile that should take 
 			<me>
 				\frac{8.5 \text{ minutes}}{\text{mile}} \ast 2.8 \text{ miles} = 8.5 \times 2.8 = 23.8 \approx 24 \text{ minutes}
@@ -18,7 +29,7 @@
 		</p>
 
 		<p>
-			Since Kaleb's total time is function of how far he runs, our variables are
+			Since Kaleb's total time is a function of how far he runs, our variables are
 			<md>
 				<mrow>T \amp= \text{ total time (minutes) } \sim \text{ dep} </mrow>
 				<mrow>D \amp= \text{ distance (miles) } \sim \text{ indep} </mrow>
@@ -33,33 +44,57 @@
 		</p>
 
 		<p>
-			By the way, there's a shorter way to find the intercept. The intercept is the <q>starting value,</q> or in this case the time spent stretching. So we take the total time and then subtract out the time spent running <me>\text{intercept }=30 - 8.5 \times 2.8 = 6.2 \approx 6 \text{ minutes}</me> In general, 
-			<assemblage xml:id="intercept-formula">
-                <title>Intercept (of Linear) Formula</title>
-                <p>
-                    <me>
-                        \text{intercept} = \text{dep} - \text{slope}\ast\text{indep}
-                    </me>
-                </p>
-            </assemblage>
+			By the way, there's a shorter way to find the intercept. The intercept is the <q>starting value,</q> or in this case the time spent stretching. So we take the total time and then subtract out the time spent running: 
+			<me>\text{intercept }=30 - 8.5 \times 2.8 = 6.2 \approx 6 \text{ minutes}</me> 
+			In general, 
+		</p>
+
+		<assemblage xml:id="intercept-formula">
+			<title>Intercept (of Linear) Formula</title>
+			<p>
+				<me>
+					\text{intercept} = \text{dep} - \text{slope}\ast\text{indep}
+				</me>
+			</p>
+		</assemblage>
+
+	</subsection>
+
+	<subsection component="not-workbook" xml:id="ss-4-3-direct-prop">
+		<title>Direct proportions</title>
+
+		<p>
+			Kaleb's daughter Muna runs considerably faster, 7 minute miles, and she's not into stretching at all. For her to run the 2.8 mile loop by our house, it would take 
+			<me>\frac{7 \text{ minutes}}{\text{mile}} \ast 2.8 \text{ miles} = 7 \times 2.8 = 19.6 \text{ minutes}</me>. 
+			That means while her dad would take 30 minutes to run the loop and do his stretches, Muna can run it in just under 20 minutes.
 		</p>
 
 		<p>
-			Kaleb's daughter Muna runs considerably faster, 7 minute miles, and she's not into stretching at all. For her to run the 2.8 mile loop by our house, it would take <me>\frac{7 \text{ minutes}}{\text{mile}} \ast 2.8 \text{ miles} = 7 \times 2.8 = 19.6 \text{ minutes}</me> That means while her dad would take 30 minutes to run the loop and do his stretches, Muna can run it in just under 20 minutes.
-		</p>
-
-		<p>
-			The equation for Muna is <me>\textbf{Muna:}\quad  T = 7D</me> The slope is 7 minutes per mile. What's the intercept for this equation? There's no time for stretching in her equation, so it's like <m>T = 0 + 7D</m>. The intercept is 0 minutes.
+			The equation for Muna is 
+			<me>\textbf{Muna:}\quad  T = 7D</me>. 
+			The slope is 7 minutes per mile. What's the intercept for this equation? There's no time for stretching in her equation, so it's like <m>T = 0 + 7D</m>. The intercept is 0 minutes.
 		</p>
 
 		<p>
 			Compare the graphs. Each intercept shows where that line meets the vertical axis. Kaleb's crosses at 6 minutes, but Muna's crosses at 0 minutes, at the origin (where the two axes cross).
 		</p>
 
-
-		<p>
+		<!-- <p>
 			<image source='runtimes.png'/>
-		</p>
+		</p> -->
+
+		<figure xml:id="4-3-run-times">
+			<caption>
+				<m>T</m> = running time, as a function of <m>D</m> = distance
+			</caption>
+			<image>
+				<shortdescription>Running time as a function of distance</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-run-times">
+					<xi:include href="prefigure/4-3-run-times.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<p>
 			By the way, Muna's equation <m>T = 7D</m> is a <term>direct proportionality</term> because the only thing happening is that the independent variable is being scaled by a <term>proportionality constant</term>, <m>k=7</m>. Any direct proportionality fits this template.
@@ -79,7 +114,7 @@
 		<p>
 			Not so for Kaleb. Remember it takes him 29.8 minutes to run that 2.8 miles. If he runs twice the distance, which is 5.6 miles, it takes <me>T = 6+8.5 \ast 5.6 = 6+ 8.5 \times \underline{5.6} = 53.6 \text{ minutes}</me> which is not quite twice the time, since <m>2 \times 29.8 = 59.6 \text{ minutes}</m>. The key is that Kaleb does not stretch twice, only once, for the longer run so double the distance does not count the 6 minutes again. Kaleb's equation is not a direct proportionality. Another way to say that is that Kaleb's time is not proportional to how far he runs. It is a function of how far he runs, yes, but not proportionally so.
 		</p>
-	</introduction>
+	</subsection>
 	
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
