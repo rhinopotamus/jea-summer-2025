@@ -262,7 +262,7 @@
 			<image source='springboard_diver.png'/>
 		</p> -->
 
-		<figure xml:id="1-3-springboard-diver">
+		<figure xml:id="fig-1-3-springboard-diver">
 			<caption><m>H</m> = height as a function of <m>T</m> = time.</caption>
 			<image>
 				<shortdescription>Height vs. time for diver</shortdescription>

@@ -41,28 +41,28 @@
 				<xi:include href="../name-variables.ptx" />
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.3cm">
 			<statement>
 				<p>
 					What will the fee be in 6 years?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.3cm">
 			<statement>
 				<p>
 					When is the fee projected to be $80,200?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.3cm">
 			<statement>
 				<p>
 					Approximately when will the fee reach $95,000?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.3cm">
 			<statement>
 				<p>
 					What do you guess the fee might be in 15 years?
@@ -72,18 +72,18 @@
 		<task workspace="0cm">
 			<statement>
 				<p>
-					Graph the function using the information given in the table.
+					Graph the function using the information given in the table, and use the graph to check your answers to the questions.
 				</p>
 				<xi:include href="../GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="0cm">
+		<!-- <task workspace="0cm">
 			<statement>
 				<p>
 					Use the graph to check your answers to the questions.
 				</p>
 			</statement>
-		</task>
+		</task> -->
 		
 	</exercise>
 </page>
@@ -332,7 +332,7 @@
 					Draw a graph illustrating both functions.
 				</p>
 				<!-- <xi:include href="../GraphPaper.ptx" /> -->
-				<image component="workbook" source='../GraphPaper.jpg' width="80%" />
+				<image component="workbook" source='GraphPaper.jpg' width="80%" />
 			</statement>
 		</task>
 		<task workspace="0in">
@@ -735,7 +735,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="grandfather-bonds-tables-graphs">
+	<exercise xml:id="grandfather-bonds-tables-graphs" component="not-workbook">
 		<introduction>
 			<p>
 				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 

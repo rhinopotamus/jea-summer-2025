@@ -177,7 +177,7 @@
 			<image source='cadillacBRAKESTOP.png'/>
 		</p> -->
 
-		<figure xml:id="2-3-braking-vs-stopping">
+		<figure xml:id="fig-2-3-braking-vs-stopping">
 			<caption>Braking distance and stopping distance as a function of <m>S</m> = speed.</caption>
 			<image>
 				<shortdescription>Braking distance and stopping distance vs. speed</shortdescription>
@@ -196,7 +196,7 @@
 
 	</subsection>
 
-	<subsection xml:id="ss-2-3-power-eqns">
+	<subsection component="not-workbook" xml:id="ss-2-3-power-eqns">
 		<title>New kinds of equations</title>
 
 		<p>

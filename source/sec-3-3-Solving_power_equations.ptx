@@ -144,7 +144,7 @@
 			<image source='lemonade.png'/>
 		</p> -->
 
-		<figure xml:id="3-3-lemon-juice">
+		<figure xml:id="fig-3-3-lemon-juice">
 			<caption>
 				<m>J</m> = juice, as a function of <m>C</m> = circumference
 			</caption>

@@ -125,7 +125,7 @@
 			<image source='plumber.png'/>
 		</p> -->
 
-		<figure xml:id="2-1-plumber">
+		<figure xml:id="fig-2-1-plumber">
 			<caption><m>P</m>= plumber's charge as a function of <m>T</m>= time plumber works.</caption>
 			<image>
 				<shortdescription>Charge vs. time for the plumber</shortdescription>

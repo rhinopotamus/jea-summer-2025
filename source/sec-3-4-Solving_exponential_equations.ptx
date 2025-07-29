@@ -168,7 +168,7 @@
 
 	</subsection>
 
-	<subsection xml:id="ss-3-4-solving-exp-symbolically">
+	<subsection component="not-workbook" xml:id="ss-3-4-solving-exp-symbolically">
 		<title>Solving an exponential equation symbolically</title>
 
 		<p>
@@ -260,7 +260,7 @@
 			Anyway, a look at the graph confirms our result.
 		</p>
 
-		<figure xml:id="3-4-healthcare-costs">
+		<figure xml:id="fig-3-4-healthcare-costs">
 			<caption>
 				<m>H</m> = health care costs, as a function of <m>Y</m> = years since 2007
 			</caption>
@@ -277,7 +277,7 @@
 
 	</subsection>
 
-	<subsection xml:id="ss-3-4-another-example">
+	<subsection component="not-workbook" xml:id="ss-3-4-another-example">
 		<title>Another example</title>
 
 		<p>
@@ -301,7 +301,7 @@
 			Again that means 23 years after 2007, or 2007 + 23 = 2030. Health care costs are projected to exceed $10 trillion in the year 2030. Well, unless we do something about that. (Helps explain why government folks are often discussing how to contain health care costs.)
 		</p>
 
-		<figure xml:id="3-4-healthcare-costs-10">
+		<figure xml:id="fig-3-4-healthcare-costs-10">
 			<caption>
 				<m>H</m> = health care costs, as a function of <m>Y</m> = years since 2007
 			</caption>
@@ -315,7 +315,7 @@
 		</figure>
 	</subsection>
 
-	<subsection xml:id="ss-3-4-logs">
+	<subsection component="not-workbook" xml:id="ss-3-4-logs">
 		<title>Logarithms</title>
 
 		<p>

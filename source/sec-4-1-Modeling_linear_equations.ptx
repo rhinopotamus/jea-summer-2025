@@ -5,7 +5,7 @@
 	<title component="not-workbook">Modeling with linear equations</title>
 	<title component="workbook">Modeling with linear equations <mdash /> Practice exercises</title>
 
-	<introduction>
+	<introduction component="not-workbook">
 		<p>
 			We spent a lot of time back in <xref ref="ch-2-Equations" text="type-global" /> learning about linear equations. Before we learn even more about them in this chapter, let's spend some time reviewing what we learned.
 
@@ -120,7 +120,7 @@
 			<image source='apartments.png'/>
 		</p> -->
 
-		<figure xml:id="4-1-affordable-housing">
+		<figure xml:id="fig-4-1-affordable-housing">
 			<caption>
 				<m>A</m> = affordable apartments, as a function of <m>Y</m> = years
 			</caption>

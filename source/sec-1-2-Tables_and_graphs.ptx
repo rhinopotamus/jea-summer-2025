@@ -108,7 +108,7 @@
 		</p>
 
 
-		<table xml:id="1-2-cig-data">
+		<table xml:id="table-1-2-cig-data">
 			<title>Data on cigarette smoking</title>
 			<tabular bottom="minor" top="minor" halign="center">
 				<row left="minor">
@@ -273,7 +273,7 @@
 			</aside>
 		</p> -->
 
-		<figure xml:id="1-2-cig-scales">
+		<figure xml:id="fig-1-2-cig-scales">
 			<caption>
 				Scaled axes for plotting cigarette consumption.
 				<m>S</m> = cigarettes per year per person, as a function of <m>Y</m> = years since 1900.
@@ -302,9 +302,9 @@
 			<image source='CigScatter3.png'/>
 		</p> -->
 
-		<figure xml:id="1-2-cig-scatter">
+		<figure xml:id="fig-1-2-cig-scatter">
 			<caption>
-				Scatter plot of data in <xref ref="1-2-cig-data" text="type-global"/>.
+				Scatter plot of data in <xref ref="table-1-2-cig-data" text="type-global"/>.
 				<m>S</m> = cigarettes per year per person, as a function of <m>Y</m> = years since 1900.
 			</caption>
 			<image>
@@ -325,7 +325,7 @@
 			<image source='CigCurve.png'/>
 		</p> -->
 
-		<figure xml:id="1-2-cig-curve">
+		<figure xml:id="fig-1-2-cig-curve">
 			<caption>
 				Scatter plot with a smooth curve connecting the points.
 				<m>S</m> = cigarettes per year per person, as a function of <m>Y</m> = years since 1900.
@@ -357,7 +357,7 @@
 			<image source='CigCompare.png'/>
 		</p> -->
 
-		<figure xml:id="1-2-cig-compare">
+		<figure xml:id="fig-1-2-cig-compare">
 			<caption>
 				Comparison of annual data vs partial data.
 				<m>S</m> = cigarettes per year per person, as a function of <m>Y</m> = years since 1900.

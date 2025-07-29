@@ -133,7 +133,7 @@
 			<image source='runtimes.png'/>
 		</p> -->
 
-		<figure xml:id="4-3-run-times">
+		<figure xml:id="fig-4-3-run-times">
 			<caption>
 				<m>T</m> = running time, as a function of <m>D</m> = distance
 			</caption>

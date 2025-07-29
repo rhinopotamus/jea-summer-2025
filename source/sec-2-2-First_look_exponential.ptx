@@ -205,7 +205,7 @@
 			</aside>
 		</p> -->
 
-		<figure xml:id="2-2-healthcare-costs">
+		<figure xml:id="fig-2-2-healthcare-costs">
 			<caption><m>H</m> = healthcare spending as a function of <m>Y</m>= time since 2007.</caption>
 			<image>
 				<shortdescription>Health care costs vs time</shortdescription>

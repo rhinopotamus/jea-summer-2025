@@ -307,7 +307,7 @@
 					</sidebyside>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1cm"> <!-- inelegant but whatever -->
 				<statement>
 					<p>
 						The new stop sign has decreased accidents exponentially, from 40 in 2008 to 17 in 2013.
@@ -326,7 +326,7 @@
 							
 						</p>
 						<p>
-							
+
 						</p>
 					</sidebyside>
 				</statement>

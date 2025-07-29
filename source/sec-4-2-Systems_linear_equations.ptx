@@ -5,7 +5,7 @@
 	<title component="not-workbook">Systems of linear equations</title>
 	<title component="workbook">Systems of linear equations - Practice exercises</title>
 
-	<introduction>
+	<introduction component="not-workbook">
 		<p>
 			Earlier in this book, we've encountered several stories where we want to make a choice between several different options, where each option has a different linear equation attached. In this section we'll learn how to use our solving skills to quickly compare multiple options and make good decisions.
 		</p>
@@ -98,7 +98,7 @@
 			Quia Xun makes a quick graph to see what's going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine 1 is lower on the graph, so that's the better deal. For a larger number of locks it switches and the line for Machine 2 is lower on the graph, since that's the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around 5,000 locks.
 		</p>
 
-		<figure xml:id="4-2-machine-comparison">
+		<figure xml:id="fig-4-2-machine-comparison">
 			<caption>
 				<m>E</m> = total expenditure, as a function of <m>L</m> = number of locks produced
 			</caption>

@@ -186,7 +186,7 @@
 			<image source='fahrenheitcelsius.png'/>
 		</p> -->
 
-		<figure xml:id="3-2-fahrenheit-celsius">
+		<figure xml:id="fig-3-2-fahrenheit-celsius">
 			<caption>
 				<m>F</m> = Fahrenheit temperature, as a function of <m>C</m> = Celsius temperature
 			</caption>

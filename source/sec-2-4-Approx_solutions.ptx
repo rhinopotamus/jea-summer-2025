@@ -247,7 +247,7 @@
 			It's always a good idea to check our work using multiple different methods. Since we've used a bunch of numerical calculations so far, let's check our answer using the graph.
 		</p>
 
-		<figure xml:id="2-4-india-population">
+		<figure xml:id="fig-2-4-india-population">
 			<caption><m>P</m> = population of India as a function of <m>Y</m>= years since 2024.</caption>
 			<image>
 				<shortdescription>Population model of India</shortdescription>
