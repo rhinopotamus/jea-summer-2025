@@ -16,6 +16,7 @@
 					<p>
 						Identify and name the variables, including the units.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task workspace="1.5in">
