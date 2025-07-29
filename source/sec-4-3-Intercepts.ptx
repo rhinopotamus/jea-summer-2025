@@ -6,22 +6,23 @@
 	<title component="workbook">Intercepts and direct proportionality - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			Remember that there are two <term>constants</term> in the <xref ref="linear-eq-template" text="title"/>, one called <q>slope</q> and the other called <q>start</q> or, if we are feeling fancy, <q>intercept.</q> In this section we'll think more about intercepts and how to find them, and in particular what it might mean for an intercept to be zero.
+			Remember that there are two <term>constants</term> in the <xref ref="linear-eq-template" text="title"/>, one called <q>slope</q> and the other called <q>start</q> or, if we are feeling fancy, <q>intercept.</q> In this section we'll think more about intercepts and how to find them, and in particular what special things happen when the intercept is zero.
 		</p>
 
 		<xi:include href="./activities/oa-4-3-meaning-intercept.ptx" />
 	</introduction>
 	
-	<subsection component="not-workbook" xml:id="ss-4-3-stretch">
-		<title>Stretching time</title>
-		
+	<subsection component="not-workbook" xml:id="ss-4-3-fixed">
+		<title>Fixed amounts</title>
 		
 		<p>
 			Kaleb runs <m>8 \tfrac12</m> minute miles, which means it takes him around 8.5 minutes to run each mile. Yesterday he was out for about 30 minutes and ran the 2.8 mile loop by our house. That strikes me as curious because if he ran 2.8 miles at 8.5 minutes per mile that should take 
 			<me>
 				\frac{8.5 \text{ minutes}}{\text{mile}} \ast 2.8 \text{ miles} = 8.5 \times 2.8 = 23.8 \approx 24 \text{ minutes}
 			</me> 
-			But Kaleb took 30 minutes. That's 6 minutes longer than expected. Well, technically 6.2 minutes since <me>30 - 23.8 = 6.2 \approx 6 \text{ minutes}</me> but let's work with 6 since the 30 was only approximate to begin with.
+			But Kaleb took 30 minutes. That's 6 minutes longer than expected. Well, technically 6.2 minutes, since 
+			<me>30 - 23.8 = 6.2 \approx 6 \text{ minutes}</me>, 
+			but let's work with 6 since the 30 was only approximate to begin with.
 		</p>
 
 		<p>
@@ -38,9 +39,58 @@
 		</p>
 
 		<p>
-			For the sake of this problem, we assume Kaleb runs a steady 8.5 minutes per mile so the rate of change is constant. The equation must be linear and so it fits the template <me>\text{dep }=\text{ start } + \text{slope} \ast {\text{indep}}</me> The slope is 8.5 minutes per mile. The 6 minutes Kaleb spends stretching is the intercept, even though it's named <q>start</q> in the template and Kaleb is actually stretching at the end of his run. A better name might be <q>fixed.</q> Whatever you call it, the equation is 
-			<me>\textbf{Kaleb:}\quad  T = 6 + 8.5D</me> 
-			As a quick check, for that 2.8 mile run we have <m>D=2.8</m> and so <me>T = 6 + 8.5 \ast 2.8 = 6 + 8.5 \times \underline{2.8} = 29.8 \approx 30 \text{ minutes}</me>
+			For the sake of this problem, we assume Kaleb runs a steady 8.5 minutes per mile so the rate of change is constant. The equation must be linear and so it fits the template 
+			<me>\text{dep }=\text{ start } + \text{slope} \ast {\text{indep}}</me>.
+			We've already named our variables, so now we need to think about the constants in our story.
+			One thing that's constant is the 8.5 minutes per mile.
+			That's certainly the slope <mdash/> the units that look like <q>units of dep per units of indep</q> are a giveaway.
+		</p>
+
+		<p>			
+			The other thing that's constant here is the 6 minutes that Kaleb spends stretching. (Take a minute to convince yourself this is really a constant <mdash/> in particular, Kaleb probably does the same stretches whether he runs 2 miles or 5 miles.) This is the intercept.
+		</p>
+
+		<p>
+			Should we be worried that it's named <q>start</q> in the template and Kaleb is actually stretching at the end of his run? Turns out that there are many other ways to think about the intercept than just <q>start.</q> Some of these ways make more sense in one story than another, so having a good list is helpful for figuring out the intercept in a variety of different stories.
+		</p>
+
+		<assemblage xml:id="assemblage-intercept-interp">
+			<title>Ways to think about the intercept</title>
+			<p>
+				<ul>
+					<li>
+						<p>
+							start
+						</p>
+					</li>
+					<li>
+						<p>
+							initial
+						</p>
+					</li>
+					<li>
+						<p>
+							fixed (not in the sense of <q>repaired</q> but in the sense of <q>locked in place</q>)
+						</p>
+					</li>
+					<li>
+						<p>
+							how much dep if there is 0 indep
+						</p>
+					</li>
+				</ul>
+			</p>
+		</assemblage>
+
+		<p>
+			In particular, thinking of Kaleb's stretching time as <q>fixed</q> seems pretty natural here.
+		</p>
+
+		<p>
+			Whatever you call it, the equation is 
+			<me>\textbf{Kaleb:}\quad  T = 6 + 8.5D</me>. 
+			As a quick check, for that 2.8 mile run we have <m>D=2.8</m> and so 
+			<me>T = 6 + 8.5 \ast 2.8 = 6 + 8.5 \times \underline{2.8} = 29.8 \approx 30 \text{ minutes}</me>.
 		</p>
 
 		<p>
