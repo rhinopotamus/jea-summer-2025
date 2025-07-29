@@ -58,6 +58,7 @@
 					<p>
 						A <term>personal</term> pizza is sized to serve one person. Use successive approximation to estimate the diameter of a personal pizza to the nearest inch.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 	<!-- scaffold table? -->
 			</task>
@@ -84,6 +85,7 @@
 					<p>
 						Name the variables, including units. The way the story is stated, the size tank is a function of the fuel efficiency.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -99,6 +101,7 @@
 					<p>
 						My Honda Accord's tank holds about 16 gallons. Approximate the corresponding fuel efficiency to one decimal place.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -106,6 +109,7 @@
 					<p>
 						My ex-husband's Honda Civic's tank holds only 13 gallons. Approximate the corresponding fuel efficiency to one decimal place.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task workspace="0in">
@@ -139,6 +143,7 @@
 					<p>
 						What quality of orchids would Monty need to have probability <m>P\ge 0.8</m> of a successful greenhouse? Report your answer accurate to two decimal places.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -146,6 +151,7 @@
 					<p>
 						What quality of orchids would Monty need to have probability <m>P\ge 0.95</m> of a successful greenhouse? Report your answer accurate to three decimal places.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 		</exercise>
@@ -155,51 +161,53 @@
 		<exercise xml:id="population-growth-approx-solutions">
 			<introduction>
 				<p>
-					After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. Their projected growth rates and corresponding equation are listed below. Here <m>Q</m> is the population measured in millions and <m>T</m> is time measured in years since 2011.
+					After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. 
+					Indonesia, Pakistan, Nigeria, Brazil, and Bangladesh.
+					Their projected growth rates and corresponding equation are listed below. Here <m>Q</m> is the population measured in millions and <m>T</m> is time measured in years since 2024.
 					<aside><p>Source: CIA Factbook</p></aside>
 				</p>
 				<tabular>
 					<row>
 						<cell halign="left">4th</cell>
 						<cell halign="left">Indonesia</cell>
-						<cell halign="left">pop. 248 million</cell>
-						<cell halign="left">growth rate 1.04%</cell>
-						<cell halign="left"><m>Q= 248 \ast 1.0104^T</m></cell>
+						<cell halign="left">pop. 281 million</cell>
+						<cell halign="left">growth rate 0.73%</cell>
+						<cell halign="left"><m>Q= 281 \ast 1.0073^T</m></cell>
 					</row>
 					<row>
 						<cell halign="left">5th</cell>
-						<cell halign="left">Brazil</cell>
-						<cell halign="left">pop. 205 million</cell>
-						<cell halign="left">growth rate 1.10%</cell>
-						<cell halign="left"><m>Q = 205  \ast 1.0110^T</m></cell>
+						<cell halign="left">Pakistan</cell>
+						<cell halign="left">pop. 252 million</cell>
+						<cell halign="left">growth rate 1.86%</cell>
+						<cell halign="left"><m>Q = 252  \ast 1.0186^T</m></cell>
 					</row>
 					<row>
 						<cell halign="left">6th</cell>
-						<cell halign="left">Pakistan</cell>
-						<cell halign="left">pop. 190 million</cell>
-						<cell halign="left">growth rate 1.55%</cell>
-						<cell halign="left"><m>Q = 190 \ast 1.0155^T</m></cell>
+						<cell halign="left">Nigeria</cell>
+						<cell halign="left">pop. 237 million</cell>
+						<cell halign="left">growth rate 2.52%</cell>
+						<cell halign="left"><m>Q = 237 \ast 1.0252^T</m></cell>
 					</row>
 					<row>
 						<cell halign="left">7th</cell>
-						<cell halign="left">Nigeria</cell>
-						<cell halign="left">pop. 170 million</cell>
-						<cell halign="left">growth rate 2.55%</cell>
-						<cell halign="left"><m>Q = 170 \ast 1.0255^T</m></cell>
+						<cell halign="left">Brazil</cell>
+						<cell halign="left">pop. 220 million</cell>
+						<cell halign="left">growth rate 0.61%</cell>
+						<cell halign="left"><m>Q = 220 \ast 1.0061^T</m></cell>
 					</row>
 					<row>
 						<cell halign="left">8th</cell>
 						<cell halign="left">Bangladesh</cell>
-						<cell halign="left">pop. 161 million</cell>
-						<cell halign="left">growth rate 1.58%</cell>
-						<cell halign="left"><m>Q = 161\ast 1.0158^T</m></cell>
+						<cell halign="left">pop. 169 million</cell>
+						<cell halign="left">growth rate 0.89%</cell>
+						<cell halign="left"><m>Q = 169 \ast 1.0089^T</m></cell>
 					</row>
 				</tabular>
 			</introduction>
 			<task workspace="2in">
 				<statement>
 					<p>
-						Which of these countries is projected to have the largest population in 2020? In 2030? In 2050?
+						Which of these countries is projected to have the largest population in 2030? In 2040? In 2050?
 					</p>
 				</statement>
 			</task>
@@ -215,6 +223,8 @@
 					<p>
 						Approximately when will Brazil's population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
+					<!-- this might not work bc you might want two rows -->
 				</statement>
 			</task>
 		</exercise>

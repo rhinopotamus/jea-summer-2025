@@ -25,11 +25,12 @@
 					</em>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0in">
 				<statement>
 					<p>
-						Name the variables, including units.
+						Name the variables, including units and dependence.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -72,7 +73,7 @@
 		<exercise xml:id="reservoir-rain-first-look-linear" workspace="0.75in">
 			<introduction>
 				<p>
-					The water in the local reservoir was 47 feet deep, but there has been so little rain that the depth has fallen 18 inches a week over the past few months. Officials are worried that if dry conditions continue, the reservoir will not have enough water to supply the town. 
+					The water in the local reservoir was 47 feet deep, but there has been so little rain that the water level has dropped 18 inches a week over the past few months. Officials are worried that if dry conditions continue, the reservoir will not have enough water to supply the town. 
 					<em component="not-workbook">(Story also appears in <xref ref="reservoir-rain-linear-ineq"/> and <xref ref="reservoir-rain-modeling-linear"/>)</em>
 					<em component="workbook">(Story also appears in 
 						<xref ref="sec-3-2-Solving_linear_inequalities"/> Exercises and <xref ref="reservoir-rain-modeling-linear"/>)</em>
@@ -83,6 +84,7 @@
 					<p>
 						Name the variables and write an equation relating them. First convert 18 inches to feet.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -130,6 +132,7 @@
 					<p>
 						Name the variables, including units and dependence. Write an equation showing my account balance in each number of months. Ignore the interest.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -177,11 +180,12 @@
 					</em>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="1in">
 				<statement>
 					<p>
 						Name the variables, including units.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>

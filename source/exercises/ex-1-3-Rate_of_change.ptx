@@ -168,17 +168,18 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0cm">
 			<statement>
 				<p>
 					Identify the variables, including units and dependence.
 				</p>
+				<xi:include href="../name-variables.ptx" />
 			</statement>
 		</task>
 		<task>
 			<statement>
 				<p>
-					How quickly was Rashad's heart rate dropping during the first two minutes following practice? <em>Hint: the units are beats per minute per minute.</em>
+					How quickly was Rashad's heart rate dropping during the first two minutes following practice? <em>Hint: the units are (beats per minute) per minute.</em>
 				</p>
 			</statement>
 		</task>

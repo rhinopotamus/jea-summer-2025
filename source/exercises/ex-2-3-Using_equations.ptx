@@ -13,11 +13,12 @@
 	
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0in">
 				<statement>
 					<p>
 						Name the variables <m>T</m> and <m>D</m>, including units and dependence.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task xml:id="dontrell-kim-orig">
@@ -70,11 +71,12 @@
 					</em>
 				</p>
 			</introduction>
-			<task workspace="0.5cm">
+			<task workspace="0cm">
 				<statement>
 					<p>
 						Name the variables <m>A</m> and <m>R</m>, including units and dependence.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task workspace="0.5cm">
@@ -153,11 +155,12 @@
 					<em>(Story also appears in <xref ref="monty-orchids-approx-solutions"/>)</em>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0in">
 				<statement>
 					<p>
 						Name the variables <m>S</m> and <m>P</m>, including units and dependence.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -211,6 +214,7 @@
 					<p>
 						She might have to stop sooner, however. Name variables and write an equation showing how the money Valerie raises is a function of how far she is able to walk.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -225,6 +229,7 @@
 					<p>
 						Name the new variables and write a new equation showing how the time it takes Valerie to walk the full 50 miles depends on her pace.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task workspace="0.5in">

@@ -29,8 +29,9 @@
 			<task>
 				<statement>
 					<p>
-						Name the variables, including units, and write an equation describing the dependence.
+						Name the variables, including units, and write an equation.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -67,9 +68,9 @@
 			<task>
 				<statement>
 					<p>
-						Name the variables, including dependency.
-	
+						Name the variables, including dependence.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -114,6 +115,7 @@
 					<p>
 						Calculate the daily growth factor and use it to write an equation describing the spread of the virus. Don't forget to name the variables too.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task workspace="1in">
@@ -149,6 +151,7 @@
 					<p>
 						Name the variables, including units and dependence.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>

@@ -101,46 +101,47 @@
 				<em>(Story also appears in <xref ref="wind-chill-modeling-linear"/> )</em>
 				<aside><p>Source: National Weather Service</p></aside>
 			</p>		
-			<tabular bottom="minor" top="minor"> 
+			<tabular bottom="minor" top="minor" row-headers="yes" halign="center"> 
 				<row left="minor">
-					<cell right="minor"  halign="left">Wind speed (mph)</cell>
-					<cell right="minor"  halign="center">0</cell>
-					<cell right="minor"  halign="center">5</cell>
-					<cell right="minor"  halign="center">10</cell>
-					<cell right="minor"  halign="center">15</cell>
-					<cell right="minor"  halign="center">20</cell>
-					<cell right="minor"  halign="center">25</cell>
-					<cell right="minor"  halign="center">30</cell>
-					<cell right="minor"  halign="center">35</cell>
-					<cell right="minor"  halign="center">40</cell>
-					<cell right="minor"  halign="center">45</cell>
-					<cell right="minor"  halign="center">50</cell>
-					<cell right="minor"  halign="center">55</cell>
-					<cell right="minor"  halign="center">60</cell>
+					<cell right="minor">Wind speed (mph)</cell>
+					<cell right="minor">0</cell>
+					<cell right="minor">5</cell>
+					<cell right="minor">10</cell>
+					<cell right="minor">15</cell>
+					<cell right="minor">20</cell>
+					<cell right="minor">25</cell>
+					<cell right="minor">30</cell>
+					<cell right="minor">35</cell>
+					<cell right="minor">40</cell>
+					<cell right="minor">45</cell>
+					<cell right="minor">50</cell>
+					<cell right="minor">55</cell>
+					<cell right="minor">60</cell>
 				</row>
 				<row left="minor">
-					<cell right="minor"  halign="left">Wind chill (<degree/>F)</cell>
-					<cell right="minor"  halign="center">10</cell>
-					<cell right="minor"  halign="center">1</cell>
-					<cell right="minor"  halign="center">-4</cell>
-					<cell right="minor"  halign="center">-7</cell>
-					<cell right="minor"  halign="center">-9</cell>
-					<cell right="minor"  halign="center">-11</cell>
-					<cell right="minor"  halign="center">-12</cell>
-					<cell right="minor"  halign="center">-14</cell>
-					<cell right="minor"  halign="center">-15</cell>
-					<cell right="minor"  halign="center">-16</cell>
-					<cell right="minor"  halign="center">-17</cell>
-					<cell right="minor"  halign="center">-18</cell>
-					<cell right="minor"  halign="center">-19</cell>
+					<cell right="minor">Wind chill (<degree/>F)</cell>
+					<cell right="minor">10</cell>
+					<cell right="minor">1</cell>
+					<cell right="minor">-4</cell>
+					<cell right="minor">-7</cell>
+					<cell right="minor">-9</cell>
+					<cell right="minor">-11</cell>
+					<cell right="minor">-12</cell>
+					<cell right="minor">-14</cell>
+					<cell right="minor">-15</cell>
+					<cell right="minor">-16</cell>
+					<cell right="minor">-17</cell>
+					<cell right="minor">-18</cell>
+					<cell right="minor">-19</cell>
 				</row>
 			</tabular>
 		</introduction>
-		<task>
+		<task workspace="0cm"> <!-- mother fucker -->
 			<statement>
 				<p>
 					Name the variables, including units and dependence.
 				</p>
+				<xi:include href="../name-variables.ptx" />
 			</statement>
 		</task>
 		<task workspace="0.4cm">
@@ -196,11 +197,12 @@
 				<xref ref="wedding-rental-linear-ineq" />)
 			</em></p>
 		</introduction>
-		<task workspace="0.5in">
+		<task>
 			<statement>
 				<p>
 					Identify and name the variables, including units.
 				</p>
+				<xi:include href="../name-variables.ptx" />
 			</statement>
 		</task>
 		<task workspace="0.3in">
@@ -229,16 +231,9 @@
 		<task>
 			<statement>
 				<p>
-					Graph the function.
+					Graph the function. Does your estimate agree with your graph?  If not, revise.
 				</p>
 				<xi:include href="../GraphPaper.ptx" />
-			</statement>
-		</task>
-		<task>
-			<statement>
-				<p>
-					Does your estimate agree with your graph?  If not, revise.
-				</p>
 			</statement>
 		</task>
 		<task>

@@ -11,7 +11,7 @@
 					A 32 pound bag of dog food costs $29.97, but an 8 pound bag costs $11.28.
 				</p>
 			</introduction>
-			<task workspace="1.5in">
+			<task workspace="1in">
 				<statement>
 					<p>
 						Identify and name the variables, including the units.
@@ -22,7 +22,7 @@
 			<task workspace="1.5in">
 				<statement>
 					<p>
-						Which variable is dependent and which is independent?
+						Which variable is dependent and which is independent? Explain how you know.
 					</p>
 				</statement>
 			</task>
@@ -45,25 +45,27 @@
 					<em>(Story also appears in <xref ref="riverside-rent-solving-exponential"/>)</em>
 				</p>
 			</introduction>
-			<task workspace="1.5in">
+			<task workspace="0.5in">
 				<statement>
 					<p>
 						Identify and name the variables, including the units.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task workspace="0.5in">
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						Explain the dependence using a sentence of the form <q><fillin characters="3" /> is a function of <fillin characters="3" /></q>.
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.5in">
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						Which number is a constant in this story:
 						the percent increase (7.2) or the apartment rent (830)?
+						Explain how you know.
 					</p>
 				</statement>
 			</task>
@@ -140,7 +142,7 @@
 	</page>
 		
 	<page>
-		<exercise xml:id="time-variables-functions" workspace="1.25in">
+		<exercise xml:id="time-variables-functions" workspace="0.5in">
 			<introduction>
 				<p>
 					It's about time! In each story, time is one (or both) of the variables.  
@@ -171,6 +173,7 @@
 							<xref ref="sec-0-7-Algebraic_notation"/> Exercises)
 						</em>
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task xml:id="bac-variables-functions">
@@ -189,6 +192,7 @@
 							<xref ref="bac-solving-exponential"/>)
 						</em>
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -198,6 +202,7 @@
 						on the highway to get between exits, 
 						but when traffic is bad, it can take her an hour.
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -207,6 +212,7 @@
 						that at this time of year, it sets about 2 minutes earlier each day.
 						<em>(Hint: measure the sunset time in minutes after 6:00 p.m.)</em>
 					</p>
+					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
 		</exercise>
