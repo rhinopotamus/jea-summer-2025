@@ -6,27 +6,27 @@
 
 	<xi:include href="ex-intro.ptx" />
 	<page>
-		<exercise xml:id="private-college-first-look-exponential" workspace="1.2cm">
+		<exercise xml:id="private-college-first-look-exponential">
 			<introduction>
 				<p>
 					The comprehensive fee at a local private college is $64,000. The fee is projected to increase 5.8% per year.
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0.5cm">
 				<statement>
 					<p>
 						Calculate the annual growth factor.
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.5cm">
 				<statement>
 					<p>
 						What do you expect the comprehensive fee will be in five years?
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.2cm">
 				<statement>
 					<p>
 						Name the variables, including units, and write an equation.
@@ -34,14 +34,14 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.2cm">
 				<statement>
 					<p>
 						Make a table of values showing the comprehensive fee now, in 5 years, 10 years, 20 years, and 50 years (even though that's not realistic).
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Draw a graph illustrating the function.
@@ -53,7 +53,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="bunnies-first-look-exponential" workspace="1.5in">
+		<exercise xml:id="bunnies-first-look-exponential">
 			<introduction>
 				<p>
 					Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate.
@@ -73,7 +73,7 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						Calculate the annual growth factor.
@@ -81,14 +81,14 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						What does this story suggest the rabbit population was in 2010? In 2013?
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						Write an equation relating the variables.
@@ -110,10 +110,10 @@
 					</em>
 				</p>
 			</introduction>
-			<task workspace="1in">
+			<task workspace="0.75in">
 				<statement>
 					<p>
-						Calculate the daily growth factor and use it to write an equation describing the spread of the virus. Don't forget to name the variables too.
+						Calculate the daily growth factor, and write an equation describing the spread of the virus. Don't forget to name the variables too.
 					</p>
 					<xi:include href="../name-variables.ptx" />
 				</statement>
@@ -137,7 +137,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="savings-interest-first-look-exponential" workspace="0.75in">
+		<exercise xml:id="savings-interest-first-look-exponential">
 			<introduction>
 				<p>
 					My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.
@@ -154,35 +154,35 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						How much <em>interest</em> will I earn this year? What will my <em>balance</em> be at the end of the year?
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						What will my balance be in three years, assuming I neither deposit nor withdraw money?
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						Write an equation relating the variables.
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						What would the equation be if I moved all of my money into a certificate of deposit earning the equivalent of 0.92%?
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						What would the equation be if I moved $10,000 into that certificate of deposit, and kept the rest in savings? <em>Hint: to find the total balance, add the amounts.</em>

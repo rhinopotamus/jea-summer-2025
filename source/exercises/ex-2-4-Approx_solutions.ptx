@@ -31,21 +31,21 @@
 						<xref ref="pizza-diameter-solving-power"/>)</em>
 				</p>
 			</introduction>
-			<task workspace="0.5cm">
+			<!-- <task workspace="0.5cm">
 				<statement>
 					<p>
 						Confirm that a 16-inch pizza serves four people.
 					</p>
 				</statement>
-			</task>
-			<task workspace="1cm">
+			</task> -->
+			<task workspace="1.5cm">
 				<statement>
 					<p>
-						How many people does a 12-inch pizza serve? How about a 14-inch pizza?
+						Confirm that a 16-inch pizza serves four people. How many people does a 12-inch pizza serve? How about a 14-inch pizza?
 					</p>
 				</statement>
 			</task>
-			<task workspace="0cm">
+			<task>
 				<statement>
 					<p>
 						Graph the function. Include what happens when <m>D=0</m>.
@@ -53,28 +53,27 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="1cm">
+			<task>
 				<statement>
 					<p>
 						A <term>personal</term> pizza is sized to serve one person. Use successive approximation to estimate the diameter of a personal pizza to the nearest inch.
 					</p>
 					<xi:include href="../successive-approx.ptx" />
 				</statement>
-	<!-- scaffold table? -->
 			</task>
-			<task workspace="0cm">
+			<task>
 				<statement>
 					<p>
 						What diameter should an extra large pizza be to serve 6 people? Answer to the nearest inch.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
-	<!-- scaffold table? -->
 			</task>
 		</exercise>
 	</page>
 	
 	<page>
-		<exercise xml:id="fuel-350-approx-solutions" workspace="1.1cm">
+		<exercise xml:id="fuel-350-approx-solutions">
 			<introduction>
 				<p>
 					Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em>(Story also appears in <xref ref="fuel-350-solving-power"/>)</em>
@@ -88,7 +87,7 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.5cm">
 				<statement>
 					<p>
 						Write an equation describing this function.
@@ -112,22 +111,24 @@
 					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Draw a graph showing how the size tank depends on the fuel efficiency.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="85%" />
+					<!-- <xi:include href="../GraphPaper.ptx" /> -->
 				</statement>
 			</task>
 		</exercise>
 	</page>
 	
 	<page>
-		<exercise xml:id="monty-orchids-approx-solutions" workspace="2in">
+		<exercise xml:id="monty-orchids-approx-solutions">
 			<introduction>
 				<p>
-					Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by <me>P= 10S^9-9S^{10}</me>
+					Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by 
+					<me>P= 10S^9-9S^{10}</me>
 						<em>(Story also appears in <xref ref="monty-orchids-using-equations"/>)</em>
 				</p>
 			</introduction>
@@ -138,7 +139,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1in">
 				<statement>
 					<p>
 						What quality of orchids would Monty need to have probability <m>P\ge 0.8</m> of a successful greenhouse? Report your answer accurate to two decimal places.
@@ -166,41 +167,41 @@
 					Their projected growth rates and corresponding equation are listed below. Here <m>Q</m> is the population measured in millions and <m>T</m> is time measured in years since 2024.
 					<aside><p>Source: CIA Factbook</p></aside>
 				</p>
-				<tabular>
+				<tabular halign="left">
 					<row>
-						<cell halign="left">4th</cell>
-						<cell halign="left">Indonesia</cell>
-						<cell halign="left">pop. 281 million</cell>
-						<cell halign="left">growth rate 0.73%</cell>
-						<cell halign="left"><m>Q= 281 \ast 1.0073^T</m></cell>
+						<cell>4th</cell>
+						<cell>Indonesia</cell>
+						<cell>pop. 281 million</cell>
+						<cell>growth rate 0.73%</cell>
+						<cell><m>Q= 281 \ast 1.0073^T</m></cell>
 					</row>
 					<row>
-						<cell halign="left">5th</cell>
-						<cell halign="left">Pakistan</cell>
-						<cell halign="left">pop. 252 million</cell>
-						<cell halign="left">growth rate 1.86%</cell>
-						<cell halign="left"><m>Q = 252  \ast 1.0186^T</m></cell>
+						<cell>5th</cell>
+						<cell>Pakistan</cell>
+						<cell>pop. 252 million</cell>
+						<cell>growth rate 1.86%</cell>
+						<cell><m>Q = 252  \ast 1.0186^T</m></cell>
 					</row>
 					<row>
-						<cell halign="left">6th</cell>
-						<cell halign="left">Nigeria</cell>
-						<cell halign="left">pop. 237 million</cell>
-						<cell halign="left">growth rate 2.52%</cell>
-						<cell halign="left"><m>Q = 237 \ast 1.0252^T</m></cell>
+						<cell>6th</cell>
+						<cell>Nigeria</cell>
+						<cell>pop. 237 million</cell>
+						<cell>growth rate 2.52%</cell>
+						<cell><m>Q = 237 \ast 1.0252^T</m></cell>
 					</row>
 					<row>
-						<cell halign="left">7th</cell>
-						<cell halign="left">Brazil</cell>
-						<cell halign="left">pop. 220 million</cell>
-						<cell halign="left">growth rate 0.61%</cell>
-						<cell halign="left"><m>Q = 220 \ast 1.0061^T</m></cell>
+						<cell>7th</cell>
+						<cell>Brazil</cell>
+						<cell>pop. 220 million</cell>
+						<cell>growth rate 0.61%</cell>
+						<cell><m>Q = 220 \ast 1.0061^T</m></cell>
 					</row>
 					<row>
-						<cell halign="left">8th</cell>
-						<cell halign="left">Bangladesh</cell>
-						<cell halign="left">pop. 169 million</cell>
-						<cell halign="left">growth rate 0.89%</cell>
-						<cell halign="left"><m>Q = 169 \ast 1.0089^T</m></cell>
+						<cell>8th</cell>
+						<cell>Bangladesh</cell>
+						<cell>pop. 169 million</cell>
+						<cell>growth rate 0.89%</cell>
+						<cell><m>Q = 169 \ast 1.0089^T</m></cell>
 					</row>
 				</tabular>
 			</introduction>
@@ -218,13 +219,14 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.75in">
+			<task workspace="1.25in">
 				<statement>
 					<p>
 						Approximately when will Brazil's population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.
 					</p>
-					<xi:include href="../successive-approx.ptx" />
-					<!-- this might not work bc you might want two rows -->
+					<p>
+						<em>(Hint: How should this successive approximation table be different from usual?)</em>
+					</p>
 				</statement>
 			</task>
 		</exercise>

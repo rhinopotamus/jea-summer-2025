@@ -41,35 +41,35 @@
 				<xi:include href="../name-variables.ptx" />
 			</statement>
 		</task>
-		<task workspace="0.3cm">
+		<task workspace="0.2cm">
 			<statement>
 				<p>
 					What will the fee be in 6 years?
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.3cm">
+		<task workspace="0.2cm">
 			<statement>
 				<p>
 					When is the fee projected to be $80,200?
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.3cm">
+		<task workspace="0.2cm">
 			<statement>
 				<p>
 					Approximately when will the fee reach $95,000?
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.3cm">
+		<task workspace="0.2cm">
 			<statement>
 				<p>
 					What do you guess the fee might be in 15 years?
 				</p>
 			</statement>
 		</task>
-		<task workspace="0cm">
+		<task>
 			<statement>
 				<p>
 					Graph the function using the information given in the table, and use the graph to check your answers to the questions.
@@ -89,7 +89,7 @@
 </page>
 
 <page>
-	<exercise xml:id="wind-chill-tables-graphs" workspace="0.5cm">
+	<exercise xml:id="wind-chill-tables-graphs">
 		<introduction>
 			<p>
 				How cold is it? An air temperature of 10<degree/>F is cold but manageable. 
@@ -100,43 +100,43 @@
 				10<degree/>F. 
 				<em>(Story also appears in <xref ref="wind-chill-modeling-linear"/> )</em>
 				<aside><p>Source: National Weather Service</p></aside>
+				<tabular bottom="minor" top="minor" row-headers="yes" halign="center"> 
+					<row left="minor">
+						<cell right="minor">Wind speed (mph)</cell>
+						<cell right="minor">0</cell>
+						<cell right="minor">5</cell>
+						<cell right="minor">10</cell>
+						<cell right="minor">15</cell>
+						<cell right="minor">20</cell>
+						<cell right="minor">25</cell>
+						<cell right="minor">30</cell>
+						<cell right="minor">35</cell>
+						<cell right="minor">40</cell>
+						<cell right="minor">45</cell>
+						<cell right="minor">50</cell>
+						<cell right="minor">55</cell>
+						<!-- <cell right="minor">60</cell> -->
+					</row>
+					<row left="minor">
+						<cell right="minor">Wind chill (<degree/>F)</cell>
+						<cell right="minor">10</cell>
+						<cell right="minor">1</cell>
+						<cell right="minor">-4</cell>
+						<cell right="minor">-7</cell>
+						<cell right="minor">-9</cell>
+						<cell right="minor">-11</cell>
+						<cell right="minor">-12</cell>
+						<cell right="minor">-14</cell>
+						<cell right="minor">-15</cell>
+						<cell right="minor">-16</cell>
+						<cell right="minor">-17</cell>
+						<cell right="minor">-18</cell>
+						<!-- <cell right="minor">-19</cell> -->
+					</row>
+				</tabular>
 			</p>		
-			<tabular bottom="minor" top="minor" row-headers="yes" halign="center"> 
-				<row left="minor">
-					<cell right="minor">Wind speed (mph)</cell>
-					<cell right="minor">0</cell>
-					<cell right="minor">5</cell>
-					<cell right="minor">10</cell>
-					<cell right="minor">15</cell>
-					<cell right="minor">20</cell>
-					<cell right="minor">25</cell>
-					<cell right="minor">30</cell>
-					<cell right="minor">35</cell>
-					<cell right="minor">40</cell>
-					<cell right="minor">45</cell>
-					<cell right="minor">50</cell>
-					<cell right="minor">55</cell>
-					<cell right="minor">60</cell>
-				</row>
-				<row left="minor">
-					<cell right="minor">Wind chill (<degree/>F)</cell>
-					<cell right="minor">10</cell>
-					<cell right="minor">1</cell>
-					<cell right="minor">-4</cell>
-					<cell right="minor">-7</cell>
-					<cell right="minor">-9</cell>
-					<cell right="minor">-11</cell>
-					<cell right="minor">-12</cell>
-					<cell right="minor">-14</cell>
-					<cell right="minor">-15</cell>
-					<cell right="minor">-16</cell>
-					<cell right="minor">-17</cell>
-					<cell right="minor">-18</cell>
-					<cell right="minor">-19</cell>
-				</row>
-			</tabular>
 		</introduction>
-		<task workspace="0cm"> <!-- mother fucker -->
+		<task>
 			<statement>
 				<p>
 					Name the variables, including units and dependence.
@@ -152,7 +152,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.4cm">
 			<statement>
 				<p>
 					A <term>cold advisory</term> is issued whenever the wind chill 
@@ -162,16 +162,16 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.4cm">
 			<statement>
 				<p>
 					Between a wind chill of 0<degree/>F and -15<degree/>F, 
 					schools in our district are open but kids may not go outside for recess. 
-					What is the corresponding range of wind speeds at an air temperature of 10<degree/>F?
+					What is the corresponding range of wind speeds?
 				</p>
 			</statement>
 		</task>
-		<task workspace="0in">
+		<task>
 			<statement>
 				<p>
 					Draw a graph showing how wind chill depends on wind speed and use it to check your answers. 
@@ -249,7 +249,7 @@
 </page>
 
 <page>
-	<exercise xml:id="juan-coffee-tables-graphs" workspace="0.1cm">
+	<exercise xml:id="juan-coffee-tables-graphs">
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe. 
@@ -261,7 +261,7 @@
                 </em>
 			</p>
 		</introduction>
-		<task>
+		<task workspace="0.25cm">
 			<statement>
 				<p>
 					Juan buys coffee on the way to work every day. 
@@ -270,7 +270,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.25cm">
 			<statement>
 				<p>
 					If Juan pays $10 for a discount card, then coffee costs $2.90/mug instead. 
@@ -280,7 +280,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.25cm">
 			<statement>
 				<p>
 					Does the card pay for itself within the month? 
@@ -289,48 +289,47 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0in">
+		<task>
 			<statement>
 				<p>
 					Complete the table, where <m>M</m> is the number of mugs of coffee 
 					Juan buys and <m>T</m> is the total cost, in dollars.
 				</p>
-				<tabular bottom="minor" top="minor">
+				<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
 					<row left="minor" >
-						<cell right="minor"  halign="center"><m>M</m></cell>
-						<cell right="minor"  halign="center">0</cell>
-						<cell right="minor"  halign="center">10</cell>
-						<cell right="minor"  halign="center">22</cell>
-						<cell right="minor"  halign="center">50</cell>
+						<cell right="minor"><m>M</m></cell>
+						<cell right="minor">0</cell>
+						<cell right="minor">10</cell>
+						<cell right="minor">22</cell>
+						<cell right="minor">50</cell>
 					</row>
 					<row left="minor" >
-						<cell right="minor"  halign="center"><m>T</m> (regular)</cell>
-						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m>T</m> (regular)</cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 					</row>
 					<row left="minor" >
-						<cell right="minor"  halign="center"><m>T</m> (with card)</cell>
-						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"  halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m>T</m> (with card)</cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 					</row>
 				</tabular>
 			</statement>
 		</task>
-<!-- A little negative vertical space here would be fabulous -->
-		<task workspace="0in">
+		<task>
 			<statement>
 				<p>
 					Draw a graph illustrating both functions.
 				</p>
-				<!-- <xi:include href="../GraphPaper.ptx" /> -->
-				<image component="workbook" source='GraphPaper.jpg' width="80%" />
+				<xi:include href="../GraphPaper.ptx" />
+				<!-- <image component="workbook" source='GraphPaper.jpg' width="80%" /> -->
 			</statement>
 		</task>
-		<task workspace="0in">
+		<task workspace="0.25cm">
 			<statement>
 				<p>
 					What does the point where the two lines cross mean in terms of the story?

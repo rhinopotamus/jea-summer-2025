@@ -142,11 +142,12 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task workspace="1in">
 				<statement>
 					<p>
 						Use successive approximation to <em>estimate</em> to the nearest minute when the survival rate drops below 50%. Display your guesses in a table.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task>

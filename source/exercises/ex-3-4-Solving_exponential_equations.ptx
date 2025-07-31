@@ -7,7 +7,7 @@
 	<xi:include href="ex-intro.ptx" />
 	<page>
 		<introduction component="workbook">
-			<assemblage>
+			<assemblage component="workbook" xml:id="log-divides-formula">
 				<title>Log-Divides Formula</title>
 					
 					

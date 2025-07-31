@@ -167,17 +167,12 @@
 							<xi:include href="../prefigure/3-5-milk.xml" />
 						</prefigure>
 					</image>
-					<aside>
-						<p>
-							Prefigure version
-						</p>
-					</aside>
 					<p>
 						Explain why negative numbers on the vertical axis make sense in the story.
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						How much milk must be sold for the company to <term>break even</term>, meaning having $0 profit? Guess from the graph and check using the equation.

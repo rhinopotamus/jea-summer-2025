@@ -7,7 +7,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<exercise xml:id="truck-grass-first-look-linear" workspace="0.75in"> 
+		<exercise xml:id="truck-grass-first-look-linear"> 
 			<introduction>
 				<p>
 					A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs 3,900 pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck carrying 1,000 bags of grass seed weighs 
@@ -25,7 +25,7 @@
 					</em>
 				</p>
 			</introduction>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Name the variables, including units and dependence.
@@ -33,21 +33,21 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						Calculate the gross weight of the truck if it contains 2,000 bags of grass seed.
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						Write an equation showing how the gross weight of the truck is a function of the number of bags of grass seed.
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						Identify the slope and intercept, along with their units. Explain what each means in terms of the story.
@@ -70,7 +70,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="reservoir-rain-first-look-linear" workspace="0.75in">
+		<exercise xml:id="reservoir-rain-first-look-linear">
 			<introduction>
 				<p>
 					The water in the local reservoir was 47 feet deep, but there has been so little rain that the water level has dropped 18 inches a week over the past few months. Officials are worried that if dry conditions continue, the reservoir will not have enough water to supply the town. 
@@ -79,29 +79,30 @@
 						<xref ref="sec-3-2-Solving_linear_inequalities"/> Exercises and <xref ref="reservoir-rain-modeling-linear"/>)</em>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0.5in">
 				<statement>
 					<p>
-						Name the variables and write an equation relating them. First convert 18 inches to feet.
+						Name the variables and write an equation relating them.
+						(<em>Hint: How many feet is 18 inches?</em>)
 					</p>
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.5in">
 				<statement>
 					<p>
 						Identify the slope and intercept, along with their units. Explain what each means in terms of the story.
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.5in">
 				<statement>
 					<p>
 						Make a table of values showing the projected depth of the reservoir after 1 week, 5 weeks, 10 weeks, and 20 weeks if the current trend continues.
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Draw a graph illustrating the function.
@@ -113,7 +114,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="credit-line-first-look-linear" workspace="1cm">
+		<exercise xml:id="credit-line-first-look-linear">
 			<introduction>
 				<p>
 					I was short on cash so I got a <term>line of credit</term> (short term loan) on my bank account, of which I spent $2,189.57. That means my account balance is <m>-\$2{,}189.57</m>. I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. 
@@ -127,7 +128,7 @@
 					</em>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0.75cm">
 				<statement>
 					<p>
 						Name the variables, including units and dependence. Write an equation showing my account balance in each number of months. Ignore the interest.
@@ -135,21 +136,21 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75cm">
 				<statement>
 					<p>
 						Identify the slope and intercept, along with their units. Explain what each means in terms of the story.
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75cm">
 				<statement>
 					<p>
-						Make a table of values showing my account balance now, after 4 months, and at the end of a year.
+						Make a table of values showing my account balance now, after 4 months, after 6 months, and at the end of a year.
 					</p>
 				</statement>
 			</task>
-			<task workspace="0cm">
+			<task>
 				<statement>
 					<p>
 						Draw a graph showing my account balance over this coming year.
@@ -157,7 +158,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="0cm">
+			<task>
 				<statement>
 					<p>
 						<em>About</em> how many months will it take to pay off my line of credit? Give an <em>approximate</em> answer from the graph.
@@ -168,7 +169,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="juan-coffee-first-look-linear" workspace="1.5in"> 
+		<exercise xml:id="juan-coffee-first-look-linear"> 
 			<introduction>
 				<p>
 					A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10, in which case each mug costs $2.90. 
@@ -180,7 +181,7 @@
 					</em>
 				</p>
 			</introduction>
-			<task workspace="1in">
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						Name the variables, including units.
@@ -188,14 +189,14 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						Write an equation describing how the total cost depends on how many mugs of coffee Juan buys, assuming he does not buy the discount card.
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						Write an equation describing how the total cost depends on how many mugs of coffee Juan buys, if he buys the discount card.
@@ -207,7 +208,7 @@
 					</p>
 				</hint> -->
 			</task>
-			<task workspace="1.25in">
+			<task workspace="1in">
 				<statement>
 					<p>
 						How would the equation change if the cafe offers a new annual membership card that costs $59.99 that entitles Juan to buy coffee for only $1 per mug all year?

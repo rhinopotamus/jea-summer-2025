@@ -67,11 +67,12 @@
 					<em>(Story also appears in <xref ref="flu-dorm-first-look-exponential"/> and <xref ref="sec-5-5-Logistic_growth" text="type-global" />)</em>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0.5in">
 				<statement>
 					<p>
 						Use successive approximations to <em>estimate</em> when the number of infected students reaches 100. Display your guesses in a table.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -125,11 +126,12 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="0.75in">
+			<task workspace="0.25in">
 				<statement>
 					<p>
 						<em>Approximately</em> when will the population pass 5,000 bunnies? Guess from the graph. Then refine your answer using successive approximation.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task>

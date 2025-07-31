@@ -77,11 +77,16 @@
 					</row>
 				</tabular>
 				<p>
-					<em>
-						(Story also appears in 
-						<xref ref="grandfather-bonds-tables-graphs"/> and 
-						<xref ref="grandfather-bonds-modeling-linear" />)
-					</em>
+					<em component="not-workbook">
+							(Story also appears in 
+							<xref ref="grandfather-bonds-tables-graphs" /> and 
+							<xref ref="grandfather-bonds-growth-factor" />)
+						</em>
+						<em component="workbook">
+							(Story also appears in 
+							<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises and 
+							<xref ref="grandfather-bonds-growth-factor" />)
+						</em>
 				</p>
 			</introduction>
 			<task>

@@ -9,8 +9,9 @@
     May have to do something different in latex builds.
 -->
 
-<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
-    <row left="minor">
+<tabular
+    bottom="minor" top="minor" halign="center" row-headers="yes">
+    <row left="minor" component="web">
         <cell right="minor"><fillin characters="3" /> (indep)</cell>
         <cell right="minor">
             <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
@@ -47,6 +48,36 @@
         <cell right="minor">
             <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
             <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+    </row>
+    <row left="minor" component="not-web">
+        <cell right="minor"><fillin characters="3" /> (indep)</cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+        </cell>
+        <cell right="minor">
+            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
         </cell>
     </row>
     <row left="minor">
