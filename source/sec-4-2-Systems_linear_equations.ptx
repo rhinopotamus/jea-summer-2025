@@ -19,7 +19,7 @@
 			A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She's narrowed it down to two options. The first option is replace the old machine with a new model (Machine 1) for $3,200. The second is a larger machine (Machine 2) priced at $5,400. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine 2 runs at a cost of only $0.80 per lock, whereas the replacement Machine 1 runs at a cost of $1.25 per lock.
 		</p>
 
-		<xi:include href="./activities/act-4-2-just-think-locks.ptx" />
+		<xi:include href="./activities/oa-4-2-just-think-locks.ptx" />
 
 		<p>
 			Since Machine 1 is less expensive, Quia Xun knows it is the right choice if the factory only produces a small number of locks. But since Machine 2 costs less per lock to run, she knows it will pay off if the factory makes a large number of locks. She would like to understand the total expenditure better, particularly the number of locks at which it would be worthwhile to invest in the more expensive machine.
@@ -187,6 +187,16 @@
 		</p>
 
 		<p>
+			But Quia Xun is more interested in total expenditure ($) than running costs per lock. So, she writes:
+			<me>
+				1.25\, \dfrac{\text{\$}}{\cancel{\text{lock}}} \ast L \cancel{\text{locks}}- 
+				0.80\, \dfrac{\text{\$}}{\cancel{\text{lock}}} \ast L \cancel{\text{locks}} = 
+				0.45\, \dfrac{\text{\$}}{\cancel{\text{lock}}} \ast L \cancel{\text{locks}}
+			</me>.
+			See the fancy unit work here? Simplifying, she finds out that when producing <m>L</m> locks, Machine 1 costs <m>0.45L</m> more <em>dollars</em> to run than Machine 2.
+		</p>
+
+		<p>
 			A couple of things to notice here. See how in both calculations she decided to do the larger minus the smaller? It doesn't really matter, but Quia Xun likes working with positive numbers a bit better than working with negative numbers, and this is a way she can easily avoid them. Also, notice that she didn't do
 			<me>\$3{,}200 - 0.80\, \dfrac{\text{\$}}{\text{lock}}</me>.
 			That wouldn't make sense, because the numbers $3,200 and $0.80 / lock mean very different things in the story.
@@ -197,6 +207,94 @@
 
 	<subsection component="not-workbook" xml:id="ss-4-2-solving-system-symbolically">
 		<title>Solving symbolically</title>
+
+		<p>
+			There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where 
+			<me>E=E</me>. 
+			That sounds silly, so let's be a bit more specific: she wants to find the number of locks where
+			<me>E \text{ (for Machine 1)} = E \text{ (for Machine 2)}</me>.
+			Using her equations <m>E  =3{,}200 + 1.25L</m> for Machine 1 and <m>E  =5{,}400 + 0.80L</m> for Machine 2, she has 
+			<me>3{,}200 + 1.25L=5{,}400 + 0.80L</me>. 
+		</p>
+
+		<p>
+			Thinking back to the differences that she computed earlier, Quia Xun subtracts <m>0.80L</m>, the smaller of the two dollar amounts for running the machine, from each side to get
+			<aside>
+				<p>
+					This process is sometimes called <q>combining like terms.</q> We subtracted something involving the variable <m>L</m> from something else involving the variable <m>L</m>, because if we did it any other way, the units wouldn't make sense.
+				</p>
+			</aside>
+			<me> 
+				\begin{array}{lcrclcr}
+				3{,}200 \amp + \amp 1.25L \amp = \amp 5{,}400 \amp + \amp \cancel{0.80L} \\
+				        \amp - \amp 0.80L \amp   \amp         \amp - \amp \cancel{0.80L}
+				\end{array}
+			</me>
+			which simplifies to 
+			<me>3{,}200 + 0.45L = 5{,}400</me>. 
+			Pause for a minute. What does that <m>0.45L</m> mean in the story? It's the extra cost of running Machine 1, which Quia Xun computed earlier.
+		</p>
+
+		<p>
+			What next? Now that she only has the variable <m>L</m> occurring in one place, it's just like solving a linear <em>equation</em> like we've done before! The evaluating steps that are happening are, first multiply by 0.45, and then add 3,200.
+			So all Quia Xun has to do is apply the <xref ref="assemblage-shoes-and-socks" text="title"/>. 
+			First she subtracts 3,200 from both sides:
+			<me>
+				\begin{array}{rcrcr}
+				 \cancel{3{,}200} \amp + \amp 0.45L \amp = \amp  5{,}400 \\
+				-\cancel{3{,}200} \amp   \amp       \amp   \amp -3{,}200
+				\end{array}
+			</me>
+			which simplifies to
+			<me>
+				0.45L = 2{,}200.
+			</me>
+			Pause for a minute again: What does that 2,200 mean in the story? It's the extra cost of buying Machine 2 that she computed earlier.
+		</p>
+		<p>
+			Now she divides both sides by 0.45:
+			<me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</me> 
+			which simplifies to 
+			<me>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</me>. 
+			If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine 2. Yeah, that's what we guessed <mdash/> just under 4,900 locks is the payoff.
+		</p>
+
+		<xi:include href="./activities/act-4-2-car-solve.ptx" />
+
+		<p>
+			By the way, Quia Xun solved an <em>equation</em> here, but she wanted to know when 
+			<me>E \text{ (Machine 1)} \geq E \text{ (Machine 2)}</me>,
+			so she could have solved an <em>inequality</em> instead: 
+			<me>3{,}200 + 1.25L \geq 5{,}400 + 0.80L</me>. 
+			Check that the same steps give <me>L \ge 4{,}889 \text{ locks}</me>.
+		</p>
+	</subsection>
+	
+	<conclusion component="not-workbook">
+		<title>Do you know <ellipsis /></title>
+
+		<p>
+			<xi:include href="./dyk/dyk-Systems_linear_equations.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
+
+	
+	<xi:include href="./exercises/ex-4-2-Systems_linear_equations.ptx" />
+
+	<xi:include href="./WYD.ptx" />
+		
+		
+	<conclusion component="workbook">
+		<title>Do you know <ellipsis /></title>
+		<p>
+			<xi:include href="./dyk/dyk-Systems_linear_equations.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
+
+	<!-- <subsection component="not-workbook" xml:id="ss-4-2-solving-system-symbolically-OLD">
+		<title>Solving symbolically (OLD)</title>
 
 		<p>
 			There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where 
@@ -240,28 +338,5 @@
 			<me>E \text{ (Machine 1)} \geq E \text{ (Machine 2)}</me>
 			so she could have solved the inequality <me>3{,}200 + 1.25L \ge 5{,}400 + 0.80L</me> instead. Check that the same steps give <me>L \ge 4{,}889 \text{ locks}</me>.
 		</p>
-	</subsection>
-	
-	<conclusion component="not-workbook">
-		<title>Do you know <ellipsis /></title>
-
-		<p>
-			<xi:include href="./dyk/dyk-Systems_linear_equations.ptx" />
-		</p>
-		<xi:include href="./NotSure.ptx" />
-	</conclusion>
-
-	
-	<xi:include href="./exercises/ex-4-2-Systems_linear_equations.ptx" />
-
-	<xi:include href="./WYD.ptx" />
-		
-		
-	<conclusion component="workbook">
-		<title>Do you know <ellipsis /></title>
-		<p>
-			<xi:include href="./dyk/dyk-Systems_linear_equations.ptx" />
-		</p>
-		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection> -->
 </section>

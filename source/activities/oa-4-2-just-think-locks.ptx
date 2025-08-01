@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-2-just-think-locks">
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-2-just-think-locks">
     <statement>
         <p>
             Before we do anything fancy with any of these numbers, let's pause for a second and just think about the situation. <em>Without doing any calculations,</em> write a sentence or two explaining your thinking about each of the questions below.
@@ -18,4 +18,4 @@
             </li>
         </ol>
     </statement>
-</activity>
+</exploration>
