@@ -4,7 +4,23 @@
 <section xml:id="sec-4-4-Slopes" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Slopes</title>
 	<title component="workbook">Slopes - Practice exercises</title>
+
 	<introduction component="not-workbook">
+		<p>
+			Remember that there are two <term>constants</term> in the <xref ref="linear-eq-template" text="title"/>, one called <q>start</q> (or <q>intercept</q>) and the other called <q>slope</q> or, if we are feeling fancy, <q>rate of change.</q> In this section we'll think more about <term>slopes</term>, how to find them, and what they mean.
+		</p>
+
+		<xi:include href="./activities/oa-4-4-meaning-slope.ptx" />
+
+		<p>
+			A key idea that will be helpful for us to remember is that the slope is the <term>rate of change</term>, so we can compute it using the <xref ref="rate-of-change" text="title"/>.
+		</p>
+	</introduction>
+
+	<subsection component="not-workbook" xml:id="ss-4-4-paper">
+		<title>Paper delivery prices</title>
+		
+		
 		<p>
 			Last week our supplier delivered 13 cases of paper for the office and charged us $534.87. This week, they delivered 20 cases of paper for $814.80. We assume that their charge includes a fixed delivery fee and per case cost, so the dependence must be linear. We would like to understand their pricing scheme better by writing the equation.
 		</p>
@@ -19,16 +35,16 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
+		<tabular bottom="minor" top="minor" halign="center" row-headers="yes">
 			<row left="minor">
-				<cell right="minor" halign="center"><m>N</m></cell>
-				<cell right="minor" halign="center">13</cell>
-				<cell right="minor" halign="center">20</cell>
+				<cell right="minor"><m>N</m></cell>
+				<cell right="minor">13</cell>
+				<cell right="minor">20</cell>
 			</row>
 			<row left="minor">
-				<cell right="minor" halign="center"><m>C</m></cell>
-				<cell right="minor" halign="center">534.87</cell>
-				<cell right="minor" halign="center">814.80</cell>
+				<cell right="minor"><m>C</m></cell>
+				<cell right="minor">534.87</cell>
+				<cell right="minor">814.80</cell>
 			</row>
 		</tabular>
 
@@ -50,15 +66,21 @@
 		</p>
 
 		<p>
-			Either way, each case costs $39.99 and the slope is $39.99 per case.
+			Either way, each case costs $39.99 <mdash /> the slope is $39.99 per case.
+		</p>
+
+		<xi:include href="./activities/act-4-4-chicken-wings.ptx" />
+
+		<p>
+			Now that we know the slope, we can find the intercept. At $39.99 per case, we would expect 13 cases to cost 
+			<me>13 \text{ cases } \ast \frac{\$39.99}{\text{case}} = 13 \times 39.99 = \$519.87</me>. 
+			But the story tells us 13 cases cost $534.87. The difference <m>\$534.87 - \$519.87 = \$15</m> must be the delivery fee, which is the intercept. Remember <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 534.87 - 39.99\times 13= \$15</me>.
 		</p>
 
 		<p>
-			Now that we know the slope, we can find the intercept. At $39.99 per case we would expect 13 cases to cost <me>13 \text{ cases } \ast \frac{\$39.99}{\text{case}} = 13 \times 39.99 = \$519.87</me> But the story tells us 13 cases cost $534.87. The difference <m>\$534.87 - \$519.87 = \$15</m> must be the delivery fee which is the intercept. Remember <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 534.87 - 39.99\times 13= \$15</me>
-		</p>
-
-		<p>
-			Why did we use 13 cases instead of 20 cases? No particular reason. Look what happens if we use 20 cases at $814.80 instead. <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 814.80 - 39.99\times 20= \$15</me> Yup. Still $15 delivery fee.
+			Why did we use 13 cases instead of 20 cases? No particular reason. Look what happens if we use 20 cases at $814.80 instead. 
+			<me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 814.80 - 39.99\times 20= \$15</me>.
+			Yup. Still $15 delivery fee.
 		</p>
 
 		<p>
@@ -66,12 +88,30 @@
 		</p>
 
 
-		<p>
+		<!-- <p>
 			<image source='casesofpaper.png'/>
-		</p>
+		</p> -->
+
+		<figure xml:id="fig-4-4-cases-of-paper">
+			<caption>
+				<m>C</m> = charge for paper delivery, as a function of <m>N</m> = number of cases of paper
+			</caption>
+			<image>
+				<shortdescription>Charge for paper delivery as a function of number of cases of paper</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-cases-of-paper">
+					<xi:include href="prefigure/4-4-cases-of-paper.xml" />
+				</prefigure>
+			</image>
+		</figure>
+	</subsection>
+		
+	<subsection xml:id="ss-4-4-recycling-charge">
+		<title>Recycling charge</title>
+		
 
 		<p>
-			The supplier also picks up recyclable paper and boxes. They normally charge $18 per pickup but under a new reuse incentive program, they discount a little for each box that's in good enough condition to use again. This week's recycling charge was only $7.60 because we returned the previous 13 boxes all in good shape.
+			The supplier also picks up recyclable paper and boxes. They normally charge $18 per pickup, but under a new reuse incentive program, they discount a little for each box that's in good enough condition to use again. This week's recycling charge was only $7.60 because we returned the previous 13 boxes all in good shape.
 		</p>
 
 		<p>
@@ -105,10 +145,22 @@
 			We can draw the graph using just these two points. (But we'll check later, once we have the equation, to be sure.)
 		</p>
 
-
-		<p>
+		<!-- <p>
 			<image source='recyclepaper.png'/>
-		</p>
+		</p> -->
+
+		<figure xml:id="fig-4-4-recycle-paper">
+			<caption>
+				<m>R</m> = recycling fee, as a function of <m>B</m> = number of reusable boxes
+			</caption>
+			<image>
+				<shortdescription>Recycling fee as a function of number of reusable boxes</shortdescription>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-recycle-paper">
+					<xi:include href="prefigure/4-4-recycle-paper.xml" />
+				</prefigure>
+			</image>
+		</figure>
 
 		<p>
 			Since there is a fixed discount per box, we again have a linear function. We know the intercept is the normal recycling fee of $18. We need to find the slope.
@@ -116,13 +168,18 @@
 				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$7.60-\$18}{13\text{ boxes}-0 \text{ boxes}} </mrow>
 				<mrow> \amp = (7.60-18)\div(13-0)= -\$0.80 \text{ per box}</mrow>
 			</md>
-			It might look funny to get a negative, but it's to be expected. They are subtracting for each good box returned. The discount is 80¢ per box and so the equation is <me>R = 18 - 0.8B</me> Check when <m>B=13</m> we have <me>R = 18 -0.8*13 = 18-0.8 \times \underline{13} = \$7.60 \quad \checkmark</me>
+			It might look funny to get a negative, but it's to be expected. They are subtracting for each good box returned. The discount is 80¢ per box and so the equation is 
+			<me>R = 18 - 0.8B</me>. 
+			Check when <m>B=13</m> we have 
+			<me>R = 18 -0.8*13 = 18-0.8 \times \underline{13} = \$7.60 \quad \checkmark</me>
 		</p>
 
 		<p>
 			What's the most boxes you could get credit for? Probably the most they discount is the full $18, which would mean that <m>R=0</m>. That means we want to solve <m>18 -0.8B = 0</m>. Check that we get <m>B = 22.5 \text{ boxes}</m>, which means that 22 boxes would be almost $0 and for 23 boxes, they should pick up for free. We can check that 22 boxes gives <me>R = 18-0.8\ast22=18-0.8 \times \underline{22} = \$0.40</me> and 23 boxes gives <me>R = 18-0.8\ast23=18-0.8 \times \underline{23} = -\$0.40 \implies \text{free}</me> Well, unless they're nice and give us cash back.
 		</p>
-	</introduction>
+
+		<xi:include href="./activities/act-4-4-ski-passes.ptx" />
+	</subsection>
 
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
