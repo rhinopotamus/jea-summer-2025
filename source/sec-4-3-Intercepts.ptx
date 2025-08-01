@@ -54,7 +54,7 @@
 			Should we be worried that it's named <q>start</q> in the template and Kaleb is actually stretching at the end of his run? Turns out that there are many other ways to think about the intercept than just <q>start.</q> Some of these ways make more sense in one story than another, so having a good list is helpful for figuring out the intercept in a variety of different stories.
 		</p>
 
-		<assemblage xml:id="assemblage-intercept-interp">
+		<assemblage xml:id="assemblage-interpret-intercept">
 			<title>Ways to think about the intercept</title>
 			<p>
 				<ul>
@@ -83,8 +83,10 @@
 		</assemblage>
 
 		<p>
-			In particular, thinking of Kaleb's stretching time as <q>fixed</q> seems pretty natural here.
+			Thinking of Kaleb's stretching time as <q>fixed</q> seems pretty natural here.
 		</p>
+
+		<xi:include href="./activities/act-4-3-interpret-intercepts.ptx" />
 
 		<p>
 			Whatever you call it, the equation is 
@@ -102,6 +104,7 @@
 		<assemblage xml:id="intercept-formula">
 			<title>Intercept (of Linear) Formula</title>
 			<p>
+				If we know a value of indep and the corresponding value of dep, then we can find the intercept:
 				<me>
 					\text{intercept} = \text{dep} - \text{slope}\ast\text{indep}
 				</me>
@@ -164,6 +167,8 @@
 		<p>
 			Not so for Kaleb. Remember it takes him 29.8 minutes to run that 2.8 miles. If he runs twice the distance, which is 5.6 miles, it takes <me>T = 6+8.5 \ast 5.6 = 6+ 8.5 \times \underline{5.6} = 53.6 \text{ minutes}</me> which is not quite twice the time, since <m>2 \times 29.8 = 59.6 \text{ minutes}</m>. The key is that Kaleb does not stretch twice, only once, for the longer run so double the distance does not count the 6 minutes again. Kaleb's equation is not a direct proportionality. Another way to say that is that Kaleb's time is not proportional to how far he runs. It is a function of how far he runs, yes, but not proportionally so.
 		</p>
+
+		<xi:include href="./activities/act-4-3-direct-props.ptx" />
 	</subsection>
 	
 	<conclusion component="not-workbook">
