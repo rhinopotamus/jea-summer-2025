@@ -4,7 +4,16 @@
 <section xml:id="sec-5-1-Modeling_exponential_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Modeling with exponential equations</title>
 	<title component="workbook">Modeling with exponential equations - Practice exercises</title>
+
 	<introduction component="not-workbook">
+		<p>
+			We spent a lot of time back in <xref ref="ch-2-Equations" text="type-global" /> learning about exponential equations. Before we learn even more about them in this chapter, let's spend some time reviewing what we learned.
+
+			<xi:include href="./activities/oa-5-1-reminder-exponential.ptx" />
+		</p>
+	</introduction>
+
+	<subsection component="not-workbook">
 		<p>
 			My grandmother was born in eastern Europe at the end of the 1800s. When she was eight years old her parents brought her and her younger sister and brother to the United States to escape harsh treatment by the government. Both her parents had to work, so my grandmother dropped out of school when she was thirteen years old to take care of the children, which now included another brother and sister.
 		</p>
@@ -134,7 +143,7 @@
 		<p>
 			Were we supposed to get different numbers here? Well, the graph's not a straight line and it's not a linear equation. That tells us the rate of change isn't going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we're taking 3% of larger numbers each year. So more is added each year.
 		</p>
-	</introduction>	
+	</subsection>	
 
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
