@@ -52,7 +52,7 @@
 						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
-						What is the half-life (or should we say half-distance) of a signal? That means, how far can it travel without dropping below 50%? (That will not actually happen because we would boost the signal.) Again, set up and solve an equation.
+						What is the half-life (or should we say half-distance) of a signal? That means, how far can it travel without dropping below 0.5? (That will not actually happen because we would boost the signal.) Again, set up and solve an equation.
 					</p>
 				</statement>
 			</task>
