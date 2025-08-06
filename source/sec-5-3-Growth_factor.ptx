@@ -9,6 +9,12 @@
 		<p>
 			If someone gives us two points on a graph, we can figure out a linear equation that goes through both of them: we just use the <xref ref="rate-of-change" text="title"/> to figure out the slope, and then <xref ref="intercept-formula" text="custom">figure out the intercept</xref>. Turns out we can do a similar process to figure out an exponential equation that goes through any two points.
 		</p>
+		<p>
+			An important part of this process will be to solve a power equation, so let's remind ourselves how this works.
+		</p>
+
+		<xi:include href="./activities/oa-5-3-solve-power-vs-exponential.ptx" />
+		
 	</introduction>
 
 	<subsection component="not-workbook" xml:id="ss-5-3-obesity">
