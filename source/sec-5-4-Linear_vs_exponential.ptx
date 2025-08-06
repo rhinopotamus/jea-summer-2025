@@ -4,9 +4,24 @@
 <section xml:id="sec-5-4-Linear_vs_exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Linear vs. exponential models</title>
 	<title component="workbook">Linear vs. exponential models - Practice exercises</title>
+
+
 	<introduction component="not-workbook">
 		<p>
-			Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700. She wonders when the car would be practically worthless, meaning under $500.
+			In <xref ref="ch-4-Closer_look_linear" text="type-global"/>, we learned how to find a linear equation with two pieces of information. 
+			Then, in <xref ref="sec-5-3-Growth_factor" text="type-global"/>, we learned how to find an exponential equation with two pieces of information.
+			So, which one should we use in a given story? The answer is, <alert>it depends</alert>! In this section we'll learn how to compare the predictions made by linear models and exponential models to help us make good decisions about which one to use.
+		</p>
+		
+		<xi:include href="./activities/oa-5-4-linear-vs-exponential.ptx" />
+	</introduction>
+
+	<subsection component="not-workbook" xml:id="ss-5-4-car-depreciation">
+		<title>Car value depreciation</title>
+		
+		
+		<p>
+			The longer you drive a car, the less it is worth. This is called <term>depreciation</term>. Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700. She wonders when the car would be practically worthless, meaning under $500.
 		</p>
 
 		<p>
@@ -150,7 +165,7 @@
 		<p>
 			There's no way of knowing whether the function is linear or exponential. It is probably not exactly either one. But if we have to pick, the exponential model seems closer to reality.
 		</p>
-	</introduction>
+	</subsection>
 	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
 
