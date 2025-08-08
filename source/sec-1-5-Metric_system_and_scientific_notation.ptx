@@ -46,7 +46,7 @@
 
 	</subsection>
 
-	<subsection xml:id="ss-1-5-download-photos">
+	<subsection component="not-workbook" xml:id="ss-1-5-download-photos">
 		<title>Downloading photos</title>
 
 		<p>
@@ -105,7 +105,7 @@
 
 	</subsection>
 
-	<subsection xml:id="ss-1-5-metric-system">
+	<subsection component="not-workbook" xml:id="ss-1-5-metric-system">
 		<title>The metric system and powers of ten</title>
 
 		<p>
@@ -199,7 +199,7 @@
 		<xi:include href="./activities/act-1-5-pop-gdp.ptx" />
 	</subsection>
 
-	<subsection xml:id="ss-1-5-tara-hair">
+	<subsection component="not-workbook" xml:id="ss-1-5-tara-hair">
 		<title>Very small things</title>
 
 		<p>
@@ -272,7 +272,7 @@
 		<xi:include href="./activities/act-1-5-iv-drops.ptx" />
 	</subsection>
 
-	<subsection xml:id="ss-1-5-small-numbers">
+	<subsection component="not-workbook" xml:id="ss-1-5-small-numbers">
 		<title>Very small numbers in scientific notation</title>
 		
 
