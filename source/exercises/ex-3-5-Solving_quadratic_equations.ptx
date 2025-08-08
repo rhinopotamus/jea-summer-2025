@@ -24,13 +24,17 @@
 				</p>
 				<!-- <image source='highjumper.png'/> -->
 
-				<image>
-					<shortdescription>Height of a high jumper vs. time</shortdescription>
-					<prefigure xmlns="https://prefigure.org"
-						label="prefigure-high-jumper">
-						<xi:include href="../prefigure/3-5-high-jumper.xml" />
-					</prefigure>
-				</image>
+				<figure xml:id="fig-3-5-ex-high-jumper">
+					<caption><m>H</m> = the height of the high jumper, as a function of <m>T</m>= time.</caption>
+						<image>
+						<shortdescription>Height of a high jumper vs. time</shortdescription>
+						<prefigure xmlns="https://prefigure.org"
+							label="prefigure-ex-high-jumper">
+							<xi:include href="../prefigure/3-5-high-jumper.xml" />
+						</prefigure>
+					</image>
+				</figure>
+				
 			</introduction>
 			<task workspace="2.5in">
 				<statement>
