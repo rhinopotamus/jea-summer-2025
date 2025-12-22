@@ -10,7 +10,7 @@
 			<p>
 				The GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
 				<aside><p>Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau</p></aside>
-				<em>(Story also appears in <xref ref="gdp-prelude-scientific-notation" />)</em>
+				<aside><p>(Story also appears in <xref ref="gdp-prelude-scientific-notation" />)</p></aside>
 			</p>
 		</introduction>
 		<task>
@@ -67,9 +67,7 @@
 			<p>
 				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is <me>0.000~000~000~753\text{ kilograms.}</me>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
 			</p>
-			<p>
-				<em>(Story also appears in <xref ref="dust-particle-prelude-scientific-notation" />)</em>
-			</p>
+			<aside><p>(Story also appears in <xref ref="dust-particle-prelude-scientific-notation" />)</p></aside>
 		</introduction>
 		<task>
 			<statement>
@@ -169,9 +167,7 @@
 				The list shows the (approximate) mass of the planets in our solar system.
 				<aside><p>Source: Wikipedia (Solar System)</p></aside>
 			</p>
-			<p>
-				<em>(Story also appears in <xref ref="earth-weight-prelude-scientific-notation"/>)</em>
-			</p>
+			<aside><p>(Story also appears in <xref ref="earth-weight-prelude-scientific-notation"/>)</p></aside>
 			<tabular>
 			<row>
 				<cell halign="left">Earth</cell>
@@ -260,12 +256,12 @@
 						10^{-6}\amp
 					</mrow>
 				</md>
-				<em component="not-workbook">
-					(Story also appears in <xref ref="iv-drip-approx-rounding"/>)
-				</em>
-				<em component="workbook">
-					(Story also appears in <xref ref="sec-0-1-Approximation_and_rounding"/> Exercises)
-				</em>
+				<aside component="not-workbook">
+					<p>(Story also appears in <xref ref="iv-drip-approx-rounding"/>)</p>
+				</aside>
+				<aside component="workbook">
+					<p>(Story also appears in <xref ref="sec-0-1-Approximation_and_rounding"/> Exercises)</p>
+				</aside>
 			</p>
 		</introduction>
 		<task>
@@ -373,11 +369,11 @@
 			<p>
 				A proton has mass of about <m>1.67262 \times 10^{-27}</m> kg, while an electron has mass of about <m>9.10938 \times 10^{-31}</m> kg.
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in <xref ref="proton-mass-prelude-scientific-notation"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -440,9 +436,9 @@
 			<p>
 				Rayka weighs 140 pounds. She would like to approximate how many cells are in her body. Use the following information: <m>1 \text{ cell} \approx 1 \times 10^{-15} \text{ g}</m>, <m>1 \text{ kg} \approx 2.2 \text{ pounds}</m>, and, as always, 1 kg = 1,000 g.
 			</p>
-			<p>
-				<em>(Story also appears in <xref ref="cells-prelude-scientific-notation"/>)</em>
-			</p>
+			<aside>
+				<p>(Story also appears in <xref ref="cells-prelude-scientific-notation"/>)</p>
+			</aside>
 			
 		</introduction>	
 		<task>
@@ -469,12 +465,12 @@
 			</p>
 			<aside>
 				<p>
-					Source: Center for Disease Control and Prevention
+					Source: Centers for Disease Control and Prevention
 				</p>
 			</aside>
-			<p>
-				<em>(Story also appears in <xref ref="bmi-approx-rounding"/>)</em>
-			</p>
+			<aside>
+				<p>(Story also appears in <xref ref="bmi-approx-rounding"/>)</p>
+			</aside>
 		</introduction>
 		<task>
 			<statement>

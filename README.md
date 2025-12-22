@@ -21,7 +21,7 @@ Here is how those components are used:
 Some other important versioning happens in the exercise files `ex-NAME.ptx`:
 - `ex-intro.ptx` is an `<introduction>` element that doesn't display in the workbook
 - exercises 1-4 are not componented, so they appear in all builds
-- if exercises 1-4 include xrefs to exercises 5-? in other sections, those "story also appears in" sentences are versioned in `<em component="...">` tags
+- if exercises 1-4 include xrefs to exercises 5-? in other sections, those "story also appears in" sentences are versioned in `<aside component="...">` tags
     - I reference the containing section rather than the exercise directly in the workbook component tag
 - exercises 5-8 are written in `<exercise component="not-workbook">`
 

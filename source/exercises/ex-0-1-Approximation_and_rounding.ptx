@@ -11,7 +11,7 @@
                     Round each number up, down, or off to the precision indicated. 
                 </p>
                 <p>
-                    <em>Stories also appear in <xref ref="rounding-variables-functions" /></em>
+                    <aside><p>Stories also appear in <xref ref="rounding-variables-functions" /></p></aside>
                 </p>
             </introduction>
             <task>
@@ -230,7 +230,7 @@
                 Body Mass Index (or BMI for short) is one indicator of whether a person is a healthy weight. BMI between 18.5 and 24.9 are considered <q>normal</q>. Jarron is 6 foot 4 inches tall, which he calculated is approximately 1.93 meters. He weighs 202 pounds, which he calculated was approximately 91.625 kilograms. He would like to calculate his BMI directly using the formula he found online.
             </p>
             <p>
-                <em>Story also appears in <xref ref="bmi-scientific-notation"/></em>
+                <aside><p>Story also appears in <xref ref="bmi-scientific-notation"/></p></aside>
             </p>
         </introduction>    
         <task>
@@ -317,7 +317,7 @@
                 Souksavanh is trying adjust a patient's medication to deliver 15 <m>\mu</m>g/min. If she runs the drip at 9.1 mL/hour, medication will be delivered at 14.76 <m>\mu</m>g/min which is too low. If she runs the drip at 9.3 mL/hour, medication will be delivered at 15.09 <m>\mu</m>g/min which is too high.
             </p>
             <p>
-                <em>(Story also appears in <xref ref="iv-drip-scientific-notation"/>)</em>
+                <aside><p>(Story also appears in <xref ref="iv-drip-scientific-notation"/>)</p></aside>
             </p>
         </introduction>    
         <task>

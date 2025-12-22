@@ -155,20 +155,20 @@
 </page>
 
 <page>
-	<exercise xml:id="heart-rate-of-change" workspace="0.75in">
+	<exercise xml:id="heart-rate-of-change">
 		<introduction>
 			<p>
 				Rashad measured his heart rate several times after football practice. Right after practice his heart rate was 178 beats per minute. Two minutes later, it had dropped to 153 beats per minute, and by ten minutes after practice it was down to 120 beats per minute.
 			</p>
 		</introduction>
-		<task>
+		<task workspace="0.75in">
 			<statement>
 				<p>
 					Make a table showing Rashad's heart rate at each time.
 				</p>
 			</statement>
 		</task>
-		<task workspace="0cm">
+		<task>
 			<statement>
 				<p>
 					Identify the variables, including units and dependence.
@@ -176,21 +176,21 @@
 				<xi:include href="../name-variables.ptx" />
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.75in">
 			<statement>
 				<p>
 					How quickly was Rashad's heart rate dropping during the first two minutes following practice? <em>Hint: the units are (beats per minute) per minute.</em>
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.75in">
 			<statement>
 				<p>
 					How quickly was his heart rate dropping during the next time period?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.75in">
 			<statement>
 				<p>
 					Rashad does not like hitting the showers until his heart rate is close to normal, 
@@ -199,7 +199,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.75in">
 			<statement>
 				<p>
 					During the time in this table, did Rashad's heart rate increase, decrease, or neither?

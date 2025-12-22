@@ -176,7 +176,8 @@
     <exercise xml:id="diver-fractions" component="not-workbook">
         <introduction>
             <p>
-                A diver bounces on a 3-meter springboard. Up she goes. A somersault, a twist, and then whoosh, into the water. <em>(Story also appears in <xref ref="sec-1-3-Rate_of_change"/>)</em>
+                A diver bounces on a 3-meter springboard. Up she goes. A somersault, a twist, and then whoosh, into the water. 
+                <aside><p>(Story also appears in <xref ref="sec-1-3-Rate_of_change"/>)</p></aside>
             </p>
         </introduction>
         <task>
@@ -204,7 +205,8 @@
     <exercise xml:id="football-field-fractions" component="not-workbook">
         <introduction>
             <p>
-                The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. <em>(Story also appears in <xref ref="assorted-2-units"/>)</em>
+                The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. 
+                <aside><p>(Story also appears in <xref ref="assorted-2-units"/>)</p></aside>
             </p>
         </introduction>
         <task>

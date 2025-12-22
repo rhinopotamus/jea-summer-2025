@@ -98,7 +98,7 @@
 				with a 30 mph wind is -12<degree/>F. 
 				The table lists the wind chill for various wind speeds at an air temperature of 
 				10<degree/>F. 
-				<em>(Story also appears in <xref ref="wind-chill-modeling-linear"/> )</em>
+				<aside><p>(Story also appears in <xref ref="wind-chill-modeling-linear"/> )</p></aside>
 				<aside><p>Source: National Weather Service</p></aside>
 				<tabular bottom="minor" top="minor" row-headers="yes" halign="center"> 
 					<row left="minor">
@@ -191,11 +191,11 @@
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
 				The Metropolitan Club costs $1,300 for the space and $92 per person.
 			</p>
-			<p><em>
+			<aside><p>
 				(Story also appears in 
 				<xref ref="wedding-rental-rate-of-change" /> and 
 				<xref ref="wedding-rental-linear-ineq" />)
-			</em></p>
+			</p></aside>
 		</introduction>
 		<task>
 			<statement>
@@ -378,9 +378,9 @@
 				</p>
 			</aside>	
 				
-			<p>
-				<em>(Story also appears in <xref ref="earth-population-rate-of-change"/>)</em>
-			</p>
+			<aside><p>
+				(Story also appears in <xref ref="earth-population-rate-of-change"/>)
+			</p></aside>
 				
 			<p>
 				Use the table to find or reasonably guess the answers to the following questions.
@@ -460,13 +460,11 @@
 				</row>
 			</tabular>
 			
-			<p>
-				<em>
-					(Story also appears in 
-					<xref ref="truck-rental-rate-of-change"/> and
-					<xref ref="truck-rental-slopes"/>)
-				</em>
-			</p>
+			<aside><p>
+				(Story also appears in 
+				<xref ref="truck-rental-rate-of-change"/> and
+				<xref ref="truck-rental-slopes"/>)
+			</p></aside>
 			
 			<p>
 				Use the table to find or reasonably guess the answers to the following questions.
@@ -543,11 +541,11 @@
 			<p>
 				The temperature was 40<degree/>F at noon yesterday downtown Minneapolis but it dropped 3<degree/>F an hour in the afternoon. 
 			</p>
-			<p><em>
+			<aside><p>
 				(Story also appears in 
 				<xref ref="temp-mpls-modeling-linear"/> and
 				<xref ref="temp-mpls-modeling-linear"/>)
-			</em></p>
+			</p></aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -587,12 +585,12 @@
 			<p>
 				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
 			</p>
-			<p><em>
+			<aside><p>
 				(Story also appears in 
 				<xref ref="social-security-arithmetic-operations"/>,
 				<xref ref="social-security-variables-functions"/>, and
 				<xref ref="social-security-modeling-exponential"/>)
-			</em></p>
+			</p></aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -735,11 +733,11 @@
 				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 
 				The bonds continue to earn interest at a fixed rate so I have yet to cash them in. 
 				The table shows some values. 
-				<em>
+				<aside><p>
 					(Story also appears in 
 					<xref ref="grandfather-bonds-modeling-linear" /> and 
 					<xref ref="grandfather-bonds-growth-factor" />)
-				</em>
+				</p></aside>
 			</p>
 			<tabular bottom="minor" top="minor">
 				<row left="minor"  header="yes">

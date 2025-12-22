@@ -17,12 +17,12 @@
 						= 8{,}100 \text{ pounds}
 					</me> 
 					In official trucking lingo, we say the <term>curb weight</term> of pounds plus the <term>load weight</term> of pounds results in a <term>gross weight</term> of pounds. So, now you know. 
-					<em>
+					<aside><p>
 						(Story also appears in
 						<xref ref="truck-grass-arithmetic-operations" />,  
 						<xref ref="truck-grass-solving-linear" />, and 
 						<xref ref="truck-grass-linear-ineq" />)
-					</em>
+					</p></aside>
 				</p>
 			</introduction>
 			<task>
@@ -74,9 +74,16 @@
 			<introduction>
 				<p>
 					The water in the local reservoir was 47 feet deep, but there has been so little rain that the water level has dropped 18 inches a week over the past few months. Officials are worried that if dry conditions continue, the reservoir will not have enough water to supply the town. 
-					<em component="not-workbook">(Story also appears in <xref ref="reservoir-rain-linear-ineq"/> and <xref ref="reservoir-rain-modeling-linear"/>)</em>
-					<em component="workbook">(Story also appears in 
-						<xref ref="sec-3-2-Solving_linear_inequalities"/> Exercises and <xref ref="reservoir-rain-modeling-linear"/>)</em>
+					<aside component="not-workbook">
+						<p>
+							(Story also appears in 
+							<xref ref="reservoir-rain-linear-ineq"/> and <xref ref="reservoir-rain-modeling-linear"/>)
+						</p>
+					</aside>
+					<aside component="workbook">
+						<p>(Story also appears in 
+						<xref ref="sec-3-2-Solving_linear_inequalities"/> Exercises and <xref ref="reservoir-rain-modeling-linear"/>)</p>
+					</aside>
 				</p>
 			</introduction>
 			<task workspace="0.5in">
@@ -118,14 +125,14 @@
 			<introduction>
 				<p>
 					I was short on cash so I got a <term>line of credit</term> (short term loan) on my bank account, of which I spent $2,189.57. That means my account balance is <m>-\$2{,}189.57</m>. I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. 
-					<em component="not-workbook">
-						(Story also appears in 
-						<xref ref="credit-line-linear-ineq"/>)
-					</em>
-					<em component="workbook">
-						(Story also appears in
-						<xref ref="sec-3-2-Solving_linear_inequalities" text="global"/> Exercises)
-					</em>
+					<aside component="not-workbook">
+						<p>(Story also appears in 
+						<xref ref="credit-line-linear-ineq"/>)</p>
+					</aside>
+					<aside component="workbook">
+						<p>(Story also appears in
+						<xref ref="sec-3-2-Solving_linear_inequalities" text="global"/> Exercises)</p>
+					</aside>
 				</p>
 			</introduction>
 			<task workspace="0.75cm">
@@ -173,12 +180,12 @@
 			<introduction>
 				<p>
 					A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10, in which case each mug costs $2.90. 
-					<em>
+					<aside><p>
 						(Story also appears in 
 						<xref ref="juan-coffee-order-operations" />, 
 						<xref ref="juan-coffee-tables-graphs" />, and
 						<xref ref="juan-coffee-systems-linear"/>)
-					</em>
+					</p></aside>
 				</p>
 			</introduction>
 			<task workspace="0.75in">
@@ -230,9 +237,9 @@
 			<p>
 				Plumbers are really expensive, so I'm comparing their rates. Write an equation for each possibility, using the same variables as our example: <m>T</m> for the time the plumber takes (in hours) and <m>P</m> for the plumber's total charge (in dollars).
 			</p>
-			<p>
-				<em>(Story also appears in <xref ref="plumber-rates-modeling-linear"/>)</em>
-			</p>
+			<aside>
+				<p>(Story also appears in <xref ref="plumber-rates-modeling-linear"/>)</p>
+			</aside>
 		</introduction>	
 
 			
@@ -273,7 +280,8 @@
 	<exercise xml:id="restaurant-first-look-linear" component="not-workbook">
 		<introduction>
 			<p>
-				Abduwali has just opened a restaurant. He spent $82,500 to get started but hopes to earn back $6,300 each month. <em>(Story also appears in <xref ref="restaurant-solving-linear"/>)</em>
+				Abduwali has just opened a restaurant. He spent $82,500 to get started but hopes to earn back $6,300 each month. 
+				<aside><p>(Story also appears in <xref ref="restaurant-solving-linear"/>)</p></aside>
 			</p>
 		</introduction>	
 
@@ -315,9 +323,9 @@
 			<p>
 				When Gretchen walks on her treadmill, she burns 125 calories per mile.
 			</p>
-			<p>
-				<em>(Story also appears in <xref ref="treadmill-solving-linear"/> and <xref ref="treadmill-linear-ineq"/>)</em>
-			</p>
+			<aside>
+				<p>(Story also appears in <xref ref="treadmill-solving-linear"/> and <xref ref="treadmill-linear-ineq"/>)</p>
+			</aside>
 		</introduction>	
 			
 			
@@ -357,7 +365,8 @@
 	<exercise xml:id="burger-first-look-linear" component="not-workbook">
 		<introduction>
 			<p>
-				The local burger restaurant had a promotion this summer. Typically a bacon double cheeseburger costs $7.16. They reduced the price by 2¢ for each degree in the daily high temperature. For example, if the high temperature was 80<degree/>F, they would decrease the price by <m>0.02 \times 80 = \$1.60</m>, so the double cheeseburger would cost <m>7.16-1.60=\$5.56</m>. Mmmm. <em>(Story also appears in <xref ref="burger-temp-solving-linear"/>)</em>
+				The local burger restaurant had a promotion this summer. Typically a bacon double cheeseburger costs $7.16. They reduced the price by 2¢ for each degree in the daily high temperature. For example, if the high temperature was 80<degree/>F, they would decrease the price by <m>0.02 \times 80 = \$1.60</m>, so the double cheeseburger would cost <m>7.16-1.60=\$5.56</m>. Mmmm. 
+				<aside><p>(Story also appears in <xref ref="burger-temp-solving-linear"/>)</p></aside>
 			</p>
 		</introduction>	
 			<task>
@@ -400,7 +409,7 @@
 			</p>
 			<aside>
 				<p>
-					Source: Center for Disease Control and Prevention
+					Source: Centers for Disease Control and Prevention
 				</p>
 			</aside>
 		</introduction>
@@ -449,7 +458,8 @@
 	<exercise xml:id="traffic-first-look-linear" component="not-workbook">
 		<introduction>
 			<p>
-				The stretch of interstate highway through downtown averages 1,450 cars per hour during the morning rush hour. The economy is improving (finally), but with that the county manager predicts traffic levels will increase around 130 more cars per hour each week for the next couple of weeks. <em>(Story also appears in <xref ref="traffic-solving-linear"/>)</em>
+				The stretch of interstate highway through downtown averages 1,450 cars per hour during the morning rush hour. The economy is improving (finally), but with that the county manager predicts traffic levels will increase around 130 more cars per hour each week for the next couple of weeks. 
+				<aside><p>(Story also appears in <xref ref="traffic-solving-linear"/>)</p></aside>
 			</p>
 		</introduction>	
 			<task>

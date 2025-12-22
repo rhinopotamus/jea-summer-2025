@@ -11,7 +11,7 @@
 					A 32 pound bag of dog food costs $29.97, but an 8 pound bag costs $11.28.
 				</p>
 			</introduction>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Identify and name the variables, including the units.
@@ -19,7 +19,7 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task workspace="2in">
 				<statement>
 					<p>
 						Which variable is dependent and which is independent? Explain how you know.
@@ -42,10 +42,10 @@
 				<p>
 					Rent in the Riverside Neighborhood is expected to increase 7.2% each year. 
 					Average rent for an apartment is currently $830 per month. 
-					<em>(Story also appears in <xref ref="riverside-rent-solving-exponential"/>)</em>
+					<aside><p>(Story also appears in <xref ref="riverside-rent-solving-exponential"/>)</p></aside>
 				</p>
 			</introduction>
-			<task workspace="0.5in">
+			<task>
 				<statement>
 					<p>
 						Identify and name the variables, including the units.
@@ -142,19 +142,19 @@
 	</page>
 		
 	<page>
-		<exercise xml:id="time-variables-functions" workspace="0.5in">
+		<exercise xml:id="time-variables-functions">
 			<introduction>
 				<p>
 					It's about time! In each story, time is one (or both) of the variables.  
 					Identify and name the variables, including units and dependence.
-					<em component="not-workbook">
-						(Stories also appear in 
-						<xref ref="time-2-variables-functions"/>)
-					</em>
-					<em component="workbook">
-						(Stories also appear in 
-						<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises)
-					</em>
+					<aside component="not-workbook">
+						<p>(Stories also appear in 
+						<xref ref="time-2-variables-functions"/>)</p>
+					</aside>
+					<aside component="workbook">
+						<p>(Stories also appear in 
+						<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises)</p>
+					</aside>
 				</p>
 			</introduction>
 			<task>
@@ -163,16 +163,16 @@
 						The Nussbaums planted a walnut tree years ago when they first bought their house. 
 						The tree was 5 feet tall then and has grown around 2 feet a year.
 					</p>
-					<p>
-						<em component="not-workbook">(Story also appears in
-							<xref ref="walnut-tree-arithmetic-operations"/> and
-							<xref ref="walnut-tree-algebraic-notation"/>)
-						</em>
-						<em component="workbook">(Story also appears in
-							<xref ref="sec-0-2-Arithmetic_operations"/> Exercises and
-							<xref ref="sec-0-7-Algebraic_notation"/> Exercises)
-						</em>
-					</p>
+					<aside component="not-workbook">
+						<p>(Story also appears in
+						<xref ref="walnut-tree-arithmetic-operations"/> and
+						<xref ref="walnut-tree-algebraic-notation"/>)</p>
+					</aside>
+					<aside component="workbook">
+						<p>(Story also appears in
+						<xref ref="sec-0-2-Arithmetic_operations"/> Exercises and
+						<xref ref="sec-0-7-Algebraic_notation"/> Exercises)</p>
+					</aside>
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
@@ -181,16 +181,16 @@
 					<p>
 						After his first beer, Stephen's blood alcohol content (BAC) was already 0.04, 
 						and as he continued to drink, his BAC level rose 45% per hour.
-						<em component="not-workbook">
-							(Story also appears in 
+						<aside component="not-workbook">
+							<p>(Story also appears in 
 							<xref ref="bac-approx-solutions"/> and
-							<xref ref="bac-solving-exponential"/>)
-						</em>
-						<em component="workbook">
-							(Story also appears in 
+							<xref ref="bac-solving-exponential"/>)</p>
+						</aside>
+						<aside component="workbook">
+							<p>(Story also appears in 
 							<xref ref="sec-2-4-Approx_solutions" text="global"/> Exercises and 
-							<xref ref="bac-solving-exponential"/>)
-						</em>
+							<xref ref="bac-solving-exponential"/>)</p>
+						</aside>
 					</p>
 					<xi:include href="../name-variables.ptx" />
 				</statement>
@@ -205,7 +205,7 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task workspace="0cm">
+			<task>
 				<statement>
 					<p>
 						The sun set at 6:00 p.m. today, and I heard on the radio 
@@ -225,10 +225,7 @@
 			<p>
 				It's about time! For each story, try to figure out the answer to the question(s).
 			</p>
-			<p>
-				<em>(Stories also appear in 
-					<xref ref="time-variables-functions"/>)</em>
-			</p>
+			<aside><p>(Stories also appear in <xref ref="time-variables-functions"/>)</p></aside>
 		</introduction>
 					
 		<task>
@@ -236,12 +233,11 @@
 				<p>
 					The Nussbaums planted a walnut tree years ago when they first bought their house. The tree was 5 feet tall then and has grown around 2 feet a year. The tree is now 40 feet tall. How long ago did the Nussbaums plant their walnut tree?
 				</p>
-				<p>
-					<em>(Story also appears in
-						<xref ref="walnut-tree-arithmetic-operations"/> and
-						<xref ref="walnut-tree-algebraic-notation"/>)
-					</em>
-				</p>
+				<aside><p>
+					(Story also appears in
+					<xref ref="walnut-tree-arithmetic-operations"/> and
+					<xref ref="walnut-tree-algebraic-notation"/>)
+				</p></aside>
 			</statement>
 		</task>
 			
@@ -251,11 +247,11 @@
 					After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. Note that <me>45\% = \frac{45}{100} = 45 \div 100 = 0.45</me> What was Stephen's BAC after 1 hour? After 2 hours?
 				</p>
 						
-				<p>
-					<em>(Story also appears in 
-						<xref ref="bac-approx-solutions"/> and
-						<xref ref="bac-solving-exponential"/>)</em>
-				</p>
+				<aside><p>
+					(Story also appears in 
+					<xref ref="bac-approx-solutions"/> and
+					<xref ref="bac-solving-exponential"/>)
+				</p></aside>
 			</statement>
 		</task>
 			
@@ -279,7 +275,8 @@
 	<exercise xml:id="temp-mpls-variables-functions" component="not-workbook">
 		<introduction>
 			<p>
-				The temperature was 40<degree />F at noon yesterday downtown Minneapolis but it dropped 3<degree />F an hour in the afternoon. <em>(Story also appears in <xref ref="temp-mpls-tables-graphs"/> and <xref ref="temp-mpls-modeling-linear"/>)</em>
+				The temperature was 40<degree />F at noon yesterday downtown Minneapolis but it dropped 3<degree />F an hour in the afternoon. 
+				<aside><p>(Story also appears in <xref ref="temp-mpls-tables-graphs"/> and <xref ref="temp-mpls-modeling-linear"/>)</p></aside>
 			</p>
 		</introduction>
 				
@@ -313,10 +310,10 @@
 		<introduction>
 			<p>
 				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
-				<em>(Story also appears in 
-					<xref ref="social-security-arithmetic-operations"/>, 
-					<xref ref="social-security-tables-graphs"/>, and 
-					<xref ref="social-security-modeling-exponential"/>)</em>
+				<aside><p>(Story also appears in 
+				<xref ref="social-security-arithmetic-operations"/>, 
+				<xref ref="social-security-tables-graphs"/>, and 
+				<xref ref="social-security-modeling-exponential"/>)</p></aside>
 			</p>
 		</introduction>
 				
@@ -349,7 +346,8 @@
 	<exercise xml:id="stamps-variables-functions" component="not-workbook">
 		<introduction>
 			<p>
-				Between e-mail, automatic bill pay, and online banking, it seems like I hardly ever actually mail something. But for those times, I need postage stamps. The corner store sells as many (or few) stamps as I want for 44¢ each but they charge a 75¢ convenience fee for the whole purchase. (<em>Story also appears in <xref ref="stamps-solving-linear"/>)</em>
+				Between e-mail, automatic bill pay, and online banking, it seems like I hardly ever actually mail something. But for those times, I need postage stamps. The corner store sells as many (or few) stamps as I want for 44¢ each but they charge a 75¢ convenience fee for the whole purchase. 
+				<aside><p>(Story also appears in <xref ref="stamps-solving-linear"/>)</p></aside>
 			</p>
 		</introduction>
 
@@ -384,9 +382,9 @@
 				Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700.
 			</p>
 				
-			<p>
-				(<em>Story also appears in <xref ref="sec-5-4-Linear_vs_exponential" text="type-global-title"/>)</em>
-			</p>
+			<aside><p>
+				(Story also appears in <xref ref="sec-5-4-Linear_vs_exponential" text="type-global-title"/>)
+			</p></aside>
 		</introduction>
 				
 				
@@ -436,13 +434,11 @@
 					The closer you sit to a lamp, the brighter the light is.
 				</p>
 						
-				<p>
-					<em>
-						(Story also appears in 
-						<xref ref="lamp-intensity-using-equations"/> and
-						<xref ref="lamp-intensity-solving-power"/>)
-					</em>
-				</p>
+				<aside><p>
+					(Story also appears in 
+					<xref ref="lamp-intensity-using-equations"/> and
+					<xref ref="lamp-intensity-solving-power"/>)
+				</p></aside>
 			</statement>
 		</task>
 				
@@ -452,12 +448,11 @@
 					The thicker the piece of fish, the longer it takes to grill it.
 				</p>
 						
-				<p>
-					<em>(Story also appears in 
-						<xref ref="grilling-fish-using-equations"/> and
-						<xref ref="grilling-fish-solving-quadratic"/>)
-					</em>
-				</p>
+				<aside><p>
+					(Story also appears in 
+					<xref ref="grilling-fish-using-equations"/> and
+					<xref ref="grilling-fish-solving-quadratic"/>)
+				</p></aside>
 			</statement>
 		</task>
 				
@@ -465,12 +460,12 @@
 			<statement>
 				<p>
 					Wind turbines are used to generate electricity. The faster the wind, the more power they generate. 
-					<em>
+					<aside><p>
 						(Story also appears in 
 						<xref ref="wind-turbine-rate-of-change"/>,
 						<xref ref="wind-turbine-approx-solutions"/>, and
 						<xref ref="wind-turbine-solving-power"/>)
-					</em>
+					</p></aside>
 				</p>
 			</statement>
 		</task>
