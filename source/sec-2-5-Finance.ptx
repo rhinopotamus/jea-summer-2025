@@ -5,7 +5,7 @@
 	<title component="not-workbook">Finance formulas</title>
 	<title component="workbook">Finance formulas - Practice exercises</title>
 
-	<introduction>
+	<introduction component="not-workbook">
 		<p>
 			One place that you'll encounter formulas in everyday life is in finance, where there are many complicated formulas for figuring out payments and amounts. Even though the formulas are complicated, the evaluation skills you've developed in this chapter will help you deal with them.
 		</p>

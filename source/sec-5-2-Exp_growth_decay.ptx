@@ -115,7 +115,7 @@
 
 	</subsection>
 
-	<subsection xml:id="ss-5-2-approximating-and-solving">
+	<subsection component="not-workbook" xml:id="ss-5-2-approximating-and-solving">
 		<title>Solving (approximately and exactly)</title>
 
 		<p>
@@ -212,7 +212,7 @@
 		<xi:include href="./activities/act-5-2-signal-solve.ptx" />
 	</subsection>
 
-	<subsection xml:id="ss-5-2-rate-of-change">
+	<subsection component="not-workbook" xml:id="ss-5-2-rate-of-change">
 		<title>Rate of change</title>
 
 		<p>
@@ -254,7 +254,7 @@
 		<xi:include href="./activities/act-5-2-signal-roc-graph.ptx" />
 	</subsection>
 
-	<subsection xml:id="ss-5-2-half-life">
+	<subsection component="not-workbook" xml:id="ss-5-2-half-life">
 		<title>Half-life (and doubling time)</title>
 
 		<p>
