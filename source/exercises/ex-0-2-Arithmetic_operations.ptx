@@ -112,13 +112,15 @@
             <introduction>
                 <p>
                     A truck hauling grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The <term>gross weight</term> of the truck is the total weight including the truck and the bags of seed. 
-                    <aside>
-                        <p>(Story also appears in 
+                </p>
+                <aside>
+                    <p>
+                        (Story also appears in 
                         <xref ref="truck-grass-first-look-linear" />, 
                         <xref ref="truck-grass-solving-linear" />, and 
-                        <xref ref="truck-grass-linear-ineq" />)</p>
-                    </aside>
-                </p>
+                        <xref ref="truck-grass-linear-ineq" />)
+                    </p>
+                </aside>
             </introduction>
             <task>
                 <statement>
@@ -165,9 +167,14 @@
             <p>
                 Mrs. Nystrom gets $1,453.46 per month in Social Security benefits and another $1,250 per month from a life annuity. She pays $540.60 per month in taxes and $1,749 each month for rent and utilities. How much does she have left each month for food, entertainment, and other expenses?
             </p>
-            <p>
-                <aside><p>Story also appears in <xref ref="social-security-variables-functions"/>, <xref ref="social-security-tables-graphs"/>, and <xref ref="social-security-modeling-exponential"/></p></aside>
-            </p>
+            <aside>
+                <p>
+                    (Story also appears in 
+                    <xref ref="social-security-variables-functions"/>, 
+                    <xref ref="social-security-tables-graphs"/>, and 
+                    <xref ref="social-security-modeling-exponential"/>)
+                </p>
+            </aside>
         </statement>
     </exercise>
 
@@ -176,8 +183,12 @@
             <statement>
                 <p>
                     McKenna drives 60 miles per hour on the highway. How far does she drive in two and a half hours (that's 2.5 hours)? How far does she drive in 45 minutes (that's <m>\frac{3}{4}</m> of an hour)? 
-                    <aside><p>Story also appears in <xref ref="time-variables-functions"/></p></aside>
                 </p>
+                <aside>
+                    <p>
+                        (Story also appears in <xref ref="time-variables-functions"/>)
+                    </p>
+                </aside>
             </statement>
         </task>
         <task>
@@ -194,11 +205,13 @@
             <p>
                 When the Nussbaums planted a walnut tree it was 5 feet tall. It has grown around 2 feet a year.
             </p>
-            <aside><p>
-                (Story also appears in 
-                <xref ref="walnut-tree-algebraic-notation"/> and  
-                <xref ref="time-variables-functions"/>)
-            </p></aside>
+            <aside>
+                <p>
+                    (Story also appears in 
+                    <xref ref="walnut-tree-algebraic-notation"/> and  
+                    <xref ref="time-variables-functions"/>)
+                </p>
+            </aside>
         </introduction> 
         <task>
             <statement>
@@ -220,8 +233,12 @@
         <introduction>
             <p>
                 The public beach near Paloma's house 60 years ago was 435 feet long and now is only 210 feet long due to erosion. The length of the beach is measured from the dunes to the high water mark. 
-                <aside><p>Story also appears in <xref ref="beach-erosion-rate-of-change"/> and <xref ref="beach-erosion-intercepts"/></p></aside>
             </p>
+            <aside>
+                <p>
+                    (Story also appears in <xref ref="beach-erosion-rate-of-change"/> and <xref ref="beach-erosion-intercepts"/>)
+                </p>
+            </aside>
         </introduction>
         <task>
             <statement>

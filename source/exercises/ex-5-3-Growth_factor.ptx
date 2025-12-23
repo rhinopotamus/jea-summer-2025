@@ -76,18 +76,18 @@
 						<cell right="minor" halign="center">3,278.77</cell>
 					</row>
 				</tabular>
-				<p>
-					<em component="not-workbook">
-							(Story also appears in 
-							<xref ref="grandfather-bonds-tables-graphs" /> and 
-							<xref ref="grandfather-bonds-growth-factor" />)
-						</em>
-						<em component="workbook">
-							(Story also appears in 
-							<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises and 
-							<xref ref="grandfather-bonds-growth-factor" />)
-						</em>
-				</p>
+				<aside>
+					<p component="not-workbook">
+						(Story also appears in 
+						<xref ref="grandfather-bonds-tables-graphs" /> and 
+						<xref ref="grandfather-bonds-growth-factor" />)
+					</p>
+					<p component="workbook">
+						(Story also appears in 
+						<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises and 
+						<xref ref="grandfather-bonds-growth-factor" />)
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -449,27 +449,44 @@
 				<statement>
 					<p>
 						The number of households watching reality television <m>R</m> (in millions) was estimated by the equation <me>R=2.5 \ast 1.072^T</me> where <m>T</m> is the time in years since 1990. 
-						<em component="not-workbook">(Story also appears in <xref ref="reality-tv-modeling-exponential"/>)</em>
-						<em component="workbook">(Story also appears in <xref ref="sec-5-1-Modeling_exponential_equations"/> Exercises)</em>
 					</p>
+					<aside>
+						<p component="not-workbook">
+							(Story also appears in <xref ref="reality-tv-modeling-exponential"/>)
+						</p>
+						<p component="workbook">
+							(Story also appears in <xref ref="sec-5-1-Modeling_exponential_equations"/> Exercises)
+						</p>
+					</aside>
 				</statement>
 			</task>
 			<task xml:id="chlorine-pool-growth-factor">
 				<statement>
 					<p>
-						Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine <m>C</m> (in ppm) drops as the swimming pool is used for <m>T</m> hours according to the equation <me>C = 2.5 \ast 0.975^T</me> <em>(Story also appears in <xref ref="chlorine-pool-solving-exponential"/>)</em>
+						Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine <m>C</m> (in ppm) drops as the swimming pool is used for <m>T</m> hours according to the equation <me>C = 2.5 \ast 0.975^T</me> 
 					</p>
+					<aside>
+						<p>
+							(Story also appears in <xref ref="chlorine-pool-solving-exponential"/>)
+						</p>
+					</aside>
 				</statement>
 			</task>
 			<task xml:id="drawing-game-growth-factor">
 				<statement>
 					<p>
 						The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation <me>N = 2 \ast 1.57^W</me> where <m>N</m> is the number of players (in millions) and <m>T</m> is the time in weeks since people started playing the game. 
-						<em component="not-workbook">(Story also appears in 
-							<xref ref="drawing-game-modeling-exponential"/>)</em>
-						<em component="workbook">(Story also appears in 
-							<xref ref="sec-5-1-Modeling_exponential_equations"/> Exercises)</em>
 					</p>
+					<aside>
+						<p component="not-workbook">
+							(Story also appears in 
+							<xref ref="drawing-game-modeling-exponential"/>)
+						</p>
+						<p component="workbook">
+							(Story also appears in 
+							<xref ref="sec-5-1-Modeling_exponential_equations"/> Exercises)
+						</p>
+					</aside>
 				</statement>
 			</task>
 		</exercise>
@@ -526,24 +543,38 @@
 			<statement>
 				<p>
 					The light <m>L\%</m> that passes through panes of glass <m>W</m> inches thick is given by the equation <me>L = 100\ast 0.75^W</me> 
-					<em>(Story also appears in <xref ref="window-glass-approx-solutions"/> and <xref ref="window-glass-solving-exponential"/>)</em>
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="window-glass-approx-solutions"/> and <xref ref="window-glass-solving-exponential"/>)
+					</p>
+				</aside>
 			</statement>
 		</task>
 		
 		<task>
 			<statement>
 				<p>
-					The population of bacteria (<m>B</m>) in a culture dish after <m>D</m> days is given by the equation <me>B=2{,}000\ast 3^D</me> <em>(Story also appears in <xref ref="bacteria-growth-decay"/>)</em>
+					The population of bacteria (<m>B</m>) in a culture dish after <m>D</m> days is given by the equation <me>B=2{,}000\ast 3^D</me> 
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="bacteria-growth-decay"/>)
+					</p>
+				</aside>
 			</statement>
 		</task>
 		
 		<task>
 			<statement>
 				<p>
-					The remaining contaminants (<m>C</m> grams) in a waste water sample after <m>M</m> months of treatment is given by <me>C=8 \ast 0.25^M</me> <em>(Story also appears in <xref ref="wetlands-growth-decay"/>)</em>
+					The remaining contaminants (<m>C</m> grams) in a waste water sample after <m>M</m> months of treatment is given by <me>C=8 \ast 0.25^M</me> 
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="wetlands-growth-decay"/>)
+					</p>
+				</aside>
 			</statement>
 		</task>
 	</exercise>

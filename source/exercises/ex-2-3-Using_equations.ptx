@@ -10,9 +10,12 @@
 			<introduction>
 				<p>
 					Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236{,}000-56{,}000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). 
-					<aside><p>(Story also appears in <xref ref="mortgage-payoff-solving-exponential"/>)</p></aside>
-	
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="mortgage-payoff-solving-exponential"/>)
+					</p>
+				</aside>
 			</introduction>
 			<task workspace="0in">
 				<statement>
@@ -58,7 +61,9 @@
 			<introduction>
 				<p>
 					<q>Rose gold</q> is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add <m>A</m> grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, <m>R</m> is given by <me>R = 100\left(\frac{1+A}{2+A}\right)</me> For example, if we add 0.8 grams of pure gold, then <m>A=0.8</m> and so the percentage is <me>R=100\left(\frac{1+0.8}{2+0.8}\right)= 100 \times (1 + \underline{0.8})\div(2+\underline{0.8})=64.28571428\ldots \approx 64.3\%</me>
-					<aside><p component="not-workbook">
+				</p>
+				<aside>
+					<p component="not-workbook">
 						(Story also appears in
 						<xref ref="rose-gold-order-operations" />, 
 						<xref ref="rose-gold-algebraic-notation" />, and
@@ -69,8 +74,8 @@
 						<xref ref="rose-gold-order-operations" />, 
 						<xref ref="rose-gold-algebraic-notation" />, and
 						<xref ref="sec-4-1-Modeling_linear_equations" text="global"/> Exercises)
-					</p></aside>
-				</p>
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -139,22 +144,17 @@
 	<page>
 		<exercise xml:id="monty-orchids-using-equations">
 			<introduction>
-				<p component="not-web">
-					Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by
-					<me>
-						P= 10S^9-9S^{10}
-						\qquad \qquad
-						\textit{(Story also appears in <xref ref="monty-orchids-approx-solutions"/>)}
-					</me>
-					<em></em>
-				</p>
-				<p component="web">
+				<p>
 					Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by
 					<me>
 						P= 10S^9-9S^{10}
 					</me>
-					<aside><p>(Story also appears in <xref ref="monty-orchids-approx-solutions"/>)</p></aside>
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="monty-orchids-approx-solutions"/>)
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -251,7 +251,9 @@
 				The 2002 Chevrolet Tahoe 4WD will take about 158.1 feet to stop when traveling at 60 mph in normal highway conditions. Let <m>S</m> be the speed at which the vehicle is traveling, in miles per hour (mph), and <m>D</m> the distance it takes to stop, in feet. This information together with a little physics gives the equation <me>D = 0.0439S^2 + 1.47S</me>
 			</p>
 			<aside>
-				<p>(Story also appears in <xref ref="braking-distance-solving-quadratic"/>)</p>
+				<p>
+					(Story also appears in <xref ref="braking-distance-solving-quadratic"/>)
+				</p>
 			</aside>
 		</introduction>	
 		<task>
@@ -291,12 +293,14 @@
 		<introduction>
 			<p>
 				Mom always said to sit close to the lamp when I was reading. The intensity of light <m>L</m>, measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <m>F</m> feet as described by the formula <me>L=\frac{100}{F^2}</me>
-				<aside><p>
+			</p>
+			<aside>
+				<p>
 					(Story also appears in
 					<xref ref="name-vars-variables-functions"/> and
 					<xref ref="lamp-intensity-solving-power"/>)
-				</p></aside>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -342,13 +346,13 @@
 				<image source='GravelPath.png'/>
 			</p>
 			
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="gravel-path-approx-solutions" /> and 
 					<xref ref="gravel-path-quadratic"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -432,13 +436,13 @@
 				Mrs. Weber's cooking class came up with the equation <me>M = 1.2F^2+4F+7</me> to approximate the grilling time of a piece of fish depending on its thickness. Here <m>M</m> is the number of minutes to grill the fish and <m>F</m> is the thickness of the fish (in inches).
 			</p>
 			
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="name-vars-variables-functions"/> and 
 					<xref ref="grilling-fish-solving-quadratic"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -479,9 +483,11 @@
 				Wynter has a pretty decent job. He is paid a salary of $780 per week but his hours vary week-to-week. Even though Wynter is not paid by the hour, he can figure out what his hourly wage would be depending on the number of hours he works. For example, in a week where Wynter works 40 hours, he's earning the equivalent of $19.50/hr because <me>\frac{\$780}{40 \text{ hours}} = 780 \div 40 =\$19.50\text{/hour}</me>
 			</p>
 			
-			<p>
-				<em>(Story also appears in <xref ref="salary-solving-power"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="salary-solving-power"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>

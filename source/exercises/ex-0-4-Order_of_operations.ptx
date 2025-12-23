@@ -48,17 +48,19 @@
             <p>
                 <q>Rose gold</q> is a mix of gold and copper.
             </p>
-            <aside component="not-workbook">
-                <p>(Story also appears in
-                <xref ref="rose-gold-algebraic-notation" />,
-                <xref ref="rose-gold-using-equations" />, and
-                <xref ref="check-linear-modeling-linear"/>)</p>
-            </aside>
-            <aside component="workbook">
-                <p>(Story also appears in
-                <xref ref="rose-gold-algebraic-notation" />,
-                <xref ref="rose-gold-using-equations" />, and
-                <xref ref="sec-4-1-Modeling_linear_equations" text="global"/> Exercises)</p>
+            <aside>
+                <p component="not-workbook">
+                    (Story also appears in
+                    <xref ref="rose-gold-algebraic-notation" />,
+                    <xref ref="rose-gold-using-equations" />, and
+                    <xref ref="check-linear-modeling-linear"/>)
+                </p>
+                <p component="workbook">
+                    (Story also appears in
+                    <xref ref="rose-gold-algebraic-notation" />,
+                    <xref ref="rose-gold-using-equations" />, and
+                    <xref ref="sec-4-1-Modeling_linear_equations" text="global"/> Exercises)
+                </p>
             </aside>
         </introduction>
         <task>

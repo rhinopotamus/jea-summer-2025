@@ -24,15 +24,19 @@
 			<introduction>
 				<p>
 					After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is <me>S = 0.04 \ast 1.45^T</me> where <m>S</m> is Stephen's BAC and <m>T</m> is the time, measured in hours.
-					<em component="not-workbook">(Story also appears in 
+				</p>
+				<aside>
+					<p component="not-workbook">
+						(Story also appears in 
 						<xref ref="bac-variables-functions"/> and
 						<xref ref="bac-approx-solutions"/>)
-					</em>
-					<em component="workbook">(Story also appears in 
+					</p>
+					<p component="workbook">
+						(Story also appears in 
 						<xref ref="bac-variables-functions"/> and
 						<xref ref="sec-2-4-Approx_solutions"/> Exercises)
-					</em>
-				</p>
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -62,8 +66,13 @@
 		<exercise xml:id="chlorine-pool-solving-exponential">
 			<introduction>
 				<p>
-					Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation <me>C = 2.5 \ast 0.975^T</me> where <m>C</m> is the chlorine concentration in parts per million (ppm) and <m>T</m> is the time in hours since the concentration was first measured. <em>(Story also appears in <xref ref="chlorine-pool-growth-factor"/>)</em>
+					Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation <me>C = 2.5 \ast 0.975^T</me> where <m>C</m> is the chlorine concentration in parts per million (ppm) and <m>T</m> is the time in hours since the concentration was first measured.
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="chlorine-pool-growth-factor"/>)
+					</p>
+				</aside>
 			</introduction>
 			<task workspace="1.2in">
 				<statement>
@@ -125,8 +134,13 @@
 		<exercise xml:id="riverside-rent-solving-exponential" workspace="1.2in">
 			<introduction>
 				<p>
-					Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. Earlier we identified the variables as <m>R</m> for the monthly rent (in $) and <m>T</m> for time in years. <em>(Story also appears in <xref ref="riverside-rent-variables-functions"/>)</em>
+					Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. Earlier we identified the variables as <m>R</m> for the monthly rent (in $) and <m>T</m> for time in years. 
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="riverside-rent-variables-functions"/>)
+					</p>
+				</aside>
 			</introduction>
 			<task workspace="0.75in">
 				<statement>
@@ -172,9 +186,11 @@
 				<p>
 					Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236{,}000-56{,}000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). 
 				</p>
-				<p>
-					<em>(Story also appears in <xref ref="mortgage-payoff-using-equations"/>)</em>
-				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="mortgage-payoff-using-equations"/>)
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -246,12 +262,12 @@
 			<p>
 				The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year. Earlier, we found the equation was <me>C = 1{,}290\ast1.03^Y</me> where <m>C</m> is the number of children and <m>Y</m> is the years since 2010.
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in
 					<xref ref="sp-household-first-look-exponential"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -283,12 +299,12 @@
 			<p>
 				Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If we use <m>W</m> inches of window glass, it lets <m>L\%</m> of the light through where <me>L = 100\ast 0.75^W</me>
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in
 					<xref ref="window-glass-approx-solutions"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -326,9 +342,11 @@
 					Source: Worldwatch Institute
 				</p>
 			</aside>	
-			<p>
-				<em>(Story also appears in <xref ref="poultry-first-look-exponential"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="poultry-first-look-exponential"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -352,11 +370,11 @@
 			<p>
 				Darcy likes to use temporary hair color in wild colors. Good thing it washes out. Her best guess is that 8% of the color washes out each time she washes her hair. That means the percentage of color remaining, <m>C</m>, is a function of the number of times she washes her hair, <m>W</m>, according to the equation <me>C=100 \ast 0.92^W</me>
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in <xref ref="hair-color-logarithms"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>

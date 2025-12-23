@@ -11,10 +11,16 @@
 			<introduction>
 				<p>
 					A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. 
-					<em component="not-workbook">(Story also appears in <xref ref="solar-heating-systems-linear"/>)</em>
-					<em component="workbook">(Story also appears in <xref ref="sec-4-2-Systems_linear_equations"/> Exercises)</em>
 				</p>
 				<aside><p>Source: <q>Using Algebra</q> by Ethan Bolker</p></aside>
+				<aside>
+					<p component="not-workbook">
+						(Story also appears in <xref ref="solar-heating-systems-linear"/>)
+					</p>
+					<p component="workbook">
+						(Story also appears in <xref ref="sec-4-2-Systems_linear_equations"/> Exercises)
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -121,17 +127,19 @@
 				<statement>
 					<p>
 						Savings bonds from grandpa. 
-						<em component="not-workbook">
+					</p>
+					<aside>
+						<p component="not-workbook">
 							(Story also appears in 
 							<xref ref="grandfather-bonds-tables-graphs" /> and 
 							<xref ref="grandfather-bonds-growth-factor" />)
-						</em>
-						<em component="workbook">
+						</p>
+						<p component="workbook">
 							(Story also appears in 
 							<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises and 
 							<xref ref="grandfather-bonds-growth-factor" />)
-						</em>
-					</p>
+						</p>
+					</aside>
 					<tabular bottom="minor" top="minor">
 						<row left="minor">
 							<cell right="minor" halign="left">Year</cell>
@@ -157,8 +165,13 @@
 			<task xml:id="wind-chill-modeling-linear">
 				<statement>
 					<p>
-						Wind chill at 10<degree/>F. <em>(Story also appears in <xref ref="wind-chill-tables-graphs" />)</em>
+						Wind chill at 10<degree/>F. 
 					</p>
+					<aside>
+						<p>
+							(Story also appears in <xref ref="wind-chill-tables-graphs" />)
+						</p>
+					</aside>
 					<tabular bottom="minor" top="minor">
 						<row left="minor">
 							<cell right="minor" halign="left">Wind (mph)</cell>
@@ -182,13 +195,16 @@
 			<task xml:id="pizza-diameter-modeling-linear">
 				<statement>
 					<p>
-						Pizza. <em>
+						Pizza.
+					</p>
+					<aside>
+						<p>
 							(Story also appears in
 							<xref ref="pizza-diameter-powers-roots"/>, 
 							<xref ref="pizza-diameter-approx-solutions"/>, and 
 							<xref ref="pizza-diameter-solving-power"/>)
-						</em>
-					</p>
+						</p>
+					</aside>
 					<tabular bottom="minor" top="minor">
 						<row left="minor">
 							<cell right="minor" halign="left">Size (inches)</cell>
@@ -208,8 +224,20 @@
 			<task xml:id="reservoir-rain-modeling-linear">
 				<statement>
 					<p>
-						Water in the reservoir. <em>(Story also appears in <xref ref="reservoir-rain-first-look-linear"/> and 3.2 Exercises)</em>
+						Water in the reservoir. 
 					</p>
+					<aside>
+						<p component="not-workbook">
+							(Story also appears in 
+							<xref ref="reservoir-rain-first-look-linear"/> and 
+							<xref ref="reservoir-rain-linear-ineq" />)
+						</p>
+						<p component="workbook">
+							(Story also appears in 
+							<xref ref="reservoir-rain-first-look-linear"/> and 
+							<xref ref="sec-3-2-Solving_linear_inequalities" text="global"/> Exercises)
+						</p>
+					</aside>
 					<tabular bottom="minor" top="minor">
 						<row left="minor">
 							<cell right="minor" halign="left">Week</cell>
@@ -236,9 +264,15 @@
 			<introduction>
 				<p>
 					Plumbers are really expensive, so I have been comparing prices. James charges $50 to show up plus $120 per hour. Jo is just getting started in the business. She charges $45 to show up plus $55 per hour. Mario advertises <q>no trip charge</q> but his hourly rate is $90 per hour. Not to be outdone, Luigi offers to unclog any drain for $150, no matter how long it takes. For each plumber, the table lists the corresponding equation and several points. In each equation, the plumber charges $<m>P</m> for <m>T</m> hours of work. 
-					<em component="not-workbook">(Story also appears in <xref ref="plumbers-first-look-linear"/>)</em>
-					<em component="workbook">(Story also appears in <xref ref="sec-2-1-First_look_linear"/> Exercises)</em>
 				</p>
+				<aside>
+					<p component="not-workbook">
+						(Story also appears in <xref ref="plumbers-first-look-linear"/>)
+					</p>
+					<p component="workbook">
+						(Story also appears in <xref ref="sec-2-1-First_look_linear" text="global"/> Exercises)
+					</p>
+				</aside>
 				<tabular bottom="minor" top="minor">
 					<row left="minor" header="yes">
 						<cell right="minor" halign="center">Plumber</cell>
@@ -424,8 +458,13 @@
 		<task>
 			<statement>
 				<p>
-					Ahmed's virburnum shrub. <em>(Story also appears in <xref ref="shrub-growth-systems-linear"/>)</em>
+					Ahmed's virburnum shrub. 
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="shrub-growth-systems-linear"/>)
+					</p>
+				</aside>
 					
 				<tabular bottom="minor" top="minor">
 					<row left="minor">
@@ -449,13 +488,16 @@
 		<task>
 			<statement>
 				<p>
-					Rose gold 
-					<em>(Story also appears in 
+					Rose gold. 
+				</p>
+				<aside>
+					<p>
+						(Story also appears in 
 						<xref ref="rose-gold-algebraic-notation"/>,
 						<xref ref="rose-gold-order-operations"/>, and
 						<xref ref="rose-gold-using-equations"/>)
-					</em>
-				</p>
+					</p>
+				</aside>
 					
 				<tabular bottom="minor" top="minor">
 					<row left="minor">
@@ -481,7 +523,7 @@
 		<task>
 			<statement>
 				<p>
-					Sea-ice (in millions of square miles) 
+					Sea-ice (in millions of square miles).
 				</p>
 					
 				<tabular bottom="minor" top="minor">
@@ -506,9 +548,13 @@
 		<task>
 			<statement>
 				<p>
-					Wild rice 
-					<em>(Story also appears in <xref ref="wild-rice-fitting-lines"/>)</em>
+					Wild rice. 
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="wild-rice-fitting-lines"/>)
+					</p>
+				</aside>
 					
 				<p>
 					<em>Hint: rewrite the table in order by temperature first.</em>
@@ -543,7 +589,11 @@
 			<p>
 				The temperature in Minneapolis was 40 degrees at noon yesterday but it dropped 3 degrees an hour in the afternoon. Earlier we found the temperature, <m>T</m> in <degree/>F depends on the time, <m>H</m> hours after noon according to the equation <me>T=40-3H</me> 
 			</p>
-			<p><em>(Story also appears in <xref ref="temp-mpls-variables-functions"/> and <xref ref="temp-mpls-tables-graphs"/>)</em></p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="temp-mpls-variables-functions"/> and <xref ref="temp-mpls-tables-graphs"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>

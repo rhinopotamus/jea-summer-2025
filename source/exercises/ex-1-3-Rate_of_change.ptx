@@ -102,12 +102,14 @@
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
 				The Metropolitan Club costs $1,300 for the space and then $92 per person. 
-				<em>
+			</p>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="wedding-rental-tables-graphs" /> and 
 					<xref ref="wedding-rental-linear-ineq" />)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>
 		<task workspace="1.5in">
 			<statement>
@@ -339,13 +341,13 @@
 				</row>
 			</tabular>
 			
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="truck-rental-tables-graphs"/> and
 					<xref ref="truck-rental-slopes"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -409,14 +411,14 @@
 				</row>
 			</tabular>
 			
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="name-vars-variables-functions"/>,
 					<xref ref="wind-turbine-solving-power"/>, and
 					<xref ref="wind-turbine-approx-solutions"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>
 			
 		<task>
@@ -494,9 +496,11 @@
 				</row>
 			</tabular>
 
-			<p>
-				<em>(Story also appears in <xref ref="earth-population-tables-graphs"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="earth-population-tables-graphs"/>)
+				</p>
+			</aside>
 			
 			<p>
 				During which period of time was the Earth's population increasing the fastest? Calculate the rates of change for each time period to decide. (Or, explain some other way of deciding.)
@@ -508,8 +512,12 @@
 		<introduction>
 			<p>
 				A company produces backpacks. The more they make, the less it costs for each one, but only up to a certain point. For example, if they produce 10 backpacks, it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. But at 100 backpacks, the unit cost is back up to $30 each. 
-				<em>(Story also appears in <xref ref="backpacks-solving-quadratic"/>)</em>
 			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="backpacks-solving-quadratic"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -590,13 +598,13 @@
 				</row>
 			</tabular>
 			
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="beach-erosion-arithmetic-operations"/> and
 					<xref ref="beach-erosion-intercepts"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>
 			
 		<task>

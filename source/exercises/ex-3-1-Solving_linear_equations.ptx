@@ -9,13 +9,15 @@
 			<introduction>
 				<p>
 					A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3{,}900 + 4.2B</me> for <m>B</m> bags of grass seed. 
-					<em>
+				</p>
+				<aside>
+					<p>
 						(Story also appears in
 						<xref ref="truck-grass-arithmetic-operations" />, 
 						<xref ref="truck-grass-first-look-linear" />, and 
 						<xref ref="truck-grass-linear-ineq" />)
-					</em>
-				</p>
+					</p>
+				</aside>
 			</introduction>
 			<task workspace="2in">
 				<statement>
@@ -130,13 +132,15 @@
 			<introduction>
 				<p>
 					The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is <me>B = 7.16 - 0.02H</me> where $<m>B</m> is the price of the bacon double cheeseburger and <m>H</m> is the daily high temperature, in °F. 
-					<em component="not-workbook">
-						(Story also appears in <xref ref="burger-first-look-linear"/>)
-					</em>
-					<em component="workbook">
-						(Story also appears in <xref ref="sec-2-1-First_look_linear" text="global"/> Exercises)
-					</em>
 				</p>
+				<aside>
+					<p component="not-workbook">
+						(Story also appears in <xref ref="burger-first-look-linear"/>)
+					</p>
+					<p component="workbook">
+						(Story also appears in <xref ref="sec-2-1-First_look_linear" text="global"/> Exercises)
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -224,9 +228,11 @@
 				Abduwali has just opened a restaurant. He spent $82,500 to get started but hopes to earn back $6,300 each month. Earlier we determined that <me>A = 6{,}300M - 82{,}500</me> describes how Abduwali's profit $<m>A</m> is a function of how long he works (<m>M</m> months).
 			</p>
 			
-			<p>
-				<em>(Story also appears in <xref ref="restaurant-first-look-linear"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="restaurant-first-look-linear"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -250,11 +256,11 @@
 			<p>
 				Between e-mail, automatic bill pay, and online banking, it seems like I hardly ever actually mail something. But for those times, I need postage stamps. The corner store sells as many (or few) stamps as I want for 44¢ each but they charge a 75¢ convenience fee for the whole purchase.
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in <xref ref="stamps-variables-functions"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -295,11 +301,13 @@
 				When Gretchen walks on her treadmill, she burns 125 calories per mile. Recall <me>C=125M</me> where <m>C</m> is the number of calories Gretchen burns by walking <m>M</m> miles.
 			</p>
 			
-			<p>
-				<em>(Story also appears in 
+			<aside>
+				<p>
+					(Story also appears in 
 					<xref ref="treadmill-first-look-linear"/> and
-					<xref ref="treadmill-solving-linear"/>)</em>
-			</p>
+					<xref ref="treadmill-solving-linear"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -370,11 +378,11 @@
 			<p>
 				The stretch of interstate highway through downtown averages 1,450 cars per hour during the morning rush hour. The economy is improving (finally), but with that the county manager predicts traffic levels will increase around 130 more cars per hour each week for the next couple of weeks. Earlier we found the equation <me>C=1{,}450 + 130W</me> where <m>C</m> is the number of cars per hour during the morning rush <m>W</m> weeks since the country manager made her projection.
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in <xref ref="traffic-first-look-linear"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>

@@ -383,9 +383,11 @@
 				</row>
 			</tabular>
 			
-			<p>
-				<em>(Story also appears in <xref ref="check-linear-modeling-linear"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="check-linear-modeling-linear"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -479,9 +481,11 @@
 					Source: Environmental Protection Agency
 				</p>
 			</aside>
-			<p>
-				<em>(Story also appears in <xref ref="garbage-slopes"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="garbage-slopes"/>)
+				</p>
+			</aside>
 		</introduction>
 		<task>
 			<statement>

@@ -23,13 +23,15 @@
 			<introduction>
 				<p>
 					A pizza of diameter <m>D</m> inches serves <m>P</m> people where <me>P = 0.015625\, D^2.</me>
-					<em>
+				</p>
+				<aside>
+					<p>
 						(Story also appears in
 						<xref ref="pizza-diameter-powers-roots"/>, 
 						<xref ref="pizza-diameter-approx-solutions"/>, and 
 						<xref ref="pizza-diameter-modeling-linear"/>)
-					</em>
-				</p>
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -95,8 +97,12 @@
 					<me>
 						\displaystyle G = \frac{350}{F}
 					</me>
-					<em>(Story also appears in <xref ref="fuel-350-approx-solutions"/>)</em>
 				</p>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="fuel-350-approx-solutions"/>)
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -184,14 +190,14 @@
 			<p>
 				Wind turbines are used to generate electricity. For a particular wind turbine, the equation <me>W = 2.4 S^3</me> can be used to calculate the amount of electricity generated (<m>W</m> watts) for a given wind speed (<m>S</m> mph), over a fixed period of time.
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="name-vars-variables-functions"/>,
 					<xref ref="wind-turbine-rate-of-change"/>, and
 					<xref ref="wind-turbine-approx-solutions"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -215,14 +221,14 @@
 			<p>
 				Mom always said to sit close to the lamp when I was reading. The intensity of light <m>L</m>, measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <m>F</m> feet as described by the formula <me>L=\frac{100}{F^2}</me> 
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in
 					<xref ref="name-vars-variables-functions"/> and
 					<xref ref="lamp-intensity-using-equations"/>
 					)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -247,13 +253,13 @@
 				The lake by Rodney's condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. Rodney wonders what the annual percent increase of the bass has been and realizes he can calculate it from the number of fish now. He will use the equation <me>B=400 g^{10}</me> where <m>B</m> is the number of bass in the lake now and <m>g</m> is the annual growth factor. For each number of bass, first solve for <m>g</m> using the <xref ref="root-formula" text="title"/>, then calculate <m>r=g-1</m>. The percent increase is <m>r</m> written as a percent.
 			</p>
 
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="bass-fishing-algebraic-notation"/> and
 					<xref ref="bass-fishing-logistic-growth"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -341,9 +347,11 @@
 				Wynter has a pretty decent job. He is paid a salary of $780 per week but his hours vary week-to-week. Even though Wynter is not paid by the hour, he can figure out what his hourly wage would be depending on the number of hours he works using the equation <me>E = \frac{780}{H}</me> where if he works <m>H</m> hours, then he's earning the equivalent of $<m>E</m>/hour.
 			</p>
 			
-			<p>
-				<em>(Story also appears in <xref ref="salary-using-equations"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="salary-using-equations"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>

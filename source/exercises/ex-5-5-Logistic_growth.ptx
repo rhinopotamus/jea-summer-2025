@@ -293,12 +293,14 @@
 					<mrow>\textbf{saturation:}\qquad B\amp=4{,}000-3{,}600\ast0.78^Y </mrow>
 					<mrow>\textbf{logistic:}\qquad B\amp=\frac{4{,}000}{1+9 \ast 0.78^Y} </mrow>
 				</md>
-				<em>
+			</p>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="bass-fishing-algebraic-notation"/> and
 					<xref ref="bass-fishing-solving-power"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>

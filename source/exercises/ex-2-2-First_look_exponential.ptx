@@ -57,13 +57,14 @@
 			<introduction>
 				<p>
 					Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate.
-					<aside><p>
-						(Story also appears in 
-						<xref ref="bunnies-prelude-scientific-notation"/>
-						and 
-						<xref ref="bunnies-modeling-exponential"/>)
-					</p></aside>
 				</p>
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="bunnies-prelude-scientific-notation"/> and 
+						<xref ref="bunnies-modeling-exponential"/>)
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -103,12 +104,14 @@
 			<introduction>
 				<p>
 					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. 
-					<aside><p>
+				</p>
+				<aside>
+					<p>
 						(Story also appears in 
 						<xref ref="flu-dorm-modeling-exponential"/> and
 						<xref ref="sec-5-5-Logistic_growth" text="type-global" />)
-					</p></aside>
-				</p>
+					</p>
+				</aside>
 			</introduction>
 			<task workspace="0.75in">
 				<statement>
@@ -143,7 +146,9 @@
 					My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.
 				</p>
 				<aside>
-					<p>(Story also appears in <xref ref="savings-interest-percentages" />)</p>
+					<p>
+						(Story also appears in <xref ref="savings-interest-percentages" />)
+					</p>
 				</aside>
 			</introduction>
 			<task>
@@ -299,7 +304,9 @@
 			</p>
 			
 			<aside>
-				<p>(Story also appears in <xref ref="um-archivo-modeling-exponential"/>)</p>
+				<p>
+					(Story also appears in <xref ref="um-archivo-modeling-exponential"/>)
+				</p>
 			</aside>
 		</introduction>	
 		<task>
@@ -348,7 +355,9 @@
 			</aside>	
 		
 			<aside>
-				<p>(Story also appears in <xref ref="poultry-solving-exponential"/>)</p>
+				<p>
+					(Story also appears in <xref ref="poultry-solving-exponential"/>)
+				</p>
 			</aside>
 		</introduction>	
 		<task>

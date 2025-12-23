@@ -302,9 +302,11 @@
 					Source: Environmental Protection Agency
 				</p>
 			</aside>
-			<p>
-				<em>(Story also appears in <xref ref="garbage-fitting-lines"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="garbage-fitting-lines"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -429,9 +431,13 @@
 				If you rent a truck and drive it 10 miles, how much do you think it will cost? As part of your work, name the variables and write a linear equation relating them.
 			</p>
 			
-			<p>
-				<em>(Story also appears in <xref ref="truck-rental-tables-graphs"/> and <xref ref="truck-rental-rate-of-change"/>)</em>
-			</p>
+			<aside>
+				<p>
+					(Story also appears in 
+					<xref ref="truck-rental-tables-graphs"/> and 
+					<xref ref="truck-rental-rate-of-change"/>)
+				</p>
+			</aside>
 		</statement>
 	</exercise>
 

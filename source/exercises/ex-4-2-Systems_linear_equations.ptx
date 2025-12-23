@@ -78,12 +78,14 @@
 							T \amp= 59.99 + 1.00 M
 						</mrow>
 					</md>
-					<em>
-						(Story also appears in 
-						<xref ref="juan-coffee-order-operations" />, 
-						<xref ref="juan-coffee-tables-graphs" />, and 
-						<xref ref="juan-coffee-systems-linear"/>)
-					</em>
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="juan-coffee-order-operations" />, 
+							<xref ref="juan-coffee-tables-graphs" />, and 
+							<xref ref="juan-coffee-systems-linear"/>)
+						</p>
+					</aside>
 				</p>
 			</introduction>
 			<task>
@@ -201,9 +203,15 @@
 							S \amp= 20.3 + 0.2T
 						</mrow>
 					</md>
-					<em component="not-workbook">(Story also appears in <xref ref="check-linear-modeling-linear"/>)</em>
-					<em component="workbook">(Story also appears in <xref ref="sec-4-1-Modeling_linear_equations"/> Exercises)</em>
 				</p>
+				<aside>
+					<p component="not-workbook">
+						(Story also appears in <xref ref="check-linear-modeling-linear"/>)
+					</p>
+					<p component="workbook">
+						(Story also appears in <xref ref="sec-4-1-Modeling_linear_equations"/> Exercises)
+					</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -570,8 +578,12 @@
 						T \amp= 12{,}000 + 700Y 
 					</mrow>
 				</md>
-				<em>(Story also appears in <xref ref="solar-heating-modeling-linear"/>)</em>
 			</p>
+			<aside>
+				<p>
+					(Story also appears in <xref ref="solar-heating-modeling-linear"/>)
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
