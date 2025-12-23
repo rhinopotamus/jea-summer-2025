@@ -57,12 +57,12 @@
 			<introduction>
 				<p>
 					Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate.
-					<em>
+					<aside><p>
 						(Story also appears in 
 						<xref ref="bunnies-prelude-scientific-notation"/>
 						and 
 						<xref ref="bunnies-modeling-exponential"/>)
-					</em>
+					</p></aside>
 				</p>
 			</introduction>
 			<task>
@@ -103,11 +103,11 @@
 			<introduction>
 				<p>
 					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. 
-					<em>
+					<aside><p>
 						(Story also appears in 
 						<xref ref="flu-dorm-modeling-exponential"/> and
 						<xref ref="sec-5-5-Logistic_growth" text="type-global" />)
-					</em>
+					</p></aside>
 				</p>
 			</introduction>
 			<task workspace="0.75in">
@@ -142,9 +142,9 @@
 				<p>
 					My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.
 				</p>
-				<p>
-					<em>(Story also appears in <xref ref="savings-interest-percentages" />)</em>
-				</p>
+				<aside>
+					<p>(Story also appears in <xref ref="savings-interest-percentages" />)</p>
+				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -199,11 +199,11 @@
 			<p>
 				Mai's salary was $78,000 before she got a 6% raise. Now the economy was not doing as well and she got only a 1.5% raise this year.
 			</p>
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in <xref ref="raises-percentages"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -244,12 +244,12 @@
 				The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year.
 			</p>
 			
-			<p>
-				<em>
+			<aside>
+				<p>
 					(Story also appears in 
 					<xref ref="sp-household-solving-exponential"/>)
-				</em>
-			</p>
+				</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -298,9 +298,9 @@
 				Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually.
 			</p>
 			
-			<p>
-				<em>(Story also appears in <xref ref="um-archivo-modeling-exponential"/>)</em>
-			</p>
+			<aside>
+				<p>(Story also appears in <xref ref="um-archivo-modeling-exponential"/>)</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -347,9 +347,9 @@
 				</p>
 			</aside>	
 		
-			<p>
-				<em>(Story also appears in <xref ref="poultry-solving-exponential"/>)</em>
-			</p>
+			<aside>
+				<p>(Story also appears in <xref ref="poultry-solving-exponential"/>)</p>
+			</aside>
 		</introduction>	
 		<task>
 			<statement>
