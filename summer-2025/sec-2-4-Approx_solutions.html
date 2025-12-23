@@ -103,15 +103,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.6';
+eBookConfig.runestone_version = '7.11.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/prefix-runtime.49eb29f446982553.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.8afc9108798b9170.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -624,25 +624,25 @@ Y \amp= \text{ time (years since 2024) } \sim \text{ indep}
 \end{align*}
 </div>
 <div class="para">Since there is a fixed percentage growth, or at least that’s what we’re assuming, the population grows exponentially. The template for an exponential equation is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-6-2">
 \begin{equation*}
 \text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}
 \end{equation*}
 </div>
 <div class="para">For India’s population, we know that the growth rate is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-6-3">
 \begin{equation*}
 r=0.72\% = \frac{0.72}{100} = 0.72 \div 100 = 0.0072
 \end{equation*}
 </div>
 <div class="para">so the corresponding growth factor is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-6-4">
 \begin{equation*}
 g=1+r=1+0.0072=1.0072
 \end{equation*}
 </div>
 <div class="para">We also know that the starting population is 1.409 billion in 2024. We’re good to go. The equation is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-6-5">
 \begin{equation*}
 P = 1.409 \ast 1.0072^Y
 \end{equation*}
@@ -663,7 +663,7 @@ P = 1.409 \ast 1.0072^Y
 <div class="para logical" id="ss-2-4-india-1-6-10">
 <div class="para">Since we can easily check and see if any number is a solution, one way to find the solution is to <dfn class="terminology">guess and check</dfn>. Let’s try that to determine when India’s population will pass 1.6 billion people. Since we’re not sure where to start, let’s see what the equation projects for 2025, when <span class="process-math">\(Y=1\text{.}\)</span>
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-10-3">
 \begin{equation*}
 P=1.409 \ast 1.0072^1 = 1.409 \times 1.0072 \wedge \underline{1} = 1.4191448\ldots \approx 1.419 \text{ billion}
 \end{equation*}
@@ -676,13 +676,13 @@ P=1.409 \ast 1.0072^1 = 1.409 \times 1.0072 \wedge \underline{1} = 1.4191448\ldo
 </div>
 <div class="para logical" id="ss-2-4-india-1-6-11">
 <div class="para">What about in 5 years? The corresponding population is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-11-1">
 \begin{equation*}
 P=1.409 \ast 1.0072^5 = 1.409 \times 1.0072 \wedge \underline{5} = 1.4604597\approx  1.460\text{ billion}
 \end{equation*}
 </div>
 <div class="para">Less than 1.6 billion. Let’s try <span class="process-math">\(Y=10\text{.}\)</span> The equation gives us</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-11-3">
 \begin{equation*}
 P=1.409 \ast 1.0072^{10} = 1.409 \times 1.0072 \wedge \underline{10} = 1.5137988 \approx 1.514 \text{ billion}
 \end{equation*}
@@ -692,7 +692,7 @@ P=1.409 \ast 1.0072^{10} = 1.409 \times 1.0072 \wedge \underline{10} = 1.5137988
 </div>
 <div class="para logical" id="ss-2-4-india-1-6-12">
 <div class="para">This is going slowly. We would really like to find a point at which the equation gives us more than 1.6 billion. Then we can work backwards from there to narrow things down. How about 50 years?</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-12-1">
 \begin{equation*}
 P=1.409 \ast 1.0072^{50} = 1.409 \times 1.0072 \wedge \underline{50} = 2.016958  \approx 2.017\text{ billion}
 \end{equation*}
@@ -790,7 +790,7 @@ P=1.409 \ast 1.0072^{50} = 1.409 \times 1.0072 \wedge \underline{50} = 2.016958 
 </h4>
 <div class="para logical" id="act-2-4-check-1-1">
 <div class="para">It’s good practice to check that when you evaluate, and then round appropriately, you get the same numbers we’ve written down in the textbook. Remember, our equation is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="act-2-4-check-1-1-1">
 \begin{equation*}
 P = 1.049 \ast 1.0072^Y
 \end{equation*}
@@ -820,7 +820,7 @@ P = 1.049 \ast 1.0072^Y
 </ol>
 <div class="autopermalink" data-description="Activity 2.4.3"><a href="#act-2-4-check" title="Copy heading and permalink for Activity 2.4.3" aria-label="Copy heading and permalink for Activity 2.4.3">🔗</a></div></article><div class="para logical" id="ss-2-4-india-1-6-19">
 <div class="para">According to our equation, the population of the India should pass 1.6 billion after 17 years, which would be in the year 2028. By the way, it works to add the year and number.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-2-4-india-1-6-19-1">
 \begin{equation*}
 2024 + 17 \text{ years } = 2041
 \end{equation*}
@@ -902,7 +902,7 @@ P = 1.049 \ast 1.0072^Y
 </div></section><article class="exercise exercise-like" id="pizza-diameter-approx-solutions"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="pizza-diameter-approx-solutions-1"><div class="para logical" id="pizza-diameter-approx-solutions-1-1">
 <div class="para">The size of a round pizza is described by its <dfn class="terminology">diameter</dfn> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <span class="process-math">\(D\)</span> inches serves <span class="process-math">\(P\)</span> people, where</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/pizza-diameter-powers-roots.html ./knowl/xref/pizza-diameter-modeling-linear.html ./knowl/xref/pizza-diameter-solving-power.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/pizza-diameter-powers-roots.html ./knowl/xref/pizza-diameter-modeling-linear.html ./knowl/xref/pizza-diameter-solving-power.html" id="pizza-diameter-approx-solutions-1-1-4">
 \begin{equation*}
 P = 0.015625\ D^2
 \end{equation*}
@@ -1005,7 +1005,8 @@ P = 0.015625\ D^2
 </div></div>
 <article class="task exercise-like" id="fuel-350-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="fuel-350-approx-solutions-2-1-1">Name the variables, including units. The way the story is stated, the size tank is a function of the fuel efficiency.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="tabular-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><table class="tabular">
+</div> <div class="para" id="fuel-350-approx-solutions-2-1-2">
+<div class="tabular-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r0 l1 t1 lines">letter</th>
 <th scope="col" class="c m b1 r0 l0 t1 lines">=</th>
@@ -1031,6 +1032,8 @@ P = 0.015625\ D^2
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 </table></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="autopermalink" data-description="Task 2.a"><a href="#fuel-350-approx-solutions-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div></article><article class="task exercise-like" id="fuel-350-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="fuel-350-approx-solutions-3-1-1">Write an equation describing this function.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-approx-solutions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -1123,7 +1126,7 @@ P = 0.015625\ D^2
 </div> <div class="autopermalink" data-description="Task 2.e"><a href="#fuel-350-approx-solutions-6" title="Copy heading and permalink for Task 2.e" aria-label="Copy heading and permalink for Task 2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2"><a href="#fuel-350-approx-solutions" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="monty-orchids-approx-solutions"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="monty-orchids-approx-solutions-1"><div class="para logical" id="monty-orchids-approx-solutions-1-1">
 <div class="para">Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <span class="process-math">\(S\text{,}\)</span> the probability his greenhouse is a success, <span class="process-math">\(P\text{,}\)</span> is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/monty-orchids-using-equations.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/monty-orchids-using-equations.html" id="monty-orchids-approx-solutions-1-1-3">
 \begin{equation*}
 P= 10S^9-9S^{10}
 \end{equation*}
@@ -1276,7 +1279,7 @@ P= 10S^9-9S^{10}
 <div class="introduction" id="pop-china-approx-solutions-1">
 <div class="para logical" id="pop-china-approx-solutions-1-1">
 <div class="para">The population of China in 2011 was approximately 1.343 billion and growing at around 0.48% per year. An equation estimating the population of China is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="pop-china-approx-solutions-1-1-1">
 \begin{equation*}
 P = 1.343 \ast 1.0048^Y
 \end{equation*}
@@ -1303,7 +1306,7 @@ P = 1.343 \ast 1.0048^Y
 <div class="introduction" id="electronics-sales-approx-solutions-1">
 <div class="para logical" id="electronics-sales-approx-solutions-1-1">
 <div class="para">A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. Their sales <span class="process-math">\(M\)</span> in millions of dollars <span class="process-math">\(Y\)</span> years from 1996 is given by the following equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="electronics-sales-approx-solutions-1-1-3">
 \begin{equation*}
 M = 104.4+11.5Y-1.4Y^2
 \end{equation*}
@@ -1327,7 +1330,7 @@ M = 104.4+11.5Y-1.4Y^2
 <div class="introduction" id="window-glass-approx-solutions-1">
 <div class="para logical" id="window-glass-approx-solutions-1-1">
 <div class="para">Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If two panes of this glass are used, the product is 2 inches thick and lets in 56.25% since</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="window-glass-approx-solutions-1-1-1">
 \begin{equation*}
 75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%
 \end{equation*}
@@ -1357,7 +1360,7 @@ M = 104.4+11.5Y-1.4Y^2
 <div class="introduction" id="wind-turbine-approx-solutions-1">
 <div class="para logical" id="wind-turbine-approx-solutions-1-1">
 <div class="para">Wind turbines are used to generate electricity. For a particular wind turbine, the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="wind-turbine-approx-solutions-1-1-1">
 \begin{equation*}
 W = 2.4 S^3
 \end{equation*}
@@ -1382,7 +1385,7 @@ W = 2.4 S^3
 <div class="introduction" id="bac-approx-solutions-1">
 <div class="para logical" id="bac-approx-solutions-1-1">
 <div class="para">After his first beer, Stephen’s blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="bac-approx-solutions-1-1-1">
 \begin{equation*}
 S = 0.04 \ast 1.45^H
 \end{equation*}
@@ -1407,7 +1410,7 @@ S = 0.04 \ast 1.45^H
 <div class="introduction" id="gravel-path-approx-solutions-1">
 <div class="para logical" id="gravel-path-approx-solutions-1-1">
 <div class="para">Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10′<span class="process-math">\(\times\)</span>25′ vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<span class="process-math">\(G\)</span> cubic feet) is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="gravel-path-approx-solutions-1-1-5">
 \begin{equation*}
 G = W^2 + 17.5W
 \end{equation*}

@@ -103,15 +103,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.6';
+eBookConfig.runestone_version = '7.11.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/prefix-runtime.49eb29f446982553.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.8afc9108798b9170.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -567,7 +567,7 @@ eBookConfig.enable_chatcodes =  false;
 </h3>
 <div class="para logical" id="ss-3-5-juggling-2">
 <div class="para">Claude likes to juggle. As he throws a beanbag up in the air, the height changes over time as described by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-juggling-2-1">
 \begin{equation*}
 H = 3+15T-16T^2
 \end{equation*}
@@ -584,13 +584,13 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </div>
 <div class="para logical" id="ss-3-5-juggling-3">
 <div class="para">Let’s make a table and graph this function. For example, when <span class="process-math">\(T=0\)</span> seconds we have</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-juggling-3-2">
 \begin{equation*}
 H = 3 + 15 \ast 0-16 \ast 0^2 = 3 + 15 \times \underline{0} - 16 \times \underline{0} \wedge 2 =  3 \text{ feet}
 \end{equation*}
 </div>
 <div class="para">and when <span class="process-math">\(T=1\)</span> second we have</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-juggling-3-4">
 \begin{equation*}
 H = 3 + 15  \ast 1-16 \ast 1^2 = 3 + 15 \times \underline{1} - 16 \times \underline{1} \wedge 2 =  2 \text{ feet}
 \end{equation*}
@@ -671,7 +671,7 @@ H = 3 + 15  \ast 1-16 \ast 1^2 = 3 + 15 \times \underline{1} - 16 \times \underl
 </h4>
 <div class="para logical" id="act-3-5-highjump-approx-1-1">
 <div class="para">A high-jumper jumps so that the height, <span class="process-math">\(H\)</span> feet, of the point on his back that must clear the bar after <span class="process-math">\(T\)</span> seconds is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="act-3-5-highjump-approx-1-1-3">
 \begin{equation*}
 H = 3.5 + 16T -16T^2\text{.}
 \end{equation*}
@@ -735,7 +735,7 @@ H = 3.5 + 16T -16T^2\text{.}
 </h3>
 <div class="para logical" id="ss-3-5-solving-quadratic-2">
 <div class="para">In this chapter we’ve seen how to solve linear, power, and exponential equations. Let’s solve this equation too. By the way, our function is quadratic because</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-2-1">
 \begin{equation*}
 H = 3+15T-16T^2
 \end{equation*}
@@ -745,7 +745,7 @@ H = 3+15T-16T^2
 </div>
 <article class="assemblage assemblage-like" id="quadratic-equation-template"><h4 class="heading"><span class="title">Quadratic Equation Template</span></h4>
 <div class="para logical" id="quadratic-equation-template-2">
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="quadratic-equation-template-2-1">
 \begin{equation*}
 \text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c
 \end{equation*}
@@ -754,7 +754,7 @@ H = 3+15T-16T^2
 </div>
 <div class="autopermalink" data-description="Assemblage: Quadratic Equation Template"><a href="#quadratic-equation-template" title="Copy heading and permalink for Assemblage: Quadratic Equation Template" aria-label="Copy heading and permalink for Assemblage: Quadratic Equation Template">🔗</a></div></article><div class="para logical" id="ss-3-5-solving-quadratic-4">
 <div class="para">with constants</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-4-1">
 \begin{equation*}
 a = -16 \quad b = 15 \quad c = 3
 \end{equation*}
@@ -764,7 +764,7 @@ a = -16 \quad b = 15 \quad c = 3
 </div>
 <div class="para logical" id="ss-3-5-solving-quadratic-5">
 <div class="para">Back to our juggler. We are trying to figure out when <span class="process-math">\(H=0\text{.}\)</span> Using our equation <span class="process-math">\(H=3+15T-16T^2\text{,}\)</span> we get</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-5-3">
 \begin{equation*}
 3+15T-16T^2=0\text{.}
 \end{equation*}
@@ -775,7 +775,7 @@ a = -16 \quad b = 15 \quad c = 3
 <article class="assemblage assemblage-like" id="quadratic-formula"><h4 class="heading"><span class="title">Quadratic Formula</span></h4>
 <div class="para logical" id="quadratic-formula-2">
 <div class="para">The equation <span class="process-math">\(aT^2+bT+c=0\)</span> has solutions</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="quadratic-formula-2-2">
 \begin{equation*}
 T = \frac{-b}{2a} \pm \frac{\sqrt{b^2-4ac}}{2a}
 \end{equation*}
@@ -784,7 +784,7 @@ T = \frac{-b}{2a} \pm \frac{\sqrt{b^2-4ac}}{2a}
 </div>
 <div class="autopermalink" data-description="Assemblage: Quadratic Formula"><a href="#quadratic-formula" title="Copy heading and permalink for Assemblage: Quadratic Formula" aria-label="Copy heading and permalink for Assemblage: Quadratic Formula">🔗</a></div></article><div class="para logical" id="ss-3-5-solving-quadratic-7">
 <div class="para">Oh my! First thing to understand in this complicated formula is that because of the “<span class="process-math">\(\pm\)</span>”, which we pronounce “plus or minus”, we actually get two possible answers:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-7-3">
 \begin{equation*}
 T = \frac{-b}{2a}+ \frac{\sqrt{b^2-4ac}}{2a} 
 \quad \text{and} \quad 
@@ -796,25 +796,25 @@ T = \frac{-b}{2a} - \frac{\sqrt{b^2-4ac}}{2a}\text{.}
 </div>
 <div class="para logical" id="ss-3-5-solving-quadratic-8">
 <div class="para">For Claude’s situation we had</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-8-1">
 \begin{equation*}
 3+15T-16T^2=0\text{.}
 \end{equation*}
 </div>
 <div class="para">To fit the formula, we need the <span class="process-math">\(T^2\)</span> first, the <span class="process-math">\(T\)</span> second, and then the constant. No sweat, just reorder to get</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-8-4">
 \begin{equation*}
 -16T^2 + 15T + 3=0\text{.}
 \end{equation*}
 </div>
 <div class="para">Notice how subtracting <span class="process-math">\(16T^2\)</span> became adding <span class="process-math">\(-16T^2\)</span> when we rearranged? That lines up perfectly with</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-8-7">
 \begin{equation*}
 aT^2+bT+c=0\text{.}
 \end{equation*}
 </div>
 <div class="para">That’s how we knew the constants were</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-8-8">
 \begin{equation*}
 a = -16 \quad b = 15 \quad c = 3\text{.}
 \end{equation*}
@@ -823,7 +823,7 @@ a = -16 \quad b = 15 \quad c = 3\text{.}
 </div>
 <div class="para logical" id="ss-3-5-solving-quadratic-9">
 <div class="para">The first fraction in the formula is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-9-1">
 \begin{equation*}
 \frac{-b}{2a} = \frac{-15}{2\ast-16} =  \text{(-)}15 \div (2 \times \text{(-)}16) = 0.46875
 \end{equation*}
@@ -845,13 +845,13 @@ a = -16 \quad b = 15 \quad c = 3\text{.}
 </div>
 <div class="para logical" id="ss-3-5-solving-quadratic-11">
 <div class="para">Oh, and we’re not done yet. Remember there are two possible answers. One is the sum of these two numbers:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-11-1">
 \begin{equation*}
 0.46875 +  \text{(-)}0.43814 = -0.46939 \text{ seconds}\text{,}
 \end{equation*}
 </div>
 <div class="para">which doesn’t make any sense because time is never negative. The other is the difference:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-solving-quadratic-11-2">
 \begin{equation*}
 0.46875 -  \text{(-)}0.43814 = 1.10689 \text{ seconds}\text{.}
 \end{equation*}
@@ -864,7 +864,7 @@ a = -16 \quad b = 15 \quad c = 3\text{.}
 </h4>
 <div class="para logical" id="act-3-5-highjump-exact-1-1">
 <div class="para">A high-jumper jumps so that the height, <span class="process-math">\(H\)</span> feet, of the point on his back that must clear the bar after <span class="process-math">\(T\)</span> seconds is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="act-3-5-highjump-exact-1-1-3">
 \begin{equation*}
 H = 3.5 + 16T -16T^2\text{.}
 \end{equation*}
@@ -892,13 +892,13 @@ H = 3.5 + 16T -16T^2\text{.}
 </h3>
 <div class="para logical" id="ss-3-5-quadratic-nonzero-2">
 <div class="para">Wait a minute! Any good juggler isn’t about to let the beanbag fall on the ground. He’s going to catch it again, perhaps at about <span class="process-math">\(3\tfrac12\)</span> feet above ground. That means we’re looking for <span class="process-math">\(H=3.5\text{.}\)</span> Using our equation <span class="process-math">\(H=3+15T-16T^2\text{,}\)</span> we get</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html" id="ss-3-5-quadratic-nonzero-2-4">
 \begin{equation*}
 3+15T-16T^2=3.5\text{.}
 \end{equation*}
 </div>
 <div class="para">The <a href="sec-3-5-Solving_quadratic_equations.html#quadratic-formula" class="xref" data-knowl="./knowl/xref/quadratic-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Quadratic Formula">Quadratic Formula</a> only works if the equation has <span class="process-math">\(=0\text{,}\)</span> but we have <span class="process-math">\(=3.5\text{.}\)</span> It might seem that we’re out of luck, but it’s an easy fix. Just subtract 3.5 from each side.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html" id="ss-3-5-quadratic-nonzero-2-8">
 \begin{equation*}
 \begin{array}{lcr}
 \phantom{-3.}3+1.5T-16T^2 \amp = \amp \cancel{3.5} \\
@@ -907,7 +907,7 @@ H = 3.5 + 16T -16T^2\text{.}
 \end{equation*}
 </div>
 <div class="para">which simplifies to</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html" id="ss-3-5-quadratic-nonzero-2-9">
 \begin{equation*}
 -0.5+15T -16T^2 = 0\text{.}
 \end{equation*}
@@ -917,19 +917,19 @@ H = 3.5 + 16T -16T^2\text{.}
 </div>
 <div class="para logical" id="ss-3-5-quadratic-nonzero-3">
 <div class="para">We can write the new equation as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html" id="ss-3-5-quadratic-nonzero-3-1">
 \begin{equation*}
 -16T^2 + 15T -0.5= 0\text{,}
 \end{equation*}
 </div>
 <div class="para">from which we see that</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html" id="ss-3-5-quadratic-nonzero-3-2">
 \begin{equation*}
 a = -16 \quad b = 15
 \end{equation*}
 </div>
 <div class="para">as before, but now we have a new value</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html" id="ss-3-5-quadratic-nonzero-3-3">
 \begin{equation*}
 c=-0.5\text{.}
 \end{equation*}
@@ -939,7 +939,7 @@ c=-0.5\text{.}
 </div>
 <div class="para logical" id="ss-3-5-quadratic-nonzero-4">
 <div class="para">The first fraction is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-quadratic-nonzero-4-1">
 \begin{equation*}
 \frac{-b}{2a} = \frac{-(15)}{2 \ast -16} =  \text{(-)}15 \div (2 \times  \text{(-)}16) = 0.46875
 \end{equation*}
@@ -956,13 +956,13 @@ c=-0.5\text{.}
 </div>
 <div class="para logical" id="ss-3-5-quadratic-nonzero-5">
 <div class="para">Don’t forget we need to put together these parts to find the possible answers. The sum gives us</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-quadratic-nonzero-5-1">
 \begin{equation*}
 0.46875 +  \text{(-)}0.43414 = 0.03461 \approx 0.03 \text{ seconds}
 \end{equation*}
 </div>
 <div class="para">and the difference gives us</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-quadratic-nonzero-5-2">
 \begin{equation*}
 0.46875 -  \text{(-)}0.43414 = 0.90289 \approx 0.9 \text{ seconds}
 \end{equation*}
@@ -976,7 +976,7 @@ c=-0.5\text{.}
 </h4>
 <div class="para logical" id="act-3-5-highjump-nonzero-1-1">
 <div class="para">A high-jumper jumps so that the height, <span class="process-math">\(H\)</span> feet, of the point on his back that must clear the bar after <span class="process-math">\(T\)</span> seconds is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="act-3-5-highjump-nonzero-1-1-3">
 \begin{equation*}
 H = 3.5 + 16T -16T^2\text{.}
 \end{equation*}
@@ -1002,7 +1002,7 @@ H = 3.5 + 16T -16T^2\text{.}
 </div>
 <div class="para logical" id="ss-3-5-vertex-3">
 <div class="para">Turns out it’s easy to find that point for a quadratic equation, just plug in the first fraction from the Quadratic Formula! Check it out. When</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-vertex-3-1">
 \begin{equation*}
 T = \frac{-b}{2a} = 
 \frac{-15}{2 \ast -16}=  
@@ -1019,7 +1019,7 @@ H \amp= 3 + 15 \ast 0.46875-16 \ast 0.46875^2\\
 \end{align*}
 </div>
 <div class="para">Claude throws the beanbag about 6.516 feet up. Converting to more normal units we get</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-5-vertex-3-3">
 \begin{equation*}
 0.516 \cancel{\text{ feet}} \ast \frac{12 \text{ inches}}{\cancel{\text{ feet}}} = 0.516 \times 12 = 6.192 \approx 6 \text{ inches}
 \end{equation*}
@@ -1032,7 +1032,7 @@ H \amp= 3 + 15 \ast 0.46875-16 \ast 0.46875^2\\
 </h4>
 <div class="para logical" id="act-3-5-highjump-vertex-1-1">
 <div class="para">A high-jumper jumps so that the height, <span class="process-math">\(H\)</span> feet, of the point on his back that must clear the bar after <span class="process-math">\(T\)</span> seconds is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="act-3-5-highjump-vertex-1-1-3">
 \begin{equation*}
 H = 3.5 + 16T -16T^2\text{.}
 \end{equation*}
@@ -1056,7 +1056,7 @@ H = 3.5 + 16T -16T^2\text{.}
 </h3>
 <div class="para logical" id="ss-3-5-parabola-2">
 <div class="para">In general, the graph of <span class="process-math">\(H = aT^2+bT+c\)</span> is a <dfn class="terminology">parabola</dfn>. The two solutions from the <a href="sec-3-5-Solving_quadratic_equations.html#quadratic-formula" class="xref" data-knowl="./knowl/xref/quadratic-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Quadratic Formula">Quadratic Formula</a> are both places where <span class="process-math">\(H=0\)</span> (we give them the fancy name <dfn class="terminology">roots</dfn>) and, so, the graph crosses the <span class="process-math">\(T\)</span>-axis there. Might not make sense in the real problem, but the equation and formula don’t know that. (Okay, equations and formulas don’t actually “know” anything. But you get my point.) Turns out the graph is symmetric about the highest point, so that must be midway in between the roots which is exactly where</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/quadratic-formula.html" id="ss-3-5-parabola-2-8">
 \begin{equation*}
 T =\frac{-b}{2a}
 \end{equation*}
@@ -1139,7 +1139,7 @@ T =\frac{-b}{2a}
 <div class="introduction" id="high-jumper-solving-quadratic-1">
 <div class="para logical" id="high-jumper-solving-quadratic-1-1">
 <div class="para">A high-jumper jumps so that the height, <span class="process-math">\(H\)</span> feet, of the point on his back that must clear the bar after <span class="process-math">\(T\)</span> seconds is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="high-jumper-solving-quadratic-1-1-3">
 \begin{equation*}
 H = 3.5 + 16T -16T^2
 \end{equation*}
@@ -1161,7 +1161,7 @@ H = 3.5 + 16T -16T^2
 <div class="autopermalink" data-description="Task 1.c"><a href="#high-jumper-solving-quadratic-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1"><a href="#high-jumper-solving-quadratic" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="art-museum-solving-quadratic"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="art-museum-solving-quadratic-1"><div class="para logical" id="art-museum-solving-quadratic-1-1">
 <div class="para">The art museum opened in 1920. After an initial rush to see the great holdings, attendance dropped for awhile. But then attendance began to rise again and has risen since. The number of annual visits <span class="process-math">\(N\)</span> is approximated by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="art-museum-solving-quadratic-1-1-2">
 \begin{equation*}
 N= 51T^2-840T+3{,}700
 \end{equation*}
@@ -1221,7 +1221,7 @@ N= 51T^2-840T+3{,}700
 <div class="autopermalink" data-description="Task 2.f"><a href="#art-museum-solving-quadratic-7" title="Copy heading and permalink for Task 2.f" aria-label="Copy heading and permalink for Task 2.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2"><a href="#art-museum-solving-quadratic" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="milk-profit-solving-quadratic"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="milk-profit-solving-quadratic-1"><div class="para logical" id="milk-profit-solving-quadratic-1-1">
 <div class="para">The profit $<span class="process-math">\(P\)</span> from selling <span class="process-math">\(M\)</span> tanks of milk is described by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="milk-profit-solving-quadratic-1-1-3">
 \begin{equation*}
 P=-2M^2+2{,}000M-80{,}000
 \end{equation*}
@@ -1248,7 +1248,7 @@ P=-2M^2+2{,}000M-80{,}000
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/GravelPath.png" class="contained"></div>
 <div class="para logical" id="gravel-path-quadratic-1-3">
 <div class="para">The amount of gravel we need (<span class="process-math">\(G\)</span> cubic feet) is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="gravel-path-quadratic-1-3-2">
 \begin{equation*}
 G = W^2 + 17.5W
 \end{equation*}
@@ -1285,7 +1285,7 @@ G = W^2 + 17.5W
 <div class="introduction" id="braking-distance-solving-quadratic-1">
 <div class="para logical" id="braking-distance-solving-quadratic-1-1">
 <div class="para">The stopping distance for Jeff’s Cadillac Escalade is given by</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="braking-distance-solving-quadratic-1-1-1">
 \begin{equation*}
 D=0.04S^2+1.47S
 \end{equation*}
@@ -1307,7 +1307,7 @@ D=0.04S^2+1.47S
 <div class="introduction" id="backpacks-solving-quadratic-1">
 <div class="para logical" id="backpacks-solving-quadratic-1-1">
 <div class="para">A company produces backpacks. The more they make, the less it costs for each one. The cost per backpack is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="backpacks-solving-quadratic-1-1-1">
 \begin{equation*}
 C = 0.01B^2 -1.2B + 50
 \end{equation*}
@@ -1332,7 +1332,7 @@ C = 0.01B^2 -1.2B + 50
 <div class="introduction" id="grilling-fish-solving-quadratic-1">
 <div class="para logical" id="grilling-fish-solving-quadratic-1-1">
 <div class="para">Mrs. Weber’s cooking class came up with the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="grilling-fish-solving-quadratic-1-1-1">
 \begin{equation*}
 M = 1.2F^2+4F+7
 \end{equation*}
@@ -1353,7 +1353,7 @@ M = 1.2F^2+4F+7
 <div class="autopermalink" data-description="Task 8.b"><a href="#grilling-fish-solving-quadratic-3" title="Copy heading and permalink for Task 8.b" aria-label="Copy heading and permalink for Task 8.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 8"><a href="#grilling-fish-solving-quadratic" title="Copy heading and permalink for Exercise 8" aria-label="Copy heading and permalink for Exercise 8">🔗</a></div></article><article class="exercise exercise-like" id="electronics-sales-solving-quadratic"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="electronics-sales-solving-quadratic-1"><div class="para logical" id="electronics-sales-solving-quadratic-1-1">
 <div class="para">A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. Their sales <span class="process-math">\(M\)</span> in millions of $ <span class="process-math">\(Y\)</span> years from 1996 is given by the following equation</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/electronics-sales-approx-solutions.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/electronics-sales-approx-solutions.html" id="electronics-sales-solving-quadratic-1-1-3">
 \begin{equation*}
 M = 104.4+11.5Y-1.4Y^2
 \end{equation*}
@@ -1373,7 +1373,7 @@ M = 104.4+11.5Y-1.4Y^2
 <div class="autopermalink" data-description="Task 9.c"><a href="#electronics-sales-solving-quadratic-4" title="Copy heading and permalink for Task 9.c" aria-label="Copy heading and permalink for Task 9.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 9"><a href="#electronics-sales-solving-quadratic" title="Copy heading and permalink for Exercise 9" aria-label="Copy heading and permalink for Exercise 9">🔗</a></div></article><article class="exercise exercise-like" id="kangaroo-solving-quadratic"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="kangaroo-solving-quadratic-1"><div class="para logical" id="kangaroo-solving-quadratic-1-1">
 <div class="para">A kangaroo hops up in the air (and out) from a 10 foot cliff. Her height above the ground, <span class="process-math">\(K\)</span> feet, after <span class="process-math">\(T\)</span> seconds is given by the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="kangaroo-solving-quadratic-1-1-3">
 \begin{equation*}
 K = 10 + 5.2T - 4.88T^2
 \end{equation*}

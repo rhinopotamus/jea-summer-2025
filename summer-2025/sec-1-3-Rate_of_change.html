@@ -103,15 +103,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.6';
+eBookConfig.runestone_version = '7.11.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/prefix-runtime.49eb29f446982553.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.8afc9108798b9170.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -627,13 +627,13 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </div>
 <div class="para logical" id="ss-1-3-diver-5">
 <div class="para">How fast is she moving? The diver starts at 3 meters, which is the height of the springboard, and 0.2 seconds later she’s up to 3.88 meters. That means during the first 0.2 seconds, the diver went up</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-diver-5-1">
 \begin{equation*}
 3.88-3 = 0.88 \text{ meters}
 \end{equation*}
 </div>
 <div class="para">Her speed is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-diver-5-2">
 \begin{equation*}
 \frac{0.88 \text{ meters}}{0.2 \text{ seconds}} = 0.88 \div 0.2 = 4.4 \text{ meters/sec}
 \end{equation*}
@@ -683,13 +683,13 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </h3>
 <div class="para logical" id="ss-1-3-different-speeds-2">
 <div class="para">Back to the diver: What about during the next 0.2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these 0.2 seconds she rose</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-different-speeds-2-1">
 \begin{equation*}
 4.38-3.88 = 0.50 \text{ meters}
 \end{equation*}
 </div>
 <div class="para">That’s less than before (since <span class="process-math">\(0.50 &lt; 0.88\)</span>), which means she is going slower. Let’s double check by calculating her speed.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-different-speeds-2-3">
 \begin{equation*}
 \frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}
 \end{equation*}
@@ -699,13 +699,13 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </div>
 <div class="para logical" id="ss-1-3-different-speeds-3">
 <div class="para">Let’s take a look at this calculation again. Here’s what we did.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/order-operations.html ./knowl/xref/sec-0-4-Order_of_operations.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/order-operations.html ./knowl/xref/sec-0-4-Order_of_operations.html" id="ss-1-3-different-speeds-3-1">
 \begin{equation*}
 \text{speed} =  \frac{4.38-3.88 \text{ meters}}{0.4-0.2 \text{ seconds}} = \frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}
 \end{equation*}
 </div>
 <div class="para">There is a way to do the entire calculation at once on your calculator.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/order-operations.html ./knowl/xref/sec-0-4-Order_of_operations.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/order-operations.html ./knowl/xref/sec-0-4-Order_of_operations.html" id="ss-1-3-different-speeds-3-2">
 \begin{equation*}
 (4.38-3.88) \div (0.4-0.2)=2.5 \text{ meters/sec}
 \end{equation*}
@@ -715,7 +715,7 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </div>
 <div class="para logical" id="ss-1-3-different-speeds-4">
 <div class="para">Notice that we are subtracting <dfn class="terminology">like terms</dfn>: meters from meters and then seconds from seconds. It would not make sense to mix. Think:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-different-speeds-4-2">
 \begin{equation*}
 \text{children} -  \text{cookies} = \text{crying}
 \end{equation*}
@@ -727,7 +727,7 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </div>
 <article class="assemblage assemblage-like" id="rate-of-change"><h4 class="heading"><span class="title">Rate of Change Formula</span></h4>
 <div class="para logical" id="rate-of-change-2">
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="rate-of-change-2-1">
 \begin{equation*}
 \text{rate of change } = \frac{\text{change dep}}{\text{change indep}} = \frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}}
 \end{equation*}
@@ -737,7 +737,7 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 <div class="autopermalink" data-description="Assemblage: Rate of Change Formula"><a href="#rate-of-change" title="Copy heading and permalink for Assemblage: Rate of Change Formula" aria-label="Copy heading and permalink for Assemblage: Rate of Change Formula">🔗</a></div></article><div class="para" id="ss-1-3-different-speeds-7">Notice how the change in dependent variable (height, in meters) is on top of the fraction and the change in independent variable (time, in seconds) is on the bottom. That makes sense in our example because speed is measured in meters/second. The units can help you keep that straight.<div class="autopermalink" data-description="Paragraph"><a href="#ss-1-3-different-speeds-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="assemblage assemblage-like" id="ss-1-3-different-speeds-8"><div class="para logical" id="ss-1-3-different-speeds-8-1">
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-different-speeds-8-1-1">
 \begin{equation*}
 \text{units for rate of change} = \frac{\text{units for dep}}{\text{units for indep}}
 \end{equation*}
@@ -786,13 +786,13 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </h3>
 <div class="para logical" id="ss-1-3-even-more-diver-2">
 <div class="para">Back to our diver. During the next time interval she’s moving even slower.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-even-more-diver-2-1">
 \begin{equation*}
 \text{speed} = \frac{4.48-4.38 \text{ meters}}{0.6-0.4 \text{ seconds}}= \frac{0.1 \text{ meters}}{0.2 \text{ seconds}} = 0.1 \div 0.2 = 0.5 \text{ meters/sec.}
 \end{equation*}
 </div>
 <div class="para">And look what happens when we calculate her speed during the next time interval.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-even-more-diver-2-2">
 \begin{equation*}
 \text{speed} = \frac{4.20-4.48 \text{ meters}}{0.8-0.6 \text{ seconds}} =  \frac{-0.28 \text{ meters}}{0.2 \text{ seconds}} = \text{(-)}0.28 \div 0.2 = -1.4 \text{ meters/sec}
 \end{equation*}
@@ -802,7 +802,7 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </div>
 <div class="para logical" id="ss-1-3-even-more-diver-3">
 <div class="para">You may notice that the sign − used for subtraction and - used for negation look very similar. On the calculator these are two different keys. The subtraction key reads just <kbd class="kbdkey">-</kbd>. The negation key often reads <kbd class="kbdkey">(-)</kbd> and is done before the number. This does not mean you type in parentheses, just hit the key that is labeled <kbd class="kbdkey">(-)</kbd> already. (If your calculator does not have a key labeled <kbd class="kbdkey">(-)</kbd>, look for a key labeled <kbd class="kbdkey">+/-</kbd> instead. That is not three keys, just one labeled <kbd class="kbdkey">+/-</kbd>. To emphasize that it is one key, we just write <kbd class="kbdkey">±</kbd>. Often that key needs to follow the number, so enter</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-1-3-even-more-diver-3-9">
 \begin{equation*}
 0.28\pm \div 0.2 =
 \end{equation*}
@@ -1045,7 +1045,8 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 </div>
 <div class="autopermalink" data-description="Task 3.a"><a href="#heart-rate-of-change-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div></article><article class="task exercise-like" id="heart-rate-of-change-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="heart-rate-of-change-3-1-1">Identify the variables, including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#heart-rate-of-change-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="tabular-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><table class="tabular">
+</div> <div class="para" id="heart-rate-of-change-3-1-2">
+<div class="tabular-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r0 l1 t1 lines">letter</th>
 <th scope="col" class="c m b1 r0 l0 t1 lines">=</th>
@@ -1071,6 +1072,8 @@ T \amp= \text{ time (seconds) } \sim \text{ indep}
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 </table></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#heart-rate-of-change-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="autopermalink" data-description="Task 3.b"><a href="#heart-rate-of-change-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div></article><article class="task exercise-like" id="heart-rate-of-change-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="heart-rate-of-change-4-1-1">How quickly was Rashad’s heart rate dropping during the first two minutes following practice? <em class="emphasis">Hint: the units are (beats per minute) per minute.</em><div class="autopermalink" data-description="Paragraph"><a href="#heart-rate-of-change-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>

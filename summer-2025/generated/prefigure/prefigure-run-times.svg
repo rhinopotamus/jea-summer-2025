@@ -92,7 +92,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper D">
                 <use data-c="1D437" xlink:href="#MJX-2-TEX-I-1D437"/>
               </g>
             </g>
@@ -108,7 +108,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper T">
                 <use data-c="1D447" xlink:href="#MJX-3-TEX-I-1D447"/>
               </g>
             </g>
@@ -124,7 +124,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0">
                 <use data-c="30" xlink:href="#MJX-4-TEX-N-30"/>
               </g>
             </g>
@@ -140,7 +140,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
                 <use data-c="31" xlink:href="#MJX-5-TEX-N-31"/>
               </g>
             </g>
@@ -156,7 +156,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
                 <use data-c="32" xlink:href="#MJX-6-TEX-N-32"/>
               </g>
             </g>
@@ -172,7 +172,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="3">
                 <use data-c="33" xlink:href="#MJX-7-TEX-N-33"/>
               </g>
             </g>
@@ -188,7 +188,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="4">
                 <use data-c="34" xlink:href="#MJX-8-TEX-N-34"/>
               </g>
             </g>
@@ -204,7 +204,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
                 <use data-c="35" xlink:href="#MJX-9-TEX-N-35"/>
               </g>
             </g>
@@ -220,7 +220,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="6">
                 <use data-c="36" xlink:href="#MJX-10-TEX-N-36"/>
               </g>
             </g>
@@ -236,7 +236,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0">
                 <use data-c="30" xlink:href="#MJX-11-TEX-N-30"/>
               </g>
             </g>
@@ -253,7 +253,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="10">
                 <use data-c="31" xlink:href="#MJX-12-TEX-N-31"/>
                 <use data-c="30" xlink:href="#MJX-12-TEX-N-30" transform="translate(500,0)"/>
               </g>
@@ -271,7 +271,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="20">
                 <use data-c="32" xlink:href="#MJX-13-TEX-N-32"/>
                 <use data-c="30" xlink:href="#MJX-13-TEX-N-30" transform="translate(500,0)"/>
               </g>
@@ -289,7 +289,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="30">
                 <use data-c="33" xlink:href="#MJX-14-TEX-N-33"/>
                 <use data-c="30" xlink:href="#MJX-14-TEX-N-30" transform="translate(500,0)"/>
               </g>
@@ -307,7 +307,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="40">
                 <use data-c="34" xlink:href="#MJX-15-TEX-N-34"/>
                 <use data-c="30" xlink:href="#MJX-15-TEX-N-30" transform="translate(500,0)"/>
               </g>
@@ -325,7 +325,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="50">
                 <use data-c="35" xlink:href="#MJX-16-TEX-N-35"/>
                 <use data-c="30" xlink:href="#MJX-16-TEX-N-30" transform="translate(500,0)"/>
               </g>
@@ -343,7 +343,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="60">
                 <use data-c="36" xlink:href="#MJX-17-TEX-N-36"/>
                 <use data-c="30" xlink:href="#MJX-17-TEX-N-30" transform="translate(500,0)"/>
               </g>
@@ -356,18 +356,18 @@
   <path id="T1" stroke="blue" stroke-width="2" fill="none" d="M 50.0 205.0 L 54.0 203.3 L 58.0 201.6 L 62.0 199.9 L 66.0 198.2 L 70.0 196.5 L 74.0 194.8 L 78.0 193.1 L 82.0 191.4 L 86.0 189.7 L 90.0 188.0 L 94.0 186.3 L 98.0 184.6 L 102.0 182.9 L 106.0 181.2 L 110.0 179.5 L 114.0 177.8 L 118.0 176.1 L 122.0 174.4 L 126.0 172.7 L 130.0 171.0 L 134.0 169.3 L 138.0 167.6 L 142.0 165.9 L 146.0 164.2 L 150.0 162.5 L 154.0 160.8 L 158.0 159.1 L 162.0 157.4 L 166.0 155.7 L 170.0 154.0 L 174.0 152.3 L 178.0 150.6 L 182.0 148.9 L 186.0 147.2 L 190.0 145.5 L 194.0 143.8 L 198.0 142.1 L 202.0 140.4 L 206.0 138.7 L 210.0 137.0 L 214.0 135.3 L 218.0 133.6 L 222.0 131.9 L 226.0 130.2 L 230.0 128.5 L 234.0 126.8 L 238.0 125.1 L 242.0 123.4 L 246.0 121.7 L 250.0 120.0 L 254.0 118.3 L 258.0 116.6 L 262.0 114.9 L 266.0 113.2 L 270.0 111.5 L 274.0 109.8 L 278.0 108.1 L 282.0 106.4 L 286.0 104.7 L 290.0 103.0 L 294.0 101.3 L 298.0 99.6 L 302.0 97.9 L 306.0 96.2 L 310.0 94.5 L 314.0 92.8 L 318.0 91.1 L 322.0 89.4 L 326.0 87.7 L 330.0 86.0 L 334.0 84.3 L 338.0 82.6 L 342.0 80.9 L 346.0 79.2 L 350.0 77.5 L 354.0 75.8 L 358.0 74.1 L 362.0 72.4 L 366.0 70.7 L 370.0 69.0 L 374.0 67.3 L 378.0 65.6 L 382.0 63.9 L 386.0 62.2 L 390.0 60.5 L 394.0 58.8 L 398.0 57.1 L 402.0 55.4 L 406.0 53.7 L 410.0 52.0 L 414.0 50.3 L 418.0 48.6 L 422.0 46.9 L 426.0 45.2 L 430.0 43.5 L 434.0 41.8 L 438.0 40.1 L 442.0 38.4 L 446.0 36.7 L 450.0 35.0" clip-path="url(#clipPath-1)"/>
   <path id="T2" stroke="blue" stroke-width="2" stroke-dasharray="3 3" fill="none" d="M 50.0 225.0 L 54.0 223.6 L 58.0 222.2 L 62.0 220.8 L 66.0 219.4 L 70.0 218.0 L 74.0 216.6 L 78.0 215.2 L 82.0 213.8 L 86.0 212.4 L 90.0 211.0 L 94.0 209.6 L 98.0 208.2 L 102.0 206.8 L 106.0 205.4 L 110.0 204.0 L 114.0 202.6 L 118.0 201.2 L 122.0 199.8 L 126.0 198.4 L 130.0 197.0 L 134.0 195.6 L 138.0 194.2 L 142.0 192.8 L 146.0 191.4 L 150.0 190.0 L 154.0 188.6 L 158.0 187.2 L 162.0 185.8 L 166.0 184.4 L 170.0 183.0 L 174.0 181.6 L 178.0 180.2 L 182.0 178.8 L 186.0 177.4 L 190.0 176.0 L 194.0 174.6 L 198.0 173.2 L 202.0 171.8 L 206.0 170.4 L 210.0 169.0 L 214.0 167.6 L 218.0 166.2 L 222.0 164.8 L 226.0 163.4 L 230.0 162.0 L 234.0 160.6 L 238.0 159.2 L 242.0 157.8 L 246.0 156.4 L 250.0 155.0 L 254.0 153.6 L 258.0 152.2 L 262.0 150.8 L 266.0 149.4 L 270.0 148.0 L 274.0 146.6 L 278.0 145.2 L 282.0 143.8 L 286.0 142.4 L 290.0 141.0 L 294.0 139.6 L 298.0 138.2 L 302.0 136.8 L 306.0 135.4 L 310.0 134.0 L 314.0 132.6 L 318.0 131.2 L 322.0 129.8 L 326.0 128.4 L 330.0 127.0 L 334.0 125.6 L 338.0 124.2 L 342.0 122.8 L 346.0 121.4 L 350.0 120.0 L 354.0 118.6 L 358.0 117.2 L 362.0 115.8 L 366.0 114.4 L 370.0 113.0 L 374.0 111.6 L 378.0 110.2 L 382.0 108.8 L 386.0 107.4 L 390.0 106.0 L 394.0 104.6 L 398.0 103.2 L 402.0 101.8 L 406.0 100.4 L 410.0 99.0 L 414.0 97.6 L 418.0 96.2 L 422.0 94.8 L 426.0 93.4 L 430.0 92.0 L 434.0 90.6 L 438.0 89.2 L 442.0 87.8 L 446.0 86.4 L 450.0 85.0" clip-path="url(#clipPath-1)"/>
   <g transform="translate(54.0,29.0) translate(0.0,-0.0) scale(0.9,0.9)">
-    <rect x="0" y="0" width="79.806640625" height="44.37109375" stroke="black" fill="white" fill-opacity="0.9"/>
+    <rect x="0" y="0" width="81.856" height="40.916" stroke="black" fill="white" fill-opacity="0.9"/>
     <g id="legend-label-0" transform="translate(39.0,5.0)">
       <g id="g-18">
-        <text font-family="sans" font-size="14" x="0.0" y="11.0">Kaleb</text>
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.6">Kaleb</text>
       </g>
     </g>
-    <line stroke="blue" x1="29" y1="11.0927734375" x2="5" y2="11.0927734375" stroke-width="2"/>
-    <g id="legend-label-1" transform="translate(39.0,27.2)">
+    <line stroke="blue" x1="29" y1="10.39" x2="5" y2="10.39" stroke-width="2"/>
+    <g id="legend-label-1" transform="translate(39.0,25.8)">
       <g id="g-19">
-        <text font-family="sans" font-size="14" x="0.0" y="11.0">Muna</text>
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.0">Muna</text>
       </g>
     </g>
-    <line stroke="blue" stroke-dasharray="3 3" x1="29" y1="33.2783203125" x2="5" y2="33.2783203125" stroke-width="2"/>
+    <line stroke="blue" stroke-dasharray="3 3" x1="29" y1="30.848" x2="5" y2="30.848" stroke-width="2"/>
   </g>
 </svg>

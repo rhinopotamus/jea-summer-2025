@@ -103,15 +103,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.6';
+eBookConfig.runestone_version = '7.11.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/prefix-runtime.49eb29f446982553.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.8afc9108798b9170.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -600,7 +600,7 @@ Y \amp= \text{ time (years since 2007) } \sim \text{ indep}
 \end{align*}
 </div>
 <div class="para">she found the exponential equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-4-healthcare-2-2">
 \begin{equation*}
 H = 2.26\ast 1.067^{Y}
 \end{equation*}
@@ -645,7 +645,7 @@ H = 2.26\ast 1.067^{Y}
 </table></div>
 <div class="para logical" id="ss-3-4-healthcare-5">
 <div class="para">The answer must be between 2009 and 2017. Let’s split the difference and guess 2013. For that year, <span class="process-math">\(Y = 2013-2007 = 6\)</span> and so</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-4-healthcare-5-2">
 \begin{equation*}
 H = 2.26 \ast 1.067^6 
 = 2.26 \times 1.067 \wedge \underline{6} 
@@ -711,7 +711,7 @@ H = 2.26 \ast 1.067^6
 </h4>
 <div class="para logical" id="act-3-4-steps-bac-1-1">
 <div class="para">After his first beer, Stephen’s blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="act-3-4-steps-bac-1-1-1">
 \begin{equation*}
 S = 0.04 \ast 1.45^T
 \end{equation*}
@@ -749,25 +749,25 @@ S = 0.04 \ast 1.45^T
 </h3>
 <div class="para logical" id="ss-3-4-solving-exp-symbolically-2">
 <div class="para">Successive approximation gives us the answer fairly quickly. But there is an even quicker way — solving the exponential equation using the <a href="sec-3-1-Solving_linear_equations.html#assemblage-shoes-and-socks" class="xref" data-knowl="./knowl/xref/assemblage-shoes-and-socks.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Shoes and Socks Principle">Shoes and Socks Principle</a>. Start with what we’re looking for, which is <span class="process-math">\(H= 3\text{.}\)</span> Use the equation <span class="process-math">\(H=2.26\ast1.067^Y\)</span> to get</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html" id="ss-3-4-solving-exp-symbolically-2-5">
 \begin{equation*}
 2.26\ast1.067^Y=3\text{.}
 \end{equation*}
 </div>
 <div class="para">Opposite steps in the opposite order: we want to find the value of <span class="process-math">\(Y\text{,}\)</span> so divide each side by 2.26 to get</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html" id="ss-3-4-solving-exp-symbolically-2-7">
 \begin{equation*}
 \frac{\cancel{2.26}\ast1.067^Y}{\cancel{2.26}}= \frac{3} {2.26}
 \end{equation*}
 </div>
 <div class="para">which simplifies to</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html" id="ss-3-4-solving-exp-symbolically-2-8">
 \begin{equation*}
 1.067^Y=\frac{3}{2.26}=3 \div 2.26 = 1.327433628\ldots
 \end{equation*}
 </div>
 <div class="para">When the dust settles we’re left with</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html" id="ss-3-4-solving-exp-symbolically-2-9">
 \begin{equation*}
 1.067^Y = 1.327433628\ldots\text{.}
 \end{equation*}
@@ -776,7 +776,7 @@ S = 0.04 \ast 1.45^T
 </div>
 <div class="para logical" id="ss-3-4-solving-exp-symbolically-3">
 <div class="para">Hmm. How do we find <span class="process-math">\(Y\)</span> here? We saw how to use roots to solve power equations. In our lemonade example we had <span class="process-math">\(C^3 = 714.2857\ldots\text{.}\)</span> We knew the exponent (3) and wanted to find the number being raised to that power (<span class="process-math">\(C\)</span>). That’s when we took the cube root to get</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-4-solving-exp-symbolically-3-4">
 \begin{equation*}
 C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{~\text{  }} 714.2857 = 8.9390\ldots \approx 8.9 \text{ inches}\text{.}
 \end{equation*}
@@ -789,7 +789,7 @@ C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{~\text{  }} 714.2857 = 8.9390\ldots \ap
 <article class="assemblage assemblage-like" id="log-divides-formula"><h4 class="heading"><span class="title">Log-Divides Formula</span></h4>
 <div class="para logical" id="log-divides-formula-2">
 <div class="para">The equation <span class="process-math">\(g^Y = v\)</span> has solution</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="log-divides-formula-2-2">
 \begin{equation*}
 Y = \frac{\log (v)}{\log(g)}\text{,}
 \end{equation*}
@@ -801,7 +801,7 @@ Y = \frac{\log (v)}{\log(g)}\text{,}
 </div>
 <div class="para logical" id="ss-3-4-solving-exp-symbolically-7">
 <div class="para">Okay. Back to solving our equation. We got stuck trying to solve</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-4-solving-exp-symbolically-7-1">
 \begin{equation*}
 1.067^Y = 1.327433628\ldots
 \end{equation*}
@@ -816,7 +816,7 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 \end{align*}
 </div>
 <div class="para">Your calculator should have a key that says <kbd class="kbdkey">log</kbd> or maybe <kbd class="kbdkey">LOG</kbd>. Try typing</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-4-solving-exp-symbolically-7-7">
 \begin{equation*}
 \log( 1.327433628) \div \log (1.067) = 4.367667365 \approx 4.37\text{.}
 \end{equation*}
@@ -864,7 +864,7 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 </h4>
 <div class="para logical" id="act-3-4-solve-bac-1-1">
 <div class="para">After his first beer, Stephen’s blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/assemblage-shoes-and-socks.html" id="act-3-4-solve-bac-1-1-1">
 \begin{equation*}
 S = 0.04 \ast 1.45^T
 \end{equation*}
@@ -932,19 +932,19 @@ S = 0.04 \ast 1.45^T
 </h3>
 <div class="para logical" id="ss-3-4-another-example-2">
 <div class="para">Let’s do another example for practice. Suppose instead we want to know when health care costs would exceed $10 trillion instead. (By the way - wow!) That means <span class="process-math">\(H = 10\text{.}\)</span> Using our equation <span class="process-math">\(H=2.26\ast1.067^Y\)</span> we get</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html" id="ss-3-4-another-example-2-3">
 \begin{equation*}
 2.26\ast1.067^Y=10\text{.}
 \end{equation*}
 </div>
 <div class="para">Opposite steps in the opposite order: first we should divide boty sides by 2.26.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html" id="ss-3-4-another-example-2-4">
 \begin{equation*}
 \frac{\cancel{2.26}\ast1.067^Y}{\cancel{2.26}}=\frac{10}{2.26}=10 \div 2.26 = 4.424778761\ldots
 \end{equation*}
 </div>
 <div class="para">That means</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html" id="ss-3-4-another-example-2-5">
 \begin{equation*}
 1.067^Y=4.424778761\ldots
 \end{equation*}
@@ -959,7 +959,7 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 \end{align*}
 </div>
 <div class="para">Want to avoid typing in the number 4.424778761…? Depending on your calculator, you might try this instead:</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html" id="ss-3-4-another-example-2-12">
 \begin{equation*}
 10 \div 2.26 = \log(\text{ANS}) \div \log(1.067)= 22.932891
 \end{equation*}
@@ -987,7 +987,7 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 </div>
 <div class="para logical" id="ss-3-4-logs-3">
 <div class="para">What do you see? In each case the logarithm is the number of zeros. For example, has 4 zeros and <span class="process-math">\(\log(10{,}000)=4\text{.}\)</span> Another way to think of this connection is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-4-logs-3-2">
 \begin{equation*}
 10{,}000 = 10^4 \text{ and } \log(10{,}000)=4\text{.}
 \end{equation*}
@@ -1011,13 +1011,13 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 </div>
 <div class="para logical" id="ss-3-4-logs-6">
 <div class="para">To see what’s happening we want to involve powers of 10. Scientific notation will do that for us. Let’s write these numbers in scientific notation and see what we learn. For example,</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-4-logs-6-1">
 \begin{equation*}
 25{,}000 = 2.5 \times 10^4 \text{ and } \log( 25{,}000)=4.3979\ldots \approx 4\text{.}
 \end{equation*}
 </div>
 <div class="para">We are back to the power of 10. Well, approximately. Let’s check another number.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="ss-3-4-logs-6-2">
 \begin{equation*}
 250 = 2.5 \times 10^2 \qquad \text{ and } \log(250) = 2.3979\ldots \approx 2\text{.}
 \end{equation*}
@@ -1087,7 +1087,7 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 </div></section><article class="exercise exercise-like" id="bac-solving-exponential"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="bac-solving-exponential-1"><div class="para logical" id="bac-solving-exponential-1-1">
 <div class="para">After his first beer, Stephen’s blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/bac-variables-functions.html ./knowl/xref/bac-approx-solutions.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/bac-variables-functions.html ./knowl/xref/bac-approx-solutions.html" id="bac-solving-exponential-1-1-1">
 \begin{equation*}
 S = 0.04 \ast 1.45^T
 \end{equation*}
@@ -1108,7 +1108,7 @@ S = 0.04 \ast 1.45^T
 <div class="autopermalink" data-description="Task 1.c"><a href="#bac-solving-exponential-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1"><a href="#bac-solving-exponential" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="chlorine-pool-solving-exponential"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="chlorine-pool-solving-exponential-1"><div class="para logical" id="chlorine-pool-solving-exponential-1-1">
 <div class="para">Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/chlorine-pool-growth-factor.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/chlorine-pool-growth-factor.html" id="chlorine-pool-solving-exponential-1-1-1">
 \begin{equation*}
 C = 2.5 \ast 0.975^T
 \end{equation*}
@@ -1160,7 +1160,7 @@ C = 2.5 \ast 0.975^T
 <div class="introduction" id="mortgage-payoff-solving-exponential-1">
 <div class="para logical" id="mortgage-payoff-solving-exponential-1-1">
 <div class="para">Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <span class="process-math">\(T\)</span> months of making payments, Dontrell and Kim will still owe $<span class="process-math">\(D\)</span> where</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="mortgage-payoff-solving-exponential-1-1-3">
 \begin{equation*}
 D=236{,}000-56{,}000 \ast 1.004^T
 \end{equation*}
@@ -1182,7 +1182,7 @@ D=236{,}000-56{,}000 \ast 1.004^T
 <div class="autopermalink" data-description="Task 4.b"><a href="#mortgage-payoff-solving-exponential-3" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div></article><article class="task exercise-like" id="mortgage-payoff-solving-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para logical" id="mortgage-payoff-solving-exponential-4-1-1">
 <div class="para">How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="mortgage-payoff-solving-exponential-4-1-1-1">
 \begin{equation*}
 236{,}000-56{,}000(1.004)^M=150{,}000
 \end{equation*}
@@ -1208,7 +1208,7 @@ D=236{,}000-56{,}000 \ast 1.004^T
 <div class="introduction" id="sp-household-solving-exponential-1">
 <div class="para logical" id="sp-household-solving-exponential-1-1">
 <div class="para">The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year. Earlier, we found the equation was</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="sp-household-solving-exponential-1-1-1">
 \begin{equation*}
 C = 1{,}290\ast1.03^Y
 \end{equation*}
@@ -1233,7 +1233,7 @@ C = 1{,}290\ast1.03^Y
 <div class="introduction" id="window-glass-solving-exponential-1">
 <div class="para logical" id="window-glass-solving-exponential-1-1">
 <div class="para">Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If we use <span class="process-math">\(W\)</span> inches of window glass, it lets <span class="process-math">\(L\%\)</span> of the light through where</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="window-glass-solving-exponential-1-1-3">
 \begin{equation*}
 L = 100\ast 0.75^W
 \end{equation*}
@@ -1257,7 +1257,7 @@ L = 100\ast 0.75^W
 <div class="introduction" id="poultry-solving-exponential-1">
 <div class="para logical" id="poultry-solving-exponential-1-1">
 <div class="para">We saw that poultry population was estimated to grow according to the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="poultry-solving-exponential-1-1-1">
 \begin{equation*}
 P = 78 \ast 1.016^Y
 \end{equation*}
@@ -1280,7 +1280,7 @@ P = 78 \ast 1.016^Y
 <div class="introduction" id="hair-color-solving-exponential-1">
 <div class="para logical" id="hair-color-solving-exponential-1-1">
 <div class="para">Darcy likes to use temporary hair color in wild colors. Good thing it washes out. Her best guess is that 8% of the color washes out each time she washes her hair. That means the percentage of color remaining, <span class="process-math">\(C\text{,}\)</span> is a function of the number of times she washes her hair, <span class="process-math">\(W\text{,}\)</span> according to the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="hair-color-solving-exponential-1-1-3">
 \begin{equation*}
 C=100 \ast 0.92^W
 \end{equation*}
