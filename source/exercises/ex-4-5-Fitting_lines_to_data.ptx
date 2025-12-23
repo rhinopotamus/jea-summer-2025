@@ -347,7 +347,13 @@
 	<exercise xml:id="wild-rice-fitting-lines" component="not-workbook">
 		<introduction>
 			<p>
-				Wild rice is a native plant that grows in lakes in the upper Midwest. The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years. The variables are <m>T</m> for the temperature measured in <degree/>F and <m>W</m> for the wild rice yield, measured in acres. In case you're curious, the year is included as well, but it's not one of the variables we're interested in.
+				Wild rice is a native plant that grows in lakes in the upper Midwest. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="check-linear-modeling-linear"/>)
+					</p>
+				</aside>
+				The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years. The variables are <m>T</m> for the temperature measured in <degree/>F and <m>W</m> for the wild rice yield, measured in acres. In case you're curious, the year is included as well, but it's not one of the variables we're interested in.
 			</p>
 			
 			<tabular bottom="minor" top="minor">
@@ -382,12 +388,6 @@
 					<cell right="minor" halign="center">1,345</cell>
 				</row>
 			</tabular>
-			
-			<aside>
-				<p>
-					(Story also appears in <xref ref="check-linear-modeling-linear"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -441,7 +441,16 @@
 	<exercise xml:id="garbage-fitting-lines" component="not-workbook">
 		<introduction>
 			<p>
-				The amount of garbage generated in the United States has increased steadily, from 88.1 million tons in 1960 to 254.2 million tons in 2006. Earlier we did linear model. But, in fact, the amount of garbage has not increased exactly linearly. The table shows data for select years, where <m>Y</m> measures years since 1960 and <m>G</m> is the amount of garbage (in millions of tons).
+				The amount of garbage generated in the United States has increased steadily, from 88.1 million tons in 1960 to 254.2 million tons in 2006. 
+				<aside>
+					<p>
+						Source: Environmental Protection Agency
+					</p>
+					<p>
+						(Story also appears in <xref ref="garbage-slopes"/>)
+					</p>
+				</aside>
+				Earlier we used a linear model. But, in fact, the amount of garbage has not increased exactly linearly. The table shows data for select years, where <m>Y</m> measures years since 1960 and <m>G</m> is the amount of garbage (in millions of tons).
 			</p>
 			
 			<tabular bottom="minor" top="minor">
@@ -476,16 +485,6 @@
 					<cell right="minor" halign="center">249.0</cell>
 				</row>
 			</tabular>
-			<aside>
-				<p>
-					Source: Environmental Protection Agency
-				</p>
-			</aside>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="garbage-slopes"/>)
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -695,14 +694,14 @@
 	<exercise xml:id="meat-fitting-lines" component="not-workbook">
 		<introduction>
 			<p>
-				The annual consumption of meat in millions of metric tons is given in the following table. Here <m>C</m> is for chicken, <m>B</m> is for beef, and <m>Y</m> measures years since 1975.
+				The annual consumption of meat in millions of metric tons is given in the following table.
+				<aside>
+					<p>
+						Source: U.S. Department of Agriculture
+					</p>
+				</aside>
+				Here <m>C</m> is for chicken, <m>B</m> is for beef, and <m>Y</m> measures years since 1975.
 			</p>
-			
-			<aside>
-				<p>
-					Source: U.S. Department of Agriculture
-				</p>
-			</aside>
 
 			<tabular bottom="minor" top="minor">
 				<row left="minor">

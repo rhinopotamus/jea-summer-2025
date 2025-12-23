@@ -15,13 +15,14 @@
         <exercise xml:id="world-population-percentages" workspace="1in">
             <introduction>
                 <p>
-                    As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). It changes by the second, so let's use the round figure of 8,100,000,000.
+                    As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). 
+                    <aside>
+                        <p>
+                            (Story also appears in <xref ref="world-population-percentages"/>)
+                        </p>
+                    </aside>
+                    It changes by the second, so let's use the round figure of 8,100,000,000.
                 </p>
-                <aside>
-                    <p>
-                        (Story also appears in <xref ref="world-population-percentages"/>)
-                    </p>
-                </aside>
             </introduction>
             <task>
                 <statement>
@@ -41,15 +42,16 @@
         <exercise xml:id="astra-rent-percentages" workspace="1in">
             <introduction>
                 <p>
-                    In Minneapolis, apartment rent is expected to increase by 16% next year. 
+                    In Minneapolis,
+                    <aside>
+                        <p>
+                            (Story also appears in 
+                            <xref ref="astra-rent-algebraic-notation" /> and 
+                            <xref ref="astra-rent-logarithms" />)
+                        </p>
+                    </aside>
+                    apartment rent is expected to increase by 16% next year. 
                 </p>
-                <aside>
-                    <p>
-                        (Story also appears in 
-                        <xref ref="astra-rent-algebraic-notation" /> and 
-                        <xref ref="astra-rent-logarithms" />)
-                    </p>
-                </aside>
             </introduction>
             <task>
                 <statement>
@@ -100,13 +102,14 @@
         <exercise xml:id="savings-interest-percentages" workspace="1in">
             <introduction>
                 <p>
-                    My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now. 
+                    My savings account earns a modest amount of interest, the equivalent of 0.75% annually. 
+                    <aside>
+                        <p>
+                            (Story also appears in <xref ref="savings-interest-first-look-exponential" />)
+                        </p>
+                    </aside>
+                    I have $12,392.18 in the account now. 
                 </p>
-                <aside>
-                    <p>
-                        (Story also appears in <xref ref="savings-interest-first-look-exponential" />)
-                    </p>
-                </aside>
             </introduction>
             <task>
                 <statement>
@@ -149,29 +152,30 @@
     <exercise xml:id="food-shelf-percentages" component="not-workbook">
         <statement>
             <p>
-                Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year. How many pounds of food were donated this year?
+                Donations to a local food shelf have increased 35% over last year. 
+                <aside>
+                    <p>
+                        (Story also appears in 
+                        <xref ref="find-growth-factor"/> and 
+                        <xref ref="food-shelf-growth-decay"/>)
+                    </p>
+                </aside>
+                There were 3,400 pounds of food donated last year. How many pounds of food were donated this year?
             </p>
-        
-            <aside>
-                <p>
-                    (Story also appears in 
-                    <xref ref="find-growth-factor"/> and 
-                    <xref ref="food-shelf-growth-decay"/>)
-                </p>
-            </aside>
         </statement>
     </exercise>
 
     <exercise xml:id="caffeine-percentages" component="not-workbook">
         <statement>
             <p>
-                Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at the rate of 12% each hour. How much caffeine is left in her blood after 1 hour? 
+                Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. 
+                <aside>
+                    <p>
+                        (Story also appears in <xref ref="caffeine-growth-decay"/>)
+                    </p>
+                </aside>
+                Her body eliminates the caffeine at the rate of 12% each hour. How much caffeine is left in her blood after 1 hour? 
             </p>
-            <aside>
-                <p>
-                    (Story also appears in <xref ref="caffeine-growth-decay"/>)
-                </p>
-            </aside>
         </statement>
     </exercise>
 
@@ -200,14 +204,14 @@
     <exercise xml:id="house-value-percentages" component="not-workbook">
         <statement>
             <p>
-                Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it. What is Tenzin's house worth now?
+                Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it. 
+                <aside>
+                    <p>
+                        (Story also appears in <xref ref="house-value-growth-decay"/>)
+                    </p>
+                </aside>
+                What is Tenzin's house worth now?
             </p>
-        
-            <aside>
-                <p>
-                    (Story also appears in <xref ref="house-value-growth-decay"/>)
-                </p>
-            </aside>
         </statement>
     </exercise>
 

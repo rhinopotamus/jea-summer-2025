@@ -288,19 +288,20 @@
 	<exercise xml:id="bass-fishing-logistic-growth" component="not-workbook">
 		<introduction>
 			<p>
-				The lake by Rodney's condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. The carrying capacity of the lake is estimated at 4,000 bass. Two potential models for the number of bass (<m>B</m>) over time, where <m>Y</m> measures the years from when the lake was stocked 10 years ago are
+				The lake by Rodney's condo was stocked with bass (fish) 10 years ago. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="bass-fishing-algebraic-notation"/> and
+						<xref ref="bass-fishing-solving-power"/>)
+					</p>
+				</aside>
+				There were initially 400 bass introduced. The carrying capacity of the lake is estimated at 4,000 bass. Two potential models for the number of bass (<m>B</m>) over time, where <m>Y</m> measures the years from when the lake was stocked 10 years ago are
 				<md>
 					<mrow>\textbf{saturation:}\qquad B\amp=4{,}000-3{,}600\ast0.78^Y </mrow>
 					<mrow>\textbf{logistic:}\qquad B\amp=\frac{4{,}000}{1+9 \ast 0.78^Y} </mrow>
 				</md>
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="bass-fishing-algebraic-notation"/> and
-					<xref ref="bass-fishing-solving-power"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>

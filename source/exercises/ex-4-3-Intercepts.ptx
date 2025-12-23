@@ -113,15 +113,16 @@
 		<exercise xml:id="weight-change-intercepts" workspace="1.3in">
 			<introduction>
 				<p>
-					For each story, find the initial weight of the person and use it to write an equation showing how the person's weight <m>W</m> pounds depends on the time, <m>T</m> weeks.
+					For each story, find the initial weight of the person,
+					<aside>
+						<p>
+							(Stories also appear in
+							<xref ref="weight-change-order-operations" /> and 
+							<xref ref="weight-change-algebraic-notation"/>)
+						</p>
+					</aside>
+					and use it to write an equation showing how the person's weight <m>W</m> pounds depends on the time, <m>T</m> weeks.
 				</p>
-				<aside>
-					<p>
-						(Stories also appear in
-						<xref ref="weight-change-order-operations" /> and 
-						<xref ref="weight-change-algebraic-notation"/>)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -338,16 +339,16 @@
 	<exercise xml:id="beach-erosion-intercepts" component="not-workbook">
 		<introduction>
 			<p>
-				The public beach near Paloma's house has lost about 3<prime/>9<dblprime/> feet a year of beach depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. Currently it's 210 feet deep.
+				The public beach near Paloma's house has lost about 3<prime/>9<dblprime/>
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="beach-erosion-arithmetic-operations"/> and
+						<xref ref="beach-erosion-rate-of-change"/>)
+					</p>
+				</aside>
+				of beach depth (measured from the dunes to the high water mark) each year due to erosion since they started keeping records 60 years ago. Currently it's 210 feet deep.
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="beach-erosion-arithmetic-operations"/> and
-					<xref ref="beach-erosion-rate-of-change"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>

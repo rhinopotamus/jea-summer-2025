@@ -294,19 +294,17 @@
 	<exercise xml:id="garbage-slopes" component="not-workbook">
 		<introduction>
 			<p>
-				The amount of garbage generated in the United States has increased steadily, from 88.1 million tons in 1960 to 254.2 million tons in 2006.
+				The amount of garbage generated in the United States has increased steadily,
+				<aside>
+					<p>
+						Source: Environmental Protection Agency
+					</p>
+					<p>
+						(Story also appears in <xref ref="garbage-fitting-lines"/>)
+					</p>
+				</aside>
+				from 88.1 million tons in 1960 to 254.2 million tons in 2006.
 			</p>
-			
-			<aside>
-				<p>
-					Source: Environmental Protection Agency
-				</p>
-			</aside>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="garbage-fitting-lines"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -407,7 +405,15 @@
 	<exercise xml:id="truck-rental-slopes" component="not-workbook">
 		<statement>
 			<p>
-				Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck. They use a linear pricing model.
+				Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="truck-rental-tables-graphs"/> and 
+						<xref ref="truck-rental-rate-of-change"/>)
+					</p>
+				</aside>
+				They use a linear pricing model.
 			</p>
 			
 			<tabular bottom="minor" top="minor">
@@ -430,28 +436,20 @@
 			<p>
 				If you rent a truck and drive it 10 miles, how much do you think it will cost? As part of your work, name the variables and write a linear equation relating them.
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="truck-rental-tables-graphs"/> and 
-					<xref ref="truck-rental-rate-of-change"/>)
-				</p>
-			</aside>
 		</statement>
 	</exercise>
 
 	<exercise xml:id="median-income-slopes" component="not-workbook">
 		<introduction>
 			<p>
-				In 2008, the median household income was about $50,303. By 2010 it was down to about $49,445.
+				In 2008, the median household income was about $50,303.
+				<aside>
+					<p>
+						Source: U.S. Census Bureau
+					</p>
+				</aside>
+				By 2010 it was down to about $49,445.
 			</p>
-			
-			<aside>
-				<p>
-					Source: U.S. Census Bureau
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -489,13 +487,14 @@
 	<exercise xml:id="sea-level-slopes" component="not-workbook">
 		<introduction>
 			<p>
-				Buoy instruments in the oceans report changes in the sea level. In 2005 the sea level (averaged across all the oceans) was 51.7 millimeters above the historical sea level. In 2012 the sea level was 73.4 millimeters above the historical sea level. You can assume the increase is linear.
+				Buoy instruments in the oceans report changes in the sea level. 
+				<aside>
+					<p>
+						Source: National Aeronautics and Space Administration
+					</p>
+				</aside>
+				In 2005 the sea level (averaged across all the oceans) was 51.7 millimeters above the historical sea level. In 2012 the sea level was 73.4 millimeters above the historical sea level. You can assume the increase is linear.
 			</p>
-			<aside>
-				<p>
-					Source: National Aeronautics and Space Administration
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>

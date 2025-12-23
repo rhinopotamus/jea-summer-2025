@@ -10,25 +10,26 @@
 		<exercise xml:id="pizza-diameter-approx-solutions">
 			<introduction>
 				<p>
-					The size of a round pizza is described by its <term>diameter</term> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
+					The size of a round pizza is described by its <term>diameter</term> (distance across). 
+					<aside>
+						<p component="not-web">
+							(Story also appears in
+							<xref ref="pizza-diameter-powers-roots"/>, 
+							<xref ref="pizza-diameter-modeling-linear"/>, and 
+							<xref ref="pizza-diameter-solving-power"/>)
+						</p>
+						<p component="web">
+							(Story also appears in
+							<xref ref="pizza-diameter-powers-roots"/>, 
+							<xref ref="pizza-diameter-modeling-linear"/>, and 
+							<xref ref="pizza-diameter-solving-power"/>)
+						</p>
+					</aside>
+					Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
 					<me>
 						P = 0.015625\ D^2
 					</me>
 				</p>
-				<aside>
-					<p component="not-web">
-						(Story also appears in
-							<xref ref="pizza-diameter-powers-roots"/>, 
-							<xref ref="pizza-diameter-modeling-linear"/>, and 
-							<xref ref="pizza-diameter-solving-power"/>)
-					</p>
-					<p component="web">
-						(Story also appears in
-						<xref ref="pizza-diameter-powers-roots"/>, 
-						<xref ref="pizza-diameter-modeling-linear"/>, and 
-						<xref ref="pizza-diameter-solving-power"/>)
-					</p>
-				</aside>
 			</introduction>
 			<!-- <task workspace="0.5cm">
 				<statement>
@@ -75,13 +76,14 @@
 		<exercise xml:id="fuel-350-approx-solutions">
 			<introduction>
 				<p>
-					Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. 
+					Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. 
+					<aside>
+						<p>
+							(Story also appears in <xref ref="fuel-350-solving-power"/>)
+						</p>
+					</aside>
+					(That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. 
 				</p>
-				<aside>
-					<p>
-						(Story also appears in <xref ref="fuel-350-solving-power"/>)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -131,14 +133,15 @@
 		<exercise xml:id="monty-orchids-approx-solutions">
 			<introduction>
 				<p>
-					Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by 
+					Monty hopes to grow orchids but they are fragile plants. 
+					<aside>
+						<p>
+							(Story also appears in <xref ref="monty-orchids-using-equations"/>)
+						</p>
+					</aside>
+					He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by 
 					<me>P= 10S^9-9S^{10}</me>
 				</p>
-				<aside>
-					<p>
-						(Story also appears in <xref ref="monty-orchids-using-equations"/>)
-					</p>
-				</aside>
 			</introduction>
 			<task workspace="1in">
 				<statement>
@@ -171,9 +174,8 @@
 			<introduction>
 				<p>
 					After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. 
-					Indonesia, Pakistan, Nigeria, Brazil, and Bangladesh.
-					Their projected growth rates and corresponding equation are listed below. Here <m>Q</m> is the population measured in millions and <m>T</m> is time measured in years since 2024.
 					<aside><p>Source: CIA Factbook</p></aside>
+					Their projected growth rates and corresponding equation are listed below. Here <m>Q</m> is the population measured in millions and <m>T</m> is time measured in years since 2024.
 				</p>
 				<tabular halign="left">
 					<row>
@@ -245,14 +247,14 @@
 	<exercise xml:id="pop-china-approx-solutions" component="not-workbook">
 		<introduction>
 			<p>
-				The population of China in 2011 was approximately 1.343 billion and growing at around 0.48% per year. An equation estimating the population of China is <me>P = 1.343 \ast 1.0048^Y</me> where <m>P</m> is the population of China (measured in billions) and <m>Y</m> is the years since 2011.
+				The population of China in 2011 was approximately 1.343 billion and growing at around 0.48% per year. 
+				<aside>
+					<p>
+						Source: CIA Factbook
+					</p>
+				</aside>
+				An equation estimating the population of China is <me>P = 1.343 \ast 1.0048^Y</me> where <m>P</m> is the population of China (measured in billions) and <m>Y</m> is the years since 2011.
 			</p>
-			
-			<aside>
-				<p>
-					Source: CIA Factbook
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -290,13 +292,14 @@
 	<exercise xml:id="electronics-sales-approx-solutions" component="not-workbook">
 		<introduction>
 			<p>
-				A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. Their sales <m>M</m> in millions of dollars <m>Y</m> years from 1996 is given by the following equation <me>M = 104.4+11.5Y-1.4Y^2</me>
+				A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="electronics-sales-solving-quadratic"/>)
+					</p>
+				</aside>
+				Their sales <m>M</m> in millions of dollars <m>Y</m> years from 1996 is given by the following equation <me>M = 104.4+11.5Y-1.4Y^2</me>
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="electronics-sales-solving-quadratic"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -326,14 +329,15 @@
 	<exercise xml:id="window-glass-approx-solutions" component="not-workbook">
 		<introduction>
 			<p>
-				Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If two panes of this glass are used, the product is 2 inches thick and lets in 56.25% since <me>75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%</me> 
+				Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. 
+				<aside>
+					<p>
+						(Story also appears in
+						<xref ref="window-glass-solving-exponential"/>)
+					</p>
+				</aside>
+				If two panes of this glass are used, the product is 2 inches thick and lets in 56.25% since <me>75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%</me> 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in
-					<xref ref="window-glass-solving-exponential"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -379,16 +383,17 @@
 	<exercise xml:id="wind-turbine-approx-solutions" component="not-workbook">
 		<introduction>
 			<p>
-				Wind turbines are used to generate electricity. For a particular wind turbine, the equation <me>W = 2.4 S^3</me> can be used to calculate the amount of electricity generated (<m>W</m> watts) for a given wind speed (<m>S</m> mph), over a fixed period of time.
+				Wind turbines are used to generate electricity. 
+				<aside>
+					<p>
+						(Story also appears in
+						<xref ref="name-vars-variables-functions"/>,
+						<xref ref="wind-turbine-rate-of-change"/>, and
+						<xref ref="wind-turbine-solving-power"/>)
+					</p>
+				</aside>
+				For a particular wind turbine, the equation <me>W = 2.4 S^3</me> can be used to calculate the amount of electricity generated (<m>W</m> watts) for a given wind speed (<m>S</m> mph), over a fixed period of time.
 			</p>
-			<aside>
-				<p>
-					(Story also appears in
-					<xref ref="name-vars-variables-functions"/>,
-					<xref ref="wind-turbine-rate-of-change"/>, and
-					<xref ref="wind-turbine-solving-power"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -418,15 +423,16 @@
 	<exercise xml:id="bac-approx-solutions" component="not-workbook">
 		<introduction>
 			<p>
-				After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is <me>S = 0.04 \ast 1.45^H</me> where <m>S</m> is Stephen's BAC and <m>H</m> is the time, measured in hours.
+				After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour.
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="bac-variables-functions"/> and
+						<xref ref="bac-solving-exponential"/>)
+					</p>
+				</aside>
+				The equation is <me>S = 0.04 \ast 1.45^H</me> where <m>S</m> is Stephen's BAC and <m>H</m> is the time, measured in hours.
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="bac-variables-functions"/> and
-					<xref ref="bac-solving-exponential"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -456,21 +462,19 @@
 	<exercise xml:id="gravel-path-approx-solutions" component="not-workbook">
 		<introduction>
 			<p>
-				Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10<prime/><m>\times</m>25<prime/> vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<m>G</m> cubic feet) is given by the equation <me>G = W^2 + 17.5W</me> where <m>W</m> is the width of the path in feet.
+				Urban community gardens are catching on.
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="gravel-path-using-equations"/> and
+						<xref ref="gravel-path-quadratic"/>)
+					</p>
+				</aside>
+				What was once an abandoned lot down the block is now a thriving 10<prime/><m>\times</m>25<prime/> vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<m>G</m> cubic feet) is given by the equation <me>G = W^2 + 17.5W</me> where <m>W</m> is the width of the path in feet.
 			</p>
-			
-	
 			<p>
 				<image source='GravelPath.png'/>
 			</p>
-
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="gravel-path-using-equations"/> and
-					<xref ref="gravel-path-quadratic"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>

@@ -56,15 +56,16 @@
 		<exercise xml:id="bunnies-first-look-exponential">
 			<introduction>
 				<p>
-					Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate.
+					Bunnies, bunnies, everywhere. 
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="bunnies-prelude-scientific-notation"/> and 
+							<xref ref="bunnies-modeling-exponential"/>)
+						</p>
+					</aside>
+					They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate.
 				</p>
-				<aside>
-					<p>
-						(Story also appears in 
-						<xref ref="bunnies-prelude-scientific-notation"/> and 
-						<xref ref="bunnies-modeling-exponential"/>)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -103,15 +104,16 @@
 		<exercise xml:id="flu-dorm-first-look-exponential">
 			<introduction>
 				<p>
-					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. 
+					A flu virus has been spreading through the college dormitories. 
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="flu-dorm-modeling-exponential"/> and
+							<xref ref="sec-5-5-Logistic_growth" text="type-global" />)
+						</p>
+					</aside>
+					Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. 
 				</p>
-				<aside>
-					<p>
-						(Story also appears in 
-						<xref ref="flu-dorm-modeling-exponential"/> and
-						<xref ref="sec-5-5-Logistic_growth" text="type-global" />)
-					</p>
-				</aside>
 			</introduction>
 			<task workspace="0.75in">
 				<statement>
@@ -143,13 +145,14 @@
 		<exercise xml:id="savings-interest-first-look-exponential">
 			<introduction>
 				<p>
-					My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.
+					My savings account earns a modest amount of interest, the equivalent of 0.75% annually. 
+					<aside>
+						<p>
+							(Story also appears in <xref ref="savings-interest-percentages" />)
+						</p>
+					</aside>
+					I have $12,392.18 in the account now.
 				</p>
-				<aside>
-					<p>
-						(Story also appears in <xref ref="savings-interest-percentages" />)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -202,13 +205,14 @@
 	<exercise xml:id="raises-first-look-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				Mai's salary was $78,000 before she got a 6% raise. Now the economy was not doing as well and she got only a 1.5% raise this year.
+				Mai's salary was $78,000 before she got a 6% raise. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="raises-percentages"/>)
+					</p>
+				</aside>
+				Now the economy was not doing as well and she got only a 1.5% raise this year.
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="raises-percentages"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -246,15 +250,15 @@
 	<exercise xml:id="sp-household-first-look-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year.
+				The number of school children in the district from a single parent household has been on the rise. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="sp-household-solving-exponential"/>)
+					</p>
+				</aside>
+				In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year.
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="sp-household-solving-exponential"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -300,14 +304,14 @@
 	<exercise xml:id="um-archivo-first-look-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually.
+				Um Archivo data consultant group reported earnings of $42.7 billion in 2012. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="um-archivo-modeling-exponential"/>)
+					</p>
+				</aside>
+				At that time executives projected 17% increase in earnings annually.
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in <xref ref="um-archivo-modeling-exponential"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -346,19 +350,15 @@
 		<introduction>
 			<p>
 				In 2005, poultry production was 78 million tons, estimated to be growing at a rate of around 1.6% per year.
+				<aside>
+					<p>
+						Source: Worldwatch Institute
+					</p>
+					<p>
+						(Story also appears in <xref ref="poultry-solving-exponential"/>)
+					</p>
+				</aside>
 			</p>
-			
-			<aside>
-				<p>
-					Source: Worldwatch Institute
-				</p>
-			</aside>	
-		
-			<aside>
-				<p>
-					(Story also appears in <xref ref="poultry-solving-exponential"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -380,14 +380,14 @@
 	<exercise xml:id="ebooks-first-look-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				Back in January 2008, e-book sales were averaging $5.1 million per month and were increasing approximately 6.3% per month. (We are ignoring seasonal variation in this problem.)
+				Back in January 2008, e-book sales were averaging $5.1 million per month and were increasing approximately 6.3% per month. 
+				<aside>
+					<p>
+						Source: ReadWriteWeb
+					</p>
+				</aside>
+				(We are ignoring seasonal variation in this problem.)
 			</p>
-			
-			<aside>
-				<p>
-					Source: ReadWriteWeb
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>

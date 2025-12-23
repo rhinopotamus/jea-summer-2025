@@ -207,24 +207,25 @@
 		<exercise xml:id="gravel-path-quadratic" workspace="0.7in">
 			<introduction>
 				<p>
-					Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10<prime/><m>\times</m>25<prime/> vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.
+					Urban community gardens are catching on. 
+					<aside>
+						<p component="not-workbook">
+							(Story also appears in 
+							<xref ref="gravel-path-using-equations"/> and
+							<xref ref="gravel-path-approx-solutions"/>)
+						</p>
+						<p component="workbook">
+							(Story also appears in 
+							<xref ref="sec-2-3-Using_equations"/> Exercises and
+							<xref ref="sec-2-4-Approx_solutions"/> Exercises)
+						</p>
+					</aside>
+					What was once an abandoned lot down the block is now a thriving 10<prime/><m>\times</m>25<prime/> vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.
 				</p>
 				<image source='GravelPath.png'/>
 				<p>
 					The amount of gravel we need (<m>G</m> cubic feet) is given by the equation <me>G = W^2 + 17.5W</me> where <m>W</m> is the width of the path in feet. For example, a path 4 feet wide requires 86 cubic feet of gravel, as you can check. 
 				</p>
-				<aside>
-					<p component="not-workbook">
-						(Story also appears in 
-						<xref ref="gravel-path-using-equations"/> and
-						<xref ref="gravel-path-approx-solutions"/>)
-					</p>
-					<p component="workbook">
-						(Story also appears in 
-						<xref ref="sec-2-3-Using_equations"/> Exercises and
-						<xref ref="sec-2-4-Approx_solutions"/> Exercises)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -286,14 +287,17 @@
 	<exercise xml:id="braking-distance-solving-quadratic" component="not-workbook">
 		<introduction>
 			<p>
-				The stopping distance for Jeff's Cadillac Escalade is given by <me>D=0.04S^2+1.47S</me> where <m>S</m> is the speed of the car (in miles per hour) and <m>D</m> is the stopping distance (in feet). Jeff took 183 feet to stop. How fast was he going?
+				The stopping distance for Jeff's Cadillac Escalade is given by 
+				<me>
+					D=0.04S^2+1.47S
+				</me>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="braking-distance-using-equations"/>)
+					</p>
+				</aside>
+				where <m>S</m> is the speed of the car (in miles per hour) and <m>D</m> is the stopping distance (in feet). Jeff took 183 feet to stop. How fast was he going?
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in <xref ref="braking-distance-using-equations"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -315,14 +319,14 @@
 	<exercise xml:id="backpacks-solving-quadratic" component="not-workbook">
 		<introduction>
 			<p>
-				A company produces backpacks. The more they make, the less it costs for each one. The cost per backpack is given by the equation <me>C = 0.01B^2 -1.2B + 50</me> where <m>C=</m> cost per backpack ($ per backpack) and <m>B=</m> number of backpacks.
+				A company produces backpacks. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="backpacks-rate-of-change"/>)
+					</p>
+				</aside>
+				The more they make, the less it costs for each one. The cost per backpack is given by the equation <me>C = 0.01B^2 -1.2B + 50</me> where <m>C=</m> cost per backpack ($ per backpack) and <m>B=</m> number of backpacks.
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in <xref ref="backpacks-rate-of-change"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -352,14 +356,18 @@
 	<exercise xml:id="grilling-fish-solving-quadratic" component="not-workbook">
 		<introduction>
 			<p>
-				Mrs. Weber's cooking class came up with the equation <me>M = 1.2F^2+4F+7</me> to approximate the grilling time of a piece of fish depending on its thickness. Here <m>M</m> is the number of minutes to grill the fish and <m>F</m> is the thickness of the fish in inches.
+				Mrs. Weber's cooking class came up with the equation 
+				<me>
+					M = 1.2F^2+4F+7
+				</me>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="name-vars-variables-functions"/> and <xref ref="grilling-fish-using-equations"/>)
+					</p>
+				</aside>
+				to approximate the grilling time of a piece of fish depending on its thickness. Here <m>M</m> is the number of minutes to grill the fish and <m>F</m> is the thickness of the fish in inches.
 			</p>
 			
-			<aside>
-				<p>
-					(Story also appears in <xref ref="name-vars-variables-functions"/> and <xref ref="grilling-fish-using-equations"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -381,13 +389,14 @@
 	<exercise xml:id="electronics-sales-solving-quadratic" component="not-workbook">
 		<introduction>
 			<p>
-				A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. Their sales <m>M</m> in millions of $ <m>Y</m> years from 1996 is given by the following equation <me>M = 104.4+11.5Y-1.4Y^2</me> 
+				A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="electronics-sales-approx-solutions"/>)
+					</p>
+				</aside>
+				Their sales <m>M</m> in millions of $ <m>Y</m> years from 1996 is given by the following equation <me>M = 104.4+11.5Y-1.4Y^2</me> 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="electronics-sales-approx-solutions"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>

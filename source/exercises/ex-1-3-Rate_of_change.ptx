@@ -101,15 +101,15 @@
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="wedding-rental-tables-graphs" /> and 
+						<xref ref="wedding-rental-linear-ineq" />)
+					</p>
+				</aside>
 				The Metropolitan Club costs $1,300 for the space and then $92 per person. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="wedding-rental-tables-graphs" /> and 
-					<xref ref="wedding-rental-linear-ineq" />)
-				</p>
-			</aside>
 		</introduction>
 		<task workspace="1.5in">
 			<statement>
@@ -322,6 +322,13 @@
 		<introduction>
 			<p>
 				Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="truck-rental-tables-graphs"/> and
+						<xref ref="truck-rental-slopes"/>)
+					</p>
+				</aside>
 			</p>
 	
 			<tabular bottom="minor" top="minor">
@@ -341,13 +348,6 @@
 				</row>
 			</tabular>
 			
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="truck-rental-tables-graphs"/> and
-					<xref ref="truck-rental-slopes"/>)
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -391,7 +391,17 @@
 	<exercise xml:id="wind-turbine-rate-of-change" component="not-workbook">
 		<introduction>
 			<p>
-				Wind turbines are used to generate electricity. A few values are recorded in the table.
+				Wind turbines are used to generate electricity. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="name-vars-variables-functions"/>,
+						<xref ref="wind-turbine-solving-power"/>, and
+						<xref ref="wind-turbine-approx-solutions"/>)
+					</p>
+				</aside>
+				The amount of electricity generated depends on the wind speed.
+				A few values are recorded in the table.
 			</p>
 			
 			<tabular bottom="minor" top="minor">
@@ -411,14 +421,6 @@
 				</row>
 			</tabular>
 			
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="name-vars-variables-functions"/>,
-					<xref ref="wind-turbine-solving-power"/>, and
-					<xref ref="wind-turbine-approx-solutions"/>)
-				</p>
-			</aside>
 		</introduction>
 			
 		<task>
@@ -466,12 +468,15 @@
 		<statement>
 			<p>
 				The table lists estimates of Earth's population, in billions, for select years since 1800.
+				<aside>
+					<p>
+						Source: <q>The World at Six Billion</q> United Nations report, 1999
+					</p>
+					<p>
+						(Story also appears in <xref ref="earth-population-tables-graphs"/>)
+					</p>
+				</aside>
 			</p>
-			<aside>
-				<p>
-					Source: <q>The World at Six Billion</q> United Nations report, 1999
-				</p>
-			</aside>
 			
 			<tabular bottom="minor" top="minor">
 				<row left="minor">
@@ -496,11 +501,6 @@
 				</row>
 			</tabular>
 
-			<aside>
-				<p>
-					(Story also appears in <xref ref="earth-population-tables-graphs"/>)
-				</p>
-			</aside>
 			
 			<p>
 				During which period of time was the Earth's population increasing the fastest? Calculate the rates of change for each time period to decide. (Or, explain some other way of deciding.)
@@ -511,13 +511,14 @@
 	<exercise xml:id="backpacks-rate-of-change" component="not-workbook">
 		<introduction>
 			<p>
-				A company produces backpacks. The more they make, the less it costs for each one, but only up to a certain point. For example, if they produce 10 backpacks, it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. But at 100 backpacks, the unit cost is back up to $30 each. 
+				A company produces backpacks. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="backpacks-solving-quadratic"/>)
+					</p>
+				</aside>
+				The more they make, the less it costs for each one, but only up to a certain point. For example, if they produce 10 backpacks, it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. But at 100 backpacks, the unit cost is back up to $30 each. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="backpacks-solving-quadratic"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -571,7 +572,15 @@
 	<exercise xml:id="beach-erosion-rate-of-change" component="not-workbook">
 		<introduction>
 			<p>
-				The public beach near Paloma's house has lost depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. The table shows a few values. Here <m>D</m> is the depth of the beach in feet, and <m>Y</m> is the year, measured since 60 years ago.
+				The public beach near Paloma's house has lost depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="beach-erosion-arithmetic-operations"/> and
+						<xref ref="beach-erosion-intercepts"/>)
+					</p>
+				</aside>
+				The table shows a few values. Here <m>D</m> is the depth of the beach in feet, and <m>Y</m> is the year, measured since 60 years ago.
 			</p>
 			
 			<tabular bottom="minor" top="minor">
@@ -598,13 +607,6 @@
 				</row>
 			</tabular>
 			
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="beach-erosion-arithmetic-operations"/> and
-					<xref ref="beach-erosion-intercepts"/>)
-				</p>
-			</aside>
 		</introduction>
 			
 		<task>

@@ -10,15 +10,16 @@
 		<exercise xml:id="fiber-optic-growth-decay">
 			<introduction>
 				<p>
-					A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
+					A signal is sent down a fiber optic cable. 
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="fiber-optic-prelude-scientific-notation"/> and
+							<xref ref="fiber-optic-powers-roots"/>)
+						</p>
+					</aside>
+					Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
 				</p>
-				<aside>
-					<p>
-						(Story also appears in 
-						<xref ref="fiber-optic-prelude-scientific-notation"/> and
-						<xref ref="fiber-optic-powers-roots"/>)
-					</p>
-				</aside>
 			</introduction>
 			<task workspace="1in">
 				<statement>

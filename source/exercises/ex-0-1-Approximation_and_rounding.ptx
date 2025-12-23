@@ -9,12 +9,12 @@
             <introduction>
                 <p>
                     Round each number up, down, or off to the precision indicated. 
+                    <aside>
+                        <p>
+                            (Stories also appear in <xref ref="rounding-variables-functions" />)
+                        </p>
+                    </aside>
                 </p>
-                <aside>
-                    <p>
-                        (Stories also appear in <xref ref="rounding-variables-functions" />)
-                    </p>
-                </aside>
             </introduction>
             <task>
                 <statement>
@@ -229,13 +229,14 @@
     <exercise xml:id="bmi-approx-rounding" component="not-workbook">
         <introduction>
             <p>
-                Body Mass Index (or BMI for short) is one indicator of whether a person is a healthy weight. BMI between 18.5 and 24.9 are considered <q>normal</q>. Jarron is 6 foot 4 inches tall, which he calculated is approximately 1.93 meters. He weighs 202 pounds, which he calculated was approximately 91.625 kilograms. He would like to calculate his BMI directly using the formula he found online.
+                Body Mass Index (or BMI for short) is one indicator of whether a person is a healthy weight. 
+                <aside>
+                    <p>
+                        (Story also appears in <xref ref="bmi-scientific-notation"/>)
+                    </p>
+                </aside>
+                BMI between 18.5 and 24.9 are considered <q>normal</q>. Jarron is 6 foot 4 inches tall, which he calculated is approximately 1.93 meters. He weighs 202 pounds, which he calculated was approximately 91.625 kilograms. He would like to calculate his BMI directly using the formula he found online.
             </p>
-            <aside>
-                <p>
-                    (Story also appears in <xref ref="bmi-scientific-notation"/>)
-                </p>
-            </aside>
         </introduction>    
         <task>
             <statement>
@@ -318,13 +319,14 @@
     <exercise xml:id="iv-drip-approx-rounding" component="not-workbook">
         <introduction>
             <p>
-                Souksavanh is trying adjust a patient's medication to deliver 15 <m>\mu</m>g/min. If she runs the drip at 9.1 mL/hour, medication will be delivered at 14.76 <m>\mu</m>g/min which is too low. If she runs the drip at 9.3 mL/hour, medication will be delivered at 15.09 <m>\mu</m>g/min which is too high.
+                Souksavanh is trying adjust a patient's medication to deliver 15 <m>\mu</m>g/min. 
+                <aside>
+                    <p>
+                        (Story also appears in <xref ref="iv-drip-scientific-notation"/>)
+                    </p>
+                </aside>
+                If she runs the drip at 9.1 mL/hour, medication will be delivered at 14.76 <m>\mu</m>g/min which is too low. If she runs the drip at 9.3 mL/hour, medication will be delivered at 15.09 <m>\mu</m>g/min which is too high.
             </p>
-            <aside>
-                <p>
-                    (Story also appears in <xref ref="iv-drip-scientific-notation"/>)
-                </p>
-            </aside>
         </introduction>    
         <task>
             <statement>

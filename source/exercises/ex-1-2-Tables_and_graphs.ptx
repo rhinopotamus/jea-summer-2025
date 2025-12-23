@@ -92,18 +92,21 @@
 	<exercise xml:id="wind-chill-tables-graphs">
 		<introduction>
 			<p>
-				How cold is it? An air temperature of 10<degree/>F is cold but manageable. 
+				How cold is it? 
+				<aside>
+					<p>
+						Source: National Weather Service
+					</p>
+					<p>
+						(Story also appears in <xref ref="wind-chill-modeling-linear"/>)
+					</p>
+				</aside>
+				An air temperature of 10<degree/>F is cold but manageable. 
 				But add a 30 miles per hour wind and, brrr, it feels like it is -12<degree/>F 
 				(12 below zero). We say the <term>wind chill</term> of 10<degree/>F 
 				with a 30 mph wind is -12<degree/>F. 
 				The table lists the wind chill for various wind speeds at an air temperature of 
 				10<degree/>F. 
-				<aside><p>Source: National Weather Service</p></aside>
-				<aside>
-					<p>
-						(Story also appears in <xref ref="wind-chill-modeling-linear"/>)
-					</p>
-				</aside>
 				<tabular bottom="minor" top="minor" row-headers="yes" halign="center"> 
 					<row left="minor">
 						<cell right="minor">Wind speed (mph)</cell>
@@ -193,15 +196,15 @@
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="wedding-rental-rate-of-change" /> and 
+						<xref ref="wedding-rental-linear-ineq" />)
+					</p>
+				</aside>
 				The Metropolitan Club costs $1,300 for the space and $92 per person.
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="wedding-rental-rate-of-change" /> and 
-					<xref ref="wedding-rental-linear-ineq" />)
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -229,8 +232,8 @@
 			<statement>
 				<p>
 					If Tony and Tina's budget is $8,000, 
-						<em>about</em> how many people can they invite to their wedding reception? 
-						Give a <em>rough estimate</em> from your table.
+					<em>about</em> how many people can they invite to their wedding reception? 
+					Give a <em>rough estimate</em> from your table.
 				</p>
 			</statement>
 		</task>
@@ -246,8 +249,8 @@
 			<statement>
 				<p>
 					Can you figure out from the story <em>exactly</em> how many guests 
-						Tony and Tina can invite to their wedding reception 
-						and stay within their $8,000 budget?
+					Tony and Tina can invite to their wedding reception 
+					and stay within their $8,000 budget?
 				</p>
 			</statement>
 		</task>
@@ -259,15 +262,15 @@
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="juan-coffee-order-operations" />, 
+						<xref ref="juan-coffee-first-look-linear" />, and  
+						<xref ref="juan-coffee-systems-linear"/>)
+					</p>
+				</aside>
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-                    <xref ref="juan-coffee-order-operations" />, 
-                    <xref ref="juan-coffee-first-look-linear" />, and  
-                    <xref ref="juan-coffee-systems-linear"/>)
-                </p>
-			</aside>
 		</introduction>
 		<task workspace="0.25cm">
 			<statement>
@@ -384,9 +387,6 @@
 				<p>
 					Source: <q>The World at Six Billion</q> United Nations report
 				</p>
-			</aside>	
-				
-			<aside>
 				<p>
 					(Story also appears in <xref ref="earth-population-rate-of-change"/>)
 				</p>
@@ -551,15 +551,16 @@
 	<exercise xml:id="temp-mpls-tables-graphs" component="not-workbook">
 		<introduction>
 			<p>
-				The temperature was 40<degree/>F at noon yesterday downtown Minneapolis but it dropped 3<degree/>F an hour in the afternoon. 
+				The temperature was 40<degree/>F at noon yesterday in downtown Minneapolis, 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="temp-mpls-modeling-linear"/> and
+						<xref ref="temp-mpls-modeling-linear"/>)
+					</p>
+				</aside>
+				but it dropped 3<degree/>F an hour in the afternoon. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="temp-mpls-modeling-linear"/> and
-					<xref ref="temp-mpls-modeling-linear"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -597,16 +598,17 @@
 	<exercise xml:id="social-security-tables-graphs" component="not-workbook">
 		<introduction>
 			<p>
-				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
+				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="social-security-arithmetic-operations"/>,
+						<xref ref="social-security-variables-functions"/>, and
+						<xref ref="social-security-modeling-exponential"/>)
+					</p>
+				</aside>
+				She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="social-security-arithmetic-operations"/>,
-					<xref ref="social-security-variables-functions"/>, and
-					<xref ref="social-security-modeling-exponential"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -644,15 +646,14 @@
 	<exercise xml:id="heat-index-tables-graphs-ex" component="not-workbook">
 		<introduction>
 			<p>
-				The table shows the <q>heat index</q> as a function of humidity at an air temperature of 88<degree/>F. With up to about 40% humidity, 88<degree/>F feels like it's 88<degree/>F. But if the humidity rises to 60%, then it feels like it is 95<degree/>F; that is, the heat index is 95<degree/>F.
+				The table shows the <q>heat index</q> as a function of humidity at an air temperature of 88<degree/>F. 
+				<aside>
+					<p>
+						Source: National Oceanic and Atmospheric Administration
+					</p>
+				</aside>
+				With up to about 40% humidity, 88<degree/>F feels like it's 88<degree/>F. But if the humidity rises to 60%, then it feels like it is 95<degree/>F; that is, the heat index is 95<degree/>F.
 			</p>
-			<aside>
-				<p>
-					Source: National Oceanic and Atmospheric Administration
-				</p>
-			</aside>
-			
-	
 			<tabular bottom="minor" top="minor">
 				<row left="minor">
 					<cell right="minor" halign="left">Humidity (%)</cell>
@@ -747,16 +748,16 @@
 		<introduction>
 			<p>
 				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="grandfather-bonds-modeling-linear" /> and 
+						<xref ref="grandfather-bonds-growth-factor" />)
+					</p>
+				</aside>
 				The bonds continue to earn interest at a fixed rate so I have yet to cash them in. 
 				The table shows some values. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="grandfather-bonds-modeling-linear" /> and 
-					<xref ref="grandfather-bonds-growth-factor" />)
-				</p>
-			</aside>
 			<tabular bottom="minor" top="minor">
 				<row left="minor"  header="yes">
 					<cell right="minor"  halign="center">year</cell>
@@ -828,7 +829,7 @@
 				<p>
 					Graph the function using the information given in the table.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<!-- <xi:include href="../GraphPaper.ptx" /> -->
 			</statement>
 		</task>
 		<task workspace="0cm">

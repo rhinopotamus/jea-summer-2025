@@ -371,12 +371,13 @@
 	<exercise xml:id="cfc-linear-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				Chlorofluorocarbons (CFC) are greenhouse gases that result from our use of refrigeration, air conditioning, aerosols, and foams. In 1960, the concentration of CFC in the northern hemisphere was 11.1 parts per trillion (ppt), meaning on average, there are 11.1 CFC molecules in a trillion molecules of air. 
+				Chlorofluorocarbons (CFC) are greenhouse gases that result from our use of refrigeration, air conditioning, aerosols, and foams. 
 				<aside>
 					<p>
-						U.S. Department of Energy
+						Source: U.S. Department of Energy
 					</p>
 				</aside>
+				In 1960, the concentration of CFC in the northern hemisphere was 11.1 parts per trillion (ppt), meaning on average, there are 11.1 CFC molecules in a trillion molecules of air. 
 				In 1980 the concentration was 177 ppt. Use <m>C</m> for the concentration in the northern hemisphere in ppt and <m>Y</m> for the year, measured in years since 1960.
 			</p>
 		</introduction>

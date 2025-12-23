@@ -9,13 +9,15 @@
 		<introduction>
 			<p>
 				The GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
-				<aside><p>Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau</p></aside>
+				<aside>
+					<p>
+						Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau
+					</p>
+					<p>
+						(Story also appears in <xref ref="gdp-prelude-scientific-notation" />)
+					</p>
+				</aside>
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="gdp-prelude-scientific-notation" />)
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -69,13 +71,14 @@
 	<exercise xml:id="dust-particle-scientific-notation" workspace="1cm">
 		<introduction>
 			<p>
-				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is <me>0.000~000~000~753\text{ kilograms.}</me>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
+				Edgar recently changed the cleaning bag on his vacuum cleaner. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="dust-particle-prelude-scientific-notation" />)
+					</p>
+				</aside>
+				He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is <me>0.000~000~000~753\text{ kilograms.}</me>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="dust-particle-prelude-scientific-notation" />)
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -173,13 +176,15 @@
 		<introduction>
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.
-				<aside><p>Source: Wikipedia (Solar System)</p></aside>
+				<aside>
+					<p>
+						Source: Wikipedia (Solar System)
+					</p>
+					<p>
+						(Story also appears in <xref ref="earth-weight-prelude-scientific-notation"/>)
+					</p>
+				</aside>
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="earth-weight-prelude-scientific-notation"/>)
-				</p>
-			</aside>
 			<tabular>
 			<row>
 				<cell halign="left">Earth</cell>
@@ -247,7 +252,16 @@
 	<exercise xml:id="iv-drip-scientific-notation" workspace="2.25cm">
 		<introduction>
 			<p>
-				Souksavanh is setting up a patient's intravenous (IV) medication. She sets the drip at 42 drops/minute. The drip chamber size is 20 drops/mL. Recall
+				Souksavanh is setting up a patient's intravenous (IV) medication. 
+				<aside>
+					<p component="not-workbook">
+						(Story also appears in <xref ref="iv-drip-approx-rounding"/>)
+					</p>
+					<p component="workbook">
+						(Story also appears in <xref ref="sec-0-1-Approximation_and_rounding" text="global"/> Exercises)
+					</p>
+				</aside>
+				She sets the drip at 42 drops/minute. The drip chamber size is 20 drops/mL. Recall
 				<md>
 					<mrow>
 						\amp\textbf{milli} \amp
@@ -269,14 +283,6 @@
 					</mrow>
 				</md>
 			</p>
-			<aside>
-				<p component="not-workbook">
-					(Story also appears in <xref ref="iv-drip-approx-rounding"/>)
-				</p>
-				<p component="workbook">
-					(Story also appears in <xref ref="sec-0-1-Approximation_and_rounding" text="global"/> Exercises)
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -349,9 +355,11 @@
 			<p>
 				<em>(Story also appears in <xref ref="billion-seconds-prelude-scientific-notation"/>)</em>
 			</p>
-			<aside><p>
-				Source: Mathew Foss, North Hennepin Community College
-			</p></aside>
+			<aside>
+				<p>
+					Source: Mathew Foss, North Hennepin Community College
+				</p>
+			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -381,13 +389,14 @@
 	<exercise xml:id="proton-mass-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
-				A proton has mass of about <m>1.67262 \times 10^{-27}</m> kg, while an electron has mass of about <m>9.10938 \times 10^{-31}</m> kg.
+				A proton has mass of about <m>1.67262 \times 10^{-27}</m> kg, 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="proton-mass-prelude-scientific-notation"/>)
+					</p>
+				</aside>
+				while an electron has mass of about <m>9.10938 \times 10^{-31}</m> kg.
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="proton-mass-prelude-scientific-notation"/>)
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>
@@ -448,13 +457,14 @@
 	<exercise xml:id="cells-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
-				Rayka weighs 140 pounds. She would like to approximate how many cells are in her body. Use the following information: <m>1 \text{ cell} \approx 1 \times 10^{-15} \text{ g}</m>, <m>1 \text{ kg} \approx 2.2 \text{ pounds}</m>, and, as always, 1 kg = 1,000 g.
+				Rayka weighs 140 pounds. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="cells-prelude-scientific-notation"/>)
+					</p>
+				</aside>
+				She would like to approximate how many cells are in her body. Use the following information: <m>1 \text{ cell} \approx 1 \times 10^{-15} \text{ g}</m>, <m>1 \text{ kg} \approx 2.2 \text{ pounds}</m>, and, as always, 1 kg = 1,000 g.
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="cells-prelude-scientific-notation"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -476,18 +486,17 @@
 	<exercise xml:id="bmi-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
-				<term>Body Mass Index</term> (BMI) is one indicator of whether a person is a healthy weight. BMI are between 18.5 and 24.9 are considered <q>normal</q>. Jared is 6<prime/>4<dblprime/> and weighs 200 pounds. He would like to calculate his BMI from this guide: <me>\text{BMI} = \text{weight in kilograms} \div \text{height in meters} \wedge 2</me>
+				<term>Body Mass Index</term> (BMI) is one indicator of whether a person is a healthy weight. 
+				<aside>
+					<p>
+						Source: Centers for Disease Control and Prevention
+					</p>
+					<p>
+						(Story also appears in <xref ref="bmi-approx-rounding"/>)
+					</p>
+				</aside>
+				BMI values between 18.5 and 24.9 are considered <q>normal</q>. Jared is 6<prime/>4<dblprime/> and weighs 200 pounds. He would like to calculate his BMI from this guide: <me>\text{BMI} = \text{weight in kilograms} \div \text{height in meters} \wedge 2</me>
 			</p>
-			<aside>
-				<p>
-					Source: Centers for Disease Control and Prevention
-				</p>
-			</aside>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="bmi-approx-rounding"/>)
-				</p>
-			</aside>
 		</introduction>
 		<task>
 			<statement>

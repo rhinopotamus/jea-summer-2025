@@ -250,13 +250,14 @@
 	<exercise xml:id="phelps-units" component="not-workbook">
 		<introduction>
 			<p>
-				In August 2008, United States swimmer Michael Phelps set the world record for the 200 meter individual medley, swimming it in 1 minute, 54.80 seconds.
+				In August 2008, 
+				<aside>
+					<p>
+						Source: Wikipedia (World record progression 200 metres IM)
+					</p>
+				</aside>
+				United States swimmer Michael Phelps set the world record for the 200 meter individual medley, swimming it in 1 minute, 54.80 seconds.
 			</p>
-			<aside>
-				<p>
-					Source: Wikipedia (World record progression 200 metres IM)
-				</p>
-			</aside>
 		</introduction>
 			<task>
 				<statement>
@@ -345,13 +346,14 @@
 		<task>
 			<statement>
 				<p>
-					The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. How many yards are in three-quarters of a mile?
+					The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. 
+					<aside>
+						<p>
+							(Story also appears in <xref ref="football-field-fractions"/>)
+						</p>
+					</aside>
+					How many yards are in three-quarters of a mile?
 				</p>
-				<aside>
-					<p>
-						(Story also appears in <xref ref="football-field-fractions"/>)
-					</p>
-				</aside>
 			</statement>
 		</task>
 		

@@ -22,25 +22,26 @@
             <task xml:id="gdp-prelude-scientific-notation">
                 <statement>
                     <p>
-                        The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy. The United States GDP is approximately <m>\mathbf{\$2.332 \times 10^{13}}</m>. 
+                        The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy. 
+                        <aside>
+                            <p>
+                                (Story also appears in <xref ref="gdp-scientific-notation" />)
+                            </p>
+                        </aside>
+                        The United States GDP is approximately <m>\mathbf{\$2.332 \times 10^{13}}</m>. 
                     </p>
-                    <aside>
-                        <p>
-                            (Story also appears in <xref ref="gdp-scientific-notation" />)
-                        </p>
-                    </aside>
                 </statement>
             </task>
             <task xml:id="earth-weight-prelude-scientific-notation">
                 <statement>
                     <p>
                         The Earth weighs approximately <m>\mathbf{5.972 \times 10^{24}}</m> <term>kilograms</term>. 
+                        <aside>
+                            <p>
+                                (Story also appears in <xref ref="planet-weight-scientific-notation" />)
+                            </p>
+                        </aside>
                     </p>
-                    <aside>
-                        <p>
-                            (Story also appears in <xref ref="planet-weight-scientific-notation" />)
-                        </p>
-                    </aside>
                 </statement>
             </task>
         </exercise>
@@ -61,27 +62,27 @@
                 <statement>
                     <p>
                         A dust particle weighs approximately <m>\mathbf{7.53 \times 10^{-10}}</m> <term>grams</term>. 
+                        <aside>
+                            <p>
+                                (Story also appears in <xref ref="dust-particle-scientific-notation"/>)
+                            </p>
+                        </aside>
                     </p>
-                    <aside>
-                        <p>
-                            (Story also appears in <xref ref="dust-particle-scientific-notation"/>)
-                        </p>
-                    </aside>
                 </statement>
             </task>
             <task xml:id="proton-mass-prelude-scientific-notation">
                 <statement>
                     <p>
                         A proton (part of an atom) has mass of about <m>\mathbf{1.67262 \times 10^{-27}}</m> <term>kilograms</term>. 
+                        <aside>
+                            <p component="not-workbook">
+                                (Story also appears in <xref ref="proton-mass-scientific-notation"/>)
+                            </p>
+                            <p component="workbook">
+                                (Story also appears in <xref ref="sec-1-5-Metric_system_and_scientific_notation" text="global"/> Exercises)
+                            </p>
+                        </aside>
                     </p>
-                    <aside>
-                        <p component="not-workbook">
-                            (Story also appears in <xref ref="proton-mass-scientific-notation"/>)
-                        </p>
-                        <p component="workbook">
-                            (Story also appears in <xref ref="sec-1-5-Metric_system_and_scientific_notation" text="global"/> Exercises)
-                        </p>
-                    </aside>
                 </statement>
             </task>
         </exercise>
@@ -97,29 +98,31 @@
             <task xml:id="bunnies-prelude-scientific-notation">
                 <statement>
                     <p>
-                        Bunnies, bunnies, everywhere. In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: <me>1800 \ast 1.13 \wedge 166=</me> Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) 
+                        Bunnies, bunnies, everywhere. 
+                        <aside>
+                            <p>
+                                (Story also appears in 
+                                <xref ref="bunnies-first-look-exponential"/> and 
+                                <xref ref="bunnies-modeling-exponential"/>)
+                            </p>
+                        </aside>
+                        In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: <me>1800 \ast 1.13 \wedge 166=</me> Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) 
                     </p>
-                    <aside>
-                        <p>
-                            (Story also appears in 
-                            <xref ref="bunnies-first-look-exponential"/> and 
-                            <xref ref="bunnies-modeling-exponential"/>)
-                        </p>
-                    </aside>
                 </statement>
             </task>
             <task xml:id="fiber-optic-prelude-scientific-notation">
                 <statement>
                     <p>
-                        A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <me>0.98 \wedge 1000=</me> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) 
+                        A signal is sent down a fiber optic cable. 
+                        <aside>
+                            <p>
+                                (Story also appears in
+                                <xref ref="fiber-optic-powers-roots"/> and
+                                <xref ref="fiber-optic-growth-decay"/>)
+                            </p>
+                        </aside>
+                        Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <me>0.98 \wedge 1000=</me> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) 
                     </p>
-                    <aside>
-                        <p>
-                            (Story also appears in
-                            <xref ref="fiber-optic-powers-roots"/> and
-                            <xref ref="fiber-optic-growth-decay"/>)
-                        </p>
-                    </aside>
                 </statement>
             </task>
         </exercise>
@@ -133,24 +136,24 @@
                 <statement>
                     <p>
                         There are approximately <term>1.084 million quarters</term> in circulation in the United States. 
+                        <aside>
+                            <p>
+                                (Story also appears in <xref ref="currency-approx-rounding"/>)
+                            </p>
+                        </aside>
                     </p>
-                    <aside>
-                        <p>
-                            (Story also appears in <xref ref="currency-approx-rounding"/>)
-                        </p>
-                    </aside>
                 </statement>
             </task>
             <task xml:id="world-population-prelude-scientific-notation">
                 <statement>
                     <p>
                         The population of the world is approximately <term>8.1 billion people</term>. 
+                        <aside>
+                            <p>
+                                (Story also appears in <xref ref="world-population-percentages"/>)
+                            </p>
+                        </aside>
                     </p>
-                    <aside>
-                        <p>
-                            (Story also appears in <xref ref="world-population-percentages"/>)
-                        </p>
-                    </aside>
                 </statement>
             </task>
             <task xml:id="t-bonds-prelude-scientific-notation" workspace="0in">
@@ -169,12 +172,12 @@
         <introduction>
             <p>
                 <em>(Story also appears in <xref ref="billion-seconds-scientific-notation"/>)</em>
+                <aside>
+                    <p>
+                        Source: Mathew Foss, North Hennepin Community College
+                    </p>
+                </aside>
             </p>
-            <aside>
-                <p>
-                    Source: Mathew Foss, North Hennepin Community College
-                </p>
-            </aside>
         </introduction>
         <task>
             <statement>
@@ -259,13 +262,14 @@
     <exercise xml:id="cells-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
-                Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>1{,}000 \text{ grams} \approx 2.2 \text{ pounds}</m>. 
+                Rayka would like to approximate how many cells are in her body. 
+                <aside>
+                    <p>
+                        (Story also appears in <xref ref="cells-scientific-notation"/>)
+                    </p>
+                </aside>
+                Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>1{,}000 \text{ grams} \approx 2.2 \text{ pounds}</m>. 
             </p>
-            <aside>
-                <p>
-                    (Story also appears in <xref ref="cells-scientific-notation"/>)
-                </p>
-            </aside>
         </introduction>
         <task>
             <statement>

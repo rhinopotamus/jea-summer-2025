@@ -11,16 +11,17 @@
 		<exercise xml:id="truck-grass-linear-ineq">
 			<introduction>
 				<p>
-					A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3{,}900 + 4.2B</me> for <m>B</m> bags of grass seed. 
+					A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. 
+					<aside>
+						<p>
+							(Story also appears in
+							<xref ref="truck-grass-arithmetic-operations" />, 
+							<xref ref="truck-grass-first-look-linear" />, and  
+							<xref ref="truck-grass-solving-linear" />)
+						</p>
+					</aside>
+					Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3{,}900 + 4.2B</me> for <m>B</m> bags of grass seed. 
 				</p>
-				<aside>
-					<p>
-						(Story also appears in
-						<xref ref="truck-grass-arithmetic-operations" />, 
-						<xref ref="truck-grass-first-look-linear" />, and  
-						<xref ref="truck-grass-solving-linear" />)
-					</p>
-				</aside>
 			</introduction>
 			<task workspace="1.25in">
 				<statement>
@@ -131,15 +132,16 @@
 		<exercise xml:id="wedding-rental-linear-ineq" workspace="0.5cm">
 			<introduction>
 				<p>
-					Anthony and Christina are trying to decide where to hold their wedding reception. For each possible site, write an <em>equation</em> using <m>T</m> for the total cost of their wedding reception (in dollars) and <m>G</m> for the number of guests. Then set up and solve an <em>inequality</em> to calculate the number of guests Tony and Tina can afford on their $8,000 budget.
+					Anthony and Christina are trying to decide where to hold their wedding reception. 
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="wedding-rental-tables-graphs" /> and 
+							<xref ref="wedding-rental-rate-of-change" />)
+						</p>
+					</aside>
+					For each possible site, write an <em>equation</em> using <m>T</m> for the total cost of their wedding reception (in dollars) and <m>G</m> for the number of guests. Then set up and solve an <em>inequality</em> to calculate the number of guests Tony and Tina can afford on their $8,000 budget.
 				</p>
-				<aside>
-					<p>
-						(Story also appears in 
-						<xref ref="wedding-rental-tables-graphs" /> and 
-						<xref ref="wedding-rental-rate-of-change" />)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -317,13 +319,14 @@
 	<exercise xml:id="credit-line-linear-ineq" component="not-workbook">
 		<introduction>
 			<p>
-				After borrowing some money through a line of credit on my bank account, I started paying off the interest plus $250 a month. Even once the loan is paid off I plan to continue to deposit $250 each month to start saving. That means my balance is given by the equation <me>A = 250M- 2{,}189.57</me> where <m>M</m> is the number of months since the loan and <m>A</m> is the account balance, in dollars. 
+				After borrowing some money through a line of credit on my bank account, I started paying off the interest plus $250 a month. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="credit-line-first-look-linear"/>)
+					</p>
+				</aside>
+				Even once the loan is paid off I plan to continue to deposit $250 each month to start saving. That means my balance is given by the equation <me>A = 250M- 2{,}189.57</me> where <m>M</m> is the number of months since the loan and <m>A</m> is the account balance, in dollars. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="credit-line-first-look-linear"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -345,14 +348,14 @@
 	<exercise xml:id="treadmill-linear-ineq" component="not-workbook">
 		<introduction>
 			<p>
-				When Gretchen walks on her treadmill, the number of calories per mile that she burns is given by the equation <me>C=125M</me> where <m>C</m> is the number of calories Gretchen burns by walking <m>M</m> miles.
+				When Gretchen walks on her treadmill,
+				<aside>
+					<p>
+						(Story also appears in <xref ref="treadmill-first-look-linear"/> and <xref ref="treadmill-solving-linear"/>)
+					</p>
+				</aside>
+				the number of calories per mile that she burns is given by the equation <me>C=125M</me> where <m>C</m> is the number of calories Gretchen burns by walking <m>M</m> miles.
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in <xref ref="treadmill-first-look-linear"/> and <xref ref="treadmill-solving-linear"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -382,14 +385,14 @@
 	<exercise xml:id="reservoir-rain-linear-ineq" component="not-workbook">
 		<statement>
 			<p>
-				The water in the local reservoir has been dropping steadily. In fact, <me>D = 47-1.5W</me> where <m>D</m> is the depth of the water (in feet) after <m>W</m> weeks. Any depth below 20 feet is considered dangerously low. When will that happen, assuming no change in the weather? Set up and solve an inequality. And, check your answer.
+				The water level in the local reservoir has been dropping steadily. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="reservoir-rain-first-look-linear"/> and <xref ref="reservoir-rain-modeling-linear"/>)
+					</p>
+				</aside>
+				In fact, <me>D = 47-1.5W</me> where <m>D</m> is the depth of the water (in feet) after <m>W</m> weeks. Any depth below 20 feet is considered dangerously low. When will that happen, assuming no change in the weather? Set up and solve an inequality. And, check your answer.
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in <xref ref="reservoir-rain-first-look-linear"/> and <xref ref="reservoir-rain-modeling-linear"/>)
-				</p>
-			</aside>
 		</statement>
 	</exercise>
 

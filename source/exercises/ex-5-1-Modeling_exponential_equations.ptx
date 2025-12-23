@@ -63,15 +63,16 @@
 		<exercise xml:id="flu-dorm-modeling-exponential" workspace="1.2in">
 			<introduction>
 				<p>
-					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation <me>N=8 \ast1.16^T</me> where <m>T</m> is the time in days (since the first diagnosis) and <m>N</m> is the total number of students who had the flu. 
+					A flu virus has been spreading through the college dormitories. 
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="flu-dorm-first-look-exponential"/> and 
+							<xref ref="sec-5-5-Logistic_growth" text="type-global" />)
+						</p>
+					</aside>
+					Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation <me>N=8 \ast1.16^T</me> where <m>T</m> is the time in days (since the first diagnosis) and <m>N</m> is the total number of students who had the flu. 
 				</p>
-				<aside>
-					<p>
-						(Story also appears in 
-						<xref ref="flu-dorm-first-look-exponential"/> and 
-						<xref ref="sec-5-5-Logistic_growth" text="type-global" />)
-					</p>
-				</aside>
 			</introduction>
 			<task workspace="0.5in">
 				<statement>
@@ -109,15 +110,16 @@
 		<exercise xml:id="bunnies-modeling-exponential">
 			<introduction>
 				<p>
-					Bunnies, bunnies, everywhere. Earlier we found the equation <me>B = 1{,}800 \ast 1.13^T</me> where <m>B</m> is the number of bunnies and <m>T</m> is the time in years since 2007. 
+					Bunnies, bunnies, everywhere. 
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="bunnies-prelude-scientific-notation"/> and 
+							<xref ref="bunnies-first-look-exponential"/>)
+						</p>
+					</aside>
+					Earlier we found the equation <me>B = 1{,}800 \ast 1.13^T</me> where <m>B</m> is the number of bunnies and <m>T</m> is the time in years since 2007. 
 				</p>
-				<aside>
-					<p>
-						(Story also appears in 
-						<xref ref="bunnies-prelude-scientific-notation"/> and 
-						<xref ref="bunnies-first-look-exponential"/>)
-					</p>
-				</aside>
 			</introduction>
 			<task workspace="0.75in">
 				<statement>
@@ -228,16 +230,17 @@
 	<exercise xml:id="social-security-modeling-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
+				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. 
+				<aside>
+					<p>
+						(Story also appears in 
+						<xref ref="social-security-arithmetic-operations"/>,
+						<xref ref="social-security-variables-functions"/> and 
+						<xref ref="social-security-tables-graphs"/>)
+					</p>
+				</aside>
+				She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in 
-					<xref ref="social-security-arithmetic-operations"/>,
-					<xref ref="social-security-variables-functions"/> and 
-					<xref ref="social-security-tables-graphs"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -275,13 +278,17 @@
 	<exercise xml:id="drawing-game-modeling-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation <me>N = 2 \ast 1.57^W</me> where <m>N</m> is the number of players (in millions) and <m>W</m> is the number of weeks since it caught on. 
+				The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation 
+				<me>
+					N = 2 \ast 1.57^W
+				</me>
+				<aside>
+					<p>
+						(Story also appears in <xref ref="drawing-game-growth-factor"/>)
+					</p>
+				</aside>
+				where <m>N</m> is the number of players (in millions) and <m>W</m> is the number of weeks since it caught on. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="drawing-game-growth-factor"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
@@ -374,13 +381,14 @@
 	<exercise xml:id="um-archivo-modeling-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation <me>U = 42.7 \ast 1.17^Y</me> where <m>U</m> is Um Archivo's reported earnings (in $billions) and <m>Y</m> is the years since 2012. 
+				Um Archivo data consultant group reported earnings of $42.7 billion in 2012. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="um-archivo-first-look-exponential"/>)
+					</p>
+				</aside>
+				At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation <me>U = 42.7 \ast 1.17^Y</me> where <m>U</m> is Um Archivo's reported earnings (in $billions) and <m>Y</m> is the years since 2012. 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="um-archivo-first-look-exponential"/>)
-				</p>
-			</aside>
 		</introduction>	
 			<task>
 				<statement>
@@ -402,14 +410,14 @@
 	<exercise xml:id="reality-tv-modeling-exponential" component="not-workbook">
 		<statement>
 			<p>
-				In 1990 it was estimated that 2.5 million households watched reality television at least once a week. Executives predicted that number would increase by 7.2% each year. According to their estimates, how many millions of households watched reality television in 2000? In 2010? As part of your work, name the variables, find the annual growth factor, and write an exponential equation modeling reality television viewing.
+				In 1990 it was estimated that 2.5 million households watched reality television at least once a week. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="reality-tv-growth-factor"/>)
+					</p>
+				</aside>
+				Executives predicted that number would increase by 7.2% each year. According to their estimates, how many millions of households watched reality television in 2000? In 2010? As part of your work, name the variables, find the annual growth factor, and write an exponential equation modeling reality television viewing.
 			</p>
-			
-			<aside>
-				<p>
-					(Story also appears in <xref ref="reality-tv-growth-factor"/>)
-				</p>
-			</aside>
 		</statement>
 	</exercise>
 </exercises>

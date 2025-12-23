@@ -10,17 +10,20 @@
 		<exercise xml:id="solar-heating-modeling-linear" workspace="1in">
 			<introduction>
 				<p>
-					A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. 
+					A solar heating system costs approximately $30,000 to install and $150 per year to run. 
+					<aside>
+						<p>
+							Source: <q>Using Algebra</q> by Ethan Bolker
+						</p>
+						<p component="not-workbook">
+							(Story also appears in <xref ref="solar-heating-systems-linear"/>)
+						</p>
+						<p component="workbook">
+							(Story also appears in <xref ref="sec-4-2-Systems_linear_equations" text="global"/> Exercises)
+						</p>
+					</aside>
+					By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. 
 				</p>
-				<aside><p>Source: <q>Using Algebra</q> by Ethan Bolker</p></aside>
-				<aside>
-					<p component="not-workbook">
-						(Story also appears in <xref ref="solar-heating-systems-linear"/>)
-					</p>
-					<p component="workbook">
-						(Story also appears in <xref ref="sec-4-2-Systems_linear_equations"/> Exercises)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -127,19 +130,19 @@
 				<statement>
 					<p>
 						Savings bonds from grandpa. 
+						<aside>
+							<p component="not-workbook">
+								(Story also appears in 
+								<xref ref="grandfather-bonds-tables-graphs" /> and 
+								<xref ref="grandfather-bonds-growth-factor" />)
+							</p>
+							<p component="workbook">
+								(Story also appears in 
+								<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises and 
+								<xref ref="grandfather-bonds-growth-factor" />)
+							</p>
+						</aside>
 					</p>
-					<aside>
-						<p component="not-workbook">
-							(Story also appears in 
-							<xref ref="grandfather-bonds-tables-graphs" /> and 
-							<xref ref="grandfather-bonds-growth-factor" />)
-						</p>
-						<p component="workbook">
-							(Story also appears in 
-							<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises and 
-							<xref ref="grandfather-bonds-growth-factor" />)
-						</p>
-					</aside>
 					<tabular bottom="minor" top="minor">
 						<row left="minor">
 							<cell right="minor" halign="left">Year</cell>
@@ -166,12 +169,12 @@
 				<statement>
 					<p>
 						Wind chill at 10<degree/>F. 
+						<aside>
+							<p>
+								(Story also appears in <xref ref="wind-chill-tables-graphs" />)
+							</p>
+						</aside>
 					</p>
-					<aside>
-						<p>
-							(Story also appears in <xref ref="wind-chill-tables-graphs" />)
-						</p>
-					</aside>
 					<tabular bottom="minor" top="minor">
 						<row left="minor">
 							<cell right="minor" halign="left">Wind (mph)</cell>
@@ -196,15 +199,15 @@
 				<statement>
 					<p>
 						Pizza.
+						<aside>
+							<p>
+								(Story also appears in
+								<xref ref="pizza-diameter-powers-roots"/>, 
+								<xref ref="pizza-diameter-approx-solutions"/>, and 
+								<xref ref="pizza-diameter-solving-power"/>)
+							</p>
+						</aside>
 					</p>
-					<aside>
-						<p>
-							(Story also appears in
-							<xref ref="pizza-diameter-powers-roots"/>, 
-							<xref ref="pizza-diameter-approx-solutions"/>, and 
-							<xref ref="pizza-diameter-solving-power"/>)
-						</p>
-					</aside>
 					<tabular bottom="minor" top="minor">
 						<row left="minor">
 							<cell right="minor" halign="left">Size (inches)</cell>
@@ -225,19 +228,19 @@
 				<statement>
 					<p>
 						Water in the reservoir. 
+						<aside>
+							<p component="not-workbook">
+								(Story also appears in 
+								<xref ref="reservoir-rain-first-look-linear"/> and 
+								<xref ref="reservoir-rain-linear-ineq" />)
+							</p>
+							<p component="workbook">
+								(Story also appears in 
+								<xref ref="reservoir-rain-first-look-linear"/> and 
+								<xref ref="sec-3-2-Solving_linear_inequalities" text="global"/> Exercises)
+							</p>
+						</aside>
 					</p>
-					<aside>
-						<p component="not-workbook">
-							(Story also appears in 
-							<xref ref="reservoir-rain-first-look-linear"/> and 
-							<xref ref="reservoir-rain-linear-ineq" />)
-						</p>
-						<p component="workbook">
-							(Story also appears in 
-							<xref ref="reservoir-rain-first-look-linear"/> and 
-							<xref ref="sec-3-2-Solving_linear_inequalities" text="global"/> Exercises)
-						</p>
-					</aside>
 					<tabular bottom="minor" top="minor">
 						<row left="minor">
 							<cell right="minor" halign="left">Week</cell>
@@ -263,16 +266,17 @@
 		<exercise xml:id="plumber-rates-modeling-linear">
 			<introduction>
 				<p>
-					Plumbers are really expensive, so I have been comparing prices. James charges $50 to show up plus $120 per hour. Jo is just getting started in the business. She charges $45 to show up plus $55 per hour. Mario advertises <q>no trip charge</q> but his hourly rate is $90 per hour. Not to be outdone, Luigi offers to unclog any drain for $150, no matter how long it takes. For each plumber, the table lists the corresponding equation and several points. In each equation, the plumber charges $<m>P</m> for <m>T</m> hours of work. 
+					Plumbers are really expensive, so I have been comparing prices. 
+					<aside>
+						<p component="not-workbook">
+							(Story also appears in <xref ref="plumbers-first-look-linear"/>)
+						</p>
+						<p component="workbook">
+							(Story also appears in <xref ref="sec-2-1-First_look_linear" text="global"/> Exercises)
+						</p>
+					</aside>
+					James charges $50 to show up plus $120 per hour. Jo is just getting started in the business. She charges $45 to show up plus $55 per hour. Mario advertises <q>no trip charge</q> but his hourly rate is $90 per hour. Not to be outdone, Luigi offers to unclog any drain for $150, no matter how long it takes. For each plumber, the table lists the corresponding equation and several points. In each equation, the plumber charges $<m>P</m> for <m>T</m> hours of work. 
 				</p>
-				<aside>
-					<p component="not-workbook">
-						(Story also appears in <xref ref="plumbers-first-look-linear"/>)
-					</p>
-					<p component="workbook">
-						(Story also appears in <xref ref="sec-2-1-First_look_linear" text="global"/> Exercises)
-					</p>
-				</aside>
 				<tabular bottom="minor" top="minor">
 					<row left="minor" header="yes">
 						<cell right="minor" halign="center">Plumber</cell>
@@ -459,12 +463,12 @@
 			<statement>
 				<p>
 					Ahmed's virburnum shrub. 
+					<aside>
+						<p>
+							(Story also appears in <xref ref="shrub-growth-systems-linear"/>)
+						</p>
+					</aside>
 				</p>
-				<aside>
-					<p>
-						(Story also appears in <xref ref="shrub-growth-systems-linear"/>)
-					</p>
-				</aside>
 					
 				<tabular bottom="minor" top="minor">
 					<row left="minor">
@@ -489,15 +493,15 @@
 			<statement>
 				<p>
 					Rose gold. 
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="rose-gold-algebraic-notation"/>,
+							<xref ref="rose-gold-order-operations"/>, and
+							<xref ref="rose-gold-using-equations"/>)
+						</p>
+					</aside>
 				</p>
-				<aside>
-					<p>
-						(Story also appears in 
-						<xref ref="rose-gold-algebraic-notation"/>,
-						<xref ref="rose-gold-order-operations"/>, and
-						<xref ref="rose-gold-using-equations"/>)
-					</p>
-				</aside>
 					
 				<tabular bottom="minor" top="minor">
 					<row left="minor">
@@ -549,12 +553,12 @@
 			<statement>
 				<p>
 					Wild rice. 
+					<aside>
+						<p>
+							(Story also appears in <xref ref="wild-rice-fitting-lines"/>)
+						</p>
+					</aside>
 				</p>
-				<aside>
-					<p>
-						(Story also appears in <xref ref="wild-rice-fitting-lines"/>)
-					</p>
-				</aside>
 					
 				<p>
 					<em>Hint: rewrite the table in order by temperature first.</em>
@@ -587,14 +591,15 @@
 	<exercise xml:id="temp-mpls-modeling-linear" component="not-workbook">
 		<introduction>
 			<p>
-				The temperature in Minneapolis was 40 degrees at noon yesterday but it dropped 3 degrees an hour in the afternoon. Earlier we found the temperature, <m>T</m> in <degree/>F depends on the time, <m>H</m> hours after noon according to the equation <me>T=40-3H</me> 
+				The temperature in Minneapolis was 40 degrees at noon yesterday, but it dropped 3 degrees an hour in the afternoon. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="temp-mpls-variables-functions"/> and <xref ref="temp-mpls-tables-graphs"/>)
+					</p>
+				</aside>
+				Earlier we found the temperature, <m>T</m> in <degree/>F depends on the time, <m>H</m> hours after noon according to the equation <me>T=40-3H</me> 
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="temp-mpls-variables-functions"/> and <xref ref="temp-mpls-tables-graphs"/>)
-				</p>
-			</aside>
-		</introduction>	
+		</introduction>
 		<task>
 			<statement>
 				<p>

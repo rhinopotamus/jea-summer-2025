@@ -63,7 +63,16 @@
 		<exercise xml:id="juan-coffee-systems-linear">
 			<introduction>
 				<p>
-					A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. Or, he can buy a membership for $59.99 and then coffee is only $1/mug. If we let <m>M</m> represent the number of mugs of coffee he buys and <m>T</m> represent the total cost in dollars, then the equations are:
+					A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. 
+					<aside>
+						<p>
+							(Story also appears in 
+							<xref ref="juan-coffee-order-operations" />, 
+							<xref ref="juan-coffee-tables-graphs" />, and 
+							<xref ref="juan-coffee-systems-linear"/>)
+						</p>
+					</aside>
+					Or, he can buy a membership for $59.99 and then coffee is only $1/mug. If we let <m>M</m> represent the number of mugs of coffee he buys and <m>T</m> represent the total cost in dollars, then the equations are:
 					<md>
 						<mrow>
 							\textit{No card: } \qquad  
@@ -78,14 +87,6 @@
 							T \amp= 59.99 + 1.00 M
 						</mrow>
 					</md>
-					<aside>
-						<p>
-							(Story also appears in 
-							<xref ref="juan-coffee-order-operations" />, 
-							<xref ref="juan-coffee-tables-graphs" />, and 
-							<xref ref="juan-coffee-systems-linear"/>)
-						</p>
-					</aside>
 				</p>
 			</introduction>
 			<task>
@@ -192,7 +193,16 @@
 		<exercise xml:id="shrub-growth-systems-linear">
 			<introduction>
 				<p>
-					Ahmed planted two shrubs in the backyard on May 1. The viburnum was 16.9 inches tall and expected to grow 0.4 inches each week this summer. The weigela was 20.3 inches tall but only expected to grow 0.2 inches per week. If we let <m>S</m> represent the total height of the shrub in inches after <m>T</m> weeks, then the equations are:
+					Ahmed planted two shrubs in the backyard on May 1. 
+					<aside>
+						<p component="not-workbook">
+							(Story also appears in <xref ref="check-linear-modeling-linear"/>)
+						</p>
+						<p component="workbook">
+							(Story also appears in <xref ref="sec-4-1-Modeling_linear_equations"/> Exercises)
+						</p>
+					</aside>
+					The viburnum was 16.9 inches tall and expected to grow 0.4 inches each week this summer. The weigela was 20.3 inches tall but only expected to grow 0.2 inches per week. If we let <m>S</m> represent the total height of the shrub in inches after <m>T</m> weeks, then the equations are:
 					<md>
 						<mrow>
 							\textbf{Viburnum:} \qquad 
@@ -204,14 +214,6 @@
 						</mrow>
 					</md>
 				</p>
-				<aside>
-					<p component="not-workbook">
-						(Story also appears in <xref ref="check-linear-modeling-linear"/>)
-					</p>
-					<p component="workbook">
-						(Story also appears in <xref ref="sec-4-1-Modeling_linear_equations"/> Exercises)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -271,7 +273,9 @@
 		<exercise xml:id="supply-demand-systems-linear">
 			<introduction>
 				<p>
-					The <term>supply</term> of flour is the amount of flour produced. It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour <m>S</m> (in loads) on the price <m>P</m> (in $/pound) is given by the equation
+					The <term>supply</term> of flour is the amount of flour produced. 
+					<aside><p>Source: <q>Using Algebra</q> by Ethan Bolker</p></aside>
+					It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour <m>S</m> (in loads) on the price <m>P</m> (in $/pound) is given by the equation
 					<me>
 						\textbf{Supply: } S = 0.8P + 0.5
 					</me>
@@ -284,7 +288,6 @@
 				</p>
 				<p>
 					The <term>equilibrium price</term> of flour is the price where the supply equals the demand.
-					<aside><p>Source: <q>Using Algebra</q> by Ethan Bolker</p></aside>
 				</p>
 			</introduction>
 			<task workspace="1cm">
@@ -567,7 +570,13 @@
 	<exercise xml:id="solar-heating-systems-linear" component="not-workbook">
 		<introduction>
 			<p>
-				A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. Earlier we wrote equations showing how the total cost $<m>T</m> depends on the time, <m>Y</m> years.
+				A solar heating system costs approximately $30,000 to install and $150 per year to run. 
+				<aside>
+					<p>
+						(Story also appears in <xref ref="solar-heating-modeling-linear"/>)
+					</p>
+				</aside>
+				By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. Earlier we wrote equations showing how the total cost $<m>T</m> depends on the time, <m>Y</m> years.
 				<md>
 					<mrow>
 						\textbf{Solar:} \qquad  
@@ -579,11 +588,6 @@
 					</mrow>
 				</md>
 			</p>
-			<aside>
-				<p>
-					(Story also appears in <xref ref="solar-heating-modeling-linear"/>)
-				</p>
-			</aside>
 		</introduction>	
 		<task>
 			<statement>
