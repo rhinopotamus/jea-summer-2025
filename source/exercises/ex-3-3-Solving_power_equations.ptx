@@ -22,7 +22,6 @@
 		<exercise xml:id="pizza-diameter-solving-power" workspace="2.5in">
 			<introduction>
 				<p>
-					A pizza of diameter <m>D</m> inches serves <m>P</m> people where <me>P = 0.015625\, D^2.</me>
 					<aside>
 						<p>
 							(Story also appears in
@@ -31,6 +30,7 @@
 							<xref ref="pizza-diameter-modeling-linear"/>)
 						</p>
 					</aside>
+					A pizza of diameter <m>D</m> inches serves <m>P</m> people where <me>P = 0.015625\, D^2.</me>
 				</p>
 			</introduction>
 			<task>

@@ -10,7 +10,6 @@
 		<exercise xml:id="solar-heating-modeling-linear" workspace="1in">
 			<introduction>
 				<p>
-					A solar heating system costs approximately $30,000 to install and $150 per year to run. 
 					<aside>
 						<p>
 							Source: <q>Using Algebra</q> by Ethan Bolker
@@ -22,6 +21,7 @@
 							(Story also appears in <xref ref="sec-4-2-Systems_linear_equations" text="global"/> Exercises)
 						</p>
 					</aside>
+					A solar heating system costs approximately $30,000 to install and $150 per year to run. 
 					By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. 
 				</p>
 			</introduction>

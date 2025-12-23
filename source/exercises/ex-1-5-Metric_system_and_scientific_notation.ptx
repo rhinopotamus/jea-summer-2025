@@ -8,7 +8,7 @@
 	<exercise xml:id="gdp-scientific-notation" workspace="1.5cm">
 		<introduction>
 			<p>
-				The GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
+				In 2011,
 				<aside>
 					<p>
 						Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau
@@ -17,6 +17,7 @@
 						(Story also appears in <xref ref="gdp-prelude-scientific-notation" />)
 					</p>
 				</aside>
+				the GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
 			</p>
 		</introduction>
 		<task>

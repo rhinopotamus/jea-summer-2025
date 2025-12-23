@@ -130,7 +130,6 @@
 		<exercise xml:id="credit-line-first-look-linear">
 			<introduction>
 				<p>
-					I was short on cash so I got a <term>line of credit</term> (short term loan) on my bank account, of which I spent $2,189.57. 
 					<aside>
 						<p component="not-workbook">
 							(Story also appears in 
@@ -141,6 +140,8 @@
 							<xref ref="sec-3-2-Solving_linear_inequalities" text="global"/> Exercises)
 						</p>
 					</aside>
+					I was short on cash so I got a <term>line of credit</term> (short term loan) on my bank account,
+					of which I spent $2,189.57. 
 					That means my account balance is <m>-\$2{,}189.57</m>. I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. 
 				</p>
 			</introduction>

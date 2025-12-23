@@ -45,7 +45,20 @@
 		<exercise xml:id="grandfather-bonds-growth-factor" workspace="0.7in">
 			<introduction>
 				<p>
-					In 1962, my grandfather had savings bonds that matured to $200. He gave those to my mother to keep for me. These bonds have continued to earn interest at a fixed, guaranteed rate so I have yet to cash them in. The table lists the value at various times since then.
+					In 1962, my grandfather had savings bonds that matured to $200.
+					<aside>
+						<p component="not-workbook">
+							(Story also appears in 
+							<xref ref="grandfather-bonds-tables-graphs" /> and 
+							<xref ref="grandfather-bonds-growth-factor" />)
+						</p>
+						<p component="workbook">
+							(Story also appears in 
+							<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises and 
+							<xref ref="grandfather-bonds-growth-factor" />)
+						</p>
+					</aside>
+					He gave those to my mother to keep for me. These bonds have continued to earn interest at a fixed, guaranteed rate so I have yet to cash them in. The table lists the value at various times since then.
 				</p>
 				<tabular bottom="minor" top="minor">
 					<row left="minor">
@@ -76,18 +89,6 @@
 						<cell right="minor" halign="center">3,278.77</cell>
 					</row>
 				</tabular>
-				<aside>
-					<p component="not-workbook">
-						(Story also appears in 
-						<xref ref="grandfather-bonds-tables-graphs" /> and 
-						<xref ref="grandfather-bonds-growth-factor" />)
-					</p>
-					<p component="workbook">
-						(Story also appears in 
-						<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises and 
-						<xref ref="grandfather-bonds-growth-factor" />)
-					</p>
-				</aside>
 			</introduction>
 			<task>
 				<statement>
@@ -449,9 +450,6 @@
 				<statement>
 					<p>
 						The number of households watching reality television <m>R</m> (in millions) was estimated by the equation 
-						<me>
-							R=2.5 \ast 1.072^T
-						</me> 
 						<aside>
 							<p component="not-workbook">
 								(Story also appears in <xref ref="reality-tv-modeling-exponential"/>)
@@ -460,6 +458,9 @@
 								(Story also appears in <xref ref="sec-5-1-Modeling_exponential_equations"/> Exercises)
 							</p>
 						</aside>
+						<me>
+							R=2.5 \ast 1.072^T
+						</me> 
 						where <m>T</m> is the time in years since 1990. 
 					</p>
 				</statement>
@@ -468,14 +469,14 @@
 				<statement>
 					<p>
 						Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine <m>C</m> (in ppm) drops as the swimming pool is used for <m>T</m> hours according to the equation 
-						<me>
-							C = 2.5 \ast 0.975^T
-						</me> 
 						<aside>
 							<p>
 								(Story also appears in <xref ref="chlorine-pool-solving-exponential"/>)
 							</p>
 						</aside>
+						<me>
+							C = 2.5 \ast 0.975^T
+						</me> 
 					</p>
 				</statement>
 			</task>
@@ -483,9 +484,6 @@
 				<statement>
 					<p>
 						The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation 
-						<me>
-							N = 2 \ast 1.57^W
-						</me>
 						<aside>
 							<p component="not-workbook">
 								(Story also appears in 
@@ -497,6 +495,9 @@
 							</p>
 						</aside>
 						where <m>N</m> is the number of players (in millions) and <m>T</m> is the time in weeks since people started playing the game. 
+						<me>
+							N = 2 \ast 1.57^W
+						</me>
 					</p>
 				</statement>
 			</task>

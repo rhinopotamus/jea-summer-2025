@@ -63,7 +63,7 @@
 		<exercise xml:id="juan-coffee-systems-linear">
 			<introduction>
 				<p>
-					A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. 
+					A mug of coffee costs $3.45 at Juan's favorite cafe,
 					<aside>
 						<p>
 							(Story also appears in 
@@ -72,6 +72,7 @@
 							<xref ref="juan-coffee-systems-linear"/>)
 						</p>
 					</aside>
+					unless he buys their discount card for $10 in which case a mug costs $2.90. 
 					Or, he can buy a membership for $59.99 and then coffee is only $1/mug. If we let <m>M</m> represent the number of mugs of coffee he buys and <m>T</m> represent the total cost in dollars, then the equations are:
 					<md>
 						<mrow>

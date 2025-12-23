@@ -215,9 +215,8 @@
 	<exercise xml:id="teen-pregnancy-rate-of-change" workspace="0.45in">
 		<introduction>
 			<p>
-				Teen pregnancy rates for Minneapolis, measured in pregnancies per thousand teens, are summarized in the graph and table.
 				<aside><p>Source: Minnesota Department of Health</p></aside>
-				
+				Teen pregnancy rates for Minneapolis, measured in pregnancies per thousand teens, are summarized in the graph and table.
 			</p>
 			<tabular bottom="minor" top="minor">
 			<row left="minor">

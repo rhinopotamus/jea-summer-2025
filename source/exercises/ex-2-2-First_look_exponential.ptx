@@ -145,12 +145,12 @@
 		<exercise xml:id="savings-interest-first-look-exponential">
 			<introduction>
 				<p>
-					My savings account earns a modest amount of interest, the equivalent of 0.75% annually. 
 					<aside>
 						<p>
 							(Story also appears in <xref ref="savings-interest-percentages" />)
 						</p>
 					</aside>
+					My savings account earns a modest amount of interest, the equivalent of 0.75% annually. 
 					I have $12,392.18 in the account now.
 				</p>
 			</introduction>
