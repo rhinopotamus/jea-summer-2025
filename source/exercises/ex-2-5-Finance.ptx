@@ -147,7 +147,7 @@
 			<task>
 				<statement>
 					<p>
-						Kiran would really like to buy a new hybrid car that sells for $23,500. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the <xref ref="loan-payment-formula" text="title"/> to calculate her monthly car payments on a six year loan.
+						Kiran would really like to buy a new hybrid car that sells for $23,500. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compounded monthly. Use the <xref ref="loan-payment-formula" text="title"/> to calculate her monthly car payments on a six year loan.
 					</p>
 				</statement>
 			</task>
@@ -158,7 +158,7 @@
 		<exercise xml:id="college-savings-finance">
 			<introduction>
 				<p>
-					Tim and Josh are saving for their kids' college in fifteen years. The account pays the equivalent of 5.4% interest compounded monthly (taking into consideration various tax incentives)
+					Tim and Josh are saving for their kids' college in fifteen years. The account pays the equivalent of 5.4% interest compounded monthly (taking into consideration various tax incentives).
 				</p>
 			</introduction>
 			<task workspace="2in">
