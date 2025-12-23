@@ -9,9 +9,12 @@
     May have to do something different in latex builds.
 -->
 
-<tabular
+<p>
+<tabular 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    component="not-workbook"
     bottom="minor" top="minor" halign="center" row-headers="yes">
-    <row left="minor" component="web">
+    <row left="minor">
         <cell right="minor"><fillin characters="3" /> (indep)</cell>
         <cell right="minor">
             <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
@@ -48,36 +51,6 @@
         <cell right="minor">
             <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
             <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-    </row>
-    <row left="minor" component="not-web">
-        <cell right="minor"><fillin characters="3" /> (indep)</cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
-        </cell>
-        <cell right="minor">
-            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
         </cell>
     </row>
     <row left="minor">
@@ -105,3 +78,33 @@
         <cell right="minor"></cell>
     </row>
 </tabular>
+<latex-image
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    component="workbook">
+\hspace{-2cm}
+\begin{tikzpicture}
+    \matrix (v) 
+        [matrix of nodes,
+        nodes in empty cells,
+        nodes={
+            align=center,
+            draw,
+            font=\bfseries
+        },
+        minimum height=2.5em,
+        minimum width=5.3em,
+        text depth=1ex,
+        text height=2ex,
+        column 1/.style={text width=7em}
+        ]
+    {
+        \phantom{blank} (indep) 
+        \amp \amp \amp \amp \amp \amp \\
+        \phantom{blank} (dep)
+        \amp \amp \amp \amp \amp \amp \\
+        high / low
+        \amp \amp \amp \amp \amp \amp \\
+    };
+\end{tikzpicture}
+</latex-image>
+</p>

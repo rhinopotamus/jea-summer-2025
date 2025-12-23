@@ -25,9 +25,9 @@
 							<xref ref="pizza-diameter-solving-power"/>)
 						</p>
 					</aside>
-					Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
+					Assuming a 16-inch pizza serves four people, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
 					<me>
-						P = 0.015625\ D^2
+						P = 0.015625\ D^2.
 					</me>
 				</p>
 			</introduction>
@@ -64,7 +64,7 @@
 			<task>
 				<statement>
 					<p>
-						What diameter should an extra large pizza be to serve 6 people? Answer to the nearest inch.
+						What diameter should a pizza be to serve 6 people? Answer to the nearest inch.
 					</p>
 					<xi:include href="../successive-approx.ptx" />
 				</statement>
@@ -93,7 +93,7 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task workspace="0.5cm">
+			<task workspace="1cm">
 				<statement>
 					<p>
 						Write an equation describing this function.
@@ -109,20 +109,20 @@
 					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
-			<task>
+			<!-- <task>
 				<statement>
 					<p>
 						My ex-husband's Honda Civic's tank holds only 13 gallons. Approximate the corresponding fuel efficiency to one decimal place.
 					</p>
 					<xi:include href="../successive-approx.ptx" />
 				</statement>
-			</task>
+			</task> -->
 			<task>
 				<statement>
 					<p>
 						Draw a graph showing how the size tank depends on the fuel efficiency.
 					</p>
-					<image component="workbook" source='GraphPaper.jpg' width="85%" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%"/>
 					<!-- <xi:include href="../GraphPaper.ptx" /> -->
 				</statement>
 			</task>
