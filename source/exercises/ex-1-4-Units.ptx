@@ -5,7 +5,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 <page>
-	<exercise xml:id="compare-lengths-units" workspace="1cm">
+	<exercise xml:id="compare-lengths-units" workspace="1.25cm">
 		<task>
 			<introduction>
 				<p>
@@ -98,26 +98,26 @@
 </page>
 
 <page>
-	<exercise xml:id="decimal-hours-lengths-units" workspace="1in">
+	<exercise xml:id="decimal-hours-lengths-units" workspace="1.25in">
 		<task>
 			<statement>
 				<p>
-					Yesterday Cameron worked for 2 hours and 15 minutes (that's 2:15) and then went home and studied for 7 hours and 57 minutes (that's 7:57). Convert each time into decimal hours.
+					Yesterday Cameron worked for 2 hours and 15 minutes (that's 2:15) and then went home and studied for 7 hours and 57 minutes (that's 7:57). 
+					<aside>
+						<p>
+							Hint: 7 hours and 57 minutes is not the same as 7.57 hours!
+						</p>
+					</aside>
+					Convert each time into decimal hours.
 				</p>
 			</statement>
-			<!-- <hint>
-				<p>
-					7 hours and 57 minutes is not the same as 7.57 hours!
-				</p>
-			</hint> -->
 		</task>
-<!-- SUGGESTION: do something like 19.75 hours. -->
 		<task>
 			<statement>
 				<p>
 					Ephraim works at a plant that produces very delicate electronic switches. 
 					He measured the lifetime for one switch at 4.18 hours. 
-					Another had lifetime 19.50 hours. Convert each time into hours and minutes. 
+					Another had lifetime 19.75 hours. Convert each time into hours and minutes. 
 					<em>That means H:MM format.</em>
 				</p>
 			</statement>
@@ -165,7 +165,7 @@
 				where a glass is defined as 8 (liquid) ounces.
 			</p>
 		</introduction>
-		<task  workspace="2in">
+		<task workspace="2in">
 			<statement>
 				<p>
 					Ingrid uses a 20 ounce unbreakable plastic bottle. 
@@ -194,7 +194,7 @@
 </page>
 
 <page>
-	<exercise xml:id="finland-units" workspace="2.75cm">
+	<exercise xml:id="finland-units" workspace="3.25cm">
 		<introduction>
 			<p>
 				Jenna is studying in Finland this term and rented an older car to drive.

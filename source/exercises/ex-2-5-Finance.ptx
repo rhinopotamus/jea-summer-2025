@@ -117,7 +117,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="kiran-finance" workspace="1.2in">
+		<exercise xml:id="kiran-finance" workspace="1.5in">
 			<introduction>
 				<p>
 					Use the indicated formulas to help Kiran figure out her finances.
@@ -168,7 +168,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task workspace="1.25in">
 				<statement>
 					<p>
 						Tim's parents decide to put $15,000 into the account now. How much will that deposit be worth in fifteen years? Use the <xref ref="compound-interest-formula" text="title"/>.
@@ -176,7 +176,7 @@
 				</statement>
 			</task>
 		</exercise>
-		<exercise xml:id="equivalent-apr-finance" workspace="0.5in">
+		<exercise xml:id="equivalent-apr-finance" workspace="0.75in">
 			<introduction>
 				<p>
 					Use the <xref ref="equivalent-apr-formula" text="title"/> to find the APR for each of the following published interest rates (compounded monthly) offered by recent credit card companies.
@@ -207,7 +207,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="house-payment-finance" workspace="1.4in">
+		<exercise xml:id="house-payment-finance" workspace="1.5in">
 			<introduction>
 				<p>
 					Cesar and Eliana are looking at three different houses to buy. The first is a large new townhouse priced at $240,000. The second is a small but charming bungalow priced at $260,000. The third is a large 2-story house down the block priced at $280,000.
@@ -237,7 +237,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="2in">
 				<statement>
 					<p>
 						At this interest rate, if the house price goes up by $20,000, what happens to Cesar and Eliana's monthly payment?

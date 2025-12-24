@@ -23,7 +23,7 @@
 					Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3{,}900 + 4.2B</me> for <m>B</m> bags of grass seed. 
 				</p>
 			</introduction>
-			<task workspace="1.25in">
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						The state highways have a 18,000 pound gross weight limit. How many bags of grass seed can the truck haul? Set up and solve an appropriate inequality.
@@ -69,24 +69,28 @@
 		<exercise xml:id="airplane-altitude-linear-ineq">
 			<introduction>
 				<p>
-					The altitude, <m>A</m> feet above ground, of an airplane <m>T</m> minutes after it begins its descent is given by the equation <me>A = 32{,}000 - 1{,}200T</me> Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is most appropriate.
+					The altitude, <m>A</m> feet above ground, of an airplane <m>T</m> minutes after it begins its descent is given by the equation 
+					<me>
+						A = 32{,}000 - 1{,}200T.
+					</me>
+					Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is most appropriate.
 				</p>
 			</introduction>
-			<task workspace="0.5in">
+			<task workspace="1in">
 				<statement>
 					<p>
 						At what altitude does the plane begin its descent?
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.5in">
+			<task workspace="1in">
 				<statement>
 					<p>
 						How fast is the airplane descending?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.4in">
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						What is the airplane's altitude 3 minutes into its descent? 8 minutes? 20 minutes? Display your answers in a table.
@@ -111,7 +115,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task workspace="3in">
 				<statement>
 					<p>
 						The airplane might be asked to go into a <term>holding pattern</term> (that means flying in a circle instead of landing) when it is between 6,000 and 14,000 feet up. When will the plane be in that altitude range?
@@ -152,6 +156,9 @@
 						<em>equation:</em>
 					</p>
 					<p>
+						<nbsp/>
+					</p>
+					<p>
 						<em>inequality:</em>
 					</p>
 					<p>
@@ -169,6 +176,9 @@
 					</p>
 					<p>
 						<em>equation:</em>
+					</p>
+					<p>
+						<nbsp/>
 					</p>
 					<p>
 						<em>inequality:</em>
@@ -190,6 +200,9 @@
 						<em>equation:</em>
 					</p>
 					<p>
+						<nbsp/>
+					</p>
+					<p>
 						<em>inequality:</em>
 					</p>
 					<p>
@@ -209,6 +222,9 @@
 						<em>equation:</em>
 					</p>
 					<p>
+						<nbsp/>
+					</p>
+					<p>
 						<em>inequality:</em>
 					</p>
 					<p>
@@ -223,7 +239,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="berry-z-score-linear-ineq" workspace="0.9in">
+		<exercise xml:id="berry-z-score-linear-ineq" workspace="1.25in">
 			<introduction>
 				<p>
 					One variety of blueberry plant yields an average of 130 blueberries per season but there is quite a bit of variability from plant to plant. One measure of this variability is the standard deviation, which is approximated at 16.4 berries. Given a plant yielding <m>B</m> blueberries, we can calculate how usual or unusual that is by computing its <term>(standard) z-score</term> using the equation <me>Z = \frac{B-130}{16.4}</me>
@@ -240,10 +256,12 @@
 			<task>
 				<statement>
 					<p>
+						<aside>
+							<p>
+								Hint: the negative z-score tells us the answer is below average.
+							</p>
+						</aside>
 						If the z-score for a plant is -0.7, what is the corresponding yield? 
-					</p>
-					<p>
-						<em>Hint: the negative z-score tells us the answer is below average.</em>
 					</p>
 				</statement>
 			</task>

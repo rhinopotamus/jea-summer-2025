@@ -272,7 +272,7 @@
 				</aside>
 			</p>
 		</introduction>
-		<task workspace="0.25cm">
+		<task workspace="1cm">
 			<statement>
 				<p>
 					Juan buys coffee on the way to work every day. 
@@ -281,7 +281,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.25cm">
+		<task workspace="1cm">
 			<statement>
 				<p>
 					If Juan pays $10 for a discount card, then coffee costs $2.90/mug instead. 
@@ -291,7 +291,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.25cm">
+		<task workspace="1cm">
 			<statement>
 				<p>
 					Does the card pay for itself within the month? 
@@ -340,7 +340,7 @@
 				<!-- <image component="workbook" source='GraphPaper.jpg' width="80%" /> -->
 			</statement>
 		</task>
-		<task workspace="0.25cm">
+		<task workspace="1cm">
 			<statement>
 				<p>
 					What does the point where the two lines cross mean in terms of the story?

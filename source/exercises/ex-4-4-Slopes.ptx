@@ -7,7 +7,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<exercise xml:id="wings-delivery-slopes" workspace="1cm">
+		<exercise xml:id="wings-delivery-slopes" workspace="1.75cm">
 			<introduction>
 				<p>
 					For his Oscars party, Harland had 70 chicken wings delivered for $51.25. For his Super Bowl bash, Harland had 125 chicken wings delivered for $83.70. In each case, the total cost includes the cost per wing and the fixed delivery charge.
@@ -53,7 +53,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="leather-belts-slopes" workspace="0.75in">
+		<exercise xml:id="leather-belts-slopes" workspace="1in">
 			<introduction>
 				<p>
 					Jana is making belts out of leather strips and a metal clasp. A short belt (as shown) is 24.5 inches long and includes 7 leather strips. A long belt (not shown) is 37.3 inches long and includes 11 leather strips. Each belt includes one metal clasp that is part of the total length. All belts use the same length clasp.
@@ -122,14 +122,15 @@
 			<task>
 				<statement>
 					<p>
-						Find the intercept. Explain why this number does not make sense in the problem.
+						Find the intercept. 
+						<aside>
+							<p>
+								Hint: Why doesn't it make sense for the independent variable to be 0?
+							</p>
+						</aside>
+						Explain why this number does not make sense in the problem.
 					</p>
 				</statement>
-				<!-- <hint>
-					<p>
-						Why doesn't it make sense for the independent variable to be 0?
-					</p>
-				</hint> -->
 			</task>
 			<task>
 				<statement>
@@ -146,7 +147,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						The ski resort can compute the <term>revenue</term> (total amount of money they take in) by multiplying the ticket price times the number of tickets sold. Calculate the revenue when ticket prices are $355, $380, and $400. 
@@ -167,7 +168,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="press-weight-slopes" workspace="2in">
+		<exercise xml:id="press-weight-slopes" workspace="2.5in">
 			<introduction>
 				<p>
 					Boy, am I out of shape. Right now I can only press about 15 pounds. (<term>Press</term> means lift weight off my chest. Literally.) My trainer says I should be able to press 50 pounds by the end of 10 weeks of serious lifting. I plan to increase the weight I press by a fixed amount each week.
@@ -176,7 +177,12 @@
 			<task>
 				<statement>
 					<p>
-						Name the variables and write an equation for my trainer's projection. <em>Hint: You already know the intercept.</em>
+						Name the variables and write an equation for my trainer's projection. 
+						<aside>
+							<p>
+								Hint: You already know the intercept.
+							</p>
+						</aside>
 					</p>
 				</statement>
 			</task>
@@ -205,20 +211,28 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
-						I am skeptical. I do not think I will be able to press 50 pounds by the end of 10 weeks. If I revise my equation, would my new slope be larger or smaller?
-					</p>
-					<p>
-						<em>Hint: Try sketching in a possible revised line on your graph assuming that after 10 weeks I will press much less than 50 pounds.</em>
+						I am skeptical. 
+						<aside>
+							<p>
+								Hint: Try sketching in a possible revised line on your graph assuming that after 10 weeks I will press much less than 50 pounds.
+							</p>
+						</aside>
+						I do not think I will be able to press 50 pounds by the end of 10 weeks. If I revise my equation, would my new slope be larger or smaller? Why?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.25in">
+			<task workspace="1.75in">
 				<statement>
 					<p>
-						Will my revised projections mean I will reach that 90-pound goal sooner or later than my trainer thinks? Explain. <em>Hint: extend your graph.</em>
+						Will my revised projections mean I will reach that 90-pound goal sooner or later than my trainer thinks? Explain. 
+						<aside>
+							<p>
+								Hint: extend your graph.
+							</p>
+						</aside>
 					</p>
 				</statement>
 			</task>

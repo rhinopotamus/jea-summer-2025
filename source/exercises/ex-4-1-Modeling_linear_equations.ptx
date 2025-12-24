@@ -7,7 +7,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<exercise xml:id="solar-heating-modeling-linear" workspace="1in">
+		<exercise xml:id="solar-heating-modeling-linear" workspace="1.5in">
 			<introduction>
 				<p>
 					<aside>
@@ -57,13 +57,13 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="ebook-reader-modeling-linear" workspace="0.75in">
+		<exercise xml:id="ebook-reader-modeling-linear" workspace="1in">
 			<introduction>
 				<p>
 					Since a very popular e-book reader was released, the price has been decreasing at a constant rate. A blogger developed the following equation representing the price <m>E</m> of the e-book reader <m>T</m> months since it was released: <me>E = 359 - 12T</me>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="1.25in">
 				<statement>
 					<p>
 						Make a table of values for the e-book reader price initially, after 10 months, and after 25 months.
@@ -120,7 +120,7 @@
 	</page>
 	
 	<page>
-		<exercise workspace="1in">
+		<exercise workspace="1.25in">
 			<introduction>
 				<p>
 					Can you tell from the table which of these functions are linear? Use the rate of change to help you decide. Remember that these numbers may have been rounded.
@@ -323,14 +323,14 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="0.25in">
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						What do you notice about Luigi's line?
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.25in">
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						List the plumbers in order from steepest to least steep line. What does that mean in terms of the story?

@@ -26,7 +26,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.2cm">
+			<task workspace="1cm">
 				<statement>
 					<p>
 						Name the variables, including units, and write an equation.
@@ -34,7 +34,7 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task workspace="1.2cm">
+			<task workspace="2cm">
 				<statement>
 					<p>
 						Make a table of values showing the comprehensive fee now, in 5 years, 10 years, 20 years, and 50 years (even though that's not realistic).
@@ -190,10 +190,19 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.75in">
+			<task workspace="1in">
 				<statement>
 					<p>
-						What would the equation be if I moved $10,000 into that certificate of deposit, and kept the rest in savings? <em>Hint: to find the total balance, add the amounts.</em>
+						What would the equation be if I moved $10,000 into that certificate of deposit,
+						<aside>
+							<p>
+								Hints: How much is <q>the rest</q>? 
+							</p>
+							<p>
+								To find the total balance, add two equations.
+							</p>
+						</aside>
+						and kept the rest in savings?
 					</p>
 				</statement>
 			</task>

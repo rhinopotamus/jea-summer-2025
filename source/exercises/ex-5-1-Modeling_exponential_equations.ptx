@@ -155,7 +155,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="greenhouse-co2-modeling-exponential" workspace="1.4in">
+		<exercise xml:id="greenhouse-co2-modeling-exponential" workspace="1.75in">
 			<introduction>
 				<p>
 					Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. 
@@ -184,7 +184,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.25in">
 				<statement>
 					<p>
 						Does that mean that carbon dioxide increased at a higher or lower rate than 0.42%? Explain.

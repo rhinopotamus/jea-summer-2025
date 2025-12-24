@@ -10,9 +10,9 @@
     </introduction>
 
 <page>
-    <exercise xml:id="juan-coffee-order-operations" workspace="0.75in">
+    <exercise xml:id="juan-coffee-order-operations" workspace="1in">
         <introduction>
-            <p>
+            <p> 
                 <em>
                     (Story also appears in 
                     <xref ref="juan-coffee-tables-graphs" />, 
@@ -43,7 +43,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="rose-gold-order-operations" workspace="0.75in">
+    <exercise xml:id="rose-gold-order-operations" workspace="1in">
         <introduction>
             <p>
                 <q>Rose gold</q> is a mix of gold and copper.
@@ -81,7 +81,7 @@
 </page>
 
 <page>
-    <exercise xml:id="weight-change-order-operations" workspace="1.25in">
+    <exercise xml:id="weight-change-order-operations" workspace="1.5in">
         <introduction>
             <p>
                 <em>
@@ -106,7 +106,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1.25in"> <!-- no id bc they're a continuation of same stories -->
+    <exercise workspace="1.5in"> <!-- no id bc they're a continuation of same stories -->
         <introduction>
             <p>
                 <em>
@@ -123,7 +123,7 @@
                 </p>
             </statement>
         </task>
-        <task workspace="1in">
+        <task workspace="1.25in">
             <statement>
                 <p>
                     After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week. What did Carlos weigh 6 weeks ago before the migraines started?

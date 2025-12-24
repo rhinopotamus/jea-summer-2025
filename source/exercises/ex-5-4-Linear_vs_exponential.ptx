@@ -76,7 +76,7 @@
 					<alert>First, assume the value of the house increased exponentially.</alert>
 				</p>
 			</introduction>
-			<task workspace="1.75in">
+			<task workspace="2in">
 				<statement>
 					<p>
 						Calculate the annual growth factor using the 
@@ -84,24 +84,25 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.75in">
+			<task workspace="1.25in">
 				<statement>
 					<p>
-						In this model, by what percentage did the house value increase each year? <em>Hint: use the <xref ref="percent-change-formula" text="title"/>.</em>
+						In this model, by what percentage did the house value increase each year? 
+						Use the <xref ref="percent-change-formula" text="title"/>.
 					</p>
 				</statement>
 			</task>
 			<task workspace="2.5in">
 				<statement>
 					<p>
-						Write an exponential equation showing how the value of the house increased. Don't forget to name the variables, including units. <em>Hint: use the <xref ref="exp-eqn-template" text="title"/>.</em>
+						Use the <xref ref="exp-eqn-template" text="title"/> to write an equation showing how the value of the house increased. Don't forget to name the variables, including units. 
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.5in">
+			<task workspace="1in">
 				<statement>
 					<p>
-						Check that your equation gives the correct sold value.
+						Check that your equation gives the correct sold value 40 years later.
 					</p>
 				</statement>
 			</task>
@@ -114,14 +115,14 @@
 						<alert>Next, assume the value of the house increased linearly instead.</alert>
 					</p>
 					<p>
-						In this model, by what fixed amount did the house value increase each year? <em>Hint: calculate the slope using the <xref ref="rate-of-change" text="title"/>.</em>
+						In this model, by what fixed amount did the house value increase each year? Calculate the slope using the <xref ref="rate-of-change" text="title"/>.
 					</p>
 				</statement>
 			</task>
 			<task workspace="2in">
 				<statement>
 					<p>
-						Using the same variables, write a linear equation showing how the value of the house increased. <em>Hint: use the <xref ref="linear-eq-template" text="title"/>.</em>
+						Using the same variables, write a linear equation showing how the value of the house increased. Use the <xref ref="linear-eq-template" text="title"/>.
 					</p>
 				</statement>
 			</task>
@@ -159,7 +160,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.25in">
+			<task workspace="1in">
 				<statement>
 					<p>
 						Check that your equation gives the correct value for 2010.
@@ -183,7 +184,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.25in">
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						Check that your equation gives the correct value for 2010.
@@ -307,7 +308,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.25in">
+			<task workspace="1.25in">
 				<statement>
 					<p>
 						Draw a graph showing both options.
@@ -315,7 +316,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="3.25in">
+			<task workspace="3.75in">
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -325,10 +326,10 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="3.5in">
+			<task workspace="4in">
 				<statement>
 					<p>
-						If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support?
+						If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support? Why?
 					</p>
 				</statement>
 			</task>

@@ -6,7 +6,7 @@
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise workspace="0.5in">
+        <exercise workspace="0.8in">
             <introduction>
                 <p>
                     In each story, write out the highlighted numbers (with all the zeros).
@@ -45,7 +45,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise workspace="0.5in">
+        <exercise workspace="0.8in">
             <introduction>
                 <p>
                     In each story, write out the highlighted numbers (with all the zeros).
@@ -89,7 +89,7 @@
     </page>
     
     <page>
-        <exercise workspace="0.5in">
+        <exercise workspace="2cm">
             <introduction>
                 <p>
                     In each story, evaluate the number and report your answer in scientific notation.
@@ -126,7 +126,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise workspace="0.5in">
+        <exercise workspace="2cm">
             <introduction>
                 <p>
                     In each story, write out the highlighted number (with all the 0s). Note that <term>million</term> is short for <m>\times 10^6</m>, <term>billion</term> is short for <m>\times 10^9</m>, and <term>trillion</term> is short for <m>\times 10^{12}</m>.
@@ -135,7 +135,7 @@
             <task xml:id="currency-prelude-scientific-notation">
                 <statement>
                     <p>
-                        There are approximately <term>1.084 million quarters</term> in circulation in the United States. 
+                        There are approximately <term>1.084 million quarters</term> in the United States. 
                         <aside>
                             <p>
                                 (Story also appears in <xref ref="currency-approx-rounding"/>)
@@ -156,7 +156,7 @@
                     </p>
                 </statement>
             </task>
-            <task xml:id="t-bonds-prelude-scientific-notation" workspace="0in">
+            <task xml:id="t-bonds-prelude-scientific-notation">
                 <statement>
                     <p>
                         One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately <term>$24 trillion</term> worth of T-bonds currently.

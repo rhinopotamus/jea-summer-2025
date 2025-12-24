@@ -22,7 +22,6 @@
 				<p>
 					A high-jumper jumps so that the height, <m>H</m> feet, of the point on his back that must clear the bar after <m>T</m> seconds is given by the equation <me>H = 3.5 + 16T -16T^2</me>
 				</p>
-				<!-- <image source='highjumper.png'/> -->
 
 				<figure xml:id="fig-3-5-ex-high-jumper">
 					<caption><m>H</m> = the height of the high jumper, as a function of <m>T</m>= time.</caption>
@@ -36,14 +35,14 @@
 				</figure>
 				
 			</introduction>
-			<task workspace="2.5in">
+			<task workspace="3.25in">
 				<statement>
 					<p>
 						When would the high-jumper hit the ground (if there were no pit)? Ouch! Use the <xref ref="quadratic-formula" text="title"/> to find the answer. Use the graph to check.
 					</p>
 				</statement>
 			</task>
-			<task workspace="3in">
+			<task workspace="3.25in">
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -53,7 +52,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="3in">
+			<task workspace="3.25in">
 				<statement>
 					<p>
 						How high a bar can the high-jumper clear? Find the maximum height of that point above ground by evaluating at <m>\displaystyle T=\frac{-b}{2a}</m>. Use the graph to check.
@@ -70,7 +69,7 @@
 					The art museum opened in 1920. After an initial rush to see the great holdings, attendance dropped for awhile. But then attendance began to rise again and has risen since. The number of annual visits <m>N</m> is approximated by the equation <me>N= 51T^2-840T+3{,}700</me> where <m>T</m> is time measured in years since 1920.
 				</p>
 			</introduction>
-			<task>
+			<task workspace="1in">
 				<statement>
 					<p>
 						Calculate the missing values in the table.
@@ -155,22 +154,23 @@
 		<exercise xml:id="milk-profit-solving-quadratic">
 			<introduction>
 				<p>
-					The profit $<m>P</m> from selling <m>M</m> tanks of milk is described by the equation <me>P=-2M^2+2{,}000M-80{,}000</me>
+					The profit $<m>P</m> from selling <m>M</m> tanks of milk is described by the equation 
+					<me>
+						P=-2M^2+2{,}000M-80{,}000.
+					</me>
+					Here is a graph of the function:
 				</p>
+				<!-- <image source='milk.png'/> -->
+				<image>
+					<shortdescription>Profits vs. milk sales</shortdescription>
+					<prefigure xmlns="https://prefigure.org"
+						label="prefigure-milk">
+						<xi:include href="../prefigure/3-5-milk.xml" />
+					</prefigure>
+				</image>
 			</introduction>
-			<task workspace="0.5in">
+			<task workspace="1in">
 				<statement>
-					<p>
-						Here is a graph of the function:
-					</p>
-					<!-- <image source='milk.png'/> -->
-					<image>
-						<shortdescription>Profits vs. milk sales</shortdescription>
-						<prefigure xmlns="https://prefigure.org"
-							label="prefigure-milk">
-							<xi:include href="../prefigure/3-5-milk.xml" />
-						</prefigure>
-					</image>
 					<p>
 						Explain why negative numbers on the vertical axis make sense in the story.
 					</p>
@@ -183,7 +183,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.75in">
+			<task workspace="2in">
 				<statement>
 					<p>
 						For practice, set up and solve a quadratic equation to find the break-even point.
@@ -204,7 +204,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="gravel-path-quadratic" workspace="0.7in">
+		<exercise xml:id="gravel-path-quadratic" workspace="1in">
 			<introduction>
 				<p>
 					Urban community gardens are catching on. 
@@ -241,7 +241,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task workspace="0.5in">
 				<statement>
 					<p>
 						What would it mean to solve the equation to find where <m>G=0</m>? Can you tell what the answer is from the equation (without actually solving)?

@@ -6,7 +6,7 @@
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="weight-change-algebraic-notation" workspace="2.8in">
+        <exercise xml:id="weight-change-algebraic-notation" workspace="3in">
             <statement>
                 <p>
                     Since she has been pregnant, Zoe has gained the recommended <m>\sfrac{1}{2}</m> pound per week. 
@@ -21,7 +21,7 @@
                 </p>
             </statement>
         </exercise>
-        <exercise xml:id="wooden-balls-algebraic-notation" workspace="2.8in">
+        <exercise xml:id="wooden-balls-algebraic-notation" workspace="3in">
             <statement>
                 <p>
                     Jody is using small wooden balls to make noses for her knitted gnomes. 
@@ -37,7 +37,7 @@
     </page>
     
     <page>
-        <exercise xml:id="astra-rent-algebraic-notation" workspace="2.5in">
+        <exercise xml:id="astra-rent-algebraic-notation" workspace="3.25in">
             <statement>
                 <p>
                     Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. 
@@ -53,7 +53,7 @@
             </statement>
         </exercise>
     
-        <exercise xml:id="rose-gold-algebraic-notation" workspace="2.5in">
+        <exercise xml:id="rose-gold-algebraic-notation" workspace="3.25in">
             <statement>
                 <p>
                     <q>Rose gold</q> is a mix of gold and copper. 

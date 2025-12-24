@@ -12,7 +12,7 @@
     </introduction>
 
     <page>
-        <exercise xml:id="world-population-percentages" workspace="1in">
+        <exercise xml:id="world-population-percentages" workspace="1.25in">
             <introduction>
                 <p>
                     As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). 
@@ -39,7 +39,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="astra-rent-percentages" workspace="1in">
+        <exercise xml:id="astra-rent-percentages" workspace="1.25in">
             <introduction>
                 <p>
                     In Minneapolis,
@@ -71,7 +71,7 @@
     </page>
     
     <page>    
-        <exercise xml:id="intersection-percentages" workspace="1in">
+        <exercise xml:id="intersection-percentages" workspace="1.25in">
             <introduction>
                 <p>
                     The intersection by my house is dangerous. One year there were 14 accidents there. The neighbors got together and petitioned to have 4-way stop signs installed.
@@ -99,7 +99,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="savings-interest-percentages" workspace="1in">
+        <exercise xml:id="savings-interest-percentages" workspace="1.25in">
             <introduction>
                 <p>
                     My savings account earns a modest amount of interest, the equivalent of 0.75% annually. 
@@ -118,7 +118,7 @@
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="1in">
                 <statement>
                     <p>
                         How much will my account balance be at the end of the year?

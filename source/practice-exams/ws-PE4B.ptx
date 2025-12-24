@@ -50,7 +50,7 @@
 				<xi:include href="../GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="1in">
+		<task workspace="2in">
 			<statement>
 				<p>
 					According to your graph, <em>approximately</em> what is the <term>payback time</term> (the number of months for which the total costs of each washing machine are equal)? Answer and indicate the point on the graph where you can check.

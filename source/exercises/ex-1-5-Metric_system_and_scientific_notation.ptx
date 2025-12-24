@@ -5,7 +5,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 <page>
-	<exercise xml:id="gdp-scientific-notation" workspace="1.5cm">
+	<exercise xml:id="gdp-scientific-notation" workspace="2cm">
 		<introduction>
 			<p>
 				In 2011,
@@ -59,9 +59,9 @@
 			<statement>
 				<p>
 					For practice, repeat your calculation using the numbers in scientific notation.
-				</p>
-				<p>
-					<em>Because <m>\times</m> and <m>\div</m> are at the same level in the order of operations, you need to put parentheses around each number in scientific notation before dividing.</em>
+					<aside>
+						<p>Because <m>\times</m> and <m>\div</m> are at the same level in the order of operations, you need to put parentheses around each number in scientific notation before dividing.</p>
+					</aside>
 				</p>
 			</statement>
 		</task>
@@ -69,7 +69,7 @@
 </page>
 
 <page>
-	<exercise xml:id="dust-particle-scientific-notation" workspace="1cm">
+	<exercise xml:id="dust-particle-scientific-notation" workspace="1.5cm">
 		<introduction>
 			<p>
 				Edgar recently changed the cleaning bag on his vacuum cleaner. 
@@ -173,7 +173,7 @@
 </page>
 
 <page>
-	<exercise xml:id="planet-weight-scientific-notation" workspace="1.25in">
+	<exercise xml:id="planet-weight-scientific-notation" workspace="2in">
 		<introduction>
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.
@@ -238,11 +238,11 @@
 		<task>
 			<statement>
 				<p>
-					The mass of astronomical bodies are sometimes measured in <term>Jupiter mass</term>, abbreviated <m>M_J</m>, where <m>1 M_J = 1.899 \times 10^{27}</m> kg. Express Earth's mass in <m>M_J</m>.
-				</p>
-		
-				<p>
-					<em>Because <m>\times</m> and <m>\div</m> are at the same level in the order of operations, you need to put parentheses around each number in scientific notation before dividing.</em>
+					The mass of astronomical bodies are sometimes measured in <term>Jupiter mass</term>, abbreviated <m>M_J</m>, where <m>1 M_J = 1.899 \times 10^{27}</m> kg. 
+					<aside>
+						<p>Because <m>\times</m> and <m>\div</m> are at the same level in the order of operations, you need to put parentheses around each number in scientific notation before dividing.</p>
+					</aside>
+					Express Earth's mass in <m>M_J</m>.
 				</p>
 			</statement>
 		</task>
@@ -250,7 +250,7 @@
 </page>
 
 <page>
-	<exercise xml:id="iv-drip-scientific-notation" workspace="2.25cm">
+	<exercise xml:id="iv-drip-scientific-notation" workspace="2.75cm">
 		<introduction>
 			<p>
 				Souksavanh is setting up a patient's intravenous (IV) medication. 

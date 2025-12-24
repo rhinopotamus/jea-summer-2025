@@ -11,7 +11,7 @@
     </introduction>
 
     <page>
-        <exercise xml:id="students-fractions" workspace="0.6in">
+        <exercise xml:id="students-fractions" workspace="0.75in">
             <introduction>
                 <p>
                     There are 2,624 students at a local university.
@@ -32,7 +32,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="gas-mileage-fractions" workspace="0.6in">
+        <exercise xml:id="gas-mileage-fractions" workspace="0.75in">
             <introduction>
                 <p>
                     Gas mileage is usually rounded down to the nearest one decimal place. Gas mileage is measured in miles per gallon (mpg).
@@ -69,14 +69,14 @@
                     In January 2015, Graham had 47 albums in his vinyl collection. By September 2023 (that's 8 years, 9 months later), he had 783 albums. Approximately how many albums per month did Graham buy?
                 </p>
             </introduction>
-            <task workspace="1.5in">
+            <task workspace="1.75in">
                 <statement>
                     <p>
                         Figure out the answer step by step.
                     </p>
                 </statement>
             </task>
-            <task workspace="0.75in">
+            <task workspace="1in">
                 <statement>
                     <p>
                         Now try to combine all of your calculations into one line on your calculator. Hint: write as a fraction first.
@@ -90,7 +90,7 @@
                     It took Mariam 3 hours to complete the reading for her Religion class. The reading was 102 pages long.
                 </p>
             </introduction>
-            <task workspace="0.75in">
+            <task workspace="1in">
                 <statement>
                     <p>
                         How fast did she read measured in pages per hour? Write the answer as a fraction and as a decimal.
@@ -104,7 +104,7 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="0.25in">
+            <task workspace="0.5in">
                 <statement>
                     <p>
                         How could you do the calculation in part (b) one line on your calculator by using parentheses? Hint: the <q>hours</q> cancel!

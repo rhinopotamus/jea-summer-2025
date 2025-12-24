@@ -6,7 +6,7 @@
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="wooden-balls-powers-roots" workspace="0.7in">
+        <exercise xml:id="wooden-balls-powers-roots" workspace="1in">
             <introduction>
                 <p>
                     Jody is using small wooden balls to make noses for her knitted gnomes. 
@@ -33,7 +33,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="pizza-diameter-powers-roots" workspace="0.7in">
+        <exercise xml:id="pizza-diameter-powers-roots" workspace="1in">
             <introduction>
                 <p>
                     The size of a round pizza is described by its diameter. 
@@ -73,7 +73,7 @@
     </page>
     
     <page>    
-        <exercise xml:id="fiber-optic-powers-roots" workspace="2in"> 
+        <exercise xml:id="fiber-optic-powers-roots" workspace="3in"> 
             <statement>
                 <p>
                     A signal sent down a fiber optic cable decreases by 2% per mile. 

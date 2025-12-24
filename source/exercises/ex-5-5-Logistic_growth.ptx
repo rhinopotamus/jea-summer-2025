@@ -7,20 +7,20 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<exercise xml:id="corn-growth-saturation-logistic" workspace="0.8cm">
+		<exercise xml:id="corn-growth-saturation-logistic">
 			<introduction>
 				<p>
 					Corn farmers say that their crop is healthy if it is <q>knee high by the Fourth of July.</q> An equation modeling the height <m>H</m> (in inches) of the corn crop <m>T</m> days since May 1 is <me>H=106-100 \ast 0.989^{T}</me>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="1cm">
 				<statement>
 					<p>
 						According to this equation, how high is corn projected to be on June 1 (day 31)?
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1cm">
 				<statement>
 					<p>
 						According to this equation, how high is corn projected to be on the Fourth of July (day 64)? Is that <q>knee high</q> (18 inches tall)?
@@ -32,16 +32,17 @@
 					<p>
 						With stronger corn these days, the rule ought to be <q>chest high (52 inches) by the Fourth of July.</q> According to this equation, <em>approximately</em> when is the corn projected to be that tall? Use successive approximation to answer.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="1cm">
 				<statement>
 					<p>
 						The corn matures in 110 days. How tall will it be then?
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Draw a graph of the function. Include when <m>T=0</m>.
@@ -73,11 +74,12 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task workspace="0in">
 				<statement>
 					<p>
 						According to this new equation, on <em>approximately</em> what date is the corn projected to be <q>chest high</q> (52 inches tall)? Use successive approximation to answer.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task>
@@ -98,13 +100,13 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="fish-pond-logistic" workspace="1.75in">
+		<exercise xml:id="fish-pond-logistic" workspace="1in">
 			<introduction>
 				<p>
 					Back in 1975 when my aunt and uncle bought their house in upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish <m>F</m> increased over time, approximately according to the equation <me>F=\frac{1{,}000}{1+99 \ast 0.65^T}</me> where <m>T</m> is time measured in years since 1975.
 				</p>
 			</introduction>
-			<task>
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						Make a table showing the fish population in 1975, 1990, 2000, and 2013.
@@ -114,15 +116,17 @@
 			<task>
 				<statement>
 					<p>
-						By the time there were over 500 fish in the pond, you could catch them with your bare hands. In <em>approximately</em> what year did that happen? Use successive approximations and display your calculations in a table.
+						By the time there were over 500 fish in the pond, you could catch them with your bare hands. In <em>approximately</em> what year did that happen? Use successive approximation.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task>
 				<statement>
 					<p>
-						In <em>approximately</em> what year did the fish population reach its capacity? Use successive approximations and display your calculations in a table.
+						In <em>approximately</em> what year did the fish population reach its capacity? Use successive approximation.
 					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 		</exercise>
@@ -156,7 +160,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="0.5in">
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						Which function is more consistent with a major advertising campaign during the second week of September? Explain.

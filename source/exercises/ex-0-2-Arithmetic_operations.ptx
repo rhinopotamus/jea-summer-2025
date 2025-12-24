@@ -80,7 +80,7 @@
     </page>
     
     <page>
-        <exercise xml:id="students-arithmetic-operations" workspace="0.35in">
+        <exercise xml:id="students-arithmetic-operations" workspace="0.5in">
             <introduction>
                 <p>
                     There are 2,624 students at a local university.
@@ -96,19 +96,19 @@
             <task>
                 <statement>
                     <p>
-                        The university wants to support 40 hours a week of onsite tutoring (in mathematics, writing, etc.) for each the 32 weeks that classes are in session. It costs about $18/hour to pay the tutors and staff administrators. What is the total cost of tutoring?
+                        The university wants to support 40 hours a week of onsite tutoring (in math, writing, etc.) for each the 32 weeks that classes are in session. It costs about $18/hour to pay the tutors and the staff. What is the total cost of tutoring?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        The university is considering adding a tutoring fee to cover the cost of tutoring. If they wanted to cover the total cost of tutoring, what would the cost per student be?
+                        The university is considering charging students a tutoring fee. If they wanted to cover the total cost of tutoring, what would the cost per student be?
                     </p>
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="truck-grass-arithmetic-operations" workspace="0.35in">
+        <exercise xml:id="truck-grass-arithmetic-operations" workspace="0.5in">
             <introduction>
                 <p>
                     A truck hauling grass seed weighs 3,900 pounds when it is empty. 
@@ -151,7 +151,7 @@
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="0.6in">
                 <statement>
                     <p>
                         What does part (d) tell you about which operation your calculator did first: the <m>+</m> or the <m>\times</m>?

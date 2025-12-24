@@ -75,7 +75,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="stock-price-fitting-lines" workspace="0.65in">
+		<exercise xml:id="stock-price-fitting-lines" workspace="0.75in">
 			<introduction>
 				<p>
 					Noel is considering investing in a company's stock so he looked up a few values.
@@ -109,7 +109,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.25in">
+			<task workspace="0.5in">
 				<statement>
 					<p>
 						Is this growth linear? How do you know?
@@ -180,7 +180,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="2.5in">
+			<task workspace="3.5in">
 				<statement>
 					<p>
 						Find the equation of the line that goes through the first and last point listed.
@@ -270,7 +270,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="8cm">
+			<task workspace="11cm">
 				<statement>
 					<p>
 						Name the variables and write an equation for the line through January and August. Add this line (#1) to your graph. This line is too low.
@@ -287,21 +287,21 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						Neither of these lines go anywhere near the data for February, April, and May, because those are outliers. Any idea why those months had much higher candy sales than the other months?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task workspace="1.25in">
 				<statement>
 					<p>
 						What does each equation give as an estimate for September's sales?
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.8in">
+			<task workspace="1in">
 				<statement>
 					<p>
 						Explain why Mia and Mandi should not use either of these lines to estimate October's sales.

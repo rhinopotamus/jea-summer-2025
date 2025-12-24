@@ -36,21 +36,34 @@
 			<task>
 				<statement>
 					<p>
-						Evaluate the equation at <m>T=12</m>. What does this number mean in terms of the story?
+						Evaluate the equation at <m>T=12</m>. What does this number mean in terms of Dontrell and Kim's mortgage?
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1in">
 				<statement>
 					<p>
-						After making half the payments, how much money will Dontrell and Kim still owe on the house? Will they have paid more or less (or exactly) half of the amount they originally borrowed? <em>Hint: Find the total number of payments by converting 30 years into months. Then, divide by 2 to find the halfway point.</em>
+						After making half the payments, how much money will Dontrell and Kim still owe on the house? 
+						<aside>
+							<p>
+								Hint: Find the total number of payments by converting 30 years into months. 
+								Then, divide by 2 to find the halfway point.
+							</p>
+						</aside>
+						Will they have paid more or less (or exactly) half of the amount they originally borrowed? 
 					</p>
 				</statement>
 			</task>
 			<task workspace="0.25in">
 				<statement>
 					<p>
-						The very last month they do not actually pay the regular monthly payment, just whatever balance is left on the loan. How much will that be? <em>Hint: they will have made all but one of the payments.</em>
+						The very last month they do not actually pay the regular monthly payment, 
+						<aside>
+							<p>
+								Hint: they will have made <em>all but one</em> of the payments.
+							</p>
+						</aside>
+						just whatever balance is left on the loan. How much will that be? 
 					</p>
 				</statement>
 			</task>
@@ -218,11 +231,11 @@
 			<task workspace="1.5cm">
 				<statement>
 					<p>
-						Valerie hopes to walk all 50 miles of the event. If so, how much money will she raise?
+						If Valerie walks all 50 miles of the event, how much money will she raise?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.5cm">
+			<task workspace="1cm">
 				<statement>
 					<p>
 						She might have to stop sooner, however. Name variables and write an equation showing how the money Valerie raises is a function of how far she is able to walk.
@@ -237,7 +250,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.75cm">
+			<task workspace="1.5cm">
 				<statement>
 					<p>
 						Name the new variables and write a new equation showing how the time it takes Valerie to walk the full 50 miles depends on her pace.
@@ -248,7 +261,11 @@
 			<task workspace="1.75cm">
 				<statement>
 					<p>
-						Good news. Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour? <em>Hint: Use your answers from (a) and (c) as unit conversions to get $/hour.</em>
+						Good news:
+						<aside>
+							<p>Hint: Use your answers from (a) and (c) as unit conversions to get $/hour.</p>
+						</aside>
+						Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour? 
 					</p>
 				</statement>
 			</task>

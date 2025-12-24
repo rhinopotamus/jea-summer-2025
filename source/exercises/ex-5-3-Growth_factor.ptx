@@ -42,7 +42,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="grandfather-bonds-growth-factor" workspace="0.7in">
+		<exercise xml:id="grandfather-bonds-growth-factor" workspace="2.25cm">
 			<introduction>
 				<p>
 					In 1962, my grandfather had savings bonds that matured to $200.
@@ -125,7 +125,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.5in">
+			<task>
 				<statement>
 					<p>
 						Use your equation to check the information for 1990, 2000, and 2010.
@@ -161,7 +161,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="carbon-14-growth-factor" workspace="1in">
+		<exercise xml:id="carbon-14-growth-factor" workspace="1.25in">
 			<introduction>
 				<p>
 					Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. 
@@ -172,14 +172,15 @@
 			<task>
 				<statement>
 					<p>
-						Find the annual <q>growth</q> factor. Keep at least six digits after the decimal place for your calculations.
+						Find the annual <q>growth</q> factor. 
+						<aside>
+							<p>
+								Hint: If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?
+							</p>
+						</aside>
+						Keep at least six digits after the decimal place for your calculations.
 					</p>
 				</statement>
-				<hint>
-					<p>
-						If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?
-					</p>
-				</hint>
 			</task>
 			<task>
 				<statement>
@@ -195,7 +196,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.75in">
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the <q>scientific notation</q> answer your calculator gives you.
@@ -213,17 +214,25 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.5in">
 				<statement>
 					<p>
-						If the bone is determined to have 100 milligrams of carbon-14, <em>approximately</em> how long ago did it die? Start by <em>estimating</em> the answer from your graph. Then revise your estimate using successive approximation. Display your guesses in a table.
+						If the bone is determined to have 100 milligrams of carbon-14, <em>approximately</em> how long ago did it die? Start by <em>estimating</em> the answer from your graph.
 					</p>
+				</statement>
+			</task>
+			<task workspace="0in">
+				<statement>
+					<p>
+						Now use successive approximation to revise your estimate.
+					</p>
+					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
 			<task>
 				<statement>
 					<p>
-						Solve the equation exactly.
+						Finally, solve the equation <ems>exactly</ems>.
 					</p>
 				</statement>
 			</task>
@@ -231,14 +240,14 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="find-growth-factor" workspace="1.75cm">
+		<exercise xml:id="find-growth-factor" workspace="2.75cm">
 			<introduction>
 				<p>
 					For each story, find the annual growth factor <m>g</m> and annual growth rate <m>r</m> as a percent.
 				</p>
 			
 				<p>
-					<em>Hint: First decide if you can use the <xref ref="percent-change-formula" text="title"/> or if you will need to use the <xref ref="growth-factor-formula" text="title"/>. Don't forget to include the negative sign for decay rates.</em>
+					First decide if you can use the <xref ref="percent-change-formula" text="title"/> or if you will need to use the <xref ref="growth-factor-formula" text="title"/>. Don't forget to include the negative sign for decay rates.
 				</p>
 			</introduction>
 			<task>
@@ -412,7 +421,7 @@
 					</sidebyside>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1cm">
 				<statement>
 					<p>
 						The number of high school students arrested for driving under the influence is half what it was 5 years ago. Assume the number is falling exponentially.
@@ -440,7 +449,7 @@
 	</page>
 	
 	<page>
-		<exercise workspace="1.5in">
+		<exercise workspace="2in">
 			<introduction>
 				<p>
 					For each equation, find the growth rate and state its units. For example, something might <q>grow 2% per year</q> while something else might <q>drop 7% per hour</q>.

@@ -6,7 +6,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 <page>
-	<exercise xml:id="bakery-rate-of-change" workspace="1cm">
+	<exercise xml:id="bakery-rate-of-change" workspace="2cm">
 		<introduction>
 			<p>
 				Sweet Rose Bakery makes cakes and cupcakes. Here are their prices.
@@ -79,14 +79,14 @@
 				<xi:include href="../GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="0.1cm">
+		<task workspace="0.5cm">
 			<statement>
 				<p>
 					The rate of change for cupcakes is constant. Any idea why?
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.1cm">
+		<task workspace="0.5cm">
 			<statement>
 				<p>
 					The rate of change for cakes is not constant. Any idea why?
@@ -97,7 +97,7 @@
 </page>
 
 <page>
-	<exercise xml:id="wedding-rental-rate-of-change" workspace="0.75in">
+	<exercise xml:id="wedding-rental-rate-of-change" workspace="1in">
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
@@ -212,7 +212,7 @@
 </page>
 
 <page>
-	<exercise xml:id="teen-pregnancy-rate-of-change" workspace="0.45in">
+	<exercise xml:id="teen-pregnancy-rate-of-change" workspace="0.5in">
 		<introduction>
 			<p>
 				<aside><p>Source: Minnesota Department of Health</p></aside>
@@ -248,7 +248,7 @@
 				<cell right="minor" halign="center">34.0</cell>
 			</row>
 			</tabular>
-			<image source='teenpregnancy.png' width="80%" />
+			<image source='teenpregnancy.png' width="100%" />
 		</introduction>
 		<task>
 			<statement>
@@ -276,11 +276,11 @@
 		<task>
 			<statement>
 				<p>
-					When did the teen pregnancy rate first fall below 60 pregnancies per thousand teens?
+					When did the teen pregnancy rate first fall below 60 pregnancies per thousand?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.75in">
 			<statement>
 				<p>
 					How fast was the teen pregnancy rate dropping on average per year from 2002 to 2005? 

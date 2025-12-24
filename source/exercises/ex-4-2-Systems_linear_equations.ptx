@@ -7,7 +7,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<exercise xml:id="car-comparison-systems-linear" workspace="0.75in">
+		<exercise xml:id="car-comparison-systems-linear" workspace="2.25cm">
 			<introduction>
 				<p>
 					Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.
@@ -90,7 +90,7 @@
 					</md>
 				</p>
 			</introduction>
-			<task>
+			<task workspace="1in">
 				<statement>
 					<p>
 						Compare the total costs for all three options.
@@ -291,14 +291,14 @@
 					The <term>equilibrium price</term> of flour is the price where the supply equals the demand.
 				</p>
 			</introduction>
-			<task workspace="1cm">
+			<task workspace="2cm">
 				<statement>
 					<p>
 						What happens if flour is priced at $1.00/pound? That is, how much flour will be produced and how much will consumers demand?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1cm">
+			<task workspace="2cm">
 				<statement>
 					<p>
 						What happens if flour is priced at $0.50/pound? That is, how much flour will be produced and how much will consumers demand?
@@ -308,12 +308,12 @@
 			<task>
 				<statement>
 					<p>
-						Graph each dependence on the same set of axes. <em>Approximately</em> what is the equilibrium price, according to your graph?
+						Graph both the supply equation and the demand equation on the same set of axes. <em>Approximately</em> what is the equilibrium price, according to your graph?
 					</p>
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task workspace="2.75in">
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -323,14 +323,14 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task workspace="2.25in">
 				<statement>
 					<p>
 						When more of a product is produced than consumers want to buy, we have a <term>surplus</term> of the product. Solve an inequality to find the range of price values for which there will be a surplus of flour. Compare your answer to part (d).
 					</p>
 				</statement>
 			</task>
-			<task workspace="2.2in">
+			<task workspace="2.25in">
 				<statement>
 					<p>
 						When less of a product is produced than consumers want to buy, we have a <term>shortage</term> of the product. Solve an inequality to find the range of price values for which there will be a shortage of flour. Compare your answer to parts (d) and (e).
