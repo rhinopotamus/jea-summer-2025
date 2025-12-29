@@ -1,6 +1,6 @@
 ---
 title: Summer 2025 edition
-slug: summer-2025
+slug: 2025
 ---
 
 Lots of improvements:
@@ -9,3 +9,9 @@ Lots of improvements:
 - in-class activities that gently scaffold students through Exercise 1 (usually)
 - subsections for navigation
 - more scaffolding in the workbook
+
+Here are some more words.
+
+- [Read online](../summer-2025/just-enough-algebra.html)
+- [Workbook pdf](workbook.pdf)
+- [Full text pdf](fulltext.pdf)

@@ -3,6 +3,6 @@ title: Original version
 slug: original
 ---
 
-Originally converted in summer 2024
+Originally converted in summer 2024, this is a faithful conversion of the extant LaTeX source code from the 2014 version.
 
-A faithful conversion of the extant LaTeX source code.
+- [HTML](../just-enough-algebra.html)
