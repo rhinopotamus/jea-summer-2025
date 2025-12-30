@@ -23,6 +23,7 @@
             name="workbook" 
             format="pdf" 
             deploy-dir="pdf"
+            output-filename="JEA-Workbook-2024.pdf"
             publication="publication-workbook.ptx"
             xsl="custom-latex-workbook.xsl" 
             latex-engine="pdflatex"
@@ -31,14 +32,38 @@
         </target>
         <target 
             name="workbook-2026" 
-            format="pdf/workbook" 
-            deploy-dir="2026/pdf/workbook"
+            format="pdf" 
+            deploy-dir="2026/pdf"
+            output-filename="JEA-Workbook-2026.pdf"
             publication="publication-workbook.ptx"
             xsl="custom-latex-workbook.xsl" 
             latex-engine="pdflatex"
             >
                 <stringparams latex.preamble.early="\usepackage{parskip}" />
         </target> 
+
+<!-- Full-print targets -->
+        <target 
+            name="fullprint" 
+            format="pdf" 
+            deploy-dir="pdf"
+            output-filename="JEA-Textbook-2024.pdf"
+            publication="publication-fullprint.ptx"
+            xsl="custom-latex-fullprint.xsl" 
+            latex-engine="pdflatex" 
+        />
+        <target 
+            name="fullprint-2026" 
+            format="pdf" 
+            deploy-dir="2026/pdf"
+            output-filename="JEA-Textbook-2026.pdf"
+            publication="publication-fullprint.ptx"
+            xsl="custom-latex-fullprint.xsl" 
+            latex-engine="pdflatex" 
+        />
+
+<!-- LaTeX targets, mostly for debugging-->
+<!--  
         <target 
             name="workbook-latex" 
             format="latex" 
@@ -47,29 +72,12 @@
             >
                 <stringparams latex.preamble.early="\usepackage{parskip}" />
         </target>
-
-<!-- Full-print targets -->
-        <target 
-            name="fullprint" 
-            format="pdf" 
-            deploy-dir="pdf/fullprint"
-            publication="publication-fullprint.ptx"
-            xsl="custom-latex-fullprint.xsl" 
-            latex-engine="pdflatex" 
-        />
-        <target 
-            name="fullprint-2026" 
-            format="pdf" 
-            deploy-dir="2026/pdf/fullprint"
-            publication="publication-fullprint.ptx"
-            xsl="custom-latex-fullprint.xsl" 
-            latex-engine="pdflatex" 
-        />
         <target 
             name="fullprint-latex" 
             format="latex" 
             publication="publication-fullprint.ptx"
             xsl="custom-latex-fullprint.xsl" 
         />
+ -->
     </targets>
 </project>
