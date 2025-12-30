@@ -4,8 +4,8 @@
     <targets>
 <!-- Web targets -->
         <target 
-            name="web-summer-2025"
-            deploy-dir="summer-2025"
+            name="web-2026"
+            deploy-dir="2026"
             format="html" 
             xsl="custom-web.xsl" 
             publication="publication-web.ptx" 
@@ -22,6 +22,17 @@
         <target 
             name="workbook" 
             format="pdf" 
+            deploy-dir="pdf"
+            publication="publication-workbook.ptx"
+            xsl="custom-latex-workbook.xsl" 
+            latex-engine="pdflatex"
+            >
+                <stringparams latex.preamble.early="\usepackage{parskip}" />
+        </target>
+        <target 
+            name="workbook-2026" 
+            format="pdf/workbook" 
+            deploy-dir="2026/pdf/workbook"
             publication="publication-workbook.ptx"
             xsl="custom-latex-workbook.xsl" 
             latex-engine="pdflatex"
@@ -41,6 +52,15 @@
         <target 
             name="fullprint" 
             format="pdf" 
+            deploy-dir="pdf/fullprint"
+            publication="publication-fullprint.ptx"
+            xsl="custom-latex-fullprint.xsl" 
+            latex-engine="pdflatex" 
+        />
+        <target 
+            name="fullprint-2026" 
+            format="pdf" 
+            deploy-dir="2026/pdf/fullprint"
             publication="publication-fullprint.ptx"
             xsl="custom-latex-fullprint.xsl" 
             latex-engine="pdflatex" 
