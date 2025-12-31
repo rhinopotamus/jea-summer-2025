@@ -7,9 +7,9 @@ The 2026 edition is an overhaul of the 2024 PreTeXt source, with a laundry list 
 
 #### Activities 
 
-Perhaps the single most replicated finding in all of educational research is that *students learn when they do things*, rather than by passively listening to or reading information. The chief contribution of this edition, the new Activities in Sections 1-4 of Chapters 1-5, engage students in the work of the classroom.
+Perhaps the single most replicated finding in all of educational research is that *students learn when they do things*, rather than by passively listening to or reading information. The chief contribution of this edition, the new Activities in Chapters 1-5, engage students in the work of the classroom.
 
-- Each section begins with an **Opening Activity** suitable for pre-class homework or in-class warmup. These Opening Activities remind students of something important from a previous section, introduce a key new idea, or reactivate dormant knowledge from 
+- Each section begins with an **Opening Activity** suitable for pre-class homework or in-class warmup. These Opening Activities remind students of something important from a previous section, introduce a key new idea, or refresh their memory of something they learned in K-12.
 - In parallel with the running example in each section, **inline Activities** gently lead students through (usually) Exercise 1 in the workbook. These Activities are suitable for in-class work individually or in small groups.
 
 #### Workbook improvements
@@ -28,10 +28,13 @@ The workbook accompanying the main text is a key part of *JEA*'s approach. Desig
 
 #### Coming soon
 
-As I teach from this book in the Spring 2026 semester, I'll be generating more useful resources, including typeset solutions to each Activity and Exercise. Please [be in touch](mailto:sbagley@westminsteru.edu) if you have any requests!
+As I teach from this book in the Spring 2026 semester, I'll be generating more useful resources, including:
+- typeset solutions to each Activity and Exercise
+- a static pdf version of the textbook
+Please [be in touch](mailto:sbagley@westminsteru.edu) if you have any requests!
 
 #### 2026 edition links
 
 - [Read online](../2026/just-enough-algebra.html)
 - [Workbook pdf](../2026/pdf/JEA-Workbook-2026.pdf)
-- [Textbook pdf](../2026/pdf/JEA-Textbook-2026.pdf)
+<!-- - [Textbook pdf](../2026/pdf/JEA-Textbook-2026.pdf) -->
