@@ -76,7 +76,7 @@
                 </li>
                 <li>
                     <p>
-                        Here are some possible scales to try for the horizontal axis. Which ones work well, and which ones don't? What's wrong with the ones that don't work?
+                        Try out each of these possible scales for the horizontal axis. Which ones work well, and which ones don't? Write a sentence explaining what's wrong with the ones that don't work.
                     </p>
                     <ul cols="2">
                         <li>
@@ -145,7 +145,7 @@
                 </li>
                 <li>
                     <p>
-                        Here are some possible scales to try for the vertical axis. Which ones work well, and which ones don't? What's wrong with the ones that don't work?
+                        Try out each of these possible scales for the vertical axis. Which ones work well, and which ones don't? Write a sentence explaining what's wrong with the ones that don't work.
                     </p>
                     <ul cols="2">
                         <li>
@@ -196,4 +196,5 @@
                 <cell right="minor">26</cell>
                 <cell right="minor">32</cell>
             </row>
+
         </tabular> -->

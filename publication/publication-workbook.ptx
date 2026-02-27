@@ -84,5 +84,6 @@
         <asymptote links="no" />
         <!-- Set @formatted to "no" to remove formatting on worksheets: -->
         <worksheet formatted="yes" />
+        <cover front="WorkbookCover2026.pdf" />
     </latex>
 </publication>
