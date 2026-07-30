@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-7-Algebraic_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-7-Algebraic_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="weight-change-algebraic-notation" workspace="3in">
+        <exercise xml:id="sol-weight-change-algebraic-notation" workspace="3in">
             <statement>
                 <p>
                     Since she has been pregnant, Zoe has gained the recommended <m>\sfrac{1}{2}</m> pound per week. 
@@ -21,7 +21,7 @@
                 </p>
             </statement>
         </exercise>
-        <exercise xml:id="wooden-balls-algebraic-notation" workspace="3in">
+        <exercise xml:id="sol-wooden-balls-algebraic-notation" workspace="3in">
             <statement>
                 <p>
                     Jody is using small wooden balls to make noses for her knitted gnomes. 
@@ -37,7 +37,7 @@
     </page>
     
     <page>
-        <exercise xml:id="astra-rent-algebraic-notation" workspace="3.25in">
+        <exercise xml:id="sol-astra-rent-algebraic-notation" workspace="3.25in">
             <statement>
                 <p>
                     Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. 
@@ -53,7 +53,7 @@
             </statement>
         </exercise>
     
-        <exercise xml:id="rose-gold-algebraic-notation" workspace="3.25in">
+        <exercise xml:id="sol-rose-gold-algebraic-notation" workspace="3.25in">
             <statement>
                 <p>
                     <q>Rose gold</q> is a mix of gold and copper. 
@@ -73,7 +73,7 @@
 
     
 
-    <exercise xml:id="precip-predict-algebraic-notation" component="not-workbook">
+    <exercise xml:id="sol-precip-predict-algebraic-notation" component="not-workbook">
         <introduction>
             <p>
                 There were two different predictions of total precipitation.
@@ -96,7 +96,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="walnut-tree-algebraic-notation" component="not-workbook">
+    <exercise xml:id="sol-walnut-tree-algebraic-notation" component="not-workbook">
         <introduction>
             <p>
                 When the Nussbaums planted a walnut tree it was 5 feet tall.
@@ -130,7 +130,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="sterling-silver-algebraic-notation" component="not-workbook">
+    <exercise xml:id="sol-sterling-silver-algebraic-notation" component="not-workbook">
         <introduction>
             <p>
                 A set of sterling silverware was valued at $800 in 1920, 
@@ -173,7 +173,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="bass-fishing-algebraic-notation" component="not-workbook">
+    <exercise xml:id="sol-bass-fishing-algebraic-notation" component="not-workbook">
         <introduction>
             <p>
                 The lake by Rodney's condo was stocked with bass (fish) 10 years ago. 
@@ -207,7 +207,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="classroom-observation-algebraic-notation" component="not-workbook">
+    <exercise xml:id="sol-classroom-observation-algebraic-notation" component="not-workbook">
         <introduction>
             <p>
                 Zahra needs to complete 62 more hours of classroom observation before she is eligible to student teach. 
@@ -241,7 +241,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="needlepoint-algebraic-notation" component="not-workbook">
+    <exercise xml:id="sol-needlepoint-algebraic-notation" component="not-workbook">
         <introduction>
             <p>
                 Saboor is working on a needlepoint that will be 1 foot by 1 foot square. 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-4-Order_of_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-4-Order_of_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
     <xi:include href="ex-intro.ptx" />
     <introduction>
@@ -10,7 +10,7 @@
     </introduction>
 
 <page>
-    <exercise xml:id="juan-coffee-order-operations" workspace="1in">
+    <exercise xml:id="sol-juan-coffee-order-operations" workspace="1in">
         <introduction>
             <p> 
                 <em>
@@ -43,7 +43,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="rose-gold-order-operations" workspace="1in">
+    <exercise xml:id="sol-rose-gold-order-operations" workspace="1in">
         <introduction>
             <p>
                 <q>Rose gold</q> is a mix of gold and copper.
@@ -81,7 +81,7 @@
 </page>
 
 <page>
-    <exercise xml:id="weight-change-order-operations" workspace="1.5in">
+    <exercise xml:id="sol-weight-change-order-operations" workspace="1.5in">
         <introduction>
             <p>
                 <em>
@@ -135,7 +135,7 @@
 
     
 
-    <exercise xml:id="asian-students-order-operations" component="not-workbook">
+    <exercise xml:id="sol-asian-students-order-operations" component="not-workbook">
         <statement>
             <p>
                 Recall that in the Asian student association there were 3 Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. What percentage of students in the group identify as Vietnamese?
@@ -143,7 +143,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="savings-order-operations" component="not-workbook">
+    <exercise xml:id="sol-savings-order-operations" component="not-workbook">
         <statement>
             <p>
                 Patience has been saving for a trip. She started her savings account with a deposit of $300. For the past 18 months she's been adding $250 per month. Unfortunately she needed to withdraw $1,080 for an unexpected car repair. She has earned a total of $43 interest. How much is in Patience's account now?
@@ -151,7 +151,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="long-jump-order-operations" component="not-workbook">
+    <exercise xml:id="sol-long-jump-order-operations" component="not-workbook">
         <introduction>
             <p>
                 Mike Powell has held the men's long jump record since 1991. He jumped an amazing 29 feet, 4<m>\frac{1}{4}</m> inches. We would like to write this length as a decimal number of feet.
@@ -195,7 +195,7 @@
         
     </exercise>
 
-    <exercise xml:id="water-radiator-order-operations" component="not-workbook">
+    <exercise xml:id="sol-water-radiator-order-operations" component="not-workbook">
         <introduction>
             <p>
                 My house gets super dry in the winter, especially if we are away not cooking or using the shower. Last January I left a 5 quart pot full of water on my living room radiator for a week and when I got home there was perhaps 1 cup of water left.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-2-Arithmetic_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-2-Arithmetic_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
@@ -12,7 +12,7 @@
     </introduction> 
 
     <page>
-        <exercise xml:id="cucumbers-arithmetic-operations" workspace="1in">
+        <exercise xml:id="sol-cucumbers-arithmetic-operations" workspace="1in">
             <statement>
                 <p>
                     Tensia loves to garden but can't quite keep up with how many cucumbers are growing.
@@ -56,7 +56,7 @@
                 </p>
             </statement>
         </exercise>
-        <exercise xml:id="late-rent-arithmetic-operations" workspace="1.5in">
+        <exercise xml:id="sol-late-rent-arithmetic-operations" workspace="1.5in">
             <introduction>
                 <p>
                     Brent's landlord charges $15 per day for late rent.
@@ -80,7 +80,7 @@
     </page>
     
     <page>
-        <exercise xml:id="students-arithmetic-operations" workspace="0.5in">
+        <exercise xml:id="sol-students-arithmetic-operations" workspace="0.5in">
             <introduction>
                 <p>
                     There are 2,624 students at a local university.
@@ -108,7 +108,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="truck-grass-arithmetic-operations" workspace="0.5in">
+        <exercise xml:id="sol-truck-grass-arithmetic-operations" workspace="0.5in">
             <introduction>
                 <p>
                     A truck hauling grass seed weighs 3,900 pounds when it is empty. 
@@ -163,7 +163,7 @@
 
     
 
-    <exercise xml:id="social-security-arithmetic-operations" component="not-workbook">
+    <exercise xml:id="sol-social-security-arithmetic-operations" component="not-workbook">
         <statement>
             <p>
                 Mrs. Nystrom gets $1,453.46 per month in Social Security benefits and another $1,250 per month from a life annuity. 
@@ -180,7 +180,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="driving-arithmetic-operations" component="not-workbook">
+    <exercise xml:id="sol-driving-arithmetic-operations" component="not-workbook">
         <task>
             <statement>
                 <p>
@@ -203,7 +203,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="walnut-tree-arithmetic-operations" component="not-workbook">
+    <exercise xml:id="sol-walnut-tree-arithmetic-operations" component="not-workbook">
         <introduction>
             <p>
                 When the Nussbaums planted a walnut tree it was 5 feet tall. 
@@ -233,7 +233,7 @@
         </task>  
     </exercise>
 
-    <exercise xml:id="beach-erosion-arithmetic-operations" component="not-workbook">
+    <exercise xml:id="sol-beach-erosion-arithmetic-operations" component="not-workbook">
         <introduction>
             <p>
                 The public beach near Paloma's house 60 years ago was 435 feet long and now is only 210 feet long due to erosion. 
@@ -261,7 +261,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="fabric-yards-arithmetic-operations" component="not-workbook">
+    <exercise xml:id="sol-fabric-yards-arithmetic-operations" component="not-workbook">
         <introduction>
             <p>
                 Each yard of fabric is 3 feet long.
@@ -283,7 +283,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="minutes-arithmetic-operations" component="not-workbook">
+    <exercise xml:id="sol-minutes-arithmetic-operations" component="not-workbook">
         <introduction>
             <p>
                 There are 60 minutes in an hour. (I bet you knew that!)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-5-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-5-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
     <xi:include href="ex-intro.ptx" />
 
@@ -11,7 +11,7 @@
     </introduction>
 
     <page>
-        <exercise xml:id="students-fractions" workspace="0.75in">
+        <exercise xml:id="sol-students-fractions" workspace="0.75in">
             <introduction>
                 <p>
                     There are 2,624 students at a local university.
@@ -32,7 +32,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="gas-mileage-fractions" workspace="0.75in">
+        <exercise xml:id="sol-gas-mileage-fractions" workspace="0.75in">
             <introduction>
                 <p>
                     Gas mileage is usually rounded down to the nearest one decimal place. Gas mileage is measured in miles per gallon (mpg).
@@ -63,7 +63,7 @@
     </page>
     
     <page>
-        <exercise xml:id="vinyl-fractions">
+        <exercise xml:id="sol-vinyl-fractions">
             <introduction>
                 <p>
                     In January 2015, Graham had 47 albums in his vinyl collection. By September 2023 (that's 8 years, 9 months later), he had 783 albums. Approximately how many albums per month did Graham buy?
@@ -84,7 +84,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="reading-fractions">
+        <exercise xml:id="sol-reading-fractions">
             <introduction>
                 <p>
                     It took Mariam 3 hours to complete the reading for her Religion class. The reading was 102 pages long.
@@ -116,7 +116,7 @@
 
     
 
-    <exercise xml:id="flatbread-squares-fractions" component="not-workbook">
+    <exercise xml:id="sol-flatbread-squares-fractions" component="not-workbook">
         <introduction>
             <p>
                 In our flatbread example, the flatbread was served cut into 5 slices and we cut it lengthwise into 15 squares.
@@ -137,7 +137,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="porridge-fractions" component="not-workbook">
+    <exercise xml:id="sol-porridge-fractions" component="not-workbook">
         <introduction>
             <p>
                 Auriel is making porridge but doesn't want too much. Last time she cut the recipe in half, but that was too little. Auriel has decided that making <m>\frac{3}{4}</m> of the recipe will be just right. Figure out how much of each ingredient Auriel needs. Report each answer as both a fraction and a decimal.
@@ -173,7 +173,7 @@
         </task>
     </exercise>
     
-    <exercise xml:id="diver-fractions" component="not-workbook">
+    <exercise xml:id="sol-diver-fractions" component="not-workbook">
         <introduction>
             <p>
                 A diver bounces on a 3-meter springboard. 
@@ -207,7 +207,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="football-field-fractions" component="not-workbook">
+    <exercise xml:id="sol-football-field-fractions" component="not-workbook">
         <introduction>
             <p>
                 The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-6-Powers_and_roots" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-6-Powers_and_roots" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="wooden-balls-powers-roots" workspace="1in">
+        <exercise xml:id="sol-wooden-balls-powers-roots" workspace="1in">
             <introduction>
                 <p>
                     Jody is using small wooden balls to make noses for her knitted gnomes. 
@@ -33,7 +33,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="pizza-diameter-powers-roots" workspace="1in">
+        <exercise xml:id="sol-pizza-diameter-powers-roots" workspace="1in">
             <introduction>
                 <p>
                     The size of a round pizza is described by its diameter. 
@@ -73,7 +73,7 @@
     </page>
     
     <page>    
-        <exercise xml:id="fiber-optic-powers-roots" workspace="3in"> 
+        <exercise xml:id="sol-fiber-optic-powers-roots" workspace="3in"> 
             <statement>
                 <p>
                     A signal sent down a fiber optic cable decreases by 2% per mile. 
@@ -88,7 +88,7 @@
                 </p>
             </statement>
         </exercise>
-        <exercise xml:id="investment-powers-roots" workspace="2in">
+        <exercise xml:id="sol-investment-powers-roots" workspace="2in">
             <introduction>
                 <p>
                     Otis invested $500,000 and estimates his investment will double in value every 10 years.
@@ -113,7 +113,7 @@
 
     
 
-    <exercise xml:id="bead-cube-powers-roots" component="not-workbook">
+    <exercise xml:id="sol-bead-cube-powers-roots" component="not-workbook">
         <introduction>
             <p>
                 Remember Noah's mom from our story? She was making a glass box that is <m>n \times n \times n</m> where the length <m>n</m> is measured in inches.
@@ -141,14 +141,14 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="creeping-charlie-powers-roots" component="not-workbook">
+    <exercise xml:id="sol-creeping-charlie-powers-roots" component="not-workbook">
         <statement>
             <p>
                 Creeping Charlie is a low-growing weed that spreads quickly, doubling the area it covers each year. If there are 7 square feet of Creeping Charlie in my lawn now, how much of my lawn will be covered by Creeping Charlie in 1 year? In 2 years? In 10 years? (Try to answer that last one using powers.)
             </p>
         </statement>
     </exercise>
-    <exercise xml:id="needlepoint-powers-roots" component="not-workbook">
+    <exercise xml:id="sol-needlepoint-powers-roots" component="not-workbook">
         <introduction>
             <p>
                 Saboor is working on a needlepoint that will be a 1 foot by 1 foot square. 
@@ -175,7 +175,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="sterling-silver-powers-roots" component="not-workbook">
+    <exercise xml:id="sol-sterling-silver-powers-roots" component="not-workbook">
         <introduction>
             <p>
                 A set of sterling silverware was valued at $800 in 1920, 

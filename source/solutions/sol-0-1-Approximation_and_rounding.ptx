@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-1-Approximation_and_rounding" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-1-Approximation_and_rounding" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="up-down-off-approx-round" workspace="2in">
+        <exercise xml:id="sol-up-down-off-approx-round" workspace="2in">
             <introduction>
                 <p>
                     Round each number up, down, or off to the precision indicated. 
@@ -41,7 +41,7 @@
     </page>
     
     <page>
-        <exercise xml:id="depends-appprox-rounding" workspace="1.5in">
+        <exercise xml:id="sol-depends-appprox-rounding" workspace="1.5in">
             <introduction>
                 <p>
                     The answer to the question <q>should we round up, down, or off?</q> is usually <q>it depends!</q>
@@ -79,7 +79,7 @@
     </page>
     
     <page>
-        <exercise xml:id="round-calculated-approx-rounding" workspace="1.75in">
+        <exercise xml:id="sol-round-calculated-approx-rounding" workspace="1.75in">
             <introduction>
                 <p>
                     Round off the <alert>calculated numbers</alert> to give an answer that is reasonable and no more precise than the information given.
@@ -113,7 +113,7 @@
     </page>
     
     <page>
-        <exercise xml:id="round-compare-approx-rounding" workspace="2.75in">
+        <exercise xml:id="sol-round-compare-approx-rounding" workspace="2.75in">
             <introduction>
                 <p>
                     It is easiest to compare the size of decimal numbers when they are written the same precision. For example, $1.7 million is more money than $1.34 million because when we write both numbers to two decimal places we see <me>1.7 = 1.70 &gt; 1.34</me> The symbol <m>&gt;</m> means <q>greater than;</q> it points to the smaller number. Alternatively, when we expand both numbers we see <me>1{,}700{,}000  &gt; 1{,}340{,}000</me>
@@ -140,7 +140,7 @@
     
 
 
-    <exercise xml:id="budget-estimate-approx-rounding" component="not-workbook">
+    <exercise xml:id="sol-budget-estimate-approx-rounding" component="not-workbook">
         <introduction>
             <p>
                 The original budget estimate for the new community center gym is $148,214.779. Round this value:
@@ -179,7 +179,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="string-lights-approx-rounding" component="not-workbook">
+    <exercise xml:id="sol-string-lights-approx-rounding" component="not-workbook">
         <introduction>
             <p>
                 Anwar measured that he has 23 feet and 9 inches of space for string lights for his bedroom. He calculates that's 23.75 feet. 
@@ -226,7 +226,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="bmi-approx-rounding" component="not-workbook">
+    <exercise xml:id="sol-bmi-approx-rounding" component="not-workbook">
         <introduction>
             <p>
                 Body Mass Index (or BMI for short) is one indicator of whether a person is a healthy weight. 
@@ -275,7 +275,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="round-ten-approx-rounding" component="not-workbook">
+    <exercise xml:id="sol-round-ten-approx-rounding" component="not-workbook">
         <introduction>
             <p>
                 Linnea is trying to plot points on a graph and needs numbers rounded to the nearest $10. For example, she needs to know that $247 <m>\approx</m> $250 while $73 <m>\approx</m> $70. Round each number to the nearest $10:
@@ -316,7 +316,7 @@
             
     </exercise>
 
-    <exercise xml:id="iv-drip-approx-rounding" component="not-workbook">
+    <exercise xml:id="sol-iv-drip-approx-rounding" component="not-workbook">
         <introduction>
             <p>
                 Souksavanh is trying adjust a patient's medication to deliver 15 <m>\mu</m>g/min. 

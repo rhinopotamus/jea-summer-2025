@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-8-Scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-8-Scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
@@ -168,7 +168,7 @@
    
     
 
-    <exercise xml:id="billion-seconds-prelude-scientific-notation" component="not-workbook">
+    <exercise xml:id="sol-billion-seconds-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
                 <em>(Story also appears in <xref ref="billion-seconds-scientific-notation"/>)</em>
@@ -202,7 +202,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="planet-weight-prelude-scientific-notation" component="not-workbook">
+    <exercise xml:id="sol-planet-weight-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
                 <em>(Story also appears in <xref ref="planet-weight-scientific-notation"/>)</em>
@@ -231,7 +231,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="virus-size-prelude-scientific-notation" component="not-workbook">
+    <exercise xml:id="sol-virus-size-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
                 The SARS-CoV-2 virus is approximately 125 nanometers wide which is <m>\mathbf{125 \times 10^{-9}}</m> <term>meters</term> wide.
@@ -259,7 +259,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="cells-prelude-scientific-notation" component="not-workbook">
+    <exercise xml:id="sol-cells-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
                 Rayka would like to approximate how many cells are in her body. 

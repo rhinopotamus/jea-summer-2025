@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-9-Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-9-Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="bacteria-logarithms" workspace="0.75in">
+        <exercise xml:id="sol-bacteria-logarithms" workspace="0.75in">
             <introduction>
                 <p>
                     The number of bacteria in a dish increases 10-fold each day. Note: 10-fold means <m>\times 10</m>. Suppose we had 1 microliter of bacteria at the start of the first day. That means after <m>T</m> days there will be <m>10^T</m> microliters of bacteria.
@@ -65,7 +65,7 @@
     </page>
     
     <page>
-        <exercise xml:id="pH-logarithms" workspace="0.55in">
+        <exercise xml:id="sol-pH-logarithms" workspace="0.55in">
             <introduction>
                 <p>
                     The equation <m>pH = -\log(H^+)</m> tells us the pH of a substance (on a scale from 0 to 14) based on its molar hydrogen ion concentration <m>H^+</m>. Don't let the notation here scare you: <m>pH</m> is a single quantity and <m>H^+</m> has nothing to do with exponents or adding.
@@ -104,7 +104,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="astra-rent-logarithms" workspace="0.75in">
+        <exercise xml:id="sol-astra-rent-logarithms" workspace="0.75in">
             <introduction>
                 <p>
                     In Minneapolis, apartment rent is expected to increase by 16% next year. 
@@ -136,7 +136,7 @@
 
     
 
-    <exercise xml:id="puzzlaxing-logarithms" component="not-workbook">
+    <exercise xml:id="sol-puzzlaxing-logarithms" component="not-workbook">
         <introduction>
             <p>
                 According to our story, in approximately how many weeks will 30,000 people have heard of <q>puzzlaxing</q>?
@@ -164,7 +164,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="decibels-logarithms" component="not-workbook">
+    <exercise xml:id="sol-decibels-logarithms" component="not-workbook">
         <introduction>
             <p>
                 The intensity of a sound in decibels is calculated using a logarithm. For example, a sound 100 times the level humans can hear has an intensity of <me>10\log (100)= 10 \times \log(100)= 20\text{ decibels}</me>
@@ -193,7 +193,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="credit-card-logarithms" component="not-workbook">
+    <exercise xml:id="sol-credit-card-logarithms" component="not-workbook">
         <introduction>
             <p>
                 In 2021, Arrietty charged $5,000 on her credit card to help pay tuition. Her card charges interest at the rate of 20.7% APR. We are going to ignore any minimum payments or fees.
@@ -215,7 +215,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="hair-color-logarithms" component="not-workbook">
+    <exercise xml:id="sol-hair-color-logarithms" component="not-workbook">
         <introduction>
             <p>
                 Darcy likes to use temporary hair color in wild colors. 

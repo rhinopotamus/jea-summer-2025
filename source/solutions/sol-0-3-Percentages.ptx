@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex-0-3-Percentages" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="sol-0-3-Percentages" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
@@ -12,7 +12,7 @@
     </introduction>
 
     <page>
-        <exercise xml:id="world-population-percentages" workspace="1.25in">
+        <exercise xml:id="sol-world-population-percentages" workspace="1.25in">
             <introduction>
                 <p>
                     As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). 
@@ -39,7 +39,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="astra-rent-percentages" workspace="1.25in">
+        <exercise xml:id="sol-astra-rent-percentages" workspace="1.25in">
             <introduction>
                 <p>
                     In Minneapolis,
@@ -71,7 +71,7 @@
     </page>
     
     <page>    
-        <exercise xml:id="intersection-percentages" workspace="1.25in">
+        <exercise xml:id="sol-intersection-percentages" workspace="1.25in">
             <introduction>
                 <p>
                     The intersection by my house is dangerous. One year there were 14 accidents there. The neighbors got together and petitioned to have 4-way stop signs installed.
@@ -99,7 +99,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="savings-interest-percentages" workspace="1.25in">
+        <exercise xml:id="sol-savings-interest-percentages" workspace="1.25in">
             <introduction>
                 <p>
                     My savings account earns a modest amount of interest, the equivalent of 0.75% annually. 
@@ -132,7 +132,7 @@
 
     
 
-    <exercise xml:id="check-thang-percentages" component="not-workbook">
+    <exercise xml:id="sol-check-thang-percentages" component="not-workbook">
         <task>
             <statement>
                 <p>
@@ -149,7 +149,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="food-shelf-percentages" component="not-workbook">
+    <exercise xml:id="sol-food-shelf-percentages" component="not-workbook">
         <statement>
             <p>
                 Donations to a local food shelf have increased 35% over last year. 
@@ -165,7 +165,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="caffeine-percentages" component="not-workbook">
+    <exercise xml:id="sol-caffeine-percentages" component="not-workbook">
         <statement>
             <p>
                 Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. 
@@ -179,7 +179,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="salt-intake-percentages" component="not-workbook">
+    <exercise xml:id="sol-salt-intake-percentages" component="not-workbook">
         <introduction>
             <p>
                 Too much salt can be difficult for your body. The Centers for Disease Control and Prevention (CDC) suggest that adults limit their daily intake of Sodium to a maximum of 2,300 mg per day.
@@ -201,7 +201,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="house-value-percentages" component="not-workbook">
+    <exercise xml:id="sol-house-value-percentages" component="not-workbook">
         <statement>
             <p>
                 Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it. 
@@ -215,7 +215,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="raises-percentages" component="not-workbook">
+    <exercise xml:id="sol-raises-percentages" component="not-workbook">
         <introduction>
             <p>
                 <em>Story also appears in <xref ref="raises-first-look-exponential"/></em>
