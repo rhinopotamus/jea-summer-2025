@@ -41,6 +41,17 @@
             >
                 <stringparams latex.preamble.early="\usepackage{parskip}" />
         </target> 
+        <target 
+            name="solutions-2026" 
+            format="pdf" 
+            deploy-dir="solutions-2026/pdf"
+            output-filename="JEA-Solutions-2026.pdf"
+            publication="publication-solutions.ptx"
+            xsl="custom-latex-workbook.xsl" 
+            latex-engine="pdflatex"
+            >
+                <stringparams latex.preamble.early="\usepackage{parskip}" />
+        </target> 
 
 <!-- Full-print targets -->
         <target 

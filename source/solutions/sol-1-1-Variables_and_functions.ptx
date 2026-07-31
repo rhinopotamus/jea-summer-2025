@@ -16,8 +16,40 @@
 					<p>
 						Identify and name the variables, including the units.
 					</p>
-					<xi:include href="../name-variables.ptx" />
 				</statement>
+				<solution>
+					<aside>
+						<p>
+							Hint: Choose letters that help you remember what they stand for!
+						</p>
+					</aside>
+					<tabular 
+						xmlns:xi="http://www.w3.org/2001/XInclude"
+						left="minor" 
+						bottom="minor" 
+						top="minor" 
+						halign="center" 
+						width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+						</row>
+						<row>
+							<cell><m>W</m></cell>
+							<cell>=</cell>
+							<cell>weight of bag</cell>
+							<cell>(pounds)</cell>
+						</row>
+						<row>
+							<cell><m>C</m></cell>
+							<cell>=</cell>
+							<cell>cost of bag of dog food</cell>
+							<cell>(dollars)</cell>
+						</row>
+					</tabular>
+				</solution>
 			</task>
 			<task workspace="2in">
 				<statement>
@@ -25,6 +57,40 @@
 						Which variable is dependent and which is independent? Explain how you know.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						I like to say the two possible sentences out loud and decide which one makes more sense to me:
+						<ul>
+							<li>
+								<p>
+									the cost of the bag of dog food <em>depends on</em> the weight of the bag
+								</p>
+							</li>
+							<li>
+								<p>
+									the weight of the bag of dog food <em>depends on</em> how much it costs
+								</p>
+							</li>
+						</ul>
+						Since the first sentence makes more sense to me, I will say:
+					</p>
+					<tabular
+						left="minor" 
+						bottom="minor" 
+						top="minor" 
+						halign="center">
+						<row>
+							<cell><m>W</m></cell>
+							<cell>~</cell>
+							<cell>indep</cell>
+						</row>
+						<row>
+							<cell><m>C</m></cell>
+							<cell>~</cell>
+							<cell>dep</cell>
+						</row>
+					</tabular>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -32,6 +98,28 @@
 						What might a 16 pound bag of dog food cost? Explain the reasoning behind your guess.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						Definitely between $11.28 and $29.97. 
+					</p>
+					<p>
+						Hmm. <m>16\text{ pounds} = \frac12 \cdot 32 \text{ pounds}</m>
+						and <m>\frac12 \cdot \$ 29.97 = \$ 14.99</m>,
+					</p>
+					<p>
+						and also, <m>16\text{ pounds} = 2 \cdot 8 \text{ pounds}</m>
+						and <m>2 \cdot \$ 11.28 = \$ 22.56</m>,
+					</p>
+					<p>
+						so probably between $14.99 and $22.56.
+					</p>
+					<p>
+						My best guess is, about $20.
+					</p>
+					<aside>
+						<p>Remember, it's better to be approximately right than exactly wrong!</p>
+					</aside>
+				</solution>
 			</task>
 		</exercise>
 	</page>
@@ -40,12 +128,14 @@
 		<exercise xml:id="sol-riverside-rent-variables-functions">
 			<introduction>
 				<p>
-					Rent in the Riverside Neighborhood is expected to increase 7.2% each year. 
+					Rent in the Riverside Neighborhood is expected to <alert>increase</alert> 7.2% each <alert>year</alert>. 
 					<aside>
 						<p>
-							(Story also appears in <xref ref="riverside-rent-solving-exponential"/>)
+							These words tell me that rent changes, so that's one of the variables, and that time is the other less obvious variable.
 						</p>
 					</aside>
+				</p>
+				<p>
 					Average rent for an apartment is currently $830 per month. 
 				</p>
 			</introduction>
@@ -54,17 +144,54 @@
 					<p>
 						Identify and name the variables, including the units.
 					</p>
-					<xi:include href="../name-variables.ptx" />
 				</statement>
+				<solution>
+					<aside>
+						<p>
+							Notice that the units on <m>R</m> are not just <q>$</q>, but <q>$ per month</q>!
+						</p>
+					</aside>
+					<tabular 
+						xmlns:xi="http://www.w3.org/2001/XInclude"
+						left="minor" 
+						bottom="minor" 
+						top="minor" 
+						halign="center" 
+						width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+						</row>
+						<row>
+							<cell><m>R</m></cell>
+							<cell>=</cell>
+							<cell>rent for apartment in Riverside</cell>
+							<cell>($ <alert>per month</alert>)</cell>
+						</row>
+						<row>
+							<cell><m>Y</m></cell>
+							<cell>=</cell>
+							<cell>time</cell>
+							<cell>(years from now)</cell>
+						</row>
+					</tabular>
+				</solution>
 			</task>
-			<task workspace="0.75in">
+			<task >
 				<statement>
 					<p>
 						Explain the dependence using a sentence of the form <q><fillin characters="3" /> is a function of <fillin characters="3" /></q>.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<m>R</m> is a function of <m>Y</m>, or in everyday words, rent is a function of time.
+					</p>
+				</solution>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Which number is a constant in this story:
@@ -72,8 +199,16 @@
 						Explain how you know.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						The actual monthly dollar amount of rent changes each month, so 830 is certainly not a constant.
+					</p>
+					<p>
+						So, 7.2 is probably the constant, and that makes sense in the story <mdash /> I tihnk this is saying that every year the rent will be 7.2% more than it was the previous year.
+					</p>
+				</solution>
 			</task>
-			<task workspace="1in">
+			<task >
 				<statement>
 					<p>
 						What is a realistic domain for this function? 
@@ -82,28 +217,67 @@
 						Express your answer as an inequality.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						Certainly our domain should include <em>this</em> year, and probably the next <q><em>few</em></q> years. How many years is <q>a few</q>? Your answer might be different from mine, but maybe I'll say the next 10 years:
+						<aside>
+							<p>
+								The sign <m>\leq</m> means <q>less than or equal to.</q>
+							</p>
+						</aside>
+						<md>
+							0 \leq Y \leq 10
+						</md>
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
 					<p>
 						What is the average rent expected to be in 1 year? In 2 years? In 3 years? 
-						Note that <me>7.2\% = \frac{7.2}{100} = 7.2 \div 100 = 0.072</me>. 
+						Note: <me>7.2\% = \frac{7.2}{100} = 7.2 \div 100 = 0.072</me>. 
 						Try figuring it out.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							<mrow>\text{Start: } \amp \$830 \text{ per month}</mrow>
+							<mrow>\text{1 year: } \amp 7.2\% \text{ of } \$830 = 0.072 \ast 830 = \$59.76 \text{ increase}</mrow>
+							<mrow> \amp \Rightarrow \$830 + \$59.76 = \$889.76 \text{ per month after 1 year}</mrow>
+						</md>
+						<aside>
+							<p>
+								Be sure to use the new value <mdash /> that's how percent increase works.
+							</p>
+						</aside>
+						<md>
+							<mrow>\text{2 years: } \amp 7.2\% \text{ of } \fbox{\$889.76} = 0.072 \ast 889.76 \approx \$64.06 \text{ increase}</mrow>
+							<mrow> \amp \Rightarrow \$889.76 + \$64.06 = \$953.82 \text{ per month in 2 years}</mrow>
+							<mrow>\text{3 years: } \amp 7.2\% \text{ of } \$953.82 = 0.072 \ast 953.82 \approx \$68.67 \text{ increase}</mrow>
+							<mrow> \amp \Rightarrow \$953.82 + \$68.67 = \$1{,}022.49 \text{ per month at 3 years}</mrow>
+						</md>
+						<aside>
+							<p>
+								Remember, <m>\approx</m> means <q>approximately</q>.
+							</p>
+						</aside>
+					</p>
+				</solution>
 			</task>
 		</exercise>
 	</page>
 		
 	<page>
-		<exercise xml:id="sol-rounding-variables-functions" workspace="1.3in">
+		<exercise xml:id="sol-rounding-variables-functions">
 			<introduction>
 				<p>
 					Round each number up, down, or off to the precision indicated.
 				</p>
 				<p>
 					<em>
-						For a discussion of rounding, see <xref ref="sec-0-1-Approximation_and_rounding" text="custom">Prelude: approximation and rounding</xref>.
+						For a discussion of rounding, see 
+						<xref ref="sec-0-1-Approximation_and_rounding" text="custom">Prelude: approximation and rounding</xref>.
 					</em>
 				</p>
 			</introduction>
@@ -111,36 +285,70 @@
 				<statement>
 					<p>
 						My calculations show I need a cross brace around 9.388 feet long. 
-						I want the board to be long enough, so round up to the nearest foot.
+						I want the board to be long enough, so <alert>round up to the nearest foot</alert>.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<m>\underline{9}.388 \approx \fbox{ 10 \text{ feet} }</m>
+					</p>
+				</solution>
+				<!-- prefigure number line here! -->
 			</task>
 			<task>
 				<statement>
 					<p>
-						Gas mileage is usually rounded down to the nearest one decimal place. 
+						Gas mileage is usually <alert>rounded down to the nearest one decimal place</alert>. 
 						What is the gas mileage for a car measured as getting 42.812 miles per gallon? 
 						What about a car getting 23.09 miles per gallon?
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							<mrow>\underline{42.8}12 \amp \approx \fbox{42.8 \text{ mpg} }</mrow>
+							<mrow>\underline{23.0}9 \amp \approx \fbox{23.0 \text{ mpg} }</mrow>
+						</md>
+						(Yes, <m>23.09</m> is closer to <m>23.1</m> than it is to <m>23.0</m>, but notice that the instructions said to round <alert>down</alert>.)
+					</p>
+				</solution>
+				<!-- prefigure number line here! -->
 			</task>
 			<task>
 				<statement>
 					<p>
 						The original budget estimates for the new community center gym were 
 						rounded to the nearest hundred (that means ending in 00), 
-						so we want to round our bid of $148,214.79 to the nearest hundred.
+						so we want to round our bid of $148,214.79 <alert>to the nearest hundred</alert>.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							\$\underline{148{,}2}14.79 \approx \fbox{\$148{,}200}
+						</md>
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
 					<p>
 						The population estimate was 4.2 million people, 
 						but revised estimates suggest 4,908,229 people. 
-						Report the revised estimate rounded appropriately.
+						Report the revised estimate <alert>rounded appropriately</alert>.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						Our rounded value should agree in precision with 4.2, so we'll round to the nearest one decimal place.
+						<md>
+							<mrow>  4 \amp {,} 908 {,} 229 \text{ people} </mrow>
+							<mrow>= 4 \amp {.} 908 \phantom{,} 229 \text{ million people} </mrow>
+							<mrow> \approx 4 \amp .9 \text{ million people}</mrow>
+						</md>
+						
+					</p>
+				</solution>
 			</task>
 		</exercise>
 	</page>
@@ -182,8 +390,40 @@
 						</aside>
 						The tree was 5 feet tall then and has grown around 2 feet a year.
 					</p>
-					<xi:include href="../name-variables.ptx" />
 				</statement>
+				<solution>
+					<tabular 
+						left="minor" 
+						bottom="minor" 
+						top="minor" 
+						halign="center" 
+						width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep or indep</cell>
+						</row>
+						<row>
+							<cell></cell>
+							<cell>=</cell>
+							<cell><m>\qquad\qquad\qquad\qquad\qquad</m></cell>
+							<cell><m>\displaystyle\Big(\qquad\Big)</m></cell>
+							<cell>~</cell>
+							<cell right="minor"></cell>
+						</row>
+						<row>
+							<cell></cell>
+							<cell>=</cell>
+							<cell></cell>
+							<cell><m>\displaystyle\Big(\qquad\Big)</m></cell>
+							<cell>~</cell>
+							<cell right="minor"></cell>
+						</row>
+						</tabular>
+				</solution>
 			</task>
 			<task xml:id="bac-variables-functions">
 				<statement>
