@@ -34,19 +34,19 @@
 							<cell>letter</cell>
 							<cell>=</cell>
 							<cell>everyday words</cell>
-							<cell>(units)</cell>
+							<cell right="minor">(units)</cell>
 						</row>
 						<row>
 							<cell><m>W</m></cell>
 							<cell>=</cell>
 							<cell>weight of bag</cell>
-							<cell>(pounds)</cell>
+							<cell right="minor">(pounds)</cell>
 						</row>
 						<row>
 							<cell><m>C</m></cell>
 							<cell>=</cell>
 							<cell>cost of bag of dog food</cell>
-							<cell>(dollars)</cell>
+							<cell right="minor">(dollars)</cell>
 						</row>
 					</tabular>
 				</solution>
@@ -82,12 +82,12 @@
 						<row>
 							<cell><m>W</m></cell>
 							<cell>~</cell>
-							<cell>indep</cell>
+							<cell right="minor">indep</cell>
 						</row>
 						<row>
 							<cell><m>C</m></cell>
 							<cell>~</cell>
-							<cell>dep</cell>
+							<cell right="minor">dep</cell>
 						</row>
 					</tabular>
 				</solution>
@@ -162,19 +162,19 @@
 							<cell>letter</cell>
 							<cell>=</cell>
 							<cell>everyday words</cell>
-							<cell>(units)</cell>
+							<cell right="minor">(units)</cell>
 						</row>
 						<row>
 							<cell><m>R</m></cell>
 							<cell>=</cell>
 							<cell>rent for apartment in Riverside</cell>
-							<cell>($ <alert>per month</alert>)</cell>
+							<cell right="minor">($ <alert>per month</alert>)</cell>
 						</row>
 						<row>
 							<cell><m>Y</m></cell>
 							<cell>=</cell>
 							<cell>time</cell>
-							<cell>(years from now)</cell>
+							<cell right="minor">(years from now)</cell>
 						</row>
 					</tabular>
 				</solution>
@@ -392,12 +392,9 @@
 					</p>
 				</statement>
 				<solution>
-					<tabular 
-						left="minor" 
-						bottom="minor" 
-						top="minor" 
-						halign="center" 
-						width="100%">
+					<tabular
+						left="minor" bottom="minor" top="minor"
+						halign="center" width="100%">
 						<row header="yes">
 							<cell>letter</cell>
 							<cell>=</cell>
@@ -407,22 +404,22 @@
 							<cell right="minor">dep or indep</cell>
 						</row>
 						<row>
-							<cell></cell>
+							<cell><m>H</m></cell>
 							<cell>=</cell>
-							<cell><m>\qquad\qquad\qquad\qquad\qquad</m></cell>
-							<cell><m>\displaystyle\Big(\qquad\Big)</m></cell>
+							<cell>height of walnut tree</cell>
+							<cell>(feet)</cell>
 							<cell>~</cell>
-							<cell right="minor"></cell>
+							<cell right="minor">dep</cell>
 						</row>
 						<row>
-							<cell></cell>
+							<cell><m>T</m></cell>
 							<cell>=</cell>
-							<cell></cell>
-							<cell><m>\displaystyle\Big(\qquad\Big)</m></cell>
+							<cell>time since tree was planted</cell>
+							<cell>(years)</cell>
 							<cell>~</cell>
-							<cell right="minor"></cell>
+							<cell right="minor">indep</cell>
 						</row>
-						</tabular>
+					</tabular>
 				</solution>
 			</task>
 			<task xml:id="bac-variables-functions">
@@ -443,8 +440,37 @@
 						</aside>
 						and as he continued to drink, his BAC level rose 45% per hour.
 					</p>
-					<xi:include href="../name-variables.ptx" />
 				</statement>
+				<solution>
+					<tabular
+						left="minor" bottom="minor" top="minor"
+						halign="center" width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep or indep</cell>
+						</row>
+						<row>
+							<cell><m>S</m></cell>
+							<cell>=</cell>
+							<cell>Stephen's blood alcohol content</cell>
+							<cell>()</cell>
+							<cell>~</cell>
+							<cell right="minor">dep</cell>
+						</row>
+						<row>
+							<cell><m>H</m></cell>
+							<cell>=</cell>
+							<cell>time Stephen is drinking</cell>
+							<cell>(hours)</cell>
+							<cell>~</cell>
+							<cell right="minor">indep</cell>
+						</row>
+					</tabular>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -453,8 +479,49 @@
 						it takes her 20 minutes on the highway to get between exits, 
 						but when traffic is bad, it can take her an hour.
 					</p>
-					<xi:include href="../name-variables.ptx" />
+					<aside>
+						<p>
+							Because she has to drive <em>slower</em>, which means that her <em>speed</em> changes.
+						</p>
+					</aside>
 				</statement>
+				<solution>
+					<tabular
+						left="minor" bottom="minor" top="minor"
+						halign="center" width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep or indep</cell>
+						</row>
+						<row>
+							<cell><m>S</m></cell>
+							<cell>=</cell>
+							<cell>speed McKenna drives</cell>
+							<cell>(mph)</cell>
+							<cell>~</cell>
+							<cell right="minor">indep</cell>
+						</row>
+						<row>
+							<cell><m>T</m></cell>
+							<cell>=</cell>
+							<cell>time between exits</cell>
+							<cell>(minutes)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep</cell>
+						</row>
+					</tabular>
+					<p>
+						<aside>
+							<p>
+								Notice that her time <em>depends on</em> how fast she drives, so time <m>T</m> is the dependent variable here.
+							</p>
+						</aside>
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -463,8 +530,37 @@
 						that at this time of year, it sets about 2 minutes earlier each day.
 						<em>(Hint: measure the sunset time in minutes after 6:00 p.m.)</em>
 					</p>
-					<xi:include href="../name-variables.ptx" />
 				</statement>
+				<solution>
+					<tabular
+						left="minor" bottom="minor" top="minor"
+						halign="center" width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep or indep</cell>
+						</row>
+						<row>
+							<cell><m>D</m></cell>
+							<cell>=</cell>
+							<cell>number of days from now</cell>
+							<cell>(days)</cell>
+							<cell>~</cell>
+							<cell right="minor">indep</cell>
+						</row>
+						<row>
+							<cell><m>S</m></cell>
+							<cell>=</cell>
+							<cell>time the sun sets</cell>
+							<cell>(minutes after 6pm)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep</cell>
+						</row>
+					</tabular>
+				</solution>
 			</task>
 		</exercise>
 	</page>
