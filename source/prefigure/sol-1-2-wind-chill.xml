@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org" 
+         dimensions="(500,300)" 
+         margins="(60,30,25,25)">
+  <definition>points = (0,10),(5,1),(10,-4),(15,-7),(20,-9),(25,-11),(30,-12),(35,-14),(40,-15),(45,-16),(50,-17),(55,-18)</definition>
+  <coordinates bbox="(0,-18,55,10)">
+    <grid-axes
+      hticks="(0,5,55)"
+      vticks="(-18,2,10)"
+      hlabels="(0,5,55)"
+      vlabels="(-18,2,10)"
+      v-zero-label="yes"
+      spacings="((0,5,55),(-18,2,10))">
+      <xlabel><m>S</m></xlabel>
+      <ylabel><m>C</m></ylabel>
+  </grid-axes>
+    <group outline="tactile">
+      <polygon points="points" stroke="blue" />
+      <scatter points="points" />
+    </group>
+  </coordinates>
+</diagram>

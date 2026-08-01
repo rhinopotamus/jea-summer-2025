@@ -1,0 +1,33 @@
+<diagram xmlns="https://prefigure.org" 
+         dimensions="(500,300)" 
+         margins="(60,30,25,25)">
+  <definition>regular = (0,0),(10, 34.50),(22,75.90),(50,172.50)</definition>
+  <definition>card = (0,10),(10,39),(22,73.80),(50,155)</definition>
+  <definition>R(M)=3.45*M</definition>
+  <definition>C(M)=10+2.90*M</definition>
+  <definition>i = intersect((R,C),18)</definition>
+  <coordinates bbox="(0,0,55,180)">
+    <grid-axes
+      hticks="(0,5,55)"
+      vticks="(0,20,180)"
+      hlabels="(0,5,55)"
+      vlabels="(0,20,180)"
+      v-zero-label="yes"
+      h-zero-label="yes"
+      spacings="((0,5,55),(0,20,180))">
+      <xlabel><m>M</m></xlabel>
+      <ylabel><m>T</m></ylabel>
+  </grid-axes>
+    <group outline="tactile">
+      <graph function="R" />
+      <scatter points="regular" fill="blue" /> 
+    </group>
+    <group outline="tactile">
+      <graph function="C" dash="3 3" stroke="red"/>
+      <scatter points="card" /> 
+    </group>
+    <point p="(i, R(i))" style="circle" fill="none" size="10" />
+    <label anchor="(35,120)" alignment="west" color="blue" offset="(-15,0)">Regular</label>
+    <label anchor="(30,90)" alignment="east" color="red" offset="(15,0)">With card</label>
+  </coordinates>
+</diagram>

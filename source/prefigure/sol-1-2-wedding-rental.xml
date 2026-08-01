@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org" 
+         dimensions="(500,300)" 
+         margins="(60,30,25,25)">
+  <definition>C(x)=1300+92*x</definition>
+  <definition>points = (0,1300),(20,3140), (50, 5900), (75,8200), (100,10500), (150,15100)</definition>
+  <coordinates bbox="(0,0,150,15100)">
+    <grid-axes
+      hticks="(0,10,150)"
+      vticks="(0,1000,15000)"
+      hlabels="(0,10,150)"
+      vlabels="(0,5000,15000)"
+      v-zero-label="yes"
+      h-zero-label="yes"
+      spacings="((0,10,150),(0,1000,15000))">
+      <xlabel><m>G</m></xlabel>
+      <ylabel><m>C</m></ylabel>
+  </grid-axes>
+    <group outline="tactile">
+      <polygon points="points" stroke="blue" />
+      <scatter points="points" /> 
+    </group>
+    <label anchor="(0,8000)" alignment="west"><m>8{,}000</m></label>
+    <line endpoints="((0,8000),(6700/92,8000))" dash="4 4" />
+    <line endpoints="((6700/92,8000), (6700/92,0))" dash="4 4" />
+  </coordinates>
+</diagram>

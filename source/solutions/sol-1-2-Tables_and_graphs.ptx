@@ -38,46 +38,111 @@
 				<p>
 					Name the variables in this story.
 				</p>
-				<xi:include href="../name-variables.ptx" />
 			</statement>
+			<solution>
+				<p>
+					<tabular
+						left="minor" bottom="minor" top="minor"
+						halign="center" width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep or indep</cell>
+						</row>
+						<row>
+							<cell><m>Y</m></cell>
+							<cell>=</cell>
+							<cell>time from now</cell>
+							<cell>(years)</cell>
+							<cell>~</cell>
+							<cell right="minor">indep</cell>
+						</row>
+						<row>
+							<cell><m>F</m></cell>
+							<cell>=</cell>
+							<cell>comprehensive fee</cell>
+							<cell>($)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep</cell>
+						</row>
+					</tabular>
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.2cm">
+		<task>
 			<statement>
 				<p>
 					What will the fee be in 6 years?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					$89,700.
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.2cm">
+		<task>
 			<statement>
 				<p>
 					When is the fee projected to be $80,200?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					In 4 years.
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.2cm">
+		<task>
 			<statement>
 				<p>
 					Approximately when will the fee reach $95,000?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					About year 7, because the fee is <em>below</em> $95,000 in year 6 and <em>above</em> $95,000 in year 8.
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.2cm">
+		<task>
 			<statement>
 				<p>
 					What do you guess the fee might be in 15 years?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Hmm<ellipsis /> In the two years between year 8 and year 10, the fee grew by <m>\$112{,}500 - \$100{,}500 = \$12{,}000</m>.
+				</p>
+				<p>
+					So in the five years after year 10, it will probably grow by more than twice as much: maybe $25,000 or $30,000, so maybe 
+					<m>\$112{,}500 + \$30{,}000 = \$142{,}500</m>.
+				</p>
+				<p>
+					But it's probably even more than that, because it grows faster and faster. I'll guess about $150,000.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
 				<p>
 					Graph the function using the information given in the table, and use the graph to check your answers to the questions.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
 			</statement>
+			<solution>
+				<image>
+					<prefigure xmlns="https://prefigure.org"
+						label="prefigure-sol-1-2-private-college">
+						<xi:include href="../prefigure/sol-1-2-private-college.xml" />
+					</prefigure>
+				</image>
+			</solution>
 		</task>
-		<!-- <task workspace="0cm">
+		<!-- <task>
 			<statement>
 				<p>
 					Use the graph to check your answers to the questions.
@@ -148,18 +213,54 @@
 				<p>
 					Name the variables, including units and dependence.
 				</p>
-				<xi:include href="../name-variables.ptx" />
 			</statement>
+			<solution>
+				<p>
+					<tabular
+						left="minor" bottom="minor" top="minor"
+						halign="center" width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep or indep</cell>
+						</row>
+						<row>
+							<cell><m>S</m></cell>
+							<cell>=</cell>
+							<cell>wind speed</cell>
+							<cell>(mph)</cell>
+							<cell>~</cell>
+							<cell right="minor">indep</cell>
+						</row>
+						<row>
+							<cell><m>C</m></cell>
+							<cell>=</cell>
+							<cell>wind chill</cell>
+							<cell>(<degree/>F)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep</cell>
+						</row>
+					</tabular>
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.4cm">
+		<task>
 			<statement>
 				<p>
 					At an air temperature of 10<degree/>F with a 20 mph wind, 
 					what is the wind chill?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					-9<degree />F.
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.4cm">
+		<task>
 			<statement>
 				<p>
 					A <term>cold advisory</term> is issued whenever the wind chill 
@@ -168,8 +269,13 @@
 					10<degree/>F to issue a cold advisory?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					The wind speed is certainly between 5 mph and 10 mph, but probably closer to 5 mph. I'll guess about 6 mph.
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.4cm">
+		<task>
 			<statement>
 				<p>
 					Between a wind chill of 0<degree/>F and -15<degree/>F, 
@@ -177,6 +283,11 @@
 					What is the corresponding range of wind speeds?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Between 6 mph and 50 mph.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -185,8 +296,15 @@
 					To graph both positive and negative numbers on the vertical axis, 
 					put the horizontal axis somewhere in the middle of the graph paper. 
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
 			</statement>
+			<solution>
+				<image>
+					<prefigure xmlns="https://prefigure.org"
+						label="prefigure-sol-1-2-wind-chill">
+						<xi:include href="../prefigure/sol-1-2-wind-chill.xml" />
+					</prefigure>
+				</image>
+			</solution>
 		</task>
 	</exercise>
 </page>
@@ -211,24 +329,88 @@
 				<p>
 					Identify and name the variables, including units.
 				</p>
-				<xi:include href="../name-variables.ptx" />
 			</statement>
+			<solution>
+				<p>
+					<tabular
+						left="minor" bottom="minor" top="minor"
+						halign="center" width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep or indep</cell>
+						</row>
+						<row>
+							<cell><m>G</m></cell>
+							<cell>=</cell>
+							<cell>number of guests</cell>
+							<cell>(people)</cell>
+							<cell>~</cell>
+							<cell right="minor">indep</cell>
+						</row>
+						<row>
+							<cell><m>C</m></cell>
+							<cell>=</cell>
+							<cell>total cost</cell>
+							<cell>($)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep</cell>
+						</row>
+					</tabular>
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.3in">
+		<task>
 			<statement>
 				<p>
 					Explain the dependence using a sentence of the form <q><fillin characters="3" /> is a function of <fillin characters="3" /></q>.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<m>C</m> is a function of <m>G</m>, or in other words, the total cost is a function of the number of guests.
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.5in">
+		<task>
 			<statement>
 				<p>
 					Make a table showing the cost for 20, 50, 75, 100, or 150 people.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<aside>
+						<p>
+							Not getting these numbers? Did you remember to add the cost for the space?
+						</p>
+					</aside>
+					<tabular 
+						halign="center" width="100%">
+						<row bottom="minor">
+							<cell right="major">Guests <m>(G)</m></cell>
+							<cell right="minor">20</cell>
+							<cell right="minor">50</cell>
+							<cell right="minor">75</cell>
+							<cell right="minor">100</cell>
+							<cell>150</cell>
+						</row>
+						<row>
+							<cell right="major">Cost <m>(C)</m></cell>
+							<cell right="minor">$3,140</cell>
+							<cell right="minor">$5,900</cell>
+							<cell right="minor">$8,200</cell>
+							<cell right="minor">$10,500</cell>
+							<cell>$15,100</cell>
+						</row>
+					</tabular>
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.3in">
+		<task>
 			<statement>
 				<p>
 					If Tony and Tina's budget is $8,000, 
@@ -236,14 +418,29 @@
 					Give a <em>rough estimate</em> from your table.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Hmm<ellipsis /> 75 is too many, but not by much, so about 70?
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
 				<p>
 					Graph the function. Does your estimate agree with your graph?  If not, revise.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
 			</statement>
+			<solution>
+				<image>
+					<prefigure xmlns="https://prefigure.org"
+						label="prefigure-sol-1-2-wedding-rental">
+						<xi:include href="../prefigure/sol-1-2-wedding-rental.xml" />
+					</prefigure>
+				</image>
+				<p>
+					My estimate of 70 guests looks a bit low. Maybe 71 or 72?
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -253,6 +450,20 @@
 					and stay within their $8,000 budget?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Let's take their $8,000 budget and subtract the $1,300 for the space: 
+					<md>8{,}000 = 1{,}300 = 6{,}700</md>
+					So they can spend a total of $6,700 on their guests. Since each guest costs $92:
+					<md>\frac{6{,}700}{92} = 72.82\ldots</md>
+					So they can afford up to 72 guests and stay within their $8,000 budget. 
+					<aside>
+						<p>
+							Check that 73 guests would be just a bit too much!
+						</p>
+					</aside>
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
@@ -272,16 +483,26 @@
 				</aside>
 			</p>
 		</introduction>
-		<task workspace="1cm">
+		<task>
 			<statement>
 				<p>
-					Juan buys coffee on the way to work every day. 
+					Juan buys coffee on the way to work every day.
+					<aside>
+						<p>
+							So we're assuming he buys 1 mug per day.
+						</p>
+					</aside> 
 					How much does Juan spend on coffee in a month? 
 					Let's say that's 22 workdays.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					22 days <m>\ast</m> $3.45 / day = $75.90.
+				</p>
+			</solution>
 		</task>
-		<task workspace="1cm">
+		<task>
 			<statement>
 				<p>
 					If Juan pays $10 for a discount card, then coffee costs $2.90/mug instead. 
@@ -290,8 +511,14 @@
 					Still use 22 workdays. Include the $10.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					$10 for the card + (22 days <m>\ast</m> $2.90 / day) = 
+					<m>10 + 22 \ast 2.90</m> = $73.80.
+				</p>
+			</solution>
 		</task>
-		<task workspace="1cm">
+		<task>
 			<statement>
 				<p>
 					Does the card pay for itself within the month? 
@@ -299,6 +526,11 @@
 					less than the total without the card?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Yep! He saved a bit more than $2 by buying the discount card.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -316,17 +548,17 @@
 					</row>
 					<row left="minor" >
 						<cell right="minor"><m>T</m> (regular)</cell>
-						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m>\$0</m></cell>
+						<cell right="minor"><m>\$34.50</m></cell>
+						<cell right="minor"><m>\$75.90</m></cell>
+						<cell right="minor"><m>\$172.50</m></cell>
 					</row>
 					<row left="minor" >
 						<cell right="minor"><m>T</m> (with card)</cell>
-						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
-						<cell right="minor"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor"><m>\$10.00</m></cell>
+						<cell right="minor"><m>\$39.00</m></cell>
+						<cell right="minor"><m>\$73.80</m></cell>
+						<cell right="minor"><m>\$155.00</m></cell>
 					</row>
 				</tabular>
 			</statement>
@@ -336,16 +568,27 @@
 				<p>
 					Draw a graph illustrating both functions.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
-				<!-- <image component="workbook" source='GraphPaper.jpg' width="80%" /> -->
 			</statement>
+			<solution>
+				<image>
+					<prefigure xmlns="https://prefigure.org"
+						label="prefigure-sol-1-2-juan-coffee">
+						<xi:include href="../prefigure/sol-1-2-juan-coffee.xml" />
+					</prefigure>
+				</image>
+			</solution>
 		</task>
-		<task workspace="1cm">
+		<task>
 			<statement>
 				<p>
 					What does the point where the two lines cross mean in terms of the story?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					The point of intersection of the two lines is where it changes from being cheaper just to pay $3.45 / mug to where it's worth it to buy the discount card.
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
@@ -788,7 +1031,7 @@
 				</row>
 			</tabular>
 		</introduction>
-		<task workspace="1.5cm">
+		<task>
 			<statement>
 				<p>
 					What do <m>T</m> and <m>B</m> stand for? 
@@ -824,7 +1067,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0cm">
+		<task>
 			<statement>
 				<p>
 					Graph the function using the information given in the table.
@@ -832,7 +1075,7 @@
 				<!-- <xi:include href="../GraphPaper.ptx" /> -->
 			</statement>
 		</task>
-		<task workspace="0cm">
+		<task>
 			<statement>
 				<p>
 					Use the graph to check your answers to the questions.
