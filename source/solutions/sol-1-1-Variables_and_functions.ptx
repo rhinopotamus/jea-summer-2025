@@ -358,7 +358,7 @@
 			<introduction>
 				<p>
 					It's about time! 
-					<aside>
+					<!-- <aside>
 						<p component="not-workbook">
 							(Stories also appear in 
 							<xref ref="time-2-variables-functions"/>)
@@ -367,7 +367,7 @@
 							(Stories also appear in 
 							<xref ref="sec-1-1-Variables_and_functions" text="global"/> Exercises)
 						</p>
-					</aside>
+					</aside> -->
 					In each story, time is one (or both) of the variables.  
 					Identify and name the variables, including units and dependence.
 				</p>
@@ -376,7 +376,7 @@
 				<statement>
 					<p>
 						The Nussbaums planted a walnut tree years ago when they first bought their house. 
-						<aside>
+						<!-- <aside>
 							<p component="not-workbook">
 								(Story also appears in
 								<xref ref="walnut-tree-arithmetic-operations"/> and
@@ -387,7 +387,7 @@
 								<xref ref="sec-0-2-Arithmetic_operations" text="global"/> Exercises and
 								<xref ref="sec-0-7-Algebraic_notation" text="global"/> Exercises)
 							</p>
-						</aside>
+						</aside> -->
 						The tree was 5 feet tall then and has grown around 2 feet a year.
 					</p>
 				</statement>
@@ -426,7 +426,7 @@
 				<statement>
 					<p>
 						After his first beer, Stephen's blood alcohol content (BAC) was already 0.04,
-						<aside>
+						<!-- <aside>
 							<p component="not-workbook">
 								(Story also appears in 
 								<xref ref="bac-approx-solutions"/> and
@@ -437,7 +437,7 @@
 								<xref ref="sec-2-4-Approx_solutions" text="global"/> Exercises and 
 								<xref ref="bac-solving-exponential"/>)
 							</p>
-						</aside>
+						</aside> -->
 						and as he continued to drink, his BAC level rose 45% per hour.
 					</p>
 				</statement>
@@ -571,11 +571,11 @@
 		<introduction>
 			<p>
 				It's about time! 
-				<aside>
+				<!-- <aside>
 					<p>
 						(Stories also appear in <xref ref="time-variables-functions"/>)
 					</p>
-				</aside>
+				</aside> -->
 				For each story, try to figure out the answer to the question(s).
 			</p>
 		</introduction>
@@ -584,13 +584,13 @@
 			<statement>
 				<p>
 					The Nussbaums planted a walnut tree years ago when they first bought their house. 
-					<aside>
+					<!-- <aside>
 						<p>
 							(Story also appears in
 							<xref ref="walnut-tree-arithmetic-operations"/> and
 							<xref ref="walnut-tree-algebraic-notation"/>)
 						</p>
-					</aside>
+					</aside> -->
 					The tree was 5 feet tall then and has grown around 2 feet a year. The tree is now 40 feet tall. How long ago did the Nussbaums plant their walnut tree?
 				</p>
 			</statement>
@@ -600,13 +600,13 @@
 			<statement>
 				<p>
 					After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour.
-					<aside>
+					<!-- <aside>
 						<p>
 							(Story also appears in 
 							<xref ref="bac-approx-solutions"/> and
 							<xref ref="bac-solving-exponential"/>)
 						</p>
-					</aside>
+					</aside> -->
 					Note that <me>45\% = \frac{45}{100} = 45 \div 100 = 0.45</me> What was Stephen's BAC after 1 hour? After 2 hours?
 				</p>
 			</statement>

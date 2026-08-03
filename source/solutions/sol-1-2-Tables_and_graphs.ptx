@@ -162,9 +162,9 @@
 					<p>
 						Source: National Weather Service
 					</p>
-					<p>
+					<!-- <p>
 						(Story also appears in <xref ref="wind-chill-modeling-linear"/>)
-					</p>
+					</p> -->
 				</aside>
 				An air temperature of 10<degree/>F is cold but manageable. 
 				But add a 30 miles per hour wind and, brrr, it feels like it is -12<degree/>F 
@@ -314,13 +314,13 @@
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
-				<aside>
+				<!-- <aside>
 					<p>
 						(Story also appears in 
 						<xref ref="wedding-rental-rate-of-change" /> and 
 						<xref ref="wedding-rental-linear-ineq" />)
 					</p>
-				</aside>
+				</aside> -->
 				The Metropolitan Club costs $1,300 for the space and $92 per person.
 			</p>
 		</introduction>
@@ -473,14 +473,14 @@
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe. 
-				<aside>
+				<!-- <aside>
 					<p>
 						(Story also appears in 
 						<xref ref="juan-coffee-order-operations" />, 
 						<xref ref="juan-coffee-first-look-linear" />, and  
 						<xref ref="juan-coffee-systems-linear"/>)
 					</p>
-				</aside>
+				</aside> -->
 			</p>
 		</introduction>
 		<task>
