@@ -1,0 +1,19 @@
+<diagram xmlns="https://prefigure.org" 
+         dimensions="(500,300)" 
+         margins="(60,30,25,25)">
+  <definition>preg = (0,76.0),(1,73.5),(2,54.9),(3,58.2),(4,55.7),(5,49.9),(6,45.1),(7,53.3),(8,49.4),(9,43.5),(10,34.0)</definition>
+  <coordinates bbox="(0,0,10,80)">
+    <grid-axes
+      hticks="(0,1,10)"
+      vticks="(0,10,80)"
+      hlabels="(0,1,10)"
+      vlabels="(0,10,80)"
+      v-zero-label="yes"
+      h-zero-label="yes"
+      spacings="((0,1,10),(0,10,80))">
+      <xlabel><m>Y</m></xlabel>
+      <ylabel><m>P</m></ylabel>
+    </grid-axes>
+    <spline points="preg" stroke="blue" bc-type="clamped" />
+  </coordinates>
+</diagram>

@@ -1,0 +1,33 @@
+<diagram xmlns="https://prefigure.org" 
+         dimensions="(500,300)" 
+         margins="(60,30,25,25)">
+  <definition>cake=(8,28.99),(15,43.99),(40,66.99)</definition>
+  <definition>cupcake=(12,20.28),(24,40.56),(48,81.12)</definition>
+  <coordinates bbox="(0,0,48,100)">
+    <grid-axes
+      hticks="(0,4,48)"
+      vticks="(0,20,100)"
+      hlabels="(0,4,48)"
+      vlabels="(0,20,100)"
+      v-zero-label="yes"
+      h-zero-label="yes" 
+      spacings="((0,2,48),(0,20/3,100+20/3))">
+      <xlabel alignment="nw">Servings</xlabel>
+      <ylabel alignment="se">Cost</ylabel>
+  </grid-axes>
+    <group outline="tactile">
+      <spline points="cake" stroke="blue" bc-type="natural" />
+      <scatter points="cake" fill="blue"/>
+      <label color="blue" anchor="(20,50)" alignment="nw" >
+        Cake
+      </label>
+    </group>
+    <group outline="tactile">
+      <polygon points="cupcake" stroke="red" dash="3 3"/>
+      <scatter points="cupcake" fill="red" />
+      <label color="red" anchor="(20,30)" alignment="se">
+        Cupcakes
+      </label>
+    </group>
+  </coordinates>
+</diagram>

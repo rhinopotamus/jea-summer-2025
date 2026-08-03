@@ -311,8 +311,9 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-1-3-Rate_of_change.ptx" />
+	<xi:include href="./solutions/sol-1-3-Rate_of_change.ptx" />
 
+<!-- 
 	<xi:include href="./WYD.ptx" />
 		
 		
@@ -322,5 +323,6 @@
 			<xi:include href="./dyk/dyk-Rate_of_change.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</conclusion> -->
+
 </section>

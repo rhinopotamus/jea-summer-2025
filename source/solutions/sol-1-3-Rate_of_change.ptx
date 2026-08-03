@@ -6,7 +6,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 <page>
-	<exercise xml:id="sol-bakery-rate-of-change" workspace="2cm">
+	<exercise xml:id="sol-bakery-rate-of-change">
 		<introduction>
 			<p>
 				Sweet Rose Bakery makes cakes and cupcakes. Here are their prices.
@@ -61,6 +61,22 @@
 					Repeat for between 15 and 40 people.
 				</p>
 			</statement>
+			<solution>
+				<sidebyside>
+					<p>
+						Between 8 and 15 people:
+						<md>
+							\frac{\$43.99 - \$28.99}{15 - 8} = \frac{15}{7} \approx 2.14 \frac{\$}{\text{person}}
+						</md>
+					</p>
+					<p>
+						Between 15 and 40 people:
+						<md>
+							\frac{\$66.99 - \$43.99}{15 - 8} = \frac{23}{25} = 0.92 \frac{\$}{\text{person}}
+						</md>
+					</p>				
+				</sidebyside>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -70,53 +86,119 @@
 					Repeat for between 24 and 48 people.
 				</p>
 			</statement>
+			<solution>
+				<sidebyside>
+					<p>
+						Between 12 and 24 people:
+						<md>
+							\frac{\$40.56 - \$20.28}{24 - 12} = \frac{20.28}{12} = 1.69 \frac{\$}{\text{person}}
+						</md>
+					</p>
+					<p>
+						Between 24 and 48 people:
+						<md>
+							\frac{\$81.12 - \$40.56}{48 - 24} = \frac{40.56}{24} = 1.69 \frac{\$}{\text{person}}
+						</md>
+					</p>				
+				</sidebyside>
+			</solution>
 		</task>
-		<task workspace="0in">
+		<task>
 			<statement>
 				<p>
 					On the same set of axes, graph how the price depends on the number of people for cake and also for cupcakes. Connect each line or curve smoothly.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
 			</statement>
+			<solution>
+				<aside>
+					<p>
+						Notice that the graph for cake is just a little curved, because the rate of change is not constant.
+					</p>
+				</aside>
+				<image>
+					<prefigure xmlns="https://prefigure.org"
+						label="prefigure-sol-1-3-bakery">
+						<xi:include href="../prefigure/sol-1-3-bakery.xml" />
+					</prefigure>
+				</image>
+			</solution>
 		</task>
-		<task workspace="0.5cm">
+		<task>
 			<statement>
 				<p>
 					The rate of change for cupcakes is constant. Any idea why?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Looks like it's the same price for every cupcake. Maybe they're sold one at a time.
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.5cm">
+		<task>
 			<statement>
 				<p>
 					The rate of change for cakes is not constant. Any idea why?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					It looks like bigger cakes are cheaper per person. Some kind of economy of scale? Maybe it doesn't take twice as long to decorate twice as big of a cake.
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
 
 <page>
-	<exercise xml:id="sol-wedding-rental-rate-of-change" workspace="1in">
+	<exercise xml:id="sol-wedding-rental-rate-of-change">
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
-				<aside>
+				<!-- <aside>
 					<p>
 						(Story also appears in 
 						<xref ref="wedding-rental-tables-graphs" /> and 
 						<xref ref="wedding-rental-linear-ineq" />)
 					</p>
-				</aside>
+				</aside> -->
 				The Metropolitan Club costs $1,300 for the space and then $92 per person. 
 			</p>
 		</introduction>
-		<task workspace="1.5in">
+		<task>
 			<statement>
 				<p>
 					Make a table showing the cost for 20, 50, 75, or 100 people. 
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<aside>
+						<p>
+							Not getting these numbers? Did you remember to add the cost for the space?
+						</p>
+					</aside>
+					<tabular 
+						halign="center" width="100%">
+						<row bottom="minor">
+							<cell right="major">Guests <m>(G)</m></cell>
+							<cell right="minor">20</cell>
+							<cell right="minor">50</cell>
+							<cell right="minor">75</cell>
+							<cell right="minor">100</cell>
+							<cell>150</cell>
+						</row>
+						<row>
+							<cell right="major">Cost <m>(C)</m></cell>
+							<cell right="minor">$3,140</cell>
+							<cell right="minor">$5,900</cell>
+							<cell right="minor">$8,200</cell>
+							<cell right="minor">$10,500</cell>
+							<cell>$15,100</cell>
+						</row>
+					</tabular>
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -124,6 +206,13 @@
 					Calculate the extra cost for each additional person between 20 and 50 people.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{\$5{,}900 - \$3{,}140}{50 - 20} =\frac{2760}{30} = 92\ \frac{\$}{\text{person}}
+					</md>
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -131,6 +220,13 @@
 					Calculate the extra cost for each additional person between 75 and 100 people.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{\$8{,}200 - \$5{,}900}{100 - 75} = \frac{2300}{25} = 92\ \frac{\$}{\text{person}}
+					</md>
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -138,6 +234,11 @@
 					What do you notice?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Looks like it's always $92 / person. But hey, we already knew that from the story!
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -145,6 +246,11 @@
 					Explain why the graph of this cost function is a straight line.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Because the rate of change is constant.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -152,6 +258,14 @@
 					Is the cost function increasing, decreasing, or neither?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					The cost function is <em>increasing</em>: it costs more to invite more people to the party.
+				</p>
+				<p>
+					(Just because the <em>rate of change</em> is constant doesn't mean the <em>cost</em> is!)
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
@@ -163,36 +277,105 @@
 				Rashad measured his heart rate several times after football practice. Right after practice his heart rate was 178 beats per minute. Two minutes later, it had dropped to 153 beats per minute, and by ten minutes after practice it was down to 120 beats per minute.
 			</p>
 		</introduction>
-		<task workspace="0.75in">
+		<task>
 			<statement>
 				<p>
 					Make a table showing Rashad's heart rate at each time.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<tabular 
+						halign="center" width="100%">
+						<row bottom="minor">
+							<cell right="major">time (min)</cell>
+							<cell right="minor">0</cell>
+							<cell right="minor">2</cell>
+							<cell>10</cell>
+						</row>
+						<row>
+							<cell right="major">heart rate (bpm)</cell>
+							<cell right="minor">178</cell>
+							<cell right="minor">153</cell>
+							<cell>120</cell>
+						</row>
+					</tabular>
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
 				<p>
 					Identify the variables, including units and dependence.
 				</p>
-				<xi:include href="../name-variables.ptx" />
 			</statement>
+			<solution>
+				<p>
+					<tabular
+						left="minor" bottom="minor" top="minor"
+						halign="center" width="100%">
+						<row header="yes">
+							<cell>letter</cell>
+							<cell>=</cell>
+							<cell>everyday words</cell>
+							<cell>(units)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep or indep</cell>
+						</row>
+						<row>
+							<cell><m>T</m></cell>
+							<cell>=</cell>
+							<cell>time since practice ended</cell>
+							<cell>(minutes)</cell>
+							<cell>~</cell>
+							<cell right="minor">indep</cell>
+						</row>
+						<row>
+							<cell><m>H</m></cell>
+							<cell>=</cell>
+							<cell>heart rate</cell>
+							<cell>(beats per minute)</cell>
+							<cell>~</cell>
+							<cell right="minor">dep</cell>
+						</row>
+					</tabular>
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.75in">
+		<task>
 			<statement>
 				<p>
 					How quickly was Rashad's heart rate dropping during the first two minutes following practice? <em>Hint: the units are (beats per minute) per minute.</em>
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{153 \text{ bpm} - 178 \text{ bpm}}{2 \text{ min} - 0 \text{ min}} = \frac{-25}{2} = -12.5 \text{ bpm / min}
+					</md>
+					<aside>
+						<p>
+							Makes sense that our answer is negative, because his heart rate was <em>dropping</em>.
+						</p>
+					</aside>
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.75in">
+		<task>
 			<statement>
 				<p>
 					How quickly was his heart rate dropping during the next time period?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{120 \text{ bpm} - 153 \text{ bpm}}{10 \text{ min} - 2 \text{ min}} = \frac{-33}{8} = -4.125 \text{ bpm / min}
+					</md>
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.75in">
+		<task>
 			<statement>
 				<p>
 					Rashad does not like hitting the showers until his heart rate is close to normal, 
@@ -200,19 +383,33 @@
 					Do you think that's long enough? Explain.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Probably. Another 5 minutes at -4 bpm per minute would bring his heart rate down to
+					<md>
+						120 \text{ bpm} + (5 \text{ min} \ast -4 \text{ bpm / min}) = 120 - 20 = 100 \text{ bpm}.
+					</md>
+					
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.75in">
+		<task>
 			<statement>
 				<p>
 					During the time in this table, did Rashad's heart rate increase, decrease, or neither?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Rashad's heart rate decreased.
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
 
 <page>
-	<exercise xml:id="sol-teen-pregnancy-rate-of-change" workspace="0.5in">
+	<exercise xml:id="sol-teen-pregnancy-rate-of-change">
 		<introduction>
 			<p>
 				<aside><p>Source: Minnesota Department of Health</p></aside>
@@ -248,7 +445,12 @@
 				<cell right="minor" halign="center">34.0</cell>
 			</row>
 			</tabular>
-			<image source='teenpregnancy.png' width="100%" />
+			<image>
+				<prefigure xmlns="https://prefigure.org"
+					label="prefigure-sol-1-3-teen-preg">
+					<xi:include href="../prefigure/sol-1-3-teen-preg.xml" />
+				</prefigure>
+			</image>
 		</introduction>
 		<task>
 			<statement>
@@ -256,6 +458,11 @@
 					What was the teen pregnancy rate in 2003?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					From the table, 55.7 pregnancies per thousand teens.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -263,6 +470,11 @@
 					Did the teen pregnancy rate increase or decrease from 2003 to 2004?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					It decreased a bit, from 55.7 down to 49.9.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -272,6 +484,11 @@
 					Were there other times when it increased?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Looks like from year 6 (so, 199 + 6 = 2005) to year 7 (2006).
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -279,14 +496,40 @@
 					When did the teen pregnancy rate first fall below 60 pregnancies per thousand?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					From the graph, it looks like this happened near the end of 2000.
+				</p>
+			</solution>
 		</task>
-		<task workspace="0.75in">
+		<task>
 			<statement>
 				<p>
 					How fast was the teen pregnancy rate dropping on average per year from 2002 to 2005? 
 					How does that compare to 2006 to 2009?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					2002 to 2005:
+					<md>
+						\frac{45.1 - 58.2}{2005 - 2002} = 
+						\frac{-13.1}{3} \approx 
+						-4.4 \text{ preg per thousand teens / year}
+					</md>
+				</p>
+				<p>
+					2006 to 2009:
+					<md>
+						\frac{34.0 - 53.3}{2009 - 2006} = 
+						\frac{-19.3}{3} \approx 
+						-6.4 \text{ preg per thousand teens / year}
+					</md>
+				</p>
+				<p>
+					Teen pregnancy rates dropped even faster between 2006 and 2009 than they did between 2002 and 2005.
+				</p>
+			</solution>
 		</task>
 		
 	</exercise>
