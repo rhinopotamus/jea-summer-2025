@@ -6,15 +6,15 @@
   <definition>R(M)=3.45*M</definition>
   <definition>C(M)=10+2.90*M</definition>
   <definition>i = intersect((R,C),18)</definition>
-  <coordinates bbox="(0,0,55,180)">
+  <coordinates bbox="(0,0,60,20*16)">
     <grid-axes
-      hticks="(0,5,55)"
+      hticks="(0,5,60)"
       vticks="(0,20,180)"
       hlabels="(0,5,55)"
-      vlabels="(0,20,180)"
+      vlabels="(0,20,200)"
       v-zero-label="yes"
       h-zero-label="yes"
-      spacings="((0,5,55),(0,20,180))">
+      spacings="((0,5/2,60),(0,20,20*16))">
       <xlabel><m>M</m></xlabel>
       <ylabel><m>T</m></ylabel>
   </grid-axes>

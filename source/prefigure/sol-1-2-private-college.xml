@@ -1,41 +1,25 @@
 <diagram xmlns="https://prefigure.org" 
   dimensions="(500,300)" 
-  margins="(60,30,25,25)">
+  margins="(70,30,25,25)">
   <definition>f(x) = 64000 * 1.058^x</definition>
-  <coordinates bbox="(-1,-10000,16,175000)">
+  <definition>points=(0,f(0)),(2,f(2)),(4,f(4)),(6,f(6)),(8,f(8)),(10,f(10))</definition>
+  <coordinates bbox="(0,0,24,160000)">
     <grid-axes xlabel="Y" ylabel="F"
       hticks="(0,2,16)"
-      vticks="(0,25000,175000)"
+      vticks="(0,10000,160000)"
       hlabels="(0,2,16)"
-      vlabels="(0,25000,175000)"
-      spacings="((0,2,16),(0,25000,175000))"
+      vlabels="(0,50000,150000)"
+      spacings="((0,1,24),(0,10000,160000))"
       h-zero-label="yes"
       v-zero-label="yes"
     />
     <graph at="graph" function="f"/>
-    <point p="(0, f(0))" alignment="se" scale="0.8">
-      <!-- <m>(0, \$64{,}000)</m> -->
-    </point>
-    <point p="(2, f(2))" alignment="se" scale="0.8">
-      <!-- <m>(2, \$71{,}600)</m> -->
-    </point>
-    <point p="(4, f(4))" alignment="se" scale="0.8">
-      <!-- <m>(4, \$80{,}200)</m> -->
-    </point>
-    <point p="(6, f(6))" alignment="se" scale="0.8">
-      <!-- <m>(6, \$89{,}700)</m> -->
-    </point>
-    <point p="(8, f(8))" alignment="se" scale="0.8">
-      <!-- <m>(8, \$100{,}500)</m> -->
-    </point>
-    <point p="(10, f(10))" alignment="se" scale="0.8">
-      <!-- <m>(10, \$112{,}500)</m> -->
-    </point>
+    <scatter points="points" />
     <point p="(7, 95000)" style="box" alignment="nw">
-      Guess part d (pretty good!)
+      Guess part d
     </point>
     <point p="(15,150000)" style="box" alignment="nw">
-      Guess part e (pretty good!)
+      Guess part e
     </point>
     <label anchor="(7,0)" alignment="south">
       <m>7</m>
