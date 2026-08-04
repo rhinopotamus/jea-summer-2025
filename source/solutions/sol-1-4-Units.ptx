@@ -527,8 +527,8 @@
 			<solution>
 				<p>
 					<md>
-						\frac{1.658\ \cancel{\text{\euro}} }{1\ \cancel\ell} \ast
-						\frac{\$1.23}{1\ \cancel{\text{\euro}}} \ast
+						\frac{1.658\ \cancel{\text{€}} }{1\ \cancel\ell} \ast
+						\frac{\$1.23}{1\ \cancel{\text{€}}} \ast
 						\frac{1\ \cancel\ell}{1.057\ \cancel{\text{qt}}} \ast
 						\frac{4\ \cancel{\text{qt}}}{1\ \text{gallon}}= 
 						\frac{1.658 \cdot 1.23 \cdot 1 \cdot 4}{1\cdot 1 \cdot 1.057 \cdot 1} =
@@ -550,19 +550,19 @@
 					From previous parts of this problem, we know some math sentences:
 					<md>
 						<mrow>1\ \text{tank} \amp= 62\ \ell </mrow>
-						<mrow>1\ \ell \amp= 1.658\ \text{\euro}</mrow>
-						<mrow>1\ \text{\euro} \amp= 1.23\ \$ </mrow>
+						<mrow>1\ \ell \amp= 1.658\ \text{€}</mrow>
+						<mrow>1\ \text{€} \amp= 1.23\ \$ </mrow>
 					</md>
 					Let's put all these together:
 					<md>
 						1\ \cancel{\text{tank}} \ast
 						\frac{62\ \cancel{\ell}}{1\ \cancel{\text{tank}}} \ast
-						\frac{1.658\ \text{\euro}}{1\ \cancel{\ell}} = \frac{1\cdot 62 \cdot 1.658}{1\cdot 1} = 102.79 \approx 103\ \text{\euro}
+						\frac{1.658\ \text{€}}{1\ \cancel{\ell}} = \frac{1\cdot 62 \cdot 1.658}{1\cdot 1} = 102.79 \approx 103\ \text{€}
 					</md>
 					And now we'll convert that to dollars:
 					<md>
-						102.79\ \cancel\text{\euro} \ast
-						\frac{\$ 1.23}{1\ \cancel\text{\euro}} = 102.79\cdot 1.23 
+						102.79\ \cancel{\text{€}} \ast
+						\frac{\$ 1.23}{1\ \cancel{\text{€}}} = 102.79\cdot 1.23 
 						= 126.43\ldots \approx \$ 126
 					</md>
 					
