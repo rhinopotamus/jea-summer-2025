@@ -74,6 +74,7 @@
         />
 
 <!-- LaTeX targets, mostly for debugging-->
+    
 <!--  
         <target 
             name="workbook-latex" 
@@ -83,6 +84,16 @@
             >
                 <stringparams latex.preamble.early="\usepackage{parskip}" />
         </target>
+        
+        <target 
+            name="solutions-latex" 
+            format="latex" 
+            publication="publication-solutions.ptx"
+            xsl="custom-latex-workbook.xsl"
+            >
+                <stringparams latex.preamble.early="\usepackage{parskip, eurosym}" />
+        </target>
+
         <target 
             name="fullprint-latex" 
             format="latex" 

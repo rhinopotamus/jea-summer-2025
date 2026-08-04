@@ -208,6 +208,33 @@
 					Convert each time into decimal hours.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<aside>
+						<p>
+							General strategy: take the not-full-hours part and change it to the other format.
+						</p>
+					</aside>
+					Work: Let's take the 15 minutes and convert it into hours. Since 15 minutes is less than one hour, I'm expecting to get a decimal that's less than 1.
+					<md>
+						15\ \cancel{\text{min}} \ast \frac{1\ \text{hour}}{60\ \cancel{\text{min}}} = \frac{15}{60} = 0.25\ \text{hour}
+					</md>
+					So Cameron worked for 2 hours + 0.25 hours = 2.25 hours.
+				</p>
+				<p>
+					Study: Let's take the 57 minutes and convert it into hours.
+					<aside>
+						<p>
+							Sense check: since 57 minutes is <em>almost</em> a full hour, it makes sense that our decimal is <em>almost</em> 1.
+						</p>
+					</aside>
+					<md>
+						57\ \cancel{\text{min}} \ast \frac{1\ \text{hour}}{60\ \cancel{\text{min}}} = \frac{57}{60} = 0.95\ \text{hour}
+					</md>
+					So Cameron worked for 7 hours + 0.95 hours = 7.95 hours.
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -218,6 +245,27 @@
 					<em>That means H:MM format.</em>
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<aside>
+						<p>
+							Same general strategy: take the not-full-hours part and change it to the other format.
+						</p>
+					</aside>
+					For the 4.18 hour switch, let's take the 0.18 hours and convert to minutes:
+					<md>
+						0.18\ \cancel{\text{hr}} \ast \frac{60\ \text{min}}{1\ \cancel{\text{hr}}} = 0.18 \cdot 60 = 10.8 \approx 11\ \text{min}
+					</md>
+					So, 4.18 hours is the same as 4 hours and 11 minutes, or 4:11.
+				</p>
+				<p>
+					For the 19.75 hour switch:
+					<md>
+						0.75\ \cancel{\text{hr}} \ast \frac{60\ \text{min}}{1\ \cancel{\text{hr}}} = 0.75 \cdot 60 = 45\ \text{min}
+					</md>
+					So, 19.75 hours is the same as 19 hours and 45 minutes, or 19:45.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -227,6 +275,27 @@
 					How long is each wall measured in the more usual feet and inches?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<aside>
+						<p>
+							Notice that 0.8 feet is not the same as 8 inches, because feet are based on 12 inches rather than 10 inches!
+						</p>
+					</aside>
+					For 21.8 feet:
+					<md>
+						0.8\ \cancel{\text{ft}} \ast \frac{12\ \text{in}}{1\ \cancel{\text{ft}}} = 0.8 \ast 12 = 9.6 \approx 10\ \text{in}
+					</md>
+					So 21.8 feet is the same as 21 feet and 10 inches, or 21<prime/>10<dblprime/>.
+				</p>
+				<p>
+					For 10.2 feet:
+					<md>
+						0.2\ \cancel{\text{ft}} \ast \frac{12\ \text{in}}{1\ \cancel{\text{ft}}} = 0.2 \ast 12 = 2.4 \approx 2\ \text{in}
+					</md>
+					So 10.2 feet is the same as 10 feet and 2 inches, or 10<prime/>2<dblprime/>.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -235,6 +304,30 @@
 					Convert the length and height to feet and inches.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						<mrow>
+							92\ \cancel{\text{in}} \amp\ast \frac{1\ \text{ft}}{12\ \cancel{\text{in}}} = \frac{92}{12} = 7.66 \ldots\ \text{ft}
+						</mrow>
+						<mrow>
+							0.66 \ldots \ \cancel{\text{ft}}\amp\ast \frac{12\ \text{in}}{1\ \cancel{\text{ft}}} = 0.66\ldots \cdot 12 = 8\ \text{in}
+						</mrow>
+					</md>
+					So 92<dblprime /> is the same as 7<prime/>8<dblprime/>.
+				</p>
+				<p>
+					<md>
+						<mrow>
+							44\ \cancel{\text{in}} \amp\ast \frac{1\ \text{ft}}{12\ \cancel{\text{in}}} = \frac{44}{12} = 3.66 \ldots\ \text{ft}
+						</mrow>
+						<mrow>
+							0.66 \ldots \ \cancel{\text{ft}}\amp\ast \frac{12\ \text{in}}{1\ \cancel{\text{ft}}} = 0.66\ldots \cdot 12 = 8\ \text{in}
+						</mrow>
+					</md>
+					So 44<dblprime /> is the same as 3<prime/>8<dblprime/>.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -245,11 +338,14 @@
 					Convert the length to a decimal number of feet.
 				</p>
 			</statement>
-			<!-- <hint>
-				<p>
-					The answer isn't 12.5 feet! (That would be 12<prime/>6<dblprime/>.)
+			<solution>
+				<p>Let's convert the 5 inches to feet:
+					<md>
+						5\ \cancel{\text{in}} \ast \frac{1\ \text{ft}}{12\ \cancel{\text{in}}} = \frac{5}{12} = 0.416\ldots \approx 0.4\ \text{ft}
+					</md>
+					So 12<prime/>5<dblprime/> is (approximately) the same as 12.4 ft.
 				</p>
-			</hint> -->
+			</solution>
 		</task>
 	</exercise>
 </page>
@@ -269,6 +365,30 @@
 					How many of those bottles full of water does she need to drink each day?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Here are some math sentences from the story that we can use to help us set up unit conversion fractions:
+					<aside>
+						<p>
+							The abbreviation <q>oz</q> is short for <q>ounces</q>.
+						</p>
+					</aside>
+					<md>
+						<mrow>1\ \text{day} \amp= 8\ \text{glasses} </mrow>
+						<mrow>1\ \text{glass} \amp= 8\ \text{oz} </mrow>
+						<mrow>1\ \text{bottle} \amp= 20\ \text{oz}</mrow>
+					</md>
+					Let's use these to convert from 1 day to ounces:
+					<md>
+						1\ \cancel{\text{day}} \ast 
+						\frac{8\ \cancel{\text{glasses}}}{1\ \cancel{\text{day}}} \ast
+						\frac{8\ \cancel{\text{oz}}}{1\ \cancel{\text{glass}}} \ast
+						\frac{1\ \text{bottle}}{20\ \cancel{\text{oz}}} =
+						\frac{1 \cdot 8 \cdot 8 \cdot 1}{1 \cdot 1 \cdot 20} = 3.2
+					</md>
+					So Ingrid should drink 3.2 bottles every day. But 0.2 of a bottle is silly; let's round up to 4 bottles because it's probably better to drink more water than less.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -278,6 +398,26 @@
 					Use that 1 liter <m>\approx</m> 1.057 quarts and 1 quart = 32 (liquid) ounces.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					This time, 1 bottle = 0.6 liters instead of 1 bottle = 20 oz.
+					<md>
+						1\ \cancel{\text{day}} \ast 
+						\frac{8\ \cancel{\text{glasses}}}{1\ \cancel{\text{day}}} \ast
+						\frac{8\ \cancel{\text{oz}}}{1\ \cancel{\text{glass}}} \ast
+						\frac{1\ \cancel{\text{qt}}}{32\ \cancel{\text{oz}}} \ast
+						\frac{1\ \cancel{\text{liter}}}{1.057\ \cancel{\text{qt}}}
+						\frac{1\ \text{bottle}}{0.6\ \cancel{\text{liters}}} =
+						\frac{1 \cdot 8 \cdot 8 \cdot 1\cdot 1}{1 \cdot 1 \cdot 32 \cdot 1.057\cdot 0.6} = 3.153\ldots
+					</md>
+					Rounding up again, Siri should also drink 4 bottles of water every day.
+					<aside>
+						<p>
+							To see why these numbers came out about the same, try converting 20 ounces into liters!
+						</p>
+					</aside>
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -286,6 +426,22 @@
 					Give the answer in gallons. Use 1 gallon = 4 quarts.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						<mrow>
+							1\ \cancel{\text{year}} \amp\ast
+							\frac{365\ \cancel{\text{days}}}{1\ \cancel{\text{year}}} \ast
+							\frac{8\ \cancel{\text{glasses}}}{1\ \cancel{\text{day}}} \ast
+							\frac{8\ \cancel{\text{oz}}}{1\ \cancel{\text{glass}}} \ast
+							\frac{1\ \cancel{\text{qt}}}{32\ \cancel{\text{oz}}}\ast
+							\frac{1\ \text{gallon}}{4\ \cancel{\text{qt}}}
+						</mrow>
+						<mrow> \amp= \frac{1\cdot 365\cdot 8 \cdot 8 \cdot 1 \cdot 1}{1 \cdot 1 \cdot 1 \cdot 32 \cdot 4} = 182.5\ \text{gallons} </mrow>
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
@@ -306,6 +462,16 @@
 					Use 1 mile <m>\approx</m> 1.609 km.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{100\ \cancel{\text{km}}}{1\ \text{hr}} \ast
+						\frac{1\ \text{mile}}{1.609\ \cancel{\text{km}}}
+						= \frac{100\cdot 1}{1\cdot 1.609} = 62.15\ldots \approx 62\ \text{mph}
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -313,7 +479,23 @@
 					Jenna's car holds 62 liters of gasoline in its tank. How many gallons is that? 
 					Use 1 liter <m>\approx</m> 1.057 quarts and 1 gallon = 4 quarts.
 				</p>
+				<aside>
+					<p>
+						We often use the letter <q>l</q> as an abbreviation for <q>liters</q>, but since that looks a lot like a number 1 in handwriting, we usually write it curly: <q><m>\ell</m></q>
+					</p>
+				</aside>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						62\ \cancel{\ell} \ast
+						\frac{1.057\ \cancel{\text{qt}}}{1\ \cancel{\ell}} \ast
+						\frac{1\ \text{gallon}}{4\ \cancel{\text{qt}}} = 
+						\frac{62 \cdot 1.057 \cdot 1}{1\cdot 4} = 
+						16.38 \ldots \approx 16.4\ \text{gallons}
+					</md>
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -321,6 +503,18 @@
 					Her car gets 7.6 km/liter. Convert to miles per gallon (mpg).
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{7.6\ \cancel{\text{km}}}{1\ \cancel\ell} \ast
+						\frac{1\ \text{mile}}{1.609\ \cancel{\text{km}}} \ast
+						\frac{1\ \cancel\ell}{1.057\ \cancel{\text{qt}}} \ast
+						\frac{4\ \cancel{\text{qt}}}{1\ \text{gallon}}= 
+						\frac{7.6\cdot 1 \cdot 1 \cdot 4}{1 \cdot 1.609 \cdot 1.057 \cdot 1}
+						= 17.87\ldots \approx 17.9\ \text{mpg}
+					</md>
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -330,14 +524,50 @@
 					The symbol € stands for euro. Use 1 € <m>\approx</m> $1.23.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{1.658\ \cancel{\text{\euro}} }{1\ \cancel\ell} \ast
+						\frac{\$1.23}{1\ \cancel{\text{\euro}}} \ast
+						\frac{1\ \cancel\ell}{1.057\ \cancel{\text{qt}}} \ast
+						\frac{4\ \cancel{\text{qt}}}{1\ \text{gallon}}= 
+						\frac{1.658 \cdot 1.23 \cdot 1 \cdot 4}{1\cdot 1 \cdot 1.057 \cdot 1} =
+						7.717\ldots \approx \$7.72 / \text{gal (Wow!)}
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
 				<p>
 					What would it cost Jenna, in euros, for a full tank of gas? 
-					How much is that in dollars?
+					How much is that in dollars? 
 				</p>
 			</statement>
+			<solution>
+				<p>
+					From previous parts of this problem, we know some math sentences:
+					<md>
+						<mrow>1\ \text{tank} \amp= 62\ \ell </mrow>
+						<mrow>1\ \ell \amp= 1.658\ \text{\euro}</mrow>
+						<mrow>1\ \text{\euro} \amp= 1.23\ \$ </mrow>
+					</md>
+					Let's put all these together:
+					<md>
+						1\ \cancel{\text{tank}} \ast
+						\frac{62\ \cancel{\ell}}{1\ \cancel{\text{tank}}} \ast
+						\frac{1.658\ \text{\euro}}{1\ \cancel{\ell}} = \frac{1\cdot 62 \cdot 1.658}{1\cdot 1} = 102.79 \approx 103\ \text{\euro}
+					</md>
+					And now we'll convert that to dollars:
+					<md>
+						102.79\ \cancel\text{\euro} \ast
+						\frac{\$ 1.23}{1\ \cancel\text{\euro}} = 102.79\cdot 1.23 
+						= 126.43\ldots \approx \$ 126
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
