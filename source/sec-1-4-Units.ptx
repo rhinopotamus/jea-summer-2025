@@ -220,8 +220,8 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-1-4-Units.ptx" />
-
+	<xi:include href="./solutions/sol-1-4-Units.ptx" />
+<!-- 
 	<xi:include href="./WYD.ptx" />
 		
 		
@@ -231,7 +231,7 @@
 			<xi:include href="./dyk/dyk-Units.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</conclusion> -->
 
 
 </section>

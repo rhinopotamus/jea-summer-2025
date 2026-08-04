@@ -5,19 +5,24 @@
 	<xi:include href="ex-intro.ptx" />
 
 <page>
-	<exercise xml:id="sol-compare-lengths-units" workspace="1.25cm">
+	<exercise xml:id="sol-compare-lengths-units">
 		<task>
 			<introduction>
 				<p>
 					Compare centimeters (cm) and inches, using that 1 inch <m>\approx</m> 2.54 cm.
 				</p>
 			</introduction>
-			<task workspace="0cm">
+			<task>
 				<statement>
 					<p>
 						Which is longer: 1 inch or 1 centimeter?
 					</p>
 				</statement>
+				<solution>
+					<p>
+						1 inch is longer, because it takes like <m>2 \tfrac{1}{2}</m> cm to make 1 inch.
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -25,6 +30,19 @@
 						Kamari is shopping at an internationally-based retail store. She is looking at a curtain rod that projects 10 cm from the wall. What is that in inches?
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<aside>
+							<p>
+								Set up unit conversion fractions so that units cancel, and divide by numbers on bottom.
+							</p>
+						</aside>
+						<md>
+							10\cancel{\text{ cm}} \ast \frac{1\text{ inch}}{2.54\cancel{\text{ cm}}} = \frac{10}{2.54} = 3.93\ldots \approx 4 \text{ inches}
+						</md>
+						Sense check: 4 of the larger unit = 10 of the smaller unit? Ok, sure!
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -32,21 +50,40 @@
 						She also wants a basket no more than 1 foot wide or long to fit on her bookcase. How many centimeters are in a foot?
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<aside>
+							<p>
+								Don't know or forget a common conversion? Search online or ask someone!
+							</p>
+						</aside>
+						<md>
+							1\ \cancel{\text{foot}} \ast 
+							\frac{12\ \cancel{\text{inches}}}{1\ \cancel{\text{foot}}}\ast
+							\frac{2.54\ \text{cm}}{1\ \cancel{\text{inch}}}
+							= \frac{1\cdot 12 \cdot 2.54}{1\cdot 1} = 30.48 \approx 30\ \text{cm}
+						</md>
+					</p>
+				</solution>
 			</task>
 		</task>
 		<task>
 			<introduction>
 				<p>
 					Compare meters (m) and yards using that 1 yard <m>\approx</m> 0.9144 m.
-					
 				</p>
 			</introduction>
-			<task workspace="0cm">
+			<task>
 				<statement>
 					<p>
 						Which is longer: 1 yard or 1 meter?
 					</p>
 				</statement>
+				<solution>
+					<p>
+						1 meter is longer, since 1 yard is about 91% of a meter <mdash /> not quite 100%.
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -54,6 +91,16 @@
 						Princeton was watching the Olympics and noticed everything was measured in meters. He is curious how long a football field (100 yards) is in meters.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							100\ \cancel{\text{yards}} \ast
+							\frac{0.9144\ \text{meters}}{1\ \cancel{\text{yards}}}
+							=100 \cdot 0.9144 = 91.44 \approx 91.44\ \text{meters}
+						</md>
+						
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -63,6 +110,30 @@
 						What are the dimensions in inches? Use that 1 yard = 3 feet.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							1\ \cancel{\text{m}} \ast
+							\frac{1\ \cancel{\text{yard}}}{0.9144\ \cancel{\text{m}}} \ast
+							\frac{3\ \cancel{\text{feet}}}{1\ \cancel{\text{yard}}} \ast
+							\frac{12\ \text{inches}}{1\ \cancel{\text{foot}}} =
+							\frac{1\cdot 1 \cdot 3 \cdot 12}{0.9144 \cdot 1 \cdot 1}
+							= \frac{36}{0.9144} = 39.37\ldots \approx 39\text{ inches}
+						</md>
+						
+					</p>
+					<p>
+						<md>
+							1.5\ \cancel{\text{m}} \ast
+							\frac{1\ \cancel{\text{yard}}}{0.9144\ \cancel{\text{m}}} \ast
+							\frac{3\ \cancel{\text{feet}}}{1\ \cancel{\text{yard}}} \ast
+							\frac{12\ \text{inches}}{1\ \cancel{\text{foot}}} =
+							\frac{1.5\cdot 1 \cdot 3 \cdot 12}{0.9144 \cdot 1 \cdot 1}
+							= \frac{54}{0.9144} = 59.05\ldots \approx 59\text{ inches}
+						</md>
+						
+					</p>
+				</solution>
 			</task>
 		</task>
 		<task>
@@ -72,12 +143,17 @@
 					
 				</p>
 			</introduction>
-			<task workspace="0cm">
+			<task>
 				<statement>
 					<p>
 						Which is longer: 1 mile or 1 kilometer?
 					</p>
 				</statement>
+				<solution>
+					<p>
+						1 mile is longer, since it takes more than 1 km to make 1 mile.
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -85,20 +161,41 @@
 						This weekend Princeton and Kamari are doing a 5K run. How many miles long is that? Note: <term>5K</term> is short for 5 kilometers.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							5\ \cancel{\text{km}} \ast
+							\frac{1\ \text{mile}}{1.609\ \cancel{\text{km}}}
+							= \frac{5}{1.609} = 3.107\ldots \approx 3.1 \text{ miles}
+						</md>
+						
+					</p>
+				</solution>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Princeton is actually in training for a marathon. How many kilometers is that? Note: a <term>marathon</term> is approximately 26.2 miles.
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							26.2\ \cancel{\text{miles}} \ast
+							\frac{1.609\ \text{km}}{1\ \cancel{\text{mile}}}
+							= 26.2 \cdot 1.609 = 42.15\ldots
+							\approx 42\ \text{km}
+						</md>
+						
+					</p>
+				</solution>
 			</task>
 		</task>
 	</exercise>
 </page>
 
 <page>
-	<exercise xml:id="sol-decimal-hours-lengths-units" workspace="1.25in">
+	<exercise xml:id="sol-decimal-hours-lengths-units">
 		<task>
 			<statement>
 				<p>
@@ -139,7 +236,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0in">
+		<task>
 			<statement>
 				<p>
 					Abdi volunteers at a food bank. He noticed that the shelf on the back wall 
@@ -165,7 +262,7 @@
 				where a glass is defined as 8 (liquid) ounces.
 			</p>
 		</introduction>
-		<task workspace="2in">
+		<task>
 			<statement>
 				<p>
 					Ingrid uses a 20 ounce unbreakable plastic bottle. 
@@ -173,7 +270,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="2in">
+		<task>
 			<statement>
 				<p>
 					Siri carries around a insulated water bottle that holds 0.6 liters. 
@@ -194,7 +291,7 @@
 </page>
 
 <page>
-	<exercise xml:id="sol-finland-units" workspace="3.25cm">
+	<exercise xml:id="sol-finland-units">
 		<introduction>
 			<p>
 				Jenna is studying in Finland this term and rented an older car to drive.
