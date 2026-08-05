@@ -5,7 +5,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 <page>
-	<exercise xml:id="sol-gdp-scientific-notation" workspace="2cm">
+	<exercise xml:id="sol-gdp-scientific-notation">
 		<introduction>
 			<p>
 				In 2011,
@@ -13,9 +13,9 @@
 					<p>
 						Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau
 					</p>
-					<p>
+					<!-- <p>
 						(Story also appears in <xref ref="gdp-prelude-scientific-notation" />)
-					</p>
+					</p> -->
 				</aside>
 				the GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
 			</p>
@@ -26,6 +26,17 @@
 					Writing the population as 0.313 billion seems strange. A more natural unit would be millions. Rewrite the population in millions of people.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						0.313\ \text{billion} \ast
+						\frac{1{,}000{,}000{,}000}{1\ \text{billion}} \ast
+						\frac{1\ \text{million}}{1{,}000{,}000}=
+						\frac{0.313\cdot 10^9}{10^6} = 313\ \text{million}
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -33,6 +44,15 @@
 					Rewrite the population in people, both in normal decimal notation (that means with all the 0s) and in scientific notation.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						0.313\ \text{billion} \ast 
+						\frac{1{,}000{,}000{,}000}{1\ \text{billion}} = 
+						313{,}000{,}000 = 3.13 \times 10^8
+					</md>
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -40,6 +60,18 @@
 					It also seems strange to write the GDP as $15,596 billion. A more natural unit would be <term>trillions</term>, where 1 trillion = 1,000,000,000,000. Rewrite the GDP in trillions of dollars.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\$15{,}596\ \text{billion} \ast
+						\frac{1{,}000{,}000{,}000}{1\ \text{billion}} \ast
+						\frac{1\ \text{trillion}}{1{,}000{,}000{,}000{,}000} = 
+						\frac{15{,}596 \cdot 10^9}{1 \cdot 10^{12}} 
+						=\$ 15.596\ \text{trillion}
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -47,6 +79,17 @@
 					Rewrite the GDP in dollars, both in normal decimal notation and in scientific notation.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\$15{,}596\ \text{billion} \ast
+						\frac{1{,}000{,}000{,}000}{1\ \text{billion}} =
+						15{,}596{,}000{,}000{,}000
+						= 1.5596 \times 10^{13}
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -54,6 +97,16 @@
 					Calculate the GDP <term>per capita</term> (meaning per person) by dividing the GDP in dollars by the population in people. Express your answer in $/person.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{\$15{,}596{,}000{,}000{,}000}{313{,}000{,}000\ \text{people}}
+						\approx \$49{,}827 / \text{person} 
+						\approx \$50{,}000/\text{person}.
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -64,20 +117,29 @@
 					</aside>
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{(1.5596 \times 10^{13})}{(3.13 \times 10^8)}
+						\approx 49{,}827\ldots \checkmark
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
 
 <page>
-	<exercise xml:id="sol-dust-particle-scientific-notation" workspace="1.5cm">
+	<exercise xml:id="sol-dust-particle-scientific-notation">
 		<introduction>
 			<p>
 				Edgar recently changed the cleaning bag on his vacuum cleaner. 
-				<aside>
+				<!-- <aside>
 					<p>
 						(Story also appears in <xref ref="dust-particle-prelude-scientific-notation" />)
 					</p>
-				</aside>
+				</aside> -->
 				He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is <me>0.000~000~000~753\text{ kilograms.}</me>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
 			</p>
 		</introduction>
@@ -87,6 +149,11 @@
 					Write the mass of a dust particle in scientific notation.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Since the decimal point is 10 places to the left of where it needs to be, the mass of a dust particle is <m>7.53\times 10^{-10}</m> kg.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<introduction>
@@ -139,6 +206,17 @@
 						grams
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							7.53\times 10^{-10}\ \cancel{\text{kg}} \ast
+							\frac{1000\ \text{g}}{1 \ \cancel{\text{kg}}}
+							= 7.53 \times 10^{-10} \times 1000 = 
+							0.000~000~753\ \text{g}
+						</md>
+						
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -146,6 +224,16 @@
 						milligrams (mg)
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							0.000~000~753\ \cancel{\text{g}}\ast
+							\frac{1000\ \text{mg}}{1\ \cancel{\text{g}}}
+							= 0.000~753\ \text{mg}
+						</md>
+						
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -153,6 +241,16 @@
 						micrograms (<m>\mu</m>g)
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							0.000~000~753\ \cancel{\text{g}}\ast
+							\frac{1{,}000{,}000\ \mu\text{g}}{1\ \cancel{\text{g}}}
+							= 0.753\ \mu\text{g}
+						</md>
+						
+					</p>
+				</solution>
 			</task>
 			<task>
 				<statement>
@@ -160,6 +258,15 @@
 						nanograms (ng)
 					</p>
 				</statement>
+				<solution>
+					<p>
+						<md>
+							0.000~000~753\ \cancel{\text{g}}\ast
+							\frac{1{,}000{,}000{,}000\ \text{ng}}{1\ \cancel{\text{g}}}
+							= 753\ \text{ng}
+						</md>
+					</p>
+				</solution>
 			</task>
 		</task>
 		<task>
@@ -168,12 +275,25 @@
 					Edgar determined that the full vacuum bag weighed 5 pounds. How many dust particles were in the bag? (I am already sneezing.) Use <m>1 \text{ kilogram} \approx 2.2 \text{ pounds}</m>. Express your answer in scientific notation.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						<mrow>\amp 5\ \cancel{\text{pounds}} \ast 
+							\frac{1\ \cancel{\text{kg}}}{2.2\ \cancel{\text{pounds}}} \ast
+							\frac{1\ \text{dust particle}}{7.53\times 10^{-10}\ \cancel{\text{kg}}}
+						</mrow>
+						<mrow> \amp= \frac{5\cdot 1\cdot 1}{2.2\cdot 7.53\times 10^{-10}} </mrow>
+						<mrow> \amp=3.108\ldots \times 10^9 \approx 3\times 10^{9} = 3{,}000{,}000{,}000 </mrow>
+						<mrow> \amp= 3\ \text{billion dust particles (!!)} </mrow>
+					</md>
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
 
 <page>
-	<exercise xml:id="sol-planet-weight-scientific-notation" workspace="2in">
+	<exercise xml:id="sol-planet-weight-scientific-notation">
 		<introduction>
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.
@@ -181,9 +301,9 @@
 					<p>
 						Source: Wikipedia (Solar System)
 					</p>
-					<p>
+					<!-- <p>
 						(Story also appears in <xref ref="earth-weight-prelude-scientific-notation"/>)
-					</p>
+					</p> -->
 				</aside>
 			</p>
 			<tabular>
@@ -227,6 +347,15 @@
 					Write the mass of Earth and the mass of Mars in standard decimal notation. Which is heavier?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						<mrow>\text{Earth: } 5{,} 972\amp{,}000{,}000{,}000{,}000{,}000{,}000{,}000\ \text{kg} </mrow>
+						<mrow>\text{Mars: }       641\amp{,}700{,}000{,}000{,}000{,}000{,}000{,}000\ \text{kg} </mrow>
+					</md>
+					Earth is heavier. (Almost 10 times heavier!)
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -234,6 +363,14 @@
 					List the planets from heaviest (largest mass) to lightest (smallest mass).
 				</p>
 			</statement>
+			<solution>
+				<p>
+					Look for the higher exponents on the 10 in scientific notation first, and then look at the numbers. 
+				</p>
+				<p>
+					From heaviest to lightest: Jupiter, Saturn, Neptune, Uranus, Earth, Venus, Mars, and Mercury.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -245,23 +382,35 @@
 					Express Earth's mass in <m>M_J</m>.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						<mrow>\text{Earth }\amp= 5.972\times 10^{24}\ \cancel{\text{kg}} \ast
+							\frac{1\ M_J}{1.899\times 10^{27}\ \cancel{\text{kg}}} 
+						</mrow>
+						<mrow> \amp = \frac{5.972\times 10^{24}}{1.899\times 10^{27}}</mrow>
+						<mrow> \amp = 0.00314 \ldots \approx 0.003 M_J</mrow>
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
 
 <page>
-	<exercise xml:id="sol-iv-drip-scientific-notation" workspace="2.75cm">
+	<exercise xml:id="sol-iv-drip-scientific-notation">
 		<introduction>
 			<p>
 				Souksavanh is setting up a patient's intravenous (IV) medication. 
-				<aside>
+				<!-- <aside>
 					<p component="not-workbook">
 						(Story also appears in <xref ref="iv-drip-approx-rounding"/>)
 					</p>
 					<p component="workbook">
 						(Story also appears in <xref ref="sec-0-1-Approximation_and_rounding" text="global"/> Exercises)
 					</p>
-				</aside>
+				</aside> -->
 				She sets the drip at 42 drops/minute. The drip chamber size is 20 drops/mL. Recall
 				<md>
 					<mrow>
@@ -291,6 +440,16 @@
 					At what rate is the IV fluid being delivered to Souk's patient? Answer in mL/min (millileters per minute).
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{42\ \cancel{\text{drops}}}{1\ \text{min}} \ast
+						\frac{1\ \text{mL}}{20\ \cancel{\text{drops}}} =
+						\frac{42\cdot 1}{1\cdot 20} = 2.1\ \text{mL / min}
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -298,6 +457,20 @@
 					How fast is the drip measured in <m>\mu</m>L/sec (microliters per second)?
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						\frac{2.1\ \cancel{\text{mL}}}{1\ \cancel{\text{min}}} \ast
+						\frac{1\ \cancel{\text{min}}}{60\ \text{sec}} \ast
+						\frac{1\ \cancel{\text{L}}}{1000\ \cancel{\text{mL}}} \ast
+						\frac{1{,}000{,}000\ \mu\text{L}}{1\ \cancel{\text{L}}} 
+						= 
+						\frac{2.1\cdot 1 \cdot 1\cdot 1{,}000{,}000}{1\cdot 60 \cdot 1000 \cdot 1}
+						= 35\ \mu\text{L / sec}
+					</md>
+					
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -305,6 +478,32 @@
 					If the drip bag holds 1 liter, how long will it take the drip to run? Express your answer in hours and minutes.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					First let's convert 1 liter into minutes:
+					<aside>
+						<p>See how we used part (a)?</p>
+					</aside>
+					<md>
+						1\ \cancel{\text{L}} \ast
+						\frac{1000\ \cancel{\text{mL}}}{1\ \cancel{\text{L}}} \ast
+						\frac{1\ \text{min}}{2.1\ \cancel{\text{mL}}} =
+						\frac{1\cdot 1000 \cdot 1}{1\cdot 2.1} = 476.19\ldots \approx 476\ \text{min}
+					</md>
+					Now let's convert 476 minutes into hours and minutes:
+					<md>
+						476\ \cancel{\text{min}} \ast
+						\frac{1\ \text{hr}}{60\ \cancel{\text{min}}} = 
+						\frac{476}{60} = 7.933\ldots\ \text{hr}
+					</md>
+					<md>
+						0.933\ \cancel{\text{hr}} \ast
+						\frac{60\ \text{min}}{1\ \cancel{\text{hr}}} =
+						0.933 \cdot 60 \approx 56\ \text{min}
+					</md>
+					So the drip will take 7:56 (7 hours and 56 minutes) to run.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -312,6 +511,19 @@
 					The concentration of medication is 1.7 mg/mL (milligrams per milliliter). How much medication is in the 1 liter bag? Convert your answer to grams. Explain what you notice.
 				</p>
 			</statement>
+			<solution>
+				<p>
+					<md>
+						1\ \cancel{\text{L}} \ast
+						\frac{1000\ \cancel{\text{mL}}}{1\ \cancel{\text{L}}} \ast
+						\frac{1.7\ \cancel{\text{mg}}}{1\ \cancel{\text{mL}}} \ast
+						\frac{1\ \text{g}}{1000 \ \cancel{\text{mg}}} =
+						\frac{1\cdot 1000 \cdot 1.7\cdot 1}{1\cdot 1\cdot 1000} = 
+						1.7\ \text{grams}
+					</md>
+					Hey, same number! It's like the <q>m</q> for <q>micro</q> cancelled out.
+				</p>
+			</solution>
 		</task>
 		<task>
 			<statement>
@@ -319,6 +531,12 @@
 					At what rate is the medication being delivered to Souk's patient? Answer in g/min (grams per minute).
 				</p>
 			</statement>
+			<solution>
+				<p>
+					The 1 liter bag holds 1.7 grams of medication and takes 476 minutes to empty:
+					<md>\frac{1.7\ \text{g}}{476\ \text{min}} \approx 0.0035\ \text{g / min}</md>
+				</p>
+			</solution>
 		</task>
 	</exercise>
 </page>
