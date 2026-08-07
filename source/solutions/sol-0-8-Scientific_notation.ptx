@@ -18,31 +18,46 @@
                         Melvin was looking at populations based on the 2020 Census and saw the population of Saint Paul, MN listed as <m>\mathbf{3.10942 \times 10^{5}}</m> <term>people</term>. Hint: you can check the answer to this part by evaluating on your calculator.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        310,942 people.                        
+                    </p>
+                </solution>
             </task>
             <task xml:id="gdp-prelude-scientific-notation">
                 <statement>
                     <p>
                         The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy. 
-                        <aside>
+                        <!-- <aside>
                             <p>
                                 (Story also appears in <xref ref="gdp-scientific-notation" />)
                             </p>
-                        </aside>
+                        </aside> -->
                         The United States GDP is approximately <m>\mathbf{\$2.332 \times 10^{13}}</m>. 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        $23,320,000,000,000. (Wow!)
+                    </p>
+                </solution>
             </task>
             <task xml:id="earth-weight-prelude-scientific-notation">
                 <statement>
                     <p>
                         The Earth weighs approximately <m>\mathbf{5.972 \times 10^{24}}</m> <term>kilograms</term>. 
-                        <aside>
+                        <!-- <aside>
                             <p>
                                 (Story also appears in <xref ref="planet-weight-scientific-notation" />)
                             </p>
-                        </aside>
+                        </aside> -->
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        5,972,000,000,000,000,000,000,000 kilograms. (Double wow!!)
+                    </p>
+                </solution>
             </task>
         </exercise>
         <exercise>
@@ -57,33 +72,62 @@
                         Alpacas have very fine hairs which can be spun into yarn to make very soft sweaters. The width of an alpaca hair is around <m>\mathbf{2.5 \times 10^{-7}}</m> <term>meters</term>. Hint: you can check the answer to this part by evaluating on your calculator.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <aside>
+                            <p>
+                                The spaces between sets of three zeroes are there to help us count.
+                            </p>
+                        </aside>
+                        <md>
+                            0.000~000~25\ \text{meters}.
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task xml:id="dust-particle-prelude-scientific-notation">
                 <statement>
                     <p>
                         A dust particle weighs approximately <m>\mathbf{7.53 \times 10^{-10}}</m> <term>grams</term>. 
-                        <aside>
+                        <!-- <aside>
                             <p>
                                 (Story also appears in <xref ref="dust-particle-scientific-notation"/>)
                             </p>
-                        </aside>
+                        </aside> -->
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            0.000~000~000~753\ \text{grams}.
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task xml:id="proton-mass-prelude-scientific-notation">
                 <statement>
                     <p>
                         A proton (part of an atom) has mass of about <m>\mathbf{1.67262 \times 10^{-27}}</m> <term>kilograms</term>. 
-                        <aside>
+                        <!-- <aside>
                             <p component="not-workbook">
                                 (Story also appears in <xref ref="proton-mass-scientific-notation"/>)
                             </p>
                             <p component="workbook">
                                 (Story also appears in <xref ref="sec-1-5-Metric_system_and_scientific_notation" text="global"/> Exercises)
                             </p>
-                        </aside>
+                        </aside> -->
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            0.000~000~000~000~000~000~000~000~001~672~62\ \text{kilograms}.
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>
@@ -99,31 +143,47 @@
                 <statement>
                     <p>
                         Bunnies, bunnies, everywhere. 
-                        <aside>
+                        <!-- <aside>
                             <p>
                                 (Story also appears in 
                                 <xref ref="bunnies-first-look-exponential"/> and 
                                 <xref ref="bunnies-modeling-exponential"/>)
                             </p>
-                        </aside>
+                        </aside> -->
                         In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: <me>1800 \ast 1.13 \wedge 166=</me> Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            1800 \ast 1.13 \wedge 166= 1.478 \times 10^{22}\ \text{bunnies}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task xml:id="fiber-optic-prelude-scientific-notation">
                 <statement>
                     <p>
                         A signal is sent down a fiber optic cable. 
-                        <aside>
+                        <!-- <aside>
                             <p>
                                 (Story also appears in
                                 <xref ref="fiber-optic-powers-roots"/> and
                                 <xref ref="fiber-optic-growth-decay"/>)
                             </p>
-                        </aside>
+                        </aside> -->
                         Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <me>0.98 \wedge 1000=</me> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            0.98 \wedge 1000=1.68 \times 10^{-9}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
         <exercise>
@@ -136,25 +196,35 @@
                 <statement>
                     <p>
                         There are approximately <term>1.084 million quarters</term> in the United States. 
-                        <aside>
+                        <!-- <aside>
                             <p>
                                 (Story also appears in <xref ref="currency-approx-rounding"/>)
                             </p>
-                        </aside>
+                        </aside> -->
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        There are <term>1,084,000 quarters</term> in the United States.
+                    </p>
+                </solution>
             </task>
             <task xml:id="world-population-prelude-scientific-notation">
                 <statement>
                     <p>
                         The population of the world is approximately <term>8.1 billion people</term>. 
-                        <aside>
+                        <!-- <aside>
                             <p>
                                 (Story also appears in <xref ref="world-population-percentages"/>)
                             </p>
-                        </aside>
+                        </aside> -->
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The population of the world is approximately <term>8,100,000,000 people</term>.
+                    </p>
+                </solution>
             </task>
             <task xml:id="t-bonds-prelude-scientific-notation">
                 <statement>
@@ -162,6 +232,11 @@
                         One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately <term>$24 trillion</term> worth of T-bonds currently.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        There are approximately <term>$24,000,000,000,000</term> worth of T-bonds currently.
+                    </p>
+                </solution>
             </task>        
         </exercise>
     </page>

@@ -78,8 +78,8 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-0-9-Logarithms.ptx" />
-
+	<xi:include href="./solutions/sol-0-9-Logarithms.ptx" />
+<!-- 
 	<xi:include href="./WYD.ptx" />
 		
 		
@@ -89,5 +89,6 @@
 			<xi:include href="./dyk/dyk-Logarithms.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</conclusion> -->
+
 </section>

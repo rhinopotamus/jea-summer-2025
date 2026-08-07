@@ -10,11 +10,11 @@
             <introduction>
                 <p>
                     Jody is using small wooden balls to make noses for her knitted gnomes. 
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Story also appears in <xref ref="wooden-balls-algebraic-notation"/>)
                         </p>
-                    </aside>
+                    </aside> -->
                     She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \wedge 3</m> where <m>B</m> is the diameter of the ball (in inches). 
                 </p>
             </introduction>
@@ -24,6 +24,14 @@
                         What does a 2.5 inch diameter wooden ball weigh?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            0.2 \times (2.5)\wedge 3 = 1.6\ \text{ounces}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -31,20 +39,29 @@
                         Jody is considering building a giant gnome for her office. The nose will be a wooden ball weighing 1 pound. She calculates that the diameter of the ball will be <m>\sqrt[3]{80}</m>. How big is that?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        I don't have a <m>\sqrt[3]{}</m> button on my calculator, so I'm going to type this in the other way:
+                        <md>
+                            \sqrt[3]{80} = 80\wedge(1\div 3) = 4.308869\ldots \approx 4.3\ \text{inches}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
         <exercise xml:id="sol-pizza-diameter-powers-roots">
             <introduction>
                 <p>
                     The size of a round pizza is described by its diameter. 
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Story also appears in
                             <xref ref="pizza-diameter-approx-solutions"/>, 
                             <xref ref="pizza-diameter-modeling-linear"/>, and 
                             <xref ref="pizza-diameter-solving-power"/>)
                         </p>
-                    </aside>
+                    </aside> -->
                     It turns out that we can calculate how many people are served by a pizza of diameter <m>D</m> inches as <m>0.015625 \times D \wedge 2=</m>. For example, a 16-inch diameter pizza serves <m>0.015625 \times 16 \wedge 2 = 4</m> people. (The mysterious number 0.015625 comes from a little geometry and pizza science.)
                 </p>
             </introduction>
@@ -54,6 +71,14 @@
                         How many people would be served by a 12-inch pizza?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            0.015625 \times (12) \wedge 2 = 2.25 \approx 2\ \text{people}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -61,13 +86,29 @@
                         A personal pizza is designed to serve one person. It turns out the diameter of a personal pizza is <m>\sqrt{64}</m>. Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            \sqrt{64} = 8\ \text{inches}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
                     <p>
-                        An extra large pizza serves 6 people. It turns out the diameter of an extra large pizza is <m>\sqrt{384}</m>. Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.
+                        An extra large pizza serves 6 people. It turns out the diameter of an extra large pizza is <m>\sqrt{384}</m>. Calculate the diameter of an extra large pizza using the square root key (or just the root key) on your calculator.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            \sqrt{384} = 19.5959179\ldots \approx 20\ \text{inches}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>
@@ -77,16 +118,24 @@
             <statement>
                 <p>
                     A signal sent down a fiber optic cable decreases by 2% per mile. 
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Story also appears in
                             <xref ref="fiber-optic-prelude-scientific-notation"/> and
                             <xref ref="fiber-optic-growth-decay"/>)
                         </p>
-                    </aside>
+                    </aside> -->
                     That means after <m>M</m> miles, its strength is <m>\underbrace{0.98 \times 0.98 \times \cdots \times 0.98}_{M \text{ times}} = 0.98 \wedge M</m>. What is the signal strength after 10 miles? After 20 miles? Note: your answers should be decimal numbers less than 1.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    After 10 miles: <m>0.98 \wedge 10 = 0.8170728\ldots \approx 0.82</m>
+                </p>
+                <p>
+                    After 20 miles: <m>0.98 \wedge 20 = 0.66760797\ldots \approx 0.67</m>
+                </p>
+            </solution>
         </exercise>
         <exercise xml:id="sol-investment-powers-roots">
             <introduction>
@@ -100,6 +149,20 @@
                         Calculate the value of Otis's investment after 10, 20, 30, and 40 years.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        After 10 years, his investment doubles once: <m>\$500{,}000 \times 2 = \$1{,}000{,}000</m>
+                    </p>
+                    <p>
+                        After 20 years, his investment doubles twice: <m>\$500{,}000 \times 2 \times 2 = \$2{,}000{,}000</m>
+                    </p>
+                    <p>
+                        Ah ha, I now see where powers are happening! After 30 years, his investment will have doubled 3 times: <m>\$500{,}000 \times 2\wedge 3 = \$4{,}000{,}000</m>
+                    </p>
+                    <p>
+                        And after 40 years: <m>\$500{,}000 \times 2\wedge 4 = \$8{,}000{,}000</m>
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -107,6 +170,12 @@
                         If Kricia invested $230,000 instead, what would her investment be worth after 40 years? Try to use a power to help answer the question. Hint: how many times will the value of her investment double?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Her investment will double 4 times:
+                        <m>\$230{,}000 \times 2\wedge 4 = \$3{,}680{,}000</m>
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>

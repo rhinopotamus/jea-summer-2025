@@ -18,6 +18,17 @@
                         How many bacteria (in microliters) will there be after 1 day? After 2 days? After 3 days?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        After 1 day: <m>10^1 = 10</m> microliters.
+                    </p>
+                    <p>
+                        After 2 days: <m>10^2 = 100</m> microliters.
+                    </p>
+                    <p>
+                        After 3 days: <m>10^3 = 1{,}000</m> microliters.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -25,6 +36,11 @@
                         In how many days will the bacteria have reached 1 liter, which is 1 million microliters?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        I guessed and checked a lot and found that the answer is that after 6 days, there are <m>10^6 = 1{,}000{,}000 = 1</m> million microliters.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -32,6 +48,11 @@
                         How can we use logs to find the answer?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <m>\log(1{,}000{,}000) = 6</m> days.
+                    </p>
+                </solution>
             </task>
         </exercise>
         <exercise>
@@ -46,6 +67,17 @@
                         <em>Approximately</em> how many days (from the start) does it take to reach the 25 millilter capacity of the petri dish, which is 25,000 microliters? Guess and check to find the answer to 1 decimal place.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The answer is certainly between 4 days (<m>10^4 = 10{,}000</m>) and 5 days (<m>10^5 = 100{,}000</m>), and probably closer to 4. My first guess will be 4.2:
+                        <md>
+                            <mrow>10^{4.2} \approx 15{,}848.93\ \amp\text{(too low)}</mrow>
+                            <mrow>10^{4.3} \approx 19{,}952.62\ \amp\text{(too low)}</mrow>
+                            <mrow>10^{4.4} \approx 25{,}118.86\ \amp\text{(too high)}</mrow>
+                        </md>
+                        4.4 days gives us the closest result to exactly 25,000 among all the possibilities that just have one decimal place, so our answer is approximately 4.4 days.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -53,6 +85,11 @@
                         How can we use logs to find the answer?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <m>\log(25{,}000) = 4.39794\ldots</m>, so we were pretty close!
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -60,6 +97,15 @@
                         Convert your answer to days &amp; hours format (<q><fillin characters="2"/> days and <fillin characters="2"/> hours</q>).
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            0.39794\ldots\ \text{days} \ast
+                            \frac{24\ \text{hours}}{1\ \text{day}} \approx 9.55\ \text{hours}
+                        </md>
+                        So our answer is about 4 days and 9 hours.
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>
@@ -72,7 +118,7 @@
                 </p>
                 
                 <p>
-                    For example, lemon juice has <m>H^+= 0.0025</m> and so the pH of lemon juice is <me>-\log(0.0025) = \text{(-)} \log(0.0025) = 2.6020599913 \approx 2.6</me>
+                    For example, lemon juice has <m>H^+= 0.0025</m> and so the pH of lemon juice is <md>-\log(0.0025) = \text{(-)} \log(0.0025) = 2.6020599913 \approx 2.6</md>
                 </p>
             </introduction>
             <task>
@@ -81,6 +127,14 @@
                         Coca-Cola has <m>H^+= 0.000~398</m>. Find the pH of Coca-Cola. Note: the funny spaces are to help you read the number.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            -\log(0.000~398) = 3.40011693\ldots \approx 3.4
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -88,6 +142,14 @@
                         Hair shampoo has <m>H^+= 0.000~003~162</m>. Find the pH of hair shampoo.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            -\log(0.000~003~162) = 5.50038\ldots \approx 5.5
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -95,6 +157,14 @@
                         Household bleach has <m>H^+=1.1 \times 10^{-13}</m>. Find the pH of bleach.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            -\log(1.1\times 10^{-13}) = 12.95861\ldots \approx 13.0
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -102,19 +172,24 @@
                         Materials with pH values between 0-5 are <term>acidic</term>, between 9-14 are <term>basic</term>, and between 5-7 are <term>neutral</term>. Which of the above materials are acidic, basic, and neutral?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Coca-Cola is acidic, hair shampoo is neutral, and household bleach is (very!) basic.
+                    </p>
+                </solution>
             </task>
         </exercise>
         <exercise xml:id="sol-astra-rent-logarithms">
             <introduction>
                 <p>
                     In Minneapolis, apartment rent is expected to increase by 16% next year. 
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Story also appears in 
                             <xref ref="astra-rent-percentages" /> and 
                             <xref ref="astra-rent-algebraic-notation" />)
                         </p>
-                    </aside>
+                    </aside> -->
                 </p>
             </introduction>
             <task>
@@ -123,6 +198,18 @@
                         Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16%, in how many years would their rent be doubled to $1,650? As we'll see later, the answer is <m>\displaystyle \frac{\log(2)}{\log(1.16)}</m>. Don't forget to close the parentheses.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <aside>
+                            <p>
+                                Rounding <em>up</em> makes sense here because Astra's rent won't quite double in 4 years.
+                            </p>
+                        </aside>
+                        <md>
+                            \frac{\log(2)}{\log(1.16)} = 4.67017\ldots \approx 5\ \text{years}
+                        </md>
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -130,6 +217,13 @@
                         Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. In how many years would their rent double under this cap? The answer is <m>\displaystyle \frac{\log(2)}{\log(1.03)}</m>.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            \frac{\log(2)}{\log(1.03)} = 23.4498\ldots \approx 24\ \text{years}
+                        </md>
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>

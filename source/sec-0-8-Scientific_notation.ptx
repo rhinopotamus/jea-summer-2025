@@ -106,8 +106,8 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-0-8-Scientific_notation.ptx" />
-
+	<xi:include href="./solutions/sol-0-8-Scientific_notation.ptx" />
+<!-- 
 	<xi:include href="./WYD.ptx" />
 		
 		
@@ -117,5 +117,6 @@
 			<xi:include href="./dyk/dyk-Scientific_notation.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</conclusion> -->
+
 </section>

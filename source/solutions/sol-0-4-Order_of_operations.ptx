@@ -27,6 +27,14 @@
                     A mug of coffee costs $3.45 at Juan's favorite cafe. If Juan orders 25 coffees each month, how much will he pay (total) for the month?
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <md>
+                        25 \ast \$3.45 = \$86.25
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -34,6 +42,19 @@
                     The cafe offers a deal each month, where if you buy their $10 discount card, then you only pay $2.90 per mug of coffee during the month. If Juan buys the discount card and orders 25 coffees, how much will he pay (total) for the month?
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <aside>
+                        <p>
+                            Notice that <m>\ast</m> comes before <m>+</m> in the order of operations!
+                        </p>
+                    </aside>
+                    <md>
+                        \$10 + 25\ast \$2.90 = \$82.50
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -41,13 +62,18 @@
                     Comparing answers to parts (a) and (b), is it worthwhile for Juan to buy the card? Explain.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    Yep, he saves a few dollars by buying the card.
+                </p>
+            </solution>
         </task>
     </exercise>
     <exercise xml:id="sol-rose-gold-order-operations">
         <introduction>
             <p>
                 <q>Rose gold</q> is a mix of gold and copper.
-                <aside>
+                <!-- <aside>
                     <p component="not-workbook">
                         (Story also appears in
                         <xref ref="rose-gold-algebraic-notation" />,
@@ -60,7 +86,7 @@
                         <xref ref="rose-gold-using-equations" />, and
                         <xref ref="sec-4-1-Modeling_linear_equations" text="global"/> Exercises)
                     </p>
-                </aside>
+                </aside> -->
             </p>
         </introduction>
         <task>
@@ -69,6 +95,19 @@
                     If we mix 2 grams of gold with 2 grams of copper, what is the percentage of gold in the resulting alloy?
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <aside>
+                        <p>
+                            We need these parentheses because we want the 2 + 2 to happen <em>first</em> to figure out the total amount of alloy.
+                        </p>
+                    </aside>
+                    <md>
+                        2 \div (2 + 2) = 0.5 = 50\%
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -76,13 +115,21 @@
                     If instead we mix 2 grams of gold with 7 grams of copper, what is the percentage of gold in the resulting alloy?
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <md>
+                        2 \div (2 + 7) = 0.222222\ldots \approx 0.22 = 22\%
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
     </exercise>
 </page>
 
 <page>
     <exercise xml:id="sol-weight-change-order-operations">
-        <introduction>
+        <!-- <introduction>
             <p>
                 <em>
                     (Stories also appear in
@@ -90,13 +137,21 @@
                     <xref ref="weight-change-intercepts"/>)
                 </em>
             </p>
-        </introduction>
+        </introduction> -->
         <task>
             <statement>
                 <p>
                     Vanessa's doctor put her on a sensible diet and exercise plan to get her back to a healthy weight. She currently weighs 213 pounds. She will need to lose an average of 1.25 pounds a week to reach her goal weight in a year. What is her goal weight? Use 1 year = 52 weeks.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <md>
+                        213 - 1.25 \ast 52 = 148
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -104,10 +159,18 @@
                     Since she has been pregnant, Zoe has gained the recommended <m>\sfrac{1}{2}</m> pound per week. She weighed 153 at the start of her pregnancy. What does she weigh now at 30 weeks pregnant?
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <md>
+                        153 + 30 \ast \tfrac{1}{2} = 168
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
     </exercise>
     <exercise>
-        <introduction>
+        <!-- <introduction>
             <p>
                 <em>
                     (Stories also appear in
@@ -115,13 +178,21 @@
                     <xref ref="weight-change-intercepts"/>)
                 </em>
             </p>
-        </introduction>
+        </introduction> -->
         <task>
             <statement>
                 <p>
                     Jerome has gained weight since he took his power training to the next level ten weeks ago, at the rate of around 1 pound a week. He is now 198 pounds. What was his original weight?
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <md>
+                        198 - 1 \ast 10 = 188
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -129,6 +200,14 @@
                     After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week. What did Carlos weigh 6 weeks ago before the migraines started?
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <md>
+                        158 + 4\ast 6 = 176
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
     </exercise>
 </page>
