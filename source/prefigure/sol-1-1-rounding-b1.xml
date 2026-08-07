@@ -1,0 +1,20 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,50)" margins="5">
+  <definition>f(x)=2.5-x^2/2</definition>
+  <definition>a = 1</definition>
+  <coordinates bbox="(42.79,-1,42.91,1)">
+    <axes
+      axes="horizontal"
+      hticks="(42.8,0.01,42.9)"
+      hlabels="(42.8,0.1,42.9)"
+    />
+    <tick-mark 
+    location="42.812" 
+    stroke="blue" 
+    color="blue" 
+    size="5" 
+    scale="0.9" 
+    alignment="n">
+      <m>42.812</m>
+    </tick-mark>
+  </coordinates>
+</diagram>

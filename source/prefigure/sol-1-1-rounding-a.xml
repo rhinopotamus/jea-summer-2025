@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,50)" margins="5">
+  <coordinates bbox="(8.9,-1,10.1,1)">
+    <axes
+      axes="horizontal"
+      hticks="(9,0.1,10)"
+      hlabels="(9,1,10)"
+    />
+    <tick-mark 
+      location="9.388" 
+      stroke="blue" 
+      color="blue" 
+      size="5" 
+      scale="0.9" 
+      alignment="n">
+      <m>9.388</m>
+    </tick-mark>
+  </coordinates>
+</diagram>

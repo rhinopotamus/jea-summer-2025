@@ -30,12 +30,13 @@
 
             <appendix>
                 <title>Practice Final Exams</title>
-                <xi:include href="./practice-exams/ws-PE6A.ptx" />
-                <xi:include href="./practice-exams/ws-PE6B.ptx" />
+                <p> hi </p>
+                <!-- <xi:include href="./practice-exams/ws-PE6A.ptx" />
+                <xi:include href="./practice-exams/ws-PE6B.ptx" /> -->
             </appendix>
 
             <!-- templates and formulas -->
-            <xi:include href="./app-Formulas.ptx" />
+            <!-- <xi:include href="./app-Formulas.ptx" /> -->
 
             <!-- <colophon>
                 <p> This book was authored in <pretext />. </p>

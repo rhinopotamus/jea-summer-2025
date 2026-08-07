@@ -289,11 +289,19 @@
 					</p>
 				</statement>
 				<solution>
-					<p>
-						<m>\underline{9}.388 \approx \boxed{ 10 \text{ feet} }</m>
-					</p>
+					<sidebyside>
+						<p>
+							<m>\underline{9}.388 \approx \boxed{ 10 \text{ feet} }</m>
+						</p>
+						<image>
+							<prefigure xmlns="https://prefigure.org"
+								label="prefigure-sol-1-1-rounding-a">
+								<xi:include href="../prefigure/sol-1-1-rounding-a.xml" />
+							</prefigure>
+						</image>
+					</sidebyside>
 				</solution>
-				<!-- prefigure number line here! -->
+				
 			</task>
 			<task>
 				<statement>
@@ -304,15 +312,36 @@
 					</p>
 				</statement>
 				<solution>
+					<sidebyside>
+						<p>
+							<md>
+								\underline{42.8}12 \approx \boxed{42.8 \text{ mpg} }
+							</md>
+						</p>
+						<image>
+							<prefigure xmlns="https://prefigure.org"
+								label="prefigure-sol-1-1-rounding-b1">
+								<xi:include href="../prefigure/sol-1-1-rounding-b1.xml" />
+							</prefigure>
+						</image>
+					</sidebyside>
+					<sidebyside>
+						<p>
+							<md>
+								\underline{23.0}9 \approx \boxed{23.0 \text{ mpg} }
+							</md>
+						</p>
+						<image>
+							<prefigure xmlns="https://prefigure.org"
+								label="prefigure-sol-1-1-rounding-b2">
+								<xi:include href="../prefigure/sol-1-1-rounding-b2.xml" />
+							</prefigure>
+						</image>
+					</sidebyside>
 					<p>
-						<md>
-							<mrow>\underline{42.8}12 \amp \approx \boxed{42.8 \text{ mpg} }</mrow>
-							<mrow>\underline{23.0}9 \amp \approx \boxed{23.0 \text{ mpg} }</mrow>
-						</md>
 						(Yes, <m>23.09</m> is closer to <m>23.1</m> than it is to <m>23.0</m>, but notice that the instructions said to round <alert>down</alert>.)
 					</p>
 				</solution>
-				<!-- prefigure number line here! -->
 			</task>
 			<task>
 				<statement>
@@ -323,11 +352,19 @@
 					</p>
 				</statement>
 				<solution>
-					<p>
-						<md>
-							\$\underline{148{,}2}14.79 \approx \boxed{\$148{,}200}
-						</md>
-					</p>
+					<sidebyside>
+						<p>
+							<md>
+								\$\underline{148{,}2}14.79 \approx \boxed{\$148{,}200}
+							</md>
+						</p>
+						<image>
+							<prefigure xmlns="https://prefigure.org"
+								label="prefigure-sol-1-1-rounding-c">
+								<xi:include href="../prefigure/sol-1-1-rounding-c.xml" />
+							</prefigure>
+						</image>
+					</sidebyside>
 				</solution>
 			</task>
 			<task>
