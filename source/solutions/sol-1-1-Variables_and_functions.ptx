@@ -51,7 +51,7 @@
 					</tabular>
 				</solution>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Which variable is dependent and which is independent? Explain how you know.
@@ -252,7 +252,7 @@
 							</p>
 						</aside>
 						<md>
-							<mrow>\text{2 years: } \amp 7.2\% \text{ of } \fbox{\$889.76} = 0.072 \ast 889.76 \approx \$64.06 \text{ increase}</mrow>
+							<mrow>\text{2 years: } \amp 7.2\% \text{ of } \boxed{\$889.76} = 0.072 \ast 889.76 \approx \$64.06 \text{ increase}</mrow>
 							<mrow> \amp \Rightarrow \$889.76 + \$64.06 = \$953.82 \text{ per month in 2 years}</mrow>
 							<mrow>\text{3 years: } \amp 7.2\% \text{ of } \$953.82 = 0.072 \ast 953.82 \approx \$68.67 \text{ increase}</mrow>
 							<mrow> \amp \Rightarrow \$953.82 + \$68.67 = \$1{,}022.49 \text{ per month at 3 years}</mrow>
@@ -290,7 +290,7 @@
 				</statement>
 				<solution>
 					<p>
-						<m>\underline{9}.388 \approx \fbox{ 10 \text{ feet} }</m>
+						<m>\underline{9}.388 \approx \boxed{ 10 \text{ feet} }</m>
 					</p>
 				</solution>
 				<!-- prefigure number line here! -->
@@ -306,8 +306,8 @@
 				<solution>
 					<p>
 						<md>
-							<mrow>\underline{42.8}12 \amp \approx \fbox{42.8 \text{ mpg} }</mrow>
-							<mrow>\underline{23.0}9 \amp \approx \fbox{23.0 \text{ mpg} }</mrow>
+							<mrow>\underline{42.8}12 \amp \approx \boxed{42.8 \text{ mpg} }</mrow>
+							<mrow>\underline{23.0}9 \amp \approx \boxed{23.0 \text{ mpg} }</mrow>
 						</md>
 						(Yes, <m>23.09</m> is closer to <m>23.1</m> than it is to <m>23.0</m>, but notice that the instructions said to round <alert>down</alert>.)
 					</p>
@@ -325,7 +325,7 @@
 				<solution>
 					<p>
 						<md>
-							\$\underline{148{,}2}14.79 \approx \fbox{\$148{,}200}
+							\$\underline{148{,}2}14.79 \approx \boxed{\$148{,}200}
 						</md>
 					</p>
 				</solution>

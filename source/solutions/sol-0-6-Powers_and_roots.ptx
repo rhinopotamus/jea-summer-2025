@@ -6,7 +6,7 @@
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="sol-wooden-balls-powers-roots" workspace="1in">
+        <exercise xml:id="sol-wooden-balls-powers-roots">
             <introduction>
                 <p>
                     Jody is using small wooden balls to make noses for her knitted gnomes. 
@@ -33,7 +33,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="sol-pizza-diameter-powers-roots" workspace="1in">
+        <exercise xml:id="sol-pizza-diameter-powers-roots">
             <introduction>
                 <p>
                     The size of a round pizza is described by its diameter. 
@@ -62,7 +62,7 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="0in">
+            <task>
                 <statement>
                     <p>
                         An extra large pizza serves 6 people. It turns out the diameter of an extra large pizza is <m>\sqrt{384}</m>. Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.
@@ -73,7 +73,7 @@
     </page>
     
     <page>    
-        <exercise xml:id="sol-fiber-optic-powers-roots" workspace="3in"> 
+        <exercise xml:id="sol-fiber-optic-powers-roots"> 
             <statement>
                 <p>
                     A signal sent down a fiber optic cable decreases by 2% per mile. 
@@ -88,7 +88,7 @@
                 </p>
             </statement>
         </exercise>
-        <exercise xml:id="sol-investment-powers-roots" workspace="2in">
+        <exercise xml:id="sol-investment-powers-roots">
             <introduction>
                 <p>
                     Otis invested $500,000 and estimates his investment will double in value every 10 years.

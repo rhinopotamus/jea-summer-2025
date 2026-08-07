@@ -76,7 +76,7 @@
 					<alert>First, assume the value of the house increased exponentially.</alert>
 				</p>
 			</introduction>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Calculate the annual growth factor using the 
@@ -84,7 +84,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.25in">
+			<task>
 				<statement>
 					<p>
 						In this model, by what percentage did the house value increase each year? 
@@ -92,21 +92,21 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2.5in">
+			<task>
 				<statement>
 					<p>
 						Use the <xref ref="exp-eqn-template" text="title"/> to write an equation showing how the value of the house increased. Don't forget to name the variables, including units. 
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Check that your equation gives the correct sold value 40 years later.
 					</p>
 				</statement>
 			</task>
-			<task workspace="2.5in">
+			<task>
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -119,7 +119,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Using the same variables, write a linear equation showing how the value of the house increased. Use the <xref ref="linear-eq-template" text="title"/>.
@@ -146,28 +146,28 @@
 					<alert>First, assume the number of jobs decreased linearly.</alert>
 				</p>
 			</introduction>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Calculate the slope.
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Write a linear equation showing how the number of jobs declined.
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Check that your equation gives the correct value for 2010.
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						<alert>Next, assume the number of jobs decreased exponentially instead.</alert>
@@ -177,14 +177,14 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Write an exponential equation showing how the number of jobs declined. 
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.75in">
+			<task>
 				<statement>
 					<p>
 						Check that your equation gives the correct value for 2010.
@@ -257,7 +257,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-angry-birds-linear-exponential" workspace="2.5in">
+		<exercise xml:id="sol-angry-birds-linear-exponential">
 			<introduction>
 				<p>
 					In December 2010, a popular mobile app game featuring animated birds launched from slingshots had 50 million downloads. Five months later (May 2011), the game had 200 million downloads. Let <m>D</m> denote the number of downloads of the game (in millions) and <m>T</m> the time in months since December 2010.
@@ -277,7 +277,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Which of these two models do you think is more sensible, and why?
@@ -294,21 +294,21 @@
 					Bus fares are up to $2.25 per ride during rush hour. Two different plans of increasing fares are being debated: 10¢ per year or 2.5% per year.
 				</p>
 			</introduction>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
 						Which type of equation is being suggested in each plan? Write the equations. <em>Don't forget to name the variables, including units.</em>
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
 						Make a table comparing these plans over the next <term>decade</term> (ten years).
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.25in">
+			<task>
 				<statement>
 					<p>
 						Draw a graph showing both options.
@@ -316,7 +316,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="3.75in">
+			<task>
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -326,7 +326,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="4in">
+			<task>
 				<statement>
 					<p>
 						If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support? Why?

@@ -31,14 +31,14 @@
 					</me>
 				</p>
 			</introduction>
-			<!-- <task workspace="0.5cm">
+			<!-- <task>
 				<statement>
 					<p>
 						Confirm that a 16-inch pizza serves four people.
 					</p>
 				</statement>
 			</task> -->
-			<task workspace="1.5cm">
+			<task>
 				<statement>
 					<p>
 						Confirm that a 16-inch pizza serves four people. How many people does a 12-inch pizza serve? How about a 14-inch pizza?
@@ -93,7 +93,7 @@
 					<xi:include href="../name-variables.ptx" />
 				</statement>
 			</task>
-			<task workspace="1cm">
+			<task>
 				<statement>
 					<p>
 						Write an equation describing this function.
@@ -143,14 +143,14 @@
 					<me>P= 10S^9-9S^{10}</me>
 				</p>
 			</introduction>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Monty can buy orchids each with survival rate of <m>S=0.8</m>. Is that enough to give probability <m>P\ge 0.8</m> of a successful greenhouse?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						What quality of orchids would Monty need to have probability <m>P\ge 0.8</m> of a successful greenhouse? Report your answer accurate to two decimal places.
@@ -215,21 +215,21 @@
 					</row>
 				</tabular>
 			</introduction>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Which of these countries is projected to have the largest population in 2030? In 2040? In 2050?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
 						Explain why Bangladesh's population will not overtake Nigeria's, assuming these projections are accurate.
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Approximately when will Brazil's population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.

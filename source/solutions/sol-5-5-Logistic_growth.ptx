@@ -13,14 +13,14 @@
 					Corn farmers say that their crop is healthy if it is <q>knee high by the Fourth of July.</q> An equation modeling the height <m>H</m> (in inches) of the corn crop <m>T</m> days since May 1 is <me>H=106-100 \ast 0.989^{T}</me>
 				</p>
 			</introduction>
-			<task workspace="1cm">
+			<task>
 				<statement>
 					<p>
 						According to this equation, how high is corn projected to be on June 1 (day 31)?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1cm">
+			<task>
 				<statement>
 					<p>
 						According to this equation, how high is corn projected to be on the Fourth of July (day 64)? Is that <q>knee high</q> (18 inches tall)?
@@ -35,7 +35,7 @@
 					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
-			<task workspace="1cm">
+			<task>
 				<statement>
 					<p>
 						The corn matures in 110 days. How tall will it be then?
@@ -54,7 +54,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-corn-growth-logistic" workspace="1in">
+		<exercise xml:id="sol-corn-growth-logistic">
 			<introduction>
 				<p>
 					An alternative equation for corn height is <me>H = \frac{200}{1+70\ast0.965^T}</me>
@@ -74,7 +74,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						According to this new equation, on <em>approximately</em> what date is the corn projected to be <q>chest high</q> (52 inches tall)? Use successive approximation to answer.
@@ -89,7 +89,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Add the graph of this function to your graph of the original equation on the previous problem. Again, include when <m>T=0</m>.
@@ -100,13 +100,13 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-fish-pond-logistic" workspace="1in">
+		<exercise xml:id="sol-fish-pond-logistic">
 			<introduction>
 				<p>
 					Back in 1975 when my aunt and uncle bought their house in upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish <m>F</m> increased over time, approximately according to the equation <me>F=\frac{1{,}000}{1+99 \ast 0.65^T}</me> where <m>T</m> is time measured in years since 1975.
 				</p>
 			</introduction>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
 						Make a table showing the fish population in 1975, 1990, 2000, and 2013.
@@ -139,7 +139,7 @@
 					Jason works at a costume shop selling Halloween costumes. The shop is busiest during the fall before Halloween. An equation that describes the number of daily visitors <m>V</m> the shop receives <m>T</m> days from August 31 is the following: <me>V=\frac{430}{1+701\ast 0.81^T}</me> An alternative equation is <me>V = 700 - 690 \ast 0.985^T</me>
 				</p>
 			</introduction>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
 						<p>
@@ -160,7 +160,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
 						Which function is more consistent with a major advertising campaign during the second week of September? Explain.

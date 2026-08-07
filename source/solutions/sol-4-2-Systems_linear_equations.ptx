@@ -7,7 +7,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<exercise xml:id="sol-car-comparison-systems-linear" workspace="2.25cm">
+		<exercise xml:id="sol-car-comparison-systems-linear">
 			<introduction>
 				<p>
 					Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.
@@ -48,7 +48,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Based on what you have learned, fill in the blank: 								
@@ -90,7 +90,7 @@
 					</md>
 				</p>
 			</introduction>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Compare the total costs for all three options.
@@ -135,7 +135,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="0.5cm">
+			<task>
 				<statement>
 					<p>
 						Which option is least expensive if Juan plans to buy
@@ -163,7 +163,7 @@
 					</ul></p>
 				</statement>
 			</task>
-			<task workspace="2.5in">
+			<task>
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -173,14 +173,14 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2.5in">
+			<task>
 				<statement>
 					<p>
 						Set up and solve a system of linear equation to compare the total cost with the card to the total cost with the membership.
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Describe in words what you have learned.
@@ -253,14 +253,14 @@
 					</tabular>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						<em>Approximately</em> when will the shrubs be the same height? Continue successive approximation to find the answer to the nearest week.
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Set up and solve an equation to find <em>exactly</em> the day when the two shrubs are the same height. In what month does that happen?
@@ -291,14 +291,14 @@
 					The <term>equilibrium price</term> of flour is the price where the supply equals the demand.
 				</p>
 			</introduction>
-			<task workspace="2cm">
+			<task>
 				<statement>
 					<p>
 						What happens if flour is priced at $1.00/pound? That is, how much flour will be produced and how much will consumers demand?
 					</p>
 				</statement>
 			</task>
-			<task workspace="2cm">
+			<task>
 				<statement>
 					<p>
 						What happens if flour is priced at $0.50/pound? That is, how much flour will be produced and how much will consumers demand?
@@ -313,7 +313,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="2.75in">
+			<task>
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -323,14 +323,14 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2.25in">
+			<task>
 				<statement>
 					<p>
 						When more of a product is produced than consumers want to buy, we have a <term>surplus</term> of the product. Solve an inequality to find the range of price values for which there will be a surplus of flour. Compare your answer to part (d).
 					</p>
 				</statement>
 			</task>
-			<task workspace="2.25in">
+			<task>
 				<statement>
 					<p>
 						When less of a product is produced than consumers want to buy, we have a <term>shortage</term> of the product. Solve an inequality to find the range of price values for which there will be a shortage of flour. Compare your answer to parts (d) and (e).

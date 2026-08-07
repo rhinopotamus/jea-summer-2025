@@ -42,7 +42,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-grandfather-bonds-growth-factor" workspace="2.25cm">
+		<exercise xml:id="sol-grandfather-bonds-growth-factor">
 			<introduction>
 				<p>
 					In 1962, my grandfather had savings bonds that matured to $200.
@@ -132,7 +132,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="3in">
+			<task>
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -142,7 +142,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Draw a graph using the data in the table, but not your answer to part (g). Include another year that is later than your answer to part (g).
@@ -150,7 +150,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Does your answer to part (g) agree with your graph? If not, fix your work.
@@ -161,7 +161,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-carbon-14-growth-factor" workspace="1.25in">
+		<exercise xml:id="sol-carbon-14-growth-factor">
 			<introduction>
 				<p>
 					Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. 
@@ -196,14 +196,14 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
 						How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the <q>scientific notation</q> answer your calculator gives you.
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>
@@ -214,14 +214,14 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="0.5in">
+			<task>
 				<statement>
 					<p>
 						If the bone is determined to have 100 milligrams of carbon-14, <em>approximately</em> how long ago did it die? Start by <em>estimating</em> the answer from your graph.
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Now use successive approximation to revise your estimate.
@@ -240,7 +240,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-find-growth-factor" workspace="2.75cm">
+		<exercise xml:id="sol-find-growth-factor">
 			<introduction>
 				<p>
 					For each story, find the annual growth factor <m>g</m> and annual growth rate <m>r</m> as a percent.
@@ -322,7 +322,7 @@
 					</sidebyside>
 				</statement>
 			</task>
-			<task workspace="1cm"> <!-- inelegant but whatever -->
+			<task>
 				<statement>
 					<p>
 						The new stop sign has decreased accidents exponentially, from 40 in 2008 to 17 in 2013.
@@ -421,7 +421,7 @@
 					</sidebyside>
 				</statement>
 			</task>
-			<task workspace="1cm">
+			<task>
 				<statement>
 					<p>
 						The number of high school students arrested for driving under the influence is half what it was 5 years ago. Assume the number is falling exponentially.
@@ -449,7 +449,7 @@
 	</page>
 	
 	<page>
-		<exercise workspace="2in">
+		<exercise>
 			<introduction>
 				<p>
 					For each equation, find the growth rate and state its units. For example, something might <q>grow 2% per year</q> while something else might <q>drop 7% per hour</q>.

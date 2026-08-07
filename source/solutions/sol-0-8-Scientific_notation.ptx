@@ -6,7 +6,7 @@
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise workspace="0.8in">
+        <exercise>
             <introduction>
                 <p>
                     In each story, write out the highlighted numbers (with all the zeros).
@@ -45,7 +45,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise workspace="0.8in">
+        <exercise>
             <introduction>
                 <p>
                     In each story, write out the highlighted numbers (with all the zeros).
@@ -89,7 +89,7 @@
     </page>
     
     <page>
-        <exercise workspace="2cm">
+        <exercise>
             <introduction>
                 <p>
                     In each story, evaluate the number and report your answer in scientific notation.
@@ -126,7 +126,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise workspace="2cm">
+        <exercise>
             <introduction>
                 <p>
                     In each story, write out the highlighted number (with all the 0s). Note that <term>million</term> is short for <m>\times 10^6</m>, <term>billion</term> is short for <m>\times 10^9</m>, and <term>trillion</term> is short for <m>\times 10^{12}</m>.

@@ -20,7 +20,7 @@
 		</introduction>
 	</page>
 	<page>
-		<exercise xml:id="sol-bac-solving-exponential" workspace="2in">
+		<exercise xml:id="sol-bac-solving-exponential">
 			<introduction>
 				<p>
 					After his first beer,
@@ -53,7 +53,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Hopefully Stephen will stop drinking before he reaches a BAC of 0.20. If not, at the rate he is drinking, when would that be? Set up and solve an equation. Answer to the nearest minute.
@@ -76,7 +76,7 @@
 					The chlorine concentration decreases as the pool is used according to the equation <me>C = 2.5 \ast 0.975^T</me> where <m>C</m> is the chlorine concentration in parts per million (ppm) and <m>T</m> is the time in hours since the concentration was first measured.
 				</p>
 			</introduction>
-			<task workspace="1.75in">
+			<task>
 				<statement>
 					<p>
 						Make a table showing the chlorine concentration initially and after the swimming pool is used for 3 hours, 10 hours, 24 hours, and 48 hours.
@@ -91,7 +91,7 @@
 					<xi:include href="../GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task>
 				<statement>
 					<p>
 						Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, <em>approximately</em> when will that happen? <em>Give a reasonable estimate.</em>
@@ -109,21 +109,21 @@
 					<xi:include href="../successive-approx.ptx" />
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Set up and solve an equation to find <em>exactly</em> when the chlorine concentration falls below 1.5 ppm.
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Solve the equation to find when the chlorine concentration would fall below 0.1 ppm (essentially no chlorine) assuming no chlorine was added earlier. Show how to solve the equation to find the answer (and check it!).
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Report your answer to the nearest day.
@@ -134,7 +134,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-riverside-rent-solving-exponential" workspace="1.5in">
+		<exercise xml:id="sol-riverside-rent-solving-exponential">
 			<introduction>
 				<p>
 					Rent in the Riverside Neighborhood is expected to increase 7.2% each year. 
@@ -146,21 +146,21 @@
 					Average rent for an apartment is currently $830 per month. Earlier we identified the variables as <m>R</m> for the monthly rent (in $) and <m>T</m> for time in years. 
 				</p>
 			</introduction>
-			<task workspace="0.75in">
+			<task>
 				<statement>
 					<p>
 						Find the annual growth factor.
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.75in">
+			<task>
 				<statement>
 					<p>
 						Write an equation showing how rent is expected to change.
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Use successive approximation to determine <em>approximately</em> when rent will pass $1,000/month. Display your work in a table. Round to the appropriate year.
@@ -186,7 +186,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-mortgage-payoff-solving-exponential" workspace="2in">
+		<exercise xml:id="sol-mortgage-payoff-solving-exponential">
 			<introduction>
 				<p>
 					Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. 

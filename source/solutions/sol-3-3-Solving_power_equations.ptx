@@ -19,7 +19,7 @@
 	</page>
 
 	<page>
-		<exercise xml:id="sol-pizza-diameter-solving-power" workspace="3in">
+		<exercise xml:id="sol-pizza-diameter-solving-power">
 			<introduction>
 				<p>
 					<aside>
@@ -51,7 +51,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-weight-cube-solving-power" workspace="1.25in">
+		<exercise xml:id="sol-weight-cube-solving-power">
 			<introduction>
 				<p>
 					The weight of a wood cube is a function of the length of the sides. A cube with sides each <m>E</m> inches long has weight <m>W</m> ounces according to the equation<me>W = 0.76\, E^3.</me>
@@ -64,7 +64,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0in">
+			<task>
 				<statement>
 					<p>
 						Draw a graph showing how the weight depends on the side length. Include <m>E=0</m>.
@@ -79,7 +79,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="0.5in">
+			<task>
 				<statement>
 					<p>
 						Repeat for 1 pound (that is 16 ounces).
@@ -90,7 +90,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-fuel-350-solving-power" workspace="3in">
+		<exercise xml:id="sol-fuel-350-solving-power">
 			<introduction>
 				<p>
 					Suppose a car gas tank is designed to hold enough fuel to drive 350 miles. 
@@ -123,7 +123,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-effective-return-solving-power" workspace="2.5in">
+		<exercise xml:id="sol-effective-return-solving-power">
 			<introduction>
 				<p>
 					Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the <term>effective return</term> (equivalent annual percent increase) on his investment might be for various prices. If $<m>J</m> is the current value of the jersey and <m>g</m> is the annual growth factor, then <me>J=150\, g^{12}</me> For each part, first solve for <m>g</m> using the <xref ref="root-formula" text="title"/>, then calculate <m>r=g-1</m>. The effective return is <m>r</m> written as a percentage.
@@ -143,7 +143,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.75in">
+			<task>
 				<statement>
 					<p>
 						Find the effective return if the current value is $400.

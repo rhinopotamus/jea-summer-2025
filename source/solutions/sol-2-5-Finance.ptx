@@ -117,7 +117,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-kiran-finance" workspace="1.5in">
+		<exercise xml:id="sol-kiran-finance">
 			<introduction>
 				<p>
 					Use the indicated formulas to help Kiran figure out her finances.
@@ -161,14 +161,14 @@
 					Tim and Josh are saving for their kids' college in fifteen years. The account pays the equivalent of 5.4% interest compounded monthly (taking into consideration various tax incentives).
 				</p>
 			</introduction>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Make a table comparing how much they will have after fifteen years if they contribute $100 per month vs. $500 per month vs. $1,000 per month. Use the <xref ref="future-value-annuity-formula" text="title"/>.
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.25in">
+			<task>
 				<statement>
 					<p>
 						Tim's parents decide to put $15,000 into the account now. How much will that deposit be worth in fifteen years? Use the <xref ref="compound-interest-formula" text="title"/>.
@@ -176,7 +176,7 @@
 				</statement>
 			</task>
 		</exercise>
-		<exercise xml:id="sol-equivalent-apr-finance" workspace="0.75in">
+		<exercise xml:id="sol-equivalent-apr-finance">
 			<introduction>
 				<p>
 					Use the <xref ref="equivalent-apr-formula" text="title"/> to find the APR for each of the following published interest rates (compounded monthly) offered by recent credit card companies.
@@ -207,7 +207,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="sol-house-payment-finance" workspace="1.5in">
+		<exercise xml:id="sol-house-payment-finance">
 			<introduction>
 				<p>
 					Cesar and Eliana are looking at three different houses to buy. The first is a large new townhouse priced at $240,000. The second is a small but charming bungalow priced at $260,000. The third is a large 2-story house down the block priced at $280,000.
@@ -237,7 +237,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						At this interest rate, if the house price goes up by $20,000, what happens to Cesar and Eliana's monthly payment?

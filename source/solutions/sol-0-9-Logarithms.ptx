@@ -6,7 +6,7 @@
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="sol-bacteria-logarithms" workspace="0.75in">
+        <exercise xml:id="sol-bacteria-logarithms">
             <introduction>
                 <p>
                     The number of bacteria in a dish increases 10-fold each day. Note: 10-fold means <m>\times 10</m>. Suppose we had 1 microliter of bacteria at the start of the first day. That means after <m>T</m> days there will be <m>10^T</m> microliters of bacteria.
@@ -34,7 +34,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise workspace="0.75in">
+        <exercise>
             <introduction>
                 <p>
                     The problem continues <ellipsis />
@@ -65,7 +65,7 @@
     </page>
     
     <page>
-        <exercise xml:id="sol-pH-logarithms" workspace="0.55in">
+        <exercise xml:id="sol-pH-logarithms">
             <introduction>
                 <p>
                     The equation <m>pH = -\log(H^+)</m> tells us the pH of a substance (on a scale from 0 to 14) based on its molar hydrogen ion concentration <m>H^+</m>. Don't let the notation here scare you: <m>pH</m> is a single quantity and <m>H^+</m> has nothing to do with exponents or adding.
@@ -104,7 +104,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="sol-astra-rent-logarithms" workspace="0.75in">
+        <exercise xml:id="sol-astra-rent-logarithms">
             <introduction>
                 <p>
                     In Minneapolis, apartment rent is expected to increase by 16% next year. 

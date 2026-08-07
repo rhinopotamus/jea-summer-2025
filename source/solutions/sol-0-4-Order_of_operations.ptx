@@ -10,8 +10,8 @@
     </introduction>
 
 <page>
-    <exercise xml:id="sol-juan-coffee-order-operations" workspace="1in">
-        <introduction>
+    <exercise xml:id="sol-juan-coffee-order-operations">
+        <!-- <introduction>
             <p> 
                 <em>
                     (Story also appears in 
@@ -20,7 +20,7 @@
                     <xref ref="juan-coffee-systems-linear"/>)
                 </em>
             </p>
-        </introduction>
+        </introduction> -->
         <task>
             <statement>
                 <p>
@@ -43,7 +43,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="sol-rose-gold-order-operations" workspace="1in">
+    <exercise xml:id="sol-rose-gold-order-operations">
         <introduction>
             <p>
                 <q>Rose gold</q> is a mix of gold and copper.
@@ -70,7 +70,7 @@
                 </p>
             </statement>
         </task>
-        <task workspace="0in">
+        <task>
             <statement>
                 <p>
                     If instead we mix 2 grams of gold with 7 grams of copper, what is the percentage of gold in the resulting alloy?
@@ -81,7 +81,7 @@
 </page>
 
 <page>
-    <exercise xml:id="sol-weight-change-order-operations" workspace="1.5in">
+    <exercise xml:id="sol-weight-change-order-operations">
         <introduction>
             <p>
                 <em>
@@ -106,7 +106,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1.5in"> <!-- no id bc they're a continuation of same stories -->
+    <exercise>
         <introduction>
             <p>
                 <em>
@@ -123,7 +123,7 @@
                 </p>
             </statement>
         </task>
-        <task workspace="1.25in">
+        <task>
             <statement>
                 <p>
                     After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week. What did Carlos weigh 6 weeks ago before the migraines started?
