@@ -12,15 +12,15 @@
     </introduction>
 
     <page>
-        <exercise xml:id="sol-world-population-percentages" workspace="1.25in">
+        <exercise xml:id="sol-world-population-percentages">
             <introduction>
                 <p>
                     As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). 
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Story also appears in <xref ref="world-population-percentages"/>)
                         </p>
-                    </aside>
+                    </aside> -->
                     It changes by the second, so let's use the round figure of 8,100,000,000.
                 </p>
             </introduction>
@@ -30,6 +30,15 @@
                         I read that the population of Brazil accounts for 2.69% of the world's population. According to that report, what is the population of Brazil? Round your answer to the nearest million.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        2.69% = 0.0269, so we can calculate
+                        <md>
+                            0.0269 \ast 8{,}100{,}000{,}000 = 217{,}890{,}000 \approx 218\ \text{million}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -37,19 +46,27 @@
                         If the population of the United States is currently around 334,000,000, what percentage of the world's population is in the United States?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            \frac{334{,}000{,}000}{8{,}100{,}000{,}000} = 0.04123456\ldots \approx 0.0412 = 4.12\%
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
-        <exercise xml:id="sol-astra-rent-percentages" workspace="1.25in">
+        <exercise xml:id="sol-astra-rent-percentages">
             <introduction>
                 <p>
                     In Minneapolis,
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Story also appears in 
                             <xref ref="astra-rent-algebraic-notation" /> and 
                             <xref ref="astra-rent-logarithms" />)
                         </p>
-                    </aside>
+                    </aside> -->
                     apartment rent is expected to increase by 16% next year. 
                 </p>
             </introduction>
@@ -59,19 +76,45 @@
                         Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16% what would their new rent be?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        First let's calculate the percent:
+                        <md>
+                            0.16 \ast \$825 = \$132
+                        </md>
+                        And now we'll add this to the original amount:
+                        <md>
+                            \$825 + \$132 = \$957
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
-            <task workspace="0in">
+            <task>
                 <statement>
                     <p>
                         Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. What would their new rent be?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Same steps: first let's calculate the percent:
+                        <md>
+                            0.03 \ast \$825 = \$24.75
+                        </md>
+                        And now we'll add this to the original amount:
+                        <md>
+                            \$825 + \$24.75 = \$849.75
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>
     
     <page>    
-        <exercise xml:id="sol-intersection-percentages" workspace="1.25in">
+        <exercise xml:id="sol-intersection-percentages">
             <introduction>
                 <p>
                     The intersection by my house is dangerous. One year there were 14 accidents there. The neighbors got together and petitioned to have 4-way stop signs installed.
@@ -83,6 +126,19 @@
                         The city estimated that the installed stop signs would reduce accidents at least 40%. If that happens, how many accidents would we expect the next year?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        First let's calculate the percent:
+                        <md>
+                            0.40 \ast 14 = 5.6
+                        </md>
+                        And now we'll subtract this from the original amount:
+                        <md>
+                            14 - 5.6 = 8.4
+                        </md>
+                        There's no such thing as 0.4 of an accident, so let's round. I think it makes the most sense to round up to 9 expected accidents.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -90,6 +146,16 @@
                         The national average shows that the new signs could reduce accidents up to 62%. If that happens instead, how many accidents would we expect the next year?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Same steps:
+                        <md>
+                            <mrow>0.62 \ast 14 \amp=  8.68</mrow>
+                            <mrow>14 - 8.68 \amp= 5.32</mrow>
+                        </md>
+                        Maybe this could round to 5 or 6 expected accidents.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -97,17 +163,26 @@
                         If there were 6 accidents the next year, is that in the range you figured out? What percent decrease does that correspond to?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        This is pretty close to what we calculated in (b)! 6 accidents represents a decrease of 8 accidents from the previous number, so we should find out what percent of 14 is this decrease of 8:
+                        <md>
+                            \frac{8}{14} = 0.57142857\ldots \approx 0.57 = 57\%
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
-        <exercise xml:id="sol-savings-interest-percentages" workspace="1.25in">
+        <exercise xml:id="sol-savings-interest-percentages">
             <introduction>
                 <p>
                     My savings account earns a modest amount of interest, the equivalent of 0.75% annually. 
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Story also appears in <xref ref="savings-interest-first-look-exponential" />)
                         </p>
-                    </aside>
+                    </aside> -->
                     I have $12,392.18 in the account now. 
                 </p>
             </introduction>
@@ -117,13 +192,31 @@
                         How much interest will I earn this year?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        0.75% in decimal is 0.0075, so:
+                        <md>
+                            0.0075 \ast \$12{,}392.18 = 92.94135 \approx \$92.94
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
-            <task workspace="1in">
+            <task>
                 <statement>
                     <p>
                         How much will my account balance be at the end of the year?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        We should add the interest to the original account balance:
+                        <md>
+                            \$92.94 + \$12{,}392.18 = \$12{,}485.12
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>

@@ -5,15 +5,15 @@
     <xi:include href="ex-intro.ptx" />
 
     <page>
-        <exercise xml:id="sol-up-down-off-approx-round" workspace="2in">
+        <exercise xml:id="sol-up-down-off-approx-round">
             <introduction>
                 <p>
                     Round each number up, down, or off to the precision indicated. 
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Stories also appear in <xref ref="rounding-variables-functions" />)
                         </p>
-                    </aside>
+                    </aside> -->
                 </p>
             </introduction>
             <task>
@@ -22,6 +22,11 @@
                         My calculations show I need a cross brace around 9.388 feet long. I want the board to be long enough, so round up to the nearest foot.
                     </p>
                 </statement>
+                <solution>
+					<p>
+						<m>\underline{9}.388 \approx \boxed{ 10 \text{ feet} }</m>
+					</p>
+				</solution>
             </task>
             <task>
                 <statement>
@@ -29,6 +34,15 @@
                         Gas mileage is usually rounded down to the nearest one decimal place. What is the gas mileage for a car measured as getting 42.812 miles per gallon? What about a car getting 23.09 miles per gallon?
                     </p>
                 </statement>
+                <solution>
+					<p>
+						<md>
+							<mrow>\underline{42.8}12 \amp \approx \boxed{42.8 \text{ mpg} }</mrow>
+							<mrow>\underline{23.0}9 \amp \approx \boxed{23.0 \text{ mpg} }</mrow>
+						</md>
+						(Yes, <m>23.09</m> is closer to <m>23.1</m> than it is to <m>23.0</m>, but notice that the instructions said to round <alert>down</alert>.)
+					</p>
+				</solution>
             </task>
             <task>
                 <statement>
@@ -36,12 +50,26 @@
                         The population estimate was 4.2 million people, but revised estimates suggest 4,908,229 people. Report the revised estimate rounded appropriately. What if a different estimate was 4,890,225? Would that change your answer?
                     </p>
                 </statement>
+                <solution>
+					<p>
+						Our rounded value should agree in precision with 4.2, so we'll round to the nearest one decimal place.
+						<md>
+							<mrow>  4 \amp {,} 908 {,} 229 \text{ people} </mrow>
+							<mrow>= 4 \amp {.} 908 \phantom{,} 229 \text{ million people} </mrow>
+							<mrow> \approx 4 \amp .9 \text{ million people}</mrow>
+						</md>
+						
+					</p>
+                    <p>
+                        If a different estimate was 4,890,225, this would still round to 4.9 million people.
+                    </p>
+				</solution>
             </task>
         </exercise>
     </page>
     
     <page>
-        <exercise xml:id="sol-depends-appprox-rounding" workspace="1.5in">
+        <exercise xml:id="sol-depends-appprox-rounding">
             <introduction>
                 <p>
                     The answer to the question <q>should we round up, down, or off?</q> is usually <q>it depends!</q>
@@ -53,6 +81,14 @@
                         Callista needs $117 cash for a mani-pedi at the local salon. The ATM allows her to withdraw multiples of $20. How much money should she withdraw and how many $20 bills is that? Did you round up, down, or off?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        First the math: <m>\$117 \div \$20 = 5.85</m>. So, technically, Callista needs 5.85 $20 bills. But that answer doesn't make sense.
+                    </p>
+                    <p>
+                        Here we should round <em>up</em>: Callista needs six $20 bills, for a total of $120. Rounding down would leave her with only $100, not enough to pay for the mani-pedi.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -60,6 +96,11 @@
                         Bahari is buying some 8-packs of sparkling water for today's community hour. He expects up to 23 people to be there. He calculates that he will need <m>23 \div 8 = 2.875</m> 8-packs. How many 8-packs should he bring? Did you round up, down, or off?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Here we should round <em>up</em>: if Bahari only buys two 8-packs, he will only have 16 sparkling waters. If he buys 3, he will have 24, which is enough for everybody to have one.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -67,6 +108,11 @@
                         Tzuf has $20 to buy apples for the new year's celebration. A bag of apples costs $3.49. Tsuf calculates that they can afford <m>20 \div 3.49 = 5.7306\ldots</m> bags. How many bags can they buy? Did you round up, down, or off?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Tzuf should round <em>down</em> to 5. If they buy 5 bags of apples, they'll spend a total of $17.45; if they rounded up and tried to buy 6 bags of apples, it would instead cost $20.94 <mdash/> just out of their budget.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -74,12 +120,17 @@
                         Eiji read that life expectancy in the United States is 77.28 years whereas in Japan it is 84.62 years. How might he describe these life expectancies in (whole) years? Did you round up, down, or off?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Here rounding <em>off</em> is the best approach: in the United States, life expetancy is about 77 years, and in Japan, it is about 85 years.
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>
     
     <page>
-        <exercise xml:id="sol-round-calculated-approx-rounding" workspace="1.75in">
+        <exercise xml:id="sol-round-calculated-approx-rounding">
             <introduction>
                 <p>
                     Round off the <alert>calculated numbers</alert> to give an answer that is reasonable and no more precise than the information given.
@@ -91,6 +142,20 @@
                         The snow removal budget for the city is currently at $8.3 million but the city council is requesting a reduction of $1.15 million per year. We calculate that after three years of cuts, the snow removal budget will be <m>\mathbf{\$4.8079\ldots}</m>  million.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        In the story, $8.3 million has two digits that matter, and $1.15 million has three digits that matter. We should probably round off so that our answer has two digits that matter:
+                        <aside>
+                            <p>
+                                Here it is probably also reasonable to round off to three digits that matter and report $4.81 million.
+                            </p>
+                        </aside>
+                        <md>
+                            \$\underline{4.8}079\ \text{million} \approx \$4.8\ \text{million}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -98,6 +163,24 @@
                         A cup of cooked red lentils has around 190 calories and 6.4 grams of dietary fiber, while a cup of cooked chickpeas has around 172 calories and 12.0 grams of dietary fiber. We calculate that lentils provide <m>\mathbf{0.03368421\ldots}</m> grams per calorie whereas chickpeas provide <m>\mathbf{0.06976744\ldots}</m> grams per calorie.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The information about red lentils has two digits that matter, so let's round off so that our answer has two digits that matter:
+                        <aside>
+                            <p>
+                                Remember that leading zeroes don't count toward digits that matter.
+                            </p>
+                        </aside>
+                        <md>
+                            0.0\underline{33}68421\ldots \approx 0.034\ \text{grams per calorie}
+                        </md>
+                        The information about chickpeas has three digits that matter, so let's round similarly:
+                        <md>
+                            0.0\underline{697}6744\ldots  \approx 0.0698\ \text{grams per calorie}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -108,12 +191,21 @@
                         In 2000 the population of Hibbing, Minnesota was reported at just over 17,000 residents. Based on a projected 0.4% decrease per year, the 2010 population was calculated to be <m>\mathbf{16{,}332.110\ldots}</m> people.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The original population was reported with two digits that matter, so let's round so that we still have two digits that matter:
+                        <md>
+                            \underline{16}{,}332.110\ldots \approx 16{,}000\ \text{people}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>
     
     <page>
-        <exercise xml:id="sol-round-compare-approx-rounding" workspace="2.75in">
+        <exercise xml:id="sol-round-compare-approx-rounding">
             <introduction>
                 <p>
                     It is easiest to compare the size of decimal numbers when they are written the same precision. For example, $1.7 million is more money than $1.34 million because when we write both numbers to two decimal places we see <me>1.7 = 1.70 &gt; 1.34</me> The symbol <m>&gt;</m> means <q>greater than;</q> it points to the smaller number. Alternatively, when we expand both numbers we see <me>1{,}700{,}000  &gt; 1{,}340{,}000</me>
@@ -126,6 +218,11 @@
                         Dawn tested a water sample from her apartment and found 21.19 ppm of sulfate. She volunteers at a local soup kitchen where the water sample tested at 21.3 ppm. (The abbreviation <term>ppm</term> stands for <q>parts per million</q>. Not to worry - sulfate levels below 250 are considered safe for human consumption.)
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <m>21.30 \gt 21.19</m>, so the water at the soup kitchen has a little more sulfate than her apartment.
+                    </p>
+                </solution>
             </task>
             <task xml:id="currency-approx-rounding">
                 <statement>
@@ -133,6 +230,14 @@
                         There are approximately 1.084 million quarters in circulation in the United States, compared to 1.786 million dimes, 1.6 million $5 bills, and 1.42 million $10 bills.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            1.786 \gt 1.600 \gt 1.420 \gt 1.084
+                        </md>
+                        So dimes are the most common, then $5 bills, then $10 bills, and finally quarters.
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>
@@ -230,11 +335,11 @@
         <introduction>
             <p>
                 Body Mass Index (or BMI for short) is one indicator of whether a person is a healthy weight. 
-                <aside>
+                <!-- <aside>
                     <p>
                         (Story also appears in <xref ref="bmi-scientific-notation"/>)
                     </p>
-                </aside>
+                </aside> -->
                 BMI between 18.5 and 24.9 are considered <q>normal</q>. Jarron is 6 foot 4 inches tall, which he calculated is approximately 1.93 meters. He weighs 202 pounds, which he calculated was approximately 91.625 kilograms. He would like to calculate his BMI directly using the formula he found online.
             </p>
         </introduction>    
@@ -320,11 +425,11 @@
         <introduction>
             <p>
                 Souksavanh is trying adjust a patient's medication to deliver 15 <m>\mu</m>g/min. 
-                <aside>
+                <!-- <aside>
                     <p>
                         (Story also appears in <xref ref="iv-drip-scientific-notation"/>)
                     </p>
-                </aside>
+                </aside> -->
                 If she runs the drip at 9.1 mL/hour, medication will be delivered at 14.76 <m>\mu</m>g/min which is too low. If she runs the drip at 9.3 mL/hour, medication will be delivered at 15.09 <m>\mu</m>g/min which is too high.
             </p>
         </introduction>    

@@ -12,7 +12,7 @@
     </introduction> 
 
     <page>
-        <exercise xml:id="sol-cucumbers-arithmetic-operations" workspace="1in">
+        <exercise xml:id="sol-cucumbers-arithmetic-operations">
             <statement>
                 <p>
                     Tensia loves to garden but can't quite keep up with how many cucumbers are growing.
@@ -55,8 +55,16 @@
                     How many cucumbers does she have left over?
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <md>
+                        8 - 3 + 7 - 4 - 2 = \boxed{10\ \text{cucumbers}}
+                    </md>
+                    
+                </p>
+            </solution>
         </exercise>
-        <exercise xml:id="sol-late-rent-arithmetic-operations" workspace="1.5in">
+        <exercise xml:id="sol-late-rent-arithmetic-operations">
             <introduction>
                 <p>
                     Brent's landlord charges $15 per day for late rent.
@@ -68,6 +76,14 @@
                         What will Brent's late fee be if he is 6 days late paying his rent?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            6\ \text{days} \ast \frac{\$15}{\text{day}} =\boxed{ \$90}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -75,12 +91,21 @@
                         If Brent got a bill showing $195 in late fees, how many days late did he pay his rent?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        If we divide the total late fee by the $15 per day that the landlord charges, we can find out how many days he was late:
+                        <md>
+                            195 \div 15 = \boxed{13\ \text{days}}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
     </page>
     
     <page>
-        <exercise xml:id="sol-students-arithmetic-operations" workspace="0.5in">
+        <exercise xml:id="sol-students-arithmetic-operations">
             <introduction>
                 <p>
                     There are 2,624 students at a local university.
@@ -92,6 +117,14 @@
                         About <m>\sfrac{3}{4}</m> of those students live on or within a mile of campus. How many students live on or within a mile of campus?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            \frac34 \ast 2{,}624 = \boxed{1{,}968\ \text{students}}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -99,6 +132,21 @@
                         The university wants to support 40 hours a week of onsite tutoring (in math, writing, etc.) for each the 32 weeks that classes are in session. It costs about $18/hour to pay the tutors and the staff. What is the total cost of tutoring?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Each week, the university spends
+                        <md>\frac{\$18}{\text{hour}} \ast \frac{40\ \text{hours}}{\text{week}} = \frac{\$720}{\text{week}}</md>
+                        The university does this for 32 weeks, for a total of
+                        <md>
+                            \frac{\$720}{\text{week}} \ast 32\ \text{weeks} = \$23{,}040
+                        </md>
+                        Want to see that all in one calculation?
+                        <md>
+                            18 \ast 40 \ast 32 = \$23{,}040
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -106,20 +154,29 @@
                         The university is considering charging students a tutoring fee. If they wanted to cover the total cost of tutoring, what would the cost per student be?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        We should take the total cost of tutoring and divide by the total number of students:
+                        <md>
+                            \$23{,}040 \div 2{,}624\ \text{students} = 8.7804878\ldots \approx \$8.78\ \text{per student}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </exercise>
-        <exercise xml:id="sol-truck-grass-arithmetic-operations" workspace="0.5in">
+        <exercise xml:id="sol-truck-grass-arithmetic-operations">
             <introduction>
                 <p>
                     A truck hauling grass seed weighs 3,900 pounds when it is empty. 
-                    <aside>
+                    <!-- <aside>
                         <p>
                             (Story also appears in 
                             <xref ref="truck-grass-first-look-linear" />, 
                             <xref ref="truck-grass-solving-linear" />, and 
                             <xref ref="truck-grass-linear-ineq" />)
                         </p>
-                    </aside>
+                    </aside> -->
                     Each bag of seed it carries weighs 4.2 pounds. The <term>gross weight</term> of the truck is the total weight including the truck and the bags of seed. 
                 </p>
             </introduction>
@@ -129,6 +186,15 @@
                         How much does 1,300 bags of grass seed weigh?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            1{,}300\ \text{bags} \ast \frac{4.2\ \text{pounds}}{\text{bag}} =
+                            5{,}460\ \text{pounds}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -136,6 +202,15 @@
                         What is the gross weight of the truck if it carries 1,300 bags of grass seed?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        We should add the weight of the bags of grass seed to the weight of the empty truck:
+                        <md>
+                            5{,}460\ \text{pounds} + 3{,}900\ \text{pounds} = 9{,}360\ \text{pounds}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -143,6 +218,11 @@
                         You probably entered this calculation as <m>1300 \times 4.2 = + 3900=</m>. What happens if you skip the middle = sign and enter <m>1300 \times 4.2 + 3900</m> instead?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        This works just fine! You get the same answer of 9,360 pounds.
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -150,13 +230,28 @@
                         What answer does your calculator give you if you enter <m>3900 + 4.2 \times 1300</m> instead?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        You also get the same answer of 9,360 pounds!
+                    </p>
+                </solution>
             </task>
-            <task workspace="0.6in">
+            <task>
                 <statement>
                     <p>
                         What does part (d) tell you about which operation your calculator did first: the <m>+</m> or the <m>\times</m>?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        This means that the calculator does the <m>\times</m> first, even though the <m>+</m> came before in what we typed in.
+                    </p>
+                    <!-- <aside>
+                        <p>
+                            More on this in section 0.4!
+                        </p>
+                    </aside> -->
+                </solution>
             </task>
         </exercise>
     </page>

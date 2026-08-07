@@ -94,8 +94,8 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-0-2-Arithmetic_operations.ptx" />
-
+	<xi:include href="./solutions/sol-0-2-Arithmetic_operations.ptx" />
+<!-- 
 	<xi:include href="./WYD.ptx" />
 		
 		
@@ -105,6 +105,6 @@
 			<xi:include href="./dyk/dyk-Arithmetic_operations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</conclusion> -->
 
 </section>

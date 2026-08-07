@@ -40,8 +40,8 @@
 	</conclusion>
 
 	
-	<xi:include href="./exercises/ex-0-3-Percentages.ptx" />
-
+	<xi:include href="./solutions/sol-0-3-Percentages.ptx" />
+<!-- 
 	<xi:include href="./WYD.ptx" />
 		
 		
@@ -51,6 +51,6 @@
 			<xi:include href="./dyk/dyk-Percentages.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</conclusion> -->
 
 </section>

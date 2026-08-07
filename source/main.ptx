@@ -14,7 +14,7 @@
 
         <!-- Include chapters -->
 
-        <!-- <xi:include href="./ch-0-Prelude.ptx" /> -->
+        <xi:include href="./ch-0-Prelude.ptx" />
         <xi:include href="./ch-1-Variables.ptx" />
         <!-- <xi:include href="./ch-2-Equations.ptx" /> -->
         <!-- <xi:include href="./ch-3-Solving_equations.ptx" /> -->
