@@ -1,0 +1,108 @@
+
+\section{Interlude: Linear vs.\ exponential models in point-slope form} 
+
+Calliope read in Section 5.4 %Linear vs. exponential models
+that in 1995, the average price of a movie ticket was \$4.35, and in 2011 the average price of a movie ticket was \$7.93.\footnote{Source: National Association of Theater Owners, now Cinema United} She wonders whether or a linear or exponential model would do a better job of predicting the average price of a movie ticket\footnote{Source: \url{https://www.npr.org/2026/08/26/nx-s1-5923629/movie-summer-box-office}} in 2026, which is estimated to be \$12.87.
+
+Normally, Calliope would measure time in years since 1995. But she recently learned about the point-slope equation of a line, she is wondering what it would look like if she just used $Y$ for the actual year instead.  That is, the variables would be
+$$Y = \text{ time (actual year) } \sim \text{ indep}$$
+$$T = \text{ average price of a movie ticket (\$) } \sim \text{ dep}$$
+
+\subsection*{Linear model for ticket prices}
+
+To write a linear model, Calliope starts by calculating the slope which is 
+$$\frac{\$7.93-\$4.35}{2011-1995} = \frac{\$3.58}{16 \text{ years}} = 0.22375 \approx \$0.224/\text{year}$$
+She then shows off her mad point-slope equation skills and writes the linear equation
+$$T = 4.35 + 0.224(Y - 1995)$$
+
+Calliope checks her linear equation for the year 2011
+$$T = 4.35 + 0.224(2011 - 1995) = 7.934 \approx \$7.93$$
+Since she rounded off to get the slope of 0.224, she needed to round off the answer as well.
+
+In 2026, we have $Y=2026$ and so this linear model predicts the average movie ticket price would be 
+$$4.35 + 0.224(2026 - 1995) = 11.284 \approx \$11.29$$
+
+\subsection*{Exponential model for ticket prices}
+
+To write an exponential model, Calliope starts by calculating the growth factor which, by the Growth Factor Formula is
+$$g = \sqrt[2011-1995]{\frac{7.93}{4.35}} = \sqrt[16]{\frac{7.93}{4.35}} = 1.0382429616 \approx 1.0382$$
+She then writes the exponential equation using this growth factor and the point.
+$$T = 4.35(1.0382)^{Y-1995}$$
+Notice that because Calliope is using the actual year, the equation needs to use $Y-1995$ in the exponent.
+
+Calliope checks her exponential equation for the year 2011
+$$T = 4.35(1.0382)^{2011-1995} = 4.35 \times 1.0382 \land (2011-1995) = 7.9247\ldots \approx \$7.92$$
+Since she rounded off to get the growth factor of 1.0382, this answer is slightly off as well.
+
+In 2026, we have $Y=2026$ and so this exponential model predicts the average movie ticket price would be
+$$4.35(1.0382)^{2026-1995}=4.35 \times 1.0382 \land (2026-1995)=13.9059\ldots \approx \$13.90$$
+
+\subsection*{Comparing linear vs.\ exponential}
+
+Both the linear and exponential model did fairly well at predicting today's prices.  The linear model estimate of \$11.29 was $12.87-11.29 = \$1.58$ lower than the actual average price of a movie ticket but the exponential model estimate of \$13.90 was about $ 13.90-12.87 = \$1.03$ higher.  The exponential is probably a slightly better estimate, but there's some rounding error here so Calliope decides they are both quite close.
+ \input{GoDoWS}
+
+\noindent \textbf{Do you know \ldots}
+
+\begin{itemize}
+\item How to write the equation of a line using the actual year?
+\item How to write an exponential equation of a line using the actual year?
+ \input{NotSure} 
+\end{itemize}
+
+\subsection*{Exercises}
+
+\begin{enumerate} 
+
+%% WORKBOOK
+
+\item % 5.4 #1
+
+My parents bought the house I grew up in for \$35,000 in 1964 and sold it 40 years later (in 2004) for \$342,000. True story.  (It was before the housing bubble burst.) \hfill \emph{Story also appears in 5.4}
+\begin{enumerate}
+    \item Write a linear and exponential model and compare the house's value in 2026 according to each model. Don't forget to name the variables, including units. Use the actual year.
+    \item The house is valued at \$687,000 in 2026.\footnote{Source: Zillow}  How well did your linear and exponential models predict this current value?
+\end{enumerate}
+
+\item % 5.4 #2 
+The number of manufacturing jobs in the state has been declining for decades. In 1970, there were 1.2 million such jobs in the state but by 2010 there were only .6 million such jobs. 
+\hfill \emph{Story also appears in 5.4}
+\begin{enumerate}
+    \item Write a linear and exponential model and compare the predicted number of manufacturing jobs in 2025 according to each model. Use the actual year.  
+    \item Compare to the actual number, which is reported to be 12.5 million in 2025.\footnote{Source: \url{https://www.macrotrends.net/3109/us-manufacturing-employment}} What can you say about manufacturing jobs in the late 1900s/early 2000s versus now?
+\end{enumerate}
+
+\item %5.4 #9 
+The number of asthma sufferers worldwide in 1990 was 84 million and 130 million
+in 2001. 
+\hfill \emph{Story also appears in 5.4}
+\begin{enumerate}
+    \item Compare what the linear and exponential models project for the year 2023 and 2030. Use the actual year.
+    \item Compare to the actual number which was reported to be 363 million in 2023.\footnote{Source: \url{https://www.who.int/news-room/fact-sheets/detail/asthma}} Which model is closer?
+\end{enumerate}
+ 
+\item % 5.4 #10
+Sales of hybrid cars in the United States have continued to increase. In 1999, 17 (yes,
+seventeen) hybrid cars were sold. By 2002, that number was up to 34,521 hybrid cars
+sold. Compare what the linear and exponential models
+projected for hybrid car sales in the year 2025 and compare to the actual number which is reported to be 2.05 million in 2025, which doesn't even include electric cars.\footnote{Source: \url{https://www.nada.org/nada/nada-headlines/december-2025-market-beat-new-light-vehicle-sales-totaled-162-million-units}} Use the actual year.  
+\hfill \emph{Story also appears in 5.4}
+
+% HOMEWORK 
+
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{When you're done \ldots}
+
+\begin{itemize}
+\item Don't forget to check your answers with those in the back of the textbook. 
+\item Not sure if your answers are close enough? Compare with a classmate or ask the instructor.  
+\item Getting the wrong answers or stuck on a problem?  Re-read the section and try the problem again.   If you're still stuck, work with a classmate or go to your instructor's office hours.
+\item It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it.  They might be able to suggest strategies or support services that can help you succeed.
+\item Make a list of key ideas or processes to remember from the section.  The ``Do you know?'' questions can be a good starting point.
+\end{itemize}
+
+
+

@@ -1,0 +1,225 @@
+
+\section{Interlude: Point-slope equation of a line} 
+
+\subsection*{Learning to make pasta}
+
+Yarra and Esti want to do something fun (and a bit extravagant) to celebrate their tenth wedding anniversary.  They want to invite friends to come with them to a local cooking school to learn how to make pasta. 
+
+The website says a 2-hour class including instruction and a full meal for 6 people costs \$739 and for 10 people it costs \$1000.  Yarra and Esti decide to go for it and invite friends so they'll have a group of 10.
+
+But, that gets Yarra  wondering what the equation was for cooking class pricing.  She assumes it's a linear equation with some fixed costs and then a per person rate.
+
+Yarra can find the per person rate by first calculating the slope
+$$\frac{\$1000-\$739}{10 \text{ people } - 6 \text{ people}} = \frac{\$261}{4 \text{ people}} = \$65.25/\text{person}$$
+She names the variables
+$$C = \text{ cost of cooking class (\$) } \sim \text{ dep}$$
+$$P = \text{ total number of people (people) } \sim \text{ indep}$$
+
+Yarra knows the next step to write the equation is to find the intercept (fixed cost) but Esti said there's another way to write the equation that's even easier.  
+
+Check this out.  Esti shows her how to figure out what 15 people will cost without finding the intercept as an example.  First, she calculates that it's $15-10=5$ people more than 10 people.  She reminds Yarra that the slope is \$65.25/person, so the cost will be $5 \times 65.25 = \$326.25$ more than the 10-person cost.  Since the 10-person cost is \$1000, Esti figures out that the 15-person cost should be $\$1000 + \$326.25 = \$1326.25$.
+
+Let's take a closer look at what Esti did to get the cost for 15 people because that process will work in general.  Her entire calculation in one line was
+$$1000 + (15-10)65.25 = 1326.25$$
+In general, that's
+$$1000 + (P-10)65.25 = C$$
+Rewriting to have the dependent variable on the left-hand side of the equation and putting the multiplier in front of the parentheses, we get
+$$C = 1000 + 65.25(P-10)$$
+
+Let's check that this equation gives us the correct pricing for a 6 person class.  We get
+$$C = 1000 + 65.25(6-10) = 1000 - 261 = 739$$
+as expected.
+
+Yarra has several questions about Esti's form of the equation. Her first question is if there's any easy way to find the intercept (upfront cost) from Esti's form to the standard equation of a line.  Yes, there is.  The fixed cost is the value of $C$ when $P=0$ which is 
+$$C = 1000 + 65.25(0-10)= 1000 -652.50 = \$347.50$$
+Notice that this is not the same as the cost of having 0 people which would be \$0, but maybe it's the cost of reserving for a party and then cancelling?
+
+Yarra's other question is what if Esti had used the other known pair instead.  For example, if she used that 6 days cost \$739, then the equation would be
+$$C=739 + 65.25(P-6)$$
+
+These equations look different, but let's use algebra to simplify them. The first equation is
+\begin{eqnarray*}
+    C &=& 1000 + 65.25(P-10) \\
+    &=& 1000 + 65.25P - 652.50 \\
+    &=& 347.50 + 65.25P
+\end{eqnarray*}
+Yarra is relieved to see that the equation shows the same fixed cost of \$347.50 and the same slope of \$65.25/person that she knew. Whew!
+
+The second equation is
+\begin{eqnarray*}
+    C &=& 739 + 65.25(P-6) \\
+    &=& 739 + 65.25P - 391.50 \\
+    &=& 347.50 + 65.25P
+\end{eqnarray*}
+The same equation!
+
+\subsection*{Point-slope and slope-intercept equations}
+
+Esti's formula is 
+
+\textbf{Point-slope equation of a line}
+ $$\text{dep } = \text{ known value of dep } + \text{ slope }(\text{indep } - \text{ known value of indep})$$
+where the known value of the dependent variable corresponds to the known value of the independent variable. It's called the \textbf{point-slope equation} because it uses the known values at a point and the slope.
+
+In this context, the standard equation of a line is called \textbf{slope-intercept equation} because it uses the intercept and slope
+
+\textbf{Slope-intercept (standard) equation of a line}
+$$\text{dep } = \text{ intercept } + \text{ slope }(\text{indep})$$
+
+If you see these equations in a precalculus or calculus course, those textbooks (and professors) often use $x$ for the independent variable and $y$ for the dependent variable. The constants are $m$ for the slope and $b$ for the intercept. The point is often called $(x_1,y_1)$ which is a little confusing because they look like variables, but the subscripts indicate that we mean a specific value of $x$ and $y$.  In that notation, these equations can be written
+
+\textbf{Point-slope equation of a line ($x$ and $y$ version):}
+$$y = y_1 + m(x-x_1)$$
+
+\textbf{Slope-intercept (standard) equation of a line ($x$ and $y$ version):}
+$$y = mx + b$$
+
+ \input{GoDoWS}
+
+\noindent \textbf{Do you know \ldots}
+
+\begin{itemize}
+\item How to find the slope between two points?
+\item Why we would use the point-slope equation of a line?
+\item How to write the equation of a line given the slope and a point?
+\item How to find the intercept from the point-slope equation of a line?
+\item How to simplify the point-slope equation of a line to write the equation in standard form?
+\item What's another name for the standard equation of a line?
+ \input{NotSure} 
+\end{itemize}
+
+\subsection*{Exercises}
+
+\begin{enumerate} 
+%% WORKBOOK
+
+\item %% Known positive slope WORKBOOK
+Maryn is very happy.  Her interior design business is finally showing a profit.  She has logged a total of 471 billable hours at \$35 per hour since she started her business.  Accounting for start up costs, her profit is \$\text{2,194}. \hfill \emph{Story also appears in 4.3}
+
+ \begin{enumerate}
+\item Using the variables 
+$$P = \text{ Maryn's profit (\$) } \sim \text{ dep}$$
+$$H = \text{ billable time (hours) } \sim \text{ indep}$$
+write the point-slope equation describong how Maryn's profit depends on the number of billable hours she has.
+\item What were Maryn's start-up costs?  Hint: Use $H=0$. 
+\item What will Maryn's profit be once she's logged 1000 billable hours? 
+
+\item Use the distributive property and algebra to rewrite your equation in slope-intercept (standard) form.
+\end{enumerate}
+
+\item %% Known slope negative WORKBOOK
+Huiyi is conducting an experiment for his biopsychology class.  He measures each participant's accuracy in completing a complicated task involving working memory when visual distractions (flashing lights) are introduced.  Participants with 5 flashes of light scored an average of 82 points on the task.  Huiyi has read that each additional flash of light should decrease the average by 3.5 points.
+\begin{enumerate}
+    \item If what Huiyi read is correct, what would be a linear equation he can use to predict average score as a function of flashes of light?  Use the point-slope equation and don't forget to name the variables, including units.
+    \item According to your equation, what is the predicted average score if Huiyi introduces 8 flashes of light?
+    \item According to your equation, what is the predicted average score if there are no distractors?
+    \item Draw a graph illustrating the relationship.
+
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {Graphics/GraphPaper.jpg}}
+\end{center}
+    \item According to your graph, how many flashes of light result in an average score of 50 points?
+    \item Set up and solve an equation to determine the number of flashes of light that result in an average score of 50 points.
+\end{enumerate}
+
+\item %% Unknown slope positive WORKBOOK
+Thanks to conservation laws that protect bamboo forests and crackdowns to stop poaching (illegal killing), Giant Pandas are no longer considered an ``endangered'' species (although they are still ``vulnerable to extinction'').  The Giant Panda population in the wild is growing exponentially, but the growth is slow enough that we can approximate the growth with a linear equation.  There were approximately 1596 Giant Panda in 2004 and around 1864 Giant Pandas in 2025.\footnote{Source: \url{https://wwf.panda.org/what_we_do/endangered_species/giant_panda/panda/panda_survey}}
+\begin{enumerate}
+    \item Name the variables, measuring years since 2000.
+    \item Assuming that the growth of the panda population is linear, calculate the slope.
+    \item Use the point-slope equation of a line to write a linear equation for the population growth.  Note: you can use either point of information.
+    \item Use the distributive property and algebra to simplify your equation into standard linear form.
+    \item What is the intercept of the line and what does it mean in the story?
+    \item What does your equation predict the Giant Panda population will be in the year 2050?
+    \item Draw a graph illustrating the dependence. Make sure your graph shows up to the year 2050.
+
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {Graphics/GraphPaper.jpg}}
+\end{center}
+    \item According to your graph, when did the panda population first pass 1800, and when will it first pass 2000, assuming growth continues at the same pace?
+    \item Set up and solve equation to determine when the panda population first passed 1800.
+    \item Set up and solve an equation to determine when the panda population will first pass 2000.
+\end{enumerate}
+
+\item % Unknown slope negative WORKBOOK -- oops!  Also positive.  Sigh.
+Sound Transmission Class (STC) of an interior wall (like in your apartment) corresponds roughly to how many decibels of noise the wall blocks. Higher numbers mean more sound is blocked. A basic interior partition wall with a single layer of drywall and standard insulation with a density of 11 kg/m$^3$ provides an STC of 39. By upgrading to a dense 35 kg/m³ mineral wool core, the STC jumps to 50, drastically lowering the transmitted noise level.
+
+\begin{enumerate}
+    \item Name the variables, including units.  Use STC as the units for how much noise is blocked.
+    \item Assuming STC increases linearly, what is the slope?  
+    \item Use the point-slope equation of a line to write an equation illustrating the dependence.
+    \item Which piece of information did you use as your point?  Use the other point to check your equation.
+\end{enumerate}
+
+%% HOMEWORK
+
+\item %% Known slope positive
+Haajira is knitting a scarf.  She's worked on it for two hours and has knit 10" so far.  It took her some time to get everything set up, but now that she's going, she knits expects to knit about 7" per hour.
+\begin{enumerate}
+    \item How long will Haajira's scarf be if she works another two hours?
+    \item Name the variables, including units, and use the point-slope form of an equation to write an equation describing the dependence.
+    \item Use the distributive property and algebra to rewrite your equation in slope-intercept (standard) form.  
+    \item According to your equation in (c), what is the intercept?  Does that make sense in the story?  Explain.
+    \item When will Haajira reach their target length of 5 feet?
+\end{enumerate}
+
+\item %% Unknown slope positive
+Nyong is going to visit friends for a week.  He has a flight but has not yet made arrangements to get a rental car. He'd like to rent a midsize SUV because he and his friends are going on a golf trip for the first 3 days.  He's not sure if he should just rent the car for the full week. Nyong looked online and found 3 days will cost \$295 and the full week cost \$444, both prices include all taxes and fees. Assume that cost increasing linearly in the number of days.
+\begin{enumerate}
+    \item Name the variables, including units.
+    \item Find the slope of the line, including units.
+    \item What would renting a car for 10 days cost?
+    \item Write the point-slope form of the line using the data for 3 days.
+    \item Write the point-slope form of the line using the data for a week.
+    \item Use algebra to rewrite each equation in slope-intercept (standard) form.
+\end{enumerate}
+
+\item %% Known slope negative
+Ecologists studying mountain ecosystems observe that trees grow shorter at higher elevations. A research team found that at an elevation of 1,200 feet, the canopy height is around 150 feet. Their data show that above this elevation, the canopy height decreases at a constant rate of 0.02 feet for every additional foot of elevation.
+\begin{enumerate}
+    \item Name the variables, including units, and write a linear model for this story using the point-slope equation of a line.
+    \item What does your equation predict for canopy height at an elevation of 2500 feet?
+    \item What is the intercept, what would it mean in the story, and do you think it's realistic? 
+    \item Using the distributive property and algebra, rewrite the equation in slope-intercept (standard) form. Hint: make sure your equation includes your answer to (c).
+    \item Draw a graph illustrating the dependence.
+    \item Set up and solve an equation to determine the elevation of a forest with canopy height of 130 feet.  Check that your answer agrees with your graph.
+\end{enumerate}
+
+\item %% Unknown slope negative
+A citizen's group is working to register people to vote across the county. After 3 weeks, they were able to lower the unregistered voters rate to 36\%. Two weeks later (after 5 weeks total), they were able to lower the unregistered voters rate to 28\%
+\begin{enumerate}
+   \item Name the variables, including units.
+   \item Calculate the slope, including units.
+   \item Write an equation describing the dependence using the point-slope equation of the line.
+   \item Use the other point to check your equation.
+   \item According to your equation, what was the unregistered voter rate when they started?
+\end{enumerate}
+
+\item %% Unknown slope positive
+Zaneta and Melia are so excited!  It's time for the Minnesota State Fair.  They are especially looking forward to riding the Midway rides.  They can buy a Fun Card for \$44 which is worth 40 tickets or Fun Card for \$70 which is worth 80 tickets. (So you know, each ride itself costs 4-8 tickets so they use up tickets pretty quickly.)  Assume that the price of a Fun Card is a linear function of the number of tickets it's worth.
+\begin{enumerate}
+   \item Name the variables, including units.
+   \item Calculate the slope, including units.
+   \item Write an equation describing the dependence using the point-slope equation of the line.
+   \item What is the intercept of the line?
+   \item Draw a graph illustrating the dependence. Your graph should include the two points of information and the intercept.
+    \item Based on your line, how many tickets should a \$100 Fun Card be worth?
+    \item Set up and solve an equation to find the number of tickets for a \$100 Fun Card.
+\end{enumerate}
+
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{When you're done \ldots}
+
+\begin{itemize}
+\item Don't forget to check your answers with those in the back of the textbook. 
+\item Not sure if your answers are close enough? Compare with a classmate or ask the instructor.  
+\item Getting the wrong answers or stuck on a problem?  Re-read the section and try the problem again.   If you're still stuck, work with a classmate or go to your instructor's office hours.
+\item It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it.  They might be able to suggest strategies or support services that can help you succeed.
+\item Make a list of key ideas or processes to remember from the section.  The ``Do you know?'' questions can be a good starting point.
+\end{itemize}
+
+
+
