@@ -20,6 +20,7 @@
         <xi:include href="./ch-3-Solving_equations.ptx" />
         <xi:include href="./ch-4-Closer_look_linear.ptx" />
         <xi:include href="./ch-5-Closer_look_exponential.ptx" />
+        <xi:include href="./ch-6-Interludes.ptx" />
 
         <!-- Backmatter -->
 

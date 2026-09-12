@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-6-Interludes" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Interludes</title>
+
+    <introduction component="not-workbook">
+        <p>
+			Like the prelude chapter, the sections in this interlude chapter are intended to be covered in between or along side sections in previous chapters.  In a later edition of the textbook, they will be interwoven as needed.
+		</p>
+
+		<p>
+			Notes (to instructors):
+			
+			<ul> <!-- Make links. -->
+				<li>
+					<p>
+						6.1 Interlude: A first look at polynomial equations is a full day's lesson.  It can be covered after  2.1 A first look at linear equations and ideally before 2.3 Using equations.  A natural place would be between 2.2 and 2.3.
+					</p>
+				</li>
+				<li>
+					<p>
+						6.2 Interlude: A first look at right triangles is a half day's lesson.  It is needed before 7.1 Right triangles, and possibly would fit the same day as 7.1.  The intent was that 6.2 be covered alongside 3.3 Solving Power Equations, especially if 0.6 Powers and Roots is covered separately.
+					</p>
+				</li>
+				<li>
+					<p>
+						6.3 Interlude: Piecewise linear functions is another half day's lesson. It naturally fits alongside 4.1 Modeling with linear equations, which is otherwise a very short review section.
+					</p>
+				</li>
+				<li>
+					<p>
+						6.4 Interlude: Point-slope equation of a line is a full day's lesson.  It should be covered after 4.4 Slopes. It would fit best after 4.5, if that section is covered.
+					</p>
+				</li>
+				<li>
+					<p>
+						6.5 Interlude: Linear vs. exponential in point-slope form is a half day's lesson.  It is intended to be an addendum to 5.4 Linear vs. exponential models, perhaps replacing 5.4 #4 in the workbook with 6.5 #1.
+					</p>
+				</li>
+			</ul>
+		</p>
+    </introduction>
+
+	<xi:include href="./sec-6-1-First_look_polynomials.ptx" />
+
+	<!-- practice exams? -->
+</chapter>
