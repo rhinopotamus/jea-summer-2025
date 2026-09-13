@@ -14,7 +14,7 @@
 					
 					
 				<p>
-					<me>a = p \left( 1 + \frac{r}{12}\right) ^{12y}</me>
+					<md>a = p \left( 1 + \frac{r}{12}\right) ^{12y}</md>
 					<ul>
 						<li>
 							<p>
@@ -45,7 +45,7 @@
 					
 					
 				<p>
-					<me>\text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</me>
+					<md>\text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</md>
 					where <m>r</m> = interest rate compounded monthly (as a decimal)
 				</p>
 			</assemblage>
@@ -55,7 +55,7 @@
 					
 					
 				<p>
-					<me>a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</me>
+					<md>a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</md>
 					
 					<ul>
 						<li>
@@ -87,7 +87,7 @@
 					
 					
 				<p>
-					<me>p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</me>
+					<md>p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</md>
 					
 					<ul>
 						<li>

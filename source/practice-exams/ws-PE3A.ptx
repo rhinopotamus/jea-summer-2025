@@ -24,7 +24,7 @@
 	<exercise xml:id="well-linear-PE3A">
 		<introduction>
 			<p>
-				The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means <me>W=900+2F</me> where <m>F</m> is the depth of the well (in feet) and <m>W</m> is the cost of the well (in $).
+				The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means <md>W=900+2F</md> where <m>F</m> is the depth of the well (in feet) and <m>W</m> is the cost of the well (in $).
 			</p>
 		</introduction>
 		<task workspace="0.5in">
@@ -55,7 +55,7 @@
 	<exercise xml:id="caffeine-PE3A">
 		<introduction>
 			<p>
-				Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine (<m>C</m> mg) after <m>H</m> hours is given by the equation graphed below <me>C= 160\ast 0.88^H</me>
+				Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine (<m>C</m> mg) after <m>H</m> hours is given by the equation graphed below <md>C= 160\ast 0.88^H</md>
 			</p>
 			<image source='redbull.png'/>
 		</introduction>
@@ -87,7 +87,7 @@
 	<exercise xml:id="money-market-PE3A">
 		<introduction>
 			<p>
-				Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $<m>A</m>, will depend on the growth factor <m>g</m> as given by the equation <me>A = 1,500\, g^5</me>
+				Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $<m>A</m>, will depend on the growth factor <m>g</m> as given by the equation <md>A = 1,500\, g^5</md>
 			</p>
 		</introduction>
 		<task>
@@ -149,7 +149,7 @@
 	<exercise xml:id="rabbit-jump-PE3A">
 		<introduction>
 			<p>
-				A rabbit jumps so that her height above ground is given by the formula <me>R = 17.6T - 22T^2</me> where <m>R=</m> height of rabbit (feet above ground) and <m>T=</m> time (seconds).
+				A rabbit jumps so that her height above ground is given by the formula <md>R = 17.6T - 22T^2</md> where <m>R=</m> height of rabbit (feet above ground) and <m>T=</m> time (seconds).
 			</p>
 		</introduction>
 		<task workspace="0.5in">

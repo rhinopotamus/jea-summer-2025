@@ -18,7 +18,7 @@
 	<exercise xml:id="mini-cars-PE4A">
 		<introduction>
 			<p>
-				Forde collects miniature cars, each weighing 1.76 ounces. His car box weighs 4 ounces when empty. The total weight <m>T</m> ounces of Forde's car box depends on the number of cars <m>C</m> according to the equation <me>T=4+1.76C</me>
+				Forde collects miniature cars, each weighing 1.76 ounces. His car box weighs 4 ounces when empty. The total weight <m>T</m> ounces of Forde's car box depends on the number of cars <m>C</m> according to the equation <md>T=4+1.76C</md>
 			</p>
 		</introduction>
 		<task workspace="0.25in">
@@ -208,7 +208,7 @@
 		<task>
 			<statement>
 				<p>
-					The <q>best-fitting line</q> from statistics has equation <me>C=34.315+0.5556A</me> where <m>A</m> is the person's age (in years) and <m>C</m> is the comfort level (in decibels). Make a table showing the values of <m>C</m> when A = 40, 60, and 80. Use those points to add this <q>best-fitting line</q> to your graph.
+					The <q>best-fitting line</q> from statistics has equation <md>C=34.315+0.5556A</md> where <m>A</m> is the person's age (in years) and <m>C</m> is the comfort level (in decibels). Make a table showing the values of <m>C</m> when A = 40, 60, and 80. Use those points to add this <q>best-fitting line</q> to your graph.
 				</p>
 			</statement>
 		</task>

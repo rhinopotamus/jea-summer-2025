@@ -61,7 +61,7 @@
 				<mrow>P \amp= \text{ total plumber's charge (\$) } \sim \text{ dep}</mrow>
 			</md>
 			we found that the equation was 
-			<me>P=100+75T</me>
+			<md>P=100+75T</md>
 		</p>
 
 		<p>
@@ -101,7 +101,7 @@
 
 		<p>
 			Still curious, you'd like to know exactly how many hours and minutes the plumber worked. We could use <xref ref="sec-2-4-Approx_solutions" text="custom">successive approximation</xref>. For example, for 2.5 hours the bill would have been 
-			<me>P=100 + 75 \ast 2.5 = 100+75\times \underline{2.5}=\$287.50</me> 
+			<md>P=100 + 75 \ast 2.5 = 100+75\times \underline{2.5}=\$287.50</md> 
 			which is more than the charge. Continuing to guess and check we get
 		</p>
 
@@ -143,9 +143,9 @@
 
 		<p>
 			The plumber worked approximately 2.38 hours. Converting units we calculate 
-			<me>
+			<md>
 				0.38 \cancel{\text{ hours}} \ast  \frac{60 \text{ minutes}}{1 \cancel{\text{ hour}}} = 0.38 \times 60 = 22.8 \approx 23 \text{ minutes}
-			</me> 
+			</md> 
 			The plumber took about 2 hours, 23 minutes. Thinking back, the plumber had arrived around 10:30 in the morning and stayed past lunch, probably until around 1:00 p.m. That's about right.
 		</p>
 
@@ -158,9 +158,9 @@
 		
 		<p>
 			Wait a minute! We could have figured the plumber's cost out much more quickly. If the labor cost was $278.75, we know the first $100 was the trip charge. That leaves 
-			<me>\$278.75-\$100.00 = \$178.75</me> 
+			<md>\$278.75-\$100.00 = \$178.75</md> 
 			in hourly charges. At $75 per hour that comes to 
-			<me>\$178.75\ast  \frac{1\text{ hour}}{\$75}=178.75 \div 75 = 2.3883333\ldots \approx 2.388 \text{ hours}</me> 
+			<md>\$178.75\ast  \frac{1\text{ hour}}{\$75}=178.75 \div 75 = 2.3883333\ldots \approx 2.388 \text{ hours}</md> 
 			which comes to around 2 hours, 23 minutes as before. See how we used the $75/hour as a unit conversion here? Very clever.
 		</p>
 
@@ -170,7 +170,7 @@
 
 		<p>
 			Here's how it works. We want to figure out when <m>P=278.75</m>. We know from our equation that <m>P = 100 + 75T</m>. So we want to find the time <m>T</m> where 
-			<me>100 + 75T=278.75</me> 
+			<md>100 + 75T=278.75</md> 
 			<aside>
 				<p>
 					Another way to think about what is happening here is that we are replacing <m>P</m> in the equation by the number <m>278.75</m> that we are interested in.
@@ -190,11 +190,11 @@
 		</p>
 
 		<p>
-			which simplifies to <me>75T=278.75-100=178.75</me> because the <m>+100</m> and <m>-100</m> cancelled.
+			which simplifies to <md>75T=278.75-100=178.75</md> because the <m>+100</m> and <m>-100</m> cancelled.
 		</p>
 
 		<p>
-			The next thing we did to figure out the answer was divide by the $75/hour charge. In this formal method, we can divide each side of our equation by 75. Again, if the left-hand side and right-hand side are the same number, then they will still be equal when we divide by 75. Here goes. <me>\frac{\cancel{75}T}{\cancel{75}}=\frac{178.75}{75}</me> Notice that we wrote the division in fraction form (instead of using <m>\div</m>). To understand why the 75's cancelled, remember that <m>75T</m> is short for <m>75\ast T</m> and so <me>\frac{75T}{75} = \frac{75\ast T}{75} = 75 \times T \div 75=T</me> because the <m>\times 75</m> and <m>\div 75</m> cancelled. So we have <me>T = \frac{178.75}{75} = 178.75 \div 75 = 2.3883333\ldots</me> as before. Yet again, our answer is around 2 hours, 23 minutes.
+			The next thing we did to figure out the answer was divide by the $75/hour charge. In this formal method, we can divide each side of our equation by 75. Again, if the left-hand side and right-hand side are the same number, then they will still be equal when we divide by 75. Here goes. <md>\frac{\cancel{75}T}{\cancel{75}}=\frac{178.75}{75}</md> Notice that we wrote the division in fraction form (instead of using <m>\div</m>). To understand why the 75's cancelled, remember that <m>75T</m> is short for <m>75\ast T</m> and so <md>\frac{75T}{75} = \frac{75\ast T}{75} = 75 \times T \div 75=T</md> because the <m>\times 75</m> and <m>\div 75</m> cancelled. So we have <md>T = \frac{178.75}{75} = 178.75 \div 75 = 2.3883333\ldots</md> as before. Yet again, our answer is around 2 hours, 23 minutes.
 		</p>
 
 		<p>
@@ -235,9 +235,9 @@
 
 		<p>
 			Let's practice working with this symbolic way of solving equations. Suppose instead the plumber went to my neighbor's house and billed her for $160 in labor costs. How long did the plumber work at my neighbor's? As before, we begin with our equation 
-			<me>P = 100 + 75T</me> 
+			<md>P = 100 + 75T</md> 
 			and we are looking for <m>P=160</m>. Replace <m>P</m> in the equation by 160 to get 
-			<me>100+75T =160</me> 
+			<md>100+75T =160</md> 
 		</p>
 		<p>
 			Remember, opposite steps in opposite order: First, subtract 100 from each side to get 
@@ -246,19 +246,19 @@
 				<mrow>-\cancel{100}\amp \amp \amp -100 </mrow>
 			</md>
 			which simplifes to 
-			<me>75T=160-100=60</me> 
+			<md>75T=160-100=60</md> 
 			Last, divide each side by 75 to get 
-			<me>\frac{\cancel{75}T}{\cancel{75}}=\frac{60}{75}</me> 
+			<md>\frac{\cancel{75}T}{\cancel{75}}=\frac{60}{75}</md> 
 			which simplifies to 
-			<me>T = \frac{60}{75} = 60\div75=0.8 \text{ hours}</me>
+			<md>T = \frac{60}{75} = 60\div75=0.8 \text{ hours}</md>
 		</p>
 
 		<p>
-			We have solved the equation, but it would make more sense to report our answer in minutes so we convert <me>0.8 \cancel{\text{ hours}} \ast \frac{60 \text{ minutes}}{1 \cancel{\text{ hour}}} = 0.8 \times 60 = 48 \text{ minutes}</me> The plumber worked for 48 minutes at my neighbor's house.
+			We have solved the equation, but it would make more sense to report our answer in minutes so we convert <md>0.8 \cancel{\text{ hours}} \ast \frac{60 \text{ minutes}}{1 \cancel{\text{ hour}}} = 0.8 \times 60 = 48 \text{ minutes}</md> The plumber worked for 48 minutes at my neighbor's house.
 		</p>
 
 		<p>
-			Remember that we can always check our work by evaluating. Since <m>T</m> is measured in hours we need to go back and use <m>T= 0.8</m> hours, not 48 which is in minutes. Evaluating in our original function we get <me>P=100 + 75 \ast 0.8 = 100+75\times\underline{0.8}= 160 \quad \checkmark</me>
+			Remember that we can always check our work by evaluating. Since <m>T</m> is measured in hours we need to go back and use <m>T= 0.8</m> hours, not 48 which is in minutes. Evaluating in our original function we get <md>P=100 + 75 \ast 0.8 = 100+75\times\underline{0.8}= 160 \quad \checkmark</md>
 		</p>
 
 		<xi:include href="./activities/act-3-1-truck-solve-2.ptx" />

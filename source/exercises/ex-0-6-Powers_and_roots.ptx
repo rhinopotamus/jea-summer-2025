@@ -211,7 +211,7 @@
         <task>
             <statement>
                 <p>
-                    In general, we can find the value of the silverware after <m>Y</m> years by calculating <me>800 \times \underbrace{1.03 \times 1.03 \times \cdots \times 1.03}_{Y \text{ times}} = 800 \times 1.03 \wedge Y =</me> Use this powers method to find the value of the sterling in 1957. Hint: <m>Y = 1957-1920 = 37</m> years.
+                    In general, we can find the value of the silverware after <m>Y</m> years by calculating <md>800 \times \underbrace{1.03 \times 1.03 \times \cdots \times 1.03}_{Y \text{ times}} = 800 \times 1.03 \wedge Y =</md> Use this powers method to find the value of the sterling in 1957. Hint: <m>Y = 1957-1920 = 37</m> years.
                 </p>
             </statement>
         </task>

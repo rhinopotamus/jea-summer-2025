@@ -4,7 +4,7 @@
     <statement>
         <p>
             A pizza of diameter <m>D</m> inches serves <m>P</m> people where 
-            <me>P = 0.015625\, D^2.</me>
+            <md>P = 0.015625\, D^2.</md>
             Let's use the <xref ref="assemblage-shoes-and-socks" text="title"/> to solve this equation symbolically.
         </p>
         <ol marker="(a)">

@@ -56,11 +56,11 @@
     <exercise xml:id="car-investment-PE5A" workspace="1.75in">
         <introduction>
             <p>
-                HeeChan bought a classic car in 2003 for investment purposes and has been watching the value increase over the years. Based on the data, HeeChan came up with two possible equations <me>\textbf{Logistic:} \quad C= \frac{41,000}{1+4\ast0.81^T}</me>
+                HeeChan bought a classic car in 2003 for investment purposes and has been watching the value increase over the years. Based on the data, HeeChan came up with two possible equations <md>\textbf{Logistic:} \quad C= \frac{41,000}{1+4\ast0.81^T}</md>
             </p>
         
             <p>
-                <me>\textbf{Saturation:} \quad C = 32,000-23,800\ast0.85^T</me>
+                <md>\textbf{Saturation:} \quad C = 32,000-23,800\ast0.85^T</md>
             </p>
         
             <p>

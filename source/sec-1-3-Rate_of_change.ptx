@@ -53,7 +53,7 @@
 		</p>
 
 		<p>
-			How fast is she moving? The diver starts at 3 meters, which is the height of the springboard, and 0.2 seconds later she's up to 3.88 meters. That means during the first 0.2 seconds, the diver went up <me>3.88-3 = 0.88 \text{ meters}</me> Her speed is <me>\frac{0.88 \text{ meters}}{0.2 \text{ seconds}} = 0.88 \div 0.2 = 4.4 \text{ meters/sec}</me>
+			How fast is she moving? The diver starts at 3 meters, which is the height of the springboard, and 0.2 seconds later she's up to 3.88 meters. That means during the first 0.2 seconds, the diver went up <md>3.88-3 = 0.88 \text{ meters}</md> Her speed is <md>\frac{0.88 \text{ meters}}{0.2 \text{ seconds}} = 0.88 \div 0.2 = 4.4 \text{ meters/sec}</md>
 		</p>
 
 		<xi:include href="./activities/act-1-3-roc-8-15.ptx" />
@@ -64,17 +64,17 @@
 		<title>Different speeds at different times</title>
 
 		<p>
-			Back to the diver: What about during the next 0.2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these 0.2 seconds she rose <me>4.38-3.88 = 0.50 \text{ meters}</me> That's less than before (since <m>0.50 &lt; 0.88</m>), which means she is going slower. Let's double check by calculating her speed. <me>\frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> Yup, slower.
+			Back to the diver: What about during the next 0.2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these 0.2 seconds she rose <md>4.38-3.88 = 0.50 \text{ meters}</md> That's less than before (since <m>0.50 &lt; 0.88</m>), which means she is going slower. Let's double check by calculating her speed. <md>\frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</md> Yup, slower.
 		</p>
 
 		<p>
-			Let's take a look at this calculation again. Here's what we did. <me>\text{speed} =  \frac{4.38-3.88 \text{ meters}}{0.4-0.2 \text{ seconds}} = \frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> There is a way to do the entire calculation at once on your calculator. <me>(4.38-3.88) \div (0.4-0.2)=2.5 \text{ meters/sec}</me> See how we put parentheses around both the top and bottom of the fraction? We needed them to force the calculator to do the subtractions first and division second. The usual order of operations would do it the other way around: multiplication and division before addition and subtraction. 
+			Let's take a look at this calculation again. Here's what we did. <md>\text{speed} =  \frac{4.38-3.88 \text{ meters}}{0.4-0.2 \text{ seconds}} = \frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</md> There is a way to do the entire calculation at once on your calculator. <md>(4.38-3.88) \div (0.4-0.2)=2.5 \text{ meters/sec}</md> See how we put parentheses around both the top and bottom of the fraction? We needed them to force the calculator to do the subtractions first and division second. The usual order of operations would do it the other way around: multiplication and division before addition and subtraction. 
 			(If you need a reminder, the full list of the <xref ref="order-operations" text="custom">order of operations</xref> is discussed in <xref ref="sec-0-4-Order_of_operations" text="type-global"/>.) 
 			Because the top and bottom of the fraction each have meaning in the story, we continue to calculate them separately, but feel free to do the whole calculation at once if you prefer.
 		</p>
 
 		<p>
-			Notice that we are subtracting <term>like terms</term>: meters from meters and then seconds from seconds. It would not make sense to mix. Think: <me>\text{children} -  \text{cookies} = \text{crying}</me> so we don't want to mix units because that would be like taking cookies away from children.
+			Notice that we are subtracting <term>like terms</term>: meters from meters and then seconds from seconds. It would not make sense to mix. Think: <md>\text{children} -  \text{cookies} = \text{crying}</md> so we don't want to mix units because that would be like taking cookies away from children.
 		</p>
 
 		<p>
@@ -85,7 +85,7 @@
 			<title>Rate of Change Formula</title>
 			
 			<p>
-				<me>\text{rate of change } = \frac{\text{change dep}}{\text{change indep}} = \frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}}</me>
+				<md>\text{rate of change } = \frac{\text{change dep}}{\text{change indep}} = \frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}}</md>
 			</p>
 		</assemblage>
 
@@ -95,7 +95,7 @@
 
 		<assemblage>
 			<p>
-				<me>\text{units for rate of change} = \frac{\text{units for dep}}{\text{units for indep}}</me>
+				<md>\text{units for rate of change} = \frac{\text{units for dep}}{\text{units for indep}}</md>
 			</p>
 		</assemblage>
 
@@ -108,12 +108,12 @@
 		<title>Even more speeds for the diver</title>
 
 		<p>
-			Back to our diver. During the next time interval she's moving even slower. <me>\text{speed} = \frac{4.48-4.38 \text{ meters}}{0.6-0.4 \text{ seconds}}= \frac{0.1 \text{ meters}}{0.2 \text{ seconds}} = 0.1 \div 0.2 = 0.5 \text{ meters/sec.}</me> And look what happens when we calculate her speed during the next time interval. <me>\text{speed} = \frac{4.20-4.48 \text{ meters}}{0.8-0.6 \text{ seconds}} =  \frac{-0.28 \text{ meters}}{0.2 \text{ seconds}} = \text{(-)}0.28 \div 0.2 = -1.4 \text{ meters/sec}</me> What does a negative speed mean? During this time interval her height drops. She's headed down towards the water. Her speed is 1.4 meters/sec downward. The negative tells us her height is falling. What goes up, must come down. Sure enough.
+			Back to our diver. During the next time interval she's moving even slower. <md>\text{speed} = \frac{4.48-4.38 \text{ meters}}{0.6-0.4 \text{ seconds}}= \frac{0.1 \text{ meters}}{0.2 \text{ seconds}} = 0.1 \div 0.2 = 0.5 \text{ meters/sec.}</md> And look what happens when we calculate her speed during the next time interval. <md>\text{speed} = \frac{4.20-4.48 \text{ meters}}{0.8-0.6 \text{ seconds}} =  \frac{-0.28 \text{ meters}}{0.2 \text{ seconds}} = \text{(-)}0.28 \div 0.2 = -1.4 \text{ meters/sec}</md> What does a negative speed mean? During this time interval her height drops. She's headed down towards the water. Her speed is 1.4 meters/sec downward. The negative tells us her height is falling. What goes up, must come down. Sure enough.
 		</p>
 
 		<p>
 			You may notice that the sign <minus/> used for subtraction and - used for negation look very similar. On the calculator these are two different keys. The subtraction key reads just <kbd name="minus"/>. The negation key often reads <kbd>(-)</kbd> and is done before the number. This does not mean you type in parentheses, just hit the key that is labeled <kbd>(-)</kbd> already.
-			(If your calculator does not have a key labeled <kbd>(-)</kbd>, look for a key labeled <kbd>+/-</kbd> instead. That is not three keys, just one labeled <kbd>+/-</kbd>. To emphasize that it is one key, we just write <kbd>±</kbd>. Often that key needs to follow the number, so enter <me>0.28\pm \div 0.2 =</me> You should get -1.4 meters/sec again.
+			(If your calculator does not have a key labeled <kbd>(-)</kbd>, look for a key labeled <kbd>+/-</kbd> instead. That is not three keys, just one labeled <kbd>+/-</kbd>. To emphasize that it is one key, we just write <kbd>±</kbd>. Often that key needs to follow the number, so enter <md>0.28\pm \div 0.2 =</md> You should get -1.4 meters/sec again.
 		</p>
 
 		<p>

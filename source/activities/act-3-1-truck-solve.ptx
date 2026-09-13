@@ -4,9 +4,9 @@
     <statement>
         <p>
             The equation for the total weight of the truck carrying bags of grass seed is
-            <me>
+            <md>
                 W = 3{,}900 + 4.2B
-            </me>
+            </md>
             We are interested in finding how many bags the truck is carrying if its total weight is 14,500 pounds.
         </p>
         <ol marker="(a)">

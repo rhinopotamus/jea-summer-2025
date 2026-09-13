@@ -12,7 +12,7 @@
 					
 					
 				<p>
-					The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
+					The equation <m>C^n=v</m> has solution <md>C= \sqrt[n]{v}</md>
 				</p>
 			</assemblage>
 		</introduction>
@@ -30,7 +30,7 @@
 							<xref ref="pizza-diameter-modeling-linear"/>)
 						</p>
 					</aside>
-					A pizza of diameter <m>D</m> inches serves <m>P</m> people where <me>P = 0.015625\, D^2.</me>
+					A pizza of diameter <m>D</m> inches serves <m>P</m> people where <md>P = 0.015625\, D^2.</md>
 				</p>
 			</introduction>
 			<task>
@@ -54,7 +54,7 @@
 		<exercise xml:id="weight-cube-solving-power" workspace="1.25in">
 			<introduction>
 				<p>
-					The weight of a wood cube is a function of the length of the sides. A cube with sides each <m>E</m> inches long has weight <m>W</m> ounces according to the equation<me>W = 0.76\, E^3.</me>
+					The weight of a wood cube is a function of the length of the sides. A cube with sides each <m>E</m> inches long has weight <m>W</m> ounces according to the equation<md>W = 0.76\, E^3.</md>
 				</p>
 			</introduction>
 			<task>
@@ -100,9 +100,9 @@
 						</p>
 					</aside>
 					(That is fairly average.) That means the size tank, <m>G</m> gallons, is a function of the fuel efficiency, <m>F</m> miles per gallon (mpg), according to the equation
-					<me>
+					<md>
 						\displaystyle G = \frac{350}{F}
-					</me>
+					</md>
 				</p>
 			</introduction>
 			<task>
@@ -126,7 +126,7 @@
 		<exercise xml:id="effective-return-solving-power" workspace="2.5in">
 			<introduction>
 				<p>
-					Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the <term>effective return</term> (equivalent annual percent increase) on his investment might be for various prices. If $<m>J</m> is the current value of the jersey and <m>g</m> is the annual growth factor, then <me>J=150\, g^{12}</me> For each part, first solve for <m>g</m> using the <xref ref="root-formula" text="title"/>, then calculate <m>r=g-1</m>. The effective return is <m>r</m> written as a percentage.
+					Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the <term>effective return</term> (equivalent annual percent increase) on his investment might be for various prices. If $<m>J</m> is the current value of the jersey and <m>g</m> is the annual growth factor, then <md>J=150\, g^{12}</md> For each part, first solve for <m>g</m> using the <xref ref="root-formula" text="title"/>, then calculate <m>r=g-1</m>. The effective return is <m>r</m> written as a percentage.
 				</p>
 			</introduction>
 			<task>
@@ -198,7 +198,7 @@
 						<xref ref="wind-turbine-approx-solutions"/>)
 					</p>
 				</aside>
-				For a particular wind turbine, the equation <me>W = 2.4 S^3</me> can be used to calculate the amount of electricity generated (<m>W</m> watts) for a given wind speed (<m>S</m> mph), over a fixed period of time.
+				For a particular wind turbine, the equation <md>W = 2.4 S^3</md> can be used to calculate the amount of electricity generated (<m>W</m> watts) for a given wind speed (<m>S</m> mph), over a fixed period of time.
 			</p>
 		</introduction>	
 		<task>
@@ -230,7 +230,7 @@
 						)
 					</p>
 				</aside>
-				The intensity of light <m>L</m>, measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <m>F</m> feet as described by the formula <me>L=\frac{100}{F^2}</me> 
+				The intensity of light <m>L</m>, measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <m>F</m> feet as described by the formula <md>L=\frac{100}{F^2}</md> 
 			</p>
 		</introduction>	
 		<task>
@@ -261,7 +261,7 @@
 						<xref ref="bass-fishing-logistic-growth"/>)
 					</p>
 				</aside>
-				There were initially 400 bass introduced. Rodney wonders what the annual percent increase of the bass has been and realizes he can calculate it from the number of fish now. He will use the equation <me>B=400 g^{10}</me> where <m>B</m> is the number of bass in the lake now and <m>g</m> is the annual growth factor. For each number of bass, first solve for <m>g</m> using the <xref ref="root-formula" text="title"/>, then calculate <m>r=g-1</m>. The percent increase is <m>r</m> written as a percent.
+				There were initially 400 bass introduced. Rodney wonders what the annual percent increase of the bass has been and realizes he can calculate it from the number of fish now. He will use the equation <md>B=400 g^{10}</md> where <m>B</m> is the number of bass in the lake now and <m>g</m> is the annual growth factor. For each number of bass, first solve for <m>g</m> using the <xref ref="root-formula" text="title"/>, then calculate <m>r=g-1</m>. The percent increase is <m>r</m> written as a percent.
 			</p>
 		</introduction>	
 		<task>
@@ -284,7 +284,7 @@
 	<exercise xml:id="rock-drop-solving-power" component="not-workbook">
 		<introduction>
 			<p>
-				If you drop a rock from a high place, it falls <m>R</m> feet in <m>T</m> seconds where <me>R = 16T^2</me>
+				If you drop a rock from a high place, it falls <m>R</m> feet in <m>T</m> seconds where <md>R = 16T^2</md>
 			</p>
 		</introduction>	
 		<task>
@@ -353,7 +353,7 @@
 						(Story also appears in <xref ref="salary-using-equations"/>)
 					</p>
 				</aside>
-				He is paid a salary of $780 per week but his hours vary week-to-week. Even though Wynter is not paid by the hour, he can figure out what his hourly wage would be depending on the number of hours he works using the equation <me>E = \frac{780}{H}</me> where if he works <m>H</m> hours, then he's earning the equivalent of $<m>E</m>/hour.
+				He is paid a salary of $780 per week but his hours vary week-to-week. Even though Wynter is not paid by the hour, he can figure out what his hourly wage would be depending on the number of hours he works using the equation <md>E = \frac{780}{H}</md> where if he works <m>H</m> hours, then he's earning the equivalent of $<m>E</m>/hour.
 			</p>
 		</introduction>	
 		<task>

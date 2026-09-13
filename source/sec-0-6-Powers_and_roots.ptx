@@ -22,11 +22,11 @@
 		</p>
 
 		<p>
-			When we multiply a number by itself, like <me>\underbrace{2 \times 2 \times 2}_{3 \text{ times}}</me> we say that we are raising 2 <term>to the power of</term> 3. The number 3, which counts how many times we multiply 2 by itself, is called the <term>power</term> or <term>exponent</term>.
+			When we multiply a number by itself, like <md>\underbrace{2 \times 2 \times 2}_{3 \text{ times}}</md> we say that we are raising 2 <term>to the power of</term> 3. The number 3, which counts how many times we multiply 2 by itself, is called the <term>power</term> or <term>exponent</term>.
 		</p>
 
 		<p>
-			On a calculator we can use the <m>\wedge</m> key. Try for yourself: <me>2 \wedge 3 = \underbrace{2 \times 2 \times 2}_{3 \text{ times}} = 8</me> <me>5 \wedge 3 = \underbrace{5 \times 5 \times 5}_{3 \text{ times}} = 125</me> <me>10 \wedge 3 = \underbrace{10 \times 10 \times 10}_{3 \text{ times}} = 1000</me> No key marked <m>\wedge</m>? Look for a key marked <m>x^y</m> or <m>y^x</m> instead. Can't find that either? Ask a classmate or your instructor for help.
+			On a calculator we can use the <m>\wedge</m> key. Try for yourself: <md>2 \wedge 3 = \underbrace{2 \times 2 \times 2}_{3 \text{ times}} = 8</md> <md>5 \wedge 3 = \underbrace{5 \times 5 \times 5}_{3 \text{ times}} = 125</md> <md>10 \wedge 3 = \underbrace{10 \times 10 \times 10}_{3 \text{ times}} = 1000</md> No key marked <m>\wedge</m>? Look for a key marked <m>x^y</m> or <m>y^x</m> instead. Can't find that either? Ask a classmate or your instructor for help.
 		</p>
 
 		<p>
@@ -34,23 +34,23 @@
 		</p>
 
 		<p>
-			<me>3 \wedge 4 = \underbrace{3 \times 3 \times 3 \times 3}_{4 \text{ times}} = 81</me> <me>2 \wedge 10 = \underbrace{2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2}_{10 \text{ times}}= 1024</me> Speaking of which, Noah thought it was fitting it is that his mom was using mathematical higher powers to build the glass box since learning to trust in a spiritual higher power was so important to his recovery.
+			<md>3 \wedge 4 = \underbrace{3 \times 3 \times 3 \times 3}_{4 \text{ times}} = 81</md> <md>2 \wedge 10 = \underbrace{2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2}_{10 \text{ times}}= 1024</md> Speaking of which, Noah thought it was fitting it is that his mom was using mathematical higher powers to build the glass box since learning to trust in a spiritual higher power was so important to his recovery.
 		</p>
 
 		<p>
-			Noah would like the box to hold 1 gallon of beads which is about 231 cubic inches. What size cube box should his mom make? She wants a number, let's call it <m>n</m>, so that an <m>n \times n \times n</m> box will hold 231 cubic inches. That means she needs <me>n \times n \times n = 231</me> or, equivalently, <me>n \wedge 3 = 231</me>
+			Noah would like the box to hold 1 gallon of beads which is about 231 cubic inches. What size cube box should his mom make? She wants a number, let's call it <m>n</m>, so that an <m>n \times n \times n</m> box will hold 231 cubic inches. That means she needs <md>n \times n \times n = 231</md> or, equivalently, <md>n \wedge 3 = 231</md>
 		</p>
 
 		<p>
-			Noah's mom can try to guess what number <m>n</m> should be. She wants a box that's bigger than <m>5  \times 5 \times 5</m> but smaller than <m>10 \times 10 \times 10</m>. Her first guess is <m>n=7</m> inches, meaning the box will be <m>7 \times 7 \times 7</m>. That box would hold <me>7 \times 7 \times 7 = 7 \wedge 3 = 343 \text{ cubic inches}</me> which is too big. How about <m>n = 6.5</m> inches so the box would hold <me>6.5 \times 6.5 \times 6.5 = 6.5 \wedge 3  \approx 274 \text{ cubic inches}</me> which is still too big. After a few more guesses she tries <m>n = 6.2</m> so the box would hold <me>6.2 \times 6.2 \times 6.2 = 6.2 \wedge 3 \approx 238 \text{ cubic inches}</me> Aha! She will make a box that's approximately <m>6.2 \times 6.2 \times 6.2</m>.
+			Noah's mom can try to guess what number <m>n</m> should be. She wants a box that's bigger than <m>5  \times 5 \times 5</m> but smaller than <m>10 \times 10 \times 10</m>. Her first guess is <m>n=7</m> inches, meaning the box will be <m>7 \times 7 \times 7</m>. That box would hold <md>7 \times 7 \times 7 = 7 \wedge 3 = 343 \text{ cubic inches}</md> which is too big. How about <m>n = 6.5</m> inches so the box would hold <md>6.5 \times 6.5 \times 6.5 = 6.5 \wedge 3  \approx 274 \text{ cubic inches}</md> which is still too big. After a few more guesses she tries <m>n = 6.2</m> so the box would hold <md>6.2 \times 6.2 \times 6.2 = 6.2 \wedge 3 \approx 238 \text{ cubic inches}</md> Aha! She will make a box that's approximately <m>6.2 \times 6.2 \times 6.2</m>.
 		</p>
 
 		<p>
-			That was a lot of guessing. Turns out there's a name for the answer. We write <me>n = \sqrt[3]{231}</me> and say that the dimension we are looking for is the 3rd <term>root</term> of 231.
+			That was a lot of guessing. Turns out there's a name for the answer. We write <md>n = \sqrt[3]{231}</md> and say that the dimension we are looking for is the 3rd <term>root</term> of 231.
 		</p>
 
 		<p>
-			We can use our calculator to find roots. For example, if you have a key that says <m>\sqrt[x]{y}</m> then you can enter <me>3 \sqrt[x]{y} ~231 =  6.1357\ldots</me> Different calculators label the roots key differently. For example, you may have to use one of the 2nd, Shift, or Inv key with the <m>\wedge</m>, <m>y^x</m>, or <m>x^y</m> key. On a graphing calculator, you may have to enter MATH mode.
+			We can use our calculator to find roots. For example, if you have a key that says <m>\sqrt[x]{y}</m> then you can enter <md>3 \sqrt[x]{y} ~231 =  6.1357\ldots</md> Different calculators label the roots key differently. For example, you may have to use one of the 2nd, Shift, or Inv key with the <m>\wedge</m>, <m>y^x</m>, or <m>x^y</m> key. On a graphing calculator, you may have to enter MATH mode.
 		</p>
 
 		<p>
@@ -58,7 +58,7 @@
 		</p>
 
 		<p>
-			<me>\sqrt[3]{125} = 3 \sqrt[x]{y}~ 125= 5</me> <me>\sqrt[3]{1000} = 3 \sqrt[x]{y}~ 1000 = 10</me> <me>\sqrt[4]{81} = 4 \sqrt[x]{y}~ 81 = 3</me> <me>\sqrt[10]{1024} = 10 \sqrt[x]{y}~ {1024} = 2</me>
+			<md>\sqrt[3]{125} = 3 \sqrt[x]{y}~ 125= 5</md> <md>\sqrt[3]{1000} = 3 \sqrt[x]{y}~ 1000 = 10</md> <md>\sqrt[4]{81} = 4 \sqrt[x]{y}~ 81 = 3</md> <md>\sqrt[10]{1024} = 10 \sqrt[x]{y}~ {1024} = 2</md>
 		</p>
 
 		<p>

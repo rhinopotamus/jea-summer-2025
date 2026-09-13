@@ -3,7 +3,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-5-highjump-exact">
     <statement>
         <p>
-            A high-jumper jumps so that the height, <m>H</m> feet, of the point on his back that must clear the bar after <m>T</m> seconds is given by the equation <me>H = 3.5 + 16T -16T^2</me>.
+            A high-jumper jumps so that the height, <m>H</m> feet, of the point on his back that must clear the bar after <m>T</m> seconds is given by the equation <md>H = 3.5 + 16T -16T^2</md>.
         </p>
         <ol marker="(a)">
             <li>

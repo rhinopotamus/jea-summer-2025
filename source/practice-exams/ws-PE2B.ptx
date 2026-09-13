@@ -101,7 +101,7 @@
 	<exercise xml:id="t-shirt-printing-PE2B" workspace="2in">
 		<introduction>
 			<p>
-				Skye and her sister Clover started a t-shirt printing company. To produce a particular t-shirt it costs $350 in materials and labor to set up a silkscreen and then $7.50 for each shirt made to cover materials and printing. The average cost per t-shirt $<m>C</m> is a function of <m>N</m>, the number of t-shirts printed. The equation for this function is <me>C = \frac{350+7.50N}{N}</me>
+				Skye and her sister Clover started a t-shirt printing company. To produce a particular t-shirt it costs $350 in materials and labor to set up a silkscreen and then $7.50 for each shirt made to cover materials and printing. The average cost per t-shirt $<m>C</m> is a function of <m>N</m>, the number of t-shirts printed. The equation for this function is <md>C = \frac{350+7.50N}{N}</md>
 			</p>
 		</introduction>
 		<task>
@@ -131,7 +131,7 @@
 					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
-					Skye designs the shirts and runs the press. Clover is the brains behind sales. She would like to price the shirts at $12.95 each. The sisters will make a profit of $<m>P</m> where <me>P = 5.45N-350</me>
+					Skye designs the shirts and runs the press. Clover is the brains behind sales. She would like to price the shirts at $12.95 each. The sisters will make a profit of $<m>P</m> where <md>P = 5.45N-350</md>
 				</p>
 				<p>
 					This is a linear equation. What is the slope, what are its units, and what does it mean in the story?

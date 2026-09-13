@@ -9,20 +9,20 @@
             <li>
                 <p>
                     One of Quia Xun's lock machine options has the equation
-                    <me>E = 5{,}400 + 0.80L</me>,
+                    <md>E = 5{,}400 + 0.80L</md>,
                     where <m>E</m> is the total expenditure (in $) to produce <m>L</m> locks.
                 </p>
             </li>
             <li>
                 <p>
                     The equation for the weight <m>W</m>, in pounds, of a truck carrying <m>B</m> bags of grass seed: 
-                    <me>W = 3{,}900 + 4.2 B</me>.
+                    <md>W = 3{,}900 + 4.2 B</md>.
                 </p>
             </li>
             <li>
                 <p>
                     If Juan buys the discount card at his favorite local coffee shop, then his total cost <m>T</m>, in $, for buying <m>M</m> mugs of coffee is
-                    <me>T = 10.00 + 2.90 M</me>.
+                    <md>T = 10.00 + 2.90 M</md>.
                 </p>
             </li>
         </ol>

@@ -9,25 +9,25 @@
             <li>
                 <p>
                     Use the fact that 1 mile <m>\approx</m> 1.609 km to write down two unit conversion fractions:
-                    <me>
+                    <md>
                         1 \approx \dfrac{<fillin fill="2.54" /> \text{ mile}}
                                         {<fillin fill="1.00" /> \text{ km}}
                         \quad \text{and} \quad
                         1 \approx \dfrac{<fillin fill="2.54" /> \text{ km}}
                                         {<fillin fill="1.00" /> \text{ mile}}
-                    </me>
+                    </md>
                 </p>
             </li>
             <li>
                 <p>
                     Use the fact that 1 liter <m>\approx</m> 1.057 quarts to write down two unit conversion fractions:
-                    <me>
+                    <md>
                         1 \approx \dfrac{<fillin fill="2.54" /> \text{ liter}}
                                         {<fillin fill="1.00" /> \text{ quarts}}
                         \quad \text{and} \quad
                         1 \approx \dfrac{<fillin fill="2.54" /> \text{ quarts}}
                                         {<fillin fill="1.00" /> \text{ liter}}
-                    </me>
+                    </md>
                 </p>
             </li>
             <li>

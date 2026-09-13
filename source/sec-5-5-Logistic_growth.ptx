@@ -55,9 +55,9 @@
 			We'll start with an exponential model, since that's the kind of equation that we've been learning about in this chapter. Using the methods from <xref ref="sec-5-3-Growth_factor" text="type-global"/>, we can find that the growth factor <m>g = 1.16</m>, or in other words, that the number of students diagnosed with the flu was growing 16% per day. 
 			
 			The corresponding exponential equation is 
-			<me>\textbf{exponential:} \quad F = 8 \ast 1.16^D</me>. 
+			<md>\textbf{exponential:} \quad F = 8 \ast 1.16^D</md>. 
 			As a check, at 14 days there were 
-			<me>F = 8 \ast 1.16^{14} = 8 \times 1.16 \wedge \underline{14} = 63.900143\ldots \approx 64 \text{ students}</me>. 
+			<md>F = 8 \ast 1.16^{14} = 8 \times 1.16 \wedge \underline{14} = 63.900143\ldots \approx 64 \text{ students}</md>. 
 			We rounded the numbers in our table to the nearest person.
 		</p>
 
@@ -117,11 +117,11 @@
 
 		<p>
 			Leaving out the details of how we found it, a possible saturation equation for our example is 
-			<me>\textbf{saturation:} \quad F=96-88\ast0.93^D</me>. 
+			<md>\textbf{saturation:} \quad F=96-88\ast0.93^D</md>. 
 			As a check, initially there were 
-			<me>F = 96-88 \ast 0.93^0 = 96 - 88 \times 0.93 \wedge \underline{0} = 8 \text{ students} \quad \checkmark</me> 
+			<md>F = 96-88 \ast 0.93^0 = 96 - 88 \times 0.93 \wedge \underline{0} = 8 \text{ students} \quad \checkmark</md> 
 			and at 14 days there were 
-			<me>F = 96-88 \ast 0.93^{14} = 96 - 88 \times 0.93 \wedge \underline{14} =64.1401334\ldots \approx 64 \quad \checkmark</me> 
+			<md>F = 96-88 \ast 0.93^{14} = 96 - 88 \times 0.93 \wedge \underline{14} =64.1401334\ldots \approx 64 \quad \checkmark</md> 
 			We rounded the numbers in our table to the nearest person.
 		</p>
 
@@ -177,7 +177,7 @@
 
 		<p>
 			It turns out that a possible logistic equation for our example is 
-			<me>\textbf{logistic:} \quad F=\frac{129}{1+15 \ast 0.825^D}</me>. 
+			<md>\textbf{logistic:} \quad F=\frac{129}{1+15 \ast 0.825^D}</md>. 
 			For example, initially there were 
 			<md>
 				<mrow>F \amp = \frac{129}{1+15\ast 0.825^0} = 
@@ -303,12 +303,12 @@
 
 		<p>
 			Look back at the equations:
-			<me>
+			<md>
 				\begin{array}{ll}
 				\textbf{saturation:} \amp F=\fbox{96}-88\ast0.93^D \\
 				\textbf{logistic:} \amp F=\dfrac{\fbox{129}}{1+15 \ast 0.825^D}
 				\end{array}
-			</me>
+			</md>
 			The limiting values were there all along!
 		</p>
 	</subsection>

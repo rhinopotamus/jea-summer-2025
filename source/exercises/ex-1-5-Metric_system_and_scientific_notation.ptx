@@ -78,7 +78,7 @@
 						(Story also appears in <xref ref="dust-particle-prelude-scientific-notation" />)
 					</p>
 				</aside>
-				He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is <me>0.000~000~000~753\text{ kilograms.}</me>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
+				He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is <md>0.000~000~000~753\text{ kilograms.}</md>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
 			</p>
 		</introduction>
 		<task>
@@ -496,7 +496,7 @@
 						(Story also appears in <xref ref="bmi-approx-rounding"/>)
 					</p>
 				</aside>
-				BMI values between 18.5 and 24.9 are considered <q>normal</q>. Jared is 6<prime/>4<dblprime/> and weighs 200 pounds. He would like to calculate his BMI from this guide: <me>\text{BMI} = \text{weight in kilograms} \div \text{height in meters} \wedge 2</me>
+				BMI values between 18.5 and 24.9 are considered <q>normal</q>. Jared is 6<prime/>4<dblprime/> and weighs 200 pounds. He would like to calculate his BMI from this guide: <md>\text{BMI} = \text{weight in kilograms} \div \text{height in meters} \wedge 2</md>
 			</p>
 		</introduction>
 		<task>
@@ -510,7 +510,7 @@
 		<task>
 			<statement>
 				<p>
-					Jared entered the following keystrokes on his calculator: <me>90.91 \div 1.93 \wedge 2=</me> and got the answer <me>\text{Jared's BMI } = 24.4060243\ldots</me> Is his BMI considered <q>normal</q>?
+					Jared entered the following keystrokes on his calculator: <md>90.91 \div 1.93 \wedge 2=</md> and got the answer <md>\text{Jared's BMI } = 24.4060243\ldots</md> Is his BMI considered <q>normal</q>?
 				</p>
 			</statement>
 		</task>
@@ -518,7 +518,7 @@
 		<task>
 			<statement>
 				<p>
-					Suppose Jared had rounded off his height to 1.9 meters and his weight to 91 kilograms. Calculate his BMI by entering the following keystrokes your calculator: <me>91 \div 1.9 \wedge 2=</me> What do you get? Round your answer to one decimal place. Is Jared's BMI considered <q>normal</q>?
+					Suppose Jared had rounded off his height to 1.9 meters and his weight to 91 kilograms. Calculate his BMI by entering the following keystrokes your calculator: <md>91 \div 1.9 \wedge 2=</md> What do you get? Round your answer to one decimal place. Is Jared's BMI considered <q>normal</q>?
 				</p>
 			</statement>
 		</task>

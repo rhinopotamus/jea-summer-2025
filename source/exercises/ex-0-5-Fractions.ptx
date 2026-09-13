@@ -188,14 +188,14 @@
         <task>
             <statement>
                 <p>
-                    At 0.2 seconds after take-off she was 3.88 meters above the water. Her initial speed can be calculated as <me>\frac{3.88-3}{0.2}</me> Find the diver's speed and don't forget the units.
+                    At 0.2 seconds after take-off she was 3.88 meters above the water. Her initial speed can be calculated as <md>\frac{3.88-3}{0.2}</md> Find the diver's speed and don't forget the units.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    At 0.4 seconds after take-off she was 4.38 meters above the water. Her speed then can be calculated as <me>\frac{4.38-3.88}{0.4-0.2 }</me> Find the diver's speed and don't forget the units.
+                    At 0.4 seconds after take-off she was 4.38 meters above the water. Her speed then can be calculated as <md>\frac{4.38-3.88}{0.4-0.2 }</md> Find the diver's speed and don't forget the units.
                 </p>
             </statement>
         </task>
@@ -222,13 +222,13 @@
             <statement>
                 <p>
                     Find the number of yards by calculating 
-                    <me>
+                    <md>
                         \frac{3}{4} \text{ miles}
 						\ast
 						  \frac{5{,}280 \text{ feet}}{1 \text{ mile}}
 						\ast
 						  \frac{1 \text{ yard}}{3 \text{ feet}} = \frac{3 \times 5280}{4 \times 3}
-                    </me>
+                    </md>
                 </p>
             </statement>
         </task>

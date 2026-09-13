@@ -87,7 +87,7 @@
 				<statement>
 					<p>
 						What is the average rent expected to be in 1 year? In 2 years? In 3 years? 
-						Note that <me>7.2\% = \frac{7.2}{100} = 7.2 \div 100 = 0.072</me>. 
+						Note that <md>7.2\% = \frac{7.2}{100} = 7.2 \div 100 = 0.072</md>. 
 						Try figuring it out.
 					</p>
 				</statement>
@@ -271,7 +271,7 @@
 							<xref ref="bac-solving-exponential"/>)
 						</p>
 					</aside>
-					Note that <me>45\% = \frac{45}{100} = 45 \div 100 = 0.45</me> What was Stephen's BAC after 1 hour? After 2 hours?
+					Note that <md>45\% = \frac{45}{100} = 45 \div 100 = 0.45</md> What was Stephen's BAC after 1 hour? After 2 hours?
 				</p>
 			</statement>
 		</task>

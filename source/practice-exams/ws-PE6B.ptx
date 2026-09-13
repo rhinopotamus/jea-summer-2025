@@ -63,7 +63,7 @@
 		<exercise xml:id="traffic-linear-PE6B" workspace="2in">
 			<introduction>
 				<p>
-					Jolene is driving up to Duluth to visit her aunt. Unfortunately it is snowing so traffic is going slowly. Her distance <m>D</m> miles to Duluth is described by the equation <me>D=100-45T</me> where <m>T</m> is the time in hours since 12:00 noon when Jolene started driving.
+					Jolene is driving up to Duluth to visit her aunt. Unfortunately it is snowing so traffic is going slowly. Her distance <m>D</m> miles to Duluth is described by the equation <md>D=100-45T</md> where <m>T</m> is the time in hours since 12:00 noon when Jolene started driving.
 				</p>
 			</introduction>
 			<task>
@@ -94,7 +94,7 @@
 		<exercise xml:id="squirrels-PE6B" workspace="2in">
 			<introduction>
 				<p>
-					There sure are a lot of squirrels in my neighborhood. The equation <me>S = 4,000\ast 1.12^T</me> estimates the number of squirrels (<m>S</m>) where <m>T</m> is the time in years since 2005.
+					There sure are a lot of squirrels in my neighborhood. The equation <md>S = 4,000\ast 1.12^T</md> estimates the number of squirrels (<m>S</m>) where <m>T</m> is the time in years since 2005.
 				</p>
 			</introduction>
 			<task workspace="2.5in">
@@ -143,7 +143,7 @@
 		<exercise xml:id="fudge-calories-PE6B">
 			<introduction>
 				<p>
-					Gail calculated that the number of calories <m>C</m> in a cube of fudge depends on how large the cube is, say <m>E</m> inches long on each edge. A possible equation is <me>C = 90E^3</me>
+					Gail calculated that the number of calories <m>C</m> in a cube of fudge depends on how large the cube is, say <m>E</m> inches long on each edge. A possible equation is <md>C = 90E^3</md>
 				</p>
 			</introduction>
 			<task workspace="1.5in">
@@ -184,7 +184,7 @@
 		<exercise xml:id="ball-in-air-PE6B">
 			<introduction>
 				<p>
-					The height <m>H</m> feet of a ball <m>T</m> seconds after it is thrown straight up in the air is given by the equation <me>H = 4+17T-16T^2</me>
+					The height <m>H</m> feet of a ball <m>T</m> seconds after it is thrown straight up in the air is given by the equation <md>H = 4+17T-16T^2</md>
 				</p>
 				<image source='ballinair.png'/>
 			</introduction>
@@ -236,12 +236,12 @@
 			<introduction>
 				<p>
 					A local sporting goods store does custom embroidered jerseys for $29 each plus $1.75 per letter. Or you can order the same jerseys online for $18 each plus $2.35 per letter, but it costs another $4.95 for shipping per jersey. If we write <m>L</m> for the number of letters on the jersey and <m>T</m> for the total cost (in $), then those equations are
-					<me>
+					<md>
 						\textbf{Local shop:} \quad T = 29 + 1.75L
-					</me>
-					<me>
+					</md>
+					<md>
 						\textbf{Online:} \quad T = 22.95+2.35L
-					</me>
+					</md>
 				</p>
 			</introduction>
 			<task workspace="1.5in">

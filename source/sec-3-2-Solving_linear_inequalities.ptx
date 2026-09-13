@@ -19,9 +19,9 @@
 		</p>
 		<p>
 			You're probably familiar with the useful symbols <m>\le</m>, <m>\ge</m>, <m>\gt</m>, and <m>\lt</m> that we use to capture this idea. When we use these signs instead of the equals sign =, we have something called an <term>inequality</term> instead of an equation. For instance, if <m>B</m> is my restaurant bill, I can just write the inequality 
-			<me>
+			<md>
 				B \leq 20
-			</me>
+			</md>
 			to put symbols to the idea that I want my bill to stay under $20.
 		</p>
 		<xi:include href="./activities/oa-3-2-equation-or-inequality.ptx" />
@@ -44,7 +44,7 @@
 		</p>
 
 		<p>
-			A common conversion is given by the equation <me>F = 1.8C+32</me> where
+			A common conversion is given by the equation <md>F = 1.8C+32</md> where
 			<md>
 				<mrow>F \amp= \text{ Fahrenheit temperature (}^\circ \text{F) } \sim \text{ dep} </mrow>
 				<mrow>C \amp= \text{ Celsius temperature (}^\circ \text{C) } \sim \text{ indep} </mrow>
@@ -53,7 +53,7 @@
 
 		<p>
 			You may have seen this equation before with fractions in it: <m>F = \frac{9}{5}C + 32</m>. Just another way to write the equation, since <m>\frac{9}{5} = 9 \div 5 = 1.8</m>. For example, when <m>C=100</m> we have 
-			<me>F= 1.8 \ast 100 + 32 =1.8 \times \underline{100}+32= 212 \quad \checkmark</me> 
+			<md>F= 1.8 \ast 100 + 32 =1.8 \times \underline{100}+32= 212 \quad \checkmark</md> 
 			You can (and should!) check the other examples in our story.
 		</p>
 
@@ -63,7 +63,7 @@
 
 		<p>
 			But, actually, chocolate brownies just need to bake in a <term>moderate oven</term>, which means between 325<degree/>F and 375<degree/>F. Let's first figure out which Celsius temperatures mean that the oven temperature is under 375<degree/>F. We want to know when 
-			<me>F \le 375</me> 
+			<md>F \le 375</md> 
 			<aside>
 				<p>
 					Remember <m>\le</m> stands for <term>less than or equal to</term>.
@@ -74,7 +74,7 @@
 
 		<p>
 			But remember, we do also have an equation relating <m>F</m> and <m>C</m>, which is <m>F=1.8C+32</m>. This means that <m>F</m> and <m>1.8C+32</m> are exactly the same! Whenever two things are the same, you can replace one by the other. So, we can replace <m>F</m> in our inequality by <m>1.8C+32</m> to get:
-			<me>1.8C+32 \le 375</me> 
+			<md>1.8C+32 \le 375</md> 
 			We're looking for values of <m>C</m> that make the left-hand side a number that's smaller than, or maybe as large as, 375, but no larger. 
 		</p>
 
@@ -94,7 +94,7 @@
 		</p>
 
 		<p>
-			which simplifes to <me>1.8C\le375-32=343</me>
+			which simplifes to <md>1.8C\le375-32=343</md>
 		</p>
 
 		<p>
@@ -102,7 +102,7 @@
 		</p>
 
 		<p>
-			Back to our example. We had <m>1.8C\le343</m>. Divide each side by 1.8 to get <me>\frac{\cancel{1.8}C}{\cancel{1.8} }\le \frac{343}{1.8}</me> which simplifies to <me>C\le \frac{343}{1.8}= 343 \div 1.8 = 190.555555\ldots \approx 190^\circ C</me> The oven should be set at most 190<degree/>C. We rounded down because we do not want the brownies to burn.
+			Back to our example. We had <m>1.8C\le343</m>. Divide each side by 1.8 to get <md>\frac{\cancel{1.8}C}{\cancel{1.8} }\le \frac{343}{1.8}</md> which simplifies to <md>C\le \frac{343}{1.8}= 343 \div 1.8 = 190.555555\ldots \approx 190^\circ C</md> The oven should be set at most 190<degree/>C. We rounded down because we do not want the brownies to burn.
 		</p>
 
 		<p>
@@ -120,7 +120,7 @@
 		</p>
 
 		<p>
-			For example, we can swap sides of an equation, but if we swap sides of an inequality then the direction of the sign reverses. In this brownie example, we want <me>F \ge 325</me> Remember <m>\ge</m> stands for <term>greater than or equal to</term>. That's like <q>big</q> <m>\ge</m> <q>little.</q> We can rewrite that inequality as <q>little</q> <m>\le</m> <q>big,</q> or equivalently <me>325 \le F</me> In each case, <m>325</m> is <q>little</q> and <m>F</m> is <q>big</q>. Make sense?
+			For example, we can swap sides of an equation, but if we swap sides of an inequality then the direction of the sign reverses. In this brownie example, we want <md>F \ge 325</md> Remember <m>\ge</m> stands for <term>greater than or equal to</term>. That's like <q>big</q> <m>\ge</m> <q>little.</q> We can rewrite that inequality as <q>little</q> <m>\le</m> <q>big,</q> or equivalently <md>325 \le F</md> In each case, <m>325</m> is <q>little</q> and <m>F</m> is <q>big</q>. Make sense?
 		</p>
 
 		<p>
@@ -139,7 +139,7 @@
 		</p>
 
 		<p>
-			Inequalities are a very useful notation for indicating <q>between</q>. We want between 325<degree/>F and 375<degree/>F to bake the brownies. We can write <me>325 \le F \le 375</me> which is read
+			Inequalities are a very useful notation for indicating <q>between</q>. We want between 325<degree/>F and 375<degree/>F to bake the brownies. We can write <md>325 \le F \le 375</md> which is read
 		</p>
 
 
@@ -153,29 +153,29 @@
 
 		<p>
 			The good news is that we can solve this chain of inequalities all at once using the same steps as before but now being sure to do the same thing to all <em>three</em> sides. <q><em>Three</em> sides?</q> you ask. Yes, <q>three,</q> I confirm. Watch how this works. Start with
-			<me>325 \le F \le 375</me> 
+			<md>325 \le F \le 375</md> 
 			Using the equation <m>F=1.8C + 32</m> to replace <m>F</m>, we get 
-			<me>325 \le 1.8C + 32 \le 375</me> 
+			<md>325 \le 1.8C + 32 \le 375</md> 
 			Subtract 32 from each of the three sides to get
-			<me>
+			<md>
 				\begin{array} {ccc cc}
 					325 \amp \le \amp 1.8C + \cancel{32} \amp  \le \amp 375 \\ 
 					-32 \amp\amp -\cancel{32} \amp\amp -32 \\ 
 				\end{array}
-			</me>
+			</md>
 			
-			which simplifies to <me>293 \le 1.8C \le 343</me>
+			which simplifies to <md>293 \le 1.8C \le 343</md>
 		</p>
 
 		<p>
 			Next, divide all three sides by 1.8 to get
-			<me>
+			<md>
 				\dfrac{293}{1.8} \leq 
 				\dfrac{\cancel{1.8}C}{\cancel{1.8}} \leq 
 				\dfrac{343}{1.8}
-			</me>
+			</md>
 			
-			which simplifies to <me>293\div 1.8 \le C \le 343 \div 1.8</me> so, <me>162.777777\ldots \le C \le 190.555555\ldots</me> Probably best to say <me>163 \le C \le 190</me> Chocolate brownies bake between 163<degree/>C and 190<degree/>C. Ovens actually aren't that precise, so somewhere between 170<degree/>C and 190<degree/>C should do the job.
+			which simplifies to <md>293\div 1.8 \le C \le 343 \div 1.8</md> so, <md>162.777777\ldots \le C \le 190.555555\ldots</md> Probably best to say <md>163 \le C \le 190</md> Chocolate brownies bake between 163<degree/>C and 190<degree/>C. Ovens actually aren't that precise, so somewhere between 170<degree/>C and 190<degree/>C should do the job.
 		</p>
 
 		<p>

@@ -4,9 +4,9 @@
     <statement>
         <p>
             It's good practice to check that when you evaluate, and then round appropriately, you get the same numbers we've written down in the textbook. Remember, our equation is 
-            <me>
+            <md>
                 P = 1.049 \ast 1.0072^Y
-            </me>
+            </md>
             
         </p>
         <ol marker="(a)">

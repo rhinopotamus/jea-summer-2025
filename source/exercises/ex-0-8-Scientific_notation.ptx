@@ -106,7 +106,7 @@
                                 <xref ref="bunnies-modeling-exponential"/>)
                             </p>
                         </aside>
-                        In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: <me>1800 \ast 1.13 \wedge 166=</me> Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) 
+                        In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: <md>1800 \ast 1.13 \wedge 166=</md> Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) 
                     </p>
                 </statement>
             </task>
@@ -121,7 +121,7 @@
                                 <xref ref="fiber-optic-growth-decay"/>)
                             </p>
                         </aside>
-                        Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <me>0.98 \wedge 1000=</me> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) 
+                        Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <md>0.98 \wedge 1000=</md> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) 
                     </p>
                 </statement>
             </task>

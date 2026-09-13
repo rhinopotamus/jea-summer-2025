@@ -88,7 +88,7 @@
 		<exercise xml:id="stuffed-animals-PE6A" workspace="1.4in">
 			<introduction>
 				<p>
-					Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $<m>T</m> for <m>S</m> stuffed animals where <me>T = 39.99 + 6.95S</me>
+					Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $<m>T</m> for <m>S</m> stuffed animals where <md>T = 39.99 + 6.95S</md>
 				</p>
 			</introduction>
 			<task>
@@ -133,7 +133,7 @@
 			<task>
 				<statement>
 					<p>
-						Solve the inequality <me>200 \le 39.99 + 6.95S \le 300</me> What does the answer mean in terms of the story?
+						Solve the inequality <md>200 \le 39.99 + 6.95S \le 300</md> What does the answer mean in terms of the story?
 					</p>
 				</statement>
 			</task>
@@ -144,7 +144,7 @@
 		<exercise xml:id="lbd-PE6A" workspace="1.2in">
 			<introduction>
 				<p>
-					My favorite little black dress is machine washable. Unfortunately each time I wash it the color fades a little. The intensity of black color remaining, <m>B</m>, is a function of the number of times I have washed the dress, <m>W</m>, according to the equation <me>B=100 \ast 0.985^W</me>
+					My favorite little black dress is machine washable. Unfortunately each time I wash it the color fades a little. The intensity of black color remaining, <m>B</m>, is a function of the number of times I have washed the dress, <m>W</m>, according to the equation <md>B=100 \ast 0.985^W</md>
 				</p>
 			</introduction>
 			<task>
@@ -214,7 +214,7 @@
 		<exercise xml:id="business-sales-PE6A">
 			<introduction>
 				<p>
-					Dwight's company was doing great business in 2000, but a few years later sales began to drop, and have only gotten worse. Their sales $<m>S</m> in millions <m>T</m> years from 2000 is given by the following equation <me>S = 78.1+5.75T-0.7T^2</me>
+					Dwight's company was doing great business in 2000, but a few years later sales began to drop, and have only gotten worse. Their sales $<m>S</m> in millions <m>T</m> years from 2000 is given by the following equation <md>S = 78.1+5.75T-0.7T^2</md>
 
 				</p>
 				<image source='salesquad.png'/>
@@ -240,7 +240,7 @@
 		<exercise xml:id="infant-weight-PE6A">
 			<introduction>
 				<p>
-					Infants are regularly checked to make sure they are growing accordingly. The World Health Organization publishes growth charts to evaluate infant weight <m>W</m> in kilograms at a given age <m>A</m> in months since birth (for up to three years). An equation that describes an average infant boy is the following: <me>W=15-11.5\ast0.932^A</me>
+					Infants are regularly checked to make sure they are growing accordingly. The World Health Organization publishes growth charts to evaluate infant weight <m>W</m> in kilograms at a given age <m>A</m> in months since birth (for up to three years). An equation that describes an average infant boy is the following: <md>W=15-11.5\ast0.932^A</md>
 				</p>
 			</introduction>
 			<task workspace="3in">
@@ -253,7 +253,7 @@
 			<task>
 				<statement>
 					<p>
-						Convert your answer for 4 months to pounds and ounces using <me>1 \text{ kilogram } \approx 2.2 \text{ pounds} \quad \text{ and } \quad 1 \text{ pound } = 16 \text{ ounces}</me> <em>Hint: first convert to pounds. Then convert just the decimal part to ounces.</em>
+						Convert your answer for 4 months to pounds and ounces using <md>1 \text{ kilogram } \approx 2.2 \text{ pounds} \quad \text{ and } \quad 1 \text{ pound } = 16 \text{ ounces}</md> <em>Hint: first convert to pounds. Then convert just the decimal part to ounces.</em>
 					</p>
 				</statement>
 			</task>
@@ -264,7 +264,7 @@
 		<exercise xml:id="fudge-square-PE6A" workspace="0.75in">
 			<introduction>
 				<p>
-					Gail calculated that number of pieces of fudge <m>F</m> she can cut from a square that is <m>D</m> inches on each edge is given by the formula <me>F=1.5625\, D^2</me>
+					Gail calculated that number of pieces of fudge <m>F</m> she can cut from a square that is <m>D</m> inches on each edge is given by the formula <md>F=1.5625\, D^2</md>
 				</p>
 			</introduction>
 			<task>

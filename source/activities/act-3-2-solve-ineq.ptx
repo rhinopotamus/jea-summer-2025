@@ -4,9 +4,9 @@
     <statement>
         <p>
             In <xref ref="act-3-2-setup-ineq" text="type-global" />, we set up the inequality
-            <me>
+            <md>
                 3{,}900 + 4.2B \leq 18{,}000
-            </me>
+            </md>
             to express the fact that a truck must obey the state highway weight limit of 18,000 pounds. 
         </p>
         <ol marker="(a)">
@@ -18,7 +18,7 @@
             <li>
                 <p>
                     Another way we could have set up this inequality is 
-                    <me>18{,}000 \geq 3{,}900 + 4.2B</me>
+                    <md>18{,}000 \geq 3{,}900 + 4.2B</md>
                     Explain why this inequality expresses the same fact about trucks obeying the weight limit.
                 </p>
             </li>

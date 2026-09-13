@@ -68,13 +68,13 @@
 				<mrow>Y \amp= \text{ time (years since 2024) } \sim \text{ indep} </mrow>
 			</md>
 			Since there is a fixed percentage growth, or at least that's what we're assuming, the population grows exponentially. The template for an exponential equation is 
-			<me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me>
+			<md>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</md>
 			For India's population, we know that the growth rate is 
-			<me>r=0.72\% = \frac{0.72}{100} = 0.72 \div 100 = 0.0072</me> 
+			<md>r=0.72\% = \frac{0.72}{100} = 0.72 \div 100 = 0.0072</md> 
 			so the corresponding growth factor is 
-			<me>g=1+r=1+0.0072=1.0072</me> 
+			<md>g=1+r=1+0.0072=1.0072</md> 
 			We also know that the starting population is 1.409 billion in 2024. We're good to go. The equation is 
-			<me>P = 1.409 \ast 1.0072^Y</me>
+			<md>P = 1.409 \ast 1.0072^Y</md>
 		</p>
 
 		<p>
@@ -102,7 +102,7 @@
 
 		<p>
 			Since we can easily check and see if any number is a solution, one way to find the solution is to <term>guess and check</term>. Let's try that to determine when India's population will pass 1.6 billion people. Since we're not sure where to start, let's see what the equation projects for 2025, when <m>Y=1</m>. 
-			<me>P=1.409 \ast 1.0072^1 = 1.409 \times 1.0072 \wedge \underline{1} = 1.4191448\ldots \approx 1.419 \text{ billion}</me> 
+			<md>P=1.409 \ast 1.0072^1 = 1.409 \times 1.0072 \wedge \underline{1} = 1.4191448\ldots \approx 1.419 \text{ billion}</md> 
 			Hardly budged. Well, comparatively.
 			<aside>
 				<p>
@@ -113,15 +113,15 @@
 
 		<p>
 			What about in 5 years? The corresponding population is 
-			<me>P=1.409 \ast 1.0072^5 = 1.409 \times 1.0072 \wedge \underline{5} = 1.4604597\approx  1.460\text{ billion}</me> 
+			<md>P=1.409 \ast 1.0072^5 = 1.409 \times 1.0072 \wedge \underline{5} = 1.4604597\approx  1.460\text{ billion}</md> 
 			Less than 1.6 billion. Let's try <m>Y=10</m>. The equation gives us 
-			<me>P=1.409 \ast 1.0072^{10} = 1.409 \times 1.0072 \wedge \underline{10} = 1.5137988 \approx 1.514 \text{ billion}</me> 
+			<md>P=1.409 \ast 1.0072^{10} = 1.409 \times 1.0072 \wedge \underline{10} = 1.5137988 \approx 1.514 \text{ billion}</md> 
 			Still much less than 1.6 billion.
 		</p>
 
 		<p>
 			This is going slowly. We would really like to find a point at which the equation gives us more than 1.6 billion. Then we can work backwards from there to narrow things down. How about 50 years? 
-			<me>P=1.409 \ast 1.0072^{50} = 1.409 \times 1.0072 \wedge \underline{50} = 2.016958  \approx 2.017\text{ billion}</me> 
+			<md>P=1.409 \ast 1.0072^{50} = 1.409 \times 1.0072 \wedge \underline{50} = 2.016958  \approx 2.017\text{ billion}</md> 
 			That's too much, but the good news is now we know the solution is between 10 years and 50 years.
 			<aside>
 				<p>
@@ -240,7 +240,7 @@
 		<xi:include href="./activities/act-2-4-check.ptx" />
 
 		<p>
-			According to our equation, the population of the India should pass 1.6 billion after 17 years, which would be in the year 2028. By the way, it works to add the year and number. <me>2024 + 17 \text{ years } = 2041</me>
+			According to our equation, the population of the India should pass 1.6 billion after 17 years, which would be in the year 2028. By the way, it works to add the year and number. <md>2024 + 17 \text{ years } = 2041</md>
 		</p>
 
 		<p>

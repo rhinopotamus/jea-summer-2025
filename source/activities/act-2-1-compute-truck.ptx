@@ -4,11 +4,11 @@
     <statement>
         <p>
             A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs 3,900 pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck carrying 1,000 bags of grass seed weighs
-            <me>
+            <md>
                 3{,}900 \text{ pounds} + \frac{4.2 \text{ pounds}}{\text{bag}} \ast 1{,}000 \text{  bags} 
                 = 3{,}900 + 4.2\times 1{,}000
                 = 8{,}100 \text{ pounds}
-            </me>
+            </md>
             
         </p>
         <ol marker="(a)">

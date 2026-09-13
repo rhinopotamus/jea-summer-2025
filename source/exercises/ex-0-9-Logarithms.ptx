@@ -72,7 +72,7 @@
                 </p>
                 
                 <p>
-                    For example, lemon juice has <m>H^+= 0.0025</m> and so the pH of lemon juice is <me>-\log(0.0025) = \text{(-)} \log(0.0025) = 2.6020599913 \approx 2.6</me>
+                    For example, lemon juice has <m>H^+= 0.0025</m> and so the pH of lemon juice is <md>-\log(0.0025) = \text{(-)} \log(0.0025) = 2.6020599913 \approx 2.6</md>
                 </p>
             </introduction>
             <task>
@@ -167,7 +167,7 @@
     <exercise xml:id="decibels-logarithms" component="not-workbook">
         <introduction>
             <p>
-                The intensity of a sound in decibels is calculated using a logarithm. For example, a sound 100 times the level humans can hear has an intensity of <me>10\log (100)= 10 \times \log(100)= 20\text{ decibels}</me>
+                The intensity of a sound in decibels is calculated using a logarithm. For example, a sound 100 times the level humans can hear has an intensity of <md>10\log (100)= 10 \times \log(100)= 20\text{ decibels}</md>
             </p>
         </introduction>
         <task>

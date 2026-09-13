@@ -424,7 +424,7 @@
 		<task>
 			<statement>
 				<p>
-					The best fitting line has equation <me>W=5{,}072.2-82.41T</me> Make a table of values and use it to graph that line as well.
+					The best fitting line has equation <md>W=5{,}072.2-82.41T</md> Make a table of values and use it to graph that line as well.
 				</p>
 			</statement>
 		</task>
@@ -571,7 +571,7 @@
 		<task>
 			<statement>
 				<p>
-					The best fitting line has equation approximately <me>R=732.86-95.179N</me> Plot three points on that line and use them to draw it on your scatter plot.
+					The best fitting line has equation approximately <md>R=732.86-95.179N</md> Plot three points on that line and use them to draw it on your scatter plot.
 				</p>
 			</statement>
 		</task>
@@ -777,7 +777,7 @@
 		<task>
 			<statement>
 				<p>
-					The best fitting line for chicken is <me>C =3.6375+0.2854Y</me> and the best fitting line for beef is <me>B=11.774+0.007Y</me> Set up and solve a system of linear equations to find the year when chicken and red meat consumption will likely be equal. How does this answer compare to your estimate?
+					The best fitting line for chicken is <md>C =3.6375+0.2854Y</md> and the best fitting line for beef is <md>B=11.774+0.007Y</md> Set up and solve a system of linear equations to find the year when chicken and red meat consumption will likely be equal. How does this answer compare to your estimate?
 				</p>
 			</statement>
 		</task>

@@ -26,9 +26,9 @@
 						</p>
 					</aside>
 					Assuming a 16-inch pizza serves four people, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
-					<me>
+					<md>
 						P = 0.015625\ D^2.
-					</me>
+					</md>
 				</p>
 			</introduction>
 			<!-- <task workspace="0.5cm">
@@ -140,7 +140,7 @@
 						</p>
 					</aside>
 					He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by 
-					<me>P= 10S^9-9S^{10}</me>
+					<md>P= 10S^9-9S^{10}</md>
 				</p>
 			</introduction>
 			<task workspace="1in">
@@ -253,7 +253,7 @@
 						Source: CIA Factbook
 					</p>
 				</aside>
-				An equation estimating the population of China is <me>P = 1.343 \ast 1.0048^Y</me> where <m>P</m> is the population of China (measured in billions) and <m>Y</m> is the years since 2011.
+				An equation estimating the population of China is <md>P = 1.343 \ast 1.0048^Y</md> where <m>P</m> is the population of China (measured in billions) and <m>Y</m> is the years since 2011.
 			</p>
 		</introduction>
 		<task>
@@ -298,7 +298,7 @@
 						(Story also appears in <xref ref="electronics-sales-solving-quadratic"/>)
 					</p>
 				</aside>
-				Their sales <m>M</m> in millions of dollars <m>Y</m> years from 1996 is given by the following equation <me>M = 104.4+11.5Y-1.4Y^2</me>
+				Their sales <m>M</m> in millions of dollars <m>Y</m> years from 1996 is given by the following equation <md>M = 104.4+11.5Y-1.4Y^2</md>
 			</p>
 		</introduction>	
 		<task>
@@ -336,7 +336,7 @@
 						<xref ref="window-glass-solving-exponential"/>)
 					</p>
 				</aside>
-				If two panes of this glass are used, the product is 2 inches thick and lets in 56.25% since <me>75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%</me> 
+				If two panes of this glass are used, the product is 2 inches thick and lets in 56.25% since <md>75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%</md> 
 			</p>
 		</introduction>	
 		<task>
@@ -392,7 +392,7 @@
 						<xref ref="wind-turbine-solving-power"/>)
 					</p>
 				</aside>
-				For a particular wind turbine, the equation <me>W = 2.4 S^3</me> can be used to calculate the amount of electricity generated (<m>W</m> watts) for a given wind speed (<m>S</m> mph), over a fixed period of time.
+				For a particular wind turbine, the equation <md>W = 2.4 S^3</md> can be used to calculate the amount of electricity generated (<m>W</m> watts) for a given wind speed (<m>S</m> mph), over a fixed period of time.
 			</p>
 		</introduction>	
 		<task>
@@ -431,7 +431,7 @@
 						<xref ref="bac-solving-exponential"/>)
 					</p>
 				</aside>
-				The equation is <me>S = 0.04 \ast 1.45^H</me> where <m>S</m> is Stephen's BAC and <m>H</m> is the time, measured in hours.
+				The equation is <md>S = 0.04 \ast 1.45^H</md> where <m>S</m> is Stephen's BAC and <m>H</m> is the time, measured in hours.
 			</p>
 		</introduction>	
 		<task>
@@ -470,7 +470,7 @@
 						<xref ref="gravel-path-quadratic"/>)
 					</p>
 				</aside>
-				What was once an abandoned lot down the block is now a thriving 10<prime/><m>\times</m>25<prime/> vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<m>G</m> cubic feet) is given by the equation <me>G = W^2 + 17.5W</me> where <m>W</m> is the width of the path in feet.
+				What was once an abandoned lot down the block is now a thriving 10<prime/><m>\times</m>25<prime/> vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<m>G</m> cubic feet) is given by the equation <md>G = W^2 + 17.5W</md> where <m>W</m> is the width of the path in feet.
 			</p>
 			<p>
 				<image source='GravelPath.png'/>

@@ -27,11 +27,11 @@
         </md>
 
         Let's spend some time thinking about how these numbers relate to each other. For instance, since
-        <me>
+        <md>
             \dfrac{1 \textbf{ million}}{1 \textbf{ thousand}} = 
             \dfrac{1{,}000{,}\cancel{000}}{1{,}\cancel{000}} =
             1{,}000
-        </me>,
+        </md>,
         a million is a thousand thousands.
     </p>
     <ol marker="(a)">

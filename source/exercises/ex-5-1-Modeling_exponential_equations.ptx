@@ -71,7 +71,7 @@
 							<xref ref="sec-5-5-Logistic_growth" text="type-global" />)
 						</p>
 					</aside>
-					Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation <me>N=8 \ast1.16^T</me> where <m>T</m> is the time in days (since the first diagnosis) and <m>N</m> is the total number of students who had the flu. 
+					Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation <md>N=8 \ast1.16^T</md> where <m>T</m> is the time in days (since the first diagnosis) and <m>N</m> is the total number of students who had the flu. 
 				</p>
 			</introduction>
 			<task workspace="0.5in">
@@ -118,7 +118,7 @@
 							<xref ref="bunnies-first-look-exponential"/>)
 						</p>
 					</aside>
-					Earlier we found the equation <me>B = 1{,}800 \ast 1.13^T</me> where <m>B</m> is the number of bunnies and <m>T</m> is the time in years since 2007. 
+					Earlier we found the equation <md>B = 1{,}800 \ast 1.13^T</md> where <m>B</m> is the number of bunnies and <m>T</m> is the time in years since 2007. 
 				</p>
 			</introduction>
 			<task workspace="0.75in">
@@ -279,9 +279,9 @@
 		<introduction>
 			<p>
 				The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation 
-				<me>
+				<md>
 					N = 2 \ast 1.57^W
-				</me>
+				</md>
 				<aside>
 					<p>
 						(Story also appears in <xref ref="drawing-game-growth-factor"/>)
@@ -387,7 +387,7 @@
 						(Story also appears in <xref ref="um-archivo-first-look-exponential"/>)
 					</p>
 				</aside>
-				At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation <me>U = 42.7 \ast 1.17^Y</me> where <m>U</m> is Um Archivo's reported earnings (in $billions) and <m>Y</m> is the years since 2012. 
+				At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation <md>U = 42.7 \ast 1.17^Y</md> where <m>U</m> is Um Archivo's reported earnings (in $billions) and <m>Y</m> is the years since 2012. 
 			</p>
 		</introduction>	
 			<task>

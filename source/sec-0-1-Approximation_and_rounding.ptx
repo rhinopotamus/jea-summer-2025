@@ -28,7 +28,7 @@
 		</p>
 
 		<p>
-			For example, suppose we read that the comprehensive fee at a local university is around $23,000 and projected to increase by 12% per year. We want to calculate the comprehensive fee in 4 years. As we'll learn later in this course, the answer is <me>36{,}190.945\ldots</me> The dots indicate that we have not copied all the digits from the calculator. We could round to the nearest penny and say <q>around $36,190.95.</q> Or, we could round to the nearest dollar and say <q>around $36,191.</q> The numbers we are given ($23,000 and 12%) have only two digits that matter, however, so we should actually round off and say <q>just over $36,000.</q>
+			For example, suppose we read that the comprehensive fee at a local university is around $23,000 and projected to increase by 12% per year. We want to calculate the comprehensive fee in 4 years. As we'll learn later in this course, the answer is <md>36{,}190.945\ldots</md> The dots indicate that we have not copied all the digits from the calculator. We could round to the nearest penny and say <q>around $36,190.95.</q> Or, we could round to the nearest dollar and say <q>around $36,191.</q> The numbers we are given ($23,000 and 12%) have only two digits that matter, however, so we should actually round off and say <q>just over $36,000.</q>
 		</p>
 
 		<p>
@@ -48,7 +48,7 @@
 		</p>
 
 		<p>
-			For example, during Happy Hour at a local restaurant, buffalo wings sell for 60¢ per wing. Your buddy only has $7. After a quick calculation on his cell phone he decides to order a dozen wings. Your buddy probably calculated <me>7 \div 0.60 = 11.6666666\ldots \approx 12</me> Trouble is he cannot afford a dozen wings, because they would cost $7.20. (Check <m>12 \times 0.60 = \$7.20</m>.) Not to mention the tax, tip, and that beer he drank. Good thing you can point him to the bank machine so he can get cash and you won't have to pay his tab (again). What's the trouble here? Besides ignoring tax, tip, and that beer he rounded <em>off</em> when he should have rounded <em>down</em>: <me>7 \div 0.60 = 11.6666666\ldots \approx 11</me> It should be clear from the story whether you will need to round off, round up, or round down. Again, our mantra is: the answer depends on the question.
+			For example, during Happy Hour at a local restaurant, buffalo wings sell for 60¢ per wing. Your buddy only has $7. After a quick calculation on his cell phone he decides to order a dozen wings. Your buddy probably calculated <md>7 \div 0.60 = 11.6666666\ldots \approx 12</md> Trouble is he cannot afford a dozen wings, because they would cost $7.20. (Check <m>12 \times 0.60 = \$7.20</m>.) Not to mention the tax, tip, and that beer he drank. Good thing you can point him to the bank machine so he can get cash and you won't have to pay his tab (again). What's the trouble here? Besides ignoring tax, tip, and that beer he rounded <em>off</em> when he should have rounded <em>down</em>: <md>7 \div 0.60 = 11.6666666\ldots \approx 11</md> It should be clear from the story whether you will need to round off, round up, or round down. Again, our mantra is: the answer depends on the question.
 		</p>
 	</introduction>
 

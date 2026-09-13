@@ -9,10 +9,10 @@
             <li>
                 <p>
                     In our example calculation, we figured out the weight of the truck when it is carrying 1,000 bags of grass seed:
-                    <me>
+                    <md>
                         3{,}900 \text{ pounds} + \frac{4.2 \text{ pounds}}{\text{bag}} \ast 1{,}000 \text{  bags} 
                         = 8{,}100 \text{ pounds}
-                    </me>
+                    </md>
                     Which numbers in this calculation are constants, and which numbers are values of variables?
                 </p>
             </li>

@@ -17,7 +17,7 @@
 							<xref ref="truck-grass-linear-ineq" />)
 						</p>
 					</aside>
-					Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3{,}900 + 4.2B</me> for <m>B</m> bags of grass seed. 
+					Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <md>W = 3{,}900 + 4.2B</md> for <m>B</m> bags of grass seed. 
 				</p>
 			</introduction>
 			<task workspace="3in">
@@ -86,7 +86,7 @@
 		<exercise xml:id="truffles-solving-linear">
 			<introduction>
 				<p>
-					Lizbeth wants to send her mom truffles for Mother's Day. It costs $<m>C</m> to send a box of <m>T</m> truffles where <me>C = 1.90T+7.95</me>
+					Lizbeth wants to send her mom truffles for Mother's Day. It costs $<m>C</m> to send a box of <m>T</m> truffles where <md>C = 1.90T+7.95</md>
 				</p>
 			</introduction>
 			<task workspace="1in">
@@ -142,9 +142,9 @@
 						</p>
 					</aside>
 					They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is 
-					<me>
+					<md>
 						B = 7.16 - 0.02H
-					</me> 
+					</md> 
 					where $<m>B</m> is the price of the bacon double cheeseburger and <m>H</m> is the daily high temperature, in °F. 
 				</p>
 			</introduction>
@@ -184,7 +184,7 @@
 	<exercise xml:id="charter-boat-solving-linear" component="not-workbook">
 		<introduction>
 			<p>
-				A charter boat tour costs <m>\$C</m> for <m>P</m> passengers, where <me>C = 135.00 + 11.95P</me>
+				A charter boat tour costs <m>\$C</m> for <m>P</m> passengers, where <md>C = 135.00 + 11.95P</md>
 			</p>
 		</introduction>	
 			<task>
@@ -237,7 +237,7 @@
 						(Story also appears in <xref ref="restaurant-first-look-linear"/>)
 					</p>
 				</aside>
-				He spent $82,500 to get started but hopes to earn back $6,300 each month. Earlier we determined that <me>A = 6{,}300M - 82{,}500</me> describes how Abduwali's profit $<m>A</m> is a function of how long he works (<m>M</m> months).
+				He spent $82,500 to get started but hopes to earn back $6,300 each month. Earlier we determined that <md>A = 6{,}300M - 82{,}500</md> describes how Abduwali's profit $<m>A</m> is a function of how long he works (<m>M</m> months).
 			</p>
 		</introduction>	
 		<task>
@@ -312,7 +312,7 @@
 						<xref ref="treadmill-solving-linear"/>)
 					</p>
 				</aside>
-				Recall <me>C=125M</me> where <m>C</m> is the number of calories Gretchen burns by walking <m>M</m> miles.
+				Recall <md>C=125M</md> where <m>C</m> is the number of calories Gretchen burns by walking <m>M</m> miles.
 			</p>
 		</introduction>	
 		<task>
@@ -343,7 +343,7 @@
 	<exercise xml:id="strawberries-solving-linear" component="not-workbook">
 		<introduction>
 			<p>
-				The more expensive something is, the less likely we are to buy it. Well, if we have a choice. For example, when strawberries are in the peak of season, they cost about $2.50 per pint at my neighborhood farmer's market and demand is approximately 180 pints. (That means, people want to buy about 180 pints at that price.) We approximate that the demand, <m>D</m> pints, depends on the price, $<m>P</m>, as described by the equation <me>D = 305 - 50P</me>
+				The more expensive something is, the less likely we are to buy it. Well, if we have a choice. For example, when strawberries are in the peak of season, they cost about $2.50 per pint at my neighborhood farmer's market and demand is approximately 180 pints. (That means, people want to buy about 180 pints at that price.) We approximate that the demand, <m>D</m> pints, depends on the price, $<m>P</m>, as described by the equation <md>D = 305 - 50P</md>
 			</p>
 		</introduction>	
 		<task>
@@ -388,7 +388,7 @@
 						(Story also appears in <xref ref="traffic-first-look-linear"/>)
 					</p>
 				</aside>
-				The economy is improving (finally), but with that the county manager predicts traffic levels will increase around 130 more cars per hour each week for the next couple of weeks. Earlier we found the equation <me>C=1{,}450 + 130W</me> where <m>C</m> is the number of cars per hour during the morning rush <m>W</m> weeks since the country manager made her projection.
+				The economy is improving (finally), but with that the county manager predicts traffic levels will increase around 130 more cars per hour each week for the next couple of weeks. Earlier we found the equation <md>C=1{,}450 + 130W</md> where <m>C</m> is the number of cars per hour during the morning rush <m>W</m> weeks since the country manager made her projection.
 			</p>
 		</introduction>	
 		<task>

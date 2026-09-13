@@ -4,7 +4,7 @@
     <statement>
         <p>
             A pizza of diameter <m>D</m> inches serves <m>P</m> people where 
-            <me>P = 0.015625\, D^2.</me>
+            <md>P = 0.015625\, D^2.</md>
             Let's think about the evaluating steps in this equation.
         </p>
         <ol marker="(a)">

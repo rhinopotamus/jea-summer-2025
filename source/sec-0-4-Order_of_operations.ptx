@@ -38,7 +38,7 @@
 		</md>
 
 		<p>
-			Cole found an even quicker way to check the balance. He did not hit <m>=</m> until the very end of the calculation. He just did the calculation all in one line. <me>529.16 - 200 + 42.78 + 30 - 17.43 + 618.25 = \$1002.76</me>
+			Cole found an even quicker way to check the balance. He did not hit <m>=</m> until the very end of the calculation. He just did the calculation all in one line. <md>529.16 - 200 + 42.78 + 30 - 17.43 + 618.25 = \$1002.76</md>
 		</p>
 
 		<p>
@@ -54,15 +54,15 @@
 		</p>
 
 		<p>
-			One way to calculate the answer is to first figure out how much the tree grew in 18 years. That is <me>\underbrace{2+2+ \ldots + 2}_\text{18 times}</me> which we calculate as <me>18 \times 2 = 36</me> Next, we add the original height plus how much the tree grew to get <me>36+5=41</me> The tree was 41 feet tall after 18 years.
+			One way to calculate the answer is to first figure out how much the tree grew in 18 years. That is <md>\underbrace{2+2+ \ldots + 2}_\text{18 times}</md> which we calculate as <md>18 \times 2 = 36</md> Next, we add the original height plus how much the tree grew to get <md>36+5=41</md> The tree was 41 feet tall after 18 years.
 		</p>
 
 		<p>
-			Inspired by Cole's one-line calculation, let's do this calculation all in one line. One option is <me>18 \times 2 + 5=</me> Notice we are only hitting the <m>=</m> key at the end. We get 41 feet, again.
+			Inspired by Cole's one-line calculation, let's do this calculation all in one line. One option is <md>18 \times 2 + 5=</md> Notice we are only hitting the <m>=</m> key at the end. We get 41 feet, again.
 		</p>
 
 		<p>
-			But wait! What if I wanted to enter the starting height first (5 feet) and then add on how much the tree grew (36 feet). I should be able to do that because <m>5 + 36 = 41</m> also. What happens when you enter <me>5+18 \times 2=?</me> You should get 41 again.
+			But wait! What if I wanted to enter the starting height first (5 feet) and then add on how much the tree grew (36 feet). I should be able to do that because <m>5 + 36 = 41</m> also. What happens when you enter <md>5+18 \times 2=?</md> You should get 41 again.
 		</p>
 
 		<p>
@@ -117,7 +117,7 @@
 		</p>
 
 		<p>
-			The good news is that your calculator does the operations in exactly this order. For example, remember Jarron who was calculating his BMI? He entered <me>91.625 \div 1.93 \wedge 2 = 24.7479\ldots \approx 24.8</me> which is in the range considered healthy. Of course, there are many more factors to health besides height and weight. Like getting enough exercise is really important. But, back to the calculation, how did that work?
+			The good news is that your calculator does the operations in exactly this order. For example, remember Jarron who was calculating his BMI? He entered <md>91.625 \div 1.93 \wedge 2 = 24.7479\ldots \approx 24.8</md> which is in the range considered healthy. Of course, there are many more factors to health besides height and weight. Like getting enough exercise is really important. But, back to the calculation, how did that work?
 		</p>
 
 		<p>
@@ -142,15 +142,15 @@
 		</p>
 
 		<p>
-			First we need to calculate the total number of students <me>3+15+11+5 = 34</me> There are 34 students and 15 identify as Hmong. That means the proportion of Hmong students is <me>15 \div 34 = 0.4411\ldots</me> and so the percentage of students in the group who are Hmong is <me>0.4411 \times 100 = 44.11 \approx 44 \%</me> Notice we can do these last two calculations in one line as <me>15 \div 34 \times 100 = 0.4411\ldots</me> because multiplication (<m>\times</m>) and division (<m>\div</m>) are tied for priority in the order of operations.
+			First we need to calculate the total number of students <md>3+15+11+5 = 34</md> There are 34 students and 15 identify as Hmong. That means the proportion of Hmong students is <md>15 \div 34 = 0.4411\ldots</md> and so the percentage of students in the group who are Hmong is <md>0.4411 \times 100 = 44.11 \approx 44 \%</md> Notice we can do these last two calculations in one line as <md>15 \div 34 \times 100 = 0.4411\ldots</md> because multiplication (<m>\times</m>) and division (<m>\div</m>) are tied for priority in the order of operations.
 		</p>
 
 		<p>
-			Can we do the entire calculation in one line? Sure, but it does not work to do <me>15 \div 3 + 15 + 11 + 5 \times 100=531 \text{ Oops!}</me> What did the calculator do? Since multiplication (<m>\times</m>) and division (<m>\div</m>) are higher priority than addition (<m>+</m>), the calculator first figured out that <m>15\div 3 = 5</m> and <m>5 \times 100 = 500</m> and then it calculated <m>5 + 15 + 11 + 500 = 531</m>. Argh.
+			Can we do the entire calculation in one line? Sure, but it does not work to do <md>15 \div 3 + 15 + 11 + 5 \times 100=531 \text{ Oops!}</md> What did the calculator do? Since multiplication (<m>\times</m>) and division (<m>\div</m>) are higher priority than addition (<m>+</m>), the calculator first figured out that <m>15\div 3 = 5</m> and <m>5 \times 100 = 500</m> and then it calculated <m>5 + 15 + 11 + 500 = 531</m>. Argh.
 		</p>
 
 		<p>
-			We wanted the calculator to do the addition (<m>+</m>) first. That's not the order of operations the calculator will use. What can we do to fix that? Parentheses to the rescue! Parentheses have the highest priority in the order of operations, meaning the calculator will evaluate inside the parentheses before doing any other operations. So we can do this calculation all in one line by using parentheses as <me>15 \div (3 + 15 + 11 + 5) \times 100= 44.11\ldots \text{ Whew!}</me>
+			We wanted the calculator to do the addition (<m>+</m>) first. That's not the order of operations the calculator will use. What can we do to fix that? Parentheses to the rescue! Parentheses have the highest priority in the order of operations, meaning the calculator will evaluate inside the parentheses before doing any other operations. So we can do this calculation all in one line by using parentheses as <md>15 \div (3 + 15 + 11 + 5) \times 100= 44.11\ldots \text{ Whew!}</md>
 		</p>
 
 		<p>

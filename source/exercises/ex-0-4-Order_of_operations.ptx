@@ -181,7 +181,7 @@
         <task>
             <statement>
                 <p>
-                    Valentina was trying to figure out the answer in one line on his calculator. He tried <me>4 + 1 \div 4 \div 12+29=</me> What answer does Valentina get? Oops!
+                    Valentina was trying to figure out the answer in one line on his calculator. He tried <md>4 + 1 \div 4 \div 12+29=</md> What answer does Valentina get? Oops!
                 </p>
             </statement>
         </task>
@@ -225,7 +225,7 @@
         <task>
             <statement>
                 <p>
-                    Cadde was trying to figure out the answer in one line on his calculator. He tried <me>5 \times 4 -1 \div 7</me> What answer did Cadde get? Oops!
+                    Cadde was trying to figure out the answer in one line on his calculator. He tried <md>5 \times 4 -1 \div 7</md> What answer did Cadde get? Oops!
                 </p>
             </statement>
         </task>

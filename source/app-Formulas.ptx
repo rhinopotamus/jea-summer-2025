@@ -16,9 +16,9 @@
         <assemblage>
             <title>Linear Equation Template</title>
             <p>
-                <me>
+                <md>
                     \text{dep} = \text{start} + \text{slope} \ast \text{indep}
-                </me>
+                </md>
             </p>
         </assemblage>
 
@@ -26,21 +26,21 @@
 			<title>Power Equation Template</title>
 			
 			
-			<p><me>\text{dep} = k \ast \text{indep}^{n}</me></p>
+			<p><md>\text{dep} = k \ast \text{indep}^{n}</md></p>
 		</assemblage>
 
         <assemblage>
 			<title>Quadratic Equation Template</title>
 				
 				
-			<p><me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me></p>
+			<p><md>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</md></p>
 		</assemblage>
 
         <assemblage>
             <title>Exponential Equation Template</title>
             
             
-            <p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
+            <p><md>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</md></p>
         </assemblage>
 
         
@@ -54,7 +54,7 @@
             
             
             <p>
-                <me>\text{rate of change } = \frac{\text{change dep}}{\text{change indep}} = \frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}}</me>
+                <md>\text{rate of change } = \frac{\text{change dep}}{\text{change indep}} = \frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}}</md>
             </p>
         </assemblage>
 
@@ -62,9 +62,9 @@
             <title>Intercept (of Linear) Formula</title>
             <p>
                 If we know a value of indep and the corresponding value of dep, then we can find the intercept:
-                <me>
+                <md>
                     \text{intercept} = \text{dep} - \text{slope}\ast\text{indep}
-                </me>
+                </md>
             </p>
         </assemblage>
 
@@ -76,12 +76,12 @@
                 <ul>
                     <li>
                         <p>
-                            If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
+                            If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <md>\displaystyle g=1+r</md>
                         </p>
                     </li>
                     <li>
                         <p>
-                            If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
+                            If the growth factor is <m>g</m>, then the growth rate is <md>r = g-1</md>
                         </p>
                     </li>
                 </ul>
@@ -93,7 +93,7 @@
                 
                 
             <p>
-                If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
+                If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <md>\displaystyle g = \sqrt[t]{\frac{a}{s}}</md> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
             </p>
         </assemblage>
         
@@ -107,7 +107,7 @@
                 
                 
             <p>
-                The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
+                The equation <m>C^n=v</m> has solution <md>C= \sqrt[n]{v}</md>
             </p>
         </assemblage>
 
@@ -116,7 +116,7 @@
                 
                 
             <p>
-                The equation <m>g^Y = v</m> has solution <me>Y = \frac{\log (v)}{\log(g)}</me>
+                The equation <m>g^Y = v</m> has solution <md>Y = \frac{\log (v)}{\log(g)}</md>
             </p>
         </assemblage>
 
@@ -125,7 +125,7 @@
             
             
             <p>
-                The equation <m>aT^2+bT+c=0</m> has solutions <me>T = \frac{-b}{2a} \pm \frac{\sqrt{b^2-4ac}}{2a}</me>
+                The equation <m>aT^2+bT+c=0</m> has solutions <md>T = \frac{-b}{2a} \pm \frac{\sqrt{b^2-4ac}}{2a}</md>
             </p>
         </assemblage>
         
@@ -138,7 +138,7 @@
                 
                 
             <p>
-                <me>a = p \left( 1 + \frac{r}{12}\right) ^{12y}</me>
+                <md>a = p \left( 1 + \frac{r}{12}\right) ^{12y}</md>
                 <ul>
                     <li>
                         <p>
@@ -169,7 +169,7 @@
                 
                 
             <p>
-                <me>\text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</me>
+                <md>\text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</md>
                 where <m>r</m> = interest rate compounded monthly (as a decimal)
             </p>
         </assemblage>
@@ -179,7 +179,7 @@
                 
                 
             <p>
-                <me>a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</me>
+                <md>a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</md>
                 
                 <ul>
                     <li>
@@ -211,7 +211,7 @@
                 
                 
             <p>
-                <me>p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</me>
+                <md>p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</md>
                 
                 <ul>
                     <li>

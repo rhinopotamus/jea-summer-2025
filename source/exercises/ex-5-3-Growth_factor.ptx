@@ -17,12 +17,12 @@
 					<ul>
 						<li>
 							<p>
-								If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
+								If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <md>\displaystyle g=1+r</md>
 							</p>
 						</li>
 						<li>
 							<p>
-								If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
+								If the growth factor is <m>g</m>, then the growth rate is <md>r = g-1</md>
 							</p>
 						</li>
 					</ul>
@@ -34,7 +34,7 @@
 					
 					
 				<p>
-					If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
+					If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <md>\displaystyle g = \sqrt[t]{\frac{a}{s}}</md> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
 				</p>
 			</assemblage>
 			
@@ -260,12 +260,12 @@
 							
 						</p>
 						<p>
-							<me>
+							<md>
 								g=
-							</me>
-							<me>
+							</md>
+							<md>
 								r =
-							</me>
+							</md>
 							
 						</p>
 						<p>
@@ -284,12 +284,12 @@
 							
 						</p>
 						<p>
-							<me>
+							<md>
 								g=
-							</me>
-							<me>
+							</md>
+							<md>
 								r =
-							</me>
+							</md>
 							
 						</p>
 						<p>
@@ -308,12 +308,12 @@
 							
 						</p>
 						<p>
-							<me>
+							<md>
 								g=
-							</me>
-							<me>
+							</md>
+							<md>
 								r =
-							</me>
+							</md>
 							
 						</p>
 						<p>
@@ -332,12 +332,12 @@
 							
 						</p>
 						<p>
-							<me>
+							<md>
 								g=
-							</me>
-							<me>
+							</md>
+							<md>
 								r =
-							</me>
+							</md>
 							
 						</p>
 						<p>
@@ -359,12 +359,12 @@
 							
 						</p>
 						<p>
-							<me>
+							<md>
 								g=
-							</me>
-							<me>
+							</md>
+							<md>
 								r =
-							</me>
+							</md>
 							
 						</p>
 						<p>
@@ -383,12 +383,12 @@
 							
 						</p>
 						<p>
-							<me>
+							<md>
 								g=
-							</me>
-							<me>
+							</md>
+							<md>
 								r =
-							</me>
+							</md>
 							
 						</p>
 						<p>
@@ -407,12 +407,12 @@
 							
 						</p>
 						<p>
-							<me>
+							<md>
 								g=
-							</me>
-							<me>
+							</md>
+							<md>
 								r =
-							</me>
+							</md>
 							
 						</p>
 						<p>
@@ -431,12 +431,12 @@
 							
 						</p>
 						<p>
-							<me>
+							<md>
 								g=
-							</me>
-							<me>
+							</md>
+							<md>
 								r =
-							</me>
+							</md>
 							
 						</p>
 						<p>
@@ -467,9 +467,9 @@
 								(Story also appears in <xref ref="sec-5-1-Modeling_exponential_equations"/> Exercises)
 							</p>
 						</aside>
-						<me>
+						<md>
 							R=2.5 \ast 1.072^T
-						</me> 
+						</md> 
 						where <m>T</m> is the time in years since 1990. 
 					</p>
 				</statement>
@@ -483,9 +483,9 @@
 								(Story also appears in <xref ref="chlorine-pool-solving-exponential"/>)
 							</p>
 						</aside>
-						<me>
+						<md>
 							C = 2.5 \ast 0.975^T
-						</me> 
+						</md> 
 					</p>
 				</statement>
 			</task>
@@ -504,9 +504,9 @@
 							</p>
 						</aside>
 						where <m>N</m> is the number of players (in millions) and <m>T</m> is the time in weeks since people started playing the game. 
-						<me>
+						<md>
 							N = 2 \ast 1.57^W
-						</me>
+						</md>
 					</p>
 				</statement>
 			</task>
@@ -564,9 +564,9 @@
 			<statement>
 				<p>
 					The light <m>L\%</m> that passes through panes of glass <m>W</m> inches thick is given by the equation 
-					<me>
+					<md>
 						L = 100\ast 0.75^W
-					</me> 
+					</md> 
 					<aside>
 						<p>
 							(Story also appears in <xref ref="window-glass-approx-solutions"/> and <xref ref="window-glass-solving-exponential"/>)
@@ -580,9 +580,9 @@
 			<statement>
 				<p>
 					The population of bacteria (<m>B</m>) in a culture dish after <m>D</m> days is given by the equation 
-					<me>
+					<md>
 						B=2{,}000\ast 3^D
-					</me>
+					</md>
 					<aside>
 						<p>
 							(Story also appears in <xref ref="bacteria-growth-decay"/>)
@@ -596,9 +596,9 @@
 			<statement>
 				<p>
 					The remaining contaminants (<m>C</m> grams) in a waste water sample after <m>M</m> months of treatment is given by 
-					<me>
+					<md>
 						C=8 \ast 0.25^M
-					</me> 
+					</md> 
 					<aside>
 						<p>
 							(Story also appears in <xref ref="wetlands-growth-decay"/>)

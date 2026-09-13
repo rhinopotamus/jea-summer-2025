@@ -4,9 +4,9 @@
     <statement>
         <p>
             It's tricky, and requires a bit of practice, to set up inequalities with the inequality sign pointing the right direction. We'll use the familiar example of the truck hauling bags of grass seed. Remember, the truck weighs 3,900 pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. The equation for the total weight is
-            <me>
+            <md>
                 W = 3{,}900 + 4.2B
-            </me>
+            </md>
             where
             <md>
 				<mrow>W \amp= \text{ total weight of the loaded truck (pounds)} \sim \text{ dep} </mrow>

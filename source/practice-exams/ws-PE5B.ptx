@@ -14,7 +14,7 @@
     <exercise xml:id="ELLs-PE5B">
         <introduction>
             <p>
-                The number of school children in the district whose first language in not English has been on the rise. The equation describing the situation is <me>C=673(1.043)^T</me> where <m>C</m> is the number of school children in the district whose first language is not English, and <m>T</m> is time measured in years (from now).
+                The number of school children in the district whose first language in not English has been on the rise. The equation describing the situation is <md>C=673(1.043)^T</md> where <m>C</m> is the number of school children in the district whose first language is not English, and <m>T</m> is time measured in years (from now).
             </p>
         </introduction>
         <task workspace="1in">
@@ -103,7 +103,7 @@
         <task workspace="2.5in">
             <statement>
                 <p>
-                    At some point the vine will take over the entire lawn, so perhaps a saturation model would be better. That equation might be <me>\textbf{Saturation:} \quad V = 170 - 167 \ast 0.8^T</me> Another equation would be a logistic model. Perhaps <me>\textbf{Logistic:} \quad V = \frac{129}{1+ 42 \ast 0.34^T}</me> Fill in the corresponding rows of the table for each model.
+                    At some point the vine will take over the entire lawn, so perhaps a saturation model would be better. That equation might be <md>\textbf{Saturation:} \quad V = 170 - 167 \ast 0.8^T</md> Another equation would be a logistic model. Perhaps <md>\textbf{Logistic:} \quad V = \frac{129}{1+ 42 \ast 0.34^T}</md> Fill in the corresponding rows of the table for each model.
                 </p>
                 <tabular bottom="minor" top="minor">
                     <row left="minor">

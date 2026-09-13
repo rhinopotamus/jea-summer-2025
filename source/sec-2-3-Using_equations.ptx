@@ -36,7 +36,7 @@
 				<mrow>S \amp= \text{ speed (mph) } \sim \text{ indep} </mrow>
 				<mrow>B \amp= \text{ braking distance (feet) } \sim \text{ dep} </mrow>
 			</md>
-			Using the data and equations from physics, automobile analysts were able to determine that the equation relating these two variables is <me>B=0.04S^2</me> Remember that the 0.04 written next to the <m>S^2</m> means they are multiplied. We might equally well have written <me>B = 0.04 \ast S^2</me>
+			Using the data and equations from physics, automobile analysts were able to determine that the equation relating these two variables is <md>B=0.04S^2</md> Remember that the 0.04 written next to the <m>S^2</m> means they are multiplied. We might equally well have written <md>B = 0.04 \ast S^2</md>
 		</p>
 
 		<p>
@@ -49,7 +49,7 @@
 
 		<p>
 			Now that we have an equation we should check the reported stopping distance at 60 mph. We have <m>S=60</m> so we substitute 60 in place of <m>S</m> in the equation to get 
-			<me>B = 0.04 \ast 60^2 = 0.04 \times \underline{60} \wedge 2 = 144 \text{ feet} \quad \checkmark</me>
+			<md>B = 0.04 \ast 60^2 = 0.04 \times \underline{60} \wedge 2 = 144 \text{ feet} \quad \checkmark</md>
 			What this means in our story is, if the car was traveling at 60 mph, it took 144 feet to stop.
 		</p>
 
@@ -59,14 +59,14 @@
 
 		<p>
 			Let's use our equation to calculate the braking distance for a Cadillac Escalade traveling 30, 50, 70 or 90 miles per hour. For 30 miles per hour, we have <m>S=30</m>. So, we evaluate at <m>S=30</m> to get 
-			<me>B = 0.04 \ast 30^2 = 0.04\times \underline{30} \wedge 2 = 36 \text{ feet}</me> 
+			<md>B = 0.04 \ast 30^2 = 0.04\times \underline{30} \wedge 2 = 36 \text{ feet}</md> 
 			At 30 mph, it takes the Cadillac Escalade 36 feet to stop. As we expected, it doesn't take nearly as far to stop as it did at 60 mph. For the other speeds we do the same thing: evaluate at the appropriate value of <m>S</m>. When <m>S=50</m> mph we get 
-			<me>B = 0.04 \ast 50^2 = 0.04\times \underline{50}\wedge2 = 100 \text{ feet}</me> 
+			<md>B = 0.04 \ast 50^2 = 0.04\times \underline{50}\wedge2 = 100 \text{ feet}</md> 
 			When <m>S=70</m> mph we get 
-			<me>B = 0.04 \ast 70^2 = 0.04\times \underline{70}\wedge2 = 196\text{ feet}</me> 
-			When <m>S=90</m> mph we get <me>B = 0.04 \ast 90^2 = 0.04\times \underline{90}\wedge2 = 324 \text{ feet}</me> 
+			<md>B = 0.04 \ast 70^2 = 0.04\times \underline{70}\wedge2 = 196\text{ feet}</md> 
+			When <m>S=90</m> mph we get <md>B = 0.04 \ast 90^2 = 0.04\times \underline{90}\wedge2 = 324 \text{ feet}</md> 
 			And, what does our equation tell us when the speed is 0 mph? We evaluate at <m>S=0</m> mph to get 
-			<me>B = 0.04 \ast 0^2 = 0.04\times \underline{0} \wedge 2 = 0 \text{ feet}</me> 
+			<md>B = 0.04 \ast 0^2 = 0.04\times \underline{0} \wedge 2 = 0 \text{ feet}</md> 
 			Well, sure! If the car isn't moving, then it won't need any distance to stop. Here's what we've found so far, displayed in a table.
 		</p>
 
@@ -105,7 +105,7 @@
 
 		<p>
 			We can see from the table that braking distance of 183 feet falls in between the 144 and 196 on our table which leads us to believe that Jeff was traveling faster than 60 mph and slower than 70 mph. We can figure out if Jeff were driving at 65 mph, then his braking distance would have been 
-			<me>B = 0.04 \ast 65^2 = 0.04\times \underline{65} \wedge 2 = 169 \text{ feet}</me> 
+			<md>B = 0.04 \ast 65^2 = 0.04\times \underline{65} \wedge 2 = 169 \text{ feet}</md> 
 			That's less than the 183 feet Jeff took to stop. So, it appears that Jeff was driving faster than 65 mph.
 		</p>
 
@@ -126,18 +126,18 @@
 				<mrow> \amp= 1.4666\ldots \approx 1.47 \text{ feet per mph} </mrow>
 			</md>
 			added to the stopping distance. Notice the fancy fraction work with the units? 
-			<me>
+			<md>
 				\frac{\text{hour}\ast \text{feet}}{\text{mile}}=\frac{\text{feet}}{\quad \frac{\text{miles}}{\text{hour}}\quad~}=\frac{\text{feet}}{\text{mph}}
-			</me> 
+			</md> 
 			What all this means is that we should add 1.47 feet for every mph of speed. So <m>S</m> mph adds <m>1.47\ast S</m> feet to the stopping distance. Long story short, our new equation is 
-			<me>D=0.04S^2+1.47S</me>
+			<md>D=0.04S^2+1.47S</md>
 		</p>
 
 		<p>
 			Something interesting about this equation. The independent variable <m>S</m> appears twice; first for the braking distance and again because of the reaction time. When we evaluate the function we need to plug in the value of <m>S</m> in two places. Check it out. When <m>S=30</m> mph we have 
-			<me>D =  0.04 \ast  30^2 + 1.47 \ast 30 = 0.04\times \underline{30} \wedge 2 +1.47 \times \underline{30} = 80.10 \approx 80 \text{ feet}</me> 
+			<md>D =  0.04 \ast  30^2 + 1.47 \ast 30 = 0.04\times \underline{30} \wedge 2 +1.47 \times \underline{30} = 80.10 \approx 80 \text{ feet}</md> 
 			That's a lot further than just the braking distance of 36 feet. When <m>S=50</m> mph we have 
-			<me>D = 0.04 \ast  50^2 +1.47\ast 50 =  0.04\times \underline{50} \wedge 2 +1.47\times \underline{50} = 173.50 \approx 174 \text{ feet}</me> 
+			<md>D = 0.04 \ast  50^2 +1.47\ast 50 =  0.04\times \underline{50} \wedge 2 +1.47\times \underline{50} = 173.50 \approx 174 \text{ feet}</md> 
 			Again, much more than the braking distance of 100 feet. Here's the revised table of values.
 		</p>
 
@@ -165,7 +165,7 @@
 
 		<p>
 			These numbers make us rethink Jeff's assertion. Given that he stopped in 183 feet, which is much less than the 232 feet it takes to stop at 60 mph, it looks like Jeff was driving less than 60 mph. To be sure, calculate that at 65 mph, it would have taken Jeff 
-			<me>D = 0.04 \ast  65^2 + 1.47 \ast  65  = 0.04\times \underline{65} \wedge 2+ 1.47\times \underline{65} =264.55 \approx 265 \text{ feet}</me> 
+			<md>D = 0.04 \ast  65^2 + 1.47 \ast  65  = 0.04\times \underline{65} \wedge 2+ 1.47\times \underline{65} =264.55 \approx 265 \text{ feet}</md> 
 			Again, we should believe Jeff. And, be glad nobody was hurt.
 		</p>
 
@@ -200,25 +200,25 @@
 		<title>New kinds of equations</title>
 
 		<p>
-			Before we leave, let's learn a little vocabulary about a few more kinds of equations. Our first equation <me>B = 0.04 \ast S^2</me> is a <term>power equation</term> because the independent variable is being raised to a power, <m>n=2</m>, and then scaled by a <term>proportionality constant</term>, <m>k=0.04</m>. Any power equation fits this template.
+			Before we leave, let's learn a little vocabulary about a few more kinds of equations. Our first equation <md>B = 0.04 \ast S^2</md> is a <term>power equation</term> because the independent variable is being raised to a power, <m>n=2</m>, and then scaled by a <term>proportionality constant</term>, <m>k=0.04</m>. Any power equation fits this template.
 		</p>
 
 		<assemblage xml:id="power-equation-template">
 			<title>Power Equation Template</title>
 			
 			
-			<p><me>\text{dep} = k \ast \text{indep}^{n}</me></p>
+			<p><md>\text{dep} = k \ast \text{indep}^{n}</md></p>
 		</assemblage>
 
 		<p>
-			Our second equation <me>D=0.04S^2 + 1.47S</me> is a <term>polynomial equation</term> because it includes both a linear term and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <term>quadratic equation</term>. Any quadratic equation fits this template.
+			Our second equation <md>D=0.04S^2 + 1.47S</md> is a <term>polynomial equation</term> because it includes both a linear term and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <term>quadratic equation</term>. Any quadratic equation fits this template.
 		</p>
 
 		<assemblage xml:id="quadratic-equation-template-2-3">
 			<title>Quadratic Equation Template</title>
 				
 				
-			<p><me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me></p>
+			<p><md>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</md></p>
 		</assemblage>
 
 		<p>

@@ -111,22 +111,22 @@
 
 		<p>
 			Next he calculates the intercept. 
-			<me>
+			<md>
 				\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}=  5{,}000 - 48.5\times 510= -19{,}735 \text{ tons/year}
-			</me> 
+			</md> 
 			He was not expecting a negative value but decides to use it anyway. Using the template for a linear equation 
-			<me>\text{dep} = \text{start} + \text{slope} * \text{indep}</me> 
+			<md>\text{dep} = \text{start} + \text{slope} * \text{indep}</md> 
 			Thanh gets 
-			<me>S = -19{,}735 + 48.5L</me> 
+			<md>S = -19{,}735 + 48.5L</md> 
 			which he rewrites as 
-			<me>S = 48.5L-19{,}735</me>. 
+			<md>S = 48.5L-19{,}735</md>. 
 			As a check, for <m>L=710</m> lane miles, he gets 
-			<me>S=48.5 \times \underline{710}-19{,}735=14{,}700 \text{ tons/year}\quad \checkmark</me>
+			<md>S=48.5 \times \underline{710}-19{,}735=14{,}700 \text{ tons/year}\quad \checkmark</md>
 		</p>
 
 		<p>
 			More importantly, for 600 miles his equation gives the estimate of 
-			<me>S=48.5 \times \underline{600}-19{,}735=9{,}365\text{ tons/year}</me>. 
+			<md>S=48.5 \times \underline{600}-19{,}735=9{,}365\text{ tons/year}</md>. 
 			Thanh rounds this estimate to 9,400 tons/year of road salt for County X, which is close to his initial guess of 9,000 tons/year.
 		</p>
 
@@ -212,7 +212,7 @@
 
 		<p>
 			Which line to use? One option would be to stick with the line he found through the points for Counties T and A:
-			<me>\textbf{T-A line:} \quad S = 48.5L-19{,}735</me>. 
+			<md>\textbf{T-A line:} \quad S = 48.5L-19{,}735</md>. 
 			He redraws the scatter plot to show that line. Because the intercept is negative, it doesn't show up on his graph. The line seems to be too low at first and too high later. The problem is that this line is too steep (has too large a slope).
 		</p>
 
@@ -236,7 +236,7 @@
 
 		<p>
 			Thanh decides to try a line that is less steep. After drawing in a few lines, he decides to try the line between the points for Counties C and D instead, which has equation 
-			<me>\textbf{C-D line:} \quad S = 20.26L-4{,}610</me>. 
+			<md>\textbf{C-D line:} \quad S = 20.26L-4{,}610</md>. 
 			Unfortunately this line seems too low. (Again the negative intercept isn't visible.)
 		</p>
 
@@ -260,7 +260,7 @@
 
 		<p>
 			Neither of these lines came close to the point for County H on the far right, so Thanh considers one more line, this time through County H and County R, which has equation 
-			<me>\textbf{H-R line:} \quad S = 8.71L+3{,}130</me>. 
+			<md>\textbf{H-R line:} \quad S = 8.71L+3{,}130</md>. 
 			This line has a positive intercept just above 3,000 tons/year, as you can see on the graph.
 		</p>
 
@@ -283,7 +283,7 @@
 		</figure>
 
 		<p>
-			Thanh thinks the H-R line is reasonable, but it makes him wonder how to decide if one line is better than another. Generally speaking the <term>best fitting line</term> makes the space between the line and the data points as small as possible. (There is actually a much more official definition.) After using a little statistical software, Thanh determines that for this data set, the official best fitting line has equation <me>\textbf{Best fitting line:} \quad S = 10.0L+2{,}741</me>.
+			Thanh thinks the H-R line is reasonable, but it makes him wonder how to decide if one line is better than another. Generally speaking the <term>best fitting line</term> makes the space between the line and the data points as small as possible. (There is actually a much more official definition.) After using a little statistical software, Thanh determines that for this data set, the official best fitting line has equation <md>\textbf{Best fitting line:} \quad S = 10.0L+2{,}741</md>.
 		</p>
 
 		<p>
@@ -334,7 +334,7 @@
 
 		<p>
 			So Thanh decides to look at the statistically best-fitting line ignoring County H this time. Back to his software and he finds 
-			<me>\textbf{Best fitting line (ignoring outlier):} \quad S = 19.7L-2{,}905</me>. 
+			<md>\textbf{Best fitting line (ignoring outlier):} \quad S = 19.7L-2{,}905</md>. 
 			This line is less steep than the T-A line and higher than the C-D line. Seems perfect.
 		</p>
 

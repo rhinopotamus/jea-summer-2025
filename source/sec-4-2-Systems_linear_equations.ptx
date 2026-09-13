@@ -31,7 +31,7 @@
 				<mrow>L \amp= \text{ amount produced (locks) } \sim \text{ dep} </mrow>
 				<mrow>E \amp= \text{ total expenditure (\$) } \sim \text{ indep} </mrow>
 			</md>
-			She recognizes that total expenditure is a linear function that depends on the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $3,200 for Machine 1 and $5,400 for Machine 2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine 1 and $1.25 per lock for Machine 2. Using the template for a linear equation <me>\text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}</me> she writes the equations
+			She recognizes that total expenditure is a linear function that depends on the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $3,200 for Machine 1 and $5,400 for Machine 2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine 1 and $1.25 per lock for Machine 2. Using the template for a linear equation <md>\text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}</md> she writes the equations
 			<md>
 				<mrow>
 					\textbf{Machine 1: } \qquad  
@@ -172,33 +172,33 @@
 
 		<p>
 			There are two important differences between the two machines: their purchase prices and their cost per lock. First, Quia Xun decides to figure out the difference between the two purchase prices:
-			<me>\$5{,}400 - \$3{,}200 = \$2{,}200</me>.
+			<md>\$5{,}400 - \$3{,}200 = \$2{,}200</md>.
 			This calculation tells her that Machine 2 costs $2,200 more to purchase than Machine 1.
 		</p>
 
 		<p>
 			Next, she decides to figure out the difference between the two running costs:
-			<me>
+			<md>
 				1.25\, \dfrac{\text{\$}}{\text{lock}} - 
 				0.80\, \dfrac{\text{\$}}{\text{lock}} = 
 				0.45\, \dfrac{\text{\$}}{\text{lock}} 
-			</me>.
+			</md>.
 			This calculation tells her that Machine 1 costs $0.45 more per lock to operate than Machine 2.
 		</p>
 
 		<p>
 			But Quia Xun is more interested in total expenditure ($) than running costs per lock. So, she writes:
-			<me>
+			<md>
 				1.25\, \dfrac{\text{\$}}{\cancel{\text{lock}}} \ast L \cancel{\text{locks}}- 
 				0.80\, \dfrac{\text{\$}}{\cancel{\text{lock}}} \ast L \cancel{\text{locks}} = 
 				0.45\, \dfrac{\text{\$}}{\cancel{\text{lock}}} \ast L \cancel{\text{locks}}
-			</me>.
+			</md>.
 			See the fancy unit work here? Simplifying, she finds out that when producing <m>L</m> locks, Machine 1 costs <m>0.45L</m> more <em>dollars</em> to run than Machine 2.
 		</p>
 
 		<p>
 			A couple of things to notice here. See how in both calculations she decided to do the larger minus the smaller? It doesn't really matter, but Quia Xun likes working with positive numbers a bit better than working with negative numbers, and this is a way she can easily avoid them. Also, notice that she didn't do
-			<me>\$3{,}200 - 0.80\, \dfrac{\text{\$}}{\text{lock}}</me>.
+			<md>\$3{,}200 - 0.80\, \dfrac{\text{\$}}{\text{lock}}</md>.
 			That wouldn't make sense, because the numbers $3,200 and $0.80 / lock mean very different things in the story.
 		</p>
 
@@ -210,11 +210,11 @@
 
 		<p>
 			There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where 
-			<me>E=E</me>. 
+			<md>E=E</md>. 
 			That sounds silly, so let's be a bit more specific: she wants to find the number of locks where
-			<me>E \text{ (for Machine 1)} = E \text{ (for Machine 2)}</me>.
+			<md>E \text{ (for Machine 1)} = E \text{ (for Machine 2)}</md>.
 			Using her equations <m>E  =3{,}200 + 1.25L</m> for Machine 1 and <m>E  =5{,}400 + 0.80L</m> for Machine 2, she has 
-			<me>3{,}200 + 1.25L=5{,}400 + 0.80L</me>. 
+			<md>3{,}200 + 1.25L=5{,}400 + 0.80L</md>. 
 		</p>
 
 		<p>
@@ -224,14 +224,14 @@
 					This process is sometimes called <q>combining like terms.</q> We subtracted something involving the variable <m>L</m> from something else involving the variable <m>L</m>, because if we did it any other way, the units wouldn't make sense.
 				</p>
 			</aside>
-			<me> 
+			<md> 
 				\begin{array}{lcrclcr}
 				3{,}200 \amp + \amp 1.25L \amp = \amp 5{,}400 \amp + \amp \cancel{0.80L} \\
 				        \amp - \amp 0.80L \amp   \amp         \amp - \amp \cancel{0.80L}
 				\end{array}
-			</me>
+			</md>
 			which simplifies to 
-			<me>3{,}200 + 0.45L = 5{,}400</me>. 
+			<md>3{,}200 + 0.45L = 5{,}400</md>. 
 			Pause for a minute. What does that <m>0.45L</m> mean in the story? It's the extra cost of running Machine 1, which Quia Xun computed earlier.
 		</p>
 
@@ -239,23 +239,23 @@
 			What next? Now that she only has the variable <m>L</m> occurring in one place, it's just like solving a linear <em>equation</em> like we've done before! The evaluating steps that are happening are, first multiply by 0.45, and then add 3,200.
 			So all Quia Xun has to do is apply the <xref ref="assemblage-shoes-and-socks" text="title"/>. 
 			First she subtracts 3,200 from both sides:
-			<me>
+			<md>
 				\begin{array}{rcrcr}
 				 \cancel{3{,}200} \amp + \amp 0.45L \amp = \amp  5{,}400 \\
 				-\cancel{3{,}200} \amp   \amp       \amp   \amp -3{,}200
 				\end{array}
-			</me>
+			</md>
 			which simplifies to
-			<me>
+			<md>
 				0.45L = 2{,}200.
-			</me>
+			</md>
 			Pause for a minute again: What does that 2,200 mean in the story? It's the extra cost of buying Machine 2 that she computed earlier.
 		</p>
 		<p>
 			Now she divides both sides by 0.45:
-			<me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</me> 
+			<md>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</md> 
 			which simplifies to 
-			<me>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</me>. 
+			<md>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</md>. 
 			If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine 2. Yeah, that's what we guessed <mdash/> just under 4,900 locks is the payoff.
 		</p>
 
@@ -263,10 +263,10 @@
 
 		<p>
 			By the way, Quia Xun solved an <em>equation</em> here, but she wanted to know when 
-			<me>E \text{ (Machine 1)} \geq E \text{ (Machine 2)}</me>,
+			<md>E \text{ (Machine 1)} \geq E \text{ (Machine 2)}</md>,
 			so she could have solved an <em>inequality</em> instead: 
-			<me>3{,}200 + 1.25L \geq 5{,}400 + 0.80L</me>. 
-			Check that the same steps give <me>L \ge 4{,}889 \text{ locks}</me>.
+			<md>3{,}200 + 1.25L \geq 5{,}400 + 0.80L</md>. 
+			Check that the same steps give <md>L \ge 4{,}889 \text{ locks}</md>.
 		</p>
 	</subsection>
 	
@@ -298,45 +298,45 @@
 
 		<p>
 			There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where 
-			<me>E=E</me>. 
+			<md>E=E</md>. 
 			That sounds silly, so let's be a bit more specific: she wants to find the number of locks where
-			<me>E \text{ (for Machine 1)} = E \text{ (for Machine 2)}</me>.
+			<md>E \text{ (for Machine 1)} = E \text{ (for Machine 2)}</md>.
 			Using her equations <m>E  =3{,}200 + 1.25L</m> for Machine 1 and <m>E  =5{,}400 + 0.80L</m> for Machine 2, she has 
-			<me>3{,}200 + 1.25L=5{,}400 + 0.80L</me>. 
+			<md>3{,}200 + 1.25L=5{,}400 + 0.80L</md>. 
 			She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts 3,200, the smaller of the two purchase prices, from each side to get 
-			<me>
+			<md>
 				\begin{array}{lcl}
 				\phantom{-}\cancel{3{,}200}+1.25L \amp = \amp \phantom{-}5{,}400+0.80L \\
 				-\cancel{3{,}200}                  \amp = \amp -3{,}200
 				\end{array}
-			</me>
-			which simplifies to <me>1.25L = 2{,}200 + 0.80L</me> Pause for a minute. What does that $2,200 mean in the story? It's the extra cost of buying Machine 2 because <m>\$5{,}400 - \$3{,}200 = \$2{,}200</m>.
+			</md>
+			which simplifies to <md>1.25L = 2{,}200 + 0.80L</md> Pause for a minute. What does that $2,200 mean in the story? It's the extra cost of buying Machine 2 because <m>\$5{,}400 - \$3{,}200 = \$2{,}200</m>.
 		</p>
 
 		<p>
 			What next? This equation has the variable <m>L</m> on each side. Quia Xun needs to combine them somehow. Here's how to do that. Subtract <m>0.80L</m> from each side. Look closely. She is subtracting <m>0.80L</m>, not just <m>0.80</m>. We get 
-			<me>
+			<md>
 				\begin{array}{lcr}
 					\phantom{-}1.25L \amp = \amp 2{,}200 +\cancel{0.80L} \\
 					-0.80L \amp  \amp -\cancel{0.80L}
 				\end{array}
-			</me>
+			</md>
 			How do we simplify <m>1.25L-0.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25 - $0.80 = $0.45 per lock. So that means 
-			<me>1.25L -0.80L = 0.45L</me>. 
+			<md>1.25L -0.80L = 0.45L</md>. 
 			Think: 125 apples - 80 apples = 45 apples. 
 			She can now simplify her equation to get 
-			<me>0.45L = 2{,}200</me>. 
+			<md>0.45L = 2{,}200</md>. 
 			Ah, she can solve this equation just by dividing each side by 0.45 to get 
-			<me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</me> 
+			<md>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</md> 
 			which simplifies to 
-			<me>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</me>. 
+			<md>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</md>. 
 			If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine 2. Yeah, that's what we guessed <mdash/> just under 4,900 locks is the payoff.
 		</p>
 
 		<p>
 			She solved an equation here, but Quia Xun really wanted to know when 
-			<me>E \text{ (Machine 1)} \geq E \text{ (Machine 2)}</me>
-			so she could have solved the inequality <me>3{,}200 + 1.25L \ge 5{,}400 + 0.80L</me> instead. Check that the same steps give <me>L \ge 4{,}889 \text{ locks}</me>.
+			<md>E \text{ (Machine 1)} \geq E \text{ (Machine 2)}</md>
+			so she could have solved the inequality <md>3{,}200 + 1.25L \ge 5{,}400 + 0.80L</md> instead. Check that the same steps give <md>L \ge 4{,}889 \text{ locks}</md>.
 		</p>
 	</subsection> -->
 </section>

@@ -22,15 +22,15 @@
 		</p>
 
 		<p>
-			Let's try guessing. How about 3.5 weeks? <me>10^{3.5} =10 \wedge 3.5 = 3{,}162.27\ldots</me> which is much smaller than 5,000. How about 3.7 weeks? <me>10^{3.7} =10 \wedge 3.7 = 5{,}011.87..</me> which is slightly bigger than 5,000. I want to find the answer here so let's try <me>10^{3.69}=10 \wedge 3.69= 4{,}897.78\ldots</me> or finally <me>10^{3.699}=10 \wedge 3.699= 5{,}000.34\ldots</me> That's as close as I'm gonna guess.
+			Let's try guessing. How about 3.5 weeks? <md>10^{3.5} =10 \wedge 3.5 = 3{,}162.27\ldots</md> which is much smaller than 5,000. How about 3.7 weeks? <md>10^{3.7} =10 \wedge 3.7 = 5{,}011.87..</md> which is slightly bigger than 5,000. I want to find the answer here so let's try <md>10^{3.69}=10 \wedge 3.69= 4{,}897.78\ldots</md> or finally <md>10^{3.699}=10 \wedge 3.699= 5{,}000.34\ldots</md> That's as close as I'm gonna guess.
 		</p>
 
 		<p>
-			Okay, I'm curious. Is there an exact power of 10 that gives 5,000? Your calculator should have a key that says <kbd>log</kbd> or maybe <kbd>LOG</kbd>. Try typing <me>\log(5000)=  3.6989700043\ldots</me> A small note here about parentheses. Some calculators give the first parenthesis for free when you type <kbd>log</kbd> but you have to type the closing parenthesis in yourself.
+			Okay, I'm curious. Is there an exact power of 10 that gives 5,000? Your calculator should have a key that says <kbd>log</kbd> or maybe <kbd>LOG</kbd>. Try typing <md>\log(5000)=  3.6989700043\ldots</md> A small note here about parentheses. Some calculators give the first parenthesis for free when you type <kbd>log</kbd> but you have to type the closing parenthesis in yourself.
 		</p>
 
 		<p>
-			Check it out, that's the answer we were looking for: <me>10^{3.6989700043} =10 \wedge 3.6989700043 = 4{,}999.999~999~5853\ldots \approx 5{,}000</me> If we had kept more digits it would have been actually 5,000.
+			Check it out, that's the answer we were looking for: <md>10^{3.6989700043} =10 \wedge 3.6989700043 = 4{,}999.999~999~5853\ldots \approx 5{,}000</md> If we had kept more digits it would have been actually 5,000.
 		</p>
 
 		<p>
@@ -56,11 +56,11 @@
 				<mrow> \log(2{,}500) \amp = 3.3979\ldots </mrow>
 				<mrow> \log(25{,}000) \amp = 4.3979\ldots </mrow>
 			</md>
-			To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example <m>25{,}000 = 2.5 \times 10^4</m> and <me>\log( 25{,}000)=\log(2.5 \times 10 ^4)=4.3979\ldots \approx 4</me> Before we write down a general rule, let's check more numbers.
+			To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example <m>25{,}000 = 2.5 \times 10^4</m> and <md>\log( 25{,}000)=\log(2.5 \times 10 ^4)=4.3979\ldots \approx 4</md> Before we write down a general rule, let's check more numbers.
 		</p>
 
 		<p>
-			<me>\log(7{,}420{,}000) = \log(7.42 \times 10^6)=6.870403905\ldots \approx 6</me> <me>\log (4)=\log(4 \times 10^0)=0.602059991\ldots \approx 0</me> <me>\log (0.00917)= \log(9.17 \times 10^{-3}) = -2.037630664\ldots \approx -3</me> In every case we are rounding down, but it's always the same:
+			<md>\log(7{,}420{,}000) = \log(7.42 \times 10^6)=6.870403905\ldots \approx 6</md> <md>\log (4)=\log(4 \times 10^0)=0.602059991\ldots \approx 0</md> <md>\log (0.00917)= \log(9.17 \times 10^{-3}) = -2.037630664\ldots \approx -3</md> In every case we are rounding down, but it's always the same:
 		</p>
 
 		<p>

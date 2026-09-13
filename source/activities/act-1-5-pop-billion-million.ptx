@@ -9,13 +9,13 @@
             <li>
                 <p>
                     Use the fact that 1 billion = 1,000 million to write down two unit conversion fractions:
-                    <me>
+                    <md>
                         1 = \dfrac{<fillin fill="1.000" /> \text{ billion}}
                                         {<fillin fill="1000" /> \text{ million}}
                         \quad \text{and} \quad
                         1 = \dfrac{<fillin fill="1000" /> \text{ million}}
                                         {<fillin fill="1.000" /> \text{ billion}}
-                    </me>
+                    </md>
                 </p>
             </li>
             <li>

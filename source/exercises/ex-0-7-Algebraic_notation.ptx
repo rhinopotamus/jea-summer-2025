@@ -17,7 +17,7 @@
                             <xref ref="weight-change-intercepts"/>)
                         </p>
                     </aside>
-                    She weighed 153 pounds at the start of her pregnancy. That means when she is <m>T</m> weeks pregnant, that Zoe weighs <me>153 + \frac{1}{2}T</me> What does this expression say Zoe will weigh when she's 40 weeks pregnant?
+                    She weighed 153 pounds at the start of her pregnancy. That means when she is <m>T</m> weeks pregnant, that Zoe weighs <md>153 + \frac{1}{2}T</md> What does this expression say Zoe will weigh when she's 40 weeks pregnant?
                 </p>
             </statement>
         </exercise>
@@ -48,7 +48,7 @@
                             <xref ref="astra-rent-logarithms" />)
                         </p>    
                     </aside>
-                    Thanks to new rent stabilization laws, Astra's rent can only increase 3% per year. That means after <m>T</m> years, their rent will be at most <me>825(1.03^T)</me> What does this expression say her rent could be in 5 years?
+                    Thanks to new rent stabilization laws, Astra's rent can only increase 3% per year. That means after <m>T</m> years, their rent will be at most <md>825(1.03^T)</md> What does this expression say her rent could be in 5 years?
                 </p>
             </statement>
         </exercise>
@@ -65,7 +65,7 @@
                             and 4.1 Exercises)
                         </p>
                     </aside>
-                    If we mix 2 grams of gold with <m>C</m> grams of copper, the percentage of the resulting alloy that is gold is given by the expression <me>\frac{200}{2 +C}</me> What does this expression say the percentage of gold will be if we add 7 grams of copper? 
+                    If we mix 2 grams of gold with <m>C</m> grams of copper, the percentage of the resulting alloy that is gold is given by the expression <md>\frac{200}{2 +C}</md> What does this expression say the percentage of gold will be if we add 7 grams of copper? 
                 </p>
             </statement>
         </exercise>
@@ -188,14 +188,14 @@
         <task>
             <statement>
                 <p>
-                    One potential expression for the number of bass after <m>Y</m> years is <me>4000 - 3600*0.78^Y</me> What does this equation say the number of bass should be now? Hint: that means <m>Y = 10</m> years.
+                    One potential expression for the number of bass after <m>Y</m> years is <md>4000 - 3600*0.78^Y</md> What does this equation say the number of bass should be now? Hint: that means <m>Y = 10</m> years.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    Another potential expression for the number of bass after <m>Y</m> years is <me>\frac{4000}{1 + 9*0.78^Y}</me> What does this equation say the number of bass should be now? Since we're using a very different equation, we will get a very different answer. Don't forget to put parentheses around the bottom of the fraction.
+                    Another potential expression for the number of bass after <m>Y</m> years is <md>\frac{4000}{1 + 9*0.78^Y}</md> What does this equation say the number of bass should be now? Since we're using a very different equation, we will get a very different answer. Don't forget to put parentheses around the bottom of the fraction.
                 </p>
             </statement>
         </task>

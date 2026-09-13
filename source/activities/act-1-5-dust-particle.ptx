@@ -3,7 +3,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-5-dust-particle">
     <statement>
         <p>
-            After vacuuming his apartment, Edgar did a little research online and found out that the mass of a dust particle is <me>0.000~000~000~753\text{ kilograms.}</me>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
+            After vacuuming his apartment, Edgar did a little research online and found out that the mass of a dust particle is <md>0.000~000~000~753\text{ kilograms.}</md>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
         </p>
         <ol marker="(a)">
             <li>

@@ -4,9 +4,9 @@
     <statement>
         <p>
             In <xref ref="sec-2-2-First_look_exponential" text="type-global"/>, we looked at the equation
-            <me>
+            <md>
                 H = 2.26\ast 1.067^{Y}
-            </me>
+            </md>
             that predicted health care costs, <m>H</m>, measured in trillions of dollars, as a function of <m>Y</m>, the number of years since 2007.
         </p>
         <ol marker="(a)">

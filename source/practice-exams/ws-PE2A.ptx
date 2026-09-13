@@ -116,7 +116,7 @@
 	<exercise xml:id="stock-price-PE2A">
 		<introduction>
 			<p>
-				Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation <me>V =0.00004T^3 + 0.01T^2 - 0.9T + 31</me> which describes the value of each share of stock $<m>V</m> as a function of time <m>T</m>, measured in weeks starting exactly one year ago.
+				Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation <md>V =0.00004T^3 + 0.01T^2 - 0.9T + 31</md> which describes the value of each share of stock $<m>V</m> as a function of time <m>T</m>, measured in weeks starting exactly one year ago.
 			</p>
 		</introduction>
 		<task workspace="1.5in">

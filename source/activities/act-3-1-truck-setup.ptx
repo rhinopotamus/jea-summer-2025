@@ -4,9 +4,9 @@
     <statement>
         <p>
             Let's revisit the truck hauling bags of grass seed. Remember, the truck weighs 3,900 pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. The equation for the total weight is
-            <me>
+            <md>
                 W = 3{,}900 + 4.2B
-            </me>
+            </md>
         </p>
         <ol marker="(a)">
             <li>

@@ -33,7 +33,7 @@
 		<title>The changing cost of gasoline</title>
 		
 		<p>
-			Things change, like the price of gasoline, and just about every day it seems. What does it mean when the price of a gallon of gas drops from $3.999/gal to $3.299/gal? The symbol / is short for <q>per</q> or <q>for each,</q> so that means each gallon costs <me>\$3.999-\$3.299=\$0.70 = 70\text{¢}</me> less. Does this 70¢ truly matter?
+			Things change, like the price of gasoline, and just about every day it seems. What does it mean when the price of a gallon of gas drops from $3.999/gal to $3.299/gal? The symbol / is short for <q>per</q> or <q>for each,</q> so that means each gallon costs <md>\$3.999-\$3.299=\$0.70 = 70\text{¢}</md> less. Does this 70¢ truly matter?
 		</p>
 
 		<p>
@@ -49,11 +49,11 @@
 		</p>
 
 		<p>
-			If gas costs $3.999/gal and we buy 10 gallons, it costs <me>10 \text{ gallons} \ast \frac{\$3.999}{\text{gallon}} = 10 \times 3.999  = \$39.99</me> See how we described the computation twice? First, with units, fractions, and <m>\ast</m> for multiplication in what's sometimes called <q>algebraic notation.</q> Then, with just numbers and <m>\times</m> for multiplication - that's what you can type into a calculator.
+			If gas costs $3.999/gal and we buy 10 gallons, it costs <md>10 \text{ gallons} \ast \frac{\$3.999}{\text{gallon}} = 10 \times 3.999  = \$39.99</md> See how we described the computation twice? First, with units, fractions, and <m>\ast</m> for multiplication in what's sometimes called <q>algebraic notation.</q> Then, with just numbers and <m>\times</m> for multiplication - that's what you can type into a calculator.
 		</p>
 
 		<p>
-			If gas drops to $3.299/gal and we buy 10 gallons, it costs <me>10 \text{ gallons} \ast \frac{\$3.299}{\text{gallon}} = 10 \times 3.299  = \$32.99</me> That's $7 less. For $7 savings on gas you could buy that bag of potato chips, and an iced tea to go with it, and still have change. That amount matters. I mean, especially since it's $7 savings every time you put 10 gallons in the tank.
+			If gas drops to $3.299/gal and we buy 10 gallons, it costs <md>10 \text{ gallons} \ast \frac{\$3.299}{\text{gallon}} = 10 \times 3.299  = \$32.99</md> That's $7 less. For $7 savings on gas you could buy that bag of potato chips, and an iced tea to go with it, and still have change. That amount matters. I mean, especially since it's $7 savings every time you put 10 gallons in the tank.
 		</p>
 	</subsection>
 
@@ -97,7 +97,7 @@
 		</p>
 
 		<p>
-			For example, suppose we buy 10 gallons of gas and it costs $28.99. We can figure out that the price per gallon must be <me>P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}</me> Notice that we use the fraction as part of the algebraic notation, but we use <m>\div</m> to indicate division on the calculator. Your calculator key for division may be <m>/</m> instead, which we reserve as a shorthand for <q>per.</q>
+			For example, suppose we buy 10 gallons of gas and it costs $28.99. We can figure out that the price per gallon must be <md>P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}</md> Notice that we use the fraction as part of the algebraic notation, but we use <m>\div</m> to indicate division on the calculator. Your calculator key for division may be <m>/</m> instead, which we reserve as a shorthand for <q>per.</q>
 		</p>
 
 		<xi:include href="./activities/act-1-1-dependence.ptx" />
@@ -117,7 +117,7 @@
 		</p>
 
 		<p>
-			The mathematical shorthand for this sentence is <me>0 \le P \le 5</me> The inequality symbol <m>\le</m> is pronounced <q>less than or equal to</q>. Formally, the range of realistic values of the independent variable is called the <term>domain</term> of the function <m>C</m>. In this text, we rarely write the domain because it's usually clear from the story what realistic values would be. The exercises in this section ask you to do so for practice.
+			The mathematical shorthand for this sentence is <md>0 \le P \le 5</md> The inequality symbol <m>\le</m> is pronounced <q>less than or equal to</q>. Formally, the range of realistic values of the independent variable is called the <term>domain</term> of the function <m>C</m>. In this text, we rarely write the domain because it's usually clear from the story what realistic values would be. The exercises in this section ask you to do so for practice.
 		</p>
 
 		<xi:include href="./activities/act-1-1-domain.ptx" />
@@ -141,15 +141,15 @@
 		</p>
 
 		<p>
-			To understand what that report is saying, we need to remember how percents work. Luckily, the word <q>percent</q> is very descriptive. The <q>cent</q> part means <q>hundred,</q> like 100 cents in a dollar or 100 years in a century. And, as usual, <q>per</q> means <q>for each.</q> Together, <term>percent</term> means <q>per hundred.</q> The number 20% means 20 for each hundred. Written as a fraction it is <m>\frac{20}{100}</m>. Divide to get the decimal <m>20 \div 100 = 0.20.</m> <me>\text{Think money:  }20\%\text{ is like }20\text{¢ , and }0.20\text{ is like }\$0.20</me> Bottom line: 20%, <m>\frac{20}{100}</m>, and 0.20 mean exactly the same number. <me>20\% = \frac{20}{100} = 20 \div 100 = 0.20</me>
+			To understand what that report is saying, we need to remember how percents work. Luckily, the word <q>percent</q> is very descriptive. The <q>cent</q> part means <q>hundred,</q> like 100 cents in a dollar or 100 years in a century. And, as usual, <q>per</q> means <q>for each.</q> Together, <term>percent</term> means <q>per hundred.</q> The number 20% means 20 for each hundred. Written as a fraction it is <m>\frac{20}{100}</m>. Divide to get the decimal <m>20 \div 100 = 0.20.</m> <md>\text{Think money:  }20\%\text{ is like }20\text{¢ , and }0.20\text{ is like }\$0.20</md> Bottom line: 20%, <m>\frac{20}{100}</m>, and 0.20 mean exactly the same number. <md>20\% = \frac{20}{100} = 20 \div 100 = 0.20</md>
 		</p>
 
 		<p>
-			To calculate the percent of a number we multiply by the decimal version. For example, <me>20\% \text{ of } \$2.900 = 0.20 \times 2.900 = \$0.58</me> The report says the price increased by 20% each year, so by 2011 the price had increased an average of $0.58. That 58 cents is not what gas cost in 2011. It's how much <em>more</em> gas cost in 2011 compared to 2010. To see what the report projected for the 2011 cost we need to add that increase on to the original 2010 price. <me>\$2.900 + \$0.58= \$3.48\text{ per gallon}</me> Sounds about right. Expensive, to be sure, but fairly accurate.
+			To calculate the percent of a number we multiply by the decimal version. For example, <md>20\% \text{ of } \$2.900 = 0.20 \times 2.900 = \$0.58</md> The report says the price increased by 20% each year, so by 2011 the price had increased an average of $0.58. That 58 cents is not what gas cost in 2011. It's how much <em>more</em> gas cost in 2011 compared to 2010. To see what the report projected for the 2011 cost we need to add that increase on to the original 2010 price. <md>\$2.900 + \$0.58= \$3.48\text{ per gallon}</md> Sounds about right. Expensive, to be sure, but fairly accurate.
 		</p>
 
 		<p>
-			For 2012, the price increased by 20% again. That means 20% of what it was in 2011. We can't just add $0.58 again. That was 20% of the 2010 value, and we want 20% <em>of the 2011 value</em>. Going to have to calculate that. <me>20\% \text{ of } \$3.48 = 0.20 \times 3.48 = \$0.696</me> so the projected 2012 value was <me>\$3.48 + \$0.696= \$4.176\text{ per gallon}</me>
+			For 2012, the price increased by 20% again. That means 20% of what it was in 2011. We can't just add $0.58 again. That was 20% of the 2010 value, and we want 20% <em>of the 2011 value</em>. Going to have to calculate that. <md>20\% \text{ of } \$3.48 = 0.20 \times 3.48 = \$0.696</md> so the projected 2012 value was <md>\$3.48 + \$0.696= \$4.176\text{ per gallon}</md>
 		</p>
 
 		<p>

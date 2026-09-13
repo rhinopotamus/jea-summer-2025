@@ -277,15 +277,15 @@
 					The <term>supply</term> of flour is the amount of flour produced. 
 					<aside><p>Source: <q>Using Algebra</q> by Ethan Bolker</p></aside>
 					It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour <m>S</m> (in loads) on the price <m>P</m> (in $/pound) is given by the equation
-					<me>
+					<md>
 						\textbf{Supply: } S = 0.8P + 0.5
-					</me>
+					</md>
 				</p>
 				<p>
 					The <term>demand</term> of flour is the amount of flour consumers want to buy. It also depends on the price of flour. If flour sells for a high price, then consumers will buy less. If flour sells for a low price instead, then consumers will buy more. The dependence of the demand of flour <m>D</m> (in loads) on the price <m>P</m> (in $/pound) is given by the equation
-					<me>
+					<md>
 						\textbf{Demand: } D = 1.5 - 0.4 P
-					</me>
+					</md>
 				</p>
 				<p>
 					The <term>equilibrium price</term> of flour is the price where the supply equals the demand.
