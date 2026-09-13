@@ -332,7 +332,6 @@
 
         <p>
           We can simplify the equation for area using the distributive property.
-        </p>
 
 		<md>
 			<mrow>A \amp= (3S+29)(3S+5)</mrow>
@@ -340,7 +339,6 @@
 			<mrow>\amp= \underbrace{(3S)(3S)}_{\text{First}} + \underbrace{(3S)(5)}_{\text{Outside}}  + \underbrace{(29)(3S)}_{\text{Inside}} + \underbrace{(29)(5)}_{\text{Last}}</mrow>
 		</md>
 
-        <p>
           Let's simplify each term separately. The first product is
           <md>
             (3S)(3S) = (3 \times 3)(S \times S) = 9S^{2}
@@ -398,7 +396,6 @@
         <p>
           That was a lot of algebra. Here's a quicker version of what we just
           did so you can see it all in one place.
-        </p>
 
 		<md>
 			<mrow> \amp </mrow>
@@ -408,7 +405,6 @@
 			<mrow>\amp= 9S^2+102S + 145</mrow>
 		</md>
 
-        <p>
           Let's double check, when <m>S=10</m> we get
           <md>
             A = 9\times 10^{2} + 102 \times 10 + 145 = 2065

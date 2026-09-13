@@ -1,4 +1,6 @@
-<introduction component="not-workbook">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<introduction component="not-workbook" xmlns:xi="http://www.w3.org/2001/XInclude">
     <p>
         Exercises 1-4 are available in a separate workbook format.
     </p>
