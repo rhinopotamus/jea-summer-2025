@@ -316,10 +316,8 @@
           We can write an equation for the area of the blanket using the
           variables
           <md>
-            S = \text{ number of squares (squares) }\sim \text{indep}
-          </md>
-          <md>
-            A = \text{ area of blanket (square inches)}\sim \text{ dep}
+            <mrow>S \amp= \text{ number of squares (squares) }\sim \text{indep}</mrow>
+            <mrow>A \amp= \text{ area of blanket (square inches)}\sim \text{ dep}</mrow>
           </md>
           We know that the area is the length times the width, so putting in our
           formulas we get
@@ -498,10 +496,8 @@
           We can write an equation for the amount of fiberfill as a function of
           the number of squares using
           <md>
-            S = \text{ number of squares (squares)}\sim \text{indep}
-          </md>
-          <md>
-            F = \text{ weight of fiberfill (ounces)}\sim \text{dep}
+            <mrow>S \amp= \text{ number of squares (squares)}\sim \text{indep}</mrow>
+            <mrow>F \amp= \text{ weight of fiberfill (ounces)}\sim \text{dep}</mrow>
           </md>
         </p>
 

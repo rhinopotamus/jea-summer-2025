@@ -135,10 +135,8 @@
                 packs, but that the demand drops by 15 sticker packs per dollar
                 increase in price. He identifies the variables
                 <md>
-                  P = \text{ price of sticker packs (\$) }\sim \text{ indep}
-                </md>
-                <md>
-                  D = \text{ demand (sticker packs) }\sim \text{ dep}
+                  <mrow>P \amp= \text{ price of sticker packs (\$) }\sim \text{ indep}</mrow>
+                  <mrow>D \amp= \text{ demand (sticker packs) }\sim \text{ dep}</mrow>
                 </md>
             </p>
         </introduction>
@@ -215,10 +213,8 @@
                 In the previous problem, Emery was selling sticker packs. Using
                 the variables
                 <md>
-                  P = \text{ price of a sticker pack (\$) }\sim \text{ indep}
-                </md>
-                <md>
-                  D = \text{ demand (sticker packs) }\sim \text{ dep}
+                  <mrow>P \amp= \text{ price of a sticker pack (\$) }\sim \text{ indep}</mrow>
+                  <mrow>D \amp= \text{ demand (sticker packs) }\sim \text{ dep}</mrow>
                 </md>
                 Emery calculated that (spoiler alert)
                 <md>
@@ -321,10 +317,8 @@
                 </ul>
                 She is interested in the variables
                 <md>
-                  M = \text{ amount of Rehab Monster (ounces) }\sim \text{indep}
-                </md>
-                <md>
-                  C = \text{ amount of caffeine (mg)}\sim \text{ dep}
+                  <mrow>M \amp= \text{ amount of Rehab Monster (ounces) }\sim \text{indep}</mrow>
+                  <mrow>C \amp= \text{ amount of caffeine (mg)}\sim \text{ dep}</mrow>
                 </md>
             </p>
         </introduction>
@@ -445,10 +439,8 @@
                 bottle, the demand is 150 bottles, but for every $1 increase in
                 price, the demand drops by 20 bottles. She writes the variables:
               <md>
-                P = \text{price of a cold brew bottle (\$) }\sim \text{indep}
-              </md>
-              <md>
-                D= \text{demand (bottles) }\sim \text{dep}
+                <mrow>P \amp= \text{price of a cold brew bottle (\$) }\sim \text{indep}</mrow>
+                <mrow>D \amp= \text{demand (bottles) }\sim \text{dep}</mrow>
               </md>
             </p>
         </introduction>
@@ -508,10 +500,8 @@
                 In the previous problem, Viviana was selling bottled cold brew
                 coffee. Using the variables:
                 <md>
-                P = \text{price of a cold brew bottle (\$) }\sim \text{indep}
-              </md>
-              <md>
-                D= \text{demand (bottles) }\sim \text{dep}
+                <mrow>P \amp= \text{price of a cold brew bottle (\$) }\sim \text{indep}</mrow>
+                <mrow>D \amp= \text{demand (bottles) }\sim \text{dep}</mrow>
               </md>
               she wrote an equation showing how the demand depends on the
                 price.
