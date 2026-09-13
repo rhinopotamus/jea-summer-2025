@@ -12,7 +12,6 @@
 
   <!-- The next three lines are likely for mature projects only: -->
 
-  <brandlogo url="" source="book-open-solid.png"/>
   <!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
   <!-- <document-id>unique-book-id</document-id> -->
 
@@ -32,7 +31,11 @@
   <rename element="exploration" xml:lang="en-US">Opening Activity</rename>
 
   <!-- Specify the default type of cross reference: -->
-  <cross-references text="global" />
+   <defaults>
+    <xrefs text="global" />
+   </defaults>
+
+  <directories external="../assets" generated="../generated-assets" />
 
   <!-- Prefigure stuff -->
   <directories data="data" />
