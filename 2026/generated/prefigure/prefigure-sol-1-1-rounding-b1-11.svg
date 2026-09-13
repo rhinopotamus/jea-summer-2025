@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-sol-1-1-rounding-b1-figure" width="310" height="60" viewBox="0 0 310 60">
+  <defs>
+    <clipPath id="prefigure-sol-1-1-rounding-b1-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="50.0"/>
+    </clipPath>
+    <clipPath id="prefigure-sol-1-1-rounding-b1-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="50.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-sol-1-1-rounding-b1-axes" stroke="black" stroke-width="2">
+    <line id="prefigure-sol-1-1-rounding-b1-__line-0" x1="15.0" y1="30.0" x2="305.0" y2="30.0" stroke="black" stroke-width="2"/>
+    <g id="prefigure-sol-1-1-rounding-b1-__g-0">
+      <line id="prefigure-sol-1-1-rounding-b1-__line-1" x1="30.0" y1="33.0" x2="30.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-2" x1="55.0" y1="33.0" x2="55.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-3" x1="80.0" y1="33.0" x2="80.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-4" x1="105.0" y1="33.0" x2="105.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-5" x1="130.0" y1="33.0" x2="130.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-6" x1="155.0" y1="33.0" x2="155.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-7" x1="180.0" y1="33.0" x2="180.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-8" x1="205.0" y1="33.0" x2="205.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-9" x1="230.0" y1="33.0" x2="230.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-10" x1="255.0" y1="33.0" x2="255.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-11" x1="280.0" y1="33.0" x2="280.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-12" x1="30.0" y1="33.0" x2="30.0" y2="27.0"/>
+      <line id="prefigure-sol-1-1-rounding-b1-__line-13" x1="280.0" y1="33.0" x2="280.0" y2="27.0"/>
+    </g>
+  </g>
+  <g id="prefigure-sol-1-1-rounding-b1-__label-0" transform="translate(30.0,41.0) translate(-16.1,-0.0)">
+    <g id="prefigure-sol-1-1-rounding-b1-__g-1">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="32.184px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1778 699" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-2-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-2-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-2-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-2-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="42.8">
+              <use data-c="34" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-2-TEX-N-34"/>
+              <use data-c="32" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-2-TEX-N-32" transform="translate(500,0)"/>
+              <use data-c="2E" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-2-TEX-N-2E" transform="translate(1000,0)"/>
+              <use data-c="38" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-2-TEX-N-38" transform="translate(1278,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-sol-1-1-rounding-b1-__label-1" transform="translate(280.0,41.0) translate(-16.1,-0.0)">
+    <g id="prefigure-sol-1-1-rounding-b1-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="32.184px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1778 699" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-3-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-3-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-3-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-3-TEX-N-39" d="M352 287Q304 211 232 211Q154 211 104 270T44 396Q42 412 42 436V444Q42 537 111 606Q171 666 243 666Q245 666 249 666T257 665H261Q273 665 286 663T323 651T370 619T413 560Q456 472 456 334Q456 194 396 97Q361 41 312 10T208 -22Q147 -22 108 7T68 93T121 149Q143 149 158 135T173 96Q173 78 164 65T148 49T135 44L131 43Q131 41 138 37T164 27T206 22H212Q272 22 313 86Q352 142 352 280V287ZM244 248Q292 248 321 297T351 430Q351 508 343 542Q341 552 337 562T323 588T293 615T246 625Q208 625 181 598Q160 576 154 546T147 441Q147 358 152 329T172 282Q197 248 244 248Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="42.9">
+              <use data-c="34" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-3-TEX-N-34"/>
+              <use data-c="32" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-3-TEX-N-32" transform="translate(500,0)"/>
+              <use data-c="2E" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-3-TEX-N-2E" transform="translate(1000,0)"/>
+              <use data-c="39" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-3-TEX-N-39" transform="translate(1278,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <line id="prefigure-sol-1-1-rounding-b1-__line-14" x1="60.0" y1="35.0" x2="60.0" y2="25.0" stroke-width="2" stroke="blue"/>
+  <g id="prefigure-sol-1-1-rounding-b1-__tick-mark-0" transform="translate(60.0,26.0) scale(0.9,0.9) translate(-25.1,-12.6)">
+    <g id="prefigure-sol-1-1-rounding-b1-__g-3">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px; color:blue" width="50.280px" height="12.648px" role="img" focusable="false" viewBox="0 -677 2778 699" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+          <path id="prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="float" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="42.812">
+              <use data-c="34" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-34"/>
+              <use data-c="32" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-32" transform="translate(500,0)"/>
+              <use data-c="2E" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-2E" transform="translate(1000,0)"/>
+              <use data-c="38" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-38" transform="translate(1278,0)"/>
+              <use data-c="31" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-31" transform="translate(1778,0)"/>
+              <use data-c="32" xlink:href="#prefigure-sol-1-1-rounding-b1-MJX-4-TEX-N-32" transform="translate(2278,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>

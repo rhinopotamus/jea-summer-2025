@@ -113,7 +113,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#up-down-off-approx-round",
   "type": "Exercise",
-  "number": "0.1.1",
+  "number": "1",
   "title": "",
   "body": "  Round each number up, down, or off to the precision indicated.  (Stories also appear in )       My calculations show I need a cross brace around 9.388 feet long. I want the board to be long enough, so round up to the nearest foot.      Gas mileage is usually rounded down to the nearest one decimal place. What is the gas mileage for a car measured as getting 42.812 miles per gallon? What about a car getting 23.09 miles per gallon?      The population estimate was 4.2 million people, but revised estimates suggest 4,908,229 people. Report the revised estimate rounded appropriately. What if a different estimate was 4,890,225? Would that change your answer?    "
 },
@@ -122,7 +122,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#depends-appprox-rounding",
   "type": "Exercise",
-  "number": "0.1.2",
+  "number": "2",
   "title": "",
   "body": "  The answer to the question should we round up, down, or off? is usually it depends!      Callista needs $117 cash for a mani-pedi at the local salon. The ATM allows her to withdraw multiples of $20. How much money should she withdraw and how many $20 bills is that? Did you round up, down, or off?      Bahari is buying some 8-packs of sparkling water for today's community hour. He expects up to 23 people to be there. He calculates that he will need 8-packs. How many 8-packs should he bring? Did you round up, down, or off?      Tzuf has $20 to buy apples for the new year's celebration. A bag of apples costs $3.49. Tsuf calculates that they can afford bags. How many bags can they buy? Did you round up, down, or off?      Eiji read that life expectancy in the United States is 77.28 years whereas in Japan it is 84.62 years. How might he describe these life expectancies in (whole) years? Did you round up, down, or off?    "
 },
@@ -131,7 +131,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#round-calculated-approx-rounding",
   "type": "Exercise",
-  "number": "0.1.3",
+  "number": "3",
   "title": "",
   "body": "  Round off the calculated numbers to give an answer that is reasonable and no more precise than the information given.     The snow removal budget for the city is currently at $8.3 million but the city council is requesting a reduction of $1.15 million per year. We calculate that after three years of cuts, the snow removal budget will be million.      A cup of cooked red lentils has around 190 calories and 6.4 grams of dietary fiber, while a cup of cooked chickpeas has around 172 calories and 12.0 grams of dietary fiber. We calculate that lentils provide grams per calorie whereas chickpeas provide grams per calorie.      Hibbing, Minnesota is the hometown of baseball star Roger Maris, basketball great Kevin McHale, the Greyhound Bus lines, the Hull-Rust-Mahoning Open Pit Iron Mine and, most famously, songwriter Bob Dylan. It is not a big town.  In 2000 the population of Hibbing, Minnesota was reported at just over 17,000 residents. Based on a projected 0.4% decrease per year, the 2010 population was calculated to be people.    "
 },
@@ -140,7 +140,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#round-compare-approx-rounding",
   "type": "Exercise",
-  "number": "0.1.4",
+  "number": "4",
   "title": "",
   "body": "  It is easiest to compare the size of decimal numbers when they are written the same precision. For example, $1.7 million is more money than $1.34 million because when we write both numbers to two decimal places we see The symbol means greater than; it points to the smaller number. Alternatively, when we expand both numbers we see In each story, write all of the decimal numbers given to the same precision and list the numbers from largest to smallest using signs.     Dawn tested a water sample from her apartment and found 21.19 ppm of sulfate. She volunteers at a local soup kitchen where the water sample tested at 21.3 ppm. (The abbreviation ppm stands for parts per million . Not to worry - sulfate levels below 250 are considered safe for human consumption.)      There are approximately 1.084 million quarters in circulation in the United States, compared to 1.786 million dimes, 1.6 million $5 bills, and 1.42 million $10 bills.    "
 },
@@ -149,7 +149,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#budget-estimate-approx-rounding",
   "type": "Exercise",
-  "number": "0.1.5",
+  "number": "5",
   "title": "",
   "body": "  The original budget estimate for the new community center gym is $148,214.779. Round this value:     To the nearest penny (two decimal places).      To the nearest dollar.      To the nearest thousand.      To the nearest ten thousand. That means ending in 0,000     "
 },
@@ -158,7 +158,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#string-lights-approx-rounding",
   "type": "Exercise",
-  "number": "0.1.6",
+  "number": "6",
   "title": "",
   "body": "  Anwar measured that he has 23 feet and 9 inches of space for string lights for his bedroom. He calculates that's 23.75 feet.     Approximately how many feet should he buy? Did you round up, down, or off?      Uh oh, lights only come in packs with 10 feet of string lights per pack. How many packs of string lights should Anwar buy if he wants to fit the whole space? Did you round up, down, or off?      Packs of string lights cost $12 each and Anwar has $30 to spend. How many packs of string lights can he afford to buy? Did you round up, down, or off?      How do we describe the precision of the answer in part (a)? Your answer should be in the form to the nearest       How do we describe the precision of the answer in part (b)? Your answer should be in the form to the nearest     "
 },
@@ -167,7 +167,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#bmi-approx-rounding",
   "type": "Exercise",
-  "number": "0.1.7",
+  "number": "7",
   "title": "",
   "body": "  Body Mass Index (or BMI for short) is one indicator of whether a person is a healthy weight.  (Story also appears in )  BMI between 18.5 and 24.9 are considered normal . Jarron is 6 foot 4 inches tall, which he calculated is approximately 1.93 meters. He weighs 202 pounds, which he calculated was approximately 91.625 kilograms. He would like to calculate his BMI directly using the formula he found online.     Jarron entered the following keystrokes on his calculator: and got the answer Is his BMI considered normal ?   More later on where this calculation comes from. If your calculator does not have the key, look for key instead.       Suppose Jarron had rounded off his height to 1.9 meters and his weight to 92 kilograms. Calculate his BMI by entering the following keystrokes on a scientific calculator: What do you get? Round your answer to one decimal place. Is Jarron's BMI considered normal ?      What would you tell Jarron?      What lesson did we just learn about rounding in the middle of the problem versus waiting until the end?    "
 },
@@ -176,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#round-ten-approx-rounding",
   "type": "Exercise",
-  "number": "0.1.8",
+  "number": "8",
   "title": "",
   "body": "  Linnea is trying to plot points on a graph and needs numbers rounded to the nearest $10. For example, she needs to know that $247 $250 while $73 $70. Round each number to the nearest $10:     $589      $41      $190      $2    "
 },
@@ -185,7 +185,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-1-Approximation_and_rounding.html#iv-drip-approx-rounding",
   "type": "Exercise",
-  "number": "0.1.9",
+  "number": "9",
   "title": "",
   "body": "  Souksavanh is trying adjust a patient's medication to deliver 15 g\/min.  (Story also appears in )  If she runs the drip at 9.1 mL\/hour, medication will be delivered at 14.76 g\/min which is too low. If she runs the drip at 9.3 mL\/hour, medication will be delivered at 15.09 g\/min which is too high.     Which of these values are between 9.1 and 9.3 mL\/hour:  9.18 mL\/hour, 9.22 mL\/hour, 9.07 mL\/hour, 9.41mL\/hour?      If she runs the drip at 9.2 mL\/hour, medication will be delivered at 14.93 g\/min which is still too low. Souk would like to try a rate between 9.2 and 9.3 mL\/hour. What rate can she try? That means, identify a number between 9.2 and 9.3. Hint: Try thinking of them as 9.20 and 9.30.       She has narrowed it down to between 9.24 and 9.25 mL\/hour (though perhaps the drip can't be controlled that precisely). What can she try? That means, identify a number between 9.24 and 9.25. Hint: Try thinking of them to three decimal places.     "
 },
@@ -203,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#cucumbers-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.1",
+  "number": "1",
   "title": "",
   "body": "  Tensia loves to garden but can't quite keep up with how many cucumbers are growing.    At the start of the week she had 8 cucumbers in her refrigerator.    Her son, Néstor took 3 home with him after dinner on Monday.    Tensia harvested another 7 cucumbers on Wednesday.    Her neighbor Sarah graciously took 4 cucumbers to make pickles.    Tensia herself ate 2 cucumbers during the week.    How many cucumbers does she have left over?   "
 },
@@ -212,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#late-rent-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.2",
+  "number": "2",
   "title": "",
   "body": "  Brent's landlord charges $15 per day for late rent.     What will Brent's late fee be if he is 6 days late paying his rent?      If Brent got a bill showing $195 in late fees, how many days late did he pay his rent?    "
 },
@@ -221,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#students-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.3",
+  "number": "3",
   "title": "",
   "body": "  There are 2,624 students at a local university.     About of those students live on or within a mile of campus. How many students live on or within a mile of campus?      The university wants to support 40 hours a week of onsite tutoring (in math, writing, etc.) for each the 32 weeks that classes are in session. It costs about $18\/hour to pay the tutors and the staff. What is the total cost of tutoring?      The university is considering charging students a tutoring fee. If they wanted to cover the total cost of tutoring, what would the cost per student be?    "
 },
@@ -230,7 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#truck-grass-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.4",
+  "number": "4",
   "title": "",
   "body": "  A truck hauling grass seed weighs 3,900 pounds when it is empty.  (Story also appears in , , and )  Each bag of seed it carries weighs 4.2 pounds. The gross weight of the truck is the total weight including the truck and the bags of seed.     How much does 1,300 bags of grass seed weigh?      What is the gross weight of the truck if it carries 1,300 bags of grass seed?      You probably entered this calculation as . What happens if you skip the middle = sign and enter instead?      What answer does your calculator give you if you enter instead?      What does part (d) tell you about which operation your calculator did first: the or the ?    "
 },
@@ -239,7 +239,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#social-security-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.5",
+  "number": "5",
   "title": "",
   "body": "  Mrs. Nystrom gets $1,453.46 per month in Social Security benefits and another $1,250 per month from a life annuity.  (Story also appears in , , and )  She pays $540.60 per month in taxes and $1,749 each month for rent and utilities. How much does she have left each month for food, entertainment, and other expenses?   "
 },
@@ -248,7 +248,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#driving-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.6",
+  "number": "6",
   "title": "",
   "body": "   McKenna drives 60 miles per hour on the highway.  (Story also appears in )  How far does she drive in two and a half hours (that's 2.5 hours)? How far does she drive in 45 minutes (that's of an hour)?      Nhia drove to visit his cousin in Detroit, which is 690 miles from where he lives in Saint Paul. If he spent 10 and a half hours driving (that's 10.5 hours), how fast was Nhia driving (on average)? Round your answer to the nearest whole number.    "
 },
@@ -257,7 +257,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#walnut-tree-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.7",
+  "number": "7",
   "title": "",
   "body": "  When the Nussbaums planted a walnut tree it was 5 feet tall.  (Story also appears in and )  It has grown around 2 feet a year.     How tall was the tree 1, 2, and 3 years after they planted it?      How tall is the tree now, 18 years after they planted it?    "
 },
@@ -266,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#beach-erosion-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.8",
+  "number": "8",
   "title": "",
   "body": "  The public beach near Paloma's house 60 years ago was 435 feet long and now is only 210 feet long due to erosion.  (Story also appears in and )  The length of the beach is measured from the dunes to the high water mark.     How many feet shorter is the beach now, compared to 60 years ago?      Approximately how many feet per year is the beach eroding?    "
 },
@@ -275,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#fabric-yards-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.9",
+  "number": "9",
   "title": "",
   "body": "  Each yard of fabric is 3 feet long.     Virgil needs 4 yards of fabric to sew a prototype of a new suit. How many feet of fabric does Virgil need?      If there are 15 feet of fabric left on the bolt, how many yards of fabric is that?    "
 },
@@ -284,7 +284,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-2-Arithmetic_operations.html#minutes-arithmetic-operations",
   "type": "Exercise",
-  "number": "0.2.10",
+  "number": "10",
   "title": "",
   "body": "  There are 60 minutes in an hour. (I bet you knew that!)     Nala has been helping her sister with her homework for 2 hours, 15 minutes (that's 2.25 hours). How many minutes has Nala been helping her sister?      Yesterday Nala helped her dad at the restaurant for 50 minutes, which is of an hour. If Nala hopes her dad will pay her $11 per hour, how much should she ask her dad for?    "
 },
@@ -320,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#world-population-percentages",
   "type": "Exercise",
-  "number": "0.3.1",
+  "number": "1",
   "title": "",
   "body": "  As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion).  (Story also appears in )  It changes by the second, so let's use the round figure of 8,100,000,000.     I read that the population of Brazil accounts for 2.69% of the world's population. According to that report, what is the population of Brazil? Round your answer to the nearest million.      If the population of the United States is currently around 334,000,000, what percentage of the world's population is in the United States?    "
 },
@@ -329,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#astra-rent-percentages",
   "type": "Exercise",
-  "number": "0.3.2",
+  "number": "2",
   "title": "",
   "body": "  In Minneapolis,  (Story also appears in and )  apartment rent is expected to increase by 16% next year.     Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16% what would their new rent be?      Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. What would their new rent be?    "
 },
@@ -338,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#intersection-percentages",
   "type": "Exercise",
-  "number": "0.3.3",
+  "number": "3",
   "title": "",
   "body": "  The intersection by my house is dangerous. One year there were 14 accidents there. The neighbors got together and petitioned to have 4-way stop signs installed.     The city estimated that the installed stop signs would reduce accidents at least 40%. If that happens, how many accidents would we expect the next year?      The national average shows that the new signs could reduce accidents up to 62%. If that happens instead, how many accidents would we expect the next year?      If there were 6 accidents the next year, is that in the range you figured out? What percent decrease does that correspond to?    "
 },
@@ -347,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#savings-interest-percentages",
   "type": "Exercise",
-  "number": "0.3.4",
+  "number": "4",
   "title": "",
   "body": "  My savings account earns a modest amount of interest, the equivalent of 0.75% annually.  (Story also appears in )  I have $12,392.18 in the account now.     How much interest will I earn this year?      How much will my account balance be at the end of the year?    "
 },
@@ -356,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#check-thang-percentages",
   "type": "Exercise",
-  "number": "0.3.5",
+  "number": "5",
   "title": "",
   "body": "   Check for yourself that the tip of Thang's $14.59 sandwich would be $1.46 if she had chosen 10%, $2.19 if she had chosen 15%, and $2.92 when she chose 20%.      What would the net cost of Thang's jersey be if she had a 20% discount (off the $99 price) instead?    "
 },
@@ -365,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#food-shelf-percentages",
   "type": "Exercise",
-  "number": "0.3.6",
+  "number": "6",
   "title": "",
   "body": "  Donations to a local food shelf have increased 35% over last year.  (Story also appears in and )  There were 3,400 pounds of food donated last year. How many pounds of food were donated this year?   "
 },
@@ -374,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#caffeine-percentages",
   "type": "Exercise",
-  "number": "0.3.7",
+  "number": "7",
   "title": "",
   "body": "  Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine.  (Story also appears in )  Her body eliminates the caffeine at the rate of 12% each hour. How much caffeine is left in her blood after 1 hour?   "
 },
@@ -383,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#salt-intake-percentages",
   "type": "Exercise",
-  "number": "0.3.8",
+  "number": "8",
   "title": "",
   "body": "  Too much salt can be difficult for your body. The Centers for Disease Control and Prevention (CDC) suggest that adults limit their daily intake of Sodium to a maximum of 2,300 mg per day.     Omer ate a snack sized bag of chili-flavored corn chips containing 9% of the daily maximum allowance of Sodium. How many milligrams of Sodium did he eat?      Selu ate the lightly salted corn chips instead containing 80 mg Sodium. What percentage of the daily maximum allowance of Sodium is in the lightly salted corn chips?    "
 },
@@ -392,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#house-value-percentages",
   "type": "Exercise",
-  "number": "0.3.9",
+  "number": "9",
   "title": "",
   "body": "  Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it.  (Story also appears in )  What is Tenzin's house worth now?   "
 },
@@ -401,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-3-Percentages.html#raises-percentages",
   "type": "Exercise",
-  "number": "0.3.10",
+  "number": "10",
   "title": "",
   "body": "   Story also appears in      Mai's salary was $78,000 before she got a 6% raise. What was her salary after the raise?      The following year Mai only got a 1.5% raise. What was her salary after this second raise? Be careful to use your answer to part (a) to compute the 1.5% increase.    "
 },
@@ -446,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-4-Order_of_operations.html#juan-coffee-order-operations",
   "type": "Exercise",
-  "number": "0.4.1",
+  "number": "1",
   "title": "",
   "body": "   (Story also appears in , , and )      A mug of coffee costs $3.45 at Juan's favorite cafe. If Juan orders 25 coffees each month, how much will he pay (total) for the month?      The cafe offers a deal each month, where if you buy their $10 discount card, then you only pay $2.90 per mug of coffee during the month. If Juan buys the discount card and orders 25 coffees, how much will he pay (total) for the month?      Comparing answers to parts (a) and (b), is it worthwhile for Juan to buy the card? Explain.    "
 },
@@ -455,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-4-Order_of_operations.html#rose-gold-order-operations",
   "type": "Exercise",
-  "number": "0.4.2",
+  "number": "2",
   "title": "",
   "body": "   Rose gold is a mix of gold and copper.  (Story also appears in , , and )       If we mix 2 grams of gold with 2 grams of copper, what is the percentage of gold in the resulting alloy?      If instead we mix 2 grams of gold with 7 grams of copper, what is the percentage of gold in the resulting alloy?    "
 },
@@ -464,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-4-Order_of_operations.html#weight-change-order-operations",
   "type": "Exercise",
-  "number": "0.4.3",
+  "number": "3",
   "title": "",
   "body": "   (Stories also appear in and )      Vanessa's doctor put her on a sensible diet and exercise plan to get her back to a healthy weight. She currently weighs 213 pounds. She will need to lose an average of 1.25 pounds a week to reach her goal weight in a year. What is her goal weight? Use 1 year = 52 weeks.      Since she has been pregnant, Zoe has gained the recommended pound per week. She weighed 153 at the start of her pregnancy. What does she weigh now at 30 weeks pregnant?    "
 },
@@ -473,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-4-Order_of_operations.html#ex-0-4-Order_of_operations-5-2",
   "type": "Exercise",
-  "number": "0.4.4",
+  "number": "4",
   "title": "",
   "body": "    (Stories also appear in and )      Jerome has gained weight since he took his power training to the next level ten weeks ago, at the rate of around 1 pound a week. He is now 198 pounds. What was his original weight?      After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week. What did Carlos weigh 6 weeks ago before the migraines started?    "
 },
@@ -482,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-4-Order_of_operations.html#asian-students-order-operations",
   "type": "Exercise",
-  "number": "0.4.5",
+  "number": "5",
   "title": "",
   "body": "  Recall that in the Asian student association there were 3 Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. What percentage of students in the group identify as Vietnamese?   "
 },
@@ -491,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-4-Order_of_operations.html#savings-order-operations",
   "type": "Exercise",
-  "number": "0.4.6",
+  "number": "6",
   "title": "",
   "body": "  Patience has been saving for a trip. She started her savings account with a deposit of $300. For the past 18 months she's been adding $250 per month. Unfortunately she needed to withdraw $1,080 for an unexpected car repair. She has earned a total of $43 interest. How much is in Patience's account now?   "
 },
@@ -500,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-4-Order_of_operations.html#long-jump-order-operations",
   "type": "Exercise",
-  "number": "0.4.7",
+  "number": "7",
   "title": "",
   "body": "  Mike Powell has held the men's long jump record since 1991. He jumped an amazing 29 feet, 4 inches. We would like to write this length as a decimal number of feet.     First, write 4 inches as a decimal number of inches. Note that this length means .      Next, convert your answer into feet by dividing by 12, since there are 12 inches in a foot.      Last, add your answer to 29 feet and round to the nearest two decimal places.      Valentina was trying to figure out the answer in one line on his calculator. He tried What answer does Valentina get? Oops!      Add one set of parentheses to correct Valentina's work.    "
 },
@@ -509,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-4-Order_of_operations.html#water-radiator-order-operations",
   "type": "Exercise",
-  "number": "0.4.8",
+  "number": "8",
   "title": "",
   "body": "  My house gets super dry in the winter, especially if we are away not cooking or using the shower. Last January I left a 5 quart pot full of water on my living room radiator for a week and when I got home there was perhaps 1 cup of water left.     How many cups of water are in 5 quarts? There are 4 cups in every quart.      How many cups of water evaporated?      How fast was the water evaporating, measured in cups per day? (Hint: use that there are 7 days in a week.)      Cadde was trying to figure out the answer in one line on his calculator. He tried What answer did Cadde get? Oops!      Add one set of parentheses to correct Cadde's work.    "
 },
@@ -527,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-5-Fractions.html#students-fractions",
   "type": "Exercise",
-  "number": "0.5.1",
+  "number": "1",
   "title": "",
   "body": "  There are 2,624 students at a local university.     Of those students, 673 of those students placed into this algebra class. What fraction of students placed into algebra?      The Dean said that approximately 1 in 4 students, or of all students, placed into algebra. Is that correct? Check by determining if your answer to part (a) by comparing decimal approximations.    "
 },
@@ -536,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-5-Fractions.html#gas-mileage-fractions",
   "type": "Exercise",
-  "number": "0.5.2",
+  "number": "2",
   "title": "",
   "body": "  Gas mileage is usually rounded down to the nearest one decimal place. Gas mileage is measured in miles per gallon (mpg).     Xu does gig work delivering take-out food from local restaurants. He started the week with a full tank of gas and drove 319 miles. When he went to fill the tank, he needed 11.3 gallons. What was Xu's gas mileage?      Margaret and Cathy are on a cross-country trip. They've driven from Minnesota to Maine (approximately 1,430 miles). They have bought gas a few times along the way: 12.7 gallons, then 14.0 gallons, then 13.1 gallons, and then 12.4 gallons. What was Margaret and Cathy's gas mileage?      How could you do the calculation in part (b) in one line on your calculator by using parentheses?    "
 },
@@ -545,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-5-Fractions.html#vinyl-fractions",
   "type": "Exercise",
-  "number": "0.5.3",
+  "number": "3",
   "title": "",
   "body": "  In January 2015, Graham had 47 albums in his vinyl collection. By September 2023 (that's 8 years, 9 months later), he had 783 albums. Approximately how many albums per month did Graham buy?     Figure out the answer step by step.      Now try to combine all of your calculations into one line on your calculator. Hint: write as a fraction first.    "
 },
@@ -554,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-5-Fractions.html#reading-fractions",
   "type": "Exercise",
-  "number": "0.5.4",
+  "number": "4",
   "title": "",
   "body": "  It took Mariam 3 hours to complete the reading for her Religion class. The reading was 102 pages long.     How fast did she read measured in pages per hour? Write the answer as a fraction and as a decimal.      Reading speed is often measured in words per minute. Assuming there are approximately 500 words per page, calculate Mariam's reading speed step by step.      How could you do the calculation in part (b) one line on your calculator by using parentheses? Hint: the hours cancel!    "
 },
@@ -563,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-5-Fractions.html#flatbread-squares-fractions",
   "type": "Exercise",
-  "number": "0.5.5",
+  "number": "5",
   "title": "",
   "body": "  In our flatbread example, the flatbread was served cut into 5 slices and we cut it lengthwise into 15 squares.     Use our flatbread example to explain why and confirm by calculating the decimals.      Use our flatbread example to explain why (hint: think of very long strips!) and confirm by calculating the decimals.    "
 },
@@ -572,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-5-Fractions.html#porridge-fractions",
   "type": "Exercise",
-  "number": "0.5.6",
+  "number": "6",
   "title": "",
   "body": "  Auriel is making porridge but doesn't want too much. Last time she cut the recipe in half, but that was too little. Auriel has decided that making of the recipe will be just right. Figure out how much of each ingredient Auriel needs. Report each answer as both a fraction and a decimal.     The original recipe calls for 5 ounces of skim milk.      The original recipe calls for cup of oats.      The original recipe calls for cup of water.      The original recipe calls for cup of raisins.    "
 },
@@ -581,7 +581,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-5-Fractions.html#diver-fractions",
   "type": "Exercise",
-  "number": "0.5.7",
+  "number": "7",
   "title": "",
   "body": "  A diver bounces on a 3-meter springboard.  (Story also appears in )  Up she goes. A somersault, a twist, and then whoosh, into the water.     At 0.2 seconds after take-off she was 3.88 meters above the water. Her initial speed can be calculated as Find the diver's speed and don't forget the units.      At 0.4 seconds after take-off she was 4.38 meters above the water. Her speed then can be calculated as Find the diver's speed and don't forget the units.      Which speed is larger? Explain why that might make sense in the story.    "
 },
@@ -590,7 +590,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-5-Fractions.html#football-field-fractions",
   "type": "Exercise",
-  "number": "0.5.8",
+  "number": "8",
   "title": "",
   "body": "  The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards.  (Story also appears in )       Find the number of yards by calculating       Approximately how many times will the players need to run up and back on the field? The field is 100 yards long so up and back is 200 yards.    "
 },
@@ -644,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-6-Powers_and_roots.html#wooden-balls-powers-roots",
   "type": "Exercise",
-  "number": "0.6.1",
+  "number": "1",
   "title": "",
   "body": "  Jody is using small wooden balls to make noses for her knitted gnomes.  (Story also appears in )  She figured out that she can calculate the weight of each ball (in ounces) as where is the diameter of the ball (in inches).     What does a 2.5 inch diameter wooden ball weigh?      Jody is considering building a giant gnome for her office. The nose will be a wooden ball weighing 1 pound. She calculates that the diameter of the ball will be . How big is that?    "
 },
@@ -653,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-6-Powers_and_roots.html#pizza-diameter-powers-roots",
   "type": "Exercise",
-  "number": "0.6.2",
+  "number": "2",
   "title": "",
   "body": "  The size of a round pizza is described by its diameter.  (Story also appears in , , and )  It turns out that we can calculate how many people are served by a pizza of diameter inches as . For example, a 16-inch diameter pizza serves people. (The mysterious number 0.015625 comes from a little geometry and pizza science.)     How many people would be served by a 12-inch pizza?      A personal pizza is designed to serve one person. It turns out the diameter of a personal pizza is . Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.      An extra large pizza serves 6 people. It turns out the diameter of an extra large pizza is . Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.    "
 },
@@ -662,7 +662,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-6-Powers_and_roots.html#fiber-optic-powers-roots",
   "type": "Exercise",
-  "number": "0.6.3",
+  "number": "3",
   "title": "",
   "body": "  A signal sent down a fiber optic cable decreases by 2% per mile.  (Story also appears in and )  That means after miles, its strength is . What is the signal strength after 10 miles? After 20 miles? Note: your answers should be decimal numbers less than 1.   "
 },
@@ -671,7 +671,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-6-Powers_and_roots.html#investment-powers-roots",
   "type": "Exercise",
-  "number": "0.6.4",
+  "number": "4",
   "title": "",
   "body": "  Otis invested $500,000 and estimates his investment will double in value every 10 years.     Calculate the value of Otis's investment after 10, 20, 30, and 40 years.      If Kricia invested $230,000 instead, what would her investment be worth after 40 years? Try to use a power to help answer the question. Hint: how many times will the value of her investment double?    "
 },
@@ -680,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-6-Powers_and_roots.html#bead-cube-powers-roots",
   "type": "Exercise",
-  "number": "0.6.5",
+  "number": "5",
   "title": "",
   "body": "  Remember Noah's mom from our story? She was making a glass box that is where the length is measured in inches.     How many cubic inches of beads would the box hold if it's ? What if the box were instead? You can first find the answers by multiplying on your calculator, but then challenge yourself to use the power key.      Use guessing to approximate the dimension of a box that would hold 400 cubic inches of beads. Just guess to the nearest one decimal place. Again, practice using the power key.      Use cube roots and your calculator to figure out the dimension of a box that would hold 400 cubic inches of beads, to the nearest one decimal place. Does your answer agree with part (b)? (It should.)    "
 },
@@ -689,7 +689,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-6-Powers_and_roots.html#creeping-charlie-powers-roots",
   "type": "Exercise",
-  "number": "0.6.6",
+  "number": "6",
   "title": "",
   "body": "  Creeping Charlie is a low-growing weed that spreads quickly, doubling the area it covers each year. If there are 7 square feet of Creeping Charlie in my lawn now, how much of my lawn will be covered by Creeping Charlie in 1 year? In 2 years? In 10 years? (Try to answer that last one using powers.)   "
 },
@@ -698,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-6-Powers_and_roots.html#needlepoint-powers-roots",
   "type": "Exercise",
-  "number": "0.6.7",
+  "number": "7",
   "title": "",
   "body": "  Saboor is working on a needlepoint that will be a 1 foot by 1 foot square.  (Story also appears in )  The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is holes per foot. If she uses a 13-count mesh, then the piece will have holes.     How many holes does a 1 foot by 1 foot square mesh grid have if she uses a 10-count mesh instead which has 10 holes per inch?      What count mesh will have 10,000 holes? First find the holes per foot by calculating . Then divide by 12 to find the holes per inch.    "
 },
@@ -707,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-6-Powers_and_roots.html#sterling-silver-powers-roots",
   "type": "Exercise",
-  "number": "0.6.8",
+  "number": "8",
   "title": "",
   "body": "  A set of sterling silverware was valued at $800 in 1920,  (Story also appears in and )  and the value increased by around 3% per year thereafter.     What was the value in 1921? Remember, to find 3% of a number we multiply by .      What was the value in 1922? Don't forget to use your answer to part (a) to calculate the new increase in value.      It turns out there's a quicker way to find the answers to parts (a) and (b). Calculate and . Note: we will discuss this shortcut in greater detail in .      In general, we can find the value of the silverware after years by calculating Use this powers method to find the value of the sterling in 1957. Hint: years.      Use this powers method to find the value of the sterling in 1990.      Use this powers method to find the value of the sterling in 2023.    "
 },
@@ -734,7 +734,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#weight-change-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.1",
+  "number": "1",
   "title": "",
   "body": "  Since she has been pregnant, Zoe has gained the recommended pound per week.  (Story also appears in and )  She weighed 153 pounds at the start of her pregnancy. That means when she is weeks pregnant, that Zoe weighs What does this expression say Zoe will weigh when she's 40 weeks pregnant?   "
 },
@@ -743,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#wooden-balls-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.2",
+  "number": "2",
   "title": "",
   "body": "  Jody is using small wooden balls to make noses for her knitted gnomes.  (Story also appears in )  She figured out that she can calculate the weight of each ball (in ounces) as . Write this expression in algebraic notation.   "
 },
@@ -752,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#astra-rent-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.3",
+  "number": "3",
   "title": "",
   "body": "  Astra lives in a 1-bedroom apartment where they pay $825 per month in rent.  (Story also appears in and )  Thanks to new rent stabilization laws, Astra's rent can only increase 3% per year. That means after years, their rent will be at most What does this expression say her rent could be in 5 years?   "
 },
@@ -761,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#rose-gold-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.4",
+  "number": "4",
   "title": "",
   "body": "   Rose gold is a mix of gold and copper.  (Story also appears in , , and 4.1 Exercises)  If we mix 2 grams of gold with grams of copper, the percentage of the resulting alloy that is gold is given by the expression What does this expression say the percentage of gold will be if we add 7 grams of copper?   "
 },
@@ -770,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#precip-predict-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.5",
+  "number": "5",
   "title": "",
   "body": "  There were two different predictions of total precipitation.     What does the first report predict for total precipitation in 2042 (when ) using the expression ?      What does the second report predict for total precipitation in 2042 (when ) using the expression ?    "
 },
@@ -779,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#walnut-tree-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.6",
+  "number": "6",
   "title": "",
   "body": "  When the Nussbaums planted a walnut tree it was 5 feet tall.  Story also appears in , , and .  It has grown around 2 feet a year. If we know that it's been years since they planted the tree, we can figure out that the height of the tree is feet.     Use this expression to figure out the height of the tree after 18 years.      What does mean in the expression ?   Hint: It doesn't mean 2 years !     "
 },
@@ -788,7 +788,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#sterling-silver-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.7",
+  "number": "7",
   "title": "",
   "body": "  A set of sterling silverware was valued at $800 in 1920,  (Story also appears in and )  and the value increased around 3% per year thereafter. We can calculate the value of the silverware after years as .     Use this expression to calculate the value of the silverware in 1990. (Use )      What does the mean in the expression ?      What does the symbol mean in the expression ?      There are other ways to write this expression including and . Evaluate each of these expressions at . You might not need to type in the multiplication. Experiment to see what your calculator needs.    "
 },
@@ -797,7 +797,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#bass-fishing-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.8",
+  "number": "8",
   "title": "",
   "body": "  The lake by Rodney's condo was stocked with bass (fish) 10 years ago.  (Story also appears in and )  There were initially 400 bass introduced.     One potential expression for the number of bass after years is What does this equation say the number of bass should be now? Hint: that means years.      Another potential expression for the number of bass after years is What does this equation say the number of bass should be now? Since we're using a very different equation, we will get a very different answer. Don't forget to put parentheses around the bottom of the fraction.      If there are actually 2500 fish in the lake now, which expression is closer to correct?    "
 },
@@ -806,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#classroom-observation-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.9",
+  "number": "9",
   "title": "",
   "body": "  Zahra needs to complete 62 more hours of classroom observation before she is eligible to student teach.  (Story also appears in )  She plans to observe at a local school on Thursdays from 8:00 AM-1:30 PM, which is 5.5 hours\/week. After weeks, Zahra will have hours left.     How many hours will Zahra have left after 4 weeks? Evaluate this expression to find the answer.      What does the mean in the expression ?      What does the mean in the expression ? Remember there are two similar looking operations: subtraction and negation.    "
 },
@@ -815,7 +815,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-7-Algebraic_notation.html#needlepoint-algebraic-notation",
   "type": "Exercise",
-  "number": "0.7.10",
+  "number": "10",
   "title": "",
   "body": "  Saboor is working on a needlepoint that will be 1 foot by 1 foot square.  (Story also appears in )  The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is holes per foot. If she uses a 13-count mesh, then the piece will have holes. There are other sizes mesh to choose from. A -count mesh has holes per foot and holes total.     Evaluate the expression when . Don't forget the units.      Evaluate the expression when to count the total number of holes in a 10-count mesh.      What does the mean in the expression ?      If we forgot the parentheses and typed in , what answer would we get and what is the calculator doing differently?    "
 },
@@ -851,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-8-Scientific_notation.html#ex-0-8-Scientific_notation-3-1",
   "type": "Exercise",
-  "number": "0.8.1",
+  "number": "1",
   "title": "",
   "body": "  In each story, write out the highlighted numbers (with all the zeros).     Melvin was looking at populations based on the 2020 Census and saw the population of Saint Paul, MN listed as  people . Hint: you can check the answer to this part by evaluating on your calculator.      The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy.  (Story also appears in )  The United States GDP is approximately .      The Earth weighs approximately  kilograms .  (Story also appears in )      "
 },
@@ -860,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-8-Scientific_notation.html#ex-0-8-Scientific_notation-3-2",
   "type": "Exercise",
-  "number": "0.8.2",
+  "number": "2",
   "title": "",
   "body": "  In each story, write out the highlighted numbers (with all the zeros).     Alpacas have very fine hairs which can be spun into yarn to make very soft sweaters. The width of an alpaca hair is around  meters . Hint: you can check the answer to this part by evaluating on your calculator.      A dust particle weighs approximately  grams .  (Story also appears in )        A proton (part of an atom) has mass of about  kilograms .  (Story also appears in )      "
 },
@@ -869,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-8-Scientific_notation.html#ex-0-8-Scientific_notation-4-1",
   "type": "Exercise",
-  "number": "0.8.3",
+  "number": "3",
   "title": "",
   "body": "  In each story, evaluate the number and report your answer in scientific notation.     Bunnies, bunnies, everywhere.  (Story also appears in and )  In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.)      A signal is sent down a fiber optic cable.  (Story also appears in and )  Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.)    "
 },
@@ -878,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-8-Scientific_notation.html#ex-0-8-Scientific_notation-4-2",
   "type": "Exercise",
-  "number": "0.8.4",
+  "number": "4",
   "title": "",
   "body": "  In each story, write out the highlighted number (with all the 0s). Note that million is short for , billion is short for , and trillion is short for .     There are approximately 1.084 million quarters in the United States.  (Story also appears in )        The population of the world is approximately 8.1 billion people .  (Story also appears in )        One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately $24 trillion worth of T-bonds currently.    "
 },
@@ -887,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-8-Scientific_notation.html#billion-seconds-prelude-scientific-notation",
   "type": "Exercise",
-  "number": "0.8.5",
+  "number": "5",
   "title": "",
   "body": "   (Story also appears in )   Source: Mathew Foss, North Hennepin Community College       Convert 1 million seconds into an understandable unit of time.      Billy Bob wants to throw a party when he turns 1 billion seconds old. About how many years old will he be?       Bonus question: On what date were you or will you be 1 billion seconds old? Don't forget leap years!    "
 },
@@ -896,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-8-Scientific_notation.html#planet-weight-prelude-scientific-notation",
   "type": "Exercise",
-  "number": "0.8.6",
+  "number": "6",
   "title": "",
   "body": "   (Story also appears in )      The planet Jupiter weighs approximately  kilograms . Write out this number (with all the zeros).      The planet Mars weighs approximately  kilograms . Write out this number (with all the zeros).      Which planet weighs more: Jupiter or Mars? Explain.    "
 },
@@ -905,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-8-Scientific_notation.html#virus-size-prelude-scientific-notation",
   "type": "Exercise",
-  "number": "0.8.7",
+  "number": "7",
   "title": "",
   "body": "  The SARS-CoV-2 virus is approximately 125 nanometers wide which is  meters wide.     Write out this number (with all the zeros).      The N95 mask captures particles down to 0.3 microns which is  meters wide but not smaller. Write out this number (with all the zeros).      Can the N95 mask capture the SARS-CoV-2 virus? Explain.    "
 },
@@ -914,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-8-Scientific_notation.html#cells-prelude-scientific-notation",
   "type": "Exercise",
-  "number": "0.8.8",
+  "number": "8",
   "title": "",
   "body": "  Rayka would like to approximate how many cells are in her body.  (Story also appears in )  Use the following information: Rayka weighs 140 pounds, and .     How many cells are in Rayka's body? Hint: this is a unit conversion question asking you to convert 140 pounds to cells. Write your answer in scientific notation.      Rewrite your answer in the most appropriate unit: millions ( ), billions ( ), trillions ( ), quadrillions ( ), or quintillions ( ).    "
 },
@@ -932,7 +932,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-9-Logarithms.html#bacteria-logarithms",
   "type": "Exercise",
-  "number": "0.9.1",
+  "number": "1",
   "title": "",
   "body": "  The number of bacteria in a dish increases 10-fold each day. Note: 10-fold means . Suppose we had 1 microliter of bacteria at the start of the first day. That means after days there will be microliters of bacteria.     How many bacteria (in microliters) will there be after 1 day? After 2 days? After 3 days?      In how many days will the bacteria have reached 1 liter, which is 1 million microliters?      How can we use logs to find the answer?    "
 },
@@ -941,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-9-Logarithms.html#ex-0-9-Logarithms-3-2",
   "type": "Exercise",
-  "number": "0.9.2",
+  "number": "2",
   "title": "",
   "body": "  The problem continues       Approximately how many days (from the start) does it take to reach the 25 millilter capacity of the petri dish, which is 25,000 microliters? Guess and check to find the answer to 1 decimal place.      How can we use logs to find the answer?      Convert your answer to days & hours format ( days and hours ).    "
 },
@@ -950,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-9-Logarithms.html#pH-logarithms",
   "type": "Exercise",
-  "number": "0.9.3",
+  "number": "3",
   "title": "",
   "body": "  The equation tells us the pH of a substance (on a scale from 0 to 14) based on its molar hydrogen ion concentration . Don't let the notation here scare you: is a single quantity and has nothing to do with exponents or adding.  For example, lemon juice has and so the pH of lemon juice is      Coca-Cola has . Find the pH of Coca-Cola. Note: the funny spaces are to help you read the number.      Hair shampoo has . Find the pH of hair shampoo.      Household bleach has . Find the pH of bleach.      Materials with pH values between 0-5 are acidic , between 9-14 are basic , and between 5-7 are neutral . Which of the above materials are acidic, basic, and neutral?    "
 },
@@ -959,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-9-Logarithms.html#astra-rent-logarithms",
   "type": "Exercise",
-  "number": "0.9.4",
+  "number": "4",
   "title": "",
   "body": "  In Minneapolis, apartment rent is expected to increase by 16% next year.  (Story also appears in and )       Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16%, in how many years would their rent be doubled to $1,650? As we'll see later, the answer is . Don't forget to close the parentheses.      Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. In how many years would their rent double under this cap? The answer is .    "
 },
@@ -968,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-9-Logarithms.html#puzzlaxing-logarithms",
   "type": "Exercise",
-  "number": "0.9.5",
+  "number": "5",
   "title": "",
   "body": "  According to our story, in approximately how many weeks will 30,000 people have heard of puzzlaxing ?     Since 30,000 is between 10,000 and 100,000, what does that tell us about the answer?      Guess to try to find the answer, the number where . It's okay to get the answer to one decimal place.      Use logs to find an exact answer.    "
 },
@@ -977,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-9-Logarithms.html#decibels-logarithms",
   "type": "Exercise",
-  "number": "0.9.6",
+  "number": "6",
   "title": "",
   "body": "  The intensity of a sound in decibels is calculated using a logarithm. For example, a sound 100 times the level humans can hear has an intensity of      Calculate the intensity, in decibels, of a cat purring which averages about 300 times the level humans can hear using the formula .      Calculate the intensity, in decibels, of normal conversation which averages about 1 million times the level humans can hear using the formula .      Many young adults are at high risk of hearing loss because they crank the volume of music they're listening to, often to 2 trillion times the level humans can hear. Calculate that intensity in decimals using the formula . Prolonged sound above 70 decibels may damage your hearing and any loud noise above 120 decibels can cause immediate harm to hearing.    "
 },
@@ -986,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-9-Logarithms.html#credit-card-logarithms",
   "type": "Exercise",
-  "number": "0.9.7",
+  "number": "7",
   "title": "",
   "body": "  In 2021, Arrietty charged $5,000 on her credit card to help pay tuition. Her card charges interest at the rate of 20.7% APR. We are going to ignore any minimum payments or fees.     Arrietty was hoping to pay the debt back quickly, but in 2023 she had not paid any of the debt. Calculate the amount due on that original charge using the formula .      If she continues to leave the debt unpaid, when will her debt pass $10,000? As we'll see later, the answer is years after 2020. Don't forget to the close the parentheses.    "
 },
@@ -995,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-0-9-Logarithms.html#hair-color-logarithms",
   "type": "Exercise",
-  "number": "0.9.8",
+  "number": "8",
   "title": "",
   "body": "  Darcy likes to use temporary hair color in wild colors.  (Story also appears in )  Good thing it washes out. Her best guess is that 8% of the color washes out each time she shampoos her hair. That means of the color remains after each shampoo.     What percentage of the color will be remain after Darcy washes her hair three times? Calculate the percentage using the formula .      After how many shampoos will half of the color be gone? As we'll see later, the answer is . Don't forget to the close the parentheses.    "
 },
@@ -1238,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-Tables_and_graphs.html#table-1-2-cig-data",
   "type": "Table",
-  "number": "1.2.1",
+  "number": "1.2.2",
   "title": "Data on cigarette smoking",
   "body": " Data on cigarette smoking     0  15  30  40  50  65  75  90  100  106     54  285  1,485  1,976  3,552  4,258  4,122  2,834  2,049  1,619    "
 },
@@ -1256,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-Tables_and_graphs.html#act-1-2-create-table",
   "type": "Activity",
-  "number": "1.2.2",
+  "number": "1.2.3",
   "title": "",
   "body": "  At a local private college, the comprehensive fee is currently $64,000. The fee is projected to increase each year for the next several years.     Name the variables in this story:     letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~        Here is an empty table. Remember that the first column holds the letter names for the two variables, and by convention, the independent variable comes first. Fill in your two letter names.                      Here is a bunch of information about the comprehensive fee; your job is to organize it into a table like the one above.  In 2 years, the fee is projected to be $71,600. In 4 years, the fee will be $80,200. The fee will reach $89,700 in 6 years, and $100,500 in 8 years. In 10 years, the fee will rise to $112,500.  (Isn't it much nicer to organize this information in a table than it is to have it all in written words?)      "
 },
@@ -1292,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-Tables_and_graphs.html#fig-1-2-cig-scales",
   "type": "Figure",
-  "number": "1.2.2",
+  "number": "1.2.4",
   "title": "",
   "body": " Scaled axes for plotting cigarette consumption. = cigarettes per year per person, as a function of = years since 1900.   Scaled axes for plotting cigarette consumption      Y  S       "
 },
@@ -1301,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-Tables_and_graphs.html#act-1-2-choose-scale",
   "type": "Activity",
-  "number": "1.2.3",
+  "number": "1.2.5",
   "title": "",
   "body": "  Here's a table of data about the comprehensive fee for the private college again. Fill in your own letter names for the variables.     = time (years)  0  2  4  6  8  10    = comprehensive fee ($)  64,000  71,600  80,200  89,700  100,500  112,500    In this activity we're going to choose a scale for each axis. Here is some sample graph paper:      Let's start with the horizontal axis, where the independent variable (time) goes. What are the smallest and largest values of the independent variable?    We want our data to all fit in our graph paper, but also to take up most of the space on our graph paper, so we have to choose the largest value on our horizontal axis carefully. Here are a few possible largest values. Which ones do you think are reasonably good, and why?    5 years    20 years    8 years    10 years    15 years    12 years      Try out each of these possible scales for the horizontal axis. Which ones work well, and which ones don't? Write a sentence explaining what's wrong with the ones that don't work.    2 years every 1 gridline    1 year every 2 gridlines    2 years every 3 gridlines    3 years every 4 gridlines      Now let's move on to the vertical axis, where the dependent variable (comprehensive fee) goes. What are the smallest and largest values of the dependent variable?    Here are a few possible largest values for the vertical axis. Which ones do you think are reasonably good, and why?    $150,000    $125,000    $60,000    $200,000    $100,000    $112,500      Try out each of these possible scales for the vertical axis. Which ones work well, and which ones don't? Write a sentence explaining what's wrong with the ones that don't work.    $10,000 every 2 gridlines    $20,000 every 2 gridlines    $50,000 every 4 gridlines    $15,000 every 2 gridlines        "
 },
@@ -1310,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-Tables_and_graphs.html#fig-1-2-cig-scatter",
   "type": "Figure",
-  "number": "1.2.3",
+  "number": "1.2.6",
   "title": "",
   "body": " Scatter plot of data in . = cigarettes per year per person, as a function of = years since 1900.   Scatter plot of cigarette consumption data     small_x=filter(df, 'Year', 'small', 'yes')  small_y=filter(df, 'Smoking rate', 'small', 'yes')  small=zip_lists(small_x, small_y)    Y  S        "
 },
@@ -1328,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-Tables_and_graphs.html#fig-1-2-cig-curve",
   "type": "Figure",
-  "number": "1.2.4",
+  "number": "1.2.7",
   "title": "",
   "body": " Scatter plot with a smooth curve connecting the points. = cigarettes per year per person, as a function of = years since 1900.   Scatter plot of cigarette smoking data with a smooth curve connecting the points     small_x=filter(df, 'Year', 'small', 'yes')  small_y=filter(df, 'Smoking rate', 'small', 'yes')  small=zip_lists(small_x, small_y)    Y  S         "
 },
@@ -1337,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-Tables_and_graphs.html#act-1-2-plot-points",
   "type": "Activity",
-  "number": "1.2.4",
+  "number": "1.2.8",
   "title": "",
   "body": "  Here's a table of data about the comprehensive fee for the private college again. Fill in your own letter names for the variables.     = time (years)  0  2  4  6  8  10    = comprehensive fee ($)  64,000  71,600  80,200  89,700  100,500  112,500    In we chose good scales for both axes; now we'll use the scales we chose to plot the points in the table. Here's the sample graph paper again:      Let's start with the point where the time is 4 years and the comprehensive fee is $80,200. Find where 4 years is located on your horizontal axis, and find where $80,200 is located on your vertical axis. Draw a point where those two locations meet.    Draw all the rest of the points given in the table. Don't forget the one where the time is 0 years and the comprehensive fee is $64,000!    Draw in a nice smooth curve connecting all the points.    Use the curve you drew to guess what the comprehensive fee will be in 7 years.    What do you think the comprehensive fee might be after 15 years?      "
 },
@@ -1346,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-Tables_and_graphs.html#fig-1-2-cig-compare",
   "type": "Figure",
-  "number": "1.2.5",
+  "number": "1.2.9",
   "title": "",
   "body": " Comparison of annual data vs partial data. = cigarettes per year per person, as a function of = years since 1900.   Comparison of annual data vs partial data     small_x=filter(df, 'Year', 'small', 'yes')  small_y=filter(df, 'Smoking rate', 'small', 'yes')  small=zip_lists(small_x, small_y)  annual_points=zip_lists(df['Year'], df['Smoking rate'])    Y  S         Annual data  Partial data       "
 },
@@ -1508,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-3-Rate_of_change.html#fig-1-3-springboard-diver",
   "type": "Figure",
-  "number": "1.3.1",
+  "number": "1.3.4",
   "title": "",
   "body": " = height as a function of = time.   Height vs. time for diver    h(t)=3+5.4*t-4.88*t^2     T  H           "
 },
@@ -1517,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-3-Rate_of_change.html#act-1-3-graphing",
   "type": "Activity",
-  "number": "1.3.4",
+  "number": "1.3.5",
   "title": "",
   "body": "  Here are Sweet Rose Bakery's cake prices again. This time, let's draw a graph of these prices.    Servings  8  15  40    Cost  $28.99  $43.99  $66.99       The number of servings should be on the horizontal axis, because it's the independent variable. Figure out a good scale for this axis.    The cost of the cake should be on the vertical axis, because it's the dependent variable. Figure out a good scale for this axis.    Plot the points from the table on your graph, and connect them with a nice smooth curve.    What connections do you notice between the rates of change you computed in and and the steepness of the curve you just drew?      "
 },
@@ -2183,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-1-First_look_linear.html#fig-2-1-plumber",
   "type": "Figure",
-  "number": "2.1.1",
+  "number": "2.1.4",
   "title": "",
   "body": " = plumber's charge as a function of = time plumber works.   Charge vs. time for the plumber    P(t)=100+75*t    T  P        "
 },
@@ -2201,7 +2201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-1-First_look_linear.html#act-2-1-graph-truck",
   "type": "Activity",
-  "number": "2.1.4",
+  "number": "2.1.5",
   "title": "",
   "body": "  Here is a table of values of the weight of the truck carrying grass seed. Fill in your variable names.   (indep)  0  100  500  1,200    (dep)  3,900  4,320  6,000  8,940       Graph these points on the graph paper provided below.     Connect the points in a nice smooth way. Do all the points lie on the same straight line?    Choose any two points from the table of values above and calculate the rate of change between them; your answer should be 4.2. What are the units on your answer, and why does this number make sense in the story?     "
 },
@@ -2237,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-1-First_look_linear.html#act-2-1-constants-truck",
   "type": "Activity",
-  "number": "2.1.5",
+  "number": "2.1.6",
   "title": "",
   "body": "  It's always useful to explain in everyday words what the constants in an equation mean in the story. The two constants in the story about the truck hauling bags of grass seed are 3,900 and 4.2.    What units does the 3,900 have? What does it mean in the story?    What units does the 4.2 have? What does it mean in the story?    Which one of these constants is the intercept (or start )? Which one is the slope ?     "
 },
@@ -2399,7 +2399,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-2-First_look_exponential.html#fig-2-2-healthcare-costs",
   "type": "Figure",
-  "number": "2.2.1",
+  "number": "2.2.5",
   "title": "",
   "body": " = healthcare spending as a function of = time since 2007.   Health care costs vs time    H(Y)=2.26*1.067^Y    Y  H        "
 },
@@ -2408,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-2-First_look_exponential.html#act-2-2-equation",
   "type": "Activity",
-  "number": "2.2.5",
+  "number": "2.2.6",
   "title": "",
   "body": "  The comprehensive fee at a local private college is $64,000. The fee is projected to increase by 5.8% per year. Let's write an equation that describes this story.    First, we have to name the variables.     letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~        Generalize your calculations from to write down an equation.    Summarize your calculations from in a table. Fill in your variable letter names.    (indep)  0        (dep)  64,000          Draw a graph of these values, and connect them with a nice smooth curve.     "
 },
@@ -2588,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-3-Using_equations.html#fig-2-3-braking-vs-stopping",
   "type": "Figure",
-  "number": "2.3.1",
+  "number": "2.3.3",
   "title": "",
   "body": " Braking distance and stopping distance as a function of = speed.   Braking distance and stopping distance vs. speed    B(s)=0.04*s^2  D(s)=0.04*s^2+1.47*s    S       D = stopping distance  B = braking distance       "
 },
@@ -2597,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-3-Using_equations.html#act-2-3-evaluate-rose-gold",
   "type": "Activity",
-  "number": "2.3.3",
+  "number": "2.3.4",
   "title": "",
   "body": "  Let's practice with another equation where the independent variable occurs twice.   Rose gold is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, is given by For example, if we add 0.8 grams of pure gold, then and so the percentage is     Name the variables and , including units and dependence.    letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~         Calculate the percentage of gold in the alloy if we add 1.2 grams of pure gold.    Evaluate at . What does your result mean in the story?     "
 },
@@ -2822,7 +2822,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-4-Approx_solutions.html#fig-2-4-india-population",
   "type": "Figure",
-  "number": "2.4.1",
+  "number": "2.4.4",
   "title": "",
   "body": " = population of India as a function of = years since 2024.   Population model of India    P(t)=1.409*1.0072^t  target(t)=1.6    Y  P         "
 },
@@ -3470,7 +3470,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-2-Solving_linear_inequalities.html#fig-3-2-fahrenheit-celsius",
   "type": "Figure",
-  "number": "3.2.1",
+  "number": "3.2.5",
   "title": "",
   "body": "  = Fahrenheit temperature, as a function of = Celsius temperature   Fahrenheit temperature vs Celsius temperature, with F between 325 and 375 highlighted    F(C)=1.8*C+32  hi(C)=375  lo(C)=325    C  F            "
 },
@@ -3479,7 +3479,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-2-Solving_linear_inequalities.html#act-3-2-chain-ineq",
   "type": "Activity",
-  "number": "3.2.5",
+  "number": "3.2.6",
   "title": "",
   "body": "  The grass seed shipping company doesn't like to send out their trucks with too few bags of grass, because that's inefficient.    Write an inequality saying that the weight of the truck should be at least 8,000 pounds.    Write an inequality about the weight limit: the weight of the truck should be below 18,000 pounds.    Combine these two inequalities into a chain of inequalities:     Use the equation to replace in the chain of inequalities.    Solve the chain of inequalities by doing the to all three sides.    Check your work by graphing the equation :   Axes for graphing the equation W = 3900 + 4.2B    W(B)=3900+4.2*B  hi(B)=18000  lo(B)=8000    B  W            "
 },
@@ -3632,7 +3632,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-3-Solving_power_equations.html#fig-3-3-lemon-juice",
   "type": "Figure",
-  "number": "3.3.1",
+  "number": "3.3.3",
   "title": "",
   "body": "  = juice, as a function of = circumference   Juice vs. circumference of a lemon    J(C)=0.0056*C^3    C  J        "
 },
@@ -3641,7 +3641,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-3-Solving_power_equations.html#act-3-3-solve-cube",
   "type": "Activity",
-  "number": "3.3.3",
+  "number": "3.3.4",
   "title": "",
   "body": "  The weight of a wood cube is a function of the length of the sides. A cube with sides each inches long has weight ounces according to the equation Let's use the to solve this equation symbolically.    Fill in the evaluating steps and the solving steps for this equation.  Evaluating steps:              Solving steps:                  Set up and solve an equation to figure out the edge length of a cube that weighs 8 ounces. (Is 8 a value of or a value of ?)    Draw a graph of the function to confirm your answer.     "
 },
@@ -3659,7 +3659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-3-Solving_power_equations.html#act-3-3-solve-pizza",
   "type": "Activity",
-  "number": "3.3.4",
+  "number": "3.3.5",
   "title": "",
   "body": "  A pizza of diameter inches serves people where Let's use the to solve this equation symbolically.    Fill in the evaluating steps and the solving steps for this equation.  Evaluating steps:              Solving steps:                  Set up and solve an equation to figure out the diameter of a personal pizza ( ).    Draw a graph of the equation to confirm your answer.     "
 },
@@ -3787,7 +3787,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Solving exponential equations (and logs)",
-  "body": " Solving exponential equations (and logs)   In order to use the , we need to know the opposites of the operations that we use to evaluate functions. So far, we have a pretty good library of operations and their opposites:   Operations and their opposites    Operation  Opposite    Add  Subtract    Subtract  Add    Multiply  Divide    Divide  Multiply    Powers  Roots     Turns out there's one more important operation whose opposite we still need to learn about.    It's common to get mixed up between power equations and exponential equations, and thus to mix up the undoing operations. Let's practice identifying the differences between them.     Which of these equations are power equations, and which are exponential equations?         Exponential equations       Power equations       Write a sentence in everyday language explaining to a friend how to tell the difference between power equations and exponential equations.       Health care costs  Remember Jocelyn? She was asked to analyze information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care and costs were projected to increase at an average of 6.7% annually for the subsequent decade. For the variables she found the exponential equation   In what year did health care costs first pass $3 trillion? We can use successive approximation to find the answer, starting with the values she found earlier.    year  2007  2008  2009  2017  2027     0  1  2  10  20     2.26  2.41  2.57  4.32  8.82    vs. 3  low  low  low  high  high    The answer must be between 2009 and 2017. Let's split the difference and guess 2013. For that year, and so , which is already over $3 trillion. What about 2011? Use to check that , which is almost, but not quite there. Must be 2012 was the year. Sure enough when we get . That's it. Health care costs first passed $3 trillion in 2012. Well, at least according to our equation. As usual, we summarize the numbers in a table.    year  2009  2017  2013  2011  2012     2  10  6  4  5     2.57  4.32  3.33  2.93  3.12    vs. 3  low  high  high  low  high    Now that we've seen several examples of evaluating this equation, we can say what the evaluating steps are: for any particular year,   do 1.067-to-the,    multiply by 2.26.   Notice in particular that that first step is a bit different from the first step back in , because of the location of the independent.    After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. Let's think about the evaluating steps in this equation.    What is Stephen's BAC after 1 hour? After 2 hours?    What are the evaluating steps in this equation?                    Solving an exponential equation symbolically  Successive approximation gives us the answer fairly quickly. But there is an even quicker way solving the exponential equation using the . Start with what we're looking for, which is . Use the equation to get . Opposite steps in the opposite order: we want to find the value of , so divide each side by 2.26 to get which simplifies to When the dust settles we're left with .  Hmm. How do we find here? We saw how to use roots to solve power equations. In our lemonade example we had . We knew the exponent (3) and wanted to find the number being raised to that power ( ). That's when we took the cube root to get . That approach is not going to work here because the operation is backwards now - we know the number being raised to a power (1.067) and are on the hunt for the exponent ( ) instead.  Turns out there's a different formula for solving for the exponent that uses logarithms (nickname: logs ). More about logs in a minute, but first let's write down the formula and practice working with it. The formula is   Log-Divides Formula  The equation has solution , where is the growth factor and is the value.   Quick aside about the name. Some formulas have well-known names. Not this one. We call it the Log-Divides Formula because it has logs and divides in it. Perhaps you already guessed that. Other math books do not have a name for this formula, although it is related to something called the change of base formula .  Okay. Back to solving our equation. We got stuck trying to solve We have growth factor and value . So the formula says Your calculator should have a key that says log or maybe LOG . Try typing . A small note here about parentheses. Some calculators give the first parenthesis for free when you type log but you have to type the closing parenthesis in yourself.  This answer of 4.37 means that costs are projected to exceed $3 trillion just over 4 years after 2007. That's some time during 2011, or by 2012 for sure. Same answer as before.  Let's summarize what we've done using the . Our evaluating steps were:   do 1.067-to-the,    multiply by 2.26.   And our solving steps the opposite steps in the opposite order were:   divide by 2.26    use the .   We'll discuss them in more detail at the end of the section, but for now, logs are exactly the step that undoes exponents.  Anyway, a look at the graph confirms our result.    = health care costs, as a function of = years since 2007   Health care costs as a function of years since 2007    H(Y)=2.26*1.067^Y  C(Y)=3    Y  H            After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. Let's use the to solve this equation symbolically.    Fill in the evaluating steps and the solving steps for this equation.  Evaluating steps:              Solving steps:                  To use the , we need to identify and .    Before typing into your calculator, write down the with your values of and .    Draw a graph of the function to confirm your answer.        Another example  Let's do another example for practice. Suppose instead we want to know when health care costs would exceed $10 trillion instead. (By the way - wow!) That means . Using our equation we get . Opposite steps in the opposite order: first we should divide boty sides by 2.26. That means Now our equation fits the format for the with new value (and the growth factor is still). So the answer is Want to avoid typing in the number 4.424778761 ? Depending on your calculator, you might try this instead: where ANS stands for answer .  Again that means 23 years after 2007, or 2007 + 23 = 2030. Health care costs are projected to exceed $10 trillion in the year 2030. Well, unless we do something about that. (Helps explain why government folks are often discussing how to contain health care costs.)    = health care costs, as a function of = years since 2007   Health care costs as a function of years since 2007    H(Y)=2.26*1.067^Y  C(Y)=10    Y  H            Logarithms  Time to fill you in a bit more about logs. Look at these examples. Don't take my word for it; calculate them yourself.   What do you see? In each case the logarithm is the number of zeros. For example, has 4 zeros and . Another way to think of this connection is . In other words, the logarithm is picking off the power of 10.  Wait a minute. The Log-Divides formula helped us find the value of which was an exponent. And now we see that the log of a power of 10 is that exponent. So a logarithm is just an exponent. And logarithms help us find the exponent. Makes sense.  What about logs of numbers that aren't just powers of 10? Here are some examples.   To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example, . We are back to the power of 10. Well, approximately. Let's check another number. . Before we write down a general rule, let's check more numbers. In every case we are rounding down, but it's always the same.   log(number) power of 10 in the scientific notation for that number.     Do you know     What log means?    The connection is between logs and scientific notation?    How to evaluate logs on your calculator?    How to evaluate the using your calcuator?    When to use the ? Ask your instructor if you need to remember the or if it will be provided during the exam.     How to solve an exponential equation?      If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.     Exercises   Exercises 1-4 are available in a separate workbook format.        After his first beer,  (Story also appears in and )  Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours.     Make a table showing Stephen's BAC at the start of the story ( ) and each of the next four hours.      At a BAC of 0.08 it is illegal for Stephen to drive. When will that happen? Set up and solve an equation using the . Answer to the nearest minute.      Hopefully Stephen will stop drinking before he reaches a BAC of 0.20. If not, at the rate he is drinking, when would that be? Set up and solve an equation. Answer to the nearest minute.         Chlorine is used to disinfect water in swimming pools.  (Story also appears in )  The chlorine concentration decreases as the pool is used according to the equation where is the chlorine concentration in parts per million (ppm) and is the time in hours since the concentration was first measured.     Make a table showing the chlorine concentration initially and after the swimming pool is used for 3 hours, 10 hours, 24 hours, and 48 hours.      Draw a graph illustrating the function.      Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, approximately when will that happen? Give a reasonable estimate.       Use successive approximation to find approximately when the concentration falls below 1.5 ppm.     (indep)                                        (dep)             hi \/ lo                  Set up and solve an equation to find exactly when the chlorine concentration falls below 1.5 ppm.      Solve the equation to find when the chlorine concentration would fall below 0.1 ppm (essentially no chlorine) assuming no chlorine was added earlier. Show how to solve the equation to find the answer (and check it!).      Report your answer to the nearest day.         Rent in the Riverside Neighborhood is expected to increase 7.2% each year.  (Story also appears in )  Average rent for an apartment is currently $830 per month. Earlier we identified the variables as for the monthly rent (in $) and for time in years.     Find the annual growth factor.      Write an equation showing how rent is expected to change.      Use successive approximation to determine approximately when rent will pass $1,000\/month. Display your work in a table. Round to the appropriate year.     (indep)                                        (dep)             hi \/ lo                  Set up and solve an equation to calculate exactly when rent will pass $1,000\/month. Round to the appropriate year.      Solve again to determine when rent will reach double what it is now, namely $1,660\/month, assuming this trend continues.         Dontrell and Kim borrowed money to buy a house on a 30-year mortgage.  (Story also appears in )  After months of making payments, Dontrell and Kim will still owe $ where  is also known as the payoff (how much they would need to pay to settle the debt).     How much did Dontrell and Kim originally borrow to buy their house?      They have been in the house for 5 years now and due to a downturn in the housing market, their house is worth only $150,000. Are they underwater ? That is, do they owe more than the house is worth?      How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation         The employee-paid cost of health insurance has risen dramatically, increasing by 7% each year since 2003 when it cost $420\/month.     Name the variables and write an exponential equation relating them.      If this rate of increase continues, when will or did the employee-paid cost pass $550\/month? Solve your equation.      Repeat for $600\/month.      Graph the function.       The number of school children in the district from a single parent household has been on the rise.  (Story also appears in )  In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year. Earlier, we found the equation was where is the number of children and is the years since 2010.     Use successive approximation to determine when there will be over 3,000 school children in the district from a single parent household. Display your work in a table. Round your answer to the nearest year.      Show how to solve the equation to calculate when there will be over 3,000 school children in the district from a single parent household. Show how you solve the equation.      Solve again to determine when there will be over 3,500 children. Check your answer.       Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light.  (Story also appears in )  If we use inches of window glass, it lets of the light through, where      What thickness glass should be used to let through less than 10% of the light? Set up and solve an equation.       What about 50%? Set up and solve an equation.       Check the graph (drawn before) to see if your answers make sense.       We saw that poultry population was estimated to grow according to the equation  Source: Worldwatch Institute  (Story also appears in )   where is the poultry population in million tons and is the years starting in 2005.     When will production rise above 95 million tons? Set up and solve an equation. Then use some other method to check.      Repeat for 120 million tons.       Darcy likes to use temporary hair color in wild colors.  (Story also appears in )  Good thing it washes out. Her best guess is that 8% of the color washes out each time she washes her hair. That means the percentage of color remaining, , is a function of the number of times she washes her hair, , according to the equation      When will half the color be gone? That means find . Set up and solve an equation. Then check some other way.      By the time only 10% of the color remains you really can't tell anymore if it was pink or orange or blue. So, she might as well switch to a new color then. How many washes before only 10% remains? Again, first solve. Then check.      Draw a graph showing how the color washes out of Darcy's hair.      "
+  "body": " Solving exponential equations (and logs)   In order to use the , we need to know the opposites of the operations that we use to evaluate functions. So far, we have a pretty good library of operations and their opposites:   Operations and their opposites    Operation  Opposite    Add  Subtract    Subtract  Add    Multiply  Divide    Divide  Multiply    Powers  Roots     Turns out there's one more important operation whose opposite we still need to learn about.    It's common to get mixed up between power equations and exponential equations, and thus to mix up the undoing operations. Let's practice identifying the differences between them.     Which of these equations are power equations, and which are exponential equations?         Exponential equations       Power equations       Write a sentence in everyday language explaining to a friend how to tell the difference between power equations and exponential equations.       Health care costs  Remember Jocelyn? She was asked to analyze information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care and costs were projected to increase at an average of 6.7% annually for the subsequent decade. For the variables she found the exponential equation   In what year did health care costs first pass $3 trillion? We can use successive approximation to find the answer, starting with the values she found earlier.    year  2007  2008  2009  2017  2027     0  1  2  10  20     2.26  2.41  2.57  4.32  8.82    vs. 3  low  low  low  high  high    The answer must be between 2009 and 2017. Let's split the difference and guess 2013. For that year, and so , which is already over $3 trillion. What about 2011? Use to check that , which is almost, but not quite there. Must be 2012 was the year. Sure enough when we get . That's it. Health care costs first passed $3 trillion in 2012. Well, at least according to our equation. As usual, we summarize the numbers in a table.    year  2009  2017  2013  2011  2012     2  10  6  4  5     2.57  4.32  3.33  2.93  3.12    vs. 3  low  high  high  low  high    Now that we've seen several examples of evaluating this equation, we can say what the evaluating steps are: for any particular year,   do 1.067-to-the,    multiply by 2.26.   Notice in particular that that first step is a bit different from the first step back in , because of the location of the independent.    After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. Let's think about the evaluating steps in this equation.    What is Stephen's BAC after 1 hour? After 2 hours?    What are the evaluating steps in this equation?                    Solving an exponential equation symbolically  Successive approximation gives us the answer fairly quickly. But there is an even quicker way solving the exponential equation using the . Start with what we're looking for, which is . Use the equation to get . Opposite steps in the opposite order: we want to find the value of , so divide each side by 2.26 to get which simplifies to When the dust settles we're left with .  Hmm. How do we find here? We saw how to use roots to solve power equations. In our lemonade example we had . We knew the exponent (3) and wanted to find the number being raised to that power ( ). That's when we took the cube root to get . That approach is not going to work here because the operation is backwards now - we know the number being raised to a power (1.067) and are on the hunt for the exponent ( ) instead.  Turns out there's a different formula for solving for the exponent that uses logarithms (nickname: logs ). More about logs in a minute, but first let's write down the formula and practice working with it. The formula is   Log-Divides Formula  The equation has solution , where is the growth factor and is the value.   Quick aside about the name. Some formulas have well-known names. Not this one. We call it the Log-Divides Formula because it has logs and divides in it. Perhaps you already guessed that. Other math books do not have a name for this formula, although it is related to something called the change of base formula .  Okay. Back to solving our equation. We got stuck trying to solve We have growth factor and value . So the formula says Your calculator should have a key that says log or maybe LOG . Try typing . A small note here about parentheses. Some calculators give the first parenthesis for free when you type log but you have to type the closing parenthesis in yourself.  This answer of 4.37 means that costs are projected to exceed $3 trillion just over 4 years after 2007. That's some time during 2011, or by 2012 for sure. Same answer as before.  Let's summarize what we've done using the . Our evaluating steps were:   do 1.067-to-the,    multiply by 2.26.   And our solving steps the opposite steps in the opposite order were:   divide by 2.26    use the .   We'll discuss them in more detail at the end of the section, but for now, logs are exactly the step that undoes exponents.  Anyway, a look at the graph confirms our result.    = health care costs, as a function of = years since 2007   Health care costs as a function of years since 2007    H(Y)=2.26*1.067^Y  C(Y)=3    Y  H            After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours.  How long until Stephen's BAC is 0.08? (Over this number, it is illegal for Stephen to drive!) Let's use the to solve this equation symbolically.    Fill in the evaluating steps and the solving steps for this equation.  Evaluating steps:              Solving steps:                  To use the , we need to identify and .    Before typing into your calculator, write down the with your values of and .    Draw a graph of the function to confirm your answer.        Another example  Let's do another example for practice. Suppose instead we want to know when health care costs would exceed $10 trillion instead. (By the way - wow!) That means . Using our equation we get . Opposite steps in the opposite order: first we should divide boty sides by 2.26. That means Now our equation fits the format for the with new value (and the growth factor is still). So the answer is Want to avoid typing in the number 4.424778761 ? Depending on your calculator, you might try this instead: where ANS stands for answer .  Again that means 23 years after 2007, or 2007 + 23 = 2030. Health care costs are projected to exceed $10 trillion in the year 2030. Well, unless we do something about that. (Helps explain why government folks are often discussing how to contain health care costs.)    = health care costs, as a function of = years since 2007   Health care costs as a function of years since 2007    H(Y)=2.26*1.067^Y  C(Y)=10    Y  H            Logarithms  Time to fill you in a bit more about logs. Look at these examples. Don't take my word for it; calculate them yourself.   What do you see? In each case the logarithm is the number of zeros. For example, has 4 zeros and . Another way to think of this connection is . In other words, the logarithm is picking off the power of 10.  Wait a minute. The Log-Divides formula helped us find the value of which was an exponent. And now we see that the log of a power of 10 is that exponent. So a logarithm is just an exponent. And logarithms help us find the exponent. Makes sense.  What about logs of numbers that aren't just powers of 10? Here are some examples.   To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example, . We are back to the power of 10. Well, approximately. Let's check another number. . Before we write down a general rule, let's check more numbers. In every case we are rounding down, but it's always the same.   log(number) power of 10 in the scientific notation for that number.     Do you know     What log means?    The connection is between logs and scientific notation?    How to evaluate logs on your calculator?    How to evaluate the using your calcuator?    When to use the ? Ask your instructor if you need to remember the or if it will be provided during the exam.     How to solve an exponential equation?      If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.     Exercises   Exercises 1-4 are available in a separate workbook format.        After his first beer,  (Story also appears in and )  Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours.     Make a table showing Stephen's BAC at the start of the story ( ) and each of the next four hours.      At a BAC of 0.08 it is illegal for Stephen to drive. When will that happen? Set up and solve an equation using the . Answer to the nearest minute.      Hopefully Stephen will stop drinking before he reaches a BAC of 0.20. If not, at the rate he is drinking, when would that be? Set up and solve an equation. Answer to the nearest minute.         Chlorine is used to disinfect water in swimming pools.  (Story also appears in )  The chlorine concentration decreases as the pool is used according to the equation where is the chlorine concentration in parts per million (ppm) and is the time in hours since the concentration was first measured.     Make a table showing the chlorine concentration initially and after the swimming pool is used for 3 hours, 10 hours, 24 hours, and 48 hours.      Draw a graph illustrating the function.      Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, approximately when will that happen? Give a reasonable estimate.       Use successive approximation to find approximately when the concentration falls below 1.5 ppm.     (indep)                                        (dep)             hi \/ lo                  Set up and solve an equation to find exactly when the chlorine concentration falls below 1.5 ppm.      Solve the equation to find when the chlorine concentration would fall below 0.1 ppm (essentially no chlorine) assuming no chlorine was added earlier. Show how to solve the equation to find the answer (and check it!).      Report your answer to the nearest day.         Rent in the Riverside Neighborhood is expected to increase 7.2% each year.  (Story also appears in )  Average rent for an apartment is currently $830 per month. Earlier we identified the variables as for the monthly rent (in $) and for time in years.     Find the annual growth factor.      Write an equation showing how rent is expected to change.      Use successive approximation to determine approximately when rent will pass $1,000\/month. Display your work in a table. Round to the appropriate year.     (indep)                                        (dep)             hi \/ lo                  Set up and solve an equation to calculate exactly when rent will pass $1,000\/month. Round to the appropriate year.      Solve again to determine when rent will reach double what it is now, namely $1,660\/month, assuming this trend continues.         Dontrell and Kim borrowed money to buy a house on a 30-year mortgage.  (Story also appears in )  After months of making payments, Dontrell and Kim will still owe $ where  is also known as the payoff (how much they would need to pay to settle the debt).     How much did Dontrell and Kim originally borrow to buy their house?      They have been in the house for 5 years now and due to a downturn in the housing market, their house is worth only $150,000. Are they underwater ? That is, do they owe more than the house is worth?      How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation         The employee-paid cost of health insurance has risen dramatically, increasing by 7% each year since 2003 when it cost $420\/month.     Name the variables and write an exponential equation relating them.      If this rate of increase continues, when will or did the employee-paid cost pass $550\/month? Solve your equation.      Repeat for $600\/month.      Graph the function.       The number of school children in the district from a single parent household has been on the rise.  (Story also appears in )  In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year. Earlier, we found the equation was where is the number of children and is the years since 2010.     Use successive approximation to determine when there will be over 3,000 school children in the district from a single parent household. Display your work in a table. Round your answer to the nearest year.      Show how to solve the equation to calculate when there will be over 3,000 school children in the district from a single parent household. Show how you solve the equation.      Solve again to determine when there will be over 3,500 children. Check your answer.       Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light.  (Story also appears in )  If we use inches of window glass, it lets of the light through, where      What thickness glass should be used to let through less than 10% of the light? Set up and solve an equation.       What about 50%? Set up and solve an equation.       Check the graph (drawn before) to see if your answers make sense.       We saw that poultry population was estimated to grow according to the equation  Source: Worldwatch Institute  (Story also appears in )   where is the poultry population in million tons and is the years starting in 2005.     When will production rise above 95 million tons? Set up and solve an equation. Then use some other method to check.      Repeat for 120 million tons.       Darcy likes to use temporary hair color in wild colors.  (Story also appears in )  Good thing it washes out. Her best guess is that 8% of the color washes out each time she washes her hair. That means the percentage of color remaining, , is a function of the number of times she washes her hair, , according to the equation      When will half the color be gone? That means find . Set up and solve an equation. Then check some other way.      By the time only 10% of the color remains you really can't tell anymore if it was pink or orange or blue. So, she might as well switch to a new color then. How many washes before only 10% remains? Again, first solve. Then check.      Draw a graph showing how the color washes out of Darcy's hair.      "
 },
 {
   "id": "sec-3-4-Solving_exponential_equations-2-2",
@@ -3803,7 +3803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-4-Solving_exponential_equations.html#oa-3-4-power-vs-exponential",
   "type": "Opening Activity",
-  "number": "3.4.1",
+  "number": "3.4.2",
   "title": "",
   "body": "  It's common to get mixed up between power equations and exponential equations, and thus to mix up the undoing operations. Let's practice identifying the differences between them.     Which of these equations are power equations, and which are exponential equations?         Exponential equations       Power equations       Write a sentence in everyday language explaining to a friend how to tell the difference between power equations and exponential equations.    "
 },
@@ -3812,7 +3812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-4-Solving_exponential_equations.html#act-3-4-steps-bac",
   "type": "Activity",
-  "number": "3.4.2",
+  "number": "3.4.3",
   "title": "",
   "body": "  After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. Let's think about the evaluating steps in this equation.    What is Stephen's BAC after 1 hour? After 2 hours?    What are the evaluating steps in this equation?                 "
 },
@@ -3839,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-4-Solving_exponential_equations.html#fig-3-4-healthcare-costs",
   "type": "Figure",
-  "number": "3.4.2",
+  "number": "3.4.4",
   "title": "",
   "body": "  = health care costs, as a function of = years since 2007   Health care costs as a function of years since 2007    H(Y)=2.26*1.067^Y  C(Y)=3    Y  H         "
 },
@@ -3848,9 +3848,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-4-Solving_exponential_equations.html#act-3-4-solve-bac",
   "type": "Activity",
-  "number": "3.4.3",
+  "number": "3.4.5",
   "title": "",
-  "body": "  After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. Let's use the to solve this equation symbolically.    Fill in the evaluating steps and the solving steps for this equation.  Evaluating steps:              Solving steps:                  To use the , we need to identify and .    Before typing into your calculator, write down the with your values of and .    Draw a graph of the function to confirm your answer.     "
+  "body": "  After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours.  How long until Stephen's BAC is 0.08? (Over this number, it is illegal for Stephen to drive!) Let's use the to solve this equation symbolically.    Fill in the evaluating steps and the solving steps for this equation.  Evaluating steps:              Solving steps:                  To use the , we need to identify and .    Before typing into your calculator, write down the with your values of and .    Draw a graph of the function to confirm your answer.     "
 },
 {
   "id": "ss-3-4-another-example-2",
@@ -3866,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-4-Solving_exponential_equations.html#fig-3-4-healthcare-costs-10",
   "type": "Figure",
-  "number": "3.4.3",
+  "number": "3.4.6",
   "title": "",
   "body": "  = health care costs, as a function of = years since 2007   Health care costs as a function of years since 2007    H(Y)=2.26*1.067^Y  C(Y)=10    Y  H         "
 },
@@ -3983,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-5-Solving_quadratic_equations.html#fig-3-5-juggling",
   "type": "Figure",
-  "number": "3.5.1",
+  "number": "3.5.2",
   "title": "",
   "body": " = height of the beanbag, as a function of = time.   Height of the beanbag vs. time    H(T) = 3+15*T-16*T^2    T  H        "
 },
@@ -3992,7 +3992,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-5-Solving_quadratic_equations.html#act-3-5-highjump-approx",
   "type": "Activity",
-  "number": "3.5.2",
+  "number": "3.5.3",
   "title": "",
   "body": "  A high-jumper jumps so that the height, feet, of the point on his back that must clear the bar after seconds is given by the equation .   = the height of the high jumper, as a function of = time.   Height of a high jumper vs. time    H(T) = 3.5+16*T-16*T^2    T  H           Use the graph above to find approximately when the high-jumper would hit the ground (if there were no pit).    Use successive approximation to refine your guess.     (indep)                                        (dep)             hi \/ lo                 "
 },
@@ -4010,7 +4010,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-5-Solving_quadratic_equations.html#act-3-5-highjump-exact",
   "type": "Activity",
-  "number": "3.5.3",
+  "number": "3.5.5",
   "title": "",
   "body": "  A high-jumper jumps so that the height, feet, of the point on his back that must clear the bar after seconds is given by the equation .    Rearrange the equation so that the is first, the is second, and the constant is last.    Use the to find exactly when the high-jumper would hit the ground.    Does your answer make sense according to your work in ? If not, check your work.     "
 },
@@ -4019,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-5-Solving_quadratic_equations.html#act-3-5-highjump-nonzero",
   "type": "Activity",
-  "number": "3.5.4",
+  "number": "3.5.6",
   "title": "",
   "body": "  A high-jumper jumps so that the height, feet, of the point on his back that must clear the bar after seconds is given by the equation .   = the height of the high jumper, as a function of = time.   Height of a high jumper vs. time    H(T) = 3.5+16*T-16*T^2    T  H           High jumpers actually jump into a pit , which is like a big soft beanbag that's about 2 feet thick. Use the graph above to estimate when the high jumper would hit the pit.    Use the to find exactly when the high-jumper would hit the pit.     "
 },
@@ -4028,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-5-Solving_quadratic_equations.html#act-3-5-highjump-vertex",
   "type": "Activity",
-  "number": "3.5.5",
+  "number": "3.5.8",
   "title": "",
   "body": "  A high-jumper jumps so that the height, feet, of the point on his back that must clear the bar after seconds is given by the equation .   = the height of the high jumper, as a function of = time.   Height of a high jumper vs. time    H(T) = 3.5+16*T-16*T^2    T  H           How high a bar can the high-jumper clear? Use the graph above to estimate the height of the highest point on the graph.    Evaluate at to find the highest point exactly .     "
 },
@@ -4271,7 +4271,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-1-Modeling_linear_equations.html#fig-4-1-affordable-housing",
   "type": "Figure",
-  "number": "4.1.1",
+  "number": "4.1.2",
   "title": "",
   "body": "  = affordable apartments, as a function of = years   Affordable apartments, as a function of time in years    A(Y)=64100+7800*Y  T(Y)=150000    Y  A         "
 },
@@ -4397,7 +4397,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-2-Systems_linear_equations.html#fig-4-2-machine-comparison",
   "type": "Figure",
-  "number": "4.2.1",
+  "number": "4.2.3",
   "title": "",
   "body": "  = total expenditure, as a function of = number of locks produced   Total expenditure as a function of number of locks produced    E(L)=3200+1.25*L  F(L)=5400+0.8*L    L  E      Machine 1  Machine 2       "
 },
@@ -4406,7 +4406,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-2-Systems_linear_equations.html#act-4-2-car-approx",
   "type": "Activity",
-  "number": "4.2.3",
+  "number": "4.2.4",
   "title": "",
   "body": "  Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.  Use successive approximation to approximate the payoff time , or the number of years for which the total costs of each car are equal. Figure out your answer accurate to the nearest half-year.    (indep)                                        (Car A)             (Car B)             A \/ B cheaper?              "
 },
@@ -4415,7 +4415,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-2-Systems_linear_equations.html#act-4-2-car-differences",
   "type": "Activity",
-  "number": "4.2.4",
+  "number": "4.2.5",
   "title": "",
   "body": "  Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.    Find the difference between the two purchase prices, including units. Write a sentence explaining what your calculation means about the two cars.    Find the difference between the two fuel costs, including units. (Don't forget per year !) Write a sentence explaining what your calculation means about the two cars.    Multiply by the number of years (which is a variable you named earlier!) to cancel out the per year. Write a sentence explaining what your calculation means about the two cars.    Would it make sense to compute ? Why or why not?     "
 },
@@ -4433,7 +4433,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-2-Systems_linear_equations.html#act-4-2-car-solve",
   "type": "Activity",
-  "number": "4.2.5",
+  "number": "4.2.6",
   "title": "",
   "body": "  Back to Madison's car shopping: Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.    Madison wants to find the number of years where Use your equations for the total cost for each car to turn this into an equation involving the number of years she keeps the car.    Follow the same steps Quia Xun did to determine the payoff time , or the number of years for which the total costs of each car are equal.     "
 },
@@ -4568,7 +4568,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-3-Intercepts.html#fig-4-3-run-times",
   "type": "Figure",
-  "number": "4.3.1",
+  "number": "4.3.3",
   "title": "",
   "body": "  = running time, as a function of = distance   Running time as a function of distance    M(D)=7*D  K(D)=6+8.5*D    D  T      Kaleb  Muna       "
 },
@@ -4595,7 +4595,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-3-Intercepts.html#act-4-3-direct-props",
   "type": "Activity",
-  "number": "4.3.3",
+  "number": "4.3.4",
   "title": "",
   "body": "  In some of these stories, the two variables are directly proportional (intercept = 0). In others, the variables are not directly proportional (intercept is not 0). Your job is to decide which is which.  For each problem, begin by naming the variables. Then think about the intercept.    Bob puts $20 worth of gas in his car and can drive 250 miles before filling up again.    letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~     Is this situation directly proportional?    An orchestra of 120 musicians takes 40 minutes to play Beethoven's 9th Symphony.    letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~     Is this situation directly proportional?    Clyde is loading bricks weighing 4.5 pounds each onto his wheelbarrow. The wheelbarrow weighs 89 pounds when it has 16 bricks in it.    letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~     Is this situation directly proportional?    When Evelyn woke up, there was 5” of snow in her yard. One hour later, there was 14” of snow in her yard.    letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~     Is this situation directly proportional?     "
 },
@@ -4739,7 +4739,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-4-Slopes.html#fig-4-4-cases-of-paper",
   "type": "Figure",
-  "number": "4.4.1",
+  "number": "4.4.3",
   "title": "",
   "body": "  = charge for paper delivery, as a function of = number of cases of paper   Charge for paper delivery as a function of number of cases of paper    C(N)=15+39.99*N    N  C          "
 },
@@ -4748,7 +4748,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-4-Slopes.html#fig-4-4-recycle-paper",
   "type": "Figure",
-  "number": "4.4.2",
+  "number": "4.4.4",
   "title": "",
   "body": "  = recycling fee, as a function of = number of reusable boxes   Recycling fee as a function of number of reusable boxes    R(B)=18-0.8*B    B  R          "
 },
@@ -4757,7 +4757,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-4-4-Slopes.html#act-4-4-ski-passes",
   "type": "Activity",
-  "number": "4.4.3",
+  "number": "4.4.5",
   "title": "",
   "body": "  The local ski resort is trying to set the price for season passes. They know from past experience that they will sell around 14,000 passes if the season ticket price is $380. If the price is $400, they will sell fewer, perhaps only 11,000 passes. You can assume this decrease in demand is linear.    Name the variables in this situation.    letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~         Use the to compute the slope. Include units!    What does the slope mean in the story?     "
 },
@@ -5324,7 +5324,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-5-2-Exp_growth_decay.html#fig-5-2-caffeine",
   "type": "Figure",
-  "number": "5.2.1",
+  "number": "5.2.5",
   "title": "",
   "body": "  = Joe's caffeine level, as a function of = time since 2am   Joe's caffeine level, as a function of hours since 2am    J(H)=1000*0.87^H    H  J        "
 },
@@ -5333,7 +5333,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-5-2-Exp_growth_decay.html#act-5-2-signal-roc-graph",
   "type": "Activity",
-  "number": "5.2.5",
+  "number": "5.2.6",
   "title": "",
   "body": "  A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)    Compute the rate of change of the signal strength between 0 and 2 miles.    Now compute the rate of change of the signal strength between 20 and 22 miles. How does this rate of change compare to the one you computed in part (a)?    Draw a graph of the signal strength function. How does the shape of the graph explain your findings?     "
 },
@@ -5360,7 +5360,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-5-2-Exp_growth_decay.html#act-5-2-signal-halflife",
   "type": "Activity",
-  "number": "5.2.6",
+  "number": "5.2.7",
   "title": "",
   "body": "  A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)    Set up and solve an equation to find the half-life (or should we say half-distance ?) of the signal. That means, how far can the signal travel without dropping below a strength of 0.5?    Check your answer on the graph you drew in .    (By the way, this wouldn't actually happen, because we would boost the signal once it got below 0.75.)   "
 },
@@ -5461,7 +5461,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Growth factors",
-  "body": " Growth factors   If someone gives us two points on a graph, we can figure out a linear equation that goes through both of them: we just use the to figure out the slope, and then figure out the intercept . Turns out we can do a similar process to figure out an exponential equation that goes through any two points.  An important part of this process will be to solve a power equation, so let's remind ourselves how this works.    Power equations and exponential equations look very similar, but they are solved differently.     When you are solving a power equation , do you use the or the ?      When you are solving an exponential equation , do you use the or the ?      Which of these equations should be solved using the , and which should be solved using the ?         Log-Divides Formula       Root Formula        Childhood obesity  Obesity among children ages 6-11 continues to increase. From 1994 to 2010, the proportion of children classified as obese rose from an average of 1.1 out of every ten children in 1994 to around 2 out of every ten children in 2010.  Source: Centers for Disease Control and Prevention    Assuming that the prevalence of childhood obesity increases exponentially, what is the annual percent increase and what does the equation project for the year 2020? Well, unless we are able to make drastic improvements in how children eat and how much they exercise.  Because we are told obesity is increasing exponentially we can use the template for an exponential equation. The variables are Why did we choose to measure time in years since 1994? Since we were given a value of our function in the year 1994, it's helpful for us to choose 1994 as , so that the value we are given is the starting value -- that is, start in our exponential equation template.  With this choice of variables, we can organize the information we know into a table. Do you see why 2010 corresponds to ?   time  1994  2010     0  16     1.1  2       Making a little table like the one in this section is a really helpful way to set up problems like this. Let's practice. In each story below, name the variables, and then summarize the given values in a table.    In one town, people picking up food at the food shelf has increased exponentially, from 120 per week in 2005 to 630 per week in 2011.     letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~        (indep)      (dep)        In another town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.     letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~        (indep)      (dep)        In a third town, the number of high school students arrested for driving under the influence is half what it was 5 years ago. (Hint: how might you represent the unknown starting value?)     letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~        (indep)      (dep)            Finding the growth factor  Back to our childhood obesity story. Let's figure out an equation.  Because of our clever setup that the variable is measured in years since 1994, the starting amount is 1.1 children out of every ten. So, our equation will look like . Trouble is we don't actually know what the growth factor is. To figure it out, we can use the second piece of information in our table: when , we know that . We can put those values into our equation to get . No particular reason for switching sides, just wanted to have the variable on the left. That's supposed to be true but we don't know what number is so we can't check. Argh.  Oh, wait a minute. The only unknown in that equation is the growth factor . What if we solve for ? First, divide each side by 1.1 to get , which simplifies to What kind of equation is this? Since the thing we want to solve for is the base (not the exponent), we have a power equation. We use the with power and value to get .  Want a quicker way to find the growth factor? The entire calculation we just did all boils down to two steps: and then . We can even do this calculation all at once: . Notice we added parentheses because the normal order of operations would do the root first and division second. We wanted the division calculated before the root.  Here's the shortcut version in a formula.   Growth Factor Formula  If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is , where is the starting amount and is the amount after time periods.     Use the tables you created in , together with the , to figure out the growth factor in each story below.    In one town, people picking up food at the food shelf has increased exponentially, from 120 per week in 2005 to 630 per week in 2011.       In another town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.       In a third town, the number of high school students arrested for driving under the influence is half what it was 5 years ago. (Hint: Do you actually need to know the unknown starting value?)           Checking our formula (and rounding)  In our childhood obesity story, we knew from the beginning that our equation was in the form . Now that we found the growth factor we get our final equation . For example, we can check that in 2010, we have still and so   You might wonder why we didn't just round off and use the equation . Look what happens when we evaluate at then. We would get . Not a big difference (2.1 vs. 2.0) but enough to encourage us to keep extra digits in the growth factor in our equation. Lesson here is: don't round off the growth factor too much.     Let's explore a situation in which rounding too much really does cause problems. In one town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.    How many volunteers were there in 2019?    Use the to find the value of for this story.    Round the value of to two decimal digits. How many volunteers does your equation predict for 2019?    Now try rounding the value of to one decimal digit. (This is too much rounding! Don't do this in real life!) Now how many volunteers does your equation predict for 2019? How far off is your equation from the real data?        Finding percent change from growth factor  Back to the less harshly rounded equation . We can now answer the two questions. First, in 2020 we have and so . According to our equation, by 2020 there would be approximately 2.9 obese children for every ten children.  The other question was what the annual percent increase is. Think back to an earlier example. Remember that Jocelyn was analyzing health care costs in Section 2.2? They began at $2.26 million and grew 6.7% per year. She had the equation . So the growth factor in the equation came from the growth rate . Our equation modeling childhood obesity is . The growth factor of in our equation must come from the growth rate . Think of it as converting to percent and then ignoring the 100% to see the 3.81% increase. Childhood obesity has increased around 3.81% each year. Well, on average.  Here's the general formula relating the growth rate and growth factor.   Percent Change Formula     If a quantity changes by a percentage corresponding to growth rate , then the growth factor is     If the growth factor is , then the growth rate is       Let's check. We have and so the growth rate is . Not sure we really need these formulas, but there you have it.  By the way, formula works just fine if a quantity decreases by a fixed percent. One example we saw was Joe, who drank too much coffee. The growth (or should I say decay) factor was . That corresponds to a growth (decay) rate of . Again, the negative means that we have a percent decrease.    For each story below, translate the growth factors you computed in into percent changes. Use the .    In one town, people picking up food at the food shelf has increased exponentially, from 120 per week in 2005 to 630 per week in 2011.       In another town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.       In a third town, the number of high school students arrested for driving under the influence is half what it was 5 years ago. (Hint: Do you actually need to know the unknown starting value?)           Do you know     How to find the growth\/decay factor given the starting amount and another point of information?    How to find the growth\/decay factor given the doubling time or half-life?    When we use the , and when we use the instead? Ask your instructor if you need to remember the and or if they will be provided during the exam.     How to evaluate the and using your calcuator?    How to read the starting amount and percent increase\/decrease from the equation?      If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.     Exercises   Exercises 1-4 are available in a separate workbook format.        In 1962, my grandfather had savings bonds that matured to $200.  (Story also appears in and )  He gave those to my mother to keep for me. These bonds have continued to earn interest at a fixed, guaranteed rate so I have yet to cash them in. The table lists the value at various times since then.    year  1962  1970  1980  1990  2000  2010    years since 1962  0  8  18  28  38  48    value  200.00  318.77  570.87  1,022.34  1,830.85  3,278.77       Use the to find the annual growth factor for the time period from 1962 to 1970.      Repeat for 1970 to 1980.      What do you notice? What in the story told you that would happen?      What is the corresponding interest rate?      Write an equation for the value of bonds over time.      Use your equation to check the information for 1990, 2000, and 2010.      In what year will the bond be worth over $5,000? Set up and solve an equation to decide.      Draw a graph using the data in the table, but not your answer to part (g). Include another year that is later than your answer to part (g).      Does your answer to part (g) agree with your graph? If not, fix your work.         Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. Source: Wikipedia (Radiocarbon Dating) After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientist can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the half-life of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years. For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive.     Find the annual growth factor.  Hint: If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?  Keep at least six digits after the decimal place for your calculations.      Name the variables and write an equation describing the dependence.      How many milligrams of carbon-14 should remain in this bone after 1,000 years? After 10,000 years? After 100,000 years?      How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the scientific notation answer your calculator gives you.      Draw a graph that shows up to 10,000 years.      If the bone is determined to have 100 milligrams of carbon-14, approximately how long ago did it die? Start by estimating the answer from your graph.      Now use successive approximation to revise your estimate.     (indep)                                        (dep)             hi \/ lo                  Finally, solve the equation exactly .         For each story, find the annual growth factor and annual growth rate as a percent.  First decide if you can use the or if you will need to use the . Don't forget to include the negative sign for decay rates.     Donations to the food shelf have increased 35% per year for the past few years.                People picking up food at the food shelf has increased exponentially too, from 120 per week in 2005 to 630 per week in 2011.                The crime rate has dropped 3% each year recently.                 The new stop sign has decreased accidents exponentially, from 40 in 2008 to 17 in 2013.                The creeping vine taking over Fiona's lawn will double in area each year.                Attendance at parent volunteer night has doubled every 3 years.                The number of people addicted to prescription drugs was estimated to have tripled in the past 5 years. Assume the number is increasing exponentially.                The number of high school students arrested for driving under the influence is half what it was 5 years ago. Assume the number is falling exponentially.                   For each equation, find the growth rate and state its units. For example, something might grow 2% per year while something else might drop 7% per hour .     The number of households watching reality television (in millions) was estimated by the equation  (Story also appears in )   where is the time in years since 1990.      Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine (in ppm) drops as the swimming pool is used for hours according to the equation  (Story also appears in )         The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation  (Story also appears in )  where is the number of players (in millions) and is the time in weeks since people started playing the game.         Estimates for childhood obesity for 2010 were revised to 2.1 out of every ten children. (The 1994 figure of 1.1 out of every ten children remains accurate.)     Calculate the revised growth factor. What is the revised percent increase?      Revise your equation.      Use your new equation to project childhood obesity rates for 2020.      Graph both the original and revised estimates on the same set of axes.       For each equation, find the growth rate (percent increase or percent decrease) and state the units. (For example, something might grow 2% per year while something else might drop 7% per hour )     The light that passes through panes of glass inches thick is given by the equation   (Story also appears in and )        The population of bacteria ( ) in a culture dish after days is given by the equation   (Story also appears in )        The remaining contaminants ( grams) in a waste water sample after months of treatment is given by   (Story also appears in )         Years ago, Whitney bought an antique mahogany table worth $560. Now, 30 years later, she had the table appraised for $3,700.     Calculate the annual growth factor, assuming the value of Whitney's table has increased exponentially.      What should she expect the set to be worth in another 10 years? As part of your work, name the variables and write an equation relating them.      Find the corresponding annual percent increase.       The opiate drug morphine leaves the body quickly. After 72 hours about 10% remains. A patient receives 100 mg of morphine.     How much morphine will remain in the patient's body after 72 hours?      Convert 72 hours to days.      Find the daily decay factor using the .      What is the corresponding percent decrease?      Name the variables and write an equation relating them. Check that 72 hours gives you the same answer as in part (a).      What is the half-life of morphine? Set up and solve an appropriate equation.      Draw a graph showing this patient's morphine levels for 10 days following the injection.       Unemployment figures were just released. At last report there were 20,517 unemployed adults and now, 10 months later, we have 39,061 unemployed adults.     Calculate the monthly growth factor, assuming unemployment increases exponentially.      Write an equation relating the variables.      According to your equation, what is the expected number of unemployed adults 6 months from now. Notice: the report was issued 10 months ago.       Make a table of values and draw a graph showing the number of unemployed adults for the past 10 months and the next 2 years.       Wetlands help support fish populations,  Source: Minnesota Department of Natural Resources  various plant and animal populations, control floods and erosion from nearby lakes and streams, filter water, and help preserve our supply of ground water. Minnesota wetlands acreage in 1850 was 18.6 million acres. By 2003, that number had dropped to 9.3 million acres.     Assuming the acreage decreased exponentially, name the variables, find the annual decay factor and write an exponential equation showing how Minnesota wetlands have decreased.      With some effective management, many wetlands have been restored. By 2012, it's up to about 10.6 million acres. Assuming acreage has increased exponentially from 2003, name the variables (you may now want to start the years in 2003), find the growth factor and write an exponential equation showing how Minnesota wetlands have been restored.      "
+  "body": " Growth factors   If someone gives us two points on a graph, we can figure out a linear equation that goes through both of them: we just use the to figure out the slope, and then figure out the intercept . Turns out we can do a similar process to figure out an exponential equation that goes through any two points.  An important part of this process will be to solve a power equation, so let's remind ourselves how this works.    Power equations and exponential equations look very similar, but they are solved differently.     When you are solving a power equation , do you use the or the ?      When you are solving an exponential equation , do you use the or the ?      Which of these equations should be solved using the , and which should be solved using the ?         Log-Divides Formula       Root Formula        Childhood obesity  Obesity among children ages 6-11 continues to increase. From 1994 to 2010, the proportion of children classified as obese rose from an average of 1.1 out of every ten children in 1994 to around 2 out of every ten children in 2010.  Source: Centers for Disease Control and Prevention    Assuming that the prevalence of childhood obesity increases exponentially, what is the annual percent increase and what does the equation project for the year 2020? Well, unless we are able to make drastic improvements in how children eat and how much they exercise.  Because we are told obesity is increasing exponentially we can use the template for an exponential equation. The variables are Why did we choose to measure time in years since 1994? Since we were given a value of our function in the year 1994, it's helpful for us to choose 1994 as , so that the value we are given is the starting value -- that is, start in our exponential equation template.  With this choice of variables, we can organize the information we know into a table. Do you see why 2010 corresponds to ?   time  1994  2010     0  16     1.1  2       Making a little table like the one in this section is a really helpful way to set up problems like this. Let's practice. In each story below, name the variables, and then summarize the given values in a table.    In one town, people picking up food at the food shelf has increased exponentially, from 120 per week in 2005 to 630 per week in 2011.     letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~        (indep)      (dep)        In another town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.     letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~        (indep)      (dep)        In a third town, the number of high school students arrested for driving under the influence is half what it was 5 years ago. (Hint: how might you represent the unknown starting value?)     letter  =  everyday words  (units)  ~  dep or indep     =    ~      =    ~        (indep)      (dep)            Finding the growth factor  Back to our childhood obesity story. Let's figure out an equation.  Because of our clever setup that the variable is measured in years since 1994, the starting amount is 1.1 children out of every ten. So, our equation will look like . Trouble is we don't actually know what the growth factor is. To figure it out, we can use the second piece of information in our table: when , we know that . We can put those values into our equation to get . No particular reason for switching sides, just wanted to have the variable on the left. That's supposed to be true but we don't know what number is so we can't check. Argh.  Oh, wait a minute. The only unknown in that equation is the growth factor . What if we solve for ? First, divide each side by 1.1 to get , which simplifies to What kind of equation is this? Since the thing we want to solve for is the base (not the exponent), we have a power equation. We use the with power and value to get .  Want a quicker way to find the growth factor? The entire calculation we just did all boils down to two steps: and then . We can even do this calculation all at once: . Notice we added parentheses because the normal order of operations would do the root first and division second. We wanted the division calculated before the root.  Here's the shortcut version in a formula.   Growth Factor Formula  If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is , where is the starting amount and is the amount after time periods.     Use the tables you created in , together with the , to figure out the growth factor in each story below.    In one town, people picking up food at the food shelf has increased exponentially, from 120 per week in 2005 to 630 per week in 2011.       In another town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.       In a third town, the number of high school students arrested for driving under the influence is half what it was 5 years ago. (Hint: Do you actually need to know the unknown starting value?)           Checking our formula (and rounding)  In our childhood obesity story, we knew from the beginning that our equation was in the form . Now that we found the growth factor we get our final equation . For example, we can check that in 2010, we have still and so   You might wonder why we didn't just round off and use the equation . Look what happens when we evaluate at then. We would get . Not a big difference (2.1 vs. 2.0) but enough to encourage us to keep extra digits in the growth factor in our equation. Lesson here is: don't round off the growth factor too much.     Let's explore a situation in which rounding too much really does cause problems. In one town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.    How many volunteers were there in 2019?    Use the to find the value of for this story.    Round the value of to two decimal digits. How many volunteers does your equation predict for 2019?    Now try rounding the value of to one decimal digit. (This is too much rounding! Don't do this in real life!) Now how many volunteers does your equation predict for 2019? How far off is your equation from the real data?        Finding percent change from growth factor  Back to the less harshly rounded equation . We can now answer the two questions. First, in 2020 we have and so . According to our equation, by 2020 there would be approximately 2.9 obese children for every ten children.  The other question was what the annual percent increase is. Think back to an earlier example. Remember that Jocelyn was analyzing health care costs in Section 2.2? They began at $2.26 million and grew 6.7% per year. She had the equation . So the growth factor in the equation came from the growth rate . Our equation modeling childhood obesity is . The growth factor of in our equation must come from the growth rate . Think of it as converting to percent and then ignoring the 100% to see the 3.81% increase. Childhood obesity has increased around 3.81% each year. Well, on average.  Here's the general formula relating the growth rate and growth factor.   Percent Change Formula     If a quantity changes by a percentage corresponding to growth rate , then the growth factor is     If the growth factor is , then the growth rate is       Let's check. We have and so the growth rate is . Not sure we really need these formulas, but there you have it.  By the way, formula works just fine if a quantity decreases by a fixed percent. One example we saw was Joe, who drank too much coffee. The growth (or should I say decay) factor was . That corresponds to a growth (decay) rate of . Again, the negative means that we have a percent decrease.    For each story below, translate the growth factors you computed in into percent changes. Use the .    In one town, people picking up food at the food shelf has increased exponentially, from 120 per week in 2005 to 630 per week in 2011.       In another town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.       In a third town, the number of high school students arrested for driving under the influence is half what it was 5 years ago. (Hint: Do you actually need to know the unknown starting value?)           Do you know     How to find the growth\/decay factor given the starting amount and another point of information?    How to find the growth\/decay factor given the doubling time or half-life?    When we use the , and when we use the instead? Ask your instructor if you need to remember the and or if they will be provided during the exam.     How to evaluate the and using your calcuator?    How to read the starting amount and percent increase\/decrease from the equation?      If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.     Exercises   Exercises 1-4 are available in a separate workbook format.        In 1962, my grandfather had savings bonds that matured to $200.  (Story also appears in and )  He gave those to my mother to keep for me. These bonds have continued to earn interest at a fixed, guaranteed rate so I have yet to cash them in. The table lists the value at various times since then.    year  1962  1970  1980  1990  2000  2010    years since 1962  0  8  18  28  38  48    value  200.00  318.77  570.87  1,022.34  1,830.85  3,278.77       Use the to find the annual growth factor for the time period from 1962 to 1970.      Repeat for 1970 to 1980.      What do you notice? What in the story told you that would happen?      What is the corresponding interest rate?      Write an equation for the value of bonds over time.      Use your equation to check the information for 1990, 2000, and 2010.      In what year will the bond be worth over $5,000? Set up and solve an equation to decide.      Draw a graph using the data in the table, but not your answer to part (g). Include another year that is later than your answer to part (g).      Does your answer to part (g) agree with your graph? If not, fix your work.         Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. Source: Wikipedia (Radiocarbon Dating) After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientists can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the half-life of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years. For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive.     Find the annual growth factor.  Hint: If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?  Keep at least six digits after the decimal place for your calculations.      Name the variables and write an equation describing the dependence.      How many milligrams of carbon-14 should remain in this bone after 1,000 years? After 10,000 years? After 100,000 years?      How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the scientific notation answer your calculator gives you.      Draw a graph that shows up to 10,000 years.      If the bone is determined to have 100 milligrams of carbon-14, approximately how long ago did it die? Start by estimating the answer from your graph.      Now use successive approximation to revise your estimate.     (indep)                                        (dep)             hi \/ lo                  Finally, solve the equation exactly .         For each story, find the annual growth factor and annual growth rate as a percent.  First decide if you can use the or if you will need to use the . Don't forget to include the negative sign for decay rates.     Donations to the food shelf have increased 35% per year for the past few years.                People picking up food at the food shelf has increased exponentially too, from 120 per week in 2005 to 630 per week in 2011.                The crime rate has dropped 3% each year recently.                 The new stop sign has decreased accidents exponentially, from 40 in 2008 to 17 in 2013.                The creeping vine taking over Fiona's lawn will double in area each year.                Attendance at parent volunteer night has doubled every 3 years.                The number of people addicted to prescription drugs was estimated to have tripled in the past 5 years. Assume the number is increasing exponentially.                The number of high school students arrested for driving under the influence is half what it was 5 years ago. Assume the number is falling exponentially.                   For each equation, find the growth rate and state its units. For example, something might grow 2% per year while something else might drop 7% per hour .     The number of households watching reality television (in millions) was estimated by the equation  (Story also appears in )   where is the time in years since 1990.      Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine (in ppm) drops as the swimming pool is used for hours according to the equation  (Story also appears in )         The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation  (Story also appears in )  where is the number of players (in millions) and is the time in weeks since people started playing the game.         Estimates for childhood obesity for 2010 were revised to 2.1 out of every ten children. (The 1994 figure of 1.1 out of every ten children remains accurate.)     Calculate the revised growth factor. What is the revised percent increase?      Revise your equation.      Use your new equation to project childhood obesity rates for 2020.      Graph both the original and revised estimates on the same set of axes.       For each equation, find the growth rate (percent increase or percent decrease) and state the units. (For example, something might grow 2% per year while something else might drop 7% per hour )     The light that passes through panes of glass inches thick is given by the equation   (Story also appears in and )        The population of bacteria ( ) in a culture dish after days is given by the equation   (Story also appears in )        The remaining contaminants ( grams) in a waste water sample after months of treatment is given by   (Story also appears in )         Years ago, Whitney bought an antique mahogany table worth $560. Now, 30 years later, she had the table appraised for $3,700.     Calculate the annual growth factor, assuming the value of Whitney's table has increased exponentially.      What should she expect the set to be worth in another 10 years? As part of your work, name the variables and write an equation relating them.      Find the corresponding annual percent increase.       The opiate drug morphine leaves the body quickly. After 72 hours about 10% remains. A patient receives 100 mg of morphine.     How much morphine will remain in the patient's body after 72 hours?      Convert 72 hours to days.      Find the daily decay factor using the .      What is the corresponding percent decrease?      Name the variables and write an equation relating them. Check that 72 hours gives you the same answer as in part (a).      What is the half-life of morphine? Set up and solve an appropriate equation.      Draw a graph showing this patient's morphine levels for 10 days following the injection.       Unemployment figures were just released. At last report there were 20,517 unemployed adults and now, 10 months later, we have 39,061 unemployed adults.     Calculate the monthly growth factor, assuming unemployment increases exponentially.      Write an equation relating the variables.      According to your equation, what is the expected number of unemployed adults 6 months from now. Notice: the report was issued 10 months ago.       Make a table of values and draw a graph showing the number of unemployed adults for the past 10 months and the next 2 years.       Wetlands help support fish populations,  Source: Minnesota Department of Natural Resources  various plant and animal populations, control floods and erosion from nearby lakes and streams, filter water, and help preserve our supply of ground water. Minnesota wetlands acreage in 1850 was 18.6 million acres. By 2003, that number had dropped to 9.3 million acres.     Assuming the acreage decreased exponentially, name the variables, find the annual decay factor and write an exponential equation showing how Minnesota wetlands have decreased.      With some effective management, many wetlands have been restored. By 2012, it's up to about 10.6 million acres. Assuming acreage has increased exponentially from 2003, name the variables (you may now want to start the years in 2003), find the growth factor and write an exponential equation showing how Minnesota wetlands have been restored.      "
 },
 {
   "id": "oa-5-3-solve-power-vs-exponential",
@@ -5524,7 +5524,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "  Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. Source: Wikipedia (Radiocarbon Dating) After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientist can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the half-life of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years. For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive.     Find the annual growth factor.  Hint: If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?  Keep at least six digits after the decimal place for your calculations.      Name the variables and write an equation describing the dependence.      How many milligrams of carbon-14 should remain in this bone after 1,000 years? After 10,000 years? After 100,000 years?      How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the scientific notation answer your calculator gives you.      Draw a graph that shows up to 10,000 years.      If the bone is determined to have 100 milligrams of carbon-14, approximately how long ago did it die? Start by estimating the answer from your graph.      Now use successive approximation to revise your estimate.     (indep)                                        (dep)             hi \/ lo                  Finally, solve the equation exactly .    "
+  "body": "  Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. Source: Wikipedia (Radiocarbon Dating) After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientists can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the half-life of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years. For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive.     Find the annual growth factor.  Hint: If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?  Keep at least six digits after the decimal place for your calculations.      Name the variables and write an equation describing the dependence.      How many milligrams of carbon-14 should remain in this bone after 1,000 years? After 10,000 years? After 100,000 years?      How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the scientific notation answer your calculator gives you.      Draw a graph that shows up to 10,000 years.      If the bone is determined to have 100 milligrams of carbon-14, approximately how long ago did it die? Start by estimating the answer from your graph.      Now use successive approximation to revise your estimate.     (indep)                                        (dep)             hi \/ lo                  Finally, solve the equation exactly .    "
 },
 {
   "id": "find-growth-factor",
@@ -5657,7 +5657,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-5-4-Linear_vs_exponential.html#fig-5-4-lin-exp",
   "type": "Figure",
-  "number": "5.4.1",
+  "number": "5.4.5",
   "title": "",
   "body": "  = value of car, as a function of = mileage   value of car as a function of mileage    L(M)=22500 - 154*M  E(M)=22500*0.9875^M    M  C      Linear  Exponential       "
 },
@@ -5666,7 +5666,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-5-4-Linear_vs_exponential.html#act-5-4-house-compare",
   "type": "Activity",
-  "number": "5.4.5",
+  "number": "5.4.6",
   "title": "",
   "body": "  My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. Let's compare the linear model and the exponential model we have found for the value of the house.    Draw a graph of the linear model you made in and the exponential model you made in .    Using the variables you named in , write an exponential equation showing how the value of the house increased.    According to the linear model, when did the house reach a value of $200,000? Estimate from your graph, and then set up and solve an equation.    According to the exponential model, when did the house reach a value of $200,000? Estimate from your graph, and then set up and solve an equation.    Which model do you think is more realistic, and why? (No wrong answers!)     "
 },
@@ -6029,6 +6029,87 @@ var ptx_lunr_docs = [
   "number": "5.7.4",
   "title": "",
   "body": "  Many different agencies are working to lower infant mortality. Infant mortality is measured in deaths per thousand births. The world infant mortality rate in 1955 was around 52 (per thousand births). By the year 2000, it was down to around 23. Source: Wikipedia (Infant Mortality)      Name the variables, including units and dependence.      Write a linear equation modeling infant mortality.      Now write an exponential equation modeling infant mortality.      Compare the models' projections for 1955, 1970, 1990, 2000, 2010, and 2020. Summarize your findings in a table.      The actual rates were 40 deaths per thousand births in 1970 and 28 deaths per thousand births in 1990. Which model fits this additional data better?    "
+},
+{
+  "id": "sec-6-1-First_look_polynomials",
+  "level": "1",
+  "url": "sec-6-1-First_look_polynomials.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "A first look at polynomial equations",
+  "body": " A first look at polynomial equations   Nyx is making a blanket out of 3'' 3'' squares of fabric in the middle and long strips of fabric for the border. They have decided to make the blanket 7 squares longer than it is wide. So, for example, if they use 10 squares across, they will use squares down. They will do a 4'' border on the top and bottom of the blanket but only a 2.5'' border on the left and right.       Different sizes of blanket  What size blanket will Nyx make if they use 10 squares across, as shown in the picture? The width of the blanket will include the left border (2.5''), the width of the 10 squares ( ), and the right border (2.5''), so the blanket will be wide. Notice that we add the width of the border twice so instead of adding 2.5'' twice, we can add once. We can then simplify our calculation to wide.  The length of the blanket will include the top border (4''), the length of the squares ( ), and the right border (4''), so the blanket will be long. As before, instead of adding 4'' twice, we can add once. We can then simplify our calculation to long. The blanket will be which is a good size for a baby's crib.  Let's do a few more examples. Let's underline the number of squares to help us see a pattern. If Nyx uses only 2 squares, then and The blanket will be which might be a good size for a doll.  If Nyx uses 20 squares, then and The blanket will be which would fit a twin bed.    Linear models for blanket dimensions  First, the variables are   We can summarize our examples in a table.         2  10  20     11  35  65     35  59  86    When we graph both dependences, we see that the points fall on a line, so we have linear functions.       Equations for the width and length of blanket  Let's write equations for the width and for the length of Nyx's blanket, each a function of the number of squares they use.  First, the width. In our example, Nyx used squares across and the width of the blanket was Our equation is Let's write the dependent variable on the left-hand side of the equation, and use algebraic notation to write instead of . Our equation is then   Next, the length. In our example, Nyx used squares across and the length of the blanket was Our equation is which we can rewrite as     The distributive property  But, wait! We could have calculated the length differently. We can think of the length as having three parts: which is the length of the squares, which is the length of the additional 7 squares, and which is the length of the top and bottom borders. Breaking into these pieces we get a new equation for the length: which can be simplified further to   Does this new equation make sense? The 3''\/square represents the length of each square Nyx uses. The 29'' is the part of the length of the 7 squares and top\/bottom borders combined. Okay.  Uh oh! That means we have two different looking equations for the length There must be some reason why these equations are actually the same.  The distributive property is the secret. It says that Here's a picture illustrating the distributive property.     Going back we can use the distributive property to write which is exactly the other version of the equation. Whew.    Area of blanket  Nyx has decided after they finish the blanket, they will make it the top layer of a light comforter. For that, Nyx will use plain fabric for the bottom layer and use some fiberfill to get a thickness of 2 inches in between. How much fiberfill do they need?  To start, Nyx needs to know the area of the blanket. The area is the length times the width. For the baby blanket that was 10 squares across, the width was 35'' and the length was 59'' so the area was square inches.  We can write an equation for the area of the blanket using the variables We know that the area is the length times the width, so putting in our formulas we get     The FOIL property  We can simplify the equation for area using the distributive property. Let's simplify each term separately. The first product is The outside product is The inside product is And the last product is Maybe you've heard of FOIL? That's short for First-Outside-Inside-Last which can help you remember how this multiplying out works.  Adding everything up and combining the like terms we get   Here's a picture illustrating the FOIL property.     That was a lot of algebra. Here's a quicker version of what we just did so you can see it all in one place. Let's double check, when we get as before.    A quadratic model  As before, we make make a table and graph. Using the same values for as before we get         2  10  20     385  2065  5785       We can see that the function is not linear because the graph is not a line.    Fiberfill  To get a fluffy feel without being too heavy, Nyx has decided to use a premium cluster fiberfill to get 2 thick. (Nyx will stitch the fill along every fabric join and at intervals along the border, in case you were wondering, because nobody likes a lumpy blanket.) The clerk at the fabric store said that Nyx will need 14 ounces of fiberfill for every 1000 square inches of area. Notice that For example, for a baby quilt that's , Nyx will need times the area. That is, they will need ounces of fiberfill.  We can write an equation for the amount of fiberfill as a function of the number of squares using   The equation is in case you were curious.    Another quadratic model  Let's make a table and a graph for the fiberfill. First, we have         2  10  20     53.9  289.1  822.5         Polynomial Equations  Our equations for length and width were linear equations      because they fit the standard linear equation template:   Our equations for the area and fiberfill were quadratic equations      because they fit the standard quadratic equation template:   All of these equations are examples of polynomial equation , meaning they can be written as the sum of multiples of powers of the independent variable.    Do you know     How to use geometry to find an area?    When to use the distributive property?    What FOIL stands for and how to multiply out expressions in parentheses?      If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.     Exercises   Exercises 1-4 are available in a separate workbook format.     Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10' 25' vegetable and berry garden for the neighborhood. (Remember ' stands for feet, so the garden is 10 feet wide and 25 feet long.) One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.    Story also appears in 2.3 Exercises 2.4 Exercises and 3.5 #4      The other measurements are in feet, so convert the depth of the path (3 inches) into feet also.      Suppose for the moment that the path will be 4 feet wide. Calculate the area of the path. Here's one way to do it: first, find the area of the outer rectangle, then subtract the area of the garden itself.   Hint: the length of that outer rectangle includes the 25 feet of garden plus the width of the path on each side. Same for the width of that outer rectangle.       Figure out how much gravel they would need (in cubic feet) for a 4 foot wide path by multiplying your answers to (a) and (b).      Actually, they aren't sure how wide the path should be and how much gravel they can get. Let's write = width of path (feet). Explain why the width of the outer rectangle is and the length of the outer rectangle is .      Explain why the area of the path is .      Let's write = amount of gravel (cubic feet). Write an equation for as a function of . Hint: multiply your answers to (a) and (e).      Use FOIL and collecting like terms to simplify your answer to (f). It should fit the quadratic equation template.      Notice that if , then . Explain what that means in terms of the story.       Emery is selling custom printed laptop and water bottle sticker packs. He is trying to understand how the number of sticker packs people will buy depends on the price. There's a fancy name for the number of things people will buy it's called the demand . Emery knows from experience that if he prices sticker packs at $10, then the demand is 200 sticker packs, but that the demand drops by 15 sticker packs per dollar increase in price. He identifies the variables      How many sticker packs will Emery sell if he sets the price at $11? $12? $13?      Make a table showing how demand depends on price, including .      Explain why the increase in price is calculated as .      Write an equation for the demand in terms of price. Hint: Your equation will involve .      Use the distributive property and collect like terms to simplify your equation. Hint: it is linear.      Check that your simplified equation gives when .      What does your equation say the demand will be when ? This answer does not make sense in the story.      Draw a graph illustrating how the demand depends on the price. Be sure to start at $0.       In the previous problem, Emery was selling sticker packs. Using the variables Emery calculated that (spoiler alert) Notice that the intercept (price $0) of 350 things doesn't really make any sense in the problem. Emery wants to figure out a price for sticker packs so that he can take in as much money as possible. There's a fancy name for that too the total amount of money Emery takes in is called the total revenue .     What is the total revenue if Emery prices sticker packs at $10 and sells 200 of them?      Make a table showing how revenue depends on price, including . Hint: use your answers for demand from the previous problem.      Write an equation for the revenue in terms of price, using Hint: use your final equation from the previous problem.      Use the distributive property and collect like terms to simplify your equation. Hint: it is quadratic.      Check that your simplified equation gives when .      What does your equation say the revenue will be when and what does that mean in the story?      Draw a graph illustrating how the demand depends on the price. Be sure to start at $0.       Ximena is trying to get some homework done so she wants to create a custom 24 ounce energy drink that has some caffeine, but not too much. She has two available drinks that she can mix:   Rehab Monster: Green Tea Source: https:\/\/www.monsterenergy.com\/en-us\/energy-drinks\/rehab-monster\/green-tea\/ (10.3 mg caffeine\/ounce)    Snapple Peach Tea Source: https:\/\/snapple.com\/products\/snapple-peach-tea?filter=tea (2.3 mg caffeine\/ounce)   She is interested in the variables      If Ximena uses 10 ounces of Rehab Monster, how many ounces of Snapple Peach Tea will she use (remember she wants 24 ounces total) and how much caffeine will that mixture have?      If she uses 16 ounces of Rehab Monster, how many ounces of Snapple Peach Tea will she use and how much caffeine with that mixture have?      Write an equation describing how the total caffeine is a function of the amount of Rehab Monster. Hint: How can we write the amount of Snapple Peach Tea in terms of ?      Use the distributive property to simplify your equation.       Roy is mounting a rectangular canvas painting on an aluminum composite panel. The panel covers the entire back of the painting and sticks out width inches around all four sides of the canvas.        Suppose for the moment that the frame creates a border 3 inches wide ( ). Calculate the area of the aluminum panel. Note: the area is the area of the outside square, not just the border.      Roy has not decided yet how wide the frame border should be. Let's write . Explain why the width of the outer frame is and the length of the outer frame is .      Explain why the area of the aluminum panel is .      Use FOIL and collecting like terms to simplify your answer to (c). It should fit the quadratic equation template.      What is the area if ? Explain what that means in terms of the story.       Viviana is selling bottled cold brew coffee at a local weekend market. She is trying to understand how the number of bottles people will buy depends on the price per bottle. Viviana knows from experience that if she prices cold brew at $4.00 per bottle, the demand is 150 bottles, but for every $1 increase in price, the demand drops by 20 bottles. She writes the variables:      How many bottles will Viviana sell if she sets the price at $4.50? $5.00? $5.50?      Make a table showing how demand depends on price, including .      Explain what represents in the story.      Write an equation for demand in terms of price. Hint: Your equation will involve subtracting the demand drop from 150.      Use the distributive property and collect like terms to simplify your equation. Hint: it is linear.      Check that your simplified equation gives when .       In the previous problem, Viviana was selling bottled cold brew coffee. Using the variables: she wrote an equation showing how the demand depends on the price.  Viviana wants to figure out a price for cold brew so that she can take in as much total revenue as possible.     What is the total revenue if Viviana prices cold brew at $4.00 and sells 150 bottles?      Make a table showing how revenue depends on price, including . Hint: use your answers for demand from the previous problem.      Write an equation for the revenue in terms of price, using . Hint: use your final equation for demand from the previous problem and the fact that .      Use the distributive property to simplify your equation. Hint: it is quadratic.      Check that your simplified equation gives when .       Květa is working in a botany lab and needs to prepare a 30-gallon batch of liquid nutrient solution for a greenhouse experiment. She has two brands of concentrates available to mix:    Hofner's: contains 12 grams of nitrogen per gallon.     DeBoer's: contains 4 grams of nitrogen per gallon.     She is interested in the variables:      If Květa uses 10 gallons of Hofner's concentrate, how many gallons of DeBoer's concentrate will she use (remember she needs 30 gallons in total), and how many total grams of nitrogen will that mixture contain?      If she uses 18 gallons of Hofner's concentrate, how many gallons of DeBoer's concentrate will she use, and how many grams of nitrogen will that mixture contain?      Write an equation describing how the total grams of nitrogen is a function of the amount of Hofner's concentrate . Hint: How can we express the amount of DeBoer's concentrate used in terms of ?      Use the distributive property and collect like terms to simplify your equation.      "
+},
+{
+  "id": "gravel-path-first-look-polynomials",
+  "level": "2",
+  "url": "sec-6-1-First_look_polynomials.html#gravel-path-first-look-polynomials",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10' 25' vegetable and berry garden for the neighborhood. (Remember ' stands for feet, so the garden is 10 feet wide and 25 feet long.) One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.    Story also appears in 2.3 Exercises 2.4 Exercises and 3.5 #4      The other measurements are in feet, so convert the depth of the path (3 inches) into feet also.      Suppose for the moment that the path will be 4 feet wide. Calculate the area of the path. Here's one way to do it: first, find the area of the outer rectangle, then subtract the area of the garden itself.   Hint: the length of that outer rectangle includes the 25 feet of garden plus the width of the path on each side. Same for the width of that outer rectangle.       Figure out how much gravel they would need (in cubic feet) for a 4 foot wide path by multiplying your answers to (a) and (b).      Actually, they aren't sure how wide the path should be and how much gravel they can get. Let's write = width of path (feet). Explain why the width of the outer rectangle is and the length of the outer rectangle is .      Explain why the area of the path is .      Let's write = amount of gravel (cubic feet). Write an equation for as a function of . Hint: multiply your answers to (a) and (e).      Use FOIL and collecting like terms to simplify your answer to (f). It should fit the quadratic equation template.      Notice that if , then . Explain what that means in terms of the story.    "
+},
+{
+  "id": "sticker-packs-first-look-polynomials",
+  "level": "2",
+  "url": "sec-6-1-First_look_polynomials.html#sticker-packs-first-look-polynomials",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Emery is selling custom printed laptop and water bottle sticker packs. He is trying to understand how the number of sticker packs people will buy depends on the price. There's a fancy name for the number of things people will buy it's called the demand . Emery knows from experience that if he prices sticker packs at $10, then the demand is 200 sticker packs, but that the demand drops by 15 sticker packs per dollar increase in price. He identifies the variables      How many sticker packs will Emery sell if he sets the price at $11? $12? $13?      Make a table showing how demand depends on price, including .      Explain why the increase in price is calculated as .      Write an equation for the demand in terms of price. Hint: Your equation will involve .      Use the distributive property and collect like terms to simplify your equation. Hint: it is linear.      Check that your simplified equation gives when .      What does your equation say the demand will be when ? This answer does not make sense in the story.      Draw a graph illustrating how the demand depends on the price. Be sure to start at $0.    "
+},
+{
+  "id": "sticker-pack-revenue-first-look-polynomial",
+  "level": "2",
+  "url": "sec-6-1-First_look_polynomials.html#sticker-pack-revenue-first-look-polynomial",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  In the previous problem, Emery was selling sticker packs. Using the variables Emery calculated that (spoiler alert) Notice that the intercept (price $0) of 350 things doesn't really make any sense in the problem. Emery wants to figure out a price for sticker packs so that he can take in as much money as possible. There's a fancy name for that too the total amount of money Emery takes in is called the total revenue .     What is the total revenue if Emery prices sticker packs at $10 and sells 200 of them?      Make a table showing how revenue depends on price, including . Hint: use your answers for demand from the previous problem.      Write an equation for the revenue in terms of price, using Hint: use your final equation from the previous problem.      Use the distributive property and collect like terms to simplify your equation. Hint: it is quadratic.      Check that your simplified equation gives when .      What does your equation say the revenue will be when and what does that mean in the story?      Draw a graph illustrating how the demand depends on the price. Be sure to start at $0.    "
+},
+{
+  "id": "energy-drink-first-look-polynomials",
+  "level": "2",
+  "url": "sec-6-1-First_look_polynomials.html#energy-drink-first-look-polynomials",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Ximena is trying to get some homework done so she wants to create a custom 24 ounce energy drink that has some caffeine, but not too much. She has two available drinks that she can mix:   Rehab Monster: Green Tea Source: https:\/\/www.monsterenergy.com\/en-us\/energy-drinks\/rehab-monster\/green-tea\/ (10.3 mg caffeine\/ounce)    Snapple Peach Tea Source: https:\/\/snapple.com\/products\/snapple-peach-tea?filter=tea (2.3 mg caffeine\/ounce)   She is interested in the variables      If Ximena uses 10 ounces of Rehab Monster, how many ounces of Snapple Peach Tea will she use (remember she wants 24 ounces total) and how much caffeine will that mixture have?      If she uses 16 ounces of Rehab Monster, how many ounces of Snapple Peach Tea will she use and how much caffeine with that mixture have?      Write an equation describing how the total caffeine is a function of the amount of Rehab Monster. Hint: How can we write the amount of Snapple Peach Tea in terms of ?      Use the distributive property to simplify your equation.    "
+},
+{
+  "id": "canvas-painting-first-look-polynomial",
+  "level": "2",
+  "url": "sec-6-1-First_look_polynomials.html#canvas-painting-first-look-polynomial",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Roy is mounting a rectangular canvas painting on an aluminum composite panel. The panel covers the entire back of the painting and sticks out width inches around all four sides of the canvas.        Suppose for the moment that the frame creates a border 3 inches wide ( ). Calculate the area of the aluminum panel. Note: the area is the area of the outside square, not just the border.      Roy has not decided yet how wide the frame border should be. Let's write . Explain why the width of the outer frame is and the length of the outer frame is .      Explain why the area of the aluminum panel is .      Use FOIL and collecting like terms to simplify your answer to (c). It should fit the quadratic equation template.      What is the area if ? Explain what that means in terms of the story.    "
+},
+{
+  "id": "cold-brew-first-look-polynomials",
+  "level": "2",
+  "url": "sec-6-1-First_look_polynomials.html#cold-brew-first-look-polynomials",
+  "type": "Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Viviana is selling bottled cold brew coffee at a local weekend market. She is trying to understand how the number of bottles people will buy depends on the price per bottle. Viviana knows from experience that if she prices cold brew at $4.00 per bottle, the demand is 150 bottles, but for every $1 increase in price, the demand drops by 20 bottles. She writes the variables:      How many bottles will Viviana sell if she sets the price at $4.50? $5.00? $5.50?      Make a table showing how demand depends on price, including .      Explain what represents in the story.      Write an equation for demand in terms of price. Hint: Your equation will involve subtracting the demand drop from 150.      Use the distributive property and collect like terms to simplify your equation. Hint: it is linear.      Check that your simplified equation gives when .    "
+},
+{
+  "id": "cold-brew-2-first-look-polynomials",
+  "level": "2",
+  "url": "sec-6-1-First_look_polynomials.html#cold-brew-2-first-look-polynomials",
+  "type": "Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  In the previous problem, Viviana was selling bottled cold brew coffee. Using the variables: she wrote an equation showing how the demand depends on the price.  Viviana wants to figure out a price for cold brew so that she can take in as much total revenue as possible.     What is the total revenue if Viviana prices cold brew at $4.00 and sells 150 bottles?      Make a table showing how revenue depends on price, including . Hint: use your answers for demand from the previous problem.      Write an equation for the revenue in terms of price, using . Hint: use your final equation for demand from the previous problem and the fact that .      Use the distributive property to simplify your equation. Hint: it is quadratic.      Check that your simplified equation gives when .    "
+},
+{
+  "id": "liquid-nutrient-first-look-polynomials",
+  "level": "2",
+  "url": "sec-6-1-First_look_polynomials.html#liquid-nutrient-first-look-polynomials",
+  "type": "Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Květa is working in a botany lab and needs to prepare a 30-gallon batch of liquid nutrient solution for a greenhouse experiment. She has two brands of concentrates available to mix:    Hofner's: contains 12 grams of nitrogen per gallon.     DeBoer's: contains 4 grams of nitrogen per gallon.     She is interested in the variables:      If Květa uses 10 gallons of Hofner's concentrate, how many gallons of DeBoer's concentrate will she use (remember she needs 30 gallons in total), and how many total grams of nitrogen will that mixture contain?      If she uses 18 gallons of Hofner's concentrate, how many gallons of DeBoer's concentrate will she use, and how many grams of nitrogen will that mixture contain?      Write an equation describing how the total grams of nitrogen is a function of the amount of Hofner's concentrate . Hint: How can we express the amount of DeBoer's concentrate used in terms of ?      Use the distributive property and collect like terms to simplify your equation.    "
 },
 {
   "id": "sec-pfe1",
