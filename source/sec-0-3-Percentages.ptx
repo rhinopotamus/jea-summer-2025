@@ -30,14 +30,14 @@
 		</p>
 	</introduction>
 
-	<conclusion component="not-workbook">
+	<subsection component="not-workbook">
 		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk/dyk-Percentages.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 
 	
 	<xi:include href="./exercises/ex-0-3-Percentages.ptx" />
@@ -45,12 +45,12 @@
 	<xi:include href="./WYD.ptx" />
 		
 		
-	<conclusion component="workbook">
+	<subsection component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk/dyk-Percentages.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 
 </section>

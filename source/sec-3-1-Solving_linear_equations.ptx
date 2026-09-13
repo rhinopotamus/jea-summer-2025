@@ -265,14 +265,14 @@
 
 	</subsection>
 	
-	<conclusion component="not-workbook">
+	<subsection component="not-workbook">
 		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk/dyk-Solving_linear_equations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 
 	
 	<xi:include href="./exercises/ex-3-1-Solving_linear_equations.ptx" />
@@ -280,11 +280,11 @@
 	<xi:include href="./WYD.ptx" />
 		
 		
-	<conclusion component="workbook">
+	<subsection component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk/dyk-Solving_linear_equations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 </section>

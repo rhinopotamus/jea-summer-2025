@@ -13,10 +13,10 @@ Here is how those components are used:
 - the text of the section is enclosed in an `<introduction component="not-workbook">`
     - In this summer-2025 branch I am moving toward `<subsection component="not-workbook">`.
 - each of the "Do you know..." lists is in a separate document as an `<ol>` element
-- a `<conclusion component="workbook">` loads the "Do you know..." list in *after* the exercises in the workbook version
-- a `<conclusion component="not-workbook">` loads the "Do you know..." list in *before* the exercises in other versions
+- a `<subsection component="workbook">` loads the "Do you know..." list in *after* the exercises in the workbook version
+- a `<subsection component="not-workbook">` loads the "Do you know..." list in *before* the exercises in other versions
 - The file `NotSure.ptx` prints some "not-sure" instructions in not-workbook formats and the "Don't forget!" alert in the workbook version
-- `WYD.ptx` is a `<conclusion component="workbook">` that is loaded between the exercises and the "Do you know ..." list
+- `WYD.ptx` is a `<subsection component="workbook">` that is loaded between the exercises and the "Do you know ..." list
 
 Some other important versioning happens in the exercise files `ex-NAME.ptx`:
 - `ex-intro.ptx` is an `<introduction>` element that doesn't display in the workbook

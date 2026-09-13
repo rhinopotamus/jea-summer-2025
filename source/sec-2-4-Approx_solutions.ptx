@@ -294,14 +294,14 @@
 
 	</subsection>
 	
-	<conclusion component="not-workbook">
+	<subsection component="not-workbook">
 		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk/dyk-Approx_solutions.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 
 	
 	<xi:include href="./exercises/ex-2-4-Approx_solutions.ptx" />
@@ -309,11 +309,11 @@
 	<xi:include href="./WYD.ptx" />
 		
 		
-	<conclusion component="workbook">
+	<subsection component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk/dyk-Approx_solutions.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 </section>

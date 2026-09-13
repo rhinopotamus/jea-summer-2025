@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<conclusion component="workbook" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection component="workbook" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>When you're done <ellipsis /></title>
 
 
@@ -44,4 +44,4 @@
 	</ul></p>
 
 
-</conclusion>
+</subsection>

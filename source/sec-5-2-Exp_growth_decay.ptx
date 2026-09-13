@@ -297,14 +297,14 @@
 		<xi:include href="./activities/act-5-2-signal-halflife.ptx" />
 	</subsection>
 	
-	<conclusion component="not-workbook">
+	<subsection component="not-workbook">
 		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk/dyk-Exp_growth_decay.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 
 	
 	<xi:include href="./exercises/ex-5-2-Exp_growth_decay.ptx" />
@@ -312,11 +312,11 @@
 	<xi:include href="./WYD.ptx" />
 		
 		
-	<conclusion component="workbook">
+	<subsection component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk/dyk-Exp_growth_decay.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 </section>

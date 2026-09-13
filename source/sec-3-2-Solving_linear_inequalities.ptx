@@ -202,14 +202,14 @@
 		<xi:include href="./activities/act-3-2-chain-ineq.ptx" />
 	</subsection>
 
-	<conclusion component="not-workbook">
+	<subsection component="not-workbook">
 		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk/dyk-Solving_linear_inequalities.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 
 	
 	<xi:include href="./exercises/ex-3-2-Solving_linear_inequalities.ptx" />
@@ -217,12 +217,12 @@
 	<xi:include href="./WYD.ptx" />
 		
 		
-	<conclusion component="workbook">
+	<subsection component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk/dyk-Solving_linear_inequalities.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
-	</conclusion>
+	</subsection>
 
 </section>
