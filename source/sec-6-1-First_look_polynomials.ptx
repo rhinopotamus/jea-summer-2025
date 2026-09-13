@@ -31,7 +31,7 @@
 							\fill[quiltpink] (\x,\y) rectangle (\x+3,\y+3);
 						\or
 							\fill[sagegreen] (\x,\y) rectangle (\x+3,\y+3);
-			
+            \fi
 					}
 				}
 				\fill[sagegreen] (-2.5,0) rectangle (0,51);
