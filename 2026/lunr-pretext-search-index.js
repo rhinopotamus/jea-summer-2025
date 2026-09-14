@@ -6112,6 +6112,96 @@ var ptx_lunr_docs = [
   "body": "  Květa is working in a botany lab and needs to prepare a 30-gallon batch of liquid nutrient solution for a greenhouse experiment. She has two brands of concentrates available to mix:    Hofner's: contains 12 grams of nitrogen per gallon.     DeBoer's: contains 4 grams of nitrogen per gallon.     She is interested in the variables:      If Květa uses 10 gallons of Hofner's concentrate, how many gallons of DeBoer's concentrate will she use (remember she needs 30 gallons in total), and how many total grams of nitrogen will that mixture contain?      If she uses 18 gallons of Hofner's concentrate, how many gallons of DeBoer's concentrate will she use, and how many grams of nitrogen will that mixture contain?      Write an equation describing how the total grams of nitrogen is a function of the amount of Hofner's concentrate . Hint: How can we express the amount of DeBoer's concentrate used in terms of ?      Use the distributive property and collect like terms to simplify your equation.    "
 },
 {
+  "id": "sec-6-2-First_look_right_triangles",
+  "level": "1",
+  "url": "sec-6-2-First_look_right_triangles.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "A first look at right triangles",
+  "body": " A first look at right triangles   Sprinting across the soccer field  Our university's soccer field measures 117 yards long and 65 yards wide. Source: https:\/\/athletics.augsburg.edu\/sports\/2009\/3\/12\/gen031308.aspx?id=5 Coach Pelto asked her players to sprint diagonally across the field at practice. How far is that?     We can say some facts about the diagonal distance. For one thing, it's definitely longer than the length of the longer side which is 117 feet. Also, sprinting along the edges of the field would be longer than going diagonally, so the diagonal distance is definitely shorter than feet. So the answer is in between 117 and 182 feet. I'd guess it's about 150 feet, just because that's a nice number in that range.    The Pythagorean Theorem  So, how do we find the exact diagonal distance? Luckily there's a very useful fact called the Pythagorean Theorem. It says if you have a triangle and if two sides are perpendicular to each other, then there's a formula relating the lengths of the sides. To state the formula we need a little more vocabulary.  The two lines that are perpendicular make an angle of which is a right angle . A triangle that has two sides perpendicular, or equivalently that has a right angle, is cleverly called a right triangle . The shorter two sides, the ones that are perpendicular are sometimes called the legs of the right triangle. The longer side, here the diagonal across the field, is called the hypotenuse .  The Pythagorean Theorem says if you have a right triangle and the legs have length and and if the hypotenuse has length , then (By the way, the opposite is true too: if the equation works, then the two sides are perpendicular. Carpenters use this fact often to check that they have right angles!)  Back to our problem. Let's redraw our picture to be a triangle and label width feet, the length feet, and the length of the diagonal feet. We mark the angle where the vertical and horizontal meet with a small box to indicate the right angle.     By the Pythagorean Theorem, Rewriting to have the variable on the left-hand side of the equation, we get We can use square roots to find : Our estimate of 150 feet was a bit high, but pretty close!    Hanging a wall banner  After practice, Coach Pelto asked Marta to help put up a banner on the side wall. Marta was able to find a 16 foot ladder. She placed the base of the ladder 4 feet away from the wall and let the ladder lean against the wall. How high up on the wall was the top of the ladder?  Let's start by drawing a picture. It doesn't matter which leg of the triangle we label and which we label . But it does matter that is the hypotenuse, the longest side, the side opposite the right angle.     We can use the Pythagorean Theorem to get the equation Evaluating the squares we get Subtracting 16 from each side we get Then The top of the ladder will be about 15 6 high. Luckily Marta is brave and climbs the ladder to hang the banner.    Why is the Pythagorean Theorem true?  In case you're curious, there's a lovely proof by picture For a discussion of the origins of this proof, and many more, see https:\/\/www.cut-the-knot.org\/pythagoras\/ that shows that the Pythagorean Theorem is true. In the picture, the red squares have area and , the big blue square has area , each of the four yellow right triangles has sides of length , , and , and the outer squares are the same dimension: . Since the outer squares have the same area and the four yellow triangles have the same area, the red area ( ) must be the same as the blue area ( ). Woo hoo!       Do you know     What a right angle and a right triangle are?    What the short sides and the longest side of a right triangle are called?    How to use the Pythagorean Theorem to find the length of a side of a right triangle?    When to use the Pythagorean Theorem?      If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.     Exercises   Exercises 1-4 are available in a separate workbook format.     Beau and Kurt are warming up before their ultimate frisbee match in a parking lot which is . They stand at diagonal corners to throw the frisbee. How far apart at they?     Draw a picture of a right triangle that illustrates the information from the story.      Estimate the answer. Hint: Explain why it's gonna be greater than 289' and less than 411'.      Which sides of the triangle do we know the length of and which side are we looking for the length of? Label them , , and . Measure the lengths in feet.      What equation does the Pythagorean Theorem give you?      Solve that equation to answer the question.       As part of an environmental engineering lab, your group is installing a solar panel on a flat campus roof. The solar panel needs to be mounted at an angle. The panel itself is 6'6 wide with one edge sitting essentially on the roof and the opposite edge elevated 24 above the roof. What is the horizontal width of the footprint area below the solar panel on the roof? (That would matter, for example, if we were trying to fit more solar panels up there.)     Draw a picture of a right triangle that illustrates the information from the story.      Let's measure the lengths in inches, so you need to convert 6 6 to inches.      Which sides of the triangle do we know the length of and which side are we looking for the length of? Label them , , and .      What equation does the Pythagorean Theorem give you?      Solve that equation to answer the question.       Satoshi is setting up his apartment. He wants to work on his laptop at his standing desk which is 43 tall. Satoshi stands at the side of the desk closest to the nearby wall outlet (and right in front of the outlet). He wants to plug his computer charger into the top plug which is 14 above the floor. Satoshi's laptop sits a comfortable distance away on the desk top. He measures that it's 9 from the edge of the desk to the charger port.  If Satoshi's places his desk is 36 from the wall, will he be able to plug in his laptop using a 4-foot long cord? As part of your work, draw a right triangle, label the sides, use the Pythagorean Theorem to set up an equation, and solve to determine how long the cord needs to be. Be sure to answer the question at the end. Hint: Notice that the charger port is from the wall. Also notice that the and the charger port and outlet plug are apart in height.      Nope, that 4-foot long cord isn't long enough for Satoshi to charge his laptop. He's gonna have to move the desk closer to the wall. How close to the wall does Satoshi need move the desk so he can charge his laptop while he works? As part of your work, draw a right triangle, label the sides, use the Pythagorean Theorem to set up an equation, and solve to determine how far away from the wall his desk can be. At the end, subtract 9 to find the distance from his desk to the wall. Hint: Don't forget to convert 4 feet to inches.       Central Park in New York City is 2.5 miles long (from 59th Street in Midtown to 110th Street in Harlem) and 1 mile wide (from Fifth Avenue to Eighth Avenue). Source: https:\/\/en.wikipedia.org\/wiki\/Central_Park It's impossible to walk exactly diagonally across the park because of The Lake and the reservoir, but if you could, how far would that be?     Explain why the answer is more than 2.5 miles and less than 3.5 miles. What's a good guess for the answer?      Draw a picture of a right triangle that illustrates the information from the story.      Which sides of the triangle do we know the names of and which side are we looking for? Label them , , and . Measure the lengths in miles.      What equation does the Pythagorean Theorem give you?      Solve that equation to answer the question.       Judith is having an accessible ramp built on the women's health clinic where she volunteers. The entrance to the building is 4 feet above the ground which is otherwise flat. Guidelines under the Americans with Disabilities Act (ADA) require 12 inches of ramp length for every 1 inch of rise.     To get 4 feet of rise, how long will the ramp need to be?      Draw a right triangle illustrating the situation and label the known and unknown side lengths.      Assuming the ramp is straight, how far away from the building does the ramp need to start? (In practice, ramps often zig-zag back and forth to fit in the available space.)       Marine biologists tracking a humpback whale attach an electronic tag that transmits acoustic pings to a research boat. The direct distance from the boat to the submerged whale is 203 meters. The boat's GPS shows it is located 194 meters horizontally along the water's surface from the point directly above the whale. How deep under the water's surface is the whale? As part of your work, draw a right triangle, label the lengths of the sides, and use the Pythagorean Theorem. Hint: humpback whales frequently dive around 80 meters deep. Source: https:\/\/en.wikipedia.org\/wiki\/Humpback_whale       Bob is building a roof truss, as shown in the picture, for the new backyard shed he's building. The King Post is vertical and will be 5 feet tall. The Tie Beam is horizontal and will be 24 feet long. Note that the King Post lands exactly in the middle of the Tie Beam.        Draw a right triangle showing just the left-hand side of the roof and label the sides of your triangle with the information given in the story, or a letter if we don't know the length.      Use the Pythagoream Theorem to find the length of the rafter.      Did anything about the length surprise you?       Use the Pythagoream Theorem to confirm that each of the following triples could be the lengths of a right triangle.     3 yards, 4 yards, 5 yards      5 feet, 12 feet, 13 feet      8 cm, 15 cm, 17 cm      7 miles, 24 miles, 25 miles      "
+},
+{
+  "id": "frisbee-throw-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#frisbee-throw-right-triangles",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Beau and Kurt are warming up before their ultimate frisbee match in a parking lot which is . They stand at diagonal corners to throw the frisbee. How far apart at they?     Draw a picture of a right triangle that illustrates the information from the story.      Estimate the answer. Hint: Explain why it's gonna be greater than 289' and less than 411'.      Which sides of the triangle do we know the length of and which side are we looking for the length of? Label them , , and . Measure the lengths in feet.      What equation does the Pythagorean Theorem give you?      Solve that equation to answer the question.    "
+},
+{
+  "id": "solar-panels-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#solar-panels-right-triangles",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  As part of an environmental engineering lab, your group is installing a solar panel on a flat campus roof. The solar panel needs to be mounted at an angle. The panel itself is 6'6 wide with one edge sitting essentially on the roof and the opposite edge elevated 24 above the roof. What is the horizontal width of the footprint area below the solar panel on the roof? (That would matter, for example, if we were trying to fit more solar panels up there.)     Draw a picture of a right triangle that illustrates the information from the story.      Let's measure the lengths in inches, so you need to convert 6 6 to inches.      Which sides of the triangle do we know the length of and which side are we looking for the length of? Label them , , and .      What equation does the Pythagorean Theorem give you?      Solve that equation to answer the question.    "
+},
+{
+  "id": "standing-desk-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#standing-desk-right-triangles",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Satoshi is setting up his apartment. He wants to work on his laptop at his standing desk which is 43 tall. Satoshi stands at the side of the desk closest to the nearby wall outlet (and right in front of the outlet). He wants to plug his computer charger into the top plug which is 14 above the floor. Satoshi's laptop sits a comfortable distance away on the desk top. He measures that it's 9 from the edge of the desk to the charger port.  If Satoshi's places his desk is 36 from the wall, will he be able to plug in his laptop using a 4-foot long cord? As part of your work, draw a right triangle, label the sides, use the Pythagorean Theorem to set up an equation, and solve to determine how long the cord needs to be. Be sure to answer the question at the end. Hint: Notice that the charger port is from the wall. Also notice that the and the charger port and outlet plug are apart in height.   "
+},
+{
+  "id": "standing-desk-2-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#standing-desk-2-right-triangles",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Nope, that 4-foot long cord isn't long enough for Satoshi to charge his laptop. He's gonna have to move the desk closer to the wall. How close to the wall does Satoshi need move the desk so he can charge his laptop while he works? As part of your work, draw a right triangle, label the sides, use the Pythagorean Theorem to set up an equation, and solve to determine how far away from the wall his desk can be. At the end, subtract 9 to find the distance from his desk to the wall. Hint: Don't forget to convert 4 feet to inches.   "
+},
+{
+  "id": "central-park-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#central-park-right-triangles",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Central Park in New York City is 2.5 miles long (from 59th Street in Midtown to 110th Street in Harlem) and 1 mile wide (from Fifth Avenue to Eighth Avenue). Source: https:\/\/en.wikipedia.org\/wiki\/Central_Park It's impossible to walk exactly diagonally across the park because of The Lake and the reservoir, but if you could, how far would that be?     Explain why the answer is more than 2.5 miles and less than 3.5 miles. What's a good guess for the answer?      Draw a picture of a right triangle that illustrates the information from the story.      Which sides of the triangle do we know the names of and which side are we looking for? Label them , , and . Measure the lengths in miles.      What equation does the Pythagorean Theorem give you?      Solve that equation to answer the question.    "
+},
+{
+  "id": "accessible-ramp-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#accessible-ramp-right-triangles",
+  "type": "Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Judith is having an accessible ramp built on the women's health clinic where she volunteers. The entrance to the building is 4 feet above the ground which is otherwise flat. Guidelines under the Americans with Disabilities Act (ADA) require 12 inches of ramp length for every 1 inch of rise.     To get 4 feet of rise, how long will the ramp need to be?      Draw a right triangle illustrating the situation and label the known and unknown side lengths.      Assuming the ramp is straight, how far away from the building does the ramp need to start? (In practice, ramps often zig-zag back and forth to fit in the available space.)    "
+},
+{
+  "id": "acoustic-pings-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#acoustic-pings-right-triangles",
+  "type": "Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Marine biologists tracking a humpback whale attach an electronic tag that transmits acoustic pings to a research boat. The direct distance from the boat to the submerged whale is 203 meters. The boat's GPS shows it is located 194 meters horizontally along the water's surface from the point directly above the whale. How deep under the water's surface is the whale? As part of your work, draw a right triangle, label the lengths of the sides, and use the Pythagorean Theorem. Hint: humpback whales frequently dive around 80 meters deep. Source: https:\/\/en.wikipedia.org\/wiki\/Humpback_whale    "
+},
+{
+  "id": "roof-truss-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#roof-truss-right-triangles",
+  "type": "Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Bob is building a roof truss, as shown in the picture, for the new backyard shed he's building. The King Post is vertical and will be 5 feet tall. The Tie Beam is horizontal and will be 24 feet long. Note that the King Post lands exactly in the middle of the Tie Beam.        Draw a right triangle showing just the left-hand side of the roof and label the sides of your triangle with the information given in the story, or a letter if we don't know the length.      Use the Pythagoream Theorem to find the length of the rafter.      Did anything about the length surprise you?    "
+},
+{
+  "id": "pythagorean-triples-right-triangles",
+  "level": "2",
+  "url": "sec-6-2-First_look_right_triangles.html#pythagorean-triples-right-triangles",
+  "type": "Exercise",
+  "number": "9",
+  "title": "",
+  "body": "  Use the Pythagoream Theorem to confirm that each of the following triples could be the lengths of a right triangle.     3 yards, 4 yards, 5 yards      5 feet, 12 feet, 13 feet      8 cm, 15 cm, 17 cm      7 miles, 24 miles, 25 miles    "
+},
+{
   "id": "sec-pfe1",
   "level": "1",
   "url": "sec-pfe1.html",
