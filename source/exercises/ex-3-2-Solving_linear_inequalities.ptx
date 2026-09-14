@@ -5,7 +5,11 @@
 <exercises xml:id="ex-3-2-Solving_linear_inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Exercises</title>
 
-	<xi:include href="ex-intro.ptx" />
+<introduction component="not-workbook">
+    <p>
+        Exercises 1-4 are available in a separate workbook format.
+    </p>
+</introduction>
 
 	<page>
 		<exercise xml:id="truck-grass-linear-ineq">

@@ -4,7 +4,11 @@
 <exercises xml:id="ex-3-5-Solving_quadratic_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Exercises</title>
 
-	<xi:include href="ex-intro.ptx" />
+<introduction component="not-workbook">
+    <p>
+        Exercises 1-4 are available in a separate workbook format.
+    </p>
+</introduction>
 	<introduction component="workbook">
 		<assemblage xml:id="quadratic-formula">
 			<title>Quadratic Formula</title>

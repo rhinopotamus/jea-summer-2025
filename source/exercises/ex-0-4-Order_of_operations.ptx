@@ -2,7 +2,11 @@
 
 <exercises xml:id="ex-0-4-Order_of_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title component="not-workbook">Exercises</title>
-    <xi:include href="ex-intro.ptx" />
+    <introduction component="not-workbook">
+    <p>
+        Exercises 1-4 are available in a separate workbook format.
+    </p>
+</introduction>
     <introduction>
         <p>
             On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. Challenge yourself to use one-line calculations. You are welcome to calculate the answer step-by-step to check.

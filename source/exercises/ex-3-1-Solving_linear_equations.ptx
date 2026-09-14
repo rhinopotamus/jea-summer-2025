@@ -3,7 +3,11 @@
 
 <exercises xml:id="ex-3-1-Solving_linear_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Exercises</title>
-	<xi:include href="ex-intro.ptx" />
+<introduction component="not-workbook">
+    <p>
+        Exercises 1-4 are available in a separate workbook format.
+    </p>
+</introduction>
 	<page>
 		<exercise xml:id="truck-grass-solving-linear">
 			<introduction>

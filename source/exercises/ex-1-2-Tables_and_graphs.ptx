@@ -3,7 +3,11 @@
 
 <exercises xml:id="ex-1-2-Tables_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-	<xi:include href="ex-intro.ptx" />
+<introduction component="not-workbook">
+    <p>
+        Exercises 1-4 are available in a separate workbook format.
+    </p>
+</introduction>
 
 <page>
 	<exercise xml:id="private-college-tables-graphs">

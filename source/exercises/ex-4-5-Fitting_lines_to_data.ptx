@@ -4,7 +4,11 @@
 <exercises xml:id="ex-4-5-Fitting_lines_to_data" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Exercises</title>
 
-	<xi:include href="ex-intro.ptx" />
+<introduction component="not-workbook">
+    <p>
+        Exercises 1-4 are available in a separate workbook format.
+    </p>
+</introduction>
 
 	<page>
 		<exercise xml:id="wood-volume-fitting-lines">

@@ -4,7 +4,11 @@
 <exercises xml:id="ex-4-4-Slopes" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title component="not-workbook">Exercises</title>
 
-	<xi:include href="ex-intro.ptx" />
+<introduction component="not-workbook">
+    <p>
+        Exercises 1-4 are available in a separate workbook format.
+    </p>
+</introduction>
 
 	<page>
 		<exercise xml:id="wings-delivery-slopes" workspace="1.75cm">
