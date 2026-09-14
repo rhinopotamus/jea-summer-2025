@@ -5,36 +5,65 @@
 
     <introduction component="not-workbook">
         <p>
-			Like the prelude chapter, the sections in this interlude chapter are intended to be covered in between or along side sections in previous chapters.  In a later edition of the textbook, they will be interwoven as needed.
+			Like the prelude chapter, the sections in this interlude chapter are intended to be covered in between or alongside sections in previous chapters.  In a later edition of the textbook, they will be interwoven as needed.
 		</p>
 
 		<p>
 			Notes (to instructors):
 			
-			<ul> <!-- Make links. -->
+			<ul>
 				<li>
 					<p>
-						6.1 Interlude: A first look at polynomial equations is a full day's lesson.  It can be covered after  2.1 A first look at linear equations and ideally before 2.3 Using equations.  A natural place would be between 2.2 and 2.3.
+						<xref ref="sec-6-1-First_look_polynomials" text="type-global-title"/> is a full day's lesson.  It can be covered after
+						<xref ref="sec-2-1-First_look_linear" text="type-global-title"/>
+						and ideally before 
+						<xref ref="sec-2-3-Using_equations" text="type-global-title"/>.  
+						A natural place would be between 
+						<xref ref="sec-2-2-First_look_exponential" text="global"/>
+						and 
+						<xref ref="sec-2-3-Using_equations" text="global"/>.
 					</p>
 				</li>
 				<li>
 					<p>
-						6.2 Interlude: A first look at right triangles is a half day's lesson.  It is needed before 7.1 Right triangles, and possibly would fit the same day as 7.1.  The intent was that 6.2 be covered alongside 3.3 Solving Power Equations, especially if 0.6 Powers and Roots is covered separately.
+						<xref ref="sec-6-2-First_look_right_triangles" text="type-global-title"/> is a half day's lesson.  It is needed before 7.1 Right triangles, and possibly would fit the same day as 7.1.  The intent was that 6.2 be covered alongside 
+						<xref ref="sec-3-3-Solving_power_equations" text="type-global-title"/>
+						especially if 
+						<xref ref="sec-0-6-Powers_and_roots" text="type-global-title"/>
+						is covered separately.
 					</p>
 				</li>
 				<li>
 					<p>
-						6.3 Interlude: Piecewise linear functions is another half day's lesson. It naturally fits alongside 4.1 Modeling with linear equations, which is otherwise a very short review section.
+						<xref ref="sec-6-3-piecewise-linear" text="type-global-title"/>
+						is another half day's lesson. It naturally fits alongside 
+						<xref ref="sec-4-1-Modeling_linear_equations" text="type-global-title"/>, 
+						which is otherwise a very short review section.
 					</p>
 				</li>
 				<li>
 					<p>
-						6.4 Interlude: Point-slope equation of a line is a full day's lesson.  It should be covered after 4.4 Slopes. It would fit best after 4.5, if that section is covered.
+						<xref ref="sec-6-4-Point-slope_form" text="type-global-title"/>
+						is a full day's lesson.  It should be covered after 
+						<xref ref="sec-4-4-Slopes" text="type-global-title"/>
+						It would fit best after 
+						<xref ref="sec-4-5-Fitting_lines_to_data" text="global"/>,
+						if that section is covered.
 					</p>
 				</li>
 				<li>
 					<p>
-						6.5 Interlude: Linear vs. exponential in point-slope form is a half day's lesson.  It is intended to be an addendum to 5.4 Linear vs. exponential models, perhaps replacing 5.4 #4 in the workbook with 6.5 #1.
+						<xref ref="sec-6-5-Linear_vs_exp_point-slope" text="type-global-title"/>
+						is a half day's lesson.  It is intended to be an addendum to 
+						<xref ref="sec-5-4-Linear_vs_exponential" text="type-global-title"/>,
+						perhaps replacing 
+						<xref ref="bus-fares-linear-exponential" text="custom">
+							5.4 #4
+						</xref>
+						in the workbook with 
+						<xref ref="parents-house-lve-point-slope" text="custom">
+							6.5 #1
+						</xref>.
 					</p>
 				</li>
 			</ul>
