@@ -47,7 +47,7 @@
 				<p>
 					Draw a graph illustrating both equations. <em>Be sure to include the intercepts.</em>
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 		<task workspace="2in">

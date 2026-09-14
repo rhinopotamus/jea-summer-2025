@@ -17,15 +17,15 @@
                 showing a profit. She has logged a total of 471 billable hours
                 at $35 per hour since she started her business. Accounting for
                 start-up costs, her profit is $2,194.
-                <aside>
-                    <p>
-                        Story also appears in
-                        <xref ref="ex-4-3-Intercepts" text="custom">
-                            4.3 Exercises
-                        </xref>.
-                    </p>
-                </aside>
             </p>
+            <aside>
+                <p>
+                    Story also appears in
+                    <xref ref="ex-4-3-Intercepts" text="custom">
+                        4.3 Exercises
+                    </xref>.
+                </p>
+            </aside>
             
         </introduction>
         <task>
@@ -101,7 +101,7 @@
                 <p>
                     Draw a graph illustrating the relationship.
                 </p>
-                <xi:include href="../GraphPaper.ptx" />
+                <image component="workbook" source='GraphPaper.jpg' width="90%" />
             </statement>
         </task>
         <task>
@@ -134,8 +134,8 @@
                 is slow enough that we can approximate the growth with a linear
                 equation. There were approximately 1596 Giant Pandas in 2004 and
                 around 1864 Giant Pandas in 2025.
-                <aside><p>Source: <url href="https://wwf.panda.org/what_we_do/endangered_species/giant_panda/panda/panda_survey">wwf.panda.org</url></p></aside>
             </p>
+            <aside><p>Source: <url href="https://wwf.panda.org/what_we_do/endangered_species/giant_panda/panda/panda_survey">wwf.panda.org</url></p></aside>
         </introduction>
         <task>
             <statement>
@@ -191,7 +191,7 @@
                     Draw a graph illustrating the dependence. Make sure your
                     graph shows up to the year 2050.
                 </p>
-                <xi:include href="../GraphPaper.ptx" />
+                <image component="workbook" source='GraphPaper.jpg' width="90%" />
             </statement>
         </task>
         <task>

@@ -137,7 +137,7 @@
 					<p>
 						Draw a graph showing how the bunny population grew.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="0.25in">

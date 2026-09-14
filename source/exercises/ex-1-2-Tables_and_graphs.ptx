@@ -3,7 +3,7 @@
 
 <exercises xml:id="ex-1-2-Tables_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-<introduction component="not-workbook">
+	<introduction component="not-workbook">
     <p>
         Exercises 1-4 are available in a separate workbook format.
     </p>
@@ -78,7 +78,7 @@
 				<p>
 					Graph the function using the information given in the table, and use the graph to check your answers to the questions.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 		<!-- <task workspace="0cm">
@@ -189,7 +189,7 @@
 					To graph both positive and negative numbers on the vertical axis, 
 					put the horizontal axis somewhere in the middle of the graph paper. 
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 	</exercise>
@@ -246,7 +246,7 @@
 				<p>
 					Graph the function. Does your estimate agree with your graph?  If not, revise.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 		<task>
@@ -340,7 +340,7 @@
 				<p>
 					Draw a graph illustrating both functions.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				<!-- <image component="workbook" source='GraphPaper.jpg' width="80%" /> -->
 			</statement>
 		</task>
@@ -833,7 +833,7 @@
 				<p>
 					Graph the function using the information given in the table.
 				</p>
-				<!-- <xi:include href="../GraphPaper.ptx" /> -->
+				<!-- <image component="workbook" source='GraphPaper.jpg' width="90%" /> -->
 			</statement>
 		</task>
 		<task workspace="0cm">

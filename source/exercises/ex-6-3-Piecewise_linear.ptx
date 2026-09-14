@@ -40,7 +40,7 @@
                     Draw a graph illustrating the dependence. Include values
                     from 0 to 2 hours.
                 </p>
-                <xi:include href="../GraphPaper.ptx" />
+                <image component="workbook" source='GraphPaper.jpg' width="90%" />
             </statement>
         </task>
     </exercise>
@@ -87,7 +87,7 @@
                     5 miles you should get the same pay as you found for 5
                     miles in (a) meaning that the graph does not jump.
                 </p>
-                <xi:include href="../GraphPaper.ptx" />
+                <image component="workbook" source='GraphPaper.jpg' width="90%" />
             </statement>
         </task>
     </exercise>

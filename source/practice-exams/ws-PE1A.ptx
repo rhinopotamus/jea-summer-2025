@@ -108,7 +108,7 @@
 				<p>
 					Draw a graph illustrating the dependence. Choose a scale that shows up to 20 weeks and 20 pounds.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 		<task>

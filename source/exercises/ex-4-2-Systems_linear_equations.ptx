@@ -136,7 +136,7 @@
 					<p>
 						Draw a graph showing all three options.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="0.5cm">
@@ -314,7 +314,7 @@
 					<p>
 						Graph both the supply equation and the demand equation on the same set of axes. <em>Approximately</em> what is the equilibrium price, according to your graph?
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="2.75in">

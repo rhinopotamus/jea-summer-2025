@@ -54,7 +54,7 @@
 					<p>
 						Graph the function. Include what happens when <m>D=0</m>.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>
@@ -127,7 +127,7 @@
 						Draw a graph showing how the size tank depends on the fuel efficiency.
 					</p>
 					<image component="workbook" source='GraphPaper.jpg' width="90%"/>
-					<!-- <xi:include href="../GraphPaper.ptx" /> -->
+					<!-- <image component="workbook" source='GraphPaper.jpg' width="90%" /> -->
 				</statement>
 			</task>
 		</exercise>

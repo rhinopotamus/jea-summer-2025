@@ -109,7 +109,7 @@
 					<p>
 						Draw a graph showing how the squirrel population grew.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>
@@ -280,7 +280,7 @@
 					<p>
 						Graph both functions on the same set of axes. <em>Don't forget 0 letters.</em>
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>
@@ -377,7 +377,7 @@
 					<p>
 						Graph both options on the same set of axes. <em>Don't forget now.</em>
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 		</exercise>

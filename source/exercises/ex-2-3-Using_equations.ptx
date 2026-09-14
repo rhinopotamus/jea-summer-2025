@@ -156,7 +156,7 @@
 					<p>
 						Graph the function.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>
@@ -219,7 +219,7 @@
 					<p>
 						Draw a graph of the function.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 		</exercise>

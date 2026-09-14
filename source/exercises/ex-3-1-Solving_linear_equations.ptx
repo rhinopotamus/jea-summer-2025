@@ -119,7 +119,7 @@
 					<p>
 						Draw a graph illustrating the cost of sending truffles. Include <m>T=0</m>.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>

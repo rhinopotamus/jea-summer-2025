@@ -55,7 +55,7 @@
 							<cell right="minor" halign="center">18,000</cell>
 						</row>
 					</tabular>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>
@@ -106,7 +106,7 @@
 					<p>
 						Draw a graph illustrating the function.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="2in">

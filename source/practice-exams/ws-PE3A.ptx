@@ -118,7 +118,7 @@
 				<p>
 					Draw a graph showing how <m>A</m> depends on the growth factor <m>g</m>. Start the horizontal axis at 1.00, instead of 0.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 		<task workspace="0.25in">

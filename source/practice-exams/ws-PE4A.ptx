@@ -33,7 +33,7 @@
 				<p>
 					Draw a graph illustrating the dependence.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 		<task>
@@ -195,7 +195,7 @@
 				<p>
 					Make a scatterplot showing the data. Scale your axes to start at 40 years and start the level at 55 decibels. Spread out your scale to get a large, detailed graph.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 		<task workspace="0.25in">

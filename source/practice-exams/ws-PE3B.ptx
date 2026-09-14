@@ -36,7 +36,7 @@
 				<p>
 					Draw a graph showing how the value of the Beanie Babies increased.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				<p>
 					<nbsp/>
 				</p>

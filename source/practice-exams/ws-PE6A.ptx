@@ -117,7 +117,7 @@
 					<p>
 						Draw a detailed graph, starting at 0.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="3.5in">
@@ -166,7 +166,7 @@
 					<p>
 						Draw a graph showing how the color of my favorite little black dress fades.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 		</exercise>
@@ -279,7 +279,7 @@
 					<p>
 						Draw a graph showing how the number of pieces of fudge depends on the length of the edge of the square.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>
@@ -369,7 +369,7 @@
 				<p>
 					In the United States in 1970, the average person ate 2,169 calories per day. By 2008 that number had increased to 2,674 calories per day. Let <m>C</m> be the amount a typical person eats (in calories per day) and <m>T</m> the number of years since 1970. Compare what the linear and exponential models project for the years 2015 and 2030. Include both equations and a graph showing both functions on the same axes.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</introduction>
 		</exercise>
 	</page>	

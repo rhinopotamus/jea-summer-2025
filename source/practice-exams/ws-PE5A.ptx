@@ -137,7 +137,7 @@
                 <p>
                     <em>Test-taking tip: even if you have trouble with the equations, you should be able to plot the information given in the story and sketch in the appropriate shape curves.</em>
                 </p>
-                <xi:include href="../GraphPaper.ptx" />
+                <image component="workbook" source='GraphPaper.jpg' width="90%" />
             </statement>
         </task>
         <task workspace="0.5in">

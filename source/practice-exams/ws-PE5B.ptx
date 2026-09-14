@@ -157,7 +157,7 @@
                 <p>
                     Draw a graph showing all three models on the same set of axes.
                 </p>
-                <xi:include href="../GraphPaper.ptx" />
+                <image component="workbook" source='GraphPaper.jpg' width="90%" />
             </statement>
         </task>
     </exercise>

@@ -51,7 +51,7 @@
 					<p>
 						Draw a graph of the function. Include when <m>T=0</m>.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 		</exercise>
@@ -161,7 +161,7 @@
 					<p>
 						Graph both functions on the same set of axes.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="1.5in">

@@ -145,7 +145,7 @@
 				<p>
 					Draw a graph illustrating the dependence.
 				</p>
-				<xi:include href="../GraphPaper.ptx" />
+				<image component="workbook" source='GraphPaper.jpg' width="90%" />
 			</statement>
 		</task>
 		

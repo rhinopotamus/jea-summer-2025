@@ -93,7 +93,7 @@
 					<p>
 						Draw a graph illustrating the dependence.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="2in">
@@ -324,7 +324,7 @@
 					<p>
 						Use the points given to plot each of the four lines on the same set of axes. Label each line with the plumber's name.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="0.75in">

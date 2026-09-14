@@ -50,7 +50,7 @@
 					<p>
 						Draw a graph illustrating the function.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 		</exercise>
@@ -132,7 +132,7 @@
 					<p>
 						Make a table and graph for the six weeks following the initial diagnosis. (That means use 0, 7, 14, 21, 28, 35, and 42 days.)
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>

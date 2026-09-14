@@ -181,7 +181,7 @@
 					<p>
 						Make a scatter plot of the points. Start the <m>G</m>-axis at 2.0.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="3.5in">
@@ -271,7 +271,7 @@
 					<p>
 						Make a scatter plot. Begin the profit axis at $3,000.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task workspace="11cm">

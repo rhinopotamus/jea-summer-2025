@@ -222,7 +222,7 @@
                     price. Be sure to start at $0.
                 </p>
             </statement>
-            <xi:include href="../GraphPaper.ptx" />
+            <image component="workbook" source='GraphPaper.jpg' width="90%" />
         </task>
 
     </exercise>
@@ -306,7 +306,7 @@
                     price. Be sure to start at $0.
                 </p>
             </statement>
-            <xi:include href="../GraphPaper.ptx" />
+            <image component="workbook" source='GraphPaper.jpg' width="90%" />
         </task>
     </exercise>
 

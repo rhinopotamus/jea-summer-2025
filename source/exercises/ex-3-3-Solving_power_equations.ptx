@@ -73,7 +73,7 @@
 					<p>
 						Draw a graph showing how the weight depends on the side length. Include <m>E=0</m>.
 					</p>
-					<xi:include href="../GraphPaper.ptx" />
+					<image component="workbook" source='GraphPaper.jpg' width="90%" />
 				</statement>
 			</task>
 			<task>
