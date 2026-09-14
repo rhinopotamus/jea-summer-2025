@@ -42,6 +42,7 @@
     </introduction>
 
 	<xi:include href="./sec-6-1-First_look_polynomials.ptx" />
+	<xi:include href="./sec-6-2-First_look_right_triangles.ptx" />
 
 	<!-- practice exams? -->
 </chapter>
