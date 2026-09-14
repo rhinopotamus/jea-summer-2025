@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Piecewise-linear functions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-1 { system: extends upper-alpha; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-2 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+@counter-style ptx-marker-3 { system: extends lower-roman; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-4 { system: extends decimal; prefix: ''; suffix: '. '; }
+</style>
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Just Enough Algebra: 2026 Edition">
+<meta property="og:title" content="Just Enough Algebra: 2026 Edition">
+<meta property="book:title" content="Just Enough Algebra: 2026 Edition">
+<meta name="twitter:description" content="Just Enough Algebra: With common sense and some algebra you can understand the world better than you can with common sense alone.">
+<meta property="og:description" content="Just Enough Algebra: With common sense and some algebra you can understand the world better than you can with common sense alone.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.52"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.52"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.12';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.561f7165d9bf3626.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner">
+<span id="logo-link" class="logo-link"><img src="external/book-open-solid.png" alt="Logo image"></span><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">2026 Edition</span></a></div>
+<p class="byline">Suzanne Dorée, Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="sec-6-2-First_look_right_triangles.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-6-Interludes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul id="ptx-toc-group-frontmatter" class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-0-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul id="ptx-toc-group-ch-0-Prelude" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-0-Prelude-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul id="ptx-toc-group-sec-0-1-Approximation_and_rounding" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html#sec-0-1-Approximation_and_rounding-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html#ex-0-1-Approximation_and_rounding" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul id="ptx-toc-group-sec-0-2-Arithmetic_operations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html#sec-0-2-Arithmetic_operations-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html#ex-0-2-Arithmetic_operations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-3-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul id="ptx-toc-group-sec-0-3-Percentages" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-3-Percentages.html#sec-0-3-Percentages-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-3-Percentages.html#ex-0-3-Percentages" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul id="ptx-toc-group-sec-0-4-Order_of_operations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html#sec-0-4-Order_of_operations-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html#ex-0-4-Order_of_operations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-5-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul id="ptx-toc-group-sec-0-5-Fractions" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-5-Fractions.html#sec-0-5-Fractions-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-5-Fractions.html#ex-0-5-Fractions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul id="ptx-toc-group-sec-0-6-Powers_and_roots" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html#sec-0-6-Powers_and_roots-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html#ex-0-6-Powers_and_roots" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul id="ptx-toc-group-sec-0-7-Algebraic_notation" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html#sec-0-7-Algebraic_notation-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html#ex-0-7-Algebraic_notation" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul id="ptx-toc-group-sec-0-8-Scientific_notation" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html#sec-0-8-Scientific_notation-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html#ex-0-8-Scientific_notation" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-9-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul id="ptx-toc-group-sec-0-9-Logarithms" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-9-Logarithms.html#sec-0-9-Logarithms-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-9-Logarithms.html#ex-0-9-Logarithms" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-1-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul id="ptx-toc-group-ch-1-Variables" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-1-Variables-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul id="ptx-toc-group-sec-1-1-Variables_and_functions" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-gasoline" class="internal"><span class="title">The changing cost of gasoline</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-variables" class="internal"><span class="title">Naming variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-dependence" class="internal"><span class="title">Independent and dependent variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-domain" class="internal"><span class="title">Domain</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-constants" class="internal"><span class="title">Constants</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-percents" class="internal"><span class="title">Percents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#sec-1-1-Variables_and_functions-9" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ex-1-1-Variables_and_functions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul id="ptx-toc-group-sec-1-2-Tables_and_graphs" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-smoking-rates" class="internal"><span class="title">Smoking rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-labeling-variables" class="internal"><span class="title">Labeling variables in a table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-graphs" class="internal"><span class="title">Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-scaling" class="internal"><span class="title">Scaling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-plotting-points" class="internal"><span class="title">Plotting points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#sec-1-2-Tables_and_graphs-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ex-1-2-Tables_and_graphs" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul id="ptx-toc-group-sec-1-3-Rate_of_change" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-diver" class="internal"><span class="title">The speed of a diver</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-different-speeds" class="internal"><span class="title">Different speeds at different times</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-even-more-diver" class="internal"><span class="title">Even more speeds for the diver</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-roc-graphs" class="internal"><span class="title">Rate of change on graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-inc-dec" class="internal"><span class="title">Increasing and decreasing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#sec-1-3-Rate_of_change-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ex-1-3-Rate_of_change" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-4-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul id="ptx-toc-group-sec-1-4-Units" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-ucfs" class="internal"><span class="title">Unit conversion fractions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-decimal-parts" class="internal"><span class="title">Converting decimal parts of quantities</span></a></div>
+<ul id="ptx-toc-group-ss-1-4-decimal-parts" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-units-rounding" class="internal"><span class="title">Aside: Rounding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-compound-units" class="internal"><span class="title">Converting more complicated units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#sec-1-4-Units-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-Units.html#ex-1-4-Units" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul id="ptx-toc-group-sec-1-5-Metric_system_and_scientific_notation" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-tara-files" class="internal"><span class="title">Tara’s files</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-download-photos" class="internal"><span class="title">Downloading photos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-metric-system" class="internal"><span class="title">The metric system and powers of ten</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-tara-hair" class="internal"><span class="title">Very small things</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-small-numbers" class="internal"><span class="title">Very small numbers in scientific notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#sec-1-5-Metric_system_and_scientific_notation-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ex-1-5-Metric_system_and_scientific_notation" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul id="ptx-toc-group-sec-PE1A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul id="ptx-toc-group-sec-PE1B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-2-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul id="ptx-toc-group-ch-2-Equations" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-2-Equations-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-1-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-1-First_look_linear" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-calculating-costs" class="internal"><span class="title">Calculating what the plumber costs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-generalizing" class="internal"><span class="title">Making our calculations more general</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-graphing-linear" class="internal"><span class="title">Graphing linear functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-linear-eq-template" class="internal"><span class="title">A template for linear equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#sec-2-1-First_look_linear-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ex-2-1-First_look_linear" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-2-First_look_exponential" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-raises" class="internal"><span class="title">Percents of different wholes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-one-step" class="internal"><span class="title">A one-step process for finding percent change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-growth-rate-and-factor" class="internal"><span class="title">Growth rate and growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-powers" class="internal"><span class="title">Using exponents to find multiple increases at once</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-equation" class="internal"><span class="title">Generalizing to an equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-exp-eqn-template" class="internal"><span class="title">A template for exponential equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#sec-2-2-First_look_exponential-9" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ex-2-2-First_look_exponentialEX" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-3-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-3-Using_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-braking-distance" class="internal"><span class="title">Braking distance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-reaction-time" class="internal"><span class="title">Adding in reaction time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-power-eqns" class="internal"><span class="title">New kinds of equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#sec-2-3-Using_equations-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ex-2-3-Using_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-4-Approx_solutions" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-india-1-6" class="internal"><span class="title">India at 1.6 billion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-good-enough" class="internal"><span class="title">Good enough answers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#sec-2-4-Approx_solutions-5" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ex-2-4-Approx_solutions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-5-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul id="ptx-toc-group-sec-2-5-Finance" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-compound-interest" class="internal"><span class="title">Compound interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-savings-accounts" class="internal"><span class="title">Savings accounts (or annuities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-loan-payment" class="internal"><span class="title">Loan payments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#sec-2-5-Finance-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ex-2-5-Finance" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul id="ptx-toc-group-sec-PE2A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul id="ptx-toc-group-sec-PE2B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-3-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul id="ptx-toc-group-ch-3-Solving_equations" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-3-Solving_equations-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-3-1-Solving_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-solving-plumber" class="internal"><span class="title">Figuring out the plumber’s time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-approx-soln" class="internal"><span class="title">Finding an approximate solution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-symbolic-soln" class="internal"><span class="title">Solving symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-another-plumber" class="internal"><span class="title">Another plumber cost</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#sec-3-1-Solving_linear_equations-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ex-3-1-Solving_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul id="ptx-toc-group-sec-3-2-Solving_linear_inequalities" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-setup" class="internal"><span class="title">Baking brownies (and setting up inequalities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-solving-ineq" class="internal"><span class="title">Solving inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-caution" class="internal"><span class="title">Things to be careful about</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-between" class="internal"><span class="title">Chains of inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#sec-3-2-Solving_linear_inequalities-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ex-3-2-Solving_linear_inequalities" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul id="ptx-toc-group-sec-3-3-Solving_power_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-lemonade" class="internal"><span class="title">Lemonade</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-solving-power-symbolically" class="internal"><span class="title">Solving a power equation symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-lemon-zest" class="internal"><span class="title">Lemon zest (and another kind of root)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-roots" class="internal"><span class="title">Roots, officially</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#sec-3-3-Solving_power_equations-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ex-3-3-Solving_power_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul id="ptx-toc-group-sec-3-4-Solving_exponential_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-healthcare" class="internal"><span class="title">Health care costs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-solving-exp-symbolically" class="internal"><span class="title">Solving an exponential equation symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-another-example" class="internal"><span class="title">Another example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-logs" class="internal"><span class="title">Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#sec-3-4-Solving_exponential_equations-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ex-3-4-Solving_exponential_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul id="ptx-toc-group-sec-3-5-Solving_quadratic_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-juggling" class="internal"><span class="title">Juggling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-solving-quadratic" class="internal"><span class="title">Solving exactly</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-quadratic-nonzero" class="internal"><span class="title">Things that don’t equal zero</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-vertex" class="internal"><span class="title">Highest point</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-parabola" class="internal"><span class="title">The graph of a quadratic function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#sec-3-5-Solving_quadratic_equations-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ex-3-5-Solving_quadratic_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul id="ptx-toc-group-sec-PE3A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul id="ptx-toc-group-sec-PE3B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-4-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul id="ptx-toc-group-ch-4-Closer_look_linear" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-4-Closer_look_linear-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-4-1-Modeling_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#sec-4-1-affordable-housing" class="internal"><span class="title">Affordable housing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#sec-4-1-Modeling_linear_equations-4" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#ex-4-1-Modeling_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-4-2-Systems_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#sec-4-2-lock-machines" class="internal"><span class="title">Comparing two lock machines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ss-4-2-finding-differences" class="internal"><span class="title">Figuring out the differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ss-4-2-solving-system-symbolically" class="internal"><span class="title">Solving symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#sec-4-2-Systems_linear_equations-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ex-4-2-Systems_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-3-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul id="ptx-toc-group-sec-4-3-Intercepts" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ss-4-3-fixed" class="internal"><span class="title">Fixed amounts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ss-4-3-direct-prop" class="internal"><span class="title">Direct proportions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#sec-4-3-Intercepts-5" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ex-4-3-Intercepts" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-4-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul id="ptx-toc-group-sec-4-4-Slopes" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ss-4-4-paper" class="internal"><span class="title">Paper delivery prices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ss-4-4-recycling-charge" class="internal"><span class="title">Recycling charge</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#sec-4-4-Slopes-5" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ex-4-4-Slopes" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul id="ptx-toc-group-sec-4-5-Fitting_lines_to_data" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-road-salt-usage" class="internal"><span class="title">Road salt usage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-connect-the-dots" class="internal"><span class="title">Connect-the-dots model?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-lines-through-pairs" class="internal"><span class="title">Lines through pairs of points?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-best-fit" class="internal"><span class="title">Best fitting line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-outliers" class="internal"><span class="title">Outliers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#sec-4-5-Fitting_lines_to_data-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ex-4-5-Fitting_lines_to_data" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul id="ptx-toc-group-sec-PE4A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul id="ptx-toc-group-sec-PE4B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-5-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul id="ptx-toc-group-ch-5-Closer_look_exponential" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-5-Closer_look_exponential-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul id="ptx-toc-group-sec-5-1-Modeling_exponential_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#sec-5-1-Modeling_exponential_equations-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#sec-5-1-Modeling_exponential_equations-4" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#ex-5-1-Modeling_exponential_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul id="ptx-toc-group-sec-5-2-Exp_growth_decay" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-caffeine" class="internal"><span class="title">Caffeine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-approximating-and-solving" class="internal"><span class="title">Solving (approximately and exactly)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-rate-of-change" class="internal"><span class="title">Rate of change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-half-life" class="internal"><span class="title">Half-life (and doubling time)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#sec-5-2-Exp_growth_decay-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ex-5-2-Exp_growth_decay" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-3-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul id="ptx-toc-group-sec-5-3-Growth_factor" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-obesity" class="internal"><span class="title">Childhood obesity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-growth-factor" class="internal"><span class="title">Finding the growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-checking-formula" class="internal"><span class="title">Checking our formula (and rounding)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-percent-change" class="internal"><span class="title">Finding percent change from growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#sec-5-3-Growth_factor-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ex-5-3-Growth_factor" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul id="ptx-toc-group-sec-5-4-Linear_vs_exponential" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-car-depreciation" class="internal"><span class="title">Car value depreciation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-linear-model" class="internal"><span class="title">A linear model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-exponential-model" class="internal"><span class="title">An exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-compare-models" class="internal"><span class="title">Comparing the linear model and the exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#sec-5-4-Linear_vs_exponential-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ex-5-4-Linear_vs_exponential" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul id="ptx-toc-group-sec-5-5-Logistic_growth" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-flu-outbreak" class="internal"><span class="title">Flu outbreak in the dorms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-exponential" class="internal"><span class="title">Exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-4-saturation" class="internal"><span class="title">Saturation model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-logistic" class="internal"><span class="title">Logistic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-comparing" class="internal"><span class="title">Comparing models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#sec-5-5-Logistic_growth-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ex-5-5-Logistic_growth" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul id="ptx-toc-group-sec-PE5A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul id="ptx-toc-group-sec-PE5B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-6-Interludes.html" class="internal"><span class="codenumber">6</span> <span class="title">Interludes</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-ch-6-Interludes">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-6-Interludes-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html" class="internal"><span class="codenumber">6.1</span> <span class="title">A first look at polynomial equations</span></a></div>
+<ul id="ptx-toc-group-sec-6-1-First_look_polynomials" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-3" class="internal"><span class="title">Different sizes of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-4" class="internal"><span class="title">Linear models for blanket dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-5" class="internal"><span class="title">Equations for the width and length of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-6" class="internal"><span class="title">The distributive property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-7" class="internal"><span class="title">Area of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-8" class="internal"><span class="title">The FOIL property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-9" class="internal"><span class="title">A quadratic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-10" class="internal"><span class="title">Fiberfill</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-11" class="internal"><span class="title">Another quadratic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-12" class="internal"><span class="title">Polynomial Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-13" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#ex-6-1-First_look_polynomials" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html" class="internal"><span class="codenumber">6.2</span> <span class="title">A first look at right triangles</span></a></div>
+<ul id="ptx-toc-group-sec-6-2-First_look_right_triangles" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-2" class="internal"><span class="title">Sprinting across the soccer field</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-3" class="internal"><span class="title">The Pythagorean Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-4" class="internal"><span class="title">Hanging a wall banner</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-5" class="internal"><span class="title">Why is the Pythagorean Theorem true?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#ex-6-2-First_look_right_triangles" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Piecewise-linear functions</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-sec-6-3-piecewise-linear">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#sec-6-3-piecewise-linear-2" class="internal"><span class="title">Late parking ticket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#sec-6-3-piecewise-linear-3" class="internal"><span class="title">Piecewise-linear functions and their graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#sec-6-3-piecewise-linear-4" class="internal"><span class="title">Late rent</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#sec-6-3-piecewise-linear-5" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#ex-6-3-Piecewise_linear" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul id="ptx-toc-group-backmatter" class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A.</span> <span class="title">Practice Final Exams</span></a></div>
+<ul id="ptx-toc-group-backmatter-2" class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul id="ptx-toc-group-sec-pfe1" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul id="ptx-toc-group-sec-pfe2" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B.</span> <span class="title">Templates and Formulas</span></a></div>
+<ul id="ptx-toc-group-app-templates-formulas" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="app-templates-formulas-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-6-3-piecewise-linear">
+<h1 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Piecewise-linear functions</span>
+</h1>
+<section class="subsection" id="sec-6-3-piecewise-linear-2">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Late parking ticket</span>
+</h2>
+<div class="para" id="sec-6-3-piecewise-linear-2-2">Mallory is having a miserable time. A few weeks back she forgot to pay the parking meter and the city issued a parking ticket. The parking ticket was for $45 and was due within 30 days. After that, the city imposes a late fee of $10. Bummer.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-2-3">
+<div class="para">But Mallory is curious – how can she write an equation to describe the cost of her parking ticket when it changes like that? She knows variables are</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-2-3-2">
+\begin{align*}
+D \amp= \text{ time since she got the ticket (days) }\sim \text{ indep}\\
+C \amp= \text{ cost of parking ticket (\$) }\sim \text{ dep}
+\end{align*}
+</div>
+<div class="para">The starting amount (intercept) is $45. What’s the rate of change (slope)? During the first 30 days, the price does not change. Since that rate of change is constant, we have a linear equation and the slope is $0/day. The equation for the first 30 days is</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-2-3-3">
+\begin{equation*}
+C = 45 + 0D
+\end{equation*}
+</div>
+<div class="para">But <span class="process-math">\(0D = 0\text{,}\)</span> so really</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-2-3-5">
+\begin{equation*}
+C = 45
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-3-piecewise-linear-2-4">By the way, there is a name for this type of function. It’s called a <em class="alert">constant function</em>. Meaning the value of the ticket is constant, at least during those first 30 days.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-2-5">
+<div class="para">Now, after 30 days, the price jumps to <span class="process-math">\(45+10 = \$55\text{.}\)</span> The equation for the price then is</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-2-5-2">
+\begin{equation*}
+P = 55
+\end{equation*}
+</div>
+<div class="para">another constant function.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-2-6">
+<div class="para">There’s a notation we can use to describe <span class="process-math">\(C\)</span> as a function of <span class="process-math">\(D\)</span> that includes both values. We write</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-2-6-3">
+\begin{equation*}
+C = \left\{ \begin{array}{cl}45 \amp \text{if } 0 \le D \le 30 \\ 55 \amp \text{if } D \gt 30\end{array} \right.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-3-piecewise-linear-2-7">The way we read this notation is: if the number of days <span class="process-math">\(D\)</span> is between 0 and 30, then the ticket costs <span class="process-math">\(P=\)</span> $45 but if the number of days is over 30, then the ticket costs <span class="process-math">\(C=\)</span> $55.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Late parking ticket"><a tabindex="-1" href="#sec-6-3-piecewise-linear-2" title="Copy heading and permalink for Subsection: Late parking ticket" aria-label="Copy heading and permalink for Subsection: Late parking ticket">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-3-piecewise-linear-3">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Piecewise-linear functions and their graphs</span>
+</h2>
+<div class="para" id="sec-6-3-piecewise-linear-3-2">When our equation has two (or more) pieces, it’s called a <em class="alert">piecewise-defined function</em>. In this type of situation where both pieces are linear, it’s called a <em class="alert">piecewise-linear function</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-3-3">
+<div class="para">What does the graph of a piecewise-linear function look like? Let’s make a table of values. Notice any value of <span class="process-math">\(D\)</span> over 30 days is gonna cost Mallory $55. Even if she’s 2 minutes late, it’s gonna cost $55. Note that 2 minutes late is 30.0014 days since</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-3-3-2">
+\begin{equation*}
+2 \text{ min}= \frac{2 \text{ min}}{1}\times \frac{1 \text{ hour}}{60 \text{ min}}\times \frac{1 \text{ day}}{24 \text{ hours}}= 2 \div 60 \div 24 = .001388\ldots \approx .0014 \text{ days}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-3-piecewise-linear-3-4">Here are the values we know.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(D\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines">30.0014</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+<td class="c m b1 r0 l0 t0 lines">50</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(C\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">45</td>
+<td class="c m b0 r1 l0 t0 lines">45</td>
+<td class="c m b0 r1 l0 t0 lines">45</td>
+<td class="c m b0 r1 l0 t0 lines">45</td>
+<td class="c m b0 r1 l0 t0 lines">55</td>
+<td class="c m b0 r1 l0 t0 lines">55</td>
+<td class="c m b0 r0 l0 t0 lines">55</td>
+</tr>
+</table></div>
+<div class="para" id="sec-6-3-piecewise-linear-3-6">When we draw the graph and connect the dots into lines, we notice two things. First, the lines are horizontal. That always happens when the function is constant and the slope is 0. Second, there’s a jump at 30 days where the graph isn’t connected, which makes sense because the cost of the ticket jumps up after 30 days.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-6-3-graph-1.svg" role="img" class="contained"></div>
+<div class="para" id="sec-6-3-piecewise-linear-3-8">Notice how we indicate the values corresponding to <span class="process-math">\(D=30\text{.}\)</span> We use a solid dot at <span class="process-math">\((30,45)\)</span> because that’s a point on the graph: at 30 days the parking ticket costs $45. We use an open dot at <span class="process-math">\((30,55)\)</span> because that’s not a point on the graph: at 30 days the parking ticket is not yet $55.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-3-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Piecewise-linear functions and their graphs"><a tabindex="-1" href="#sec-6-3-piecewise-linear-3" title="Copy heading and permalink for Subsection: Piecewise-linear functions and their graphs" aria-label="Copy heading and permalink for Subsection: Piecewise-linear functions and their graphs">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-3-piecewise-linear-4">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Late rent</span>
+</h2>
+<div class="para" id="sec-6-3-piecewise-linear-4-2">Mallory’s troubles aren’t over. She’s also behind on the rent. She normally owes <span class="process-math">\(900\)</span> and there’s a one week grace period, meaning she can pay up to one week late without any late fees. For the next week, the late fee is $10/day. After that, the late fee jumps to $25/day.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-4-3">
+<div class="para">Let’s measure time in days. We have</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-3-1">
+\begin{align*}
+L \amp= \text{ how late the rent is (days)}\sim \text{ indep}\\
+R \amp= \text{ rent plus any late fees (\$)}\sim \text{ dep}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-3-piecewise-linear-4-4">What happens during the first week? For example, when <span class="process-math">\(L=0\)</span> days, the rent is $900. When <span class="process-math">\(L=4\)</span> days, we’re within the grace period ( <span class="process-math">\(0 \le L \le 7\)</span> ) so the rent is still $900. The equation during this week is <span class="process-math">\(R = 900\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-4-5">
+<div class="para">What happens during the second week? For example, when <span class="process-math">\(L = 10\)</span> days, she’s <span class="process-math">\(10-7=3\)</span> days late and we’re during the week where it costs an extra $10/day ( <span class="process-math">\(7\lt L\le14\)</span> ), so the rent is now</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-5-4">
+\begin{align*}
+R \amp = 900 + (10-7) \times 10 \\
+\amp = 900 + 3 \times 10 \\
+\amp = 900 + 30\\
+\amp = \$930
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-4-6">
+<div class="para">The number of days late after the 7 day grace period is <span class="process-math">\(L-7\text{.}\)</span> The equation is</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-6-2">
+\begin{equation*}
+R = 900 + (L-7)10
+\end{equation*}
+</div>
+<div class="para">We can use the distributive property to multiply out to get</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-6-3">
+\begin{align*}
+R \amp = 900 + (L-7) \times 10 \\
+\amp = 900 + 10L - 70 \\
+\amp = 830 + 10L
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-4-7">
+<div class="para">What happens during the third week? For example, when <span class="process-math">\(L=20\)</span> days, she pays $900 rent plus $10/day for the first 7 days late plus $25/day for the next <span class="process-math">\(20-14=6\)</span> days late, so that’s a total of</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-7-3">
+\begin{align*}
+R \amp = 900 + 7 \times 10 + (20-14) \times 25\\
+\amp = 900 + 70 + 6 \times 25\\
+\amp = 970 + 150\\
+\amp = \$1120
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-4-8">
+<div class="para">Ouch! The number of days where she’s gonna pay an extra $25/day is <span class="process-math">\(L -14\text{.}\)</span> The equation is</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-8-2">
+\begin{equation*}
+R = 900 + 10\times7 + 25(L-14)
+\end{equation*}
+</div>
+<div class="para">Again, we can use the distributive property to multiply out to get</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-8-3">
+\begin{align*}
+R \amp = 900 + 10 \times 7 + 25(L - 14)\\
+\amp = 900 + 70 + 25L -25\times 14 \\
+\amp = 970 + 25L - 350\\
+\amp = 620 + 25L
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-3-piecewise-linear-4-9">When we put everything together we get<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-4-10">
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-10-1">
+\begin{equation*}
+R = \left\{ \begin{array}{cl}900 \amp \text{if } 0 \le L \le 7\\ 830 + 10L \amp \text{if } 7 \lt L \le 14\\ 620+25L\amp \text{if } L \gt 14\end{array} \right.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-3-piecewise-linear-4-11">
+<div class="para">In case you were wondering about part days, Mallory’s apartment complex prorates the late fees are prorated by the hour (or even by the minute). So, for example, if Mallory pays her rent 9 days and 6 hours late, we would pay $10/day for those 2 days and 6 hours after the grace period which is</div>
+<div class="displaymath process-math" id="sec-6-3-piecewise-linear-4-11-1">
+\begin{align*}
+2 \text{ days} + 6 \text{ hours} \amp = 2 \text{ days} + \dfrac{6 \text{ hours}}{1} \times \frac{1 \text{ day}}{24 \text{ hours}}\\
+\amp 2+6 \div 24\\
+\amp 2 + 0.25 = 2.25 \text{ days}
+\end{align*}
+</div>
+<div class="para">and so the late fee would be prorated at <span class="process-math">\(2.25 \times 10 = \$22.50\)</span> for a total of <span class="process-math">\(900 + 22.50 = \$922.50\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-3-piecewise-linear-4-12">Let’s summarize our examples and a few more values in a table.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(L\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(R\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">0</td>
+<td class="c m b0 r1 l0 t0 lines">900</td>
+<td class="c m b0 r1 l0 t0 lines">900</td>
+<td class="c m b0 r1 l0 t0 lines">930</td>
+<td class="c m b0 r1 l0 t0 lines">970</td>
+<td class="c m b0 r1 l0 t0 lines">995</td>
+<td class="c m b0 r1 l0 t0 lines">1120</td>
+</tr>
+</table></div>
+<div class="para" id="sec-6-3-piecewise-linear-4-14">Now we can draw the graph.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-6-3-graph-2.svg" role="img" class="contained"></div>
+<div class="para" id="sec-6-3-piecewise-linear-4-16">Notice that there are no jumps in the graph this time. That’s because when <span class="process-math">\(L=7\)</span> we know <span class="process-math">\(R=900\)</span> but if we were to use the equation <span class="process-math">\(R=830+10L\)</span> when <span class="process-math">\(L=7\)</span> instead, we would get <span class="process-math">\(R = 830+10 \times 7 = 900\)</span> again. That tells us that the second line starts where the first horizontal line ends. Similarly, when <span class="process-math">\(L=14\)</span> we use the equation <span class="process-math">\(R = 830+10L\)</span> to get <span class="process-math">\(R = 830+10*14=970\)</span> but if we were to use the equation <span class="process-math">\(R=620+25L\)</span> when <span class="process-math">\(L = 14\)</span> instead, then we would get <span class="process-math">\(R=620+25 \times 14 = 970\)</span> again. This tells us that the third line starts where the second line ends. Sometimes we put closed dots to emphasize where the formula changes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Late rent"><a tabindex="-1" href="#sec-6-3-piecewise-linear-4" title="Copy heading and permalink for Subsection: Late rent" aria-label="Copy heading and permalink for Subsection: Late rent">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-3-piecewise-linear-5">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Do you know …</span>
+</h2>
+<div class="para logical" id="sec-6-3-piecewise-linear-5-2">
+<ol class="upper-alpha" style="list-style: ptx-marker-1;" id="sec-6-3-piecewise-linear-5-2-1">
+<li id="sec-6-3-piecewise-linear-5-2-1-1">
+<div class="para" id="sec-6-3-piecewise-linear-5-2-1-1-1">Why we might model a situation using a piecewise-linear function?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item A"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-1" title="Copy heading and permalink for Item A" aria-label="Copy heading and permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-6-3-piecewise-linear-5-2-1-2">
+<div class="para" id="sec-6-3-piecewise-linear-5-2-1-2-1">How to model a situation using a piecewise-linear function?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-2" title="Copy heading and permalink for Item B" aria-label="Copy heading and permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-6-3-piecewise-linear-5-2-1-3">
+<div class="para" id="sec-6-3-piecewise-linear-5-2-1-3-1">What a constant function is and what its graph looks like?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item C"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-3" title="Copy heading and permalink for Item C" aria-label="Copy heading and permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-6-3-piecewise-linear-5-2-1-4">
+<div class="para" id="sec-6-3-piecewise-linear-5-2-1-4-1">How to graph a piecewise-linear function?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item D"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-4" title="Copy heading and permalink for Item D" aria-label="Copy heading and permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-6-3-piecewise-linear-5-2-1-5">
+<div class="para" id="sec-6-3-piecewise-linear-5-2-1-5-1">How to indicate jumps in the graph of a piecewise-linear function using open and closed points?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item E"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2-1-5" title="Copy heading and permalink for Item E" aria-label="Copy heading and permalink for Item E">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-3-piecewise-linear-5-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Do you know …"><a tabindex="-1" href="#sec-6-3-piecewise-linear-5" title="Copy heading and permalink for Subsection: Do you know …" aria-label="Copy heading and permalink for Subsection: Do you know …">🔗</a></div>
+</section>
+<section class="exercises" id="ex-6-3-Piecewise_linear">
+<h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
+</h2>
+<section class="introduction" id="ex-6-3-Piecewise_linear-2">
+<div class="para" id="ex-6-3-Piecewise_linear-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex-6-3-Piecewise_linear-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<article class="exercise exercise-like" id="bikeshare-piecewise-linear"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="bikeshare-piecewise-linear-1">
+<div class="para" id="bikeshare-piecewise-linear-1-1">A new bikeshare program rents e-bikes for the flat rate of $10 for up to 30 minutes plus 20¢/minute thereafter.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#bikeshare-piecewise-linear-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="bikeshare-piecewise-linear-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="bikeshare-piecewise-linear-2-1-1">What does it cost to rent an e-bike for 45 minutes?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#bikeshare-piecewise-linear-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.a"><a tabindex="-1" href="#bikeshare-piecewise-linear-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="bikeshare-piecewise-linear-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="bikeshare-piecewise-linear-3-1-1">Name the variables, including units, and write a piecewise-linear equation illustrating the dependence. Hint: for times over 30 minutes you’ll have to subtract 30 minutes before multiplying by 20¢/minute.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#bikeshare-piecewise-linear-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.b"><a tabindex="-1" href="#bikeshare-piecewise-linear-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="bikeshare-piecewise-linear-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="bikeshare-piecewise-linear-4-1-1">Draw a graph illustrating the dependence. Include values from 0 to 2 hours.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#bikeshare-piecewise-linear-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.c"><a tabindex="-1" href="#bikeshare-piecewise-linear-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 1"><a tabindex="-1" href="#bikeshare-piecewise-linear" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="food-delivery-piecewise-linear"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="food-delivery-piecewise-linear-1">
+<div class="para" id="food-delivery-piecewise-linear-1-1">A food delivery app pays drivers a base rate of <span class="process-math">\(\$1.20\)</span> per mile for the first 5 miles of a delivery. To encourage long-distance deliveries, deliveries with a distance beyond 5 miles pay a bonus rate of <span class="process-math">\(\$1.80\)</span> per mile (for the miles over 5 miles).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#food-delivery-piecewise-linear-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="food-delivery-piecewise-linear-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="food-delivery-piecewise-linear-2-1-1">What does a 3 mile delivery pay? A 5 mile delivery?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#food-delivery-piecewise-linear-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.a"><a tabindex="-1" href="#food-delivery-piecewise-linear-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="food-delivery-piecewise-linear-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="food-delivery-piecewise-linear-3-1-1">What does an 8 mile delivery pay? 20 mile delivery? Note: your calculations should include <span class="process-math">\(8-5\)</span> and <span class="process-math">\(20-5\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#food-delivery-piecewise-linear-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.b"><a tabindex="-1" href="#food-delivery-piecewise-linear-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="food-delivery-piecewise-linear-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="food-delivery-piecewise-linear-4-1-1">Name the variables, including units, and write a piecewise-linear equation illustrating the dependence.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#food-delivery-piecewise-linear-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.c"><a tabindex="-1" href="#food-delivery-piecewise-linear-4" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="food-delivery-piecewise-linear-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="food-delivery-piecewise-linear-5-1-1">Draw a graph showing the pay for deliveries up to 20 miles. Hint: When you use 5 miles in the equation for over 5 miles you should get the same pay as you found for 5 miles in (a) meaning that the graph does not jump.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#food-delivery-piecewise-linear-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.d"><a tabindex="-1" href="#food-delivery-piecewise-linear-5" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 2"><a tabindex="-1" href="#food-delivery-piecewise-linear" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="seawater-ph-piecewise-linear"><h3 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="seawater-ph-piecewise-linear-1">
+<div class="para logical" id="seawater-ph-piecewise-linear-1-1">
+<div class="para">Seawater is naturally slightly basic (the opposite of acidic), at a pH of around 8.1. To understand how carbon dioxide ( <span class="process-math">\(\text{CO}_{2}\)</span> ) makes seawater more acidic (lower pH), Ngene has designed an experiment. She slowly bubbles carbon dioxide ( <span class="process-math">\(\text{CO}_{2}\)</span> ) gas into a small container of seawater. At first, an active chemical buffer in the seawater slows down the drop in pH (which measures the acidity of the water). For the first <span class="process-math">\(10\ \text{mL}\)</span> of dissolved <span class="process-math">\(\text{CO}_{2}\text{,}\)</span> the seawater’s pH drops slowly at a rate of <span class="process-math">\(0.02\text{ pH units per mL}\text{.}\)</span> (Note: mL stands for milliliter, which is 1/1000th of a liter. The quanity 10mL is about 2 teaspoons.). Once the buffer capacity is exhausted beyond <span class="process-math">\(10\ \text{mL}\text{,}\)</span> the pH drops rapidly at a steeper rate of <span class="process-math">\(0.12\text{ pH units per mL}\)</span> making the seawater more and more acidic. Let’s use the variables</div>
+<div class="displaymath process-math" id="seawater-ph-piecewise-linear-1-1-8">
+\begin{align*}
+G \amp= \text{ amount of carbon dioxide gas (mL) }\sim \text{ indep}\\
+A \amp= \text{ acidity of seawater (pH) }\sim \text{ dep}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seawater-ph-piecewise-linear-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="seawater-ph-piecewise-linear-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="seawater-ph-piecewise-linear-2-1-1">At the point where Ngene has bubbled 5 mL of <span class="process-math">\(\text{CO}_{2}\)</span> into the container of seawater, what is the pH?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seawater-ph-piecewise-linear-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#seawater-ph-piecewise-linear-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seawater-ph-piecewise-linear-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="seawater-ph-piecewise-linear-3-1-1">At the point where Ngene has bubbled 10 mL of <span class="process-math">\(\text{CO}_{2}\)</span> into the container of seawater, what is the pH?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seawater-ph-piecewise-linear-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.b"><a tabindex="-1" href="#seawater-ph-piecewise-linear-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seawater-ph-piecewise-linear-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="seawater-ph-piecewise-linear-4-1-1">Write an equation for <span class="process-math">\(A\)</span> as a a function of <span class="process-math">\(G\)</span> for <span class="process-math">\(0 \le G \le 10\text{.}\)</span> Hint: What is the starting pH? What is the slope? Another hint: The slope is negative.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seawater-ph-piecewise-linear-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.c"><a tabindex="-1" href="#seawater-ph-piecewise-linear-4" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seawater-ph-piecewise-linear-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="seawater-ph-piecewise-linear-5-1-1">At the point where Ngene has bubbled 20 mL of <span class="process-math">\(\text{CO}_{2}\)</span> into the container or seawater, what is the pH<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seawater-ph-piecewise-linear-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.d"><a tabindex="-1" href="#seawater-ph-piecewise-linear-5" title="Copy heading and permalink for Task 3.d" aria-label="Copy heading and permalink for Task 3.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seawater-ph-piecewise-linear-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="seawater-ph-piecewise-linear-6-1-1">Write an equation for <span class="process-math">\(A\)</span> as a function of <span class="process-math">\(G\)</span> for <span class="process-math">\(G \gt 10\text{.}\)</span> Note that the starting value equals your answer from (b) and the slope of -0.12 pH units per mL applies to the amount of gas above 10mL, which is <span class="process-math">\(G-10\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seawater-ph-piecewise-linear-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.e"><a tabindex="-1" href="#seawater-ph-piecewise-linear-6" title="Copy heading and permalink for Task 3.e" aria-label="Copy heading and permalink for Task 3.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seawater-ph-piecewise-linear-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="seawater-ph-piecewise-linear-7-1-1">Use the distributive property to simplify your answer to (e).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seawater-ph-piecewise-linear-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.f"><a tabindex="-1" href="#seawater-ph-piecewise-linear-7" title="Copy heading and permalink for Task 3.f" aria-label="Copy heading and permalink for Task 3.f">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seawater-ph-piecewise-linear-8"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<div class="para" id="seawater-ph-piecewise-linear-8-1-1">Write a piecewise-linear function illustrating how pH of Ngene’s container of seawater depends on the amount of <span class="process-math">\(\text{CO}_{2}\)</span> she introduces.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seawater-ph-piecewise-linear-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.g"><a tabindex="-1" href="#seawater-ph-piecewise-linear-8" title="Copy heading and permalink for Task 3.g" aria-label="Copy heading and permalink for Task 3.g">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 3"><a tabindex="-1" href="#seawater-ph-piecewise-linear" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="library-fines-piecewise-linear"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="library-fines-piecewise-linear-1">
+<div class="para" id="library-fines-piecewise-linear-1-1">Oh, dear. Mallory’s having a very bad month. She just realized a book she borrowed from the library is overdue. The library has a grace period of 30 days followed by a fine of 10¢/day to a max of $5. Notice that books are normally free to borrow from the library, so for up to 30 days late it costs $0.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#library-fines-piecewise-linear-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="library-fines-piecewise-linear-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="library-fines-piecewise-linear-2-1-1">What will Mallory owe if the book is 20 days late? 40 days late? 2 months late? (Use 1 month = 30 days).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#library-fines-piecewise-linear-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.a"><a tabindex="-1" href="#library-fines-piecewise-linear-2" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="library-fines-piecewise-linear-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="library-fines-piecewise-linear-3-1-1">Name the variables, including units.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#library-fines-piecewise-linear-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.b"><a tabindex="-1" href="#library-fines-piecewise-linear-3" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="library-fines-piecewise-linear-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="library-fines-piecewise-linear-4-1-1">Write an equation illustrating the dependence, for late fees up to $5.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#library-fines-piecewise-linear-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.c"><a tabindex="-1" href="#library-fines-piecewise-linear-4" title="Copy heading and permalink for Task 4.c" aria-label="Copy heading and permalink for Task 4.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="library-fines-piecewise-linear-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="library-fines-piecewise-linear-5-1-1">How many days late is a book that is first charged $5? Hint: try guessing. If that doesn’t work, solve your equation from (c).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#library-fines-piecewise-linear-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.d"><a tabindex="-1" href="#library-fines-piecewise-linear-5" title="Copy heading and permalink for Task 4.d" aria-label="Copy heading and permalink for Task 4.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="library-fines-piecewise-linear-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="library-fines-piecewise-linear-6-1-1">Write a piecewise-linear equation illustrating the dependence, for all possible days late.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#library-fines-piecewise-linear-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.e"><a tabindex="-1" href="#library-fines-piecewise-linear-6" title="Copy heading and permalink for Task 4.e" aria-label="Copy heading and permalink for Task 4.e">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 4"><a tabindex="-1" href="#library-fines-piecewise-linear" title="Copy heading and permalink for Exercise 4" aria-label="Copy heading and permalink for Exercise 4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="seed-starting-piecewise-linear"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="seed-starting-piecewise-linear-1">
+<div class="para logical" id="seed-starting-piecewise-linear-1-1">
+<div class="para">Tensia planted seeds outside once there was no chance of frost. The seeds start sprouting once it’s warm enough. The growth of a plant is measured in percentage of its size and plants grow faster on days where the temperature is is warmer. For example, her plant might grow 5%in a day at temperature that’s on the cool side, but 20%in a day where the temperature is warmer. She writes an equation describing the seed growth using the variables</div>
+<div class="displaymath process-math" id="seed-starting-piecewise-linear-1-1-1">
+\begin{align*}
+T \amp= \text{ temperature }(^{\circ}\text{F}) \sim \text{ indep}\\
+G \amp= \text{ daily growth rate }(\%) \sim \text{ dep}
+\end{align*}
+</div>
+<div class="para">Her equation is</div>
+<div class="displaymath process-math" id="seed-starting-piecewise-linear-1-1-2">
+\begin{equation*}
+G = \left\{ \begin{array}{cl}0 \amp \text{if } 0 \le T \le 50 \\ 5(T-50) \amp \text{if } T\gt 50\end{array} \right.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seed-starting-piecewise-linear-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="seed-starting-piecewise-linear-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="seed-starting-piecewise-linear-2-1-1">At what temperature do Tensia’s seeds sprout? Hint: That would mean the growth is greater than 0.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seed-starting-piecewise-linear-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.a"><a tabindex="-1" href="#seed-starting-piecewise-linear-2" title="Copy heading and permalink for Task 5.a" aria-label="Copy heading and permalink for Task 5.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seed-starting-piecewise-linear-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="seed-starting-piecewise-linear-3-1-1">By what percentage do Tensia’s seeds grow each day when the temperature is <span class="process-math">\(60^{\circ}\)</span> F? <span class="process-math">\(75^{\circ}\)</span> F?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seed-starting-piecewise-linear-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.b"><a tabindex="-1" href="#seed-starting-piecewise-linear-3" title="Copy heading and permalink for Task 5.b" aria-label="Copy heading and permalink for Task 5.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seed-starting-piecewise-linear-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="seed-starting-piecewise-linear-4-1-1">Is there a jump in the graph? Hint: what would the equation <span class="process-math">\(G=5(T-50)\)</span> give when <span class="process-math">\(T=50\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seed-starting-piecewise-linear-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.c"><a tabindex="-1" href="#seed-starting-piecewise-linear-4" title="Copy heading and permalink for Task 5.c" aria-label="Copy heading and permalink for Task 5.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="seed-starting-piecewise-linear-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="seed-starting-piecewise-linear-5-1-1">Draw a graph illustrating the function.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#seed-starting-piecewise-linear-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.d"><a tabindex="-1" href="#seed-starting-piecewise-linear-5" title="Copy heading and permalink for Task 5.d" aria-label="Copy heading and permalink for Task 5.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 5"><a tabindex="-1" href="#seed-starting-piecewise-linear" title="Copy heading and permalink for Exercise 5" aria-label="Copy heading and permalink for Exercise 5">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="boiling-water-piecewise-linear"><h3 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="boiling-water-piecewise-linear-1">
+<div class="para logical" id="boiling-water-piecewise-linear-1-1">
+<div class="para">Pachak is boiling water to make some ramen noodles. He fills the pot with a couple of cups of cold tap water which is <span class="process-math">\(15^{\circ}\text{C}\)</span> (about <span class="process-math">\(60^{\circ}\text{F}\)</span> ). Next, he sets the pot on the stove and turns on the burner. The burner adds thermal energy measured in kilojoules (kJ) to the water. For every kilojoule of heat the water absorbs, its temperature rises by about <span class="process-math">\(0.8^{\circ}\text{C}\)</span> until it hits <span class="process-math">\(100^{\circ}\text{C}\)</span> (or <span class="process-math">\(212^{\circ}\text{F}\)</span> ). After that, any extra energy goes into turning the boiling water into steam instead of making the water any hotter. The variables in this story are</div>
+<div class="displaymath process-math" id="boiling-water-piecewise-linear-1-1-6">
+\begin{align*}
+E \amp= \text{ energy from the burner (kJ)}\sim \text{ indep}\\
+T \amp= \text{ temperature of water }(^{\circ} \text{C}) \sim \text{ dep}
+\end{align*}
+</div>
+<div class="para">(It’s not important for our story, but in case you’re curious a typical high burner emits about 2 kJ/second, so it would emit 30 kJ after 15 seconds, 60 kJ after 30 seconds, and 120 kJ after 1 minute.)</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#boiling-water-piecewise-linear-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="boiling-water-piecewise-linear-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="boiling-water-piecewise-linear-2-1-1">Write the linear equation that describes how the temperature of the water depends on the energy from the burner, for temperatures below boiling.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#boiling-water-piecewise-linear-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.a"><a tabindex="-1" href="#boiling-water-piecewise-linear-2" title="Copy heading and permalink for Task 6.a" aria-label="Copy heading and permalink for Task 6.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="boiling-water-piecewise-linear-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="boiling-water-piecewise-linear-3-1-1">According to your equation, what is the temperature of the water the burner has emitted 30kJ? After 60 kJ?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#boiling-water-piecewise-linear-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.b"><a tabindex="-1" href="#boiling-water-piecewise-linear-3" title="Copy heading and permalink for Task 6.b" aria-label="Copy heading and permalink for Task 6.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="boiling-water-piecewise-linear-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="boiling-water-piecewise-linear-4-1-1">What does the equation say the temperature of the water is after the burner has emitted 120kJ of energy? Why is this temperature incorrect?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#boiling-water-piecewise-linear-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.c"><a tabindex="-1" href="#boiling-water-piecewise-linear-4" title="Copy heading and permalink for Task 6.c" aria-label="Copy heading and permalink for Task 6.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="boiling-water-piecewise-linear-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="boiling-water-piecewise-linear-5-1-1">At what energy level does the water boil? Hint: Solve your equation from (a) when <span class="process-math">\(T=100\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#boiling-water-piecewise-linear-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.d"><a tabindex="-1" href="#boiling-water-piecewise-linear-5" title="Copy heading and permalink for Task 6.d" aria-label="Copy heading and permalink for Task 6.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="boiling-water-piecewise-linear-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="boiling-water-piecewise-linear-6-1-1">Write the constant equation that describes the temperature of the water once it’s reached the energy level you found in (d).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#boiling-water-piecewise-linear-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.e"><a tabindex="-1" href="#boiling-water-piecewise-linear-6" title="Copy heading and permalink for Task 6.e" aria-label="Copy heading and permalink for Task 6.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="boiling-water-piecewise-linear-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="boiling-water-piecewise-linear-7-1-1">Write a piecewise-linear equation that describes how the temperature of the water depends on the energy from the burner.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#boiling-water-piecewise-linear-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.f"><a tabindex="-1" href="#boiling-water-piecewise-linear-7" title="Copy heading and permalink for Task 6.f" aria-label="Copy heading and permalink for Task 6.f">🔗</a></div>
+</article>
+<article class="task exercise-like" id="boiling-water-piecewise-linear-8"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<div class="para" id="boiling-water-piecewise-linear-8-1-1">Graph the function, including values up to at least 120kJ of energy.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#boiling-water-piecewise-linear-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.g"><a tabindex="-1" href="#boiling-water-piecewise-linear-8" title="Copy heading and permalink for Task 6.g" aria-label="Copy heading and permalink for Task 6.g">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 6"><a tabindex="-1" href="#boiling-water-piecewise-linear" title="Copy heading and permalink for Exercise 6" aria-label="Copy heading and permalink for Exercise 6">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercises: Exercises"><a tabindex="-1" href="#ex-6-3-Piecewise_linear" title="Copy heading and permalink for Exercises: Exercises" aria-label="Copy heading and permalink for Exercises: Exercises">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 6.3: Piecewise-linear functions"><a tabindex="-1" href="#sec-6-3-piecewise-linear" title="Copy heading and permalink for Section 6.3: Piecewise-linear functions" aria-label="Copy heading and permalink for Section 6.3: Piecewise-linear functions">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-6-2-First_look_right_triangles.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
