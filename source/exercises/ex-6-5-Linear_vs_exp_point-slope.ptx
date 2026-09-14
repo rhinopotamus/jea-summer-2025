@@ -10,6 +10,14 @@
         <introduction>
             <p>
                 My parents bought the house I grew up in for $35,000 in 1964 and sold it 40 years later (in 2004) for $342,000. True story.  (It was before the housing bubble burst.)
+                <aside>
+                    <p>
+                        Story also appears in 
+                        <xref ref="ex-5-4-Linear_vs_exponential" text="custom">
+                            5.4 Exercises
+                        </xref>.
+                    </p>
+                </aside>
             </p>
         </introduction>
         <task>
@@ -38,7 +46,14 @@
         <introduction>
             <p>
                 The number of manufacturing jobs in the state has been declining for decades. In 1970, there were 1.2 million such jobs in the state but by 2010 there were only 0.6 million such jobs. 
-                <!-- \hfill \emph{Story also appears in 5.4} -->
+                <aside>
+                    <p>
+                        Story also appears in 
+                        <xref ref="ex-5-4-Linear_vs_exponential" text="custom">
+                            5.4 Exercises
+                        </xref>.
+                    </p>
+                </aside>
             </p>
         </introduction>
         <task>
@@ -68,7 +83,14 @@
             <p>
                 The number of asthma sufferers worldwide in 1990 was 84 million
                 and 130 million in 2001.
-                <!-- <em>Story also appears in 5.4</em> -->
+                <aside>
+                    <p>
+                        Story also appears in 
+                        <xref ref="ex-5-4-Linear_vs_exponential" text="custom">
+                            5.4 Exercises
+                        </xref>.
+                    </p>
+                </aside>
             </p>
         </introduction>
         <task>
@@ -103,7 +125,14 @@
                 electric cars.
                 <aside><p>Source: <url href="https://www.nada.org/nada/nada-headlines/december-2025-market-beat-new-light-vehicle-sales-totaled-162-million-units">nada.org</url></p></aside>
                 Use the actual year.
-                <!-- <em>Story also appears in 5.4</em> -->
+                <aside>
+                    <p>
+                        Story also appears in 
+                        <xref ref="ex-5-4-Linear_vs_exponential" text="custom">
+                            5.4 Exercises
+                        </xref>.
+                    </p>
+                </aside>
             </p>
         </statement>
     </exercise>

@@ -6,19 +6,35 @@
 
 	<xi:include href="ex-intro.ptx" />
 
-    <exercise xml:id="gravel-path-first-look-polynomials">
+    <exercise xml:id="gravel-path-polynomials">
         <introduction>
             <p>
                 Urban community gardens are catching on. What was once an
-                abandoned lot down the block is now a thriving 10' <m>\times</m>
-                25' vegetable and berry garden for the neighborhood. (Remember '
+                abandoned lot down the block is now a thriving 10<prime/> <m>\times</m>
+                25<prime/> vegetable and berry garden for the neighborhood. 
+                (Remember <prime/>
                 stands for <q>feet,</q> so the garden is 10 feet wide and 25
                 feet long.) One neighbor volunteered to donate gravel to make a
                 path around the garden. The path will be 3 inches deep and the
                 same width all around.
+                <aside>
+                    <p>
+                        (Story also appears in
+                        <xref ref="ex-2-3-Using_equations" text="custom">
+                            2.3 Exercises
+                        </xref>,
+                        <xref ref="ex-2-4-Approx_solutions" text="custom">
+                            2.4 Exercises
+                        </xref>, and
+                        <xref ref="ex-3-5-Solving_quadratic_equations" text="custom">
+                            3.5 Exercises
+                        </xref>.
+                        )
+                    </p>
+                </aside>
 
                 <image>
-                    <latex-image>
+                    <latex-image xml:id="tikz-gravel-path-polynomials">
                         \begin{tikzpicture}[line width=1.5pt, scale=.5]
                             \fill[gray!20] (0,0) rectangle (1,1);
                             \fill[gray!20] (9,0) rectangle (10,1);
@@ -50,7 +66,6 @@
                         \end{tikzpicture}
                     </latex-image>
                 </image>
-                <em>Story also appears in 2.3 Exercises 2.4 Exercises and 3.5 #4</em>
             </p>
         </introduction>
         <task>
@@ -123,7 +138,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="sticker-packs-first-look-polynomials">
+    <exercise xml:id="sticker-packs-polynomials">
         <introduction>
             <p>
                 Emery is selling custom printed laptop and water bottle sticker
@@ -207,7 +222,7 @@
         </task>
 
     </exercise>
-    <exercise xml:id="sticker-pack-revenue-first-look-polynomial">
+    <exercise xml:id="sticker-pack-revenue-polynomial">
         <introduction>
             <p>
                 In the previous problem, Emery was selling sticker packs. Using
@@ -291,7 +306,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="energy-drink-first-look-polynomials">
+    <exercise xml:id="energy-drink-polynomials">
         <introduction>
             <p>
                 Ximena is trying to get some homework done so she wants to
@@ -360,7 +375,7 @@
         
     </exercise>
 
-    <exercise component="not-workbook" xml:id="canvas-painting-first-look-polynomial">
+    <exercise component="not-workbook" xml:id="canvas-painting-polynomial">
         <introduction>
             <p>
                 Roy is mounting a <m>69'' \times 48''</m> rectangular canvas
@@ -429,7 +444,7 @@
         </task>
     </exercise>
 
-    <exercise component="not-workbook" xml:id="cold-brew-first-look-polynomials">
+    <exercise component="not-workbook" xml:id="cold-brew-polynomials">
         <introduction>
             <p>
                 Viviana is selling bottled cold brew coffee at a local weekend
@@ -494,7 +509,7 @@
         </task>
     </exercise>
 
-    <exercise component="not-workbook" xml:id="cold-brew-2-first-look-polynomials">
+    <exercise component="not-workbook" xml:id="cold-brew-2-polynomials">
         <introduction>
             <p>
                 In the previous problem, Viviana was selling bottled cold brew
@@ -558,7 +573,7 @@
         </task>
     </exercise>
 
-    <exercise component="not-workbook" xml:id="liquid-nutrient-first-look-polynomials">
+    <exercise component="not-workbook" xml:id="liquid-nutrient-polynomials">
         <introduction>
             <p>
                 Květa is working in a botany lab and needs to prepare a
