@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="sec-6-3-piecewise-linear" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title component="not-workbook">Piecewise-linear functions</title>
+	<title component="workbook">Piecewise-linear functions - Practice exercises</title>
+
+	<subsection component="not-workbook">
+    <title>Late parking ticket</title>
+        <p>
+          Mallory is having a miserable time. A few weeks back she forgot to pay
+          the parking meter and the city issued a parking ticket. The parking
+          ticket was for $45 and was due within 30 days. After that, the city
+          imposes a late fee of $10. Bummer.
+        </p>
+
+        <p>
+          But Mallory is curious <ndash/> how can she write an equation to
+          describe the cost of her parking ticket when it changes like that? She
+          knows variables are
+          <md>
+            <mrow>D \amp= \text{ time since she got the ticket (days) }\sim \text{ indep}</mrow>
+            <mrow>C \amp= \text{ cost of parking ticket (\$) }\sim \text{ dep}</mrow>
+          </md>
+          The starting amount (intercept) is $45. What's the rate of change
+          (slope)? During the first 30 days, the price does not change. Since
+          that rate of change is constant, we have a linear equation and the
+          slope is $0/day. The equation for the first 30 days is
+          <md>
+            C = 45 + 0D
+          </md>
+          But <m>0D = 0</m>, so really
+          <md>
+            C = 45
+          </md>
+        </p>
+
+        <p>
+          By the way, there is a name for this type of function. It's called a
+          <alert>constant function</alert>. Meaning the value of the ticket is
+          constant, at least during those first 30 days.
+        </p>
+
+        <p>
+          Now, after 30 days, the price jumps to <m>45+10 = \$55</m>. The
+          equation for the price then is
+          <md>
+            P = 55
+          </md>
+          another constant function.
+        </p>
+
+        <p>
+          There's a notation we can use to describe <m>C</m> as a function of
+          <m>D</m> that includes both values. We write
+          <md>
+            C = \left\{ \begin{array}{cl}45 \amp \text{if } 0 \le D \le 30 \\ 55 \amp \text{if } D \gt 30\end{array} \right.
+          </md>
+        </p>
+
+        <p>
+          The way we read this notation is: if the number of days <m>D</m> is
+          between 0 and 30, then the ticket costs <m>P=</m> $45 but if the
+          number of days is over 30, then the ticket costs <m>C=</m> $55.
+        </p>
+    </subsection>
+
+    <subsection component="not-workbook">
+        <title>Piecewise-linear functions and their graphs</title>
+
+        <p>
+          When our equation has two (or more) pieces, it's called a
+          <alert>piecewise-defined function</alert>. In this type of situation
+          where both pieces are linear, it's called a
+          <alert>piecewise-linear function</alert>.
+        </p>
+
+        <p>
+          What does the graph of a piecewise-linear function look like? Let's
+          make a table of values. Notice any value of <m>D</m> over 30 days is
+          gonna cost Mallory $55. Even if she's 2 minutes late, it's gonna cost
+          $55. Note that 2 minutes late is 30.0014 days since
+          <md>
+            2 \text{ min}= \frac{2 \text{ min}}{1}\times \frac{1 \text{ hour}}{60 \text{ min}}\times \frac{1 \text{ day}}{24 \text{ hours}}= 2 \div 60 \div 24 = .001388\ldots \approx .0014 \text{ days}
+          </md>
+        </p>
+
+        <p>
+          Here are the values we know.
+        </p>
+
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>D</m></cell>
+            <cell>0</cell>
+            <cell>10</cell>
+            <cell>20</cell>
+            <cell>30</cell>
+            <cell>30.0014</cell>
+            <cell>40</cell>
+            <cell>50</cell>
+          </row>
+
+          <row>
+            <cell><m>C</m></cell>
+            <cell>45</cell>
+            <cell>45</cell>
+            <cell>45</cell>
+            <cell>45</cell>
+            <cell>55</cell>
+            <cell>55</cell>
+            <cell>55</cell>
+          </row>
+        </tabular>
+
+        <p>
+          When we draw the graph and connect the dots into lines, we notice two
+          things. First, the lines are horizontal. That always happens when the
+          function is constant and the slope is 0. Second, there's a jump at 30
+          days where the graph isn't connected, which makes sense because the
+          cost of the ticket jumps up after 30 days.
+        </p>
+        <image xml:id="tikz-6-3-graph-1">
+            <latex-image>
+                \begin{tikzpicture}[xscale=0.2, yscale=0.1]
+                    \foreach \y in {10,20,...,60} {
+                        \draw[gray!30, very thin] (0,\y) -- (60,\y);
+                    }
+                    \foreach \x in {5,10,...,60} {
+                        \draw[gray!30, very thin] (\x,0) -- (\x,60);
+                    }
+                    \draw[thick, -\gt ] (0,0) -- (63,0) node[right] {$D$};
+                    \draw[thick, -\gt ] (0,0) -- (0,63) node[above] {$C$};
+                    \foreach \x in {5,10,...,60} {
+                        \draw (\x, 1) -- (\x, -1) node[below] { \x};
+                    }
+                    \foreach \y in {10,20,...,60} {
+                        \draw (0.2, \y) -- (-0.2, \y) node[left] { \y};
+                    }
+                    \draw[very thick, blue] plot[domain=0:30] (\x, {45});
+                    \draw[very thick, blue] plot[domain=30.2:60] (\x, {55});
+                    \node[circle, fill=blue, inner sep=1.5pt] at (30, 45) {};
+                    \node[circle, draw=blue, fill=white, thick, inner sep=1.5pt] at (30, 55) {};
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+
+        <p>
+          Notice how we indicate the values corresponding to <m>D=30</m>. We use
+          a solid dot at <m>(30,45)</m> because that's a point on the graph: at
+          30 days the parking ticket costs $45. We use an open dot at
+          <m>(30,55)</m> because that's not a point on the graph: at 30 days the
+          parking ticket is not yet $55.
+        </p>
+    </subsection>
+
+    <subsection component="not-workbook">
+        <title>Late rent</title>
+
+        <p>
+          Mallory's troubles aren't over. She's also behind on the rent. She
+          normally owes <m>900</m> and there's a one week grace period, meaning
+          she can pay up to one week late without any late fees. For the next
+          week, the late fee is $10/day. After that, the late fee jumps to
+          $25/day.
+        </p>
+
+        <p>
+          Let's measure time in days. We have
+          <md>
+            <mrow>L \amp= \text{ how late the rent is (days)}\sim \text{ indep}</mrow>
+            <mrow>R \amp= \text{ rent plus any late fees (\$)}\sim \text{ dep}</mrow>
+          </md>
+        </p>
+
+        <p>
+          What happens during the first week? For example, when <m>L=0</m> days,
+          the rent is $900. When <m>L=4</m> days, we're within the grace period
+          ( <m>0 \le L \le 7</m> ) so the rent is still $900. The equation
+          during this week is <m>R = 900</m>.
+        </p>
+
+        <p>
+        What happens during the second week? For example, when <m>L = 10</m>
+        days, she's <m>10-7=3</m> days late and we're during the week where it
+        costs an extra $10/day ( <m>7\lt L\le14</m> ), so the rent is now
+        <md>
+            <mrow>R \amp = 900 + (10-7) \times 10 </mrow>
+            <mrow>  \amp = 900 + 3 \times 10 </mrow>
+            <mrow>  \amp = 900 + 30</mrow>
+            <mrow>  \amp = \$930</mrow>
+        </md>
+        </p>
+
+        <p>
+        The number of days late after the 7 day grace period is <m>L-7</m>.
+        The equation is
+        <md>
+        R = 900 + (L-7)10
+        </md>
+        We can use the distributive property to multiply out to get
+        <md>
+            <mrow>R \amp = 900 + (L-7) \times 10 </mrow>
+            <mrow>  \amp = 900 + 10L - 70 </mrow>
+            <mrow>  \amp = 830 + 10L</mrow>
+        </md>
+        </p>
+
+        <p>
+        What happens during the third week? For example, when <m>L=20</m>
+        days, she pays $900 rent plus $10/day for the first 7 days late plus
+        $25/day for the next <m>20-14=6</m> days late, so that's a total of
+        <md>
+            <mrow>R \amp = 900 + 7 \times 10 + (20-14) \times 25</mrow>
+            <mrow>  \amp = 900 + 70 + 6 \times 25</mrow>
+            <mrow>  \amp = 970 + 150</mrow>
+            <mrow>  \amp = \$1120</mrow>
+        </md>
+        </p>
+
+        <p>
+        Ouch! The number of days where she's gonna pay an extra $25/day is
+        <m>L -14</m>. The equation is
+        <md>
+            R = 900 + 10\times7 + 25(L-14)
+        </md>
+        Again, we can use the distributive property to multiply out to get
+        <md>
+            <mrow>R \amp = 900 + 10 \times 7 + 25(L - 14)</mrow>
+            <mrow>  \amp = 900 + 70 + 25L -25\times 14 </mrow>
+            <mrow>  \amp = 970 + 25L - 350</mrow>
+            <mrow>  \amp = 620 + 25L</mrow>
+        </md>
+        </p>
+
+        <p>
+          When we put everything together we get
+        </p>
+
+        <p>
+          <md>
+            R = \left\{ \begin{array}{cl}900 \amp \text{if } 0 \le L \le 7\\ 830 + 10L \amp \text{if } 7 \lt L \le 14\\ 620+25L\amp \text{if } L \gt 14\end{array} \right.
+          </md>
+        </p>
+
+        <p>
+        In case you were wondering about part days, Mallory's apartment
+        complex prorates the late fees are prorated by the hour (or even by
+        the minute). So, for example, if Mallory pays her rent 9 days and 6
+        hours late, we would pay $10/day for those 2 days and 6 hours after
+        the grace period which is
+        <md>
+            <mrow>2 \text{ days} + 6 \text{ hours} \amp = 2 \text{ days} + \dfrac{6 \text{ hours}}{1} \times \frac{1 \text{ day}}{24 \text{ hours}}</mrow>
+            <mrow> \amp 2+6 \div 24</mrow>
+            <mrow> \amp 2 + 0.25 = 2.25 \text{ days}</mrow>
+        </md>
+        and so the late fee would be prorated at
+        <m>2.25 \times 10 = \$22.50</m> for a total of
+        <m>900 + 22.50 = \$922.50</m>.
+        </p>
+
+        <p>
+          Let's summarize our examples and a few more values in a table.
+        </p>
+
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>L</m></cell>
+            <cell>0</cell>
+            <cell>4</cell>
+            <cell>7</cell>
+            <cell>10</cell>
+            <cell>14</cell>
+            <cell>15</cell>
+            <cell>20</cell>
+          </row>
+
+          <row>
+            <cell><m>R</m></cell>
+            <cell>0</cell>
+            <cell>900</cell>
+            <cell>900</cell>
+            <cell>930</cell>
+            <cell>970</cell>
+            <cell>995</cell>
+            <cell>1120</cell>
+          </row>
+        </tabular>
+
+        <p>
+          Now we can draw the graph.
+        </p>
+        <image xml:id="tikz-6-3-graph-2">
+            <latex-image>
+                \begin{tikzpicture}[xscale=0.4, yscale=0.6]
+                    \foreach \y in {1,2,...,14} {
+                        \draw[gray!30, very thin] (0,\y) -- (28,\y);
+                    }
+                    \foreach \x in {2,4,...,28} {
+                        \draw[gray!30, very thin] (\x,0) -- (\x,14);
+                    }
+                    \draw[thick, -\gt ] (0,0) -- (30,0) node[right] {$L$};
+                    \draw[thick, -\gt ] (0,0) -- (0,14.5) node[above] {$R$};
+                    \foreach \x in {2,4,...,28} {
+                        \draw (\x, 0.2) -- (\x, -0.2) node[below] { \x};
+                    }
+                    \foreach \y/\lbl in {2/200, 4/400, 6/600, 8/800, 10/1000, 12/1200,14/1400} {
+                        \draw (0.2, \y) -- (-0.2, \y) node[left] { \lbl};
+                    }
+                    \draw[very thick, blue] plot[domain=0:7] (\x, {900/100});
+                    \draw[very thick, blue] plot[domain=7:14] (\x, {(830+10*\x)/100});
+                    \draw[very thick, blue] plot[domain=14:28] (\x, {(620+25*\x)/100});
+                    \node[circle, fill=blue, inner sep=1.5pt] at (7, 9) {};
+                    \node[circle, fill=blue, inner sep=1.5pt] at (14, 9.7) {};
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+
+        <p>
+          Notice that there are no jumps in the graph this time. That's because
+          when <m>L=7</m> we know <m>R=900</m> but if we were to use the
+          equation <m>R=830+10L</m> when <m>L=7</m> instead, we would get
+          <m>R = 830+10 \times 7 = 900</m> again. That tells us that the second
+          line starts where the first horizontal line ends. Similarly, when
+          <m>L=14</m> we use the equation <m>R = 830+10L</m> to get
+          <m>R = 830+10*14=970</m> but if we were to use the equation
+          <m>R=620+25L</m> when <m>L = 14</m> instead, then we would get
+          <m>R=620+25 \times 14 = 970</m> again. This tells us that the third
+          line starts where the second line ends. Sometimes we put closed dots
+          to emphasize where the formula changes.
+        </p>
+      </subsection>
+
+
+	<subsection component="not-workbook">
+		<title>Do you know <ellipsis /></title>
+
+		<p>
+			<xi:include href="./dyk/dyk-Piecewise_linear.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</subsection>
+
+	
+	<xi:include href="./exercises/ex-6-3-Piecewise_linear.ptx" />
+
+	<xi:include href="./WYD.ptx" />
+		
+		
+	<subsection component="workbook">
+		<title>Do you know <ellipsis /></title>
+		<p>
+			<xi:include href="./dyk/dyk-Piecewise_linear.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</subsection>
+
+</section>

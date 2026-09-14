@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publication>
+  <source>
+    <directories external="external" generated="generated"/>
+  </source>
+  <common>
+    <chunking level="1"/>
+  </common>
+</publication>
