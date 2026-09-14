@@ -21,7 +21,7 @@
                 <p>
                     Using the variables
                     <md>
-                        <mrow>P \amp= \text{ Maryn's profit ($) }\sim \text{ dep}</mrow>
+                        <mrow>P \amp= \text{ Maryn's profit (\$) }\sim \text{ dep}</mrow>
                         <mrow>H \amp= \text{ billable time (hours) }\sim \text{ indep}</mrow>
                     </md>
                     write the point-slope equation describing how Maryn's
@@ -216,7 +216,7 @@
                 apartment) corresponds roughly to how many decibels of noise the
                 wall blocks. Higher numbers mean more sound is blocked. A basic
                 interior partition wall with a single layer of drywall and
-                standard insulation with a density of 11 kg/m <m>^{3}</m>
+                standard insulation with a density of 11 kg/m³
                 provides an STC of 39. By upgrading to a dense 35 kg/m³ mineral
                 wool core, the STC jumps to 50, drastically lowering the
                 transmitted noise level.
