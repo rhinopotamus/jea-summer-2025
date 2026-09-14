@@ -15,7 +15,7 @@
 			blanket but only a 2.5'' border on the left and right.
 		</p>
 		<image>
-			<latex-image xml:id="6-1-baby-blanket">
+			<latex-image xml:id="tikz-6-1-baby-blanket">
 			\begin{tikzpicture}[scale=0.1, line join=miter]
 				\colorlet{babyblue}{cyan!35!white}
 				\colorlet{quiltpink}{pink!80!red}
@@ -161,7 +161,7 @@
           so we have linear functions.
         </p>
 		<image>
-			<latex-image xml:id="6-2-linear-functions">
+			<latex-image xml:id="tikz-6-1-linear-functions">
 			\begin{tikzpicture}[xscale=0.5, yscale=0.05]
 				\foreach \y in {10,20,...,90} {
 					\draw[gray!30, very thin] (0,\y) -- (20,\y);
@@ -269,7 +269,7 @@
           Here's a picture illustrating the distributive property.
         </p>
         <image>
-			<latex-image xml:id="6-1-distributive">
+			<latex-image xml:id="tikz-6-1-distributive">
 					\begin{tikzpicture}[line width=1.5pt, scale = .5]
 						\draw (0,0) rectangle (12,3);
 						\draw (5,0) -- (5,3);
@@ -370,7 +370,7 @@
           Here's a picture illustrating the FOIL property.
         </p>
         <image>
-			<latex-image xml:id="6-1-FOIL">
+			<latex-image xml:id="tikz-6-1-FOIL">
 					\begin{tikzpicture}[line width=1.5pt, scale =.5]
 						\draw (0,0) rectangle (18,7);
 						\draw (3,0) -- (3,7);
@@ -440,7 +440,7 @@
           </row>
         </tabular>
 		<image>
-			<latex-image xml:id="6-1-quadratic">
+			<latex-image xml:id="tikz-6-1-quadratic">
 			\begin{tikzpicture}[xscale=0.5, yscale=1]
 				\foreach \y in {0.5,1.0,...,6.0} {
 					\draw[gray!30, very thin] (0,\y) -- (20,\y);
@@ -534,7 +534,7 @@
           </row>
         </tabular>
 		<image>
-			<latex-image xml:id="6-1-quadratic-2">
+			<latex-image xml:id="tikz-6-1-quadratic-2">
 			\begin{tikzpicture}[xscale=0.5, yscale=1.2]
 				\foreach \y in {0.5,1.0,...,5.0} {
 					\draw[gray!30, very thin] (0,\y) -- (20,\y);
