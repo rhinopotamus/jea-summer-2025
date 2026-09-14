@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="sec-6-5-Linear_vs_exp_point-slope" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title component="not-workbook">Interlude: Linear vs. exponential models in point-slope form</title>
+    <title component="workbook">Interlude: Linear vs. exponential models in point-slope form - Practice exercises</title>
+
+    <subsection component="not-workbook">
+        <title>Movie ticket prices</title>
+        <p>
+            Calliope read in Section 5.4 that in 1995, the average price of a movie
+            ticket was $4.35, and in 2011 the average price of a movie ticket was
+            $7.93.
+            <aside>Source: National Association of Theater Owners, now Cinema United</aside>
+            She wonders whether or a linear or exponential model would do a better
+            job of predicting the average price of a movie ticket
+            <aside>Source: <url href="https://www.npr.org/2026/08/26/nx-s1-5923629/movie-summer-box-office">NPR</url></aside>
+            in 2026, which is estimated to be $12.87.
+        </p>
+        
+    </subsection>
+
+    <subsection component="not-workbook">
+        <title>Linear model for movie ticket prices</title>
+        <p>
+            Normally, Calliope would measure time in years since 1995. But she
+            recently learned about the point-slope equation of a line, she is
+            wondering what it would look like if she just used <m>Y</m> for the
+            actual year instead. That is, the variables would be
+            <md>
+                <mrow>Y \amp= \text{ time (actual year) }\sim \text{ indep}</mrow>
+                <mrow>T \amp= \text{ average price of a movie ticket (\$) }\sim \text{ dep}</mrow>
+            </md>
+        </p>
+
+        <p>
+            To write a linear model, Calliope starts by calculating the slope
+            which is
+            <md>
+                \frac{\$7.93-\$4.35}{2011-1995}= \frac{\$3.58}{16 \text{ years}}= 0.22375 \approx \$0.224/\text{year}
+            </md>
+            She then shows off her mad point-slope equation skills and writes the
+            linear equation
+            <md>
+                T = 4.35 + 0.224(Y - 1995)
+            </md>
+            Calliope checks her linear equation for the year 2011
+            <md>
+                T = 4.35 + 0.224(2011 - 1995) = 7.934 \approx \$7.93
+            </md>
+            Since she rounded off to get the slope of 0.224, she needed to round
+            off the answer as well.
+        </p>
+
+        <p>
+            In 2026, we have <m>Y=2026</m> and so this linear model predicts the
+            average movie ticket price would be
+            <md>
+                4.35 + 0.224(2026 - 1995) = 11.284 \approx \$11.29
+            </md>
+        </p>
+    </subsection>
+
+    <subsection component="not-workbook">
+        <title>Exponential model for ticket prices</title>
+
+        <p>
+            To write an exponential model, Calliope starts by calculating the
+            growth factor which, by the Growth Factor Formula is
+            <md>
+            g = \sqrt[2011-1995]{\frac{7.93}{4.35}}= \sqrt[16]{\frac{7.93}{4.35}}= 1.0382429616 \approx 1.0382
+            </md>
+            She then writes the exponential equation using this growth factor and
+            the point.
+            <md>
+            T = 4.35(1.0382)^{Y-1995}
+            </md>
+            Notice that because Calliope is using the actual year, the equation
+            needs to use <m>Y-1995</m> in the exponent.
+        </p>
+
+        <p>
+            Calliope checks her exponential equation for the year 2011
+            <md>
+            T = 4.35(1.0382)^{2011-1995}= 4.35 \times 1.0382 \land (2011-1995) = 7.9247\ldots \approx \$7.92
+            </md>
+            Since she rounded off to get the growth factor of 1.0382, this answer
+            is slightly off as well.
+        </p>
+
+        <p>
+            In 2026, we have <m>Y=2026</m> and so this exponential model predicts
+            the average movie ticket price would be
+            <md>
+            4.35(1.0382)^{2026-1995}=4.35 \times 1.0382 \land (2026-1995)=13.9059\ldots \approx \$13.90
+            </md>
+        </p>
+    </subsection>
+
+    <subsection component="not-workbook">
+        <title>Comparing linear vs. exponential</title>
+
+        <p>
+            Both the linear and exponential model did fairly well at predicting
+            today's prices. The linear model estimate of $11.29 was
+            <m>12.87-11.29 = \$1.58</m> lower than the actual average price of a
+            movie ticket but the exponential model estimate of $13.90 was about
+            <m>13.90-12.87 = \$1.03</m> higher. The exponential is probably a
+            slightly better estimate, but there's some rounding error here so
+            Calliope decides they are both quite close.
+        </p>
+    </subsection>
+
+    <subsection component="not-workbook">
+        <title>Do you know <ellipsis /></title>
+
+        <p>
+            <xi:include href="./dyk/dyk-Linear_vs_exp_point-slope.ptx" />
+        </p>
+        <xi:include href="./NotSure.ptx" />
+    </subsection>
+
+
+    <xi:include href="./exercises/ex-6-5-Linear_vs_exp_point-slope.ptx" />
+
+    <xi:include href="./WYD.ptx" />
+
+
+    <subsection component="workbook">
+        <title>Do you know <ellipsis /></title>
+        <p>
+            <xi:include href="./dyk/dyk-Linear_vs_exp_point-slope.ptx" />
+        </p>
+        <xi:include href="./NotSure.ptx" />
+    </subsection>
+
+</section>

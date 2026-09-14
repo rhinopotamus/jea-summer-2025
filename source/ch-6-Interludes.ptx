@@ -44,6 +44,8 @@
 	<xi:include href="./sec-6-1-First_look_polynomials.ptx" />
 	<xi:include href="./sec-6-2-First_look_right_triangles.ptx" />
 	<xi:include href="./sec-6-3-Piecewise_linear.ptx" />
+	<xi:include href="./sec-6-4-Point-slope_form.ptx" />
+	<xi:include href="./sec-6-5-Linear_vs_exp_point-slope.ptx" />
 
-	<!-- practice exams? -->
+	<!-- practice exams? surely not -->
 </chapter>
