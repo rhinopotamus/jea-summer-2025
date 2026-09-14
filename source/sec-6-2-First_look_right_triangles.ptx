@@ -15,7 +15,7 @@
       Coach Pelto asked her players to sprint diagonally across the field at
       practice. How far is that?
     </p>
-      <image>
+      <image width="70%">
         <latex-image xml:id="tikz-6-2-soccer-field">
         \begin{tikzpicture}[line width=1.5pt, scale = .5]
           \draw (0,0) rectangle (11.7,6.5);
@@ -82,7 +82,7 @@
       vertical and horizontal meet with a small box to indicate the right
       angle.
     </p>
-    <image>
+    <image width="70%">
       <latex-image xml:id="tikz-6-2-triangle">
         \begin{tikzpicture}[line width=1.5pt, scale = .5]
           \draw (0,0) -- (0,6.5);
