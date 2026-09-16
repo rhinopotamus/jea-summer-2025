@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-6-Interludes" xmlns:xi="http://www.w3.org/2001/XInclude">
+<!-- For now I am putting the entire chapter in not-workbook. -->
+<!-- This makes it easier for me to build/stage/deploy the workbook -->
+<!-- before the spacing for these new exercises is fixed. -->
+
+<chapter component="not-workbook" xml:id="ch-6-Interludes" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Interludes</title>
 
     <introduction component="not-workbook">
