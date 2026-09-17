@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>A first look at polynomial equations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Just Enough Algebra: 2026 Edition">
+<meta property="og:title" content="Just Enough Algebra: 2026 Edition">
+<meta property="book:title" content="Just Enough Algebra: 2026 Edition">
+<meta name="twitter:description" content="Just Enough Algebra: With common sense and some algebra you can understand the world better than you can with common sense alone.">
+<meta property="og:description" content="Just Enough Algebra: With common sense and some algebra you can understand the world better than you can with common sense alone.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.49"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.49"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.10';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner">
+<span id="logo-link" class="logo-link"><img src="external/book-open-solid.png" alt="Logo image"></span><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">2026 Edition</span></a></div>
+<p class="byline">Suzanne Dorée, Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="ch-6-Interludes-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-6-Interludes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul id="ptx-toc-group-frontmatter" class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-0-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul id="ptx-toc-group-ch-0-Prelude" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-0-Prelude-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul id="ptx-toc-group-sec-0-1-Approximation_and_rounding" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html#ex-0-1-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul id="ptx-toc-group-sec-0-2-Arithmetic_operations" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html#ex-0-2-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-3-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul id="ptx-toc-group-sec-0-3-Percentages" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-3-Percentages.html#ex-0-3-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul id="ptx-toc-group-sec-0-4-Order_of_operations" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html#ex-0-4-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-5-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul id="ptx-toc-group-sec-0-5-Fractions" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-5-Fractions.html#ex-0-5-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul id="ptx-toc-group-sec-0-6-Powers_and_roots" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html#ex-0-6-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul id="ptx-toc-group-sec-0-7-Algebraic_notation" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html#ex-0-7-Algebraic_notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul id="ptx-toc-group-sec-0-8-Scientific_notation" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html#ex-0-8-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-9-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul id="ptx-toc-group-sec-0-9-Logarithms" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-9-Logarithms.html#ex-0-9-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-1-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul id="ptx-toc-group-ch-1-Variables" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-1-Variables-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul id="ptx-toc-group-sec-1-1-Variables_and_functions" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-gasoline" class="internal"><span class="title">The changing cost of gasoline</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-variables" class="internal"><span class="title">Naming variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-dependence" class="internal"><span class="title">Independent and dependent variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-domain" class="internal"><span class="title">Domain</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-constants" class="internal"><span class="title">Constants</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-percents" class="internal"><span class="title">Percents</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ex-1-1-Variables_and_functions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul id="ptx-toc-group-sec-1-2-Tables_and_graphs" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-smoking-rates" class="internal"><span class="title">Smoking rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-labeling-variables" class="internal"><span class="title">Labeling variables in a table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-graphs" class="internal"><span class="title">Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-scaling" class="internal"><span class="title">Scaling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-plotting-points" class="internal"><span class="title">Plotting points</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ex-1-2-Tables_and_graphs" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul id="ptx-toc-group-sec-1-3-Rate_of_change" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-diver" class="internal"><span class="title">The speed of a diver</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-different-speeds" class="internal"><span class="title">Different speeds at different times</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-even-more-diver" class="internal"><span class="title">Even more speeds for the diver</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-roc-graphs" class="internal"><span class="title">Rate of change on graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-inc-dec" class="internal"><span class="title">Increasing and decreasing</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ex-1-3-Rate_of_change" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-4-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul id="ptx-toc-group-sec-1-4-Units" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-ucfs" class="internal"><span class="title">Unit conversion fractions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-decimal-parts" class="internal"><span class="title">Converting decimal parts of quantities</span></a></div>
+<ul id="ptx-toc-group-ss-1-4-decimal-parts" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-units-rounding" class="internal"><span class="title">Aside: Rounding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-compound-units" class="internal"><span class="title">Converting more complicated units</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-Units.html#ex-1-4-Units" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul id="ptx-toc-group-sec-1-5-Metric_system_and_scientific_notation" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-tara-files" class="internal"><span class="title">Tara’s files</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-download-photos" class="internal"><span class="title">Downloading photos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-metric-system" class="internal"><span class="title">The metric system and powers of ten</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-tara-hair" class="internal"><span class="title">Very small things</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-small-numbers" class="internal"><span class="title">Very small numbers in scientific notation</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ex-1-5-Metric_system_and_scientific_notation" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul id="ptx-toc-group-sec-PE1A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul id="ptx-toc-group-sec-PE1B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-2-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul id="ptx-toc-group-ch-2-Equations" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-2-Equations-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-1-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-1-First_look_linear" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-calculating-costs" class="internal"><span class="title">Calculating what the plumber costs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-generalizing" class="internal"><span class="title">Making our calculations more general</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-graphing-linear" class="internal"><span class="title">Graphing linear functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-linear-eq-template" class="internal"><span class="title">A template for linear equations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ex-2-1-First_look_linear" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-2-First_look_exponential" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-raises" class="internal"><span class="title">Percents of different wholes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-one-step" class="internal"><span class="title">A one-step process for finding percent change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-growth-rate-and-factor" class="internal"><span class="title">Growth rate and growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-powers" class="internal"><span class="title">Using exponents to find multiple increases at once</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-equation" class="internal"><span class="title">Generalizing to an equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-exp-eqn-template" class="internal"><span class="title">A template for exponential equations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ex-2-2-First_look_exponentialEX" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-3-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-3-Using_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-braking-distance" class="internal"><span class="title">Braking distance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-reaction-time" class="internal"><span class="title">Adding in reaction time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-power-eqns" class="internal"><span class="title">New kinds of equations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ex-2-3-Using_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-4-Approx_solutions" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-india-1-6" class="internal"><span class="title">India at 1.6 billion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-good-enough" class="internal"><span class="title">Good enough answers</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ex-2-4-Approx_solutions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-5-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul id="ptx-toc-group-sec-2-5-Finance" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-compound-interest" class="internal"><span class="title">Compound interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-savings-accounts" class="internal"><span class="title">Savings accounts (or annuities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-loan-payment" class="internal"><span class="title">Loan payments</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ex-2-5-Finance" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul id="ptx-toc-group-sec-PE2A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul id="ptx-toc-group-sec-PE2B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-3-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul id="ptx-toc-group-ch-3-Solving_equations" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-3-Solving_equations-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-3-1-Solving_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-solving-plumber" class="internal"><span class="title">Figuring out the plumber’s time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-approx-soln" class="internal"><span class="title">Finding an approximate solution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-symbolic-soln" class="internal"><span class="title">Solving symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-another-plumber" class="internal"><span class="title">Another plumber cost</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ex-3-1-Solving_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul id="ptx-toc-group-sec-3-2-Solving_linear_inequalities" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-setup" class="internal"><span class="title">Baking brownies (and setting up inequalities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-solving-ineq" class="internal"><span class="title">Solving inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-caution" class="internal"><span class="title">Things to be careful about</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-between" class="internal"><span class="title">Chains of inequalities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ex-3-2-Solving_linear_inequalities" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul id="ptx-toc-group-sec-3-3-Solving_power_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-lemonade" class="internal"><span class="title">Lemonade</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-solving-power-symbolically" class="internal"><span class="title">Solving a power equation symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-lemon-zest" class="internal"><span class="title">Lemon zest (and another kind of root)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-roots" class="internal"><span class="title">Roots, officially</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ex-3-3-Solving_power_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul id="ptx-toc-group-sec-3-4-Solving_exponential_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-healthcare" class="internal"><span class="title">Health care costs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-solving-exp-symbolically" class="internal"><span class="title">Solving an exponential equation symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-another-example" class="internal"><span class="title">Another example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-logs" class="internal"><span class="title">Logarithms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ex-3-4-Solving_exponential_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul id="ptx-toc-group-sec-3-5-Solving_quadratic_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-juggling" class="internal"><span class="title">Juggling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-solving-quadratic" class="internal"><span class="title">Solving exactly</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-quadratic-nonzero" class="internal"><span class="title">Things that don’t equal zero</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-vertex" class="internal"><span class="title">Highest point</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-parabola" class="internal"><span class="title">The graph of a quadratic function</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ex-3-5-Solving_quadratic_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul id="ptx-toc-group-sec-PE3A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul id="ptx-toc-group-sec-PE3B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-4-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul id="ptx-toc-group-ch-4-Closer_look_linear" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-4-Closer_look_linear-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-4-1-Modeling_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#sec-4-1-affordable-housing" class="internal"><span class="title">Affordable housing</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#ex-4-1-Modeling_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-4-2-Systems_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#sec-4-2-lock-machines" class="internal"><span class="title">Comparing two lock machines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ss-4-2-finding-differences" class="internal"><span class="title">Figuring out the differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ss-4-2-solving-system-symbolically" class="internal"><span class="title">Solving symbolically</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ex-4-2-Systems_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-3-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul id="ptx-toc-group-sec-4-3-Intercepts" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ss-4-3-fixed" class="internal"><span class="title">Fixed amounts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ss-4-3-direct-prop" class="internal"><span class="title">Direct proportions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ex-4-3-Intercepts" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-4-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul id="ptx-toc-group-sec-4-4-Slopes" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ss-4-4-paper" class="internal"><span class="title">Paper delivery prices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ss-4-4-recycling-charge" class="internal"><span class="title">Recycling charge</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ex-4-4-Slopes" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul id="ptx-toc-group-sec-4-5-Fitting_lines_to_data" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-road-salt-usage" class="internal"><span class="title">Road salt usage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-connect-the-dots" class="internal"><span class="title">Connect-the-dots model?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-lines-through-pairs" class="internal"><span class="title">Lines through pairs of points?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-best-fit" class="internal"><span class="title">Best fitting line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-outliers" class="internal"><span class="title">Outliers</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ex-4-5-Fitting_lines_to_data" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul id="ptx-toc-group-sec-PE4A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul id="ptx-toc-group-sec-PE4B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-5-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul id="ptx-toc-group-ch-5-Closer_look_exponential" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-5-Closer_look_exponential-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul id="ptx-toc-group-sec-5-1-Modeling_exponential_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#sec-5-1-Modeling_exponential_equations-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#ex-5-1-Modeling_exponential_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul id="ptx-toc-group-sec-5-2-Exp_growth_decay" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-caffeine" class="internal"><span class="title">Caffeine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-approximating-and-solving" class="internal"><span class="title">Solving (approximately and exactly)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-rate-of-change" class="internal"><span class="title">Rate of change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-half-life" class="internal"><span class="title">Half-life (and doubling time)</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ex-5-2-Exp_growth_decay" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-3-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul id="ptx-toc-group-sec-5-3-Growth_factor" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-obesity" class="internal"><span class="title">Childhood obesity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-growth-factor" class="internal"><span class="title">Finding the growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-checking-formula" class="internal"><span class="title">Checking our formula (and rounding)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-percent-change" class="internal"><span class="title">Finding percent change from growth factor</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ex-5-3-Growth_factor" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul id="ptx-toc-group-sec-5-4-Linear_vs_exponential" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-car-depreciation" class="internal"><span class="title">Car value depreciation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-linear-model" class="internal"><span class="title">A linear model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-exponential-model" class="internal"><span class="title">An exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-compare-models" class="internal"><span class="title">Comparing the linear model and the exponential model</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ex-5-4-Linear_vs_exponential" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul id="ptx-toc-group-sec-5-5-Logistic_growth" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-flu-outbreak" class="internal"><span class="title">Flu outbreak in the dorms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-exponential" class="internal"><span class="title">Exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-4-saturation" class="internal"><span class="title">Saturation model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-logistic" class="internal"><span class="title">Logistic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-comparing" class="internal"><span class="title">Comparing models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ex-5-5-Logistic_growth" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul id="ptx-toc-group-sec-PE5A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul id="ptx-toc-group-sec-PE5B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-6-Interludes.html" class="internal"><span class="codenumber">6</span> <span class="title">Interludes</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-ch-6-Interludes">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-6-Interludes-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html" class="internal"><span class="codenumber">6.1</span> <span class="title">A first look at polynomial equations</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-sec-6-1-First_look_polynomials">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-4" class="internal"><span class="title">Different sizes of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-5" class="internal"><span class="title">Linear models for blanket dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-6" class="internal"><span class="title">Equations for the width and length of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-7" class="internal"><span class="title">The distributive property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-8" class="internal"><span class="title">Area of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-9" class="internal"><span class="title">The FOIL property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-10" class="internal"><span class="title">A quadratic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-11" class="internal"><span class="title">Fiberfill</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-12" class="internal"><span class="title">Another quadratic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-13" class="internal"><span class="title">Polynomial Equations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul id="ptx-toc-group-backmatter" class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A.</span> <span class="title">Practice Final Exams</span></a></div>
+<ul id="ptx-toc-group-backmatter-2" class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul id="ptx-toc-group-sec-pfe1" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul id="ptx-toc-group-sec-pfe2" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B.</span> <span class="title">Templates and Formulas</span></a></div>
+<ul id="ptx-toc-group-app-templates-formulas" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="app-templates-formulas-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-6-1-First_look_polynomials">
+<h1 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A first look at polynomial equations</span>
+</h1>
+<div class="para" id="sec-6-1-First_look_polynomials-2">Nyx is making a blanket out of 3’’ <span class="process-math">\(\times\)</span> 3’’ squares of fabric in the middle and long strips of fabric for the border. They have decided to make the blanket 7 squares longer than it is wide. So, for example, if they use 10 squares across, they will use <span class="process-math">\(10+7=17\)</span> squares down. They will do a 4’’ border on the top and bottom of the blanket but only a 2.5’’ border on the left and right.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>\begin{tikzpicture}[scale=0.1, line join=miter] \colorlet{babyblue}{cyan!35!white} \colorlet{quiltpink}{pink!80!red} \colorlet{sagegreen}{green!50!gray!60!white} \foreach \x in {0,3,...,27} { \foreach \y in {0,3,...,48} { \pgfmathparse{int(mod(\x/3 + \y/3, 4))} \ifcase\pgfmathresult \fill[babyblue] (\x,\y) rectangle (\x+3,\y+3); \or \fill[white] (\x,\y) rectangle (\x+3,\y+3); \or \fill[quiltpink] (\x,\y) rectangle (\x+3,\y+3); \or \fill[sagegreen] (\x,\y) rectangle (\x+3,\y+3); } } \fill[sagegreen] (-2.5,0) rectangle (0,51); \fill[sagegreen] (30,0) rectangle (32.5,51); \fill[sagegreen] (-2.5,-4) rectangle (32.5,0); \fill[sagegreen] (-2.5,51) rectangle (32.5,55); \draw[thick, step=3cm] (0,0) grid (30,51); \draw[thick] (-2.5,0) rectangle (0,51); \draw[thick] (30,0) rectangle (32.5,51); \draw[thick] (-2.5,-4) rectangle (32.5,0); \draw[thick] (-2.5,51) rectangle (32.5,55); \node[below, font=\bfseries] at (15, -4) {Width}; \node[left, font=\bfseries, rotate=90, anchor=south] at (-2.5, 25.5) {Length}; \end{tikzpicture}
+<section class="subsection" id="sec-6-1-First_look_polynomials-4">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Different sizes of blanket</span>
+</h2>
+<div class="para logical" id="sec-6-1-First_look_polynomials-4-2">
+<div class="para">What size blanket will Nyx make if they use 10 squares across, as shown in the picture? The width of the blanket will include the left border (2.5’’), the width of the 10 squares ( <span class="process-math">\(10 \times 3"\)</span> ), and the right border (2.5’’), so the blanket will be</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-4-2-2">
+\begin{equation*}
+2.5+10\times3+2.5 = 35"
+\end{equation*}
+</div>
+<div class="para">wide. Notice that we add the width of the border twice so instead of adding 2.5’’ twice, we can add <span class="process-math">\(2 \times 2.5" = 5"\)</span> once. We can then simplify our calculation to</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-4-2-4">
+\begin{equation*}
+10\times3+5 = 35"
+\end{equation*}
+</div>
+<div class="para">wide.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-4-3">
+<div class="para">The length of the blanket will include the top border (4’’), the length of the <span class="process-math">\(10+7=17\)</span> squares ( <span class="process-math">\((10+7) \times 3"\)</span> ), and the right border (4’’), so the blanket will be</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-4-3-3">
+\begin{equation*}
+4+(10+7)\times 3+4 = 59"
+\end{equation*}
+</div>
+<div class="para">long. As before, instead of adding 4’’ twice, we can add <span class="process-math">\(2 \times 4"=8"\)</span> once. We can then simplify our calculation to</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-4-3-5">
+\begin{equation*}
+(10+7)\times 3+8 = 59"
+\end{equation*}
+</div>
+<div class="para">long. The blanket will be <span class="process-math">\(35" \times 59"\)</span> which is a good size for a baby’s crib.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-4-4">
+<div class="para">Let’s do a few more examples. Let’s underline the number of squares to help us see a pattern. If Nyx uses only 2 squares, then</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-4-4-1">
+\begin{equation*}
+\text{width: }\underline{2}\times3+5 = 11"
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-4-4-2">
+\begin{equation*}
+\text{length: }(\underline{2}+7)\times3+8 = 35"
+\end{equation*}
+</div>
+<div class="para">The blanket will be <span class="process-math">\(11" \times 35"\)</span> which might be a good size for a doll.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-4-5">
+<div class="para">If Nyx uses 20 squares, then</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-4-5-1">
+\begin{equation*}
+\text{width: }\underline{20}\times3+5 = 65"
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-4-5-2">
+\begin{equation*}
+\text{length: }(\underline{20}+7)\times3+8 = 86"
+\end{equation*}
+</div>
+<div class="para">The blanket will be <span class="process-math">\(65" \times 86"\)</span> which would fit a twin bed.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Different sizes of blanket"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-4" title="Copy heading and permalink for Subsection: Different sizes of blanket" aria-label="Copy heading and permalink for Subsection: Different sizes of blanket">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-5">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Linear models for blanket dimensions</span>
+</h2>
+<div class="para logical" id="sec-6-1-First_look_polynomials-5-2">
+<div class="para">First, the variables are</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-5-2-1">
+\begin{equation*}
+S = \text{ number of squares (squares)}\sim \text{indep}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-5-2-2">
+\begin{equation*}
+W = \text{ width of blanket (inches)}\sim \text{dep}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-5-2-3">
+\begin{equation*}
+L = \text{ length of blanket (inches)}\sim \text{dep}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-1-First_look_polynomials-5-3">We can summarize our examples in a table.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(S\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">2</td>
+<td class="c m b0 r1 l0 t0 lines">10</td>
+<td class="c m b0 r0 l0 t0 lines">20</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(W\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">11</td>
+<td class="c m b0 r1 l0 t0 lines">35</td>
+<td class="c m b0 r0 l0 t0 lines">65</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(L\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">35</td>
+<td class="c m b0 r1 l0 t0 lines">59</td>
+<td class="c m b0 r0 l0 t0 lines">86</td>
+</tr>
+</table></div>
+<div class="para" id="sec-6-1-First_look_polynomials-5-5">When we graph both dependences, we see that the points fall on a line, so we have linear functions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-5-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>\begin{tikzpicture}[xscale=0.5, yscale=0.05] \foreach \y in {10,20,...,90} { \draw[gray!30, very thin] (0,\y) -- (20,\y); } \foreach \x in {1,2,...,20} { \draw[gray!30, very thin] (\x,0) -- (\x,90); } \draw[thick, -\gt ] (0,0) -- (21,0) node[right] {$S$}; \draw[thick, -\gt ] (0,0) -- (0,93) node[above] {{$W$}, {$L$}}; \foreach \x in {1,2,...,20} { \draw (\x, 1) -- (\x, -1) node[below] { \x}; } \foreach \y in {10,20,...,90} { \draw (0.2, \y) -- (-0.2, \y) node[left] { \y}; } \draw[very thick, blue] plot[domain=0:20] (\x, {3*\x + 5}); \draw[very thick, red] plot[domain=0:19.66] (\x, {3*\x + 31}); \end{tikzpicture}<div class="autopermalink" aria-hidden="true" data-description="Subsection: Linear models for blanket dimensions"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-5" title="Copy heading and permalink for Subsection: Linear models for blanket dimensions" aria-label="Copy heading and permalink for Subsection: Linear models for blanket dimensions">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-6">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Equations for the width and length of blanket</span>
+</h2>
+<div class="para" id="sec-6-1-First_look_polynomials-6-2">Let’s write equations for the width and for the length of Nyx’s blanket, each a function of the number of squares they use.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-6-3">
+<div class="para">First, the width. In our example, Nyx used <span class="process-math">\(S=10\)</span> squares across and the width of the blanket was</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-6-3-2">
+\begin{equation*}
+\underline{10}\times 3 + 5 = 35"
+\end{equation*}
+</div>
+<div class="para">Our equation is</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-6-3-3">
+\begin{equation*}
+\text{width: }S \times 3 + 5 = W.
+\end{equation*}
+</div>
+<div class="para">Let’s write the dependent variable on the left-hand side of the equation, and use algebraic notation to write <span class="process-math">\(3S\)</span> instead of <span class="process-math">\(S \times 3\text{.}\)</span> Our equation is then</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-6-3-6">
+\begin{equation*}
+W = 3S + 5
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-6-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-6-4">
+<div class="para">Next, the length. In our example, Nyx used <span class="process-math">\(S=10\)</span> squares across and the length of the blanket was</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-6-4-2">
+\begin{equation*}
+(\underline{10}+7) \times 3+8 = 59".
+\end{equation*}
+</div>
+<div class="para">Our equation is</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-6-4-3">
+\begin{equation*}
+(S+7) \times 3+8 = L,
+\end{equation*}
+</div>
+<div class="para">which we can rewrite as</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-6-4-4">
+\begin{equation*}
+L = 3(S+7)+8.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-6-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Equations for the width and length of blanket"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-6" title="Copy heading and permalink for Subsection: Equations for the width and length of blanket" aria-label="Copy heading and permalink for Subsection: Equations for the width and length of blanket">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-7">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The distributive property</span>
+</h2>
+<div class="para logical" id="sec-6-1-First_look_polynomials-7-2">
+<div class="para">But, wait! We could have calculated the length differently. We can think of the length as having three parts: <span class="process-math">\(3S\)</span> which is the length of the <span class="process-math">\(S\)</span> squares, <span class="process-math">\(3 \times 7 = 21\)</span> which is the length of the additional 7 squares, and <span class="process-math">\(2 \times 4 = 8\)</span> which is the length of the top and bottom borders. Breaking into these pieces we get a new equation for the length:</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-7-2-5">
+\begin{equation*}
+L = 3S + 21 + 8
+\end{equation*}
+</div>
+<div class="para">which can be simplified further to</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-7-2-6">
+\begin{equation*}
+L = 3S + 29
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-1-First_look_polynomials-7-3">Does this new equation make sense? The 3’’/square represents the length of each square Nyx uses. The 29’’ is the part of the length of the 7 squares and top/bottom borders combined. Okay.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-7-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-7-4">
+<div class="para">Uh oh! That means we have two different looking equations for the length</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-7-4-1">
+\begin{equation*}
+L = 3(S+7)+8 \text{ and }L=3S + 29.
+\end{equation*}
+</div>
+<div class="para">There must be some reason why these equations are actually the same.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-7-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-7-5">
+<div class="para">The distributive property is the secret. It says that</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-7-5-1">
+\begin{equation*}
+3(S+7)=3 \times (S+7) = (3 \times S) + (3 \times 7) = 3S + 21.
+\end{equation*}
+</div>
+<div class="para">Here’s a picture illustrating the distributive property.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-7-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>\begin{tikzpicture}[line width=1.5pt, scale = .5] \draw (0,0) rectangle (12,3); \draw (5,0) -- (5,3); \draw[\lt -, \gt =stealth, line width=0.8pt] (0, 4.25) -- (4.5, 4.25); \node at (6, 4.25) {$S+7$}; \draw[-\gt , \gt =stealth, line width=0.8pt] (7.5, 4.25) -- (12, 4.25); \node at (2.5, 3.5) {$S$}; \node at (8.5, 3.5) {$7$}; \node[left] at (-0.2, 1.5) {$3$}; \node at (2.5, 1.5) {$3S$}; \node at (8.5, 1.5) {$21$}; \end{tikzpicture}
+<div class="para logical" id="sec-6-1-First_look_polynomials-7-7">
+<div class="para">Going back we can use the distributive property to write</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-7-7-1">
+\begin{equation*}
+L = 3(S+7) + 10 = 3S +21 + 8 = 3S + 29
+\end{equation*}
+</div>
+<div class="para">which is exactly the other version of the equation. Whew.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-7-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: The distributive property"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-7" title="Copy heading and permalink for Subsection: The distributive property" aria-label="Copy heading and permalink for Subsection: The distributive property">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-8">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Area of blanket</span>
+</h2>
+<div class="para" id="sec-6-1-First_look_polynomials-8-2">Nyx has decided after they finish the blanket, they will make it the top layer of a light comforter. For that, Nyx will use plain fabric for the bottom layer and use some fiberfill to get a thickness of 2 inches in between. How much fiberfill do they need?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-1-First_look_polynomials-8-3">To start, Nyx needs to know the area of the blanket. The area is the length times the width. For the baby blanket that was 10 squares across, the width was 35’’ and the length was 59’’ so the area was <span class="process-math">\(35 \times 59 = 2065\)</span> square inches.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-8-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-8-4">
+<div class="para">We can write an equation for the area of the blanket using the variables</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-8-4-1">
+\begin{equation*}
+S = \text{ number of squares (squares) }\sim \text{indep}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-8-4-2">
+\begin{equation*}
+A = \text{ area of blanket (square inches)}\sim \text{ dep}
+\end{equation*}
+</div>
+<div class="para">We know that the area is the length times the width, so putting in our formulas we get</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-8-4-3">
+\begin{equation*}
+A = (3S+29)(3S+5)
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-8-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Area of blanket"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-8" title="Copy heading and permalink for Subsection: Area of blanket" aria-label="Copy heading and permalink for Subsection: Area of blanket">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-9">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The FOIL property</span>
+</h2>
+<div class="para" id="sec-6-1-First_look_polynomials-9-2">We can simplify the equation for area using the distributive property.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-9-3">
+\begin{align*}
+A \amp= (3S+29)(3S+5)\\
+\amp= (3S)(3S+5) + (29)(3S+5) \\
+\amp= \underbrace{(3S)(3S)}_{\text{First}} + \underbrace{(3S)(5)}_{\text{Outside}}  + \underbrace{(29)(3S)}_{\text{Inside}} + \underbrace{(29)(5)}_{\text{Last}}
+\end{align*}
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-9-4">
+<div class="para">Let’s simplify each term separately. The first product is</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-9-4-1">
+\begin{equation*}
+(3S)(3S) = (3 \times 3)(S \times S) = 9S^{2}
+\end{equation*}
+</div>
+<div class="para">The outside product is</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-9-4-2">
+\begin{equation*}
+(3S)(5) = (3 \times 5)S = 15S
+\end{equation*}
+</div>
+<div class="para">The inside product is</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-9-4-3">
+\begin{equation*}
+(29)(3S) = (29 \times 3)S = 87S
+\end{equation*}
+</div>
+<div class="para">And the last product is</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-9-4-4">
+\begin{equation*}
+(29)(5) = 29 \times 5 = 145
+\end{equation*}
+</div>
+<div class="para">Maybe you’ve heard of FOIL? That’s short for First-Outside-Inside-Last which can help you remember how this multiplying out works.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-9-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-9-5">
+<div class="para">Adding everything up and combining the like terms we get</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-9-5-1">
+\begin{equation*}
+A = 9S^{2} + 15S + 87S + 145 = 9S^{2} + (15+87)S + 145 = 9S^{2}+102S + 145
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-9-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-1-First_look_polynomials-9-6">Here’s a picture illustrating the FOIL property.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-9-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>\begin{tikzpicture}[line width=1.5pt, scale =.5] \draw (0,0) rectangle (18,7); \draw (3,0) -- (3,7); \draw (0,4) -- (18,4); \draw[\lt -, \gt =stealth, line width=0.8pt] (0, 8.25) -- (5.5, 8.25); \node at (7, 8.25) {$3S+29$}; \draw[-\gt , \gt =stealth, line width=0.8pt] (8.5, 8.25) -- (18, 8.25); \node at (1.5, 7.5) {$3S$}; \node at (10.5, 7.5) {$29$}; \draw[\lt -, \gt =stealth, line width=0.8pt] (-2.25, 0) -- (-2.25, 3.5); \node at (-2.25, 4) {$3S+5$}; \draw[-\gt , \gt =stealth, line width=0.8pt] (-2.25, 4.5) -- (-2.25, 7); \node[left] at (-0.25, 5.5) {$3S$}; \node[left] at (-0.25, 2) {$5$}; \node at (1.5, 5.5) {$9S^2$}; \node at (1.5, 2) {$15S$}; \node at (10.5, 5.5) {$87S$}; \node at (10.5, 2) {$145$}; \end{tikzpicture}
+<div class="para" id="sec-6-1-First_look_polynomials-9-8">That was a lot of algebra. Here’s a quicker version of what we just did so you can see it all in one place.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-9-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-9-9">
+\begin{align*}
+\amp \\
+A \amp= (3S+29)(3S+5) \\
+\amp= \underbrace{(3S)(3S)}_{\text{First}} + \underbrace{(3S)(5)}_{\text{Outside}}  + \underbrace{(29)(3S)}_{\text{Inside}} + \underbrace{(29)(5)}_{\text{Last}} \\
+\amp= 9S^2+15S + 87S + 145 \\
+\amp= 9S^2+102S + 145
+\end{align*}
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-9-10">
+<div class="para">Let’s double check, when <span class="process-math">\(S=10\)</span> we get</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-9-10-2">
+\begin{equation*}
+A = 9\times 10^{2} + 102 \times 10 + 145 = 2065
+\end{equation*}
+</div>
+<div class="para">as before.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-9-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: The FOIL property"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-9" title="Copy heading and permalink for Subsection: The FOIL property" aria-label="Copy heading and permalink for Subsection: The FOIL property">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-10">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A quadratic model</span>
+</h2>
+<div class="para" id="sec-6-1-First_look_polynomials-10-2">As before, we make make a table and graph. Using the same values for <span class="process-math">\(S\)</span> as before we get<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-10-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(S\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">2</td>
+<td class="c m b0 r1 l0 t0 lines">10</td>
+<td class="c m b0 r0 l0 t0 lines">20</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(A\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">385</td>
+<td class="c m b0 r1 l0 t0 lines">2065</td>
+<td class="c m b0 r0 l0 t0 lines">5785</td>
+</tr>
+</table></div>\begin{tikzpicture}[xscale=0.5, yscale=1] \foreach \y in {0.5,1.0,...,6.0} { \draw[gray!30, very thin] (0,\y) -- (20,\y); } \foreach \x in {1,2,...,20} { \draw[gray!30, very thin] (\x,0) -- (\x,6); } \draw[thick, -\gt ] (0,0) -- (21,0) node[right] {$S$}; \draw[thick, -\gt ] (0,0) -- (0,6.3) node[above] {$W$}; \foreach \x in {1,2,...,20} { \draw (\x, 0.1) -- (\x, -0.1) node[below] { \x}; } \foreach \y/\label in {0.5/500, 1/1000, 1.5/1500, 2/2000, 2.5/2500, 3/3000, 3.5/3500, 4/4000, 4.5/4500, 5/5000, 5.5/5500, 6/6000} { \draw (0.2, \y) -- (-0.2, \y) node[left] { \label}; } \draw[very thick, blue] plot[domain=0:20] (\x, {(9*\x*\x + 102*\x + 145)/1000}); \end{tikzpicture}
+<div class="para" id="sec-6-1-First_look_polynomials-10-5">We can see that the function is not linear because the graph is not a line.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-10-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: A quadratic model"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-10" title="Copy heading and permalink for Subsection: A quadratic model" aria-label="Copy heading and permalink for Subsection: A quadratic model">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-11">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Fiberfill</span>
+</h2>
+<div class="para logical" id="sec-6-1-First_look_polynomials-11-2">
+<div class="para">To get a fluffy feel without being too heavy, Nyx has decided to use a premium cluster fiberfill to get 2″ thick. (Nyx will stitch the fill along every fabric join and at intervals along the border, in case you were wondering, because nobody likes a lumpy blanket.) The clerk at the fabric store said that Nyx will need 14 ounces of fiberfill for every 1000 square inches of area. Notice that</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-11-2-2">
+\begin{equation*}
+\frac{14 \text{ ounces}}{1000 \text{ square inches}}= 0.14 \text{ ounces per square inch}
+\end{equation*}
+</div>
+<div class="para">For example, for a baby quilt that’s <span class="process-math">\(35" \times 59"\text{,}\)</span> Nyx will need <span class="process-math">\(0.14\)</span> times the area. That is, they will need</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-11-2-5">
+\begin{equation*}
+0.14 \times2065 = 289.1
+\end{equation*}
+</div>
+<div class="para">ounces of fiberfill.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-11-3">
+<div class="para">We can write an equation for the amount of fiberfill as a function of the number of squares using</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-11-3-1">
+\begin{equation*}
+S = \text{ number of squares (squares)}\sim \text{indep}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-11-3-2">
+\begin{equation*}
+F = \text{ weight of fiberfill (ounces)}\sim \text{dep}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-11-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-11-4">
+<div class="para">The equation is</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-11-4-1">
+\begin{equation*}
+F = 0.14 (3S + 29)(3S + 5) = 0.14(9S2 + 102S + 145) = 1.26S^{2} + 14.28S + 20.3
+\end{equation*}
+</div>
+<div class="para">in case you were curious.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-11-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Fiberfill"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-11" title="Copy heading and permalink for Subsection: Fiberfill" aria-label="Copy heading and permalink for Subsection: Fiberfill">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-12">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Another quadratic model</span>
+</h2>
+<div class="para" id="sec-6-1-First_look_polynomials-12-2">Let’s make a table and a graph for the fiberfill. First, we have<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-12-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(S\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">2</td>
+<td class="c m b0 r1 l0 t0 lines">10</td>
+<td class="c m b0 r0 l0 t0 lines">20</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(F\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">53.9</td>
+<td class="c m b0 r1 l0 t0 lines">289.1</td>
+<td class="c m b0 r0 l0 t0 lines">822.5</td>
+</tr>
+</table></div>\begin{tikzpicture}[xscale=0.5, yscale=1.2] \foreach \y in {0.5,1.0,...,5.0} { \draw[gray!30, very thin] (0,\y) -- (20,\y); } \foreach \x in {1,2,...,20} { \draw[gray!30, very thin] (\x,0) -- (\x,6); } \draw[thick, -\gt ] (0,0) -- (21,0) node[right] {$S$}; \draw[thick, -\gt ] (0,0) -- (0,5.3) node[above] {$W$}; \foreach \x in {1,2,...,20} { \draw (\x, 0.1) -- (\x, -0.1) node[below] { \x}; } \foreach \y/\label in {0.5/100, 1/200, 1.5/300, 2/400, 2.5/500, 3/600, 3.5/700, 4/800, 4.5/900, 5/1000} { \draw (0.2, \y) -- (-0.2, \y) node[left] { \label}; } \draw[very thick, red] plot[domain=0:20] (\x, {0.14*(9*\x*\x + 102*\x + 145)/200}); \end{tikzpicture}<div class="autopermalink" aria-hidden="true" data-description="Subsection: Another quadratic model"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-12" title="Copy heading and permalink for Subsection: Another quadratic model" aria-label="Copy heading and permalink for Subsection: Another quadratic model">🔗</a></div>
+</section>
+<section class="subsection" id="sec-6-1-First_look_polynomials-13">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Polynomial Equations</span>
+</h2>
+<div class="para" id="sec-6-1-First_look_polynomials-13-2">Our equations for length and width were linear equations<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-13-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-13-3">
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-13-3-1">
+\begin{equation*}
+W=3S+5
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-13-3-2">
+\begin{equation*}
+L=3(S+7)+8 \text{ or }L = 3S + 29
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-13-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-13-4">
+<div class="para">because they fit the standard linear equation template:</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-13-4-1">
+\begin{equation*}
+\text{dep }= \text{ start }+ \text{ slope }* \text{ indep}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-13-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-1-First_look_polynomials-13-5">Our equations for the area and fiberfill were quadratic equations<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-13-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-13-6">
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-13-6-1">
+\begin{equation*}
+A=(3S+31)(3S+5)\text{\quad or \quad}A = 9S^{2}+108S + 155
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-13-6-2">
+\begin{equation*}
+F = 0.14 (3S + 29)(3S + 5) \text{\quad or \quad}F= 1.26S^{2} + 14.28S + 20.3
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-13-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-6-1-First_look_polynomials-13-7">
+<div class="para">because they fit the standard quadratic equation template:</div>
+<div class="displaymath process-math" id="sec-6-1-First_look_polynomials-13-7-1">
+\begin{equation*}
+\text{dep }= a*\text{indep}^{2}+b*\text{indep}+c
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-13-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-1-First_look_polynomials-13-8">All of these equations are examples of <em class="alert">polynomial equation</em>, meaning they can be written as the sum of multiples of powers of the independent variable.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-13-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Polynomial Equations"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-13" title="Copy heading and permalink for Subsection: Polynomial Equations" aria-label="Copy heading and permalink for Subsection: Polynomial Equations">🔗</a></div>
+</section>
+<section class="conclusion" id="sec-6-1-First_look_polynomials-14">
+<div class="para logical" id="sec-6-1-First_look_polynomials-14-1">
+<ol class="upper-alpha ol-marker-1" id="sec-6-1-First_look_polynomials-14-1-1">
+<li id="sec-6-1-First_look_polynomials-14-1-1-1">
+<div class="para" id="sec-6-1-First_look_polynomials-14-1-1-1-1">How to use geometry to find an area?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-14-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item A"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-14-1-1-1" title="Copy heading and permalink for Item A" aria-label="Copy heading and permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-6-1-First_look_polynomials-14-1-1-2">
+<div class="para" id="sec-6-1-First_look_polynomials-14-1-1-2-1">When to use the distributive property?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-14-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-14-1-1-2" title="Copy heading and permalink for Item B" aria-label="Copy heading and permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-6-1-First_look_polynomials-14-1-1-3">
+<div class="para" id="sec-6-1-First_look_polynomials-14-1-1-3-1">What FOIL stands for and how to multiply out expressions in parentheses?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-14-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item C"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-14-1-1-3" title="Copy heading and permalink for Item C" aria-label="Copy heading and permalink for Item C">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-14-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-6-1-First_look_polynomials-14-2">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-6-1-First_look_polynomials-14-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" aria-hidden="true" data-description="Section 6.1: A first look at polynomial equations"><a tabindex="-1" href="#sec-6-1-First_look_polynomials" title="Copy heading and permalink for Section 6.1: A first look at polynomial equations" aria-label="Copy heading and permalink for Section 6.1: A first look at polynomial equations">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="ch-6-Interludes-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
