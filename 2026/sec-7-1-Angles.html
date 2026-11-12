@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Angles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-1 { system: extends upper-alpha; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-2 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+@counter-style ptx-marker-3 { system: extends lower-roman; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-4 { system: extends decimal; prefix: ''; suffix: '. '; }
+</style>
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Just Enough Algebra: 2026 Edition">
+<meta property="og:title" content="Just Enough Algebra: 2026 Edition">
+<meta property="book:title" content="Just Enough Algebra: 2026 Edition">
+<meta name="twitter:description" content="Just Enough Algebra: With common sense and some algebra you can understand the world better than you can with common sense alone.">
+<meta property="og:description" content="Just Enough Algebra: With common sense and some algebra you can understand the world better than you can with common sense alone.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.52"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.52"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.4.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.7e2ee203f2ecd6c8.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.7062ede5334282a6.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner">
+<span id="logo-link" class="logo-link"><img src="external/book-open-solid.png" alt="Logo image"></span><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">2026 Edition</span></a></div>
+<p class="byline">Suzanne Dorée, Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="ch-7-Trigonometry-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-7-Trigonometry.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul id="ptx-toc-group-frontmatter" class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-0-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul id="ptx-toc-group-ch-0-Prelude" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-0-Prelude-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul id="ptx-toc-group-sec-0-1-Approximation_and_rounding" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html#sec-0-1-Approximation_and_rounding-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html#ex-0-1-Approximation_and_rounding" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul id="ptx-toc-group-sec-0-2-Arithmetic_operations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html#sec-0-2-Arithmetic_operations-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html#ex-0-2-Arithmetic_operations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-3-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul id="ptx-toc-group-sec-0-3-Percentages" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-3-Percentages.html#sec-0-3-Percentages-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-3-Percentages.html#ex-0-3-Percentages" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul id="ptx-toc-group-sec-0-4-Order_of_operations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html#sec-0-4-Order_of_operations-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html#ex-0-4-Order_of_operations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-5-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul id="ptx-toc-group-sec-0-5-Fractions" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-5-Fractions.html#sec-0-5-Fractions-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-5-Fractions.html#ex-0-5-Fractions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul id="ptx-toc-group-sec-0-6-Powers_and_roots" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html#sec-0-6-Powers_and_roots-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html#ex-0-6-Powers_and_roots" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul id="ptx-toc-group-sec-0-7-Algebraic_notation" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html#sec-0-7-Algebraic_notation-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html#ex-0-7-Algebraic_notation" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul id="ptx-toc-group-sec-0-8-Scientific_notation" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html#sec-0-8-Scientific_notation-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html#ex-0-8-Scientific_notation" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-9-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul id="ptx-toc-group-sec-0-9-Logarithms" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-0-9-Logarithms.html#sec-0-9-Logarithms-3" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-9-Logarithms.html#ex-0-9-Logarithms" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-1-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul id="ptx-toc-group-ch-1-Variables" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-1-Variables-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul id="ptx-toc-group-sec-1-1-Variables_and_functions" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-gasoline" class="internal"><span class="title">The changing cost of gasoline</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-variables" class="internal"><span class="title">Naming variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-dependence" class="internal"><span class="title">Independent and dependent variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-domain" class="internal"><span class="title">Domain</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-constants" class="internal"><span class="title">Constants</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-percents" class="internal"><span class="title">Percents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#sec-1-1-Variables_and_functions-9" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ex-1-1-Variables_and_functions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul id="ptx-toc-group-sec-1-2-Tables_and_graphs" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-smoking-rates" class="internal"><span class="title">Smoking rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-labeling-variables" class="internal"><span class="title">Labeling variables in a table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-graphs" class="internal"><span class="title">Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-scaling" class="internal"><span class="title">Scaling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-plotting-points" class="internal"><span class="title">Plotting points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#sec-1-2-Tables_and_graphs-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ex-1-2-Tables_and_graphs" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul id="ptx-toc-group-sec-1-3-Rate_of_change" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-diver" class="internal"><span class="title">The speed of a diver</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-different-speeds" class="internal"><span class="title">Different speeds at different times</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-even-more-diver" class="internal"><span class="title">Even more speeds for the diver</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-roc-graphs" class="internal"><span class="title">Rate of change on graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-inc-dec" class="internal"><span class="title">Increasing and decreasing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#sec-1-3-Rate_of_change-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ex-1-3-Rate_of_change" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-4-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul id="ptx-toc-group-sec-1-4-Units" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-ucfs" class="internal"><span class="title">Unit conversion fractions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-decimal-parts" class="internal"><span class="title">Converting decimal parts of quantities</span></a></div>
+<ul id="ptx-toc-group-ss-1-4-decimal-parts" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-units-rounding" class="internal"><span class="title">Aside: Rounding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-compound-units" class="internal"><span class="title">Converting more complicated units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#sec-1-4-Units-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-Units.html#ex-1-4-Units" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul id="ptx-toc-group-sec-1-5-Metric_system_and_scientific_notation" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-tara-files" class="internal"><span class="title">Tara’s files</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-download-photos" class="internal"><span class="title">Downloading photos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-metric-system" class="internal"><span class="title">The metric system and powers of ten</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-tara-hair" class="internal"><span class="title">Very small things</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-small-numbers" class="internal"><span class="title">Very small numbers in scientific notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#sec-1-5-Metric_system_and_scientific_notation-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ex-1-5-Metric_system_and_scientific_notation" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul id="ptx-toc-group-sec-PE1A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul id="ptx-toc-group-sec-PE1B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-2-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul id="ptx-toc-group-ch-2-Equations" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-2-Equations-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-1-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-1-First_look_linear" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-calculating-costs" class="internal"><span class="title">Calculating what the plumber costs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-generalizing" class="internal"><span class="title">Making our calculations more general</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-graphing-linear" class="internal"><span class="title">Graphing linear functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-linear-eq-template" class="internal"><span class="title">A template for linear equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#sec-2-1-First_look_linear-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ex-2-1-First_look_linear" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-2-First_look_exponential" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-raises" class="internal"><span class="title">Percents of different wholes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-one-step" class="internal"><span class="title">A one-step process for finding percent change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-growth-rate-and-factor" class="internal"><span class="title">Growth rate and growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-powers" class="internal"><span class="title">Using exponents to find multiple increases at once</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-equation" class="internal"><span class="title">Generalizing to an equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-exp-eqn-template" class="internal"><span class="title">A template for exponential equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#sec-2-2-First_look_exponential-9" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ex-2-2-First_look_exponentialEX" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-3-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-3-Using_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-braking-distance" class="internal"><span class="title">Braking distance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-reaction-time" class="internal"><span class="title">Adding in reaction time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-power-eqns" class="internal"><span class="title">New kinds of equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#sec-2-3-Using_equations-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ex-2-3-Using_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul id="ptx-toc-group-sec-2-4-Approx_solutions" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-india-1-6" class="internal"><span class="title">India at 1.6 billion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-good-enough" class="internal"><span class="title">Good enough answers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#sec-2-4-Approx_solutions-5" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ex-2-4-Approx_solutions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-5-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul id="ptx-toc-group-sec-2-5-Finance" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-compound-interest" class="internal"><span class="title">Compound interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-savings-accounts" class="internal"><span class="title">Savings accounts (or annuities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-loan-payment" class="internal"><span class="title">Loan payments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#sec-2-5-Finance-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ex-2-5-Finance" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul id="ptx-toc-group-sec-PE2A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul id="ptx-toc-group-sec-PE2B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-3-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul id="ptx-toc-group-ch-3-Solving_equations" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-3-Solving_equations-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-3-1-Solving_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-solving-plumber" class="internal"><span class="title">Figuring out the plumber’s time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-approx-soln" class="internal"><span class="title">Finding an approximate solution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-symbolic-soln" class="internal"><span class="title">Solving symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-another-plumber" class="internal"><span class="title">Another plumber cost</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#sec-3-1-Solving_linear_equations-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ex-3-1-Solving_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul id="ptx-toc-group-sec-3-2-Solving_linear_inequalities" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-setup" class="internal"><span class="title">Baking brownies (and setting up inequalities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-solving-ineq" class="internal"><span class="title">Solving inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-caution" class="internal"><span class="title">Things to be careful about</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-between" class="internal"><span class="title">Chains of inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#sec-3-2-Solving_linear_inequalities-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ex-3-2-Solving_linear_inequalities" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul id="ptx-toc-group-sec-3-3-Solving_power_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-lemonade" class="internal"><span class="title">Lemonade</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-solving-power-symbolically" class="internal"><span class="title">Solving a power equation symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-lemon-zest" class="internal"><span class="title">Lemon zest (and another kind of root)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-roots" class="internal"><span class="title">Roots, officially</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#sec-3-3-Solving_power_equations-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ex-3-3-Solving_power_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul id="ptx-toc-group-sec-3-4-Solving_exponential_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-healthcare" class="internal"><span class="title">Health care costs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-solving-exp-symbolically" class="internal"><span class="title">Solving an exponential equation symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-another-example" class="internal"><span class="title">Another example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-logs" class="internal"><span class="title">Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#sec-3-4-Solving_exponential_equations-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ex-3-4-Solving_exponential_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul id="ptx-toc-group-sec-3-5-Solving_quadratic_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-juggling" class="internal"><span class="title">Juggling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-solving-quadratic" class="internal"><span class="title">Solving exactly</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-quadratic-nonzero" class="internal"><span class="title">Things that don’t equal zero</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-vertex" class="internal"><span class="title">Highest point</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-parabola" class="internal"><span class="title">The graph of a quadratic function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#sec-3-5-Solving_quadratic_equations-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ex-3-5-Solving_quadratic_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul id="ptx-toc-group-sec-PE3A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul id="ptx-toc-group-sec-PE3B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-4-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul id="ptx-toc-group-ch-4-Closer_look_linear" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-4-Closer_look_linear-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-4-1-Modeling_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#sec-4-1-affordable-housing" class="internal"><span class="title">Affordable housing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#sec-4-1-Modeling_linear_equations-4" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#ex-4-1-Modeling_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul id="ptx-toc-group-sec-4-2-Systems_linear_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#sec-4-2-lock-machines" class="internal"><span class="title">Comparing two lock machines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ss-4-2-finding-differences" class="internal"><span class="title">Figuring out the differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ss-4-2-solving-system-symbolically" class="internal"><span class="title">Solving symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#sec-4-2-Systems_linear_equations-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ex-4-2-Systems_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-3-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul id="ptx-toc-group-sec-4-3-Intercepts" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ss-4-3-fixed" class="internal"><span class="title">Fixed amounts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ss-4-3-direct-prop" class="internal"><span class="title">Direct proportions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#sec-4-3-Intercepts-5" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ex-4-3-Intercepts" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-4-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul id="ptx-toc-group-sec-4-4-Slopes" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ss-4-4-paper" class="internal"><span class="title">Paper delivery prices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ss-4-4-recycling-charge" class="internal"><span class="title">Recycling charge</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#sec-4-4-Slopes-5" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ex-4-4-Slopes" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul id="ptx-toc-group-sec-4-5-Fitting_lines_to_data" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-road-salt-usage" class="internal"><span class="title">Road salt usage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-connect-the-dots" class="internal"><span class="title">Connect-the-dots model?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-lines-through-pairs" class="internal"><span class="title">Lines through pairs of points?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-best-fit" class="internal"><span class="title">Best fitting line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-outliers" class="internal"><span class="title">Outliers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#sec-4-5-Fitting_lines_to_data-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ex-4-5-Fitting_lines_to_data" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul id="ptx-toc-group-sec-PE4A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul id="ptx-toc-group-sec-PE4B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-5-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul id="ptx-toc-group-ch-5-Closer_look_exponential" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-5-Closer_look_exponential-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul id="ptx-toc-group-sec-5-1-Modeling_exponential_equations" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#sec-5-1-Modeling_exponential_equations-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#sec-5-1-Modeling_exponential_equations-4" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#ex-5-1-Modeling_exponential_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul id="ptx-toc-group-sec-5-2-Exp_growth_decay" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-caffeine" class="internal"><span class="title">Caffeine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-approximating-and-solving" class="internal"><span class="title">Solving (approximately and exactly)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-rate-of-change" class="internal"><span class="title">Rate of change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-half-life" class="internal"><span class="title">Half-life (and doubling time)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#sec-5-2-Exp_growth_decay-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ex-5-2-Exp_growth_decay" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-3-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul id="ptx-toc-group-sec-5-3-Growth_factor" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-obesity" class="internal"><span class="title">Childhood obesity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-growth-factor" class="internal"><span class="title">Finding the growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-checking-formula" class="internal"><span class="title">Checking our formula (and rounding)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-percent-change" class="internal"><span class="title">Finding percent change from growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#sec-5-3-Growth_factor-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ex-5-3-Growth_factor" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul id="ptx-toc-group-sec-5-4-Linear_vs_exponential" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-car-depreciation" class="internal"><span class="title">Car value depreciation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-linear-model" class="internal"><span class="title">A linear model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-exponential-model" class="internal"><span class="title">An exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-compare-models" class="internal"><span class="title">Comparing the linear model and the exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#sec-5-4-Linear_vs_exponential-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ex-5-4-Linear_vs_exponential" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul id="ptx-toc-group-sec-5-5-Logistic_growth" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-flu-outbreak" class="internal"><span class="title">Flu outbreak in the dorms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-exponential" class="internal"><span class="title">Exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-4-saturation" class="internal"><span class="title">Saturation model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-logistic" class="internal"><span class="title">Logistic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-comparing" class="internal"><span class="title">Comparing models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#sec-5-5-Logistic_growth-8" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ex-5-5-Logistic_growth" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul id="ptx-toc-group-sec-PE5A" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul id="ptx-toc-group-sec-PE5B" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-6-Interludes.html" class="internal"><span class="codenumber">6</span> <span class="title">Interludes</span></a></div>
+<ul id="ptx-toc-group-ch-6-Interludes" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-6-Interludes-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Interlude: A first look at polynomial equations</span></a></div>
+<ul id="ptx-toc-group-sec-6-1-First_look_polynomials" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-3" class="internal"><span class="title">Different sizes of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-4" class="internal"><span class="title">Linear models for blanket dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-5" class="internal"><span class="title">Equations for the width and length of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-6" class="internal"><span class="title">The distributive property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-7" class="internal"><span class="title">Area of blanket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-8" class="internal"><span class="title">The FOIL property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-9" class="internal"><span class="title">A quadratic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-10" class="internal"><span class="title">Fiberfill</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-11" class="internal"><span class="title">Another quadratic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-12" class="internal"><span class="title">Polynomial Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#sec-6-1-First_look_polynomials-13" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-6-1-First_look_polynomials.html#ex-6-1-First_look_polynomials" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Interlude: A first look at right triangles</span></a></div>
+<ul id="ptx-toc-group-sec-6-2-First_look_right_triangles" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-2" class="internal"><span class="title">Sprinting across the soccer field</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-3" class="internal"><span class="title">The Pythagorean Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-4" class="internal"><span class="title">Hanging a wall banner</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-5" class="internal"><span class="title">Why is the Pythagorean Theorem true?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#sec-6-2-First_look_right_triangles-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-6-2-First_look_right_triangles.html#ex-6-2-First_look_right_triangles" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Interlude: Piecewise-linear functions</span></a></div>
+<ul id="ptx-toc-group-sec-6-3-piecewise-linear" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#sec-6-3-piecewise-linear-2" class="internal"><span class="title">Late parking ticket</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#sec-6-3-piecewise-linear-3" class="internal"><span class="title">Piecewise-linear functions and their graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#sec-6-3-piecewise-linear-4" class="internal"><span class="title">Late rent</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#sec-6-3-piecewise-linear-5" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-6-3-piecewise-linear.html#ex-6-3-Piecewise_linear" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-4-Point-slope_form.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Interlude: Point-slope equation of a line</span></a></div>
+<ul id="ptx-toc-group-sec-6-4-Point-slope_form" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-4-Point-slope_form.html#sec-6-4-Point-slope_form-2" class="internal"><span class="title">Learning to make pasta</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-4-Point-slope_form.html#sec-6-4-Point-slope_form-3" class="internal"><span class="title">Point-slope and slope-intercept equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-4-Point-slope_form.html#sec-6-4-Point-slope_form-4" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-6-4-Point-slope_form.html#ex-6-4-Point-slope_form" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-5-Linear_vs_exp_point-slope.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Interlude: Linear vs. exponential models in point-slope form</span></a></div>
+<ul id="ptx-toc-group-sec-6-5-Linear_vs_exp_point-slope" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-5-Linear_vs_exp_point-slope.html#sec-6-5-Linear_vs_exp_point-slope-2" class="internal"><span class="title">Movie ticket prices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-5-Linear_vs_exp_point-slope.html#sec-6-5-Linear_vs_exp_point-slope-3" class="internal"><span class="title">Linear model for movie ticket prices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-5-Linear_vs_exp_point-slope.html#sec-6-5-Linear_vs_exp_point-slope-4" class="internal"><span class="title">Exponential model for ticket prices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-5-Linear_vs_exp_point-slope.html#sec-6-5-Linear_vs_exp_point-slope-5" class="internal"><span class="title">Comparing linear vs. exponential</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-5-Linear_vs_exp_point-slope.html#sec-6-5-Linear_vs_exp_point-slope-6" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-6-5-Linear_vs_exp_point-slope.html#ex-6-5-Linear_vs_exp_point-slope" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-7-Trigonometry.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-ch-7-Trigonometry">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-7-Trigonometry-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-7-1-Angles.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Angles</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-sec-7-1-Angles">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-1-Angles.html#ss-7-1-neighborhood-angles" class="internal"><span class="title">Neighborhood angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-1-Angles.html#ss-7-1-angles-in-triangles" class="internal"><span class="title">Angles in triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-1-Angles.html#ss-7-1-special-triangle" class="internal"><span class="title">A special triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-1-Angles.html#ss-7-1-std-pos" class="internal"><span class="title">Angles in standard position</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-1-Angles.html#ss-7-1-greek-letters" class="internal"><span class="title">Naming angles with Greek letters</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-1-Angles.html#sec-7-1-Angles-7" class="internal"><span class="title">Do you know …</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-7-1-Angles.html#ex-7-1-Angles" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul id="ptx-toc-group-backmatter" class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A.</span> <span class="title">Practice Final Exams</span></a></div>
+<ul id="ptx-toc-group-backmatter-2" class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul id="ptx-toc-group-sec-pfe1" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul id="ptx-toc-group-sec-pfe2" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B.</span> <span class="title">Templates and Formulas</span></a></div>
+<ul id="ptx-toc-group-app-templates-formulas" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="app-templates-formulas-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-7-1-Angles">
+<h1 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Angles</span>
+</h1>
+<section class="subsection" id="ss-7-1-neighborhood-angles">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Neighborhood angles</span>
+</h2>
+<div class="para" id="ss-7-1-neighborhood-angles-2">Tim is walking around his neighborhood in St. Paul, obsessing about angles. He sees angles, like, everywhere.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-neighborhood-angles-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-7-1-neighborhood-angles-3">Tim notices the stately oak, the energetic maple, and the perfectly formed linden tree all have branches sticking out at funny angles – perhaps 45° for the linden, 60° for the maple, and up to 90° for the oak.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-neighborhood-angles-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig_branch_angles"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/tree_branches.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Branch angles. Source: Gemini<div class="autopermalink" aria-hidden="true" data-description="Figure 7.1.1"><a tabindex="-1" href="#fig_branch_angles" title="Copy heading and permalink for Figure 7.1.1" aria-label="Copy heading and permalink for Figure 7.1.1">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="ss-7-1-neighborhood-angles-5">Tim compares the roof lines of the 1920s one-and-a-half story craftsman bungalows with their low-slung roofs at about 20° to the 1940s two-story tudors with their dramatic 40° pitched roofs.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-neighborhood-angles-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig_roof_lines"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/bungalow_tudor.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Comparing roof angles on a bungalow (left) and tudor (right). Source: Gemini<div class="autopermalink" aria-hidden="true" data-description="Figure 7.1.2"><a tabindex="-1" href="#fig_roof_lines" title="Copy heading and permalink for Figure 7.1.2" aria-label="Copy heading and permalink for Figure 7.1.2">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="ss-7-1-neighborhood-angles-7">He passes the local skate park and sees a few teens practicing their spins. A quick 180° frontside (where you end up facing the opposite direction), a 360° aeriel (where you end up facing the same direction you started), and one kid even pulled off a 540° aeriel!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-neighborhood-angles-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig_540_aerial"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/skateboard.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A 540 aerial on a skateboard. Source: Gemini<div class="autopermalink" aria-hidden="true" data-description="Figure 7.1.3"><a tabindex="-1" href="#fig_540_aerial" title="Copy heading and permalink for Figure 7.1.3" aria-label="Copy heading and permalink for Figure 7.1.3">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Subsection: Neighborhood angles"><a tabindex="-1" href="#ss-7-1-neighborhood-angles" title="Copy heading and permalink for Subsection: Neighborhood angles" aria-label="Copy heading and permalink for Subsection: Neighborhood angles">🔗</a></div>
+</section>
+<section class="subsection" id="ss-7-1-angles-in-triangles">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Angles in triangles</span>
+</h2>
+<div class="para" id="ss-7-1-angles-in-triangles-2">Tim learned in geometry class that angles can be measured between any two lines. For example each pair of sides in a triangle has an angle between them. A fun fact is that the three angles in a triangle add up to 180°, the same number of degrees as a straight line.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-angles-in-triangles-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ss-7-1-angles-in-triangles-3">
+<div class="para">For example, the triangular roof on the bungalow house has two angles of 20°, which means the larger angle is</div>
+<div class="displaymath process-math" id="ss-7-1-angles-in-triangles-3-2">
+\begin{equation*}
+180^{\circ}-20^{\circ}-20^{\circ}=140^{\circ}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-angles-in-triangles-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-bungalow-roof.svg" role="img" class="contained"></div>
+<div class="para" id="ss-7-1-angles-in-triangles-5">There’s a name for a triangle where two angles are equal. It’s called an <em class="alert">isoceles</em> triangle. The roof on the bungalow house (and the tudor house) form isoceles triangles. A fun fact about isoceles triangles is that the sides across from the matching angles have the same length. For example, the roof might have these dimensions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-angles-in-triangles-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-bungalow-roof-sides.svg" role="img" class="contained"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Angles in triangles"><a tabindex="-1" href="#ss-7-1-angles-in-triangles" title="Copy heading and permalink for Subsection: Angles in triangles" aria-label="Copy heading and permalink for Subsection: Angles in triangles">🔗</a></div>
+</section>
+<section class="subsection" id="ss-7-1-special-triangle">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A special triangle</span>
+</h2>
+<div class="para logical" id="ss-7-1-special-triangle-2">
+<div class="para">The 60° of the maple tree branch sits within a right triangle. The missing angle is</div>
+<div class="displaymath process-math" id="ss-7-1-special-triangle-2-2">
+\begin{equation*}
+180^{\circ}-90^{\circ}-60^{\circ} = 30^{\circ}.
+\end{equation*}
+</div>
+<div class="para">Notice if we measure <span class="process-math">\(a=1\)</span> foot up the tree and <span class="process-math">\(b\)</span> feet out from the tree, it’s not immediately clear what <span class="process-math">\(b\)</span> equals. We can label the length of the corresponding branch <span class="process-math">\(c\)</span> feet.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-special-triangle.svg" role="img" class="contained"></div>
+<div class="para" id="ss-7-1-special-triangle-4">Let’s figure out what <span class="process-math">\(b\)</span> and <span class="process-math">\(c\)</span> are. Look what happens if we put an upside-down copy of the triangle on top of our triangle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-top-bottom.svg" role="img" class="contained"></div>
+<div class="para logical" id="ss-7-1-special-triangle-6">
+<div class="para">Notice that the sides labeled <span class="process-math">\(b\)</span> line up and the sides labeled <span class="process-math">\(a\)</span> fall exactly in a straight line because</div>
+<div class="displaymath process-math" id="ss-7-1-special-triangle-6-3">
+\begin{equation*}
+90^{\circ} + 90^{\circ} = 180^{\circ}
+\end{equation*}
+</div>
+<div class="para">That entire side of the big outer triangle is length <span class="process-math">\(1+1=2\)</span> feet.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-7-1-special-triangle-7">The angles of the outer triangle are 60°, 60°, and <span class="process-math">\(30^{\circ} + 30^{\circ}=60^{\circ}\text{,}\)</span> which means all three angles are equal. By symmetry, the lengths of the sides must all be equal too. Since the left-hand side has length 2 feet, we get <span class="process-math">\(c=2\)</span> feet also.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-7-1-special-triangle-8">By the way, when all three angles and all three sides of a triangle are equal, it is an <em class="alert">equilateral triangle</em>. So an isoceles triangles has two angles and two sides equal, but an equilateral triangle has three angles and three sides equal.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ss-7-1-special-triangle-9">
+<div class="para">Let’s go back to our original triangle and use the Pythagorean Theorem to find the length <span class="process-math">\(b\text{.}\)</span> We know</div>
+<div class="displaymath process-math" id="ss-7-1-special-triangle-9-2">
+\begin{equation*}
+a^{2} + b^{2} = c^{2}.
+\end{equation*}
+</div>
+<div class="para">Evaluating at <span class="process-math">\(a=1\)</span> and <span class="process-math">\(c=2\)</span> we get</div>
+<div class="displaymath process-math" id="ss-7-1-special-triangle-9-5">
+\begin{equation*}
+1^{2} + b^{2} = 2^{2}
+\end{equation*}
+</div>
+<div class="para">That is,</div>
+<div class="displaymath process-math" id="ss-7-1-special-triangle-9-6">
+\begin{equation*}
+1 + b^{2} = 4
+\end{equation*}
+</div>
+<div class="para">so subtracting 1 from each side we get <span class="process-math">\(b^{2} = 3\text{.}\)</span> Therefore <span class="process-math">\(b = \sqrt{3}\approx 1.732 \text{ feet}\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-sqrt-3.svg" role="img" class="contained"></div>
+<div class="para" id="ss-7-1-special-triangle-11">This is a <em class="alert">special triangle</em> because there were nice clean numbers for the lengths. In a precalculus or calculus class, you might see this triangle drawn in various positions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;grid-template-columns:31.0344827586207% 31.0344827586207% 31.0344827586207%;column-gap:3.333333333333333%;">
+<div class="sbspanel sbspanel--middle middle" style=""><div class="image-box"><img src="generated/latex-image/tikz-7-1-branch-pos.svg" role="img" class="contained"></div></div>
+<div class="sbspanel sbspanel--middle middle" style=""><div class="image-box"><img src="generated/latex-image/tikz-7-1-std-60-pos.svg" role="img" class="contained"></div></div>
+<div class="sbspanel sbspanel--middle middle" style=""><div class="image-box"><img src="generated/latex-image/tikz-7-1-std-30-pos.svg" role="img" class="contained"></div></div>
+</div>
+</div>
+<div class="para" id="ss-7-1-special-triangle-13">In this <em class="alert">30-60-90 triangle</em>, the hypotenuse is always length 2, the shortest side (of length 1) is across from (or “opposite”) to the smaller 30° angle, and the longer side opposite to the larger 60° angle is length <span class="process-math">\(\sqrt{3}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-7-1-special-triangle-14">You will see another special triangle, the <em class="alert">isoceles right triangle</em> (or <em class="alert">45-45-90 triangle</em>, in the exercises.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-special-triangle-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: A special triangle"><a tabindex="-1" href="#ss-7-1-special-triangle" title="Copy heading and permalink for Subsection: A special triangle" aria-label="Copy heading and permalink for Subsection: A special triangle">🔗</a></div>
+</section>
+<section class="subsection" id="ss-7-1-std-pos">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Angles in standard position</span>
+</h2>
+<div class="para" id="ss-7-1-std-pos-2">Not all angles fit in a right triangle or even any shape triangle. Like that 540° rotation of the skateboarder. A general way to measure angles is to start the measure on the positive horizontal axis, let’s label it the <span class="process-math">\(x\)</span>-axis and rotate counterclockwise around. In case you’re not familiar with the hands on an analog clock, that means we head towards the positive vertical axis, which we’ll label the <span class="process-math">\(y\)</span>-axis. For example, the picture shows measuring angles of 30°, 45°, 60°, 90°, and 180°.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-std-pos-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-angles-1.svg" role="img" class="contained"></div>
+<div class="para logical" id="ss-7-1-std-pos-4">
+<div class="para">Note that the straight angle, 180°, is halfway around the circle. A full rotation is 360°. That 540°? It’s one and half times around because</div>
+<div class="displaymath process-math" id="ss-7-1-std-pos-4-4">
+\begin{equation*}
+360^{\circ} + 180^{\circ} = 540^{\circ}
+\end{equation*}
+</div>
+<div class="para">In our picture we also include three quarters of the way around which is <span class="process-math">\(3 \times 90^{\circ} = 270^{\circ}\)</span> Note that 0° is just where we start.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-std-pos-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-angles-2.svg" role="img" class="contained"></div>
+<div class="para" id="ss-7-1-std-pos-6">We can even talk about negative angles if we imagine they rotate clockwise (the other direction) instead.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-std-pos-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-neg-angles.svg" role="img" class="contained"></div>
+<div class="para" id="ss-7-1-std-pos-8">When we draw an angle starting on the positive <span class="process-math">\(x\)</span>-axis and rotate counterclockwise for a positive angle and clockwise for a negative angle, we say the angle is drawn <em class="alert">in standard position</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-std-pos-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Angles in standard position"><a tabindex="-1" href="#ss-7-1-std-pos" title="Copy heading and permalink for Subsection: Angles in standard position" aria-label="Copy heading and permalink for Subsection: Angles in standard position">🔗</a></div>
+</section>
+<section class="subsection" id="ss-7-1-greek-letters">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Naming angles with Greek letters</span>
+</h2>
+<div class="para logical" id="ss-7-1-greek-letters-2">
+<div class="para">Textbooks often name angles using Greek letters. Two commonly used Greek letters are</div>
+<dl class="description-list">
+<dt id="ss-7-1-greek-letters-2-1-1">
+<span class="process-math">\(\alpha\)</span><div class="autopermalink" aria-hidden="true" data-description="Item: \alpha"><a tabindex="-1" href="#ss-7-1-greek-letters-2-1-1" title="Copy heading and permalink for Item: \alpha" aria-label="Copy heading and permalink for Item: \alpha">🔗</a></div>
+</dt>
+<dd>
+<div class="para" id="ss-7-1-greek-letters-2-1-1-2">alpha (pronounced “al-fah”)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-greek-letters-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
+<dt id="ss-7-1-greek-letters-2-1-2">
+<span class="process-math">\(\beta\)</span><div class="autopermalink" aria-hidden="true" data-description="Item: \beta"><a tabindex="-1" href="#ss-7-1-greek-letters-2-1-2" title="Copy heading and permalink for Item: \beta" aria-label="Copy heading and permalink for Item: \beta">🔗</a></div>
+</dt>
+<dd>
+<div class="para" id="ss-7-1-greek-letters-2-1-2-2">beta (pronounced “bay-tah”)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-greek-letters-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
+</dl>
+<div class="para">They are like the letters <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> the first two letters of the alphabet. In fact, the word “alphabet” comes from the Greek language. So now you know.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-greek-letters-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ss-7-1-greek-letters-3">
+<div class="para">Some other common Greek letter names for angles are</div>
+<dl class="description-list">
+<dt id="ss-7-1-greek-letters-3-1-1">
+<span class="process-math">\(\gamma\)</span><div class="autopermalink" aria-hidden="true" data-description="Item: \gamma"><a tabindex="-1" href="#ss-7-1-greek-letters-3-1-1" title="Copy heading and permalink for Item: \gamma" aria-label="Copy heading and permalink for Item: \gamma">🔗</a></div>
+</dt>
+<dd>
+<div class="para" id="ss-7-1-greek-letters-3-1-1-2">gamma (pronounced “gam-uh”)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-greek-letters-3-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
+<dt id="ss-7-1-greek-letters-3-1-2">
+<span class="process-math">\(\theta\)</span><div class="autopermalink" aria-hidden="true" data-description="Item: \theta"><a tabindex="-1" href="#ss-7-1-greek-letters-3-1-2" title="Copy heading and permalink for Item: \theta" aria-label="Copy heading and permalink for Item: \theta">🔗</a></div>
+</dt>
+<dd>
+<div class="para" id="ss-7-1-greek-letters-3-1-2-2">theta (pronounced “thay-ta”)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-greek-letters-3-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
+<dt id="ss-7-1-greek-letters-3-1-3">
+<span class="process-math">\(\phi\)</span><div class="autopermalink" aria-hidden="true" data-description="Item: \phi"><a tabindex="-1" href="#ss-7-1-greek-letters-3-1-3" title="Copy heading and permalink for Item: \phi" aria-label="Copy heading and permalink for Item: \phi">🔗</a></div>
+</dt>
+<dd>
+<div class="para" id="ss-7-1-greek-letters-3-1-3-2">phi (pronounced “fee” or “fie”)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-greek-letters-3-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
+</dl>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ss-7-1-greek-letters-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Naming angles with Greek letters"><a tabindex="-1" href="#ss-7-1-greek-letters" title="Copy heading and permalink for Subsection: Naming angles with Greek letters" aria-label="Copy heading and permalink for Subsection: Naming angles with Greek letters">🔗</a></div>
+</section>
+<section class="subsection" id="sec-7-1-Angles-7">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Do you know …</span>
+</h2>
+<div class="para logical" id="sec-7-1-Angles-7-2">
+<ol class="upper-alpha" style="list-style: ptx-marker-1;" id="sec-7-1-Angles-7-2-1">
+<li id="sec-7-1-Angles-7-2-1-1">
+<div class="para" id="sec-7-1-Angles-7-2-1-1-1">What the sum of the angles inside a triangle is?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item A"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-1" title="Copy heading and permalink for Item A" aria-label="Copy heading and permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-7-1-Angles-7-2-1-2">
+<div class="para" id="sec-7-1-Angles-7-2-1-2-1">How to draw angles in “standard position” including negative angles?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-2" title="Copy heading and permalink for Item B" aria-label="Copy heading and permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-7-1-Angles-7-2-1-3">
+<div class="para" id="sec-7-1-Angles-7-2-1-3-1">How many degrees are in a straight line angle?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item C"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-3" title="Copy heading and permalink for Item C" aria-label="Copy heading and permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-7-1-Angles-7-2-1-4">
+<div class="para" id="sec-7-1-Angles-7-2-1-4-1">How many degrees are in a full circle?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item D"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-4" title="Copy heading and permalink for Item D" aria-label="Copy heading and permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-7-1-Angles-7-2-1-5">
+<div class="para" id="sec-7-1-Angles-7-2-1-5-1">How to use the Pythagorean theorem to the length of a side of a right triangle, if you know the lengths of the other two sides?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item E"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-5" title="Copy heading and permalink for Item E" aria-label="Copy heading and permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-7-1-Angles-7-2-1-6">
+<div class="para" id="sec-7-1-Angles-7-2-1-6-1">How to draw and label the standard 30-60-90 triangle?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item F"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-6" title="Copy heading and permalink for Item F" aria-label="Copy heading and permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-7-1-Angles-7-2-1-7">
+<div class="para" id="sec-7-1-Angles-7-2-1-7-1">How to draw and label the 45-45-90 (isoceles right triangle)?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item G"><a tabindex="-1" href="#sec-7-1-Angles-7-2-1-7" title="Copy heading and permalink for Item G" aria-label="Copy heading and permalink for Item G">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-7-1-Angles-7-3">
+<em class="alert">If you’re not sure, work the rest of the exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-7-1-Angles-7-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Do you know …"><a tabindex="-1" href="#sec-7-1-Angles-7" title="Copy heading and permalink for Subsection: Do you know …" aria-label="Copy heading and permalink for Subsection: Do you know …">🔗</a></div>
+</section>
+<section class="exercises" id="ex-7-1-Angles">
+<h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
+</h2>
+<section class="introduction" id="ex-7-1-Angles-2">
+<div class="para" id="ex-7-1-Angles-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex-7-1-Angles-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<article class="exercise exercise-like" id="find-missing-angle-angles"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="find-missing-angle-angles-1">
+<div class="para" id="find-missing-angle-angles-1-1">Find the missing angle in each triangle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#find-missing-angle-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="find-missing-angle-angles-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="find-missing-angle-angles-2-1-1">What is the center angle <span class="process-math">\(\alpha\)</span> on the roof of a Tudor house?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#find-missing-angle-angles-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-ex-1-a.svg" role="img" class="contained"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.a"><a tabindex="-1" href="#find-missing-angle-angles-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="find-missing-angle-angles-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="find-missing-angle-angles-3-1-1">What is the center angle <span class="process-math">\(\beta\)</span> on the roof of a Gothic Revival house?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#find-missing-angle-angles-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-ex-1-b.svg" role="img" class="contained"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.b"><a tabindex="-1" href="#find-missing-angle-angles-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="find-missing-angle-angles-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="find-missing-angle-angles-4-1-1">Marta is hanging a banner for Coach Pelto. The 16-foot ladder makes an angle of approximately 75.5° with the floor. What angle <span class="process-math">\(\theta\)</span> does the ladder make with the wall?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#find-missing-angle-angles-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<details id="find-missing-angle-angles-4-1-2" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading"><span class="type">Aside</span></h5></summary>
+<aside class="aside aside-like knowl__content">
+<div class="para" id="find-missing-angle-angles-4-1-2-1">Story appears in 6.2<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#find-missing-angle-angles-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</aside></details> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="generated/latex-image/find-missing-angle-angles-4-1-3.svg" role="img" class="contained"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.c"><a tabindex="-1" href="#find-missing-angle-angles-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="find-missing-angle-angles-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="find-missing-angle-angles-5-1-1">An ADA accessible ramp is 48 feet long and rises 4 feet from the sidewalk to the entrance to the women’s health clinic. If the ramp makes an angle of approximately <span class="process-math">\(4.78^{\circ}\)</span> with the ground, at what angle <span class="process-math">\(\phi\)</span> does the ramp meet the entrance?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#find-missing-angle-angles-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<details id="find-missing-angle-angles-5-1-2" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading"><span class="type">Aside</span></h5></summary>
+<aside class="aside aside-like knowl__content">
+<div class="para" id="find-missing-angle-angles-5-1-2-1">Story also appears in 6.2<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#find-missing-angle-angles-5-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</aside></details> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-7-2-ex-1-d.svg" role="img" class="contained"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.d"><a tabindex="-1" href="#find-missing-angle-angles-5" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 1"><a tabindex="-1" href="#find-missing-angle-angles" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="skateboard-angles"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="skateboard-angles-1">
+<div class="para" id="skateboard-angles-1-1">Valeria is just learning to skateboard. She is trying to do a full 360° but she’s not quite there yet. Draw each angle Valeria was able to land in standard position.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#skateboard-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="skateboard-angles-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="skateboard-angles-2-1-1">80°<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#skateboard-angles-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.a"><a tabindex="-1" href="#skateboard-angles-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="skateboard-angles-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="skateboard-angles-3-1-1">150°<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#skateboard-angles-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.b"><a tabindex="-1" href="#skateboard-angles-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="skateboard-angles-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="skateboard-angles-4-1-1">225° (Hint: <span class="process-math">\(225 = 180 + 45\)</span>)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#skateboard-angles-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.c"><a tabindex="-1" href="#skateboard-angles-4" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="skateboard-angles-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="skateboard-angles-5-1-1">300° (So close!)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#skateboard-angles-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.d"><a tabindex="-1" href="#skateboard-angles-5" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 2"><a tabindex="-1" href="#skateboard-angles" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="linden-branch-angles"><h3 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="linden-branch-angles-1">
+<div class="para" id="linden-branch-angles-1-1">The 45<span class="process-math">\(^{\circ}\)</span> of the linden tree branch also sits within a right triangle. If we measure <span class="process-math">\(a=1\)</span> foot vertically up the tree and then <span class="process-math">\(b\)</span> feet out horizontally to meet the branch, of length <span class="process-math">\(c\)</span> feet, then we get this triangle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#linden-branch-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-1-ex-3.svg" role="img" class="contained"></div>
+</div>
+<article class="task exercise-like" id="linden-branch-angles-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="linden-branch-angles-2-1-1">Find the missing angle <span class="process-math">\(\alpha\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#linden-branch-angles-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#linden-branch-angles-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="linden-branch-angles-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="linden-branch-angles-3-1-1">Use symmetry to explain why <span class="process-math">\(b = 1\)</span> foot.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#linden-branch-angles-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.b"><a tabindex="-1" href="#linden-branch-angles-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="linden-branch-angles-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="linden-branch-angles-4-1-1">Use the Pythagorean Theorem to find <span class="process-math">\(c\text{,}\)</span> the length of the branch. Give an exact answer (using square roots) and an approximation to three decimal places.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#linden-branch-angles-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.c"><a tabindex="-1" href="#linden-branch-angles-4" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="linden-branch-angles-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="linden-branch-angles-5-1-1">Redraw the triangle in a new position where one leg is horizontal at the bottom and the other leg is vertical on the right. Label each side with their length and use the exact square root value for the hypotenuse. Label the angles including drawing the small square at the right angle. This triangle is the <em class="alert">isoceles right triangle</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#linden-branch-angles-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.d"><a tabindex="-1" href="#linden-branch-angles-5" title="Copy heading and permalink for Task 3.d" aria-label="Copy heading and permalink for Task 3.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 3"><a tabindex="-1" href="#linden-branch-angles" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="two-fifty-angles"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="two-fifty-angles-1">
+<div class="para" id="two-fifty-angles-1-1">Suba is tossing and turning.  Can’t sleep!  She looks at the clock and it says 2:50 AM (and 20 seconds). Argh.  Suba wonders, what angle each of the clock hands has traveled since midnight when she went to bed?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#two-fifty-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/latex-image/tikz-7-2-ex-4.svg" role="img" class="contained"></div>
+<div class="para" id="two-fifty-angles-1-3">All hands start pointing to 12 at midnight.  Notice the numbers 1, 2, … 12 are placed equally around the circle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#two-fifty-angles-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="two-fifty-angles-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="two-fifty-angles-2-1-1">What is the angle between any two consecutive numbers on the clock (like between 12 and 1, or betweeen 2 and 3)?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#two-fifty-angles-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.a"><a tabindex="-1" href="#two-fifty-angles-2" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="two-fifty-angles-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="two-fifty-angles-3-1-1">The hour hand is the short thick arrow that points in between 2 and 3 (because it’s almost 3 AM).  Approximately what angle has the hour hand traveled?  Hint: It moves from 12 to where it is.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#two-fifty-angles-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.b"><a tabindex="-1" href="#two-fifty-angles-3" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="two-fifty-angles-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="two-fifty-angles-4-1-1">The minute hand is the long thick arrow that points at 10 (because it’s <span class="process-math">\(10 \times 5 = 50\)</span> minutes past the hour). Approximately what angle has the minute hand traveled? Hint: It has made a full circle each hour (12-1, 1-2), plus the angle traveled from 12 to where it is now.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#two-fifty-angles-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.c"><a tabindex="-1" href="#two-fifty-angles-4" title="Copy heading and permalink for Task 4.c" aria-label="Copy heading and permalink for Task 4.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="two-fifty-angles-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="two-fifty-angles-5-1-1">The second hand is the long thin arrow that points to 4 (because it’s <span class="process-math">\(4 \times 5 = 20\)</span> seconds past the hour). Approximately what angle has the second hand traveled? Hint: It has made a full circle each of the 170 minutes, plus the angle traveled from 12 to where it is now.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#two-fifty-angles-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.d"><a tabindex="-1" href="#two-fifty-angles-5" title="Copy heading and permalink for Task 4.d" aria-label="Copy heading and permalink for Task 4.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 4"><a tabindex="-1" href="#two-fifty-angles" title="Copy heading and permalink for Exercise 4" aria-label="Copy heading and permalink for Exercise 4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="sailboat-race-angles"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="sailboat-race-angles-1-1">In a sailboat race, the boats must navigate around three buoys (floating markers) labeled A, B, and C, forming a triangular course on the bay. At buoy A, the angle between the line to B and the line to C measures 42°. At buoy B, the angle between the line to A and the line to C measures 68°. At buoy C, what is the angle between the line to A and the line to B?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sailboat-race-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 5"><a tabindex="-1" href="#sailboat-race-angles" title="Copy heading and permalink for Exercise 5" aria-label="Copy heading and permalink for Exercise 5">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="wizard-spells-angles"><h3 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="wizard-spells-angles-1">
+<div class="para" id="wizard-spells-angles-1-1">In a fantasy video game, a wizard aims spells relative to the horizontal ground. That means, the positive <span class="process-math">\(x\)</span>-axis is 0°.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#wizard-spells-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="wizard-spells-angles-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="wizard-spells-angles-2-1-1">To cast a fire spell at a dragon flying in the sky, the wizard aims up at an angle of 115°. Draw this angle in standard position.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#wizard-spells-angles-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.a"><a tabindex="-1" href="#wizard-spells-angles-2" title="Copy heading and permalink for Task 6.a" aria-label="Copy heading and permalink for Task 6.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="wizard-spells-angles-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="wizard-spells-angles-3-1-1">To cast an ice spell at a creature on the ground below, the wizard aims down at an angle of <span class="process-math">\(-60^{\circ}\text{.}\)</span> Draw this angle in standard position.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#wizard-spells-angles-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.b"><a tabindex="-1" href="#wizard-spells-angles-3" title="Copy heading and permalink for Task 6.b" aria-label="Copy heading and permalink for Task 6.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="wizard-spells-angles-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="wizard-spells-angles-4-1-1">If the wizard aims straight up into the air to launch a signal flare, what angle in standard position represents this direction?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#wizard-spells-angles-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.c"><a tabindex="-1" href="#wizard-spells-angles-4" title="Copy heading and permalink for Task 6.c" aria-label="Copy heading and permalink for Task 6.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 6"><a tabindex="-1" href="#wizard-spells-angles" title="Copy heading and permalink for Exercise 6" aria-label="Copy heading and permalink for Exercise 6">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="giant-swing-angles"><h3 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="introduction" id="giant-swing-angles-1">
+<div class="para" id="giant-swing-angles-1-1">At an amusement park, a giant swing ride starts facing directly east (along the positive <span class="process-math">\(x\)</span>-axis, 0°).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#giant-swing-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="giant-swing-angles-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="giant-swing-angles-2-1-1">During a thrill ride, the swing spins counterclockwise through 2 full rotations plus another 45°. What is the total angle of rotation in degrees? Draw this angle in standard position.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#giant-swing-angles-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 7.a"><a tabindex="-1" href="#giant-swing-angles-2" title="Copy heading and permalink for Task 7.a" aria-label="Copy heading and permalink for Task 7.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="giant-swing-angles-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="giant-swing-angles-3-1-1">The swing returns to facing directly east. Then, the swing spins counterclockwise through a total angle of 810°. How many full rotations does the swing complete, and where does it end up pointing?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#giant-swing-angles-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 7.b"><a tabindex="-1" href="#giant-swing-angles-3" title="Copy heading and permalink for Task 7.b" aria-label="Copy heading and permalink for Task 7.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="giant-swing-angles-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="giant-swing-angles-4-1-1">he swing returns to facing directly east. Then, the swing spins counterclockwise through a total angle of <span class="process-math">\(-450^{\circ}\)</span> (which means it goes backwards <span class="process-math">\(450^{\circ}\)</span>). Draw this angle in standard position.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#giant-swing-angles-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 7.c"><a tabindex="-1" href="#giant-swing-angles-4" title="Copy heading and permalink for Task 7.c" aria-label="Copy heading and permalink for Task 7.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 7"><a tabindex="-1" href="#giant-swing-angles" title="Copy heading and permalink for Exercise 7" aria-label="Copy heading and permalink for Exercise 7">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercises: Exercises"><a tabindex="-1" href="#ex-7-1-Angles" title="Copy heading and permalink for Exercises: Exercises" aria-label="Copy heading and permalink for Exercises: Exercises">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 7.1: Angles"><a tabindex="-1" href="#sec-7-1-Angles" title="Copy heading and permalink for Section 7.1: Angles" aria-label="Copy heading and permalink for Section 7.1: Angles">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="ch-7-Trigonometry-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

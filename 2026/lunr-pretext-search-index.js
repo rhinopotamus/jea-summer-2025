@@ -6400,6 +6400,105 @@ var ptx_lunr_docs = [
   "body": "  Sales of hybrid cars in the United States have continued to increase. In 1999, 17 (yes, seventeen) hybrid cars were sold. By 2002, that number was up to 34,521 hybrid cars sold. Compare what the linear and exponential models projected for hybrid car sales in the year 2025 and compare to the actual number which is reported to be 2.05 million in 2025, which doesn't even include electric cars. Source: nada.org Use the actual year.  Story also appears in 5.4 Exercises .     "
 },
 {
+  "id": "sec-7-1-Angles",
+  "level": "1",
+  "url": "sec-7-1-Angles.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Angles",
+  "body": " Angles   Neighborhood angles  Tim is walking around his neighborhood in St. Paul, obsessing about angles. He sees angles, like, everywhere.  Tim notices the stately oak, the energetic maple, and the perfectly formed linden tree all have branches sticking out at funny angles perhaps 45 for the linden, 60 for the maple, and up to 90 for the oak.    Branch angles. Source: Gemini   Tim compares the roof lines of the 1920s one-and-a-half story craftsman bungalows with their low-slung roofs at about 20 to the 1940s two-story tudors with their dramatic 40 pitched roofs.    Comparing roof angles on a bungalow (left) and tudor (right). Source: Gemini   He passes the local skate park and sees a few teens practicing their spins. A quick 180 frontside (where you end up facing the opposite direction), a 360 aeriel (where you end up facing the same direction you started), and one kid even pulled off a 540 aeriel!    A 540 aerial on a skateboard. Source: Gemini     Angles in triangles  Tim learned in geometry class that angles can be measured between any two lines. For example each pair of sides in a triangle has an angle between them. A fun fact is that the three angles in a triangle add up to 180 , the same number of degrees as a straight line.  For example, the triangular roof on the bungalow house has two angles of 20 , which means the larger angle is      There's a name for a triangle where two angles are equal. It's called an isoceles triangle. The roof on the bungalow house (and the tudor house) form isoceles triangles. A fun fact about isoceles triangles is that the sides across from the matching angles have the same length. For example, the roof might have these dimensions.       A special triangle  The 60 of the maple tree branch sits within a right triangle. The missing angle is Notice if we measure foot up the tree and feet out from the tree, it's not immediately clear what equals. We can label the length of the corresponding branch feet.     Let's figure out what and are. Look what happens if we put an upside-down copy of the triangle on top of our triangle.     Notice that the sides labeled line up and the sides labeled fall exactly in a straight line because That entire side of the big outer triangle is length feet.  The angles of the outer triangle are 60 , 60 , and , which means all three angles are equal. By symmetry, the lengths of the sides must all be equal too. Since the left-hand side has length 2 feet, we get feet also.  By the way, when all three angles and all three sides of a triangle are equal, it is an equilateral triangle . So an isoceles triangles has two angles and two sides equal, but an equilateral triangle has three angles and three sides equal.  Let's go back to our original triangle and use the Pythagorean Theorem to find the length . We know Evaluating at and we get That is, so subtracting 1 from each side we get . Therefore .     This is a special triangle because there were nice clean numbers for the lengths. In a precalculus or calculus class, you might see this triangle drawn in various positions.                  In this 30-60-90 triangle , the hypotenuse is always length 2, the shortest side (of length 1) is across from (or opposite ) to the smaller 30 angle, and the longer side opposite to the larger 60 angle is length .  You will see another special triangle, the isoceles right triangle (or 45-45-90 triangle , in the exercises.    Angles in standard position  Not all angles fit in a right triangle or even any shape triangle. Like that 540 rotation of the skateboarder. A general way to measure angles is to start the measure on the positive horizontal axis, let's label it the -axis and rotate counterclockwise around. In case you're not familiar with the hands on an analog clock, that means we head towards the positive vertical axis, which we'll label the -axis. For example, the picture shows measuring angles of 30 , 45 , 60 , 90 , and 180 .     Note that the straight angle, 180 , is halfway around the circle. A full rotation is 360 . That 540 ? It's one and half times around because In our picture we also include three quarters of the way around which is Note that 0 is just where we start.     We can even talk about negative angles if we imagine they rotate clockwise (the other direction) instead.     When we draw an angle starting on the positive -axis and rotate counterclockwise for a positive angle and clockwise for a negative angle, we say the angle is drawn in standard position .    Naming angles with Greek letters  Textbooks often name angles using Greek letters. Two commonly used Greek letters are    alpha (pronounced al-fah )     beta (pronounced bay-tah )   They are like the letters and , the first two letters of the alphabet. In fact, the word alphabet comes from the Greek language. So now you know.  Some other common Greek letter names for angles are    gamma (pronounced gam-uh )     theta (pronounced thay-ta )     phi (pronounced fee or fie )       Do you know     What the sum of the angles inside a triangle is?    How to draw angles in standard position including negative angles?    How many degrees are in a straight line angle?    How many degrees are in a full circle?    How to use the Pythagorean theorem to the length of a side of a right triangle, if you know the lengths of the other two sides?    How to draw and label the standard 30-60-90 triangle?    How to draw and label the 45-45-90 (isoceles right triangle)?      If you're not sure, work the rest of the exercises and then return to these questions. Or, ask your instructor or a classmate for help.     Exercises   Exercises 1-4 are available in a separate workbook format.     Find the missing angle in each triangle.     What is the center angle on the roof of a Tudor house?         What is the center angle on the roof of a Gothic Revival house?         Marta is hanging a banner for Coach Pelto. The 16-foot ladder makes an angle of approximately 75.5 with the floor. What angle does the ladder make with the wall?   Story appears in 6.2          An ADA accessible ramp is 48 feet long and rises 4 feet from the sidewalk to the entrance to the women's health clinic. If the ramp makes an angle of approximately with the ground, at what angle does the ramp meet the entrance?   Story also appears in 6.2           Valeria is just learning to skateboard. She is trying to do a full 360 but she's not quite there yet. Draw each angle Valeria was able to land in standard position.     80       150       225 (Hint: )      300 (So close!)       The 45 of the linden tree branch also sits within a right triangle. If we measure foot vertically up the tree and then feet out horizontally to meet the branch, of length feet, then we get this triangle.        Find the missing angle .      Use symmetry to explain why foot.      Use the Pythagorean Theorem to find , the length of the branch. Give an exact answer (using square roots) and an approximation to three decimal places.      Redraw the triangle in a new position where one leg is horizontal at the bottom and the other leg is vertical on the right. Label each side with their length and use the exact square root value for the hypotenuse. Label the angles including drawing the small square at the right angle. This triangle is the isoceles right triangle .       Suba is tossing and turning. Can't sleep! She looks at the clock and it says 2:50 AM (and 20 seconds). Argh. Suba wonders, what angle each of the clock hands has traveled since midnight when she went to bed?     All hands start pointing to 12 at midnight. Notice the numbers 1, 2, 12 are placed equally around the circle.     What is the angle between any two consecutive numbers on the clock (like between 12 and 1, or betweeen 2 and 3)?      The hour hand is the short thick arrow that points in between 2 and 3 (because it's almost 3 AM). Approximately what angle has the hour hand traveled? Hint: It moves from 12 to where it is.      The minute hand is the long thick arrow that points at 10 (because it's minutes past the hour). Approximately what angle has the minute hand traveled? Hint: It has made a full circle each hour (12-1, 1-2), plus the angle traveled from 12 to where it is now.      The second hand is the long thin arrow that points to 4 (because it's seconds past the hour). Approximately what angle has the second hand traveled? Hint: It has made a full circle each of the 170 minutes, plus the angle traveled from 12 to where it is now.       In a sailboat race, the boats must navigate around three buoys (floating markers) labeled A, B, and C, forming a triangular course on the bay. At buoy A, the angle between the line to B and the line to C measures 42 . At buoy B, the angle between the line to A and the line to C measures 68 . At buoy C, what is the angle between the line to A and the line to B?      In a fantasy video game, a wizard aims spells relative to the horizontal ground. That means, the positive -axis is 0 .     To cast a fire spell at a dragon flying in the sky, the wizard aims up at an angle of 115 . Draw this angle in standard position.      To cast an ice spell at a creature on the ground below, the wizard aims down at an angle of . Draw this angle in standard position.      If the wizard aims straight up into the air to launch a signal flare, what angle in standard position represents this direction?       At an amusement park, a giant swing ride starts facing directly east (along the positive -axis, 0 ).     During a thrill ride, the swing spins counterclockwise through 2 full rotations plus another 45 . What is the total angle of rotation in degrees? Draw this angle in standard position.      The swing returns to facing directly east. Then, the swing spins counterclockwise through a total angle of 810 . How many full rotations does the swing complete, and where does it end up pointing?      he swing returns to facing directly east. Then, the swing spins counterclockwise through a total angle of (which means it goes backwards ). Draw this angle in standard position.      "
+},
+{
+  "id": "fig_branch_angles",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#fig_branch_angles",
+  "type": "Figure",
+  "number": "7.1.1",
+  "title": "",
+  "body": "  Branch angles. Source: Gemini  "
+},
+{
+  "id": "fig_roof_lines",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#fig_roof_lines",
+  "type": "Figure",
+  "number": "7.1.2",
+  "title": "",
+  "body": "  Comparing roof angles on a bungalow (left) and tudor (right). Source: Gemini  "
+},
+{
+  "id": "fig_540_aerial",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#fig_540_aerial",
+  "type": "Figure",
+  "number": "7.1.3",
+  "title": "",
+  "body": "  A 540 aerial on a skateboard. Source: Gemini  "
+},
+{
+  "id": "find-missing-angle-angles",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#find-missing-angle-angles",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the missing angle in each triangle.     What is the center angle on the roof of a Tudor house?         What is the center angle on the roof of a Gothic Revival house?         Marta is hanging a banner for Coach Pelto. The 16-foot ladder makes an angle of approximately 75.5 with the floor. What angle does the ladder make with the wall?   Story appears in 6.2          An ADA accessible ramp is 48 feet long and rises 4 feet from the sidewalk to the entrance to the women's health clinic. If the ramp makes an angle of approximately with the ground, at what angle does the ramp meet the entrance?   Story also appears in 6.2        "
+},
+{
+  "id": "skateboard-angles",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#skateboard-angles",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Valeria is just learning to skateboard. She is trying to do a full 360 but she's not quite there yet. Draw each angle Valeria was able to land in standard position.     80       150       225 (Hint: )      300 (So close!)    "
+},
+{
+  "id": "linden-branch-angles",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#linden-branch-angles",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The 45 of the linden tree branch also sits within a right triangle. If we measure foot vertically up the tree and then feet out horizontally to meet the branch, of length feet, then we get this triangle.        Find the missing angle .      Use symmetry to explain why foot.      Use the Pythagorean Theorem to find , the length of the branch. Give an exact answer (using square roots) and an approximation to three decimal places.      Redraw the triangle in a new position where one leg is horizontal at the bottom and the other leg is vertical on the right. Label each side with their length and use the exact square root value for the hypotenuse. Label the angles including drawing the small square at the right angle. This triangle is the isoceles right triangle .    "
+},
+{
+  "id": "two-fifty-angles",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#two-fifty-angles",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Suba is tossing and turning. Can't sleep! She looks at the clock and it says 2:50 AM (and 20 seconds). Argh. Suba wonders, what angle each of the clock hands has traveled since midnight when she went to bed?     All hands start pointing to 12 at midnight. Notice the numbers 1, 2, 12 are placed equally around the circle.     What is the angle between any two consecutive numbers on the clock (like between 12 and 1, or betweeen 2 and 3)?      The hour hand is the short thick arrow that points in between 2 and 3 (because it's almost 3 AM). Approximately what angle has the hour hand traveled? Hint: It moves from 12 to where it is.      The minute hand is the long thick arrow that points at 10 (because it's minutes past the hour). Approximately what angle has the minute hand traveled? Hint: It has made a full circle each hour (12-1, 1-2), plus the angle traveled from 12 to where it is now.      The second hand is the long thin arrow that points to 4 (because it's seconds past the hour). Approximately what angle has the second hand traveled? Hint: It has made a full circle each of the 170 minutes, plus the angle traveled from 12 to where it is now.    "
+},
+{
+  "id": "sailboat-race-angles",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#sailboat-race-angles",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  In a sailboat race, the boats must navigate around three buoys (floating markers) labeled A, B, and C, forming a triangular course on the bay. At buoy A, the angle between the line to B and the line to C measures 42 . At buoy B, the angle between the line to A and the line to C measures 68 . At buoy C, what is the angle between the line to A and the line to B?   "
+},
+{
+  "id": "wizard-spells-angles",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#wizard-spells-angles",
+  "type": "Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  In a fantasy video game, a wizard aims spells relative to the horizontal ground. That means, the positive -axis is 0 .     To cast a fire spell at a dragon flying in the sky, the wizard aims up at an angle of 115 . Draw this angle in standard position.      To cast an ice spell at a creature on the ground below, the wizard aims down at an angle of . Draw this angle in standard position.      If the wizard aims straight up into the air to launch a signal flare, what angle in standard position represents this direction?    "
+},
+{
+  "id": "giant-swing-angles",
+  "level": "2",
+  "url": "sec-7-1-Angles.html#giant-swing-angles",
+  "type": "Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  At an amusement park, a giant swing ride starts facing directly east (along the positive -axis, 0 ).     During a thrill ride, the swing spins counterclockwise through 2 full rotations plus another 45 . What is the total angle of rotation in degrees? Draw this angle in standard position.      The swing returns to facing directly east. Then, the swing spins counterclockwise through a total angle of 810 . How many full rotations does the swing complete, and where does it end up pointing?      he swing returns to facing directly east. Then, the swing spins counterclockwise through a total angle of (which means it goes backwards ). Draw this angle in standard position.    "
+},
+{
   "id": "sec-pfe1",
   "level": "1",
   "url": "sec-pfe1.html",
