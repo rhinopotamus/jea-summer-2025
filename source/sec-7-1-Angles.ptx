@@ -33,10 +33,10 @@
             He passes the local skate park and sees a few teens practicing their spins. A quick 180<degree /> frontside (where you end up facing the opposite direction), a 360<degree /> aerial (where you end up facing the same direction you started), and one kid even pulled off a 540<degree /> aerial!
         </p>
 
-        <figure xml:id="fig_540_aerial">
+        <!-- <figure xml:id="fig_540_aerial">
             <image width="50%" source="skateboard.png"/>
             <caption>A 540<degree/> aerial on a skateboard. Source: Gemini</caption>
-        </figure>
+        </figure> -->
 	</subsection>
 
     <subsection xml:id="ss-7-1-angles-in-triangles" component="not-workbook">
