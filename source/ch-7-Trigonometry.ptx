@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- For now I am putting the entire chapter in not-workbook. -->
+<!-- This makes it easier for me to build/stage/deploy the workbook -->
+<!-- before the spacing for these new exercises is fixed. -->
+
+<chapter component="not-workbook" xml:id="ch-7-Trigonometry" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Trigonometry</title>
+
+    <introduction component="not-workbook">
+        <p>
+			The word <alert>trigonometry</alert> comes from Greek words meaning <q>triangle measurement</q>. Trigonometry (or <q>trig</q>) helps us to work with any measurements involving lengths and angles.
+		</p>
+
+		<p>
+			You use devices that use trig every day, like when you find directions on a map app or use any navigation or global positioning system (GPS). Simple tasks like autorotation on your cell phone is done using trig. Trig is essential in architecture and engineering, where it is used to ensure structures such as buildings and bridges are stable and routes such as highway ramps are safe, no tight curves, please! Trig is used throughout the sciences, for example, to describe waves such as sound waves, ocean waves, light, and electrical current. Medical imaging, such as CT scans and MRIs, uses trig behind the scenes to translate observed data to medical images. Computer graphics and game development use trig to design movements in space and perspective in rendering 3D images. Trig is used in business to model periodic phenomena like retail sales or inventory stocks.
+		</p>
+
+		<p>
+			In this chapter, we take a look at the big ideas from trigonometry: how it's defined in terms of right triangles and circles and how to use sine equations to model periodic phenomena.
+		</p>
+    </introduction>
+
+	<xi:include href="./sec-7-1-Angles.ptx" />
+
+	<!-- practice exams? surely not -->
+</chapter>
