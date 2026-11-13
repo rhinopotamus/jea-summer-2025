@@ -118,7 +118,7 @@
         </p>
     
         <p>
-            A quick side note on the values of trig ratios. First, since the legs of a right triangle are definitely shorter than the hypotenuse, each of the sine and cosine is a fraction where the top (numerator) is a smaller number than the bottom (denominator). So, the sine and cosine of any angle is always smaller than 1. On the other hand, tangent is the ratio of the lengths of the two legs. Since either leg can be longer, the tangent can be smaller than 1 or bigger than 1, or even equal to 1 if the legs happen to be the same length.
+            A quick side note on the values of trig ratios. First, since the legs of a right triangle are definitely shorter than the hypotenuse, each of the sine and cosine is a fraction where the top (numerator) is a smaller number than the bottom (denominator). So, the sine and cosine of any angle is always less than or equal to 1. On the other hand, tangent is the ratio of the lengths of the two legs. Since either leg can be longer, the tangent can be smaller than 1 or bigger than 1, or even equal to 1 if the legs happen to be the same length.
         </p>
     
         <p>
