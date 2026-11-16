@@ -24,6 +24,7 @@
 	<xi:include href="./sec-7-1-Angles.ptx" />
 	<xi:include href="./sec-7-2-Right_triangle_trig.ptx" />
 	<xi:include href="./sec-7-3-Circle_trig.ptx" />
+	<xi:include href="./sec-7-4-Sine_models.ptx" />
 
 	<!-- practice exams? surely not -->
 </chapter>
