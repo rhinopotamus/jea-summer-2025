@@ -158,7 +158,7 @@
         </p>
     </subsection>
 
-    <subsection xml:id="ss-7-2-resetting-robotic-arm">
+    <subsection xml:id="ss-7-2-resetting-robotic-arm" component="not-workbook">
         <title>Resetting the robotic arm</title>
 
         <p>
@@ -213,7 +213,7 @@
         
     </subsection>
 
-    <subsection xml:id="ss-7-2-inverse-trig">
+    <subsection xml:id="ss-7-2-inverse-trig" component="not-workbook">
         <title>Inverse trigonometry in a right triangle</title>
 
         <p>
