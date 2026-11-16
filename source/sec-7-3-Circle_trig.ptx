@@ -54,19 +54,19 @@
 					\draw[dashed, gray!60] (-35, \bottomY) -- (35, \bottomY);
 					% --- LEFT SIDE ---
 					% Vertical dimension arrow from Center Height to Ground (moved further left to x = -65)
-					\draw[&lt;-&gt;, thick] (-65, \groundY) -- (-65, \centerY) 
-						node[midway, left] {Center (height $53\text{ feet}$)};
+					\draw[&lt;-&gt;, thick] (-65, \groundY) -- (-65, \centerY)
+						node[midway, left, align=center] {Center \\ (height $53\text{ feet}$)};
 					% --- RIGHT SIDE ---
 					% Label: Spoke / Radius (placed between 0° and 30° at y = 65, x = 60)
-					\draw[&lt;-, thin] ({ \centerX + 23.5*cos(30) }, { \centerY + 23.5*sin(30) }) -- (60, 65) 
-						node[right] {Spoke/Radius \\(length $47\text{ feet}$)};
-					% Label: Gondola (seat) pointing to 1 o-clock position (60 degrees)
+					\draw[&lt;-, thin] ({ \centerX + 23.5*cos(30) }, { \centerY + 23.5*sin(30) }) -- (60, 65)
+						node[right, align=center] {Spoke/Radius \\ (length $47\text{ feet}$)};
+					% Label: Gondola (seat) pointing to 1 oclock position (60 degrees)
 					\pgfmathsetmacro{\gXone}{\centerX + \radius*cos(60)}
 					\pgfmathsetmacro{\gYone}{\centerY + \radius*sin(60) - 3.5}
 					\draw[&lt;-, thin] (\gXone + 2.5, \gYone) -- (60, \gYone + 5)
 						node[right] {Gondola (seat)};
 					% Dimension Arrow: Ground to Bottom Clearance (x = 38)
-					\draw[&lt;-&gt;, thick] (38, \groundY) -- (38, \bottomY) 
+					\draw[&lt;-&gt;, thick] (38, \groundY) -- (38, \bottomY)
 						node[midway, right] {$6\text{ ft}$ clearance};
 				\end{tikzpicture}
 				</latex-image>
